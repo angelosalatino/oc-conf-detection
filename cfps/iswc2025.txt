@@ -1,0 +1,198 @@
+ ISWC 2025 Call for Submissions
+===========================================
+24th International Semantic Web Conference (ISWC 2025)
+Nara, Japan
+November 2-6,  2025
+
+Follow us:
+Twitter/X: @iswc_conf #iswc_conf ( https://twitter.com/iswc_conf )
+LinkedIn: https://www.linkedin.com/company/iswc/  
+Mastodon Social: https://mastodon.social/@iswc_conf
+Bsky: https://bsky.app/profile/iswc-conf.bsky.social
+
+ISWC 2025 features multiple tracks, i.e., research, resource, in-use, industry, poster & demos, doctoral consortium, workshops, dagstuhl-style workshops, challenges, and tutorials,  Hence, authors are kindly asked to check out the calls of each track to choose the one that best fits their contribution.
+===========================================
+Call for Research Track Papers
+
+The research track of ISWC 2025 solicits novel and significant research contributions addressing theoretical, analytical, and empirical aspects of the Semantic Web. We welcome work describing original and replicable research showing evidence of significant contribution to the Semantic Web.
+
+Important Dates:
+Abstract submission due May 6th, 2025
+Full paper submission due May 13th, 2025
+Rebuttal June 17th - 20th, 2025
+Notifications July 17th, 2025
+Camera ready papers due July 31st, 2025
+
+Research Track Chairs:
+Contact: iswc2025-research@easychair.org
+
+Daniel Garijo, Universidad Politécnica de Madrid, Spain
+Sabrina Kirrane, Vienna University of Economics and Business, Austria
+
+===========================================
+Call for Resource Track Papers
+
+The ISWC 2025 Resources Track aims to promote the sharing of resources that support, enable, or utilize semantic web research. We welcome descriptions of resources that leverage knowledge representation based on Semantic Web standards or other graph data models to improve the acquisition, processing, and sharing of data on the web.
+
+Important Dates:
+Abstract submission due May 6th, 2025
+Full paper submission due May 13th, 2025
+Rebuttal June 17th - 20th, 2025
+Notifications July 17th, 2025
+Camera ready papers due July 31st, 2025
+
+Resource Track Chairs:
+Contact:  iswc2025-resource@easychair.org
+
+Cogan Shimizu, Wright State University, US
+Angelo Salatino, KMi,The Open University, UK
+
+===========================================
+Call for In-use Track Papers
+
+The In-Use track seeks submissions describing applied research as well as software tools, systems, or architectures that benefit from the use of Semantic Web and Knowledge Graph technologies (including, but not limited to, technologies based on the Semantic Web standards). Importantly, submitted papers should provide convincing evidence of the use of the proposed application or tool by the target user group, preferably outside the group that conducted the development and, more broadly, outside the Semantic Web and Knowledge Graph research communities.
+
+Important Dates:
+Abstract submission due May 6th, 2025
+Full paper submission due May 13th, 2025
+Rebuttal June 17th - 20th, 2025
+Notifications July 17th, 2025
+Camera ready papers due July 31st, 2025
+
+In-Use Track Chairs:
+Contact: iswc2025-in-use@easychair.org
+
+Maribel Acosta
+Technical University of Munich, Germany
+
+Andrea Giovanni Nuzzolese
+CNR - Institute of Cognitive Sciences and Technologies, Italy
+
+
+===========================================
+Call for Posters and Demos Track Papers
+
+The ISWC 2025 Posters and Demos Track offers an opportunity to showcase late-breaking research results, ongoing research or resource projects, speculative or innovative ideas, and interactive demonstrations. This track is designed to encourage dynamic discussions between presenters and participants, fostering feedback that can shape future research directions. These discussions will offer participants an effective way to broaden their knowledge of emerging research trends and to network with other researchers.
+
+Important Dates:
+Posters & demos submissions due - July 31st, 2025
+Author notifications - August 28th, 2025
+Camera-ready submissions due - September 11th, 2025
+
+Posters and Demos Chairs:
+Contact email: iswc2025-pd@easychair.org
+Gong Cheng
+Nanjing University, China
+
+Shenghui Wang
+University of Twente, The Netherlands
+
+===========================================
+Call for Challenges Proposals
+
+A great way to advance the state of the art in a given domain is to create competition. We invite you to propose an ISWC 2025 Challenge, in which you define an open competition on a problem of your choice within the Semantic Web domain.
+
+Important Dates:
+Challenge proposal submission due Feb 18th, 2025
+Notification of challenge acceptance Mar 2nd, 2025
+
+Semantic Web Challenge Chairs:
+Contact: iswc2025-challenge@easychair.org
+
+Mayank Kejriwal
+University of Southern California, United States
+
+Pablo Mendes
+Upwork, United States
+
+===========================================
+Call for Workshops
+
+Workshops at ISWC play a critical role in fostering focused, intensive scientific exchange on specific topics aligned with the conference’s overarching themes. They provide a unique venue for exploring emerging ideas, discussing novel perspectives on established research, and engaging with related research communities. We encourage proposals for workshops that will inspire meaningful dialogue and collaboration among ISWC attendees, providing a platform to advance research and innovation in this dynamic field.
+
+Important dates:
+Submission deadline - February 18, 2025
+Notification to proposers - March 11, 2025
+Workshop website and CfP available online - April 8, 2025
+Workshop program with list of accepted papers available online - July 29, 2025
+Workshop days - November 2-3, 2025
+
+Workshop Chairs:
+Blerina Spahiu - University of Milano-Bicocca, Italy
+Juan Sequeda - data.world, USA
+Contact: iswc2025-ws@easychair.org
+
+===========================================
+Call for Dagstuhl Style Workshops
+
+Inspired by the Special Session at ISWC 2024 and the Dagstuhl Seminar model, these workshops are designed to encourage in-depth discussions on challenges or emerging topics within a half-day or full-day event format. The goal is to create a collaborative and open environment for brainstorming and exploring new directions, similar to the spirit of Dagstuhl Seminars. These workshops will prioritize dynamic discussions and the presentation of fresh ideas and ongoing research, rather than requiring participants to submit papers or give formal presentations.
+
+Important dates:
+Submission deadline - July 1, 2025
+Notification to proposers - July 11, 2025
+Workshop website online - July 25, 2025
+Workshop days - November 2-3, 2025
+
+
+Workshop Chairs
+Blerina Spahiu - University of Milano-Bicocca, Italy
+Juan Sequeda - data.world, USA
+Contact: iswc2025-ws@easychair.org
+
+===========================================
+Call for Tutorials
+
+The International Semantic Web Conference 2025 is pleased to announce the Call for Tutorials. Continuing the tradition of excellence, the 2025 edition will feature a comprehensive tutorial program serving the diverse interests and expertise of our audience. These tutorials aim to provide attendees with insights into foundational and cutting-edge topics, practical applications, and the latest advancements in Semantic Web, Knowledge Graphs, and Linked Data technologies.
+
+Important dates:
+Submission deadline - May 20, 2025
+Notification to proposers - June 10, 2025
+Tutorial website online - July 8, 2025
+Materials available on the website (if any) - August 8, 2025
+Tutorial days - November 2-3, 2025
+
+Tutorial chairs:
+Blerina Spahiu - University of Milano-Bicocca, Italy
+Juan Sequeda - data.world, USA
+Contact: iswc2025-ws@easychair.org
+
+
+===========================================
+Call for Industry Track Papers
+
+The Industry Track at ISWC 2025 welcomes extended abstracts about the application of knowledge graphs and semantic technologies in various industrial sectors, aiming to showcase the state of their adoption and the latest trends. It provides an opportunity for industry adopters to highlight and share the key learnings and new research challenges posed by real-world implementations.
+
+Important dates:
+Submissions Due - 1st July 2025
+Notifications Due - 29th July 2025
+Camera-Ready Papers Due - 11th September 2025
+
+Industry Track Chairs:
+Contact email: iswc2025-industry@easychair.org
+Oktie Hassanzadeh
+IBM Research, US
+Irene Celino
+Cefriel, Italy
+
+
+===========================================
+Call for Doctoral Consortium Submissions
+
+The DC event is intended for students who have articulated a reasonably detailed research proposal, preferably supported by some preliminary results, but are not yet on the final stretch of their thesis, such that the feedback gathered at the DC will have a maximal impact. The aim is to support the students in refining their proposal and to suggest possible ways to improve their research plan and to achieve results with prospective greater impact.
+
+Submissions Due - 3 June 2025
+Notifications - 8 July 2025
+Camera-ready Submissions Due - 31 July 2025
+Doctoral Consortium - 3 November 2025
+
+Doctoral Consortium Track Chairs:
+Contact: iswc2025-doctoral-consortium@easychair.org
+
+Abraham Bernstein
+University of Zurich, Switzerland
+Natasha Noy
+Google Research, US
+===========================================
+
+All deadlines are 23:59 AoE (anywhere on Earth)
+For more details check out the conference website: https://iswc2025.semanticweb.org/

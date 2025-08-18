@@ -1,0 +1,75 @@
+Call for papers
+5th International Workshop on Scientific Knowledge: Representation, Discovery, and Assessment (Sci-K 2025)
+
+web: https://sci-k.github.io, X: @scik_workshop, LinkedIn: Sci-k workshop
+
+Held in conjunction with the International Semantic Web Conference (ISWC) 2025, Nara (Japan)
+Aim and Scope
+
+Recently, we have experienced a massive increase in the volume of scientific articles and research artefacts (e.g., datasets, models, software packages). This trend is expected to continue and opens up challenges including the development of large-scale machine-readable representations of scientific knowledge, making scholarly data and knowledge discoverable and accessible, and designing reliable and comprehensive metrics to assess scientific impact. Sci-K provides a forum for researchers and practitioners from different disciplines to present, educate, and guide research related to scientific knowledge. Three themes cover the most important challenges in this field:
+
+Representation. There is a need for flexible, context-sensitive, fine-grained, and machine-actionable representations of scholarly knowledge that are, at the same time, structured, interlinked, and semantically rich: Scientific Knowledge Graphs (SKGs), also known as Research Knowledge Graphs (RKGs). SKGs/RKGs can power data-driven services for navigating, analysing, and making sense of research dynamics. Current challenges are related to the design of ontologies or alternative representation methods able to conceptualise scholarly knowledge, model its representation, and enable exchange.
+
+Discoverability. Scholarly information should be easily findable, discoverable, and visible so that it can be mined and organised within SKGs/RKGs. Discovery tools should be able to crawl the Web and identify scholarly data, whether on a publisher’s website or elsewhere – institutional repositories, preprint servers or open-access repositories. This is challenging and requires a deep understanding of both the scholarly communication landscape and the needs of a variety of stakeholders: researchers (of different fields and sub-fields), publishers, funders, and the general public. Other challenges are related to the discovery and extraction of entities and concepts, integration of information from heterogeneous sources, identification of duplicates, finding connections between entities, and identifying conceptual inconsistencies. We are particularly interested in modern systems that integrate AI, NLP, and LLM technologies.
+
+Assessment. Due to the continuous growth in the volume of research output, rigorous approaches for the evaluation and assessment of research impact are now more relevant than ever. There is a need for reliable, comprehensive, and equitable metrics and indicators of the scientific impact and merit of publications, datasets, research institutions, individual researchers, and other relevant entities.
+Topics of Interest
+
+We encourage the submission of papers covering, but not limited to, one or more of the following topics:
+
+    Representation
+        Data models for the description of scholarly data and their relationships.
+        Description and use of provenance information of scientific data.
+        Integration and interoperability models of different data sources.
+        NLP and AI approaches that demonstrate related methods and technologies.
+        Relevant knowledge graphs and ontologies.
+        Hybrid or LLM-based approaches for representation and knowledge graph engineering.
+    Discoverability
+        Methods for extracting metadata, entities and relationships from scientific data.
+        Methods for the (semi-)automatic annotation and enhancement of scientific data.
+        Methods and interfaces for the exploration, retrieval, and visualisation of scholarly data.
+        NLP and AI approaches that demonstrate related methods and technologies.
+        LLM-based systems for relevant tasks: e.g., hypothesis generation, literature review generation and others.
+    Assessment
+        Novel methods, indicators, and metrics for quality and impact assessment of scientific publications, datasets, software, and other relevant entities based on scholarly data.
+        Uses of scientific knowledge graphs and citation networks for the facilitation of research assessment.
+        Studies regarding the characteristics or the evolution of scientific impact or merit.
+        NLP and AI approaches that demonstrate related methods and technologies.
+
+Submission Guidelines
+
+Submissions are welcome in the following categories:
+
+    Full research papers (up to 12 pages + unlimited pages of appendices and references)
+    Short research papers (up to 6 pages + unlimited pages of appendices and references)
+    Vision/Position papers (up to 6 pages + unlimited pages of appendices and references)
+
+The workshop calls for full research papers, describing original work on the listed topics, and short papers, on early research results, new results on previously published works, demos, and projects. In accordance with Open Science principles, research papers may also be in the form of data or software papers (short or long papers). Data papers present the motivation and methodology behind the creation of data sets that are of value to the community, e.g., annotated corpora, benchmark collections, and training sets. Software papers present software functionality, its value for the community, and its application. To enable reproducibility and peer-review, authors are requested to share the DOIs of datasets and software products described in the articles.
+
+The workshop also calls for vision/position papers providing insights towards new or emerging areas, innovative or risky approaches, or emerging applications that will require extensions to the state of the art. Vision papers do not necessarily have to present results but should carefully elaborate on the motivation and ongoing challenges of the described area.
+
+Sci-K will adopt a single-anonymous review process and each paper will be reviewed by at least three Program Committee members.
+
+Submissions must be in PDF format and must adhere to the CEURART single-column template. Submissions that do not follow these guidelines, or do not view or print properly, may be rejected without review. You can download an offline version with the style files from http://ceur-ws.org/Vol-XXX/CEURART.zip. It also contains DOCX template files. Overleaf users may want to use the CEURART template available in Overleaf. Please adhere also to the CEUR-WS Policy on AI-Assisting Tools.
+
+The proceedings of the workshops will be published on CEUR (indexed in Scopus, DBLP and so on.)
+
+Submit your contributions following the link: https://sci-k.github.io/2025/#submission
+Important Dates
+
+Paper submission: July 25th, 2025 (23:59, AoE timezone)
+Notification of acceptance: August 30th, 2025
+Camera-ready due: September 13th, 2025
+Workshop day: November 2025 (to be confirmed)
+Organisation
+
+Anna Jacyszyn, FIZ Karlsruhe, DE
+Andrea Mannocci, CNR-ISTI, IT
+Francesco Osborne, The Open University, UK
+Georg Rehm, DFKI, DE
+Angelo Salatino, The Open University, UK
+Sonja Schimmler, TU Berlin, Fraunhofer FOKUS, DE
+Lise Stork, University of Amsterdam, NL
+
+More information about Sci-K 2025 is available at https://sci-k.github.io
+Contact: scik2025@easychair.org 

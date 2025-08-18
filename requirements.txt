@@ -1,0 +1,5 @@
+openai==1.99.9
+pyalex==0.18
+pandas
+faiss
+streamlit
