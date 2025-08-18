@@ -1,0 +1,14 @@
+/* This stylesheet contains custom CSS beyond the bootstrap ones */
+
+.oc-btn {
+  background-color: rgb(249, 249, 251);
+  border: 1px solid rgba(49, 51, 63, 0.2);
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.oc-btn:hover {
+  border-color: rgb(255, 75, 75);
+  background-color: rgb(249, 249, 251);
+  color: rgb(255, 75, 75) !important;
+}

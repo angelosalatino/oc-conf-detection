@@ -5,4 +5,192 @@ Created on Mon Aug 18 09:05:26 2025
 
 @author: aas358
 """
+import streamlit as st
+import configparser
+from openai import OpenAI
+from pyalex import config
+from pyalex import Authors, Institutions
+from pathlib import Path
+import json
 
+
+def create_destination_path(filename:str)->str:
+    cut_filename = Path(filename).stem
+    return f"{st.session_state['config']['FOLDERS']['destination_folder']}/{cut_filename}.json"
+
+def check_if_file_was_previously_processed(filename:str)->str:
+    complete_path = create_destination_path(filename)
+    my_file = Path(complete_path)
+    if my_file.is_file():
+        return True
+    else:
+        return False
+
+
+def read_config_file():
+    if 'config' not in st.session_state:
+        st.session_state['config'] = configparser.ConfigParser()
+        st.session_state['config'].read('config.ini')
+    
+
+def connect_to_OpenRouter():
+    api_url = st.session_state['config']['DEFAULT']['api_url']
+    api_key = st.session_state['config']['DEFAULT']['api_key']
+    if len(api_key) == 0:
+        print("API Key missing!")
+    client = OpenAI(
+      base_url=api_url,
+      api_key=api_key,
+    )
+    return client
+
+def prepare_prompt(call_for_papers:str)->str:
+    text_prompt = f"""In this prompt, you will receive a Call for Papers of a scientific event. Your task is to parse it, and identify some crucial elements:
+
+                - the event name and its acronym;
+                - the location of the event
+                - the organisers of the event
+                
+                <call_for_papers>
+                {call_for_papers}
+                </call_for_papers>"""
+    return text_prompt
+                
+def process_call_for_papers(client:OpenAI, call_for_papers:str)->dict:
+                            
+    text_prompt = prepare_prompt(call_for_papers=call_for_papers)
+                
+    true = True
+    false = False
+    extra_headers={
+        "HTTP-Referer": st.session_state['config']['TEAM']['website'], # Optional. Site URL for rankings on openrouter.ai.
+        "X-Title": st.session_state['config']['TEAM']['description'], # Optional. Site title for rankings on openrouter.ai.
+        }
+    model="openai/gpt-4o"
+    messages= [
+        { "role": "user", "content": text_prompt }
+        ]
+    response_format={
+        "type": "json_schema",
+        "json_schema": {
+          "name": "organising_committe_of_conference",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "event_name": {
+                "type": "string",
+                "description": "Name of the workshop or conference. This identifies the extended name of the event."
+              },
+              "conference_series": {
+                "type": "string",
+                "description": "This refers to the name of a conference series, which is a collection of events that happen on a regular basis. It's usually similar to the event's name, but without the edition number or the year."
+              },
+              "event_acronym": {
+                "type": "string",
+                "description": "Acronym of the workshop or conference. This identifies the acronym name of the event."
+              },
+              "colocated_with": {
+                "type": "string",
+                "description": "If the name of the event is co-located with another big event. Otherwise if empty."
+              },
+              "location": {
+                "type": "string",
+                "description": "City or location name"
+              },
+              "organisers": {
+                "type": "array",
+                "items": {
+                        "type": "object",
+                        "properties": {
+                            "organiser_name": {
+                                "type": "string",
+                                "description": "The organiser name."
+                            },
+                            "organiser_affiliation": {
+                                "type": "string",
+                                "description": "The institution (affiliation) of the organiser. This can be either a university or a company."
+                            },
+                            "organiser_country": {
+                                "type": "string",
+                                "description": "The institution country of the organiser. This information is not always available."
+                            },
+                            "track_name": {
+                                "type": "string",
+                                "description": "This identifies the main track in which the organiser is involved. A conference may have several tracks, whereas a workshop may have one single track. As default you shall use 'main'."
+                            }
+                        },
+                    "required": ["organiser_name", "organiser_affiliation", "organiser_country", "track_name"],
+                    "additionalProperties": false
+                    },
+                "description": "Identifies the name, affiliation (ideally including country) of the conference organisers and the name of the track they organise."
+              }
+            },
+            "required": ["event_name", "event_acronym", "conference_series", "colocated_with", "location", "organisers"],
+            "additionalProperties": false
+          }
+        }
+        }
+    
+    completion = client.chat.completions.create(extra_headers=extra_headers, 
+                                            model=model, 
+                                            messages=messages, 
+                                            response_format=response_format)
+    result = json.loads(completion.choices[0].message.content)
+    return result
+
+
+def get_authors_info_from_openalex(organisers:list)->list:
+    
+    config.email = st.session_state['config']['TEAM']['email']
+    config.max_retries = 0
+    config.retry_backoff_factor = 0.1
+    config.retry_http_codes = [429, 500, 503]
+    
+    DEBUG = False
+    for organiser in organisers:
+        find_author_with_less_info = False
+        orga = {}
+        # Search for the institution
+        insts = Institutions().search(organiser["organiser_affiliation"]).get()
+        # print(f"{len(insts)} search results found for the institution")
+        # print(insts)
+        if len(insts) > 0:
+            inst_id = insts[0]["id"].replace("https://openalex.org/", "")
+    
+            if "ror" in insts[0]["ids"]:
+                organiser["affiliation_ror"] = insts[0]["ids"]["ror"]
+            
+            # Search for the author within the institution
+            auths = Authors().search(organiser["organiser_name"]).filter(affiliations={"institution":{"id": inst_id}}).get()
+            if len(auths) > 0:        
+                if DEBUG: print(f"{len(auths)} search results found for the author")
+                orga = auths[0]
+            else:
+                find_author_with_less_info = True
+                if DEBUG: print(f"For {organiser['organiser_name']} I could not find a record")
+            
+                
+        else:
+            find_author_with_less_info = True
+            if DEBUG: print(f"For {organiser['organiser_name']} I could not find a record of her institution")
+    
+        if find_author_with_less_info:
+            auths = Authors().search(organiser['organiser_name']).get()
+            if len(auths) == 1:
+                orga = auths[0]
+            elif len(auths) == 0:
+                if DEBUG: print(f"For {organiser['organiser_name']} I could not find a record, AGAIN")
+            else:
+                if DEBUG: print(f"Found multiple records for {organiser['organiser_name']}")
+                new_auths = sorted(auths, key=lambda item: item['works_count'], reverse=True)
+                orga = new_auths[0]
+    
+        if len(orga) > 0:
+            organiser["openalex_name"] = orga["display_name"]
+            organiser["openalex_page"] = orga["id"]
+            organiser["orcid"] = orga["orcid"]
+
+    return organisers
+    
+                        
