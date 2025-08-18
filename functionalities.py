@@ -11,6 +11,10 @@ from openai import OpenAI
 from pyalex import config
 from pyalex import Authors, Institutions
 from pathlib import Path
+from sentence_transformers import SentenceTransformer
+import faiss  
+import pickle
+import urllib.parse
 import json
 
 
@@ -56,7 +60,7 @@ def prepare_prompt(call_for_papers:str)->str:
                 </call_for_papers>"""
     return text_prompt
                 
-def process_call_for_papers(client:OpenAI, call_for_papers:str)->dict:
+def run_model(client:OpenAI, call_for_papers:str)->dict:
                             
     text_prompt = prepare_prompt(call_for_papers=call_for_papers)
                 
@@ -192,5 +196,93 @@ def get_authors_info_from_openalex(organisers:list)->list:
             organiser["orcid"] = orga["orcid"]
 
     return organisers
+
+
+def match_conference_with_other_datasets(result:dict)->dict:
     
-                        
+    # Load a pretrained Sentence Transformer model
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    embeddings = model.encode([result["conference_series"]])
+    
+    with open('DBLP.pickle', 'rb') as handle:
+        dblp_confs = pickle.load(handle)
+    
+    result["DBLP"]=dict()
+    D, I = dblp_confs["index"].search(embeddings, k=1)
+    if D[0][0] <= 0.4:
+        this_conf = dblp_confs["sentences"][I[0][0]]
+        this_acronym = dblp_confs["confs"][this_conf]
+        # print(this_conf)
+        # print(this_acronym)
+        # print(f"https://dblp.org/streams/conf/{urllib.parse.quote(this_acronym, safe='')}")
+        result["DBLP"]["name"]= this_conf
+        result["DBLP"]["id"]  = this_acronym
+        result["DBLP"]["url"] = f"https://dblp.org/streams/conf/{urllib.parse.quote(this_acronym, safe='')}"
+        
+        
+    with open('AIDA.pickle', 'rb') as handle:
+        aida_confs = pickle.load(handle)
+    
+    result["AIDA"]=dict()
+    D, I = aida_confs["index"].search(embeddings, k=1)
+    if D[0][0] <= 0.4:
+        this_conf_aida = aida_confs["sentences"][I[0][0]]
+        this_acronym_aida = aida_confs["confs"][this_conf_aida]
+        # print(this_conf_aida)
+        # print(this_acronym_aida)
+        # print(f"https://w3id.org/aida/dashboard/cs/conference/{urllib.parse.quote(this_conf_aida, safe='')}")
+        result["AIDA"]["name"]= this_conf_aida
+        result["AIDA"]["id"]  = this_acronym_aida
+        result["AIDA"]["url"] = f"https://w3id.org/aida/dashboard/cs/conference/{urllib.parse.quote(this_conf_aida, safe='')}"
+
+
+    with open('ConfIDent.pickle', 'rb') as handle:
+        confident_confs = pickle.load(handle)
+    
+    result["ConfIDent"]=dict()
+    D, I = confident_confs["index"].search(embeddings, k=1)
+    if D[0][0] <= 0.4:
+        this_conf_confident = confident_confs["sentences"][I[0][0]]
+        this_id_confident = confident_confs["confs"][this_conf_confident]
+        # print(this_conf_confident)
+        # print(this_id_confident)
+        # print(f"https://www.confident-conference.org/index.php/{urllib.parse.quote(this_id_confident, safe='')}")        
+        result["ConfIDent"]["name"]= this_conf_confident
+        result["ConfIDent"]["id"]  = this_id_confident
+        result["ConfIDent"]["url"] = f"https://www.confident-conference.org/index.php/{urllib.parse.quote(this_id_confident, safe='')}"
+
+    return result
+
+def process_call_for_papers(call_for_papers:str)->dict:
+    """
+    Processes the call for papers from unstructured to structured data.
+    
+    1. Creates an instance of connection to the remote model.
+    2. Requests the model to process the call for papers
+    3. Process all organisers with OpenAlex api
+    4. Find mapping towards other conference datasets
+    5. Return
+    
+
+    Parameters
+    ----------
+    call_for_papers : str
+        the call for papers in a single string format.
+
+    Returns
+    -------
+    dict
+        the dictionary containing all the relevant and structured info about the call for papers.
+
+    """
+    
+    client = connect_to_OpenRouter()
+    print("Connected to remote model")
+    result = run_model(client, call_for_papers)
+    print("Finished running model")
+    result["organisers"] = get_authors_info_from_openalex(result["organisers"])
+    print("Completed processing organisers via OpenAlex")
+    result = match_conference_with_other_datasets(result)
+    print("Mapped the conference to other dataset")
+    return result
+    

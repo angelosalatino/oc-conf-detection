@@ -55,8 +55,8 @@ def main():
             stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
         
             # To read file as string:
-            string_data = stringio.read()
-            # print(string_data)
+            call_for_papers = stringio.read()
+            # print(call_for_papers)
         
         
         to_recompute = st.checkbox("Force", value=False)
@@ -80,8 +80,14 @@ def main():
         
         
     if submitted:
-        if not check_if_file_was_previously_processed(filename):
-            pass
+        if not check_if_file_was_previously_processed(filename) or to_recompute:
+            conf_data = process_call_for_papers(call_for_papers)
+            file_path = create_destination_path(filename)
+            with open(file_path,'w') as fw:
+                json.dump(conf_data, fw, indent=4)
+                
+            display_main(conf_data)
+            
         else:
             file_path = create_destination_path(filename)
             with open(file_path,'r') as fr:
