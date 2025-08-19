@@ -1,0 +1,41 @@
+
+MUM 2025, the 24th International Conference on Mobile and Ubiquitous Multimedia
+Enna, Italy, December 1-4, 2025
+
+MUM 2025, the 24th International Conference on Mobile and Ubiquitous Multimedia, will be held in Enna, Italy, December 1st –4th. MUM is an interdisciplinary forum for advances in research of mobile and ubiquitous multimedia systems, applications, and services. At MUM, academics and practitioners discuss challenges and achievements in this field from diverse perspectives, such as interaction techniques, user research, system development, software solutions, and devices. This edition of MUM aims to continue the tradition of innovation and excellence in research established by previous MUM conferences.
+
+We welcome submissions of high-quality papers that offer original and unpublished contributions relevant to mobile and ubiquitous multimedia. Paper topics include, but are not limited to, the following:
+
+    Prototypes and systems tackling relevant technical challenges
+    Novel applications for mobile and ubiquitous gaming, learning, entertainment, social networking, and advertising
+    Augmented, mixed, and virtual reality systems and applications
+    Case studies, field trials, or user experience evaluations of new applications and services
+    Context-aware and location-based mobile and ubiquitous services
+    Metrics and measures for evaluating and testing mobile and ubiquitous systems
+    Privacy and security-related challenges to multimedia systems
+    Social implications of mobile and ubiquitous multimedia systems
+    Interaction and collaboration with human-centered AI systems
+    Tools and development environments for building mobile, wearable, and ubiquitous multimedia systems
+    User interfaces, interaction design, and interaction techniques for mobile and ubiquitous systems
+    Interaction design for automotive and other modes of transportation
+    Fabrication and device prototyping 
+
+Long & short papers summary:
+
+    Anonymous submissions (double-blind review)
+    Length (using LaTeX template or Word template):
+        Short papers: 7 pages maximum (excluding references)
+        Full papers: 16 pages maximum (excluding references)
+    Timeline (all deadlines are AoE):
+        Workshops and Tutorials Submission: August 21, 2025 
+        Paper (Short & Full): August 21, 2025 August 28, 2025 (Extended Deadline)
+        Paper Decision Notification: October 06, 2025
+        Paper Camera-ready: October 20, 2025
+    Upon acceptance: mandatory presentation at the conference
+
+For further details about the submission, the review and publication process, other available tracks, and general information about the conference and the venue, please go to: mum-conf.org
+
+Should you have any questions, please contact the Papers and Technical Program Chairs:
+Mohamed Khamis, University of Glasgow, UK
+Passant Elagroudy, DFKI, Germany
+papers2025@mum-conf.org

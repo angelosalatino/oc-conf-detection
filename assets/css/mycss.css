@@ -12,3 +12,8 @@
   background-color: rgb(249, 249, 251);
   color: rgb(255, 75, 75) !important;
 }
+
+.logo{
+  height: 50px;
+  float: left;
+}

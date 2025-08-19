@@ -1,0 +1,158 @@
+[Apologies for the cross-posting, this call is sent to numerous lists you may have subscribed to]
+
+[CFP] The ACM Web Conference 2022 - CFP Posters & Demos + Web Developer & W3C + PhD Symposium + Workshops papers
+
+We invite contributions to the Posters and Demos track / Web Developer & W3C track, PhD Symposium track as well as to the 22 Workshops colocated at The ACM Web Conference 2022 (formerly known as WWW). The conference will take place online, hosted by Lyon, France, on April 25-29, 2022,
+ * Workshops: https://www2022.thewebconf.org/workshops/
+ * Posters & Demos: https://www2022.thewebconf.org/cfp/posters-demos/
+ * Web Developer & W3C: https://www2022.thewebconf.org/cfp/web-dev-w3c/
+ * PhD Symposium: https://www2022.thewebconf.org/cfp/phd-symposium/
+
+*Same deadlines for them all: (All submission deadlines are end-of-day in the Anywhere on Earth (AoE) time zone).*
+- Papers submission: February 3rd, 2022
+- Notification to authors: March 3rd, 2022
+- Camera ready: March 10th, 2022
+
+------------------------------------------------------------
+Call for Workshop papers
+All the selected workshops for TheWebConf 2022 are listed at https://www2022.thewebconf.org/workshops/. Check out the following web sites for additional instructions regarding submission guidelines.
+
+W1 - 3rd International Workshop on Data Literacy: https://datalit.itd.cnr.it/en/3rd-Data-Literacy-Workshop
+W2 - Beyond Facts: 2nd International Workshop on Knowledge Graphs for Online Discourse Analysis: https://knod22.wordpress.com/
+W3 - CAAW: International Workshop on Cryptoasset Analytics Workshop: https://caaw.io/
+W4 - CLEOPATRA: 3rd International Workshop on Cross-lingual Event-centric Open Analytics: http://cleopatra-workshop.l3s.uni-hannover.de/
+W5 - COnSeNT: 2nd International Workshop on Consent Management in Online Services, Networks and Things: https://consentworkshop.com
+W6 - EMDC: 2nd International Workshop on the Efficiency of Modern Datacenters: https://sites.google.com/view/emdc
+W7 - FinWeb: 2nd International Workshop on Financial Technology on the Web: https://sites.google.com/nlg.csie.ntu.edu.tw/finweb2022/
+W8 - GLB 2022: 2nd International Workshop on Graph Learning Benchmark: https://graph-learning-benchmarks.github.io
+W9 - International Workshop on AI in Health: Explainable AI for Better Health: https://aihealth.ischool.utexas.edu/AIHealthWWW2022/index.html
+W10 - LocWeb2022: 12th International Workshop on Location and the Web: https://dhere.de/locweb/locweb2022/
+W11 - MAISoN: 8th International Workshop on Mining Actionable Insights from Social Networks, Special Edition on Mental Health and Social Media: https://2022.maisonworkshop.org
+W12 - MUWS ’2022: 1st International Workshop on MultimodalUnderstanding for the Web and Social Media: https://muws-workshop.github.io/
+W13 - Sci-K: 2nd International Workshop on Scientific Knowledge Representation, Discovery, and Assessment: https://sci-k.github.io/2022/
+W14 - SeBiLAn: International Workshop on Semantics-enabled Biomedical Literature Analytics: https://www.sebilanworkshop.com/
+W15 - SocialNLP: 10th International Workshop on Natural Language Processing for Social Media: https://sites.google.com/view/socialnlp2022/
+W16 - TempWeb: 12th International Workshop on Temporal Web Analytics: http://temporalweb.net/
+W17 - The 2nd International Workshop on Deep Learning for the Web of Things: https://rail.fzu.edu.cn/info/1014/1211.htm
+W18 - The First International Workshop on Graph Learning: http://www.graphlearning.net/
+W19 - UserNLP: International Workshop on User-centered Natural Language Processing: https://caisa.informatik.uni-marburg.de/user_nlp.html
+W20 - WANDER: International Workshop on Web Acceleration for Developing Regions: https://wander2022.com/
+W21 - WebAndTheCity: 8th International Workshop on Web and Smart Cities: https://webandthecity.home.blog/
+W22 - Wiki Workshop: https://wikiworkshop.org/
+
+-----------------------------------------------------------------------------------------------------
+Call for TheWebConf Posters & Demos Track
+*Posters and Demos chairs: (www2022-poster-demo@easychair.org)*
+ - Anna Lisa Gentile (IBM Research)
+ - Pasquale Lisena (EURECOM)
+
+The Web Conference is the premier conference focused on understanding the current state and the evolution of the Web through the lens of different disciplines, including computing, computational social science, economics and political sciences. The Posters and Demos Track is a forum to foster interactions among researchers and practitioners by allowing them to present and demonstrate their new and innovative work. In addition, the Posters and Demos track will give conference attendees an opportunity to learn novel on-going research projects through informal interactions. Demos submissions must be based on an implemented and tested system.
+Posters and Demos papers will be peer-reviewed by members of the Poster Committee based on originality, significance, quality, and clarity. Accepted papers will appear in the Companion conference proceedings. In addition, accepted work authors will be asked to create a digital poster to present their work during the Posters and Demos track at the conference.
+
+Submitted posters are expected to be aligned with one or more of the relevant topics of TheWebConf community, including (but not limited to):
+ - Web-related Economics, Monetization, and Online Markets
+ - Web Search
+ - Web Security, Privacy, and Trust
+ - Semantics and Knowledge
+ - Social Network Analysis and Graph Algorithms
+ - Social Web
+ - Systems and Infrastructure
+ - User Modeling, Personalization and Accessibility
+ - Web and Society
+ - Web Mining and Content Analysis
+ - Web of Things, Ubiquitous and Mobile Computing
+ - Esports and Online Gaming
+ - History of the Web
+ - Web for good
+
+*Submission guidelines*
+Posters and Demos papers are limited to four pages, including references. Submissions are NOT anonymous. It is the authors’ responsibility to ensure that their submissions adhere strictly to the required format. In particular, the format cannot be modified with the objective of squeezing in more material. Submissions that do not comply with the formatting guidelines will be rejected without review.
+Submissions will be handled via Easychair, at: https://easychair.org/conferences/?conf=thewebconf2022, selecting the Poster-Demo track.
+We also highly encourage to include external material related to the poster or demo (e.g., code repository on Github or equivalent) in the submission.
+
+*Formatting the submissions*
+Submissions must adhere to the ACM template and format published in the ACM guidelines at https://www.acm.org/publications/proceedings-template. Please remember to add Concepts and Keywords. Please use the template in traditional double-column format to prepare your submissions. For example, word users may use Word Interim Template, and latex users may use sample-sigconf template. For overleaf users, you may want to use https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty
+Submissions for review must be in PDF format. They must be self-contained and written in English. Submissions that do not follow these guidelines, or do not view or print properly, will be rejected without review.
+
+*Ethical use of data and informed consent*
+As a published ACM author, you and your co-authors are subject to all ACM Publications Policies, including ACM’s new Publications Policy on Research Involving Human Participants and Subjects. When appropriate, authors are encouraged to include a section on the ethical use of data and/or informed consent in their paper.
+Note that submitting your research for approval by the author(s)’ institutional ethics review body (IRB) may not always be sufficient. Even if such research has been signed off by your IRB, the programme committee might raise additional concerns about the ethical implications of the work and include these concerns in its review.
+
+*Publication policy*
+Accepted papers will require a further revision in order to meet the requirements and page limits of the camera-ready format required by ACM. Instructions for the preparation of the camera-ready versions of the papers will be provided after acceptance. All accepted papers will be published by ACM and will be available via the ACM Digital Library. To be included in the Companion Proceedings, at least one author of each accepted paper must register for the conference and present the paper.
+
+--------------------------------------------------------------------------------------------------
+Call for TheWebConf 2022 Developer and W3C Track
+
+*Web Developer and W3C Track Chairs:*
+Contact us at <www2022-web-dev-w3c@easychair.org>
+ - Dominique Hazael-Massieux (W3C)
+ - Tom Steiner (Google LLC)
+
+The Web Conference 2022 Developer and W3C Track is part of The Web Conference 2022 in Lyon, France. Participation in the developers track will require registration of at least one author for the conference. The Web Conference 2022 Developer and W3C Track presents an opportunity to share the latest developments across the technical community, both in terms of technologies and in terms of tooling. We will be running as a regular track with live (preferred) or pre-recorded (as an alternative format) presentations during the conference, showcasing community expertise and progress. The event will take place according to the CET time zone (Paris time). We will do our best to accommodate speakers in as convenient as possible time slots for their local time zones.
+
+While we are open to any contributions that are relevant for the Web space, here are a few areas that we are particularly interested in:
+ - Tools and methodologies to measure and reduce the environmental impact of the Web.
+ - New usage patterns enabled by Progressive Web Apps and new browser APIs.
+ - Work-arounds, data-based quantification and identification of Web compatibility issues.
+ - Web tooling and developer experience, in particular towards reducing the complexity for newcomers: How can we get closer to the magic of hitting "view source" as a way to get people started?
+ - Tools and frameworks that enable the convergence of real-time communication and streaming media.
+ - Decentralized architectures for the Web, such as those emerging from projects and movements such as Solid, or "Web3".
+ - Peer to peer architectures and protocols.
+ - Identity management (DID, WebAuthN, Federated Credential Management).
+
+*Submission guidelines*
+Submissions can take several form and authors can choose one or multiple submission entry among the following choices:
+ - Papers: papers are limited to 6 pages, including references. Submissions are NOT anonymous. It is the authors’ responsibility to ensure that their submissions adhere strictly to the required format. In particular, the format cannot be modified with the objective of squeezing in more material. Papers will be published in the ACM The Web Conference Companion Proceedings archived by the ACM Digital Library, as open access, if the authors wish so.
+ - Links to code repositories on GitHub (with sufficient description and documentation).
+ - Links to recorded demos (as a complement to the above, ideally following established best practices as proposed by the W3C).
+ - Any other resource reachable on the Web.
+Submissions will be handled via Easychair, at https://easychair.org/conferences/?conf=thewebconf2022, selecting the Web Developer and W3C track.
+
+*Formatting the submissions*
+Submissions must adhere to the ACM template and format published in the ACM guidelines at https://www.acm.org/publications/proceedings-template. Please remember to add Concepts and Keywords and use the template in traditional double-column format to prepare your submissions. For example, Word users may use the Word Interim template, and LaTeX users may use the sample-sigconf template. For Overleaf users, you may want to use https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty.
+Submissions for review must be in PDF format. They must be self-contained and written in English. Submissions that do not follow these guidelines, or do not view or print properly, will be rejected without review.
+
+*Ethical use of data and informed consent*
+As a published ACM author, you and your co-authors are subject to all ACM Publications Policies, including ACM’s new Publications Policy on Research Involving Human Participants and Subjects. When appropriate, authors are encouraged to include a section on the ethical use of data and/or informed consent in their paper.
+Note that submitting your research for approval by the author(s)’ institutional ethics review body (IRB) may not always be sufficient. Even if such research has been signed off by your IRB, the programme committee might raise additional concerns about the ethical implications of the work and include these concerns in its review.
+
+*Publication policy*
+Accepted papers will require a further revision in order to meet the requirements and page limits of the camera-ready format required by ACM. Instructions for the preparation of the camera-ready versions of the papers will be provided after acceptance.
+
+----------------------------------------------------------------------------------------------------------
+Call for PhD Symposium Papers
+*PhD Symposium chairs: (www2022-phd-symposium@easychair.org)*
+- Hala Skaf-Molli (University of Nantes, France)
+- Elena Demidova (University of Bonn, Germany)
+
+The PhD Symposium of The Web Conference 2022 welcomes submissions from PhD students on their ongoing research related to the main conference topics. These topics include: Semantics and Knowledge, Web Search, Web Systems and Infrastructure, Web Mining and Content Analysis, Economics, Monetization, and Online Markets, User Modeling and Personalization, Web and Society, Web of Things, Ubiquitous and Mobile Computing,  Social Network Analysis and Graph Algorithms, Security, Privacy, Trust and Social Web (see also the Research Tracks). We are particularly interested in submissions aimed to enhance our understanding of the Web, provide intuitive access to Web information and knowledge, strengthen the positive impact of the Web on society, take advantage of the Web of Things and enhance security, privacy protection, and trust.
+The goal of the PhD Symposium is to provide a platform for PhD students to present and receive feedback on their ongoing research. Students at different stages of their research will have the opportunity to present and discuss their research questions, goals, methods, and results. The symposium aims to provide students guidance on various aspects of their research from established researchers and other PhD students working in research areas related to the World Wide Web. Finally, the symposium aims to enable PhD students to interact with other participants of The Web Conference and potential collaborators by stimulating the exchange of ideas and experiences.
+
+*Eligibility*
+The PhD Symposium is open to all PhD students. PhD students at the beginning stages of their doctoral work are particularly welcome when they have a well-defined problem statement and ideas about the solutions they would like to discuss. PhD students in a more advanced stage of their work are also welcome to share and discuss their research results and experiences.
+
+*Submission Guidelines*
+Submissions should be written based on the following structure, which focuses on the key methodological components required for a sound research synthesis:
+- Abstract: A self-sustained short description of the paper.
+- Introduction/Motivation: Provide a general introduction to the topic and indicate its importance/impact on Web research and real-world applications.
+- Problem: Describe the core problem of the PhD thesis.
+- State of the art: Briefly describe the most relevant related work.
+- Proposed approach: Briefly present the approach taken and motivate how this is novel regarding existing works.
+- Methodology: Sketch the methodology that is (or will be) adopted and, in particular, the approach to be taken for evaluating the results of the work.
+- Results: Describe the current status of the work and the most significant results that have been obtained so far.
+- Conclusions and future work: Conclude and specify the major items of future work.
+Submissions should be written in English and must be no longer than five (5) pages in length (according to the ACM format acmart.cls, using the “sigconf” option). Submissions must be in PDF and must be made through the EasyChair system at https://easychair.org/conferences/?conf=thewebconf2022 (select the PhD Symposium track).
+Submissions must be single-author and be on the topic of the doctoral work. The supervisor’s name must be clearly marked (« supervised by … ») on the paper, under the author’s name. Submissions that do not comply with the formatting guidelines will be rejected without review.
+Selected papers will be published in the Companion Proceedings of The Web Conference 2022 and made available through the ACM Digital Library.
+
+*Review Process*
+All submissions will be reviewed by the members of the Program Committee of the PhD Symposium, who are experienced researchers in the relevant areas. Students of accepted submissions will have the opportunity to discuss their submissions in more detail and receive additional feedback from mentors.
+
+============================================================
+Contact us: contact@thewebconf.org
+- Facebook: https://www.facebook.com/TheWebConf
+- Twitter: https://twitter.com/TheWebConf
+- LinkedIn: https://www.linkedin.com/showcase/18819430/admin/
+- Website: https://www2022.thewebconf.org/
+==============================================

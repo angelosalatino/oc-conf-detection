@@ -1,0 +1,129 @@
+TPDL 2025 - The 29th International Conference on Theory and Practice of
+Digital Libraries
+
+Call for Short Papers
+---------------------------------
+
+Overview
+---------------------------------
+TPDL is an international forum focused on digital libraries and their
+associated technical, practical, and social issues. The conference encompasses
+the many meanings of the term digital libraries, embracing the whole spectrum
+of the LAM (Library, Archive, and Museum) community; operational information
+systems with all manner of digital content; new means of selecting,
+collecting, organizing, and distributing digital content; and theoretical
+models of information media, including document genres and electronic
+publishing.
+
+Topics
+---------------------------------
+Topics in 2025 include but are not limited to, theories, models, standards,
+tools, and applications on the following themes:
+
+Publishing Science
+-- FAIR Data and Software
+-- Data Lifecycle Management (Create, Store, Share, Reuse)
+-- Research Objects
+-- Nanopublications
+-- Supporting Science Reproducibility
+-- Metadata Standards
+-- Research Data Management
+-- Research Output Management
+
+Information Management Science
+-- Data Management and Discovery
+-- Data Search and Discovery in Digital Libraries
+-- Digital Preservation and Curation
+-- Data Provenance and Documentation
+-- Linked Data and Open Data Platforms
+-- Data Repositories and Archives
+-- Data Citation and Credit Distribution
+-- Data Stewardship and Governance
+-- Data Integration and Harmonization
+
+Monitoring and Assessment of Science
+-- Science of Science Studies
+-- Scientometrics and Bibliometrics
+-- Scholarly Communication Knowledge Graphs
+-- Impact Analysis in Scientific Research
+
+Knowledge Creation and Dissemination
+-- AI and Machine Learning Applications in Digital Libraries
+-- Knowledge Bases and Organizational Systems
+-- Entity Extraction and Semantic Linking
+-- Ontology Development and Usage
+-- Data as Collections
+
+Digital Humanities and Cultural Heritage
+-- Digital Cultural Heritage Preservation
+-- Computational Linguistics and Digital Terminology
+-- Digital Methods in History and Archaeology
+-- Knowledge Organization in the Humanities
+-- Digital Interfaces for Humanities Research
+-- Digital Repatriation
+-- Indigenous Data, Governance, and Sovereignty
+
+Human-Computer Interaction in Digital Libraries
+-- Design and Evaluation of User Interfaces
+-- User Experience and Participation in Digital Libraries
+-- Information Visualization and Analytics
+-- Interaction Design for Diverse User Groups
+
+Information Retrieval
+-- Advanced Search Algorithms and Techniques
+-- Semantic Search and Indexing
+-- User-Centric Information Retrieval Design
+-- Information Retrieval System Evaluation
+-- Multimodal and Multilingual Information Access
+-- Information Behavior and Interaction in Digital Libraries
+
+Document Analysis and Recognition
+-- Document Image Analysis and Recognition for Digital Libraries
+-- Physical and Logical Layout Analysis
+-- Historical Document Analysis
+-- Document Semantics Extraction
+-- Natural Language Processing for Document Analysis
+
+Important Dates
+---------------------------------
+All deadlines are 23:59 (11:59 pm) in the AoE (Anywhere on Earth) time zone on
+the date specified.
+
+Short paper submission deadline: June 12, 2025
+Notification of acceptance for short papers: July 13, 2025
+Camera-ready submission: July 27, 2025
+
+Contribution Types
+---------------------------------
+Short Papers (8 pages + unlimited references) present high-quality, original
+research or applications that are of relevance to the TPDL community.
+Submissions should present more focused or smaller studies, for example,
+preliminary results, ongoing work, or late-breaking results. Accepted papers
+will be published in the conference proceedings. Short papers are presented as
+short conference talks.
+
+Awards
+---------------------------------
+Springer will sponsor the TPDL 2025 Best Short Paper Award, which will be
+announced during the TPDL Banquet.
+
+Submission Guidelines
+---------------------------------
+Accepted papers will be published in the conference proceedings and presented
+as short conference talks. All submissions should detail their methods and
+techniques sufficiently to enable replication and reuse. For submission papers
+must be in the Springer LNCS style, see: Springer LNCS guidelines. Accepted
+short papers are published in Springer's Communications in Computer and
+Information Science (CCIS) series.
+
+Every paper must be submitted in PDF format using the CMT online submission
+system after selecting the TPDL2025 - Short Papers Track:
+https://cmt3.research.microsoft.com/TPDL2025.
+
+Failure to comply with the submission guidelines will lead to direct rejection
+without review.
+
+Program Chairs
+---------------------------------
+Marcos Andre Goncalves, Universidade Federal de Minas Gerais, Brazil
+Christos Papatheodorou, National and Kapodistrian University of Athens, Greece

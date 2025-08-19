@@ -283,6 +283,6 @@ def process_call_for_papers(call_for_papers:str)->dict:
     result["organisers"] = get_authors_info_from_openalex(result["organisers"])
     print("Completed processing organisers via OpenAlex")
     result = match_conference_with_other_datasets(result)
-    print("Mapped the conference to other dataset")
+    print("Mapped the conference to other datasets")
     return result
     

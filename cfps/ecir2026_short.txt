@@ -1,0 +1,38 @@
+Call for Short Papers
+The European Conference on Information Retrieval (ECIR) is the prime European forum for the presentation of original research in the field of Information Retrieval. The 48th European Conference on Information Retrieval (ECIR 2026) will take place as a physical (in-person) conference from 29 March to 2 April 2026 in Delft, The Netherlands.
+
+Topics of Interest
+The Short Paper Track calls for original contributions presenting novel, thought-provoking ideas and addressing innovative application areas within the field of Information Retrieval, including those mentioned in the Call for Full papers for ECIR 2026
+Short papers differ from full papers in that they present innovative new works, but may be narrower in scope or applications. Submissions may include preliminary ideas, but still should provide empirical or theoretical validation. Papers that stimulate discussion are particularly encouraged.
+        •       Short papers are up to 6 pages in length, plus additional pages for references.  Appendices count toward the page limit. Please put appendices before the references for paper submission.
+        •       Short papers will be refereed through double-anonymous peer review. This means that all submitted papers must be fully anonymised.
+
+Submission Guidelines
+Authors should consult Springer's authors' guidelines and use their proceedings templates, either for LaTeX or for Word (to be found at https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines), for the preparation of their papers. Springer encourages authors to include their ORCIDs in their papers (https://www.springer.com/gp/authors-editors/orcid). 
+All submissions must be written in English. All papers should be submitted electronically through the EasyChair submission system: https://easychair.org/conferences/?conf=ecir2026.
+In addition, the corresponding author of each accepted paper, acting on behalf of all of the authors of that paper, must complete and sign a Consent-to-Publish form. The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the paper has been submitted, changes relating to its authorship cannot be made.
+Accepted papers will be published in the conference proceedings in the Springer Lecture Notes in Computer Science series. The proceedings will be distributed to all delegates at the conference. Accepted papers will have to be presented at the conference by one of the authors in person, and at least one author for each accepted contribution will be required to register and attend.
+
+Dual Submission Policy
+Papers submitted to ECIR 2026 should be substantially different from papers that have been previously published, or accepted for publication, or that are under review at other venues. Exceptions to this rule are:
+Submission is permitted for papers presented or to be presented at conferences or workshops without proceedings.
+Submission is permitted for papers that have previously been made available as a technical report (e.g., in institutional archives or preprint archives like arXiv). Please do not cite your technical report and make an effort to avoid any issues that may harm the anonymity of your submission. Reviewers will receive guidance that asks them to refrain from trying to break the anonymity, but be aware that the availability of an available technical report for an ECIR submission might cause some issues.
+
+Ethics and Professional Conduct
+ECIR 2026 expects authors (as well as the PC and the organising committee) to adhere to accepted standards on ethics and professionalism in our community, namely:
+        •       The ACM's Policy on Authorship,
+        •       The ACM's Code of Ethics and Professional Conduct,
+        •       The ACM's Conflict of Interest Policy,
+        •       The ACM's Policy on Plagiarism, Misrepresentation, and Falsification,
+        •       The ACM's Policy Against Harassment
+
+Short Paper Track Dates
+        •       Short paper abstract submission: October 7, 2025, 11:59pm (AoE)
+        •       Short paper submission: October 14, 2025, 11:59pm (AoE)
+        •       Short paper notification: December 16, 2025 (AoE)
+        •       Main conference: March 30 – April 1, 2026
+Short Paper Track Chairs
+        •       Sean McAvaney (University of Glasgow, UK)
+        •       Mohammad Aliannejadi (University of Amsterdam, The Netherlands)
+        •       Christine Bauer (University of Salzburg, Austria)
+        •       Contact: ecir2026-short AT easychair.org

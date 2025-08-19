@@ -1,0 +1,51 @@
+{
+    "event_name": "The European Conference on Information Retrieval",
+    "conference_series": "European Conference on Information Retrieval",
+    "event_acronym": "ECIR 2026",
+    "colocated_with": "",
+    "location": "Delft, The Netherlands",
+    "organisers": [
+        {
+            "organiser_name": "Sean McAvaney",
+            "organiser_affiliation": "University of Glasgow",
+            "organiser_country": "UK",
+            "track_name": "Short Paper Track",
+            "affiliation_ror": "https://ror.org/00vtgdb53"
+        },
+        {
+            "organiser_name": "Mohammad Aliannejadi",
+            "organiser_affiliation": "University of Amsterdam",
+            "organiser_country": "The Netherlands",
+            "track_name": "Short Paper Track",
+            "affiliation_ror": "https://ror.org/04dkp9463",
+            "openalex_name": "Mohammad Aliannejadi",
+            "openalex_page": "https://openalex.org/A5063466614",
+            "orcid": "https://orcid.org/0000-0002-9447-4172"
+        },
+        {
+            "organiser_name": "Christine Bauer",
+            "organiser_affiliation": "University of Salzburg",
+            "organiser_country": "Austria",
+            "track_name": "Short Paper Track",
+            "affiliation_ror": "https://ror.org/05gs8cd61",
+            "openalex_name": "Christine Bauer",
+            "openalex_page": "https://openalex.org/A5033035188",
+            "orcid": "https://orcid.org/0000-0001-5724-1137"
+        }
+    ],
+    "DBLP": {
+        "name": "Joint Conference of the Information Retrieval Communities in Europe (CIRCLE)",
+        "id": "circle",
+        "url": "https://dblp.org/streams/conf/circle"
+    },
+    "AIDA": {
+        "name": "Conference of the Information Retrieval Communities in Europe",
+        "id": "circle",
+        "url": "https://w3id.org/aida/dashboard/cs/conference/Conference%20of%20the%20Information%20Retrieval%20Communities%20in%20Europe"
+    },
+    "ConfIDent": {
+        "name": "European Conference on Information Retrieval Research",
+        "id": "Event Series:ECIR",
+        "url": "https://www.confident-conference.org/index.php/Event%20Series%3AECIR"
+    }
+}

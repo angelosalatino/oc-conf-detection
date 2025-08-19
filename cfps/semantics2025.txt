@@ -1,0 +1,124 @@
+Call for Research & Innovation Papers
+SEMANTiCS 2025 EU
+
+21st International Conference on Semantic Systems
+
+Vienna, Austria
+
+September 3 - 5, 2025
+
+Important Dates: 
+
+    Abstract Submission Deadline: 	April 25 , 2025
+
+    Paper Submission Deadline:		May 2, 2025 
+
+    Notification of Acceptance: 		June 13, 2025 
+
+    Camera-Ready Paper Deadline: 	July 04, 2025 
+
+All deadlines are set for 11:59 pm, Anywhere On Earth time (UTC-12)
+
+Submissions will be through Easychair and the submission link will be provided soon.
+
+Proceedings of SEMANTiCS 2025 EU will be made available open access. 
+
+ 
+Research and Innovation Track
+
+The SEMANTiCS 2025 conference is excited to invite submissions for the Research and Innovation Track, welcoming groundbreaking research contributions, innovative solutions, and experimental studies relevant to the Semantic Web, Semantic Technologies, and AI-enabled semantics. We also encourage submissions at the intersections of these fields with other scientific and applied disciplines, fostering cross-disciplinary exchange and advancement. Papers should present original work that has not been published or is not under consideration elsewhere. All submissions must adhere to the submission guidelines, including reference formatting and any additional documentation as required. Each submission will undergo a rigorous review process, with at least three independent reviews, evaluating the novelty, technical quality, reproducibility, and practical relevance of the work.
+
+Topics of Interest
+
+SEMANTiCS 2025 calls for submissions of high-quality research papers across a broad spectrum of topics in Semantic Web, Semantic Technologies, and AI. We are particularly interested in new and emerging trends, especially where semantic technologies intersect with evolving fields such as large language models, explainable AI, and trustworthy data infrastructures. Topics of interest include, but are not limited to:
+
+    Web Semantics & Linked (Open) Data 
+
+    Enterprise Knowledge Graphs, Graph Data Management
+
+    Machine Learning Techniques for/using Knowledge Graphs (e.g. reinforcement learning, deep learning, data mining and knowledge discovery)
+
+    Generative AI and Knowledge Graphs (e.g., Retrieval-Augmented Generation (RAG) with knowledge graph integration, generative model grounding)
+
+    Reasoning, Rules, and Policies on RAG 
+
+    Knowledge Engineering and Management (e.g., knowledge acquisition, extraction, integration, and publication workflows)
+
+    Terminology, Thesaurus & Ontology Management, Ontology engineering
+
+    Web agents
+
+    Natural Language Processing for/using Knowledge Graphs (e.g. entity linking and resolution using target knowledge such as Wikidata and DBpedia, foundation models)
+
+    Crowdsourcing for/using Knowledge Graphs
+
+    Data Quality Management and Assurance
+
+    Mathematical and Logical Foundations of Knowledge-aware AI
+
+    Multimodal Knowledge Graphs (e.g., text, image, audio fusion in graph structures)
+
+    Semantic-Enhanced Data Science Pipelines and Processes
+
+    Semantics in Blockchain environments (e.g., traceability, decentralized knowledge representation)
+
+    Trust, Data Privacy, and Security with Semantic Technologies
+
+    Internet of Things (IoT), Stream Processing, and Temporal Data Management (e.g., real-time semantic processing and predictive analytics)
+
+    Conversational AI and Dialogue Systems powered by Knowledge Graphs
+
+    Provenance and Data Change Tracking (e.g., semantic versioning, data updates in distributed settings)
+
+    Semantic Interoperability (e.g., cross-domain standards, mapping frameworks, ontology alignment)
+
+    Linked Data storage, triple stores, graph databases
+
+    Robust, Scalable, and Fault-Tolerant Semantic Data Systems (e.g., distributed querying, optimization)
+
+    User Interfaces and Usability of Semantic Technologies (e.g., visualizations, intelligent user interaction)
+
+    Explainable and Interoperable AI
+
+    Decentralised and Federated Knowledge Graphs (e.g., federated querying, link traversal)
+
+
+Applied Semantic Technologies and AI in Real-World Scenarios, such as, but not limited to:
+
+    Biomedicine and Health (e.g., Knowledge Graphs for biomedical applications, AI-driven diagnostics, personalized health)
+
+    AI for Environmental and Climate Solutions (e.g., semantic modeling for environmental impact, biodiversity knowledge graphs) 
+
+    Scientific Knowledge Graphs and Open Science (e.g., FAIR data principles, enhanced scholarly communication)
+
+    Semantic Technologies in GLAM (Galleries, Libraries, Archives, and Museums)
+
+    Knowledge Graphs and Hybrid AI for Industry 4.0/5.0 and Predictive Maintenance
+
+    Digital Humanities and Cultural Heritage Preservation
+
+    Legal Technology, AI Ethics, and Regulatory Compliance (e.g., AI and legal frameworks, semantic-enabled compliance with the EU AI Act)
+
+    Economics and Governance of Data Ecosystems (e.g., data marketplaces, semantic service interoperability, data policy)
+
+
+Submissions will be through Easychair. Stay tuned for the submission link. 
+
+For Submission Guidelines and Review and Evaluation Criteria please head to the online call for papers: https://2025-eu.semantics.cc/page/cfp_rev_rep 
+
+We would highly appreciate it if you could disseminate this call within your network.
+
+
+We look forward to receiving your contributions!
+
+Research and Innovation Track Chairs
+
+Blerina Spahiu (University of Milano-Bicocca, IT)
+
+Mehdi Ali (Lamarr Institute & Fraunhofer IAIS, Germany)
+
+Kind Regards,
+
+On behalf of the organising committee,
+
+Beyza Yaman
