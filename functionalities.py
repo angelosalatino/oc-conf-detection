@@ -16,6 +16,9 @@ import faiss
 import pickle
 import urllib.parse
 import json
+from rapidfuzz.distance import Levenshtein
+from rapidfuzz import fuzz
+
 
 
 def create_destination_path(filename:str)->str:
@@ -145,20 +148,44 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
 
 
 def get_authors_info_from_openalex(organisers:list)->list:
+    """
     
-    config.email = st.session_state['config']['TEAM']['email']
-    config.max_retries = 0
-    config.retry_backoff_factor = 0.1
-    config.retry_http_codes = [429, 500, 503]
+    This is a convoluted algorithm. 
+    First it attempts a double filtering (institution + authorname), for a more precise outcome.
+    However, as in many cases it fails (affiliations in CfP are not similar to the institution name in OpenAlex), 
+    we simply retrieve author info based on their name, and try to find the correct authors within the returned pool.
+    
+    
+
+    Parameters
+    ----------
+    organisers : list
+        list of organisers.
+
+    Returns
+    -------
+    list
+        the same list of organisers with augmented information from OpenAlex.
+
+    """
+
+    ### First we attempt to located the organiser by finding their affiliation, and filtering them by affiliation
+    ### Second attempt is made when the affiliation is not clear.
+    
     
     DEBUG = False
     for organiser in organisers:
+        
+        organiser["openalex_name"] = ""
+        organiser["openalex_page"] = ""
+        organiser["orcid"] = ""
+        organiser["affiliation_ror"] = ""
+        
         find_author_with_less_info = False
         orga = {}
-        # Search for the institution
+        
+        # Search for the institution and then filtering
         insts = Institutions().search(organiser["organiser_affiliation"]).get()
-        # print(f"{len(insts)} search results found for the institution")
-        # print(insts)
         if len(insts) > 0:
             inst_id = insts[0]["id"].replace("https://openalex.org/", "")
     
@@ -177,8 +204,9 @@ def get_authors_info_from_openalex(organisers:list)->list:
                 
         else:
             find_author_with_less_info = True
-            if DEBUG: print(f"For {organiser['organiser_name']} I could not find a record of her institution")
+            if DEBUG: print(f"For {organiser['organiser_name']} I could not find a record of their institution")
     
+        # Search for authors without institution info
         if find_author_with_less_info:
             auths = Authors().search(organiser['organiser_name']).get()
             if len(auths) == 1:
@@ -188,13 +216,40 @@ def get_authors_info_from_openalex(organisers:list)->list:
             else:
                 if DEBUG: print(f"Found multiple records for {organiser['organiser_name']}")
                 new_auths = sorted(auths, key=lambda item: item['works_count'], reverse=True)
-                orga = new_auths[0]
+    
+                # this algorithm makes sure we match the author with the most similar name
+                max_similarity = 0
+                final_position = -1
+                for author_position, new_auth in enumerate(new_auths):
+                    all_alternative_names = new_auth["display_name_alternatives"]
+                    for alternative_name in all_alternative_names:
+                        author_similarity = Levenshtein.normalized_similarity(alternative_name,organiser['organiser_name'])
+                        if author_similarity > max_similarity:
+                            if DEBUG: print(f"{alternative_name}; {author_position}; {author_similarity}")
+                            max_similarity = author_similarity
+                            final_position = author_position
+    
+                orga = new_auths[final_position]
     
         if len(orga) > 0:
             organiser["openalex_name"] = orga["display_name"]
             organiser["openalex_page"] = orga["id"]
             organiser["orcid"] = orga["orcid"]
-
+            if organiser["affiliation_ror"] == "":
+                last_known_institutions = orga["last_known_institutions"]
+                max_similarity = 0
+                final_position = -1
+                for institution_position, last_known_institution in enumerate(last_known_institutions):
+                    institute_name = last_known_institution["display_name"]
+                    institution_similarity = fuzz.token_set_ratio(institute_name,organiser["organiser_affiliation"])
+                    if institution_similarity > max_similarity:
+                        if DEBUG: print(f"{institute_name}; {institution_position}; {institution_similarity}")
+                        max_similarity = institution_similarity
+                        final_position = institution_position
+                if max_similarity >= 40:        
+                    organiser_institution_from_OA = last_known_institutions[final_position]
+                    organiser["affiliation_ror"] = organiser_institution_from_OA["ror"]
+    
     return organisers
 
 
