@@ -1,0 +1,168 @@
+14th International Conference on Complex Networks & Their Applications
+
+Binghamton, New York USA
+
+December 09 - 11, 2025
+
+COMPLEX NETWORKS 2025
+
+ 
+
+You are cordially invited to submit your contribution by September 02, 2025.
+
+ 
+
+KEYNOTE SPEAKERS
+
+ 
+
+·      Luis Bettencourt University of Chicago
+
+·      Michelle Girvan University of Maryland
+
+·      Kimberly Glass Harvard Medical School
+
+·      Mark Newman University of Michigan
+
+·      David Stark Columbia University
+
+ 
+
+ 
+
+TUTORIALS (December 08, 2025)
+
+• Brennan Klein Northeastern University
+• Yian Yin Cornell University
+
+ 
+
+SUBMISSION
+
+You can submit at : https://complexnetworks.org/submission/
+
+ 
+
+·       A Full paper (not previously published work up to 12 pages)
+
+·       An Extended Abstract (about published or unpublished research up to 4 pages)
+
+ 
+
+PUBLICATION
+
+·       Papers will be included in the conference proceedings edited by Springer
+
+·       Extended abstracts will be published in the Book of Abstracts (with ISBN)
+
+·       Extended versions will be invited for publication in special issues of international journals:
+
+o   Applied Network Science edited by Springer
+
+o   Advances in Complex Systems edited by World Scientific
+
+o   Complex Systems 
+
+o   Entropy edited by MDPI
+
+o   PLOS Complex Systems
+
+o   PLOS one
+
+o   Social Network Analysis and Mining edited by Springer
+
+ 
+
+ 
+
+TOPICS
+
+Topics include, but are not limited to:
+
+o   Models of Complex Networks
+
+o   Structural Network Properties and Analysis
+
+o   Epidemics
+
+o   Community Structure
+
+o   Motifs
+
+o   Network Mining
+
+o   Network embedding
+
+o   Machine learning with graphs
+
+o   Dynamics and Evolution Patterns of Complex Networks
+
+o   Link Prediction
+
+o   Multilayer Networks
+
+o   Controllability
+
+o   Synchronization
+
+o   Visual Representation
+
+o   Large-scale Graph Analytics
+
+o   Social Reputation, Influence, and Trust
+
+o   Information Spreading in Social Media
+
+o   Rumour and Viral Marketing in Social Networks
+
+o   Recommendation Systems
+
+o   Financial and Economic Networks
+
+o   Mobility
+
+o   Biological and Technological Networks
+
+o   Mobile call Networks
+
+o   Bioinformatics
+
+o   Earth Sciences Applications
+
+o   Resilience and Robustness of Complex Networks
+
+o   Networks for Physical Infrastructures
+
+o   Networks, Smart Cities and Smart Grids
+
+o   Political networks
+
+o   Supply chain networks
+
+o   Complex networks and information systems
+
+o   Complex networks and CPS/IoT
+
+o   Graph signal processing
+
+o   Cognitive Network Science
+
+o   Network Medicine
+
+o   Network Neuroscience
+
+o   Quantifying success through network analysis
+
+o   Temporal and spatial networks
+
+o   Historical Networks
+
+o   Graph-Based Natural Language Processing
+
+ 
+
+GENERAL CHAIRS
+
+Hocine Cherifi (University of Burgundy, France)
+
+Luis M. Rocha (Binghamton University, USA)

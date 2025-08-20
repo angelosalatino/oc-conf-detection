@@ -32,7 +32,7 @@ Short Paper Track Dates
         •       Short paper notification: December 16, 2025 (AoE)
         •       Main conference: March 30 – April 1, 2026
 Short Paper Track Chairs
-        •       Sean McAvaney (University of Glasgow, UK)
+        •       Sean MacAvaney (University of Glasgow, UK)
         •       Mohammad Aliannejadi (University of Amsterdam, The Netherlands)
         •       Christine Bauer (University of Salzburg, Austria)
         •       Contact: ecir2026-short AT easychair.org

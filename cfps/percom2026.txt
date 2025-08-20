@@ -1,0 +1,72 @@
+==========================================================
+PERCOM 2026 - CALL FOR PAPERS
+==========================================================
+The 24th International Conference on Pervasive Computing and
+Communications (PerCom 2026), March 2026
+Pisa, Italy
+http://www.percom.org
+==========================================================
+
+IEEE PerCom, now in its 24th year, will be held in Pisa, Italy in March 2026 as an in-person physical event.
+
+PerCom is the premier annual scholarly venue in pervasive computing and communications. Pervasive computing is at the forefront of mobile systems research, and has found its way into many commercial applications due to tremendous advances in a broad spectrum of technologies and topics such as wireless networking, mobile and distributed computing, sensor systems, ambient intelligence, and smart devices.
+
+SCOPE
+
+PerCom 2026 solicits research contributions in all areas pertinent to pervasive computing and communications, especially those that cross traditional research boundaries. In particular, PerCom targets contributions in:
+
+* Advances in pervasive systems and infrastructures: middleware systems and services; data engineering for pervasive computing; cloud, fog and edge computing; integrations of smartphones in pervasive experiences; applications of device-to-device coordination.
+
+* Theories, models, and algorithms: context modeling & reasoning; adaptive computing; activity & emotion recognition; programming paradigms; applied deep/federated/decentralized machine learning; causal learning; cognitive computing; complex networks; spatio-temporal modeling.
+
+* Domain-specific challenges and novel applications: urban/mobile crowdsensing & intelligence; PerCom for healthcare and well-being; cyber-physical Systems; PerCom for space applications, smart homes and virtual assistants; mixed reality; sports analytics; crime prevention; pervasive nowcasting; urban robotics; pervasive AR/VR; smart vehicles; disaster sensing and management.
+
+* Intersections of PerCom with: IoT and sensor systems; Large Language Models; opportunistic networks; pervasive data science; Cyber-physical systems; 3D networks.
+
+* Enablers for PerCom instrumentation: Security, privacy and trust in Pervasive Computing, Ethical aspects of Pervasive Computing.
+
+* New techniques for user-level interaction: participatory and social sensing; fairness, ethics; user interface, interaction, persuasion; online and offline social networking; human-machine collaboration.
+
+* Technological innovations: architectures, protocols, and technologies for pervasive communications; energy-harvesting, self-powered or battery-less systems; mobile and wearable systems; smart devices and environments; positioning, navigation, timing, and tracking technologies; device-free human sensing.
+
+Contributions can be analytical, empirical, technological, methodological, or a combination thereof. Papers reporting strong systems engineering contributions backed by solid and appropriate evaluations are strongly encouraged.
+
+Contributions should be novel (minor improvements over the state of the art will not be considered), should demonstrate a significant impact (i.e., they should address an outstanding problem), and should be rigorous.
+
+Note that the impact of the contributions should be demonstrated in the context of pervasive computing and communications applications.
+
+READ BEFORE SUBMITTING
+
+PerCom 2026 will follow a double-blind review process. Authors are expected to make a good-faith effort to anonymize their submissions. For detailed submission instructions, please check the www.percom.org website.
+
+PerCom 2026 introduces a rebuttal phase to further improve the quality of the review process. Authors are offered the opportunity to respond to the initial reviews. Particularly, they are encouraged to briefly clarify points, explain misunderstandings, etc.
+
+PerCom would not be PerCom without its community. For this reason, we are looking for ways to strengthen the community and encourage meaningful interactions.
+
+To this end, all accepted papers must be presented in person by one of the authors, in addition to having an associated full registration. Failure to comply with this requirement will result in the exclusion of the paper from the final proceedings and from the IEEE Digital Library, and the paper will not be eligible for the Best Paper Award.
+
+IMPORTANT DATES
+
+* Paper registration in EDAS: September 12, 2025, AoE
+* Submission via EDAS: September 19, 2025, AoE
+* 1st stage notification: November 28, 2025, AoE
+* Rebuttal submission: December 5, 2025, AoE
+* Notification: December 22, 2025, AoE
+* Camera Ready: February 2, 2026, AoE
+
+BEST PAPER AWARD AND EDITORIAL FOLLOW-UPS
+The best paper will receive the prestigious Mark Weiser Best Paper Award.
+
+Selected papers will be invited to submit extended versions for a special issue of the Pervasive and Mobile Computing Journal.
+
+ORGANIZING COMMITTEE
+* General Chairs
+Chiara Boldrini, IIT-CNR, Italy
+Amy L. Murphy, Bruno Kessler Foundation, Trento, Italy
+
+* TPC Chair and Vice-Chairs
+Stephan Sigg, Aalto University, Finland
+Qi Han, Colorado School of Mines, US
+Gabriele Civitarese, University of Milan, Italy
+Sandip Chakraborty, Indian Institute of Technology Kharagpur, India
+
