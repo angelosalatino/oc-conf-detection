@@ -1,0 +1,40 @@
+{
+    "event_name": "14th International Conference on Complex Networks & Their Applications",
+    "conference_series": "Complex Networks & Their Applications",
+    "event_acronym": "COMPLEX NETWORKS 2025",
+    "colocated_with": "",
+    "location": "Binghamton, New York USA",
+    "organisers": [
+        {
+            "organiser_name": "Hocine Cherifi",
+            "organiser_affiliation": "University of Burgundy",
+            "organiser_country": "France",
+            "track_name": "main",
+            "openalex_name": "Hocine Cherifi",
+            "openalex_page": "https://openalex.org/A5006125158",
+            "orcid": "https://orcid.org/0000-0001-9124-4921",
+            "affiliation_ror": "https://ror.org/03k1bsr36"
+        },
+        {
+            "organiser_name": "Luis M. Rocha",
+            "organiser_affiliation": "Binghamton University",
+            "organiser_country": "USA",
+            "track_name": "main",
+            "openalex_name": "Lu\u00eds M. Rocha",
+            "openalex_page": "https://openalex.org/A5065682719",
+            "orcid": "https://orcid.org/0000-0001-9402-887X",
+            "affiliation_ror": "https://ror.org/008rmbt77"
+        }
+    ],
+    "DBLP": {
+        "name": "International Workshop on Complex Networks & Their Applications (COMPLEX NETWORKS)",
+        "id": "complexnetworks",
+        "url": "https://dblp.org/streams/conf/complexnetworks"
+    },
+    "AIDA": {
+        "name": "Complex Networks & Their Applications",
+        "id": "complexnetworks",
+        "url": "https://w3id.org/aida/dashboard/cs/conference/Complex%20Networks%20%26%20Their%20Applications"
+    },
+    "ConfIDent": {}
+}
