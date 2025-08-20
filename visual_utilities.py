@@ -109,6 +109,17 @@ def display_main(conf_data:dict)->None:
                                         })
     
     
+    def check_series(x):
+        for i in x:
+            if len(i) > 0:
+                return True
+        return False
+
+    final_list_columns = organisers.apply(lambda x: check_series(x), axis=0)
+    organisers = organisers[final_list_columns[final_list_columns==True].index]
+    
+    
+    
     conf_info = dict()
     conf_info["Event"] = conf_data["event_name"]
     conf_info["Acronym"] = conf_data["event_acronym"]
@@ -139,9 +150,6 @@ def display_main(conf_data:dict)->None:
     
     card(conf_data["event_name"],description)
     
-
-    
-
     
     
     
@@ -207,12 +215,12 @@ def display_main(conf_data:dict)->None:
             }
             """
         ):
-            download2 = st.download_button(
+            download = st.download_button(
                 label="Download data as Excel",
                 data=buffer,
                 file_name=f"{export_file}.xlsx",
                 mime='application/vnd.ms-excel',
             )
-       
+
             
 
