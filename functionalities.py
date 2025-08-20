@@ -91,7 +91,7 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
               },
               "conference_series": {
                 "type": "string",
-                "description": "This refers to the name of a conference series, which is a collection of events that happen on a regular basis. It's usually similar to the event's name, but without the edition number or the year."
+                "description": "This refers to the name of a conference series, which is a collection of events that happen on a regular basis. It's usually similar to the event_name property, but without the edition number or the year. Also it does not contain the event_acronym."
               },
               "event_acronym": {
                 "type": "string",
@@ -124,7 +124,7 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
                             },
                             "track_name": {
                                 "type": "string",
-                                "description": "This identifies the main track in which the organiser is involved. A conference may have several tracks, whereas a workshop may have one single track. As default you shall use 'main'."
+                                "description": "This identifies the main track in which the organiser is involved. A conference may have several tracks, whereas a workshop may have one single track. As default value you shall use 'main' if there are no tracks."
                             }
                         },
                     "required": ["organiser_name", "organiser_affiliation", "organiser_country", "track_name"],
@@ -144,6 +144,19 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
                                             messages=messages, 
                                             response_format=response_format)
     result = json.loads(completion.choices[0].message.content)
+    
+    # clean the track name, as it is harder to do this via LLM
+    tracks = set()
+    for organiser in result["organisers"]:
+        tracks.add(organiser["track_name"])
+    
+    multi_track = True if len(tracks) > 1 else False
+    for organiser in result["organisers"]:
+        if organiser["track_name"].lower() == "main":
+            print("Changed")
+            organiser["track_name"] = "Other"
+    
+    
     return result
 
 
@@ -269,16 +282,15 @@ def match_conference_with_other_datasets(result:dict)->dict:
     result["DBLP"]=dict()
     D, I = dblp_confs["index"].search(embeddings, k=1)
     if D[0][0] <= 0.4:
-        this_conf = dblp_confs["sentences"][I[0][0]]
-        this_acronym = dblp_confs["confs"][this_conf]
-        # print(this_conf)
-        # print(this_acronym)
-        # print(f"https://dblp.org/streams/conf/{urllib.parse.quote(this_acronym, safe='')}")
-        result["DBLP"]["name"]= this_conf
-        result["DBLP"]["id"]  = this_acronym
-        result["DBLP"]["url"] = f"https://dblp.org/streams/conf/{urllib.parse.quote(this_acronym, safe='')}"
-        
-        
+        this_conf_dblp = dblp_confs["sentences"][I[0][0]]
+        this_acronym_dblp = dblp_confs["confs"][this_conf_dblp]
+        # print(this_conf_dblp)
+        # print(this_acronym_dblp)
+        # print(f"https://dblp.org/streams/conf/{urllib.parse.quote(this_acronym_dblp, safe='')}")
+    else:
+        this_conf_dblp = ""
+        this_acronym_dblp = ""
+
     with open('AIDA.pickle', 'rb') as handle:
         aida_confs = pickle.load(handle)
     
@@ -290,9 +302,10 @@ def match_conference_with_other_datasets(result:dict)->dict:
         # print(this_conf_aida)
         # print(this_acronym_aida)
         # print(f"https://w3id.org/aida/dashboard/cs/conference/{urllib.parse.quote(this_conf_aida, safe='')}")
-        result["AIDA"]["name"]= this_conf_aida
-        result["AIDA"]["id"]  = this_acronym_aida
-        result["AIDA"]["url"] = f"https://w3id.org/aida/dashboard/cs/conference/{urllib.parse.quote(this_conf_aida, safe='')}"
+    else:
+        this_conf_aida = ""
+        this_acronym_aida = ""
+        
 
 
     with open('ConfIDent.pickle', 'rb') as handle:
@@ -305,7 +318,83 @@ def match_conference_with_other_datasets(result:dict)->dict:
         this_id_confident = confident_confs["confs"][this_conf_confident]
         # print(this_conf_confident)
         # print(this_id_confident)
-        # print(f"https://www.confident-conference.org/index.php/{urllib.parse.quote(this_id_confident, safe='')}")        
+        # print(f"https://www.confident-conference.org/index.php/{urllib.parse.quote(this_id_confident, safe='')}")
+    else:
+        this_conf_confident = ""
+        this_id_confident = ""
+        
+
+    
+    similarity_dblp = Levenshtein.normalized_similarity(this_conf_dblp,result["conference_series"])
+    similarity_aida = Levenshtein.normalized_similarity(this_conf_aida,result["conference_series"])
+    similarity_confident = Levenshtein.normalized_similarity(this_conf_confident,result["conference_series"])
+
+    # print(similarity_dblp,similarity_aida,similarity_confident)
+
+    if similarity_dblp > max(similarity_aida,similarity_confident):
+        # print("I am here 1")
+        result["DBLP"]["name"]= this_conf_dblp
+        result["DBLP"]["id"]  = this_acronym_dblp
+        result["DBLP"]["url"] = f"https://dblp.org/streams/conf/{urllib.parse.quote(this_acronym_dblp, safe='')}"
+
+        if this_acronym_dblp in aida_confs["dblp"]:
+            this_conf_aida = aida_confs["dblp"][this_acronym_dblp]
+            this_acronym_aida = this_acronym_dblp
+    
+            result["AIDA"]["name"]= this_conf_aida
+            result["AIDA"]["id"]  = this_acronym_aida
+            result["AIDA"]["url"] = f"https://w3id.org/aida/dashboard/cs/conference/{urllib.parse.quote(this_conf_aida, safe='')}"
+
+        if this_acronym_dblp in confident_confs["dblp_confs"]:
+            this_id_confident = confident_confs["dblp_confs"][this_acronym_dblp]
+            this_conf_confident = confident_confs["confids"][this_id_confident]
+            
+            result["ConfIDent"]["name"]= this_conf_confident
+            result["ConfIDent"]["id"]  = this_id_confident
+            result["ConfIDent"]["url"] = f"https://www.confident-conference.org/index.php/{urllib.parse.quote(this_id_confident, safe='')}"
+
+    if similarity_aida > max(similarity_dblp,similarity_confident):
+        # print("I am here 2")
+        if this_acronym_aida in dblp_confs["idsconfs"]:
+            this_conf_dblp =  dblp_confs["idsconfs"][this_acronym_aida]
+            this_acronym_dblp = this_acronym_aida
+
+            result["DBLP"]["name"]= this_conf_dblp
+            result["DBLP"]["id"]  = this_acronym_dblp
+            result["DBLP"]["url"] = f"https://dblp.org/streams/conf/{urllib.parse.quote(this_acronym_dblp, safe='')}"
+    
+        result["AIDA"]["name"]= this_conf_aida
+        result["AIDA"]["id"]  = this_acronym_aida
+        result["AIDA"]["url"] = f"https://w3id.org/aida/dashboard/cs/conference/{urllib.parse.quote(this_conf_aida, safe='')}"
+
+        if this_acronym_aida in confident_confs["dblp_confs"]:
+            this_id_confident = confident_confs["dblp_confs"][this_acronym_dblp]
+            this_conf_confident = confident_confs["confids"][this_id_confident]
+        
+            result["ConfIDent"]["name"]= this_conf_confident
+            result["ConfIDent"]["id"]  = this_id_confident
+            result["ConfIDent"]["url"] = f"https://www.confident-conference.org/index.php/{urllib.parse.quote(this_id_confident, safe='')}"
+
+    if similarity_confident > max(similarity_aida,similarity_dblp):
+        # print("I am here 3")
+        if this_id_confident in confident_confs["event2dblp"]:
+            dblp_id = confident_confs["event2dblp"][this_id_confident]
+            if dblp_id in dblp_confs["idsconfs"]:
+                this_conf_dblp =  dblp_confs["idsconfs"][dblp_id]
+                this_acronym_dblp = dblp_id
+        
+                result["DBLP"]["name"]= this_conf_dblp
+                result["DBLP"]["id"]  = this_acronym_dblp
+                result["DBLP"]["url"] = f"https://dblp.org/streams/conf/{urllib.parse.quote(this_acronym_dblp, safe='')}"
+        
+            if dblp_id in aida_confs["dblp"]:
+                this_conf_aida = aida_confs["dblp"][dblp_id]
+                this_acronym_aida = dblp_id
+            
+                result["AIDA"]["name"]= this_conf_aida
+                result["AIDA"]["id"]  = this_acronym_aida
+                result["AIDA"]["url"] = f"https://w3id.org/aida/dashboard/cs/conference/{urllib.parse.quote(this_conf_aida, safe='')}"
+    
         result["ConfIDent"]["name"]= this_conf_confident
         result["ConfIDent"]["id"]  = this_id_confident
         result["ConfIDent"]["url"] = f"https://www.confident-conference.org/index.php/{urllib.parse.quote(this_id_confident, safe='')}"

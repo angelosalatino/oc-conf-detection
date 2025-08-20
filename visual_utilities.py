@@ -89,6 +89,17 @@ def display_main(conf_data:dict)->None:
     
     ##### PROCESS DATA
     
+    # clean the track name, as it is harder to do this via LLM
+    tracks = set()
+    for organiser in conf_data["organisers"]:
+        tracks.add(organiser["track_name"])
+    
+    multi_track = True if len(tracks) > 1 else False
+    for organiser in conf_data["organisers"]:
+        if organiser["track_name"].lower() == "main":
+            print("Changed")
+            organiser["track_name"] = "Other"
+    
     organisers = pd.DataFrame.from_dict(conf_data["organisers"])
     organisers = organisers[["organiser_name",
                              "openalex_name",
