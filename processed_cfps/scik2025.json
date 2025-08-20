@@ -8,71 +8,72 @@
         {
             "organiser_name": "Anna Jacyszyn",
             "organiser_affiliation": "FIZ Karlsruhe",
-            "organiser_country": "Germany",
+            "organiser_country": "DE",
             "track_name": "main",
-            "affiliation_ror": "https://ror.org/0387prb75",
             "openalex_name": "Anna M. Jacyszyn-Dobrzeniecka",
             "openalex_page": "https://openalex.org/A5022092555",
-            "orcid": "https://orcid.org/0000-0002-5649-536X"
+            "orcid": "https://orcid.org/0000-0002-5649-536X",
+            "affiliation_ror": "https://ror.org/0387prb75"
         },
         {
             "organiser_name": "Andrea Mannocci",
             "organiser_affiliation": "CNR-ISTI",
-            "organiser_country": "Italy",
+            "organiser_country": "IT",
             "track_name": "main",
-            "affiliation_ror": "https://ror.org/05kacka20",
             "openalex_name": "Andrea Mannocci",
             "openalex_page": "https://openalex.org/A5059509070",
-            "orcid": "https://orcid.org/0000-0002-5193-7851"
+            "orcid": "https://orcid.org/0000-0002-5193-7851",
+            "affiliation_ror": "https://ror.org/05kacka20"
         },
         {
             "organiser_name": "Francesco Osborne",
             "organiser_affiliation": "The Open University",
-            "organiser_country": "United Kingdom",
+            "organiser_country": "UK",
             "track_name": "main",
-            "affiliation_ror": "https://ror.org/05mzfcs16",
             "openalex_name": "Francesco Osborne",
             "openalex_page": "https://openalex.org/A5066447873",
-            "orcid": "https://orcid.org/0000-0001-6557-3131"
+            "orcid": "https://orcid.org/0000-0001-6557-3131",
+            "affiliation_ror": "https://ror.org/05mzfcs16"
         },
         {
             "organiser_name": "Georg Rehm",
             "organiser_affiliation": "DFKI",
-            "organiser_country": "Germany",
+            "organiser_country": "DE",
             "track_name": "main",
-            "affiliation_ror": "https://ror.org/01ayc5b57",
             "openalex_name": "Georg Rehm",
             "openalex_page": "https://openalex.org/A5104366289",
-            "orcid": "https://orcid.org/0000-0002-7800-1893"
+            "orcid": "https://orcid.org/0000-0002-7800-1893",
+            "affiliation_ror": "https://ror.org/01ayc5b57"
         },
         {
             "organiser_name": "Angelo Salatino",
             "organiser_affiliation": "The Open University",
-            "organiser_country": "United Kingdom",
+            "organiser_country": "UK",
             "track_name": "main",
-            "affiliation_ror": "https://ror.org/05mzfcs16",
             "openalex_name": "Angelo A. Salatino",
             "openalex_page": "https://openalex.org/A5074395069",
-            "orcid": "https://orcid.org/0000-0002-4763-3943"
+            "orcid": "https://orcid.org/0000-0002-4763-3943",
+            "affiliation_ror": "https://ror.org/05mzfcs16"
         },
         {
             "organiser_name": "Sonja Schimmler",
             "organiser_affiliation": "TU Berlin, Fraunhofer FOKUS",
-            "organiser_country": "Germany",
+            "organiser_country": "DE",
             "track_name": "main",
             "openalex_name": "Sonja Schimmler",
             "openalex_page": "https://openalex.org/A5001523587",
-            "orcid": "https://orcid.org/0000-0002-8786-7250"
+            "orcid": "https://orcid.org/0000-0002-8786-7250",
+            "affiliation_ror": "https://ror.org/00px80p03"
         },
         {
             "organiser_name": "Lise Stork",
             "organiser_affiliation": "University of Amsterdam",
-            "organiser_country": "Netherlands",
+            "organiser_country": "NL",
             "track_name": "main",
-            "affiliation_ror": "https://ror.org/04dkp9463",
             "openalex_name": "Lise Stork",
             "openalex_page": "https://openalex.org/A5001824063",
-            "orcid": "https://orcid.org/0000-0002-2146-4803"
+            "orcid": "https://orcid.org/0000-0002-2146-4803",
+            "affiliation_ror": "https://ror.org/04dkp9463"
         }
     ],
     "DBLP": {

@@ -1,5 +1,5 @@
 {
-    "event_name": "24th International Semantic Web Conference (ISWC 2025)",
+    "event_name": "24th International Semantic Web Conference",
     "conference_series": "International Semantic Web Conference",
     "event_acronym": "ISWC 2025",
     "colocated_with": "",
@@ -9,7 +9,7 @@
             "organiser_name": "Daniel Garijo",
             "organiser_affiliation": "Universidad Polit\u00e9cnica de Madrid",
             "organiser_country": "Spain",
-            "track_name": "Research",
+            "track_name": "research",
             "affiliation_ror": "https://ror.org/03n6nwv02",
             "openalex_name": "Daniel Garijo",
             "openalex_page": "https://openalex.org/A5033224077",
@@ -19,7 +19,7 @@
             "organiser_name": "Sabrina Kirrane",
             "organiser_affiliation": "Vienna University of Economics and Business",
             "organiser_country": "Austria",
-            "track_name": "Research",
+            "track_name": "research",
             "affiliation_ror": "https://ror.org/03yn8s215",
             "openalex_name": "Sabrina Kirrane",
             "openalex_page": "https://openalex.org/A5084740363",
@@ -29,7 +29,7 @@
             "organiser_name": "Cogan Shimizu",
             "organiser_affiliation": "Wright State University",
             "organiser_country": "US",
-            "track_name": "Resource",
+            "track_name": "resource",
             "affiliation_ror": "https://ror.org/04qk6pt94",
             "openalex_name": "Cogan Shimizu",
             "openalex_page": "https://openalex.org/A5073404100",
@@ -39,16 +39,17 @@
             "organiser_name": "Angelo Salatino",
             "organiser_affiliation": "KMi, The Open University",
             "organiser_country": "UK",
-            "track_name": "Resource",
+            "track_name": "resource",
             "openalex_name": "Angelo A. Salatino",
             "openalex_page": "https://openalex.org/A5074395069",
-            "orcid": "https://orcid.org/0000-0002-4763-3943"
+            "orcid": "https://orcid.org/0000-0002-4763-3943",
+            "affiliation_ror": "https://ror.org/05mzfcs16"
         },
         {
             "organiser_name": "Maribel Acosta",
             "organiser_affiliation": "Technical University of Munich",
             "organiser_country": "Germany",
-            "track_name": "In-use",
+            "track_name": "in-use",
             "affiliation_ror": "https://ror.org/02kkvpp62",
             "openalex_name": "Maribel Acosta",
             "openalex_page": "https://openalex.org/A5091892854",
@@ -58,16 +59,17 @@
             "organiser_name": "Andrea Giovanni Nuzzolese",
             "organiser_affiliation": "CNR - Institute of Cognitive Sciences and Technologies",
             "organiser_country": "Italy",
-            "track_name": "In-use",
+            "track_name": "in-use",
             "openalex_name": "Andrea Giovanni Nuzzolese",
             "openalex_page": "https://openalex.org/A5035126139",
-            "orcid": "https://orcid.org/0000-0003-2928-9496"
+            "orcid": "https://orcid.org/0000-0003-2928-9496",
+            "affiliation_ror": "https://ror.org/05w9g2j85"
         },
         {
             "organiser_name": "Gong Cheng",
             "organiser_affiliation": "Nanjing University",
             "organiser_country": "China",
-            "track_name": "Posters and Demos",
+            "track_name": "posters and demos",
             "affiliation_ror": "https://ror.org/01rxvg760",
             "openalex_name": "Gong Cheng",
             "openalex_page": "https://openalex.org/A5012491649",
@@ -77,7 +79,7 @@
             "organiser_name": "Shenghui Wang",
             "organiser_affiliation": "University of Twente",
             "organiser_country": "The Netherlands",
-            "track_name": "Posters and Demos",
+            "track_name": "posters and demos",
             "affiliation_ror": "https://ror.org/006hf6230",
             "openalex_name": "Shenghui Wang",
             "openalex_page": "https://openalex.org/A5065278736",
@@ -87,7 +89,7 @@
             "organiser_name": "Mayank Kejriwal",
             "organiser_affiliation": "University of Southern California",
             "organiser_country": "United States",
-            "track_name": "Semantic Web Challenges",
+            "track_name": "challenges",
             "affiliation_ror": "https://ror.org/03taz7m60",
             "openalex_name": "Mayank Kejriwal",
             "openalex_page": "https://openalex.org/A5074197492",
@@ -97,16 +99,17 @@
             "organiser_name": "Pablo Mendes",
             "organiser_affiliation": "Upwork",
             "organiser_country": "United States",
-            "track_name": "Semantic Web Challenges",
-            "openalex_name": "Lu\u00eds Silva",
-            "openalex_page": "https://openalex.org/A5016662553",
-            "orcid": "https://orcid.org/0000-0002-3434-6056"
+            "track_name": "challenges",
+            "openalex_name": "Pablo N. Mendes",
+            "openalex_page": "https://openalex.org/A5012347190",
+            "orcid": "https://orcid.org/0000-0002-0079-7991",
+            "affiliation_ror": ""
         },
         {
             "organiser_name": "Blerina Spahiu",
             "organiser_affiliation": "University of Milano-Bicocca",
             "organiser_country": "Italy",
-            "track_name": "Workshops",
+            "track_name": "workshops, dagstuhl style workshops, tutorials",
             "affiliation_ror": "https://ror.org/01ynf4891",
             "openalex_name": "Blerina Spahiu",
             "openalex_page": "https://openalex.org/A5088767562",
@@ -116,16 +119,17 @@
             "organiser_name": "Juan Sequeda",
             "organiser_affiliation": "data.world",
             "organiser_country": "USA",
-            "track_name": "Workshops",
+            "track_name": "workshops, dagstuhl style workshops, tutorials",
             "openalex_name": "Juan Sequeda",
             "openalex_page": "https://openalex.org/A5014287041",
-            "orcid": "https://orcid.org/0000-0003-3112-9299"
+            "orcid": "https://orcid.org/0000-0003-3112-9299",
+            "affiliation_ror": ""
         },
         {
             "organiser_name": "Oktie Hassanzadeh",
             "organiser_affiliation": "IBM Research",
             "organiser_country": "US",
-            "track_name": "Industry",
+            "track_name": "industry",
             "affiliation_ror": "https://ror.org/0265w5591",
             "openalex_name": "Oktie Hassanzadeh",
             "openalex_page": "https://openalex.org/A5068065546",
@@ -135,7 +139,7 @@
             "organiser_name": "Irene Celino",
             "organiser_affiliation": "Cefriel",
             "organiser_country": "Italy",
-            "track_name": "Industry",
+            "track_name": "industry",
             "affiliation_ror": "https://ror.org/046bfkz44",
             "openalex_name": "Irene Celino",
             "openalex_page": "https://openalex.org/A5054444380",
@@ -145,7 +149,7 @@
             "organiser_name": "Abraham Bernstein",
             "organiser_affiliation": "University of Zurich",
             "organiser_country": "Switzerland",
-            "track_name": "Doctoral Consortium",
+            "track_name": "doctoral consortium",
             "affiliation_ror": "https://ror.org/02crff812",
             "openalex_name": "Abraham Bernstein",
             "openalex_page": "https://openalex.org/A5073592405",
@@ -155,10 +159,11 @@
             "organiser_name": "Natasha Noy",
             "organiser_affiliation": "Google Research",
             "organiser_country": "US",
-            "track_name": "Doctoral Consortium",
+            "track_name": "doctoral consortium",
             "openalex_name": "Natasha Noy",
             "openalex_page": "https://openalex.org/A5041421536",
-            "orcid": "https://orcid.org/0000-0002-7437-0624"
+            "orcid": "https://orcid.org/0000-0002-7437-0624",
+            "affiliation_ror": "https://ror.org/00njsd438"
         }
     ],
     "DBLP": {
@@ -167,9 +172,9 @@
         "url": "https://dblp.org/streams/conf/semweb"
     },
     "AIDA": {
-        "name": "International Semantic Web Conference (ISWC)",
+        "name": "International Semantic Web Conference",
         "id": "semweb",
-        "url": "https://w3id.org/aida/dashboard/cs/conference/International%20Semantic%20Web%20Conference%20%28ISWC%29"
+        "url": "https://w3id.org/aida/dashboard/cs/conference/International%20Semantic%20Web%20Conference"
     },
     "ConfIDent": {
         "name": "International Semantic Web Conference",
