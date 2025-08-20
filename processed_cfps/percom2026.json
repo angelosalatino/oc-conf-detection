@@ -1,0 +1,84 @@
+{
+    "event_name": "The 24th International Conference on Pervasive Computing and Communications",
+    "conference_series": "International Conference on Pervasive Computing and Communications",
+    "event_acronym": "PerCom 2026",
+    "colocated_with": "",
+    "location": "Pisa, Italy",
+    "organisers": [
+        {
+            "organiser_name": "Chiara Boldrini",
+            "organiser_affiliation": "IIT-CNR",
+            "organiser_country": "Italy",
+            "track_name": "General Chairs",
+            "openalex_name": "Chiara Boldrini",
+            "openalex_page": "https://openalex.org/A5025706910",
+            "orcid": "https://orcid.org/0000-0001-5080-8110",
+            "affiliation_ror": "https://ror.org/02gdcn153"
+        },
+        {
+            "organiser_name": "Amy L. Murphy",
+            "organiser_affiliation": "Bruno Kessler Foundation",
+            "organiser_country": "Italy",
+            "track_name": "General Chairs",
+            "openalex_name": "Amy L. Murphy",
+            "openalex_page": "https://openalex.org/A5002205400",
+            "orcid": "https://orcid.org/0000-0002-0733-2978",
+            "affiliation_ror": "https://ror.org/01j33xk10"
+        },
+        {
+            "organiser_name": "Stephan Sigg",
+            "organiser_affiliation": "Aalto University",
+            "organiser_country": "Finland",
+            "track_name": "TPC Chair and Vice-Chairs",
+            "openalex_name": "Stephan Sigg",
+            "openalex_page": "https://openalex.org/A5045150110",
+            "orcid": "https://orcid.org/0000-0001-6118-3355",
+            "affiliation_ror": "https://ror.org/020hwjq30"
+        },
+        {
+            "organiser_name": "Qi Han",
+            "organiser_affiliation": "Colorado School of Mines",
+            "organiser_country": "US",
+            "track_name": "TPC Chair and Vice-Chairs",
+            "openalex_name": "Qi Han",
+            "openalex_page": "https://openalex.org/A5101494992",
+            "orcid": "https://orcid.org/0000-0002-5856-383X",
+            "affiliation_ror": "https://ror.org/04raf6v53"
+        },
+        {
+            "organiser_name": "Gabriele Civitarese",
+            "organiser_affiliation": "University of Milan",
+            "organiser_country": "Italy",
+            "track_name": "TPC Chair and Vice-Chairs",
+            "openalex_name": "Gabriele Civitarese",
+            "openalex_page": "https://openalex.org/A5068914794",
+            "orcid": "https://orcid.org/0000-0002-8247-2524",
+            "affiliation_ror": "https://ror.org/00wjc7c48"
+        },
+        {
+            "organiser_name": "Sandip Chakraborty",
+            "organiser_affiliation": "Indian Institute of Technology Kharagpur",
+            "organiser_country": "India",
+            "track_name": "TPC Chair and Vice-Chairs",
+            "openalex_name": "Sandip Chakraborty",
+            "openalex_page": "https://openalex.org/A5006910391",
+            "orcid": "https://orcid.org/0000-0002-2792-3281",
+            "affiliation_ror": "https://ror.org/03w5sq511"
+        }
+    ],
+    "DBLP": {
+        "name": "International Conference on Pervasive Computing (Pervasive)",
+        "id": "pervasive",
+        "url": "https://dblp.org/streams/conf/pervasive"
+    },
+    "AIDA": {
+        "name": "IEEE International Conference on Pervasive Computing and Communications",
+        "id": "percom",
+        "url": "https://w3id.org/aida/dashboard/cs/conference/IEEE%20International%20Conference%20on%20Pervasive%20Computing%20and%20Communications"
+    },
+    "ConfIDent": {
+        "name": "IEEE International Conference on Pervasive Computing and Communications",
+        "id": "Event Series:PERCOM",
+        "url": "https://www.confident-conference.org/index.php/Event%20Series%3APERCOM"
+    }
+}

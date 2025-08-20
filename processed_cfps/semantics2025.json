@@ -1,0 +1,54 @@
+{
+    "event_name": "21st International Conference on Semantic Systems",
+    "conference_series": "International Conference on Semantic Systems",
+    "event_acronym": "SEMANTiCS 2025 EU",
+    "colocated_with": "",
+    "location": "Vienna, Austria",
+    "organisers": [
+        {
+            "organiser_name": "Blerina Spahiu",
+            "organiser_affiliation": "University of Milano-Bicocca",
+            "organiser_country": "Italy",
+            "track_name": "Research and Innovation Track",
+            "openalex_name": "Blerina Spahiu",
+            "openalex_page": "https://openalex.org/A5088767562",
+            "orcid": "https://orcid.org/0000-0002-6958-8215",
+            "affiliation_ror": "https://ror.org/01ynf4891"
+        },
+        {
+            "organiser_name": "Mehdi Ali",
+            "organiser_affiliation": "Lamarr Institute & Fraunhofer IAIS",
+            "organiser_country": "Germany",
+            "track_name": "Research and Innovation Track",
+            "openalex_name": "Mehdi Ali",
+            "openalex_page": "https://openalex.org/A5011914487",
+            "orcid": "https://orcid.org/0000-0003-1653-3920",
+            "affiliation_ror": ""
+        },
+        {
+            "organiser_name": "Beyza Yaman",
+            "organiser_affiliation": "",
+            "organiser_country": "",
+            "track_name": "Other",
+            "openalex_name": "Beyza Yaman",
+            "openalex_page": "https://openalex.org/A5031254664",
+            "orcid": "https://orcid.org/0000-0003-2130-0312",
+            "affiliation_ror": ""
+        }
+    ],
+    "DBLP": {
+        "name": "International Conference on Semantic Systems",
+        "id": "i-semantics",
+        "url": "https://dblp.org/streams/conf/i-semantics"
+    },
+    "AIDA": {
+        "name": "SEMANTiCS",
+        "id": "i-semantics",
+        "url": "https://w3id.org/aida/dashboard/cs/conference/SEMANTiCS"
+    },
+    "ConfIDent": {
+        "name": "SEMANTiCS - SEMANTiCS conference",
+        "id": "Event Series:I-SEMANTICS",
+        "url": "https://www.confident-conference.org/index.php/Event%20Series%3AI-SEMANTICS"
+    }
+}

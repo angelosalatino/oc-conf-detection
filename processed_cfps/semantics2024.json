@@ -1,7 +1,7 @@
 {
     "event_name": "20th International Conference on Semantic Systems",
-    "conference_series": "SEMANTiCS",
-    "event_acronym": "SEMANTiCS 2024",
+    "conference_series": "International Conference on Semantic Systems",
+    "event_acronym": "SEMANTiCS",
     "colocated_with": "",
     "location": "Amsterdam, The Netherlands",
     "organisers": [
@@ -9,7 +9,7 @@
             "organiser_name": "Mehwish Alam",
             "organiser_affiliation": "",
             "organiser_country": "",
-            "track_name": "Research and Innovation",
+            "track_name": "Research and Innovation Track",
             "openalex_name": "Mehwish Alam",
             "openalex_page": "https://openalex.org/A5009026163",
             "orcid": "https://orcid.org/0000-0002-7867-6612",
@@ -19,7 +19,7 @@
             "organiser_name": "Femke Ongenae",
             "organiser_affiliation": "",
             "organiser_country": "",
-            "track_name": "Research and Innovation",
+            "track_name": "Research and Innovation Track",
             "openalex_name": "Femke Ongenae",
             "openalex_page": "https://openalex.org/A5008111431",
             "orcid": "https://orcid.org/0000-0003-2529-5477",
@@ -29,18 +29,26 @@
             "organiser_name": "Angelo Salatino",
             "organiser_affiliation": "",
             "organiser_country": "",
-            "track_name": "Research and Innovation",
+            "track_name": "Research and Innovation Track",
             "openalex_name": "Angelo A. Salatino",
             "openalex_page": "https://openalex.org/A5074395069",
             "orcid": "https://orcid.org/0000-0002-4763-3943",
             "affiliation_ror": ""
         }
     ],
-    "DBLP": {},
+    "DBLP": {
+        "name": "International Conference on Semantic Systems",
+        "id": "i-semantics",
+        "url": "https://dblp.org/streams/conf/i-semantics"
+    },
     "AIDA": {
         "name": "SEMANTiCS",
         "id": "i-semantics",
         "url": "https://w3id.org/aida/dashboard/cs/conference/SEMANTiCS"
     },
-    "ConfIDent": {}
+    "ConfIDent": {
+        "name": "SEMANTiCS - SEMANTiCS conference",
+        "id": "Event Series:I-SEMANTICS",
+        "url": "https://www.confident-conference.org/index.php/Event%20Series%3AI-SEMANTICS"
+    }
 }
