@@ -1,0 +1,54 @@
+{
+    "event_name": "The Web Conference 2022",
+    "conference_series": "The Web Conference",
+    "event_acronym": "WWW",
+    "colocated_with": "",
+    "location": "Lyon, France",
+    "organisers": [
+        {
+            "organiser_name": "Elena Simperl",
+            "organiser_affiliation": "King's College London",
+            "organiser_country": "United Kingdom",
+            "track_name": "main",
+            "affiliation_ror": "https://ror.org/0220mzb33",
+            "openalex_name": "Elena Simperl",
+            "openalex_page": "https://openalex.org/A5046030036",
+            "orcid": "https://orcid.org/0000-0003-1722-947X"
+        },
+        {
+            "organiser_name": "Deepak Agarwal",
+            "organiser_affiliation": "Pinterest",
+            "organiser_country": "United States",
+            "track_name": "main",
+            "affiliation_ror": "https://ror.org/04m6zg706",
+            "openalex_name": "Deepak Agarwal",
+            "openalex_page": "https://openalex.org/A5049420901",
+            "orcid": "https://orcid.org/0000-0003-2881-1254"
+        },
+        {
+            "organiser_name": "Aris Gionis",
+            "organiser_affiliation": "KTH Royal Institute of Technology",
+            "organiser_country": "Sweden",
+            "track_name": "main",
+            "affiliation_ror": "https://ror.org/026vcq606",
+            "openalex_name": "Aris Gionis",
+            "openalex_page": "https://openalex.org/A5009025808",
+            "orcid": null
+        }
+    ],
+    "DBLP": {
+        "name": "The Web Conference (WWW)",
+        "id": "www",
+        "url": "https://dblp.org/streams/conf/www"
+    },
+    "AIDA": {
+        "name": "Web Science Conference",
+        "id": "websci",
+        "url": "https://w3id.org/aida/dashboard/cs/conference/Web%20Science%20Conference"
+    },
+    "ConfIDent": {
+        "name": "WWW - The Web Conference",
+        "id": "Event Series:WWW",
+        "url": "https://www.confident-conference.org/index.php/Event%20Series%3AWWW"
+    }
+}
