@@ -333,7 +333,7 @@ def match_conference_with_other_datasets(result:dict)->dict:
 
     # print(similarity_dblp,similarity_aida,similarity_confident)
 
-    if similarity_dblp > max(similarity_aida,similarity_confident):
+    if similarity_dblp >= max(similarity_aida,similarity_confident):
         # print("I am here 1")
         result["DBLP"]["name"]= this_conf_dblp
         result["DBLP"]["id"]  = this_acronym_dblp
