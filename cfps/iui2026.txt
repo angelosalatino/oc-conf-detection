@@ -1,0 +1,171 @@
+*** Last Mile for Workshop Proposals Submission ***
+
+The Annual ACM Conference on Intelligent User Interfaces (IUI 2026)
+
+March 23-26, 2026, 5* Coral Beach Hotel & Resort, Paphos, Cyprus
+
+https://iui.hosting.acm.org/2026/
+
+(*** Submission Deadline: August 29, 2025 (extended and final!) ***)
+
+
+We are pleased to invite proposals for workshops to be held in conjunction
+with the Annual International ACM Conference on Intelligent User Interfaces (ACM IUI
+2026), Paphos, Cyprus.
+
+Workshops aim to provide a venue for presenting research on emerging or specialized
+topics of interest and to offer an informal forum for discussing research questions and
+challenges. Potential workshop topics should be related to the general theme of the
+conference (“Where HCI meets AI”).
+
+We welcome proposals for a wide range of *full-day* or *half-day* workshops, including
+but not limited to:
+
+• Mini Conferences: Workshops that focus on a specific topic and may have their own
+paper submission and review processes.
+
+• Interactive Formats: Workshops that encourage active participation and hands-on
+experiences through break-out sessions or group work to explore specific topics. They
+may have their own paper submission and review process or target a report summarizing
+the discussions and outcomes.
+
+• Emerging Work Sessions: Workshops that foster discussion around emerging ideas.
+Organizers may raise specific topics and invite position papers, late-breaking results, or
+extended abstracts.
+
+• Project-Centric Formats: Workshops tied closely to a specific existing large-scale
+funded project(e.g., NSF, EU) with the goal to engage a broader community.
+
+• Interactive Competitions: Formats that invite individuals and teams to participate in
+challenges or hackathons on selected topics relevant to IUI.
+
+
+Review and Oversight by Workshop Chairs
+
+Proposals will be reviewed and evaluated by the Workshop Chairs. It is possible that
+workshops may be cancelled, shortened, merged, or restructured if there are insufficient
+submissions.
+
+Workshop summaries will be included in the ACM Digital Library for ACM IUI 2026. We will
+also publish joint workshop proceedings for accepted workshop submissions
+(through CEUR or a similar venue).
+
+
+Responsibilities of Workshop Organizers
+
+• Coordinate the Call for Papers, including solicitation, submission handling, and peer
+review process.
+
+• Create and maintain a dedicated website with workshop information. The IUI 2026
+website will link to this page.
+
+• Prepare and communicate a Call for Participation, targeting both IUI and broader relevant
+communities (e.g., via mailing lists, social media, newsgroups, or offline events).
+
+• Facilitate the planned activities, including paper presentations, discussions, and/or
+interactive elements.
+
+• Submit a workshop summary for inclusion in the ACM Digital Library.
+
+• Collect camera-ready papers and author agreements from workshop participants for the
+joint workshop proceedings (CEUR or similar).
+
+Note that for the joint proceedings (CEUR or similar), submissions should be peer-reviewed
+and will need to meet publishers’ guidelines. CEUR, for example, requires a 5-page
+minimum per contribution. Note that not all workshop formats listed above may meet
+these requirements, and we may not be able to include them.
+
+IUI 2026 is an in-person event, and we expect workshop organizers to attend, allowing the
+workshop to be conducted on-site. One author per paper is expected to attend in person
+to present the work.
+
+
+Proposal Format
+
+Workshop proposals should be a maximum of four pages long (single-column format).
+Prepare your submission using the latest templates: Word Submission Template
+(https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx),
+or the LaTex Template
+(https://authors.acm.org/proceedings/production-information/preparing-your-article-with-latex).
+For Latex, please use “\documentclass[manuscript,review]{acmart}”.
+
+The proposals should be organized as follows:
+
+• Name and title: A one-word acronym and a full title. Please indicate “(Workshop)” after
+the title.
+
+• Abstract: A brief summary of the workshop.
+
+• Description of workshop topic: Should discuss the relevance of the proposed topic to
+IUI and its interest for the IUI 2026 audience. Include a concise discussion of why this
+workshop is particularly relevant for the intended audience and how it will complement
+and enhance topics covered at the main conference.
+
+• Previous history: List of previous workshops on this topic, including the conferences
+that hosted them and the number of participants. If available, report on past editions of
+the workshop (including URLs), along with a brief statement of the workshop
+series (e.g., covering topics, number of paper submissions, and participants), as well as
+post-workshop publications over the years and acceptance statistics. If this is the first
+edition of the workshop, describe how it differs from others on similar topics (e.g., by
+including conference names and years).
+
+• Organizer(s): Names, affiliations, emails, and web pages of the organizer(s). Provide a
+brief description of the background of the organizer(s). Strong proposals normally include
+organizers who bring differing perspectives on the topic and are actively connected to the
+communities of potential participants. Please indicate the primary contact person and the
+organizers who will attend the workshop. Also, please provide a list of other workshops
+organized by workshop organizers in the past.
+
+• Workshop program committee: Names and affiliation of the members of the (tentative)
+workshop program committee that will evaluate the workshop submissions.
+
+• Participants: Include a statement of how many participants you expect and how you plan
+to invite participants for the workshop. If possible, include the names of at least 10 people
+who have expressed interest in participating in the workshop or tutorial.
+
+• Workshop activities: A brief description of the format regarding the mix of
+events or activities, such as paper presentations, invited talks, panels, demonstrations,
+teaching activities, hands-on practical exercises, and general discussion.
+
+• Planned outcomes of the workshop: What are you hoping to achieve by the end of the
+workshop? Please list here any planned publications or other outcomes expected.
+
+• Length: Full-day or half-day.
+
+
+Submission Platform
+
+• All materials must be submitted electronically to PCS 2.0
+http://new.precisionconference.com/~sigchi by the proposal submission deadline.
+
+• In PCS 2.0, first click "Submissions" at the top of the page, from the dropdown menus for
+society, conference, and track, select "SIGCHI", "IUI 2026", and then "IUI 2026 Workshops",
+and press "Go".
+
+We encourage both researchers and industry practitioners to submit workshop proposals.
+To support diverse perspectives in the workshops, we strongly recommend including
+organizers from varied institutions and backgrounds.
+
+Furthermore, we welcome workshops with an innovative structure that can attract diverse
+types of contributions and foster valuable interactions.
+
+Prospective organizers are encouraged to contact the Workshop Chairs in
+advance (workshops2026@iui.acm.org) to discuss ideas, receive feedback, or seek
+assistance in preparing engaging proposals. Especially for workshop proposals featuring
+innovative interactive formats, we are happy to help further develop and implement the
+ideas.
+
+
+Important Dates (AoE)
+
+• Workshop Proposals: August 29, 2025 (extended and final!)
+• Decision Notification: September 19, 2025
+• Camera-ready Summaries: February 6, 2026
+
+
+Workshop Chairs
+
+Karthik Dinakar, Pienso, USA
+Werner Geyer, IBM Research, USA
+Patricia Kahr, University of Zurich, Switzerland
+Antonela Tommasel, CONICET, Argentina

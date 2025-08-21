@@ -9,37 +9,37 @@
             "organiser_name": "Daniel Garijo",
             "organiser_affiliation": "Universidad Polit\u00e9cnica de Madrid",
             "organiser_country": "Spain",
-            "track_name": "research",
-            "affiliation_ror": "https://ror.org/03n6nwv02",
+            "track_name": "Research",
             "openalex_name": "Daniel Garijo",
             "openalex_page": "https://openalex.org/A5033224077",
-            "orcid": "https://orcid.org/0000-0003-0454-7145"
+            "orcid": "https://orcid.org/0000-0003-0454-7145",
+            "affiliation_ror": "https://ror.org/03n6nwv02"
         },
         {
             "organiser_name": "Sabrina Kirrane",
             "organiser_affiliation": "Vienna University of Economics and Business",
             "organiser_country": "Austria",
-            "track_name": "research",
-            "affiliation_ror": "https://ror.org/03yn8s215",
+            "track_name": "Research",
             "openalex_name": "Sabrina Kirrane",
             "openalex_page": "https://openalex.org/A5084740363",
-            "orcid": "https://orcid.org/0000-0002-6955-7718"
+            "orcid": "https://orcid.org/0000-0002-6955-7718",
+            "affiliation_ror": "https://ror.org/03yn8s215"
         },
         {
             "organiser_name": "Cogan Shimizu",
             "organiser_affiliation": "Wright State University",
             "organiser_country": "US",
-            "track_name": "resource",
-            "affiliation_ror": "https://ror.org/04qk6pt94",
+            "track_name": "Resource",
             "openalex_name": "Cogan Shimizu",
             "openalex_page": "https://openalex.org/A5073404100",
-            "orcid": "https://orcid.org/0000-0003-4283-8701"
+            "orcid": "https://orcid.org/0000-0003-4283-8701",
+            "affiliation_ror": "https://ror.org/04qk6pt94"
         },
         {
             "organiser_name": "Angelo Salatino",
             "organiser_affiliation": "KMi, The Open University",
             "organiser_country": "UK",
-            "track_name": "resource",
+            "track_name": "Resource",
             "openalex_name": "Angelo A. Salatino",
             "openalex_page": "https://openalex.org/A5074395069",
             "orcid": "https://orcid.org/0000-0002-4763-3943",
@@ -49,17 +49,17 @@
             "organiser_name": "Maribel Acosta",
             "organiser_affiliation": "Technical University of Munich",
             "organiser_country": "Germany",
-            "track_name": "in-use",
-            "affiliation_ror": "https://ror.org/02kkvpp62",
+            "track_name": "In-Use",
             "openalex_name": "Maribel Acosta",
             "openalex_page": "https://openalex.org/A5091892854",
-            "orcid": "https://orcid.org/0000-0002-1209-2868"
+            "orcid": "https://orcid.org/0000-0002-1209-2868",
+            "affiliation_ror": "https://ror.org/02kkvpp62"
         },
         {
             "organiser_name": "Andrea Giovanni Nuzzolese",
             "organiser_affiliation": "CNR - Institute of Cognitive Sciences and Technologies",
             "organiser_country": "Italy",
-            "track_name": "in-use",
+            "track_name": "In-Use",
             "openalex_name": "Andrea Giovanni Nuzzolese",
             "openalex_page": "https://openalex.org/A5035126139",
             "orcid": "https://orcid.org/0000-0003-2928-9496",
@@ -69,37 +69,37 @@
             "organiser_name": "Gong Cheng",
             "organiser_affiliation": "Nanjing University",
             "organiser_country": "China",
-            "track_name": "posters and demos",
-            "affiliation_ror": "https://ror.org/01rxvg760",
+            "track_name": "Posters and Demos",
             "openalex_name": "Gong Cheng",
             "openalex_page": "https://openalex.org/A5012491649",
-            "orcid": "https://orcid.org/0000-0001-9322-9354"
+            "orcid": "https://orcid.org/0000-0001-9322-9354",
+            "affiliation_ror": "https://ror.org/01rxvg760"
         },
         {
             "organiser_name": "Shenghui Wang",
             "organiser_affiliation": "University of Twente",
             "organiser_country": "The Netherlands",
-            "track_name": "posters and demos",
-            "affiliation_ror": "https://ror.org/006hf6230",
+            "track_name": "Posters and Demos",
             "openalex_name": "Shenghui Wang",
             "openalex_page": "https://openalex.org/A5065278736",
-            "orcid": "https://orcid.org/0000-0003-0583-6969"
+            "orcid": "https://orcid.org/0000-0003-0583-6969",
+            "affiliation_ror": "https://ror.org/006hf6230"
         },
         {
             "organiser_name": "Mayank Kejriwal",
             "organiser_affiliation": "University of Southern California",
-            "organiser_country": "United States",
-            "track_name": "challenges",
-            "affiliation_ror": "https://ror.org/03taz7m60",
+            "organiser_country": "US",
+            "track_name": "Challenges",
             "openalex_name": "Mayank Kejriwal",
             "openalex_page": "https://openalex.org/A5074197492",
-            "orcid": "https://orcid.org/0000-0001-5988-8305"
+            "orcid": "https://orcid.org/0000-0001-5988-8305",
+            "affiliation_ror": "https://ror.org/03taz7m60"
         },
         {
             "organiser_name": "Pablo Mendes",
             "organiser_affiliation": "Upwork",
-            "organiser_country": "United States",
-            "track_name": "challenges",
+            "organiser_country": "US",
+            "track_name": "Challenges",
             "openalex_name": "Pablo N. Mendes",
             "openalex_page": "https://openalex.org/A5012347190",
             "orcid": "https://orcid.org/0000-0002-0079-7991",
@@ -109,17 +109,17 @@
             "organiser_name": "Blerina Spahiu",
             "organiser_affiliation": "University of Milano-Bicocca",
             "organiser_country": "Italy",
-            "track_name": "workshops, dagstuhl style workshops, tutorials",
-            "affiliation_ror": "https://ror.org/01ynf4891",
+            "track_name": "Workshops & Dagstuhl Style Workshops & Tutorials",
             "openalex_name": "Blerina Spahiu",
             "openalex_page": "https://openalex.org/A5088767562",
-            "orcid": "https://orcid.org/0000-0002-6958-8215"
+            "orcid": "https://orcid.org/0000-0002-6958-8215",
+            "affiliation_ror": "https://ror.org/01ynf4891"
         },
         {
             "organiser_name": "Juan Sequeda",
             "organiser_affiliation": "data.world",
             "organiser_country": "USA",
-            "track_name": "workshops, dagstuhl style workshops, tutorials",
+            "track_name": "Workshops & Dagstuhl Style Workshops & Tutorials",
             "openalex_name": "Juan Sequeda",
             "openalex_page": "https://openalex.org/A5014287041",
             "orcid": "https://orcid.org/0000-0003-3112-9299",
@@ -129,37 +129,37 @@
             "organiser_name": "Oktie Hassanzadeh",
             "organiser_affiliation": "IBM Research",
             "organiser_country": "US",
-            "track_name": "industry",
-            "affiliation_ror": "https://ror.org/0265w5591",
+            "track_name": "Industry",
             "openalex_name": "Oktie Hassanzadeh",
             "openalex_page": "https://openalex.org/A5068065546",
-            "orcid": "https://orcid.org/0000-0001-5307-9857"
+            "orcid": "https://orcid.org/0000-0001-5307-9857",
+            "affiliation_ror": "https://ror.org/0265w5591"
         },
         {
             "organiser_name": "Irene Celino",
             "organiser_affiliation": "Cefriel",
             "organiser_country": "Italy",
-            "track_name": "industry",
-            "affiliation_ror": "https://ror.org/046bfkz44",
+            "track_name": "Industry",
             "openalex_name": "Irene Celino",
             "openalex_page": "https://openalex.org/A5054444380",
-            "orcid": "https://orcid.org/0000-0001-9962-7193"
+            "orcid": "https://orcid.org/0000-0001-9962-7193",
+            "affiliation_ror": "https://ror.org/046bfkz44"
         },
         {
             "organiser_name": "Abraham Bernstein",
             "organiser_affiliation": "University of Zurich",
             "organiser_country": "Switzerland",
-            "track_name": "doctoral consortium",
-            "affiliation_ror": "https://ror.org/02crff812",
+            "track_name": "Doctoral Consortium",
             "openalex_name": "Abraham Bernstein",
             "openalex_page": "https://openalex.org/A5073592405",
-            "orcid": "https://orcid.org/0000-0002-0128-4602"
+            "orcid": "https://orcid.org/0000-0002-0128-4602",
+            "affiliation_ror": "https://ror.org/02crff812"
         },
         {
             "organiser_name": "Natasha Noy",
             "organiser_affiliation": "Google Research",
             "organiser_country": "US",
-            "track_name": "doctoral consortium",
+            "track_name": "Doctoral Consortium",
             "openalex_name": "Natasha Noy",
             "openalex_page": "https://openalex.org/A5041421536",
             "orcid": "https://orcid.org/0000-0002-7437-0624",
@@ -167,17 +167,17 @@
         }
     ],
     "DBLP": {
-        "name": "International Semantic Web Conference (ISWC)",
+        "name": "International Semantic Web Conference",
         "id": "semweb",
         "url": "https://dblp.org/streams/conf/semweb"
     },
     "AIDA": {
-        "name": "International Semantic Web Conference",
+        "name": "International Semantic Web Conference (ISWC)",
         "id": "semweb",
-        "url": "https://w3id.org/aida/dashboard/cs/conference/International%20Semantic%20Web%20Conference"
+        "url": "https://w3id.org/aida/dashboard/cs/conference/International%20Semantic%20Web%20Conference%20%28ISWC%29"
     },
     "ConfIDent": {
-        "name": "International Semantic Web Conference",
+        "name": "ISWC - International Semantic Web Conference",
         "id": "Event Series:ISWC",
         "url": "https://www.confident-conference.org/index.php/Event%20Series%3AISWC"
     }

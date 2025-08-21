@@ -1,6 +1,6 @@
 {
     "event_name": "21st International Conference on Semantic Systems",
-    "conference_series": "SEMANTiCS",
+    "conference_series": "International Conference on Semantic Systems",
     "event_acronym": "SEMANTiCS 2025 EU",
     "colocated_with": "",
     "location": "Vienna, Austria",
@@ -8,7 +8,7 @@
         {
             "organiser_name": "Blerina Spahiu",
             "organiser_affiliation": "University of Milano-Bicocca",
-            "organiser_country": "Italy",
+            "organiser_country": "IT",
             "track_name": "Research and Innovation Track",
             "openalex_name": "Blerina Spahiu",
             "openalex_page": "https://openalex.org/A5088767562",
@@ -37,7 +37,7 @@
         }
     ],
     "DBLP": {
-        "name": "International Conference on Semantic Systems (SEMANTiCS)",
+        "name": "International Conference on Semantic Systems",
         "id": "i-semantics",
         "url": "https://dblp.org/streams/conf/i-semantics"
     },

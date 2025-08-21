@@ -1,0 +1,64 @@
+{
+    "event_name": "The Annual ACM Conference on Intelligent User Interfaces",
+    "conference_series": "Intelligent User Interfaces Conference Series",
+    "event_acronym": "IUI 2026",
+    "colocated_with": "ACM",
+    "location": "Paphos, Cyprus",
+    "organisers": [
+        {
+            "organiser_name": "Karthik Dinakar",
+            "organiser_affiliation": "Pienso",
+            "organiser_country": "USA",
+            "track_name": "main",
+            "openalex_name": "Karthik Dinakar",
+            "openalex_page": "https://openalex.org/A5068694242",
+            "orcid": "https://orcid.org/0000-0001-7482-0237",
+            "affiliation_ror": ""
+        },
+        {
+            "organiser_name": "Werner Geyer",
+            "organiser_affiliation": "IBM Research",
+            "organiser_country": "USA",
+            "track_name": "main",
+            "openalex_name": "Werner Geyer",
+            "openalex_page": "https://openalex.org/A5022799238",
+            "orcid": "https://orcid.org/0000-0003-4699-5026",
+            "affiliation_ror": "https://ror.org/0265w5591"
+        },
+        {
+            "organiser_name": "Patricia Kahr",
+            "organiser_affiliation": "University of Zurich",
+            "organiser_country": "Switzerland",
+            "track_name": "main",
+            "openalex_name": "Patricia Kahr",
+            "openalex_page": "https://openalex.org/A5038476508",
+            "orcid": "https://orcid.org/0000-0002-1368-8698",
+            "affiliation_ror": "https://ror.org/02crff812"
+        },
+        {
+            "organiser_name": "Antonela Tommasel",
+            "organiser_affiliation": "CONICET",
+            "organiser_country": "Argentina",
+            "track_name": "main",
+            "openalex_name": "Antonela Tommasel",
+            "openalex_page": "https://openalex.org/A5089491084",
+            "orcid": "https://orcid.org/0000-0001-6091-8305",
+            "affiliation_ror": "https://ror.org/03cqe8w59"
+        }
+    ],
+    "DBLP": {
+        "name": "International Conference on Intelligent User Interfaces",
+        "id": "iui",
+        "url": "https://dblp.org/streams/conf/iui"
+    },
+    "AIDA": {
+        "name": "Intelligent User Interfaces (IUI)",
+        "id": "iui",
+        "url": "https://w3id.org/aida/dashboard/cs/conference/Intelligent%20User%20Interfaces%20%28IUI%29"
+    },
+    "ConfIDent": {
+        "name": "IUI - International Conference on Intelligent User Interfaces",
+        "id": "Event Series:IUI",
+        "url": "https://www.confident-conference.org/index.php/Event%20Series%3AIUI"
+    }
+}
