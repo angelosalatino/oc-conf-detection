@@ -101,8 +101,25 @@ def local(file_name:str)->None:
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
         
-        
 
+def add_logo():
+    image_string = render_image('assets/images/coci_logo.png')
+    st.markdown(
+        """
+        <style>
+            [data-testid="stSidebarNav"] {
+                background-image: url(%s);
+                height: 200px;
+                background-repeat: no-repeat;
+                padding-top: 150px;
+                background-position: 20px 0px;
+                background-size: 240px 120px;
+            }
+        </style>
+        """ % image_string,
+        unsafe_allow_html=True,
+    )
+    
 
 def render_image(filepath: str)->str:
     """
@@ -144,20 +161,20 @@ def display_main(conf_data:dict)->None:
     
     ##### PROCESS DATA
     
-    # clean the track name, as it is harder to do this via LLM
-    tracks = set()
-    for organiser in conf_data["organisers"]:
-        tracks.add(organiser["track_name"])
+    # # clean the track name, as it is harder to do this via LLM
+    # tracks = set()
+    # for organiser in conf_data["organisers"]:
+    #     tracks.add(organiser["track_name"])
         
-    print(tracks)
-    print(len(tracks))
+    # print(tracks)
+    # print(len(tracks))
     
-    multi_track = True if len(tracks) > 1 else False
-    if multi_track:
-        for organiser in conf_data["organisers"]:
-            if organiser["track_name"].lower() == "main":
-                print("Changed")
-                organiser["track_name"] = "Other"
+    # multi_track = True if len(tracks) > 1 else False
+    # if multi_track:
+    #     for organiser in conf_data["organisers"]:
+    #         if organiser["track_name"].lower() == "main":
+    #             print("Changed")
+    #             organiser["track_name"] = "Other"
     
     ## Preparing the table for the organisers
     
