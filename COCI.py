@@ -23,7 +23,12 @@ def main():
     
     read_config_file()
     
-    st.set_page_config(layout="wide")
+    
+    st.set_page_config(
+        layout="wide",
+        page_title="COCI",
+        page_icon="🌐"
+        )
     filename = ""
     call_for_papers = None
     
@@ -38,8 +43,10 @@ def main():
     
     # Sidebar content
     with st.sidebar:
+        
+        add_logo()
             
-        st.image("assets/images/coci_logo.png")
+        # st.image("assets/images/coci_logo.png")
         # Using object notation
         st.title('Load Call for Papers')
         
