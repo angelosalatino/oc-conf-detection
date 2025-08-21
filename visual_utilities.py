@@ -18,7 +18,25 @@ import os
 
 
 
-def card(title, value="", color="#f0f2f6"):
+def card(title:str, value:str="", color:str="#f0f2f6")->None:
+    """
+    Generates the HTML of a simple card. No link, no image.
+
+    Parameters
+    ----------
+    title : str
+        Title of the card.
+    value : str, optional
+        Content of the card. The default is "".
+    color : str, optional
+        Background color of the card. The default is "#f0f2f6".
+
+    Returns
+    -------
+    None
+        The card will be diplayed. Nothing is returned.
+
+    """
     st.html(f"""<div class="card text-center mb-3" style="background-color: {color};">
           <div class="card-body">
               <h4 class="card-title" style="padding: 0;">{title}</h4> 
@@ -27,7 +45,29 @@ def card(title, value="", color="#f0f2f6"):
         </div>
         """)
         
-def card_w_l(title, value="", link="", link_text="Visit", color="#f0f2f6"):
+def card_w_l(title:str, value:str="", link:str="", link_text:str="Visit", color:str="#f0f2f6")->None:
+    """
+    Generates the HTML of a card
+
+    Parameters
+    ----------
+    title : str
+        Title of the card.
+    value : str, optional
+        Content of the card. The default is "".
+    link : str, optional
+        The URL for the button link. If there is no need for a link, leave empty. The default is "".
+    link_text : str, optional
+        The surface form of the link: eg. Visit Conference on DBLP. The default is "Visit".
+    color : str, optional
+        Background color of the card. The default is "#f0f2f6".
+
+    Returns
+    -------
+    None
+        The card will be diplayed. Nothing is returned.
+
+    """
     
     image_url = ""
     if title == "DBLP": image_url = "assets/images/dblp_total.png"
@@ -50,18 +90,8 @@ def card_w_l(title, value="", link="", link_text="Visit", color="#f0f2f6"):
     html_bit += "</div></div>"
               
     
-    
     st.write(html_bit, unsafe_allow_html=True)
         
-
-        
-def cardb(description, color="#f0f2f6"):
-    st.html(f"""<div class="card text-center mb-3" style="background-color: {color};">
-          <div class="card-body">
-              <p class="card-text" style="padding: 0;">{description}</p>
-          </div>
-        </div>
-        """)
         
         
 def remote(url:str)->None:
@@ -74,18 +104,43 @@ def local(file_name:str)->None:
         
 
 
-def render_image(filepath: str):
-   """
-   filepath: path to the image. Must have a valid file extension.
-   """
-   mime_type = filepath.split('.')[-1:][0].lower()
-   with open(filepath, "rb") as f:
-       content_b64encoded = base64.b64encode(f.read())
-       image_string = "data:image/png;base64," + content_b64encoded.decode("utf-8")
-   return image_string[:-2]
+def render_image(filepath: str)->str:
+    """
+    
+
+    Parameters
+    ----------
+    filepath : str
+        path to the image. Must have a valid file extension..
+
+    Returns
+    -------
+    str
+        the base64 string of the image.
+
+    """
+    mime_type = filepath.split('.')[-1:][0].lower()
+    with open(filepath, "rb") as f:
+        content_b64encoded = base64.b64encode(f.read())
+        image_string = "data:image/png;base64," + content_b64encoded.decode("utf-8")
+    return image_string[:-2]
         
         
 def display_main(conf_data:dict)->None:
+    """
+    
+
+    Parameters
+    ----------
+    conf_data : dict
+        Dictionary containing the conference information.
+
+    Returns
+    -------
+    None
+        Nothng is returned as this function displays the content.
+
+    """
     
     ##### PROCESS DATA
     
@@ -93,12 +148,18 @@ def display_main(conf_data:dict)->None:
     tracks = set()
     for organiser in conf_data["organisers"]:
         tracks.add(organiser["track_name"])
+        
+    print(tracks)
+    print(len(tracks))
     
     multi_track = True if len(tracks) > 1 else False
-    for organiser in conf_data["organisers"]:
-        if organiser["track_name"].lower() == "main":
-            print("Changed")
-            organiser["track_name"] = "Other"
+    if multi_track:
+        for organiser in conf_data["organisers"]:
+            if organiser["track_name"].lower() == "main":
+                print("Changed")
+                organiser["track_name"] = "Other"
+    
+    ## Preparing the table for the organisers
     
     organisers = pd.DataFrame.from_dict(conf_data["organisers"])
     organisers = organisers[["organiser_name",
@@ -119,7 +180,7 @@ def display_main(conf_data:dict)->None:
                                         "openalex_name": "OpenAlex Name"
                                         })
     
-    
+    # removes empty columns (as not all the info is avaible, such as affiliation)   
     def check_series(x):
         for i in x:
             if len(i) > 0:
@@ -130,7 +191,7 @@ def display_main(conf_data:dict)->None:
     organisers = organisers[final_list_columns[final_list_columns==True].index]
     
     
-    
+    # this is mostly useful for the export in excel
     conf_info = dict()
     conf_info["Event"] = conf_data["event_name"]
     conf_info["Acronym"] = conf_data["event_acronym"]
@@ -148,7 +209,7 @@ def display_main(conf_data:dict)->None:
     
     ##### DISPLAY
     
-    
+    ## First part: conference information 
     description = ""
     if len(conf_data["conference_series"]) >0:
         description += conf_data["conference_series"]
@@ -162,7 +223,7 @@ def display_main(conf_data:dict)->None:
     card(conf_data["event_name"],description)
     
     
-    
+    ## Second part: organisers, table
     
     st.dataframe(organisers,
         column_config={
@@ -175,6 +236,7 @@ def display_main(conf_data:dict)->None:
     )
     
         
+    ## Third part: showing mapping of conference toward other datasets.
     
     dfColumns = st.columns(3)
     with dfColumns[0]:
@@ -232,6 +294,9 @@ def display_main(conf_data:dict)->None:
                 file_name=f"{export_file}.xlsx",
                 mime='application/vnd.ms-excel',
             )
+            
+            
+    ## END of main display
 
             
 
