@@ -1,6 +1,6 @@
 {
     "event_name": "21st International Conference on Semantic Systems",
-    "conference_series": "International Conference on Semantic Systems",
+    "conference_series": "SEMANTiCS",
     "event_acronym": "SEMANTiCS 2025 EU",
     "colocated_with": "",
     "location": "Vienna, Austria",
@@ -37,7 +37,7 @@
         }
     ],
     "DBLP": {
-        "name": "International Conference on Semantic Systems",
+        "name": "International Conference on Semantic Systems (SEMANTiCS)",
         "id": "i-semantics",
         "url": "https://dblp.org/streams/conf/i-semantics"
     },

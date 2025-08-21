@@ -1,0 +1,44 @@
+{
+    "event_name": "The 29th International Conference on Theory and Practice of Digital Libraries",
+    "conference_series": "Theory and Practice of Digital Libraries",
+    "event_acronym": "TPDL 2025",
+    "colocated_with": "",
+    "location": "Not Specified",
+    "organisers": [
+        {
+            "organiser_name": "Marcos Andre Goncalves",
+            "organiser_affiliation": "Universidade Federal de Minas Gerais",
+            "organiser_country": "Brazil",
+            "track_name": "main",
+            "openalex_name": "Marcos Andr\u00e9 Gon\u00e7alves",
+            "openalex_page": "https://openalex.org/A5046370637",
+            "orcid": "https://orcid.org/0000-0002-2075-3363",
+            "affiliation_ror": "https://ror.org/0176yjw32"
+        },
+        {
+            "organiser_name": "Christos Papatheodorou",
+            "organiser_affiliation": "National and Kapodistrian University of Athens",
+            "organiser_country": "Greece",
+            "track_name": "main",
+            "openalex_name": "Christos Papatheodorou",
+            "openalex_page": "https://openalex.org/A5087794293",
+            "orcid": "https://orcid.org/0000-0002-9025-6469",
+            "affiliation_ror": "https://ror.org/04gnjpq42"
+        }
+    ],
+    "DBLP": {
+        "name": "International Conference on Theory and Practice of Digital Libraries (TPDL)",
+        "id": "ercimdl",
+        "url": "https://dblp.org/streams/conf/ercimdl"
+    },
+    "AIDA": {
+        "name": "Theory and Practice of Digital Libraries",
+        "id": "ercimdl",
+        "url": "https://w3id.org/aida/dashboard/cs/conference/Theory%20and%20Practice%20of%20Digital%20Libraries"
+    },
+    "ConfIDent": {
+        "name": "TPDL - International Conference on Theory and Practice of Digital Libraries",
+        "id": "Event Series:TPDL",
+        "url": "https://www.confident-conference.org/index.php/Event%20Series%3ATPDL"
+    }
+}

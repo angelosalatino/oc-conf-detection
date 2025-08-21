@@ -1,0 +1,53 @@
+Dear Colleagues,
+
+We are delighted to announce the 3rd Workshop on Semantic Technologies and Deep Learning Models for Scientific, Technical, and Legal Data, to be held on June 1st or 2nd, 2025, in Portoroz, Slovenia, as part of ESWC 2025.
+
+We invite you to submit your research and join us in vibrant discussions with experts in the field.
+
+Key Dates:
+
+* Abstract Submission: February 28th, 2025
+* Paper Submission: March 6th, 2025
+* Notifications: April 3rd, 2025
+* Camera-Ready Contributions: April 17th, 2025
+* Final Papers Zip Archive: April 17th, 2025
+* Workshop Dates: June 1st or 2nd, 2025
+
+Workshop Scope:
+This workshop focuses on leveraging Semantic Technologies, Natural Language Processing (NLP), Deep Neural Networks (DNN), and Large Language Models (LLMs) to address challenges in processing and analyzing scientific, technical, and legal data. Topics of interest include but are not limited to:
+
+* Data collection and sharing
+* Knowledge graph construction
+* LLM-based applications for metadata and semantic modeling
+* NLP techniques for classification, summarization, and exploratory search
+* Ethical and privacy considerations in data representation
+
+For the full list of topics and submission guidelines, visit our website: https://semtech4stld.github.io/
+
+General infos and updates see also: https://easychair.org/cfp/SemTech4STLD25
+
+Submission Details:
+Submissions must adhere to the CEUR-WS one-column template https://ceur-ws.org/Vol-XXX/ and be submitted as PDFs via EasyChair. Accepted papers will be published in a CEUR-WS volume, indexed on Google Scholar, DBLP, and Scopus.
+
+We welcome the following submission types:
+
+* Full Research Papers: 8–12 pages
+* Short Papers: 5–7 pages
+* Position or Industry Papers: 3–5 pages
+* Extended Abstracts: 1–2 pages
+
+Workshop Chairs:
+
+* Hidir Aras(FIZ Karlsruhe - Leibniz Institute for Information Infrastructure, Germany)
+* Rima Dessi’(Higher Colleges of Technology, United Arab Emirates)
+* Jeenu Joy(FIZ Karlsruhe - Leibniz Institute for Information Infrastructure, Germany)
+* Danilo Dessi’(Department of Computer Science, College of Computing and Engineering, University of Sharjah, Sharjah, UAE)
+* Francesco Osborne(The Open University, Milton Keynes, United Kingdom)
+
+
+For general inquiries on the workshop, please send an email to ddessi@sharjah.ac.ae or Jeenu.Joy@fiz-Karlsruhe.de
+
+We look forward to your contributions and to welcoming you to Portoroz in June 2025!
+
+Best regards,
+Jeenu Joy, on Behalf of the other Workshop Organizers 

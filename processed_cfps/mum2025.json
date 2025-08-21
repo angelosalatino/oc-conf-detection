@@ -1,0 +1,40 @@
+{
+    "event_name": "24th International Conference on Mobile and Ubiquitous Multimedia",
+    "conference_series": "International Conference on Mobile and Ubiquitous Multimedia",
+    "event_acronym": "MUM 2025",
+    "colocated_with": "",
+    "location": "Enna, Italy",
+    "organisers": [
+        {
+            "organiser_name": "Mohamed Khamis",
+            "organiser_affiliation": "University of Glasgow",
+            "organiser_country": "UK",
+            "track_name": "Papers and Technical Program",
+            "openalex_name": "Mohamed Khamis",
+            "openalex_page": "https://openalex.org/A5001935352",
+            "orcid": "https://orcid.org/0000-0001-7051-5200",
+            "affiliation_ror": "https://ror.org/00vtgdb53"
+        },
+        {
+            "organiser_name": "Passant Elagroudy",
+            "organiser_affiliation": "DFKI",
+            "organiser_country": "Germany",
+            "track_name": "Papers and Technical Program",
+            "openalex_name": "Passant Elagroudy",
+            "openalex_page": "https://openalex.org/A5067921449",
+            "orcid": "https://orcid.org/0000-0003-1419-7425",
+            "affiliation_ror": "https://ror.org/01ayc5b57"
+        }
+    ],
+    "DBLP": {
+        "name": "International Conference on Mobile and Ubiquitous Multimedia",
+        "id": "mum",
+        "url": "https://dblp.org/streams/conf/mum"
+    },
+    "AIDA": {
+        "name": "Mobile and Ubiquitous Multimedia",
+        "id": "mum",
+        "url": "https://w3id.org/aida/dashboard/cs/conference/Mobile%20and%20Ubiquitous%20Multimedia"
+    },
+    "ConfIDent": {}
+}

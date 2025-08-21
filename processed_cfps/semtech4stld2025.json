@@ -1,0 +1,66 @@
+{
+    "event_name": "3rd Workshop on Semantic Technologies and Deep Learning Models for Scientific, Technical, and Legal Data",
+    "conference_series": "Workshop on Semantic Technologies and Deep Learning Models for Scientific, Technical, and Legal Data",
+    "event_acronym": "SemTech4STLD25",
+    "colocated_with": "ESWC 2025",
+    "location": "Portoroz, Slovenia",
+    "organisers": [
+        {
+            "organiser_name": "Hidir Aras",
+            "organiser_affiliation": "FIZ Karlsruhe - Leibniz Institute for Information Infrastructure",
+            "organiser_country": "Germany",
+            "track_name": "main",
+            "openalex_name": "Hidir Aras",
+            "openalex_page": "https://openalex.org/A5015608426",
+            "orcid": "https://orcid.org/0000-0002-3117-4885",
+            "affiliation_ror": "https://ror.org/0387prb75"
+        },
+        {
+            "organiser_name": "Rima Dessi\u2019",
+            "organiser_affiliation": "Higher Colleges of Technology",
+            "organiser_country": "United Arab Emirates",
+            "track_name": "main",
+            "openalex_name": "Rima Dessi",
+            "openalex_page": "https://openalex.org/A5036598455",
+            "orcid": "https://orcid.org/0000-0001-8332-7241",
+            "affiliation_ror": "https://ror.org/00qmy9z88"
+        },
+        {
+            "organiser_name": "Jeenu Joy",
+            "organiser_affiliation": "FIZ Karlsruhe - Leibniz Institute for Information Infrastructure",
+            "organiser_country": "Germany",
+            "track_name": "main",
+            "openalex_name": "Jeenu Joy",
+            "openalex_page": "https://openalex.org/A5080249472",
+            "orcid": null,
+            "affiliation_ror": "https://ror.org/0387prb75"
+        },
+        {
+            "organiser_name": "Danilo Dessi\u2019",
+            "organiser_affiliation": "Department of Computer Science, College of Computing and Engineering, University of Sharjah",
+            "organiser_country": "United Arab Emirates",
+            "track_name": "main",
+            "openalex_name": "Danilo Dess\u0131\u0300",
+            "openalex_page": "https://openalex.org/A5033841885",
+            "orcid": "https://orcid.org/0000-0003-3843-3285",
+            "affiliation_ror": "https://ror.org/00engpz63"
+        },
+        {
+            "organiser_name": "Francesco Osborne",
+            "organiser_affiliation": "The Open University",
+            "organiser_country": "United Kingdom",
+            "track_name": "main",
+            "openalex_name": "Francesco Osborne",
+            "openalex_page": "https://openalex.org/A5066447873",
+            "orcid": "https://orcid.org/0000-0001-6557-3131",
+            "affiliation_ror": "https://ror.org/05mzfcs16"
+        }
+    ],
+    "DBLP": {
+        "name": "International Workshop on Semantic Technologies and Deep Learning Models for Scientific, Technical and Legal Data",
+        "id": "semtech4stld",
+        "url": "https://dblp.org/streams/conf/semtech4stld"
+    },
+    "AIDA": {},
+    "ConfIDent": {}
+}

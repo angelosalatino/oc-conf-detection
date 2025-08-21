@@ -1,0 +1,84 @@
+{
+    "event_name": "The ACM Web Conference 2022",
+    "conference_series": "The ACM Web Conference (WWW)",
+    "event_acronym": "TheWebConf 2022",
+    "colocated_with": "formerly known as WWW",
+    "location": "Lyon, France",
+    "organisers": [
+        {
+            "organiser_name": "Anna Lisa Gentile",
+            "organiser_affiliation": "IBM Research",
+            "organiser_country": "USA",
+            "track_name": "Posters & Demos",
+            "openalex_name": "Anna Lisa Gentile",
+            "openalex_page": "https://openalex.org/A5045091443",
+            "orcid": "https://orcid.org/0000-0002-6401-4175",
+            "affiliation_ror": "https://ror.org/0265w5591"
+        },
+        {
+            "organiser_name": "Pasquale Lisena",
+            "organiser_affiliation": "EURECOM",
+            "organiser_country": "France",
+            "track_name": "Posters & Demos",
+            "openalex_name": "Pasquale Lisena",
+            "openalex_page": "https://openalex.org/A5004094196",
+            "orcid": "https://orcid.org/0000-0003-3094-5585",
+            "affiliation_ror": "https://ror.org/00sse7z02"
+        },
+        {
+            "organiser_name": "Dominique Hazael-Massieux",
+            "organiser_affiliation": "W3C",
+            "organiser_country": "",
+            "track_name": "Developer and W3C",
+            "openalex_name": "Dominique Haza\u00ebl-Massieux",
+            "openalex_page": "https://openalex.org/A5038887994",
+            "orcid": null,
+            "affiliation_ror": "https://ror.org/0059y1582"
+        },
+        {
+            "organiser_name": "Tom Steiner",
+            "organiser_affiliation": "Google LLC",
+            "organiser_country": "",
+            "track_name": "Developer and W3C",
+            "openalex_name": "T. Steiner",
+            "openalex_page": "https://openalex.org/A5005635771",
+            "orcid": null,
+            "affiliation_ror": ""
+        },
+        {
+            "organiser_name": "Hala Skaf-Molli",
+            "organiser_affiliation": "University of Nantes",
+            "organiser_country": "France",
+            "track_name": "PhD Symposium",
+            "openalex_name": "Hala Skaf\u2010Molli",
+            "openalex_page": "https://openalex.org/A5023760284",
+            "orcid": "https://orcid.org/0000-0003-1062-6659",
+            "affiliation_ror": "https://ror.org/03gnr7b55"
+        },
+        {
+            "organiser_name": "Elena Demidova",
+            "organiser_affiliation": "University of Bonn",
+            "organiser_country": "Germany",
+            "track_name": "PhD Symposium",
+            "openalex_name": "Elena Demidova",
+            "openalex_page": "https://openalex.org/A5087621364",
+            "orcid": "https://orcid.org/0000-0002-5134-9072",
+            "affiliation_ror": "https://ror.org/041nas322"
+        }
+    ],
+    "DBLP": {
+        "name": "The Web Conference (WWW)",
+        "id": "www",
+        "url": "https://dblp.org/streams/conf/www"
+    },
+    "AIDA": {
+        "name": "International World Wide Web Conferences (WWW)",
+        "id": "www",
+        "url": "https://w3id.org/aida/dashboard/cs/conference/International%20World%20Wide%20Web%20Conferences%20%28WWW%29"
+    },
+    "ConfIDent": {
+        "name": "WWW - WWW - The Web Conference",
+        "id": "Event Series:WWW",
+        "url": "https://www.confident-conference.org/index.php/Event%20Series%3AWWW"
+    }
+}
