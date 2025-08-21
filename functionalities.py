@@ -145,16 +145,18 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
                                             response_format=response_format)
     result = json.loads(completion.choices[0].message.content)
     
+    
     # clean the track name, as it is harder to do this via LLM
     tracks = set()
     for organiser in result["organisers"]:
         tracks.add(organiser["track_name"])
     
     multi_track = True if len(tracks) > 1 else False
-    for organiser in result["organisers"]:
-        if organiser["track_name"].lower() == "main":
-            print("Changed")
-            organiser["track_name"] = "Other"
+    if multi_track:
+        for organiser in result["organisers"]:
+            if organiser["track_name"].lower() == "main":
+                print("Changed")
+                organiser["track_name"] = "Other"
     
     
     return result
