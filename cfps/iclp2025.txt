@@ -1,0 +1,176 @@
+Call for Participation
+41st International Conference on Logic Programming (ICLP’25)
+University of Calabria, Rende, Italy | September 12-19, 2025
+https://iclp25.demacs.unical.it/
+ 
+
+We are pleased to invite you to participate in the 41st International Conference on Logic Programming (ICLP’25), which will be held at the University of Calabria from September 12-19, 2025. The event will include:
+ 
+●        4 invited talks (Vladimir Lifschitz, Esra Erdem, Stefania Costantini, and Georg Gottlob)
+●        63 conference paper presentations (24 regular papers and 39 Technical Communications)    
+●        4 Recently Published Research (RPR) presentations
+●        2 co-located events (PPDP 2025 and LOPSTR 2025)
+●        8 workshops
+●        Autumn School
+●        Doctoral Consortium
+●        Logic Programming Contest
+ 
+Registration is now open, with early fees available until July 30th AOE. The registration procedure will close on August 30th AOE. On-Site Registration is not available.
+For more information on the registration process, please visit the following webpage:
+https://iclp25.demacs.unical.it/registration
+ 
+ 
+SCOPE
+Since the first conference In Marseille in 1982, ICLP has been the premier international event for presenting research in logic programming. Contributions span all areas of logic programming, including but not limited to the following:
+ 
+Theoretical Foundations:
+Formal and operational semantics, Non-monotonic reasoning, Reasoning under uncertainty, Knowledge representation, Semantic issues of combining logic and neural models, Complexity results.
+ 
+Language Design and Programming Methodologies:
+Concurrency and parallelism, Mobility, Interacting with ML, Logic-based domain-specific languages, Hybrid logical and imperative/functional languages, Programming techniques, Theory reasoning, Answer set programming, Inductive logic programming, Coinductive logic programming.
+ 
+Program Analysis and Optimization:
+Analysis, Transformation, Verification, Debugging, Profiling, Visualization, Logic-based validation of generated programs.
+ 
+Implementation Methodologies and Applications:
+Compilation, Constraint implementation, Ethics and trustworthiness, Explainability, Parallel/distributed execution, Search and optimization problems, Heuristic methods, Logic-based prompt engineering, Tabling, User interfaces.
+ 
+ 
+REGISTRATION
+Early fees are available until July 30th AOE, the registration procedure closes August 30th AOE. On-Site Registration is not available.
+https://iclp25.demacs.unical.it/registration
+ 
+ 
+KEYNOTE SPEAKERS
+●        Vladimir Lifschitz, University of Texas at Austin (https://www.cs.utexas.edu/~vl/), September 15
+●        Esra Erdem, Sabanci University (https://people.sabanciuniv.edu/esraerdem/), September 16
+●        Stefania Costantini, University of L’Aquila (https://people.disim.univaq.it/~stefcost/), September 17
+●        Georg Gottlob, University of Calabria (https://www.unical.it/storage/teachers/georg.gottlob/), September 18
+ 
+ 
+ACCEPTED PAPERS
+The full list of accepted papers is available at the following link: https://iclp25.demacs.unical.it/program/accepted-papers
+ 
+AFFILIATED EVENTS
+●        Workshops: September 12-13, 2025
+              https://iclp25.demacs.unical.it/workshops-school-and-dc/workshops 
+-          32nd RCRA Workshop on Experimental Evaluation of Algorithms for Solving Problems with Combinatorial Explosion (RCRA 2025)
+-          18th Workshop on Answer Set Programming and Other Computing Paradigms (ASPOCP 2025)
+-          12th Workshop on Probabilistic Logic Programming (PLP 2025)
+-          9th Workshop on Advances in Argumentation in Artificial Intelligence (AI³ 2025)
+-          Third Prolog Education Workshop (PEG 2025)
+-          Second Annual Workshop on Prolog Improvement Proposals (PIPs)
+-          Workshop on Logic Programming and Legal Reasoning (LPLR 2025)
+-          1st Workshop on Cognitive Architectures for Robotics: LLMs and Logic in Action (CARLA)
+ 
+●        Autumn School in Computational Logic: September 12-13, 2025
+https://iclp25.demacs.unical.it/workshops-school-and-dc/autumn-school-on-logic-programming
+ 
+●        Doctoral Consortium: September 12-13, 2025
+https://iclp25.demacs.unical.it/workshops-school-and-dc/doctoral-consortium
+ 
+●        Logic Programming Contest: September 17, 2025
+ 
+●        International Symposium on Principles and Practice of Declarative Programming (PPDP 2025)
+https://ppdp25.github.io/site/
+ 
+●        International Symposium on Logic-based Program Synthesis and Transformation (LOPSTR 2025)
+https://lopstr.github.io/2025/
+ 
+
+VENUE
+ICLP’25 will be held on the campus of the University of Calabria in Rende, Italy, during 12-19 September 2025. The University of Calabria is one of Italy's leading academic institutions, renowned for its innovative research and vibrant campus life. Located in the scenic city of Rende, it offers a modern learning environment surrounded by natural beauty and cultural richness. Calabria is a region rich in culture, offering a blend of historical heritage and stunning natural beauty. From its breathtaking coastal spots to its easily accessible mountains, the region provides an unforgettable cultural and culinary experience, savoring authentic dishes made from fresh, local ingredients, such as spicy 'nduja, pasta, potatoes and exquisite desserts.
+ 
+For more information about the venue, please visit the following webpage:
+https://iclp25.demacs.unical.it/venue/conference-venue
+ 
+Useful information about accommodation and travel can be found at the following links:
+●        https://iclp25.demacs.unical.it/venue/accommodation
+●        https://iclp25.demacs.unical.it/venue/travel-information
+ 
+Persons in need and from target groups in the ALP policy for diversity and inclusion can request limited travel grants to ALP.
+ 
+
+ORGANIZATION
+General Chair: Francesco Ricca
+Program Co-chairs: Martin Gebser and Daniela Inclezan
+Publicity Chairs: Manuel Borroto and Francesco Calimeri
+Local Chairs: Antonio Ielo and Giuseppe Mazzotta
+ 
+PROGRAM COMMITTEE
+Salvador Abreu, NOVA-LINCS / University of Evora
+Mario Alviano, University of Calabria
+Nicos Angelopoulos, The Pirbright Institute
+Marcello Balduccini, Saint Joseph’s University
+Mutsunori Banbara, Nagoya University
+Elena Bellodi, University of Ferrara
+Stefano Bistarelli, University of Perugia
+Bart Bogaerts, KU Leuven
+Pedro Cabalar, University of Corunna
+Roberta Calegari, Alma Mater Studiorum–University of Bologna
+Angelos Charalambidis, Harokopio University
+Michael Codish, Ben-Gurion University of the Negev
+Stefania Costantini, University of L'Aquila
+Alessandro Dal Palù, University of Parma
+Marina De Vos, University of Bath
+Marc Denecker, KU Leuven
+Carmine Dodaro, University of Calabria
+Thomas Eiter, TU Wien
+Esra Erdem, Sabanci University
+Wolfgang Faber, University of Klagenfurt
+François Fages, INRIA Saclay
+Jorge Fandinno, University of Nebraska Omaha
+Johannes K. Fichte, Linköping University
+Fabio Fioravanti, University of Chieti-Pescara
+Andrea Formisano, University of Udine
+Gerhard Friedrich, University of Klagenfurt
+Sarah Alice Gaggl, TU Dresden
+Marco Gavanelli, University of Ferrara
+Laura Giordano, DISIT, University of Eastern Piedmont
+Ricardo Gonçalves, NOVA University Lisbon
+Gopal Gupta, The University of Texas at Dallas
+Carito Guziolowski, Centrale Nantes
+Markus Hecher, CNRS, Artois University
+Giovambattista Ianni, University of Calabria
+Tomi Janhunen, Tampere University
+Nikos Katzouris, NCSR Demokritos
+Gabriele Kern-Isberner, TU Dortmund
+Matthias Knorr, NOVA University Lisbon
+Isabelle Kuhlmann, University of Hagen
+Joao Leite, NOVA University Lisbon
+Michael Leuschel, Heinrich-Heine University of Düsseldorf
+Vladimir Lifschitz, The University of Texas at Austin
+Francesca Alessandra Lisi, University of Bari Aldo Moro
+Yanhong A. Liu, Stony Brook University
+Marco Maratea, University of Calabria
+Viviana Mascardi, DIBRIS, University of Genova
+Jose F. Morales, Technical University of Madrid / IMDEA Software Institute
+Johannes Oetsch, Jönköping University
+Simona Perri, University of Calabria
+Enrico Pontelli, New Mexico State University
+Fabrizio Riguzzi, University of Ferrara
+Ricardo Rocha, University of Porto
+Chiaki Sakama, Wakayama University
+Zeynep G. Saribatur, TU Wien
+Torsten Schaub, University of Potsdam
+Konstantin Schekotihin, University of Klagenfurt
+Tom Schrijvers, KU Leuven
+Dietmar Seipel, University of Würzburg
+Theresa Swift, Johns Hopkins Applied Physics Lab
+Paul Tarau, University of North Texas
+Hans Tompits, TU Wien
+Mirek Truszczynski, University of Kentucky
+Athénaïs Vaginay, University of Caen Normandy
+Germán Vidal, VRAIN, Polytechnic University of Valencia
+Concepcion Vidal, University of Corunna
+Alicia Villanueva, VRAIN – Polytechnic University of Valencia
+Johannes P. Wallner, TU Graz
+Kewen Wang, Griffith University
+David S.Warren, Stony Brook University
+Felix Weitkämper, German UDS Potsdam
+Stefan Woltran, TU Wien
+Roland Yap, National University of Singapore
+Jia-Huai You, University of Alberta
+Zhizheng Zhang, Southeast University
+Yuanlin Zhang, Texas Tech University
+Neng-Fa Zhou, CUNY Brooklyn College and Graduate Center
