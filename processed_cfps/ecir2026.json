@@ -1,0 +1,54 @@
+{
+    "event_name": "The European Conference on Information Retrieval",
+    "conference_series": "European Conference on Information Retrieval",
+    "event_acronym": "ECIR",
+    "colocated_with": "",
+    "location": "Delft, The Netherlands",
+    "organisers": [
+        {
+            "organiser_name": "Adam Jatowt",
+            "organiser_affiliation": "University of Innsbruck",
+            "organiser_country": "Austria",
+            "track_name": "Full Paper Track",
+            "openalex_name": "Adam Jatowt",
+            "openalex_page": "https://openalex.org/A5079733597",
+            "orcid": "https://orcid.org/0000-0001-7235-0665",
+            "affiliation_ror": "https://ror.org/054pv6659"
+        },
+        {
+            "organiser_name": "Ricardo Campos",
+            "organiser_affiliation": "University of Beira Interior / INESC TEC",
+            "organiser_country": "Portugal",
+            "track_name": "Full Paper Track",
+            "openalex_name": "Ricardo Campos",
+            "openalex_page": "https://openalex.org/A5031696985",
+            "orcid": "https://orcid.org/0000-0002-1098-3616",
+            "affiliation_ror": "https://ror.org/02xankh89"
+        },
+        {
+            "organiser_name": "Yanyan Lan",
+            "organiser_affiliation": "Tsinghua University",
+            "organiser_country": "China",
+            "track_name": "Full Paper Track",
+            "openalex_name": "Yanyan Lan",
+            "openalex_page": "https://openalex.org/A5101616866",
+            "orcid": "https://orcid.org/0000-0002-7811-3262",
+            "affiliation_ror": "https://ror.org/03cve4549"
+        }
+    ],
+    "DBLP": {
+        "name": "European Conference on Advances in Information Retrieval (ECIR)",
+        "id": "ecir",
+        "url": "https://dblp.org/streams/conf/ecir"
+    },
+    "AIDA": {
+        "name": "European Conference on IR Research (ECIR)",
+        "id": "ecir",
+        "url": "https://w3id.org/aida/dashboard/cs/conference/European%20Conference%20on%20IR%20Research%20%28ECIR%29"
+    },
+    "ConfIDent": {
+        "name": "European Conference on Information Retrieval Research",
+        "id": "Event Series:ECIR",
+        "url": "https://www.confident-conference.org/index.php/Event%20Series%3AECIR"
+    }
+}

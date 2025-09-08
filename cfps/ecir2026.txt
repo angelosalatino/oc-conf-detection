@@ -1,0 +1,89 @@
+Call for Full Papers
+
+The European Conference on Information Retrieval (ECIR) is the prime European forum for the presentation of original research in the field of Information Retrieval. The 48th European Conference on Information Retrieval (ECIR 2026, https://ecir2026.eu/) will take place as a physical (in-person) conference from 29 March to 2 April 2026 in Delft, The Netherlands.
+Topics of Interest
+
+ECIR 2026 invites the submission of high-quality and original papers in the broad field of Information Retrieval. Relevant topics include, but are not limited to:
+
+    Search and ranking, including retrieval models and ranking, query and content analysis, Retrieval Augmented Generation (RAG), and theoretical aspects of Information Retrieval;
+
+    Recommender systems, including recommendation algorithms, and advanced recommender systems, covering rich content representations, content analysis, and diverse recommendation techniques such as content-based and collaborative filtering, cross-domain and context-aware methods, and multi-stakeholder approaches;
+
+    User aspects in IR, including information interaction, human-AI collaboration, contextualisation, personalisation, simulation, characterisation, and behaviours;
+
+    System aspects, including retrieval and recommendation architectures, efficiency and scalability;
+
+    Conversational search and recommender systems, focusing on natural language understanding and generation, dialogue management, multimodal interaction, and user engagement in search processes;
+
+    Explainability methods, addressing the transparency, interpretability, and accountability of AI-driven systems, particularly for information retrieval, recommendation, and personalisation;
+
+    Machine Learning and Large Language Models for information retrieval and recommendation, IR in agentic workflows;
+
+    Applications, such as web search, web and social media apps, professional and domain-specific search, novel interfaces to search tools, intelligent search, multimodal search and conversational agents;
+
+    Evaluation research, including new metrics, benchmarks and novel methods for the measurement and evaluation of retrieval and/or recommendation systems, users, and/or applications;
+
+    Societally-motivated IR research, including on algorithmic bias and fairness, misinformation, hate speech, interpretability and explainability, privacy-aware IR, trustworthy IR, and ethics;  Please note: This year, we are revamping the dedicated IR-for-Good track to be a core conference track that will run alongside the main conference (not on workshop day). We want this special track to be a platform that highlights top societally-motivated IR research at ECIR. We strongly encourage authors to submit societally-motivated papers to this special track. The call for papers for that track will be released in August.
+
+Full Paper Track
+
+The Full Paper Track provides the opportunity for researchers to present their state-of-the-art research in Information Retrieval, which makes, or has the potential to make, a significant contribution to the field.
+
+    Full papers are up to 12 pages in length plus unlimited additional pages for references. Appendices count toward the page limit. Please put appendices before the references for paper submission. Papers over the page limit will be desk rejected.
+
+    Full papers will be refereed through double-blind peer review, with an initial first-stage review followed by a second stage of discussion led by a meta-reviewer.
+
+    Some high-quality submissions not accepted as main papers may be invited to be published as findings papers.
+
+Submission Guidelines
+
+Authors should consult Springer’s authors’ guidelines and use their proceedings templates, either for LaTeX or for Word (to be found at https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines), for the preparation of their papers. Springer encourages authors to include their ORCIDs in their papers (https://www.springer.com/gp/authors-editors/orcid). 
+
+All submissions must be written in English. All papers should be submitted electronically through the EasyChair submission system. The EasyChair URL for submissions is as follows: https://easychair.org/conferences/?conf=ecir2026 
+
+Authors have to first submit the abstract of their paper by September 25, 2025, 11:59pm (AoE). The title and abstract have to be representative of the paper content as they will be used during the bidding process by reviewers. The paper submission deadline is on October 2, 2025, 11:59pm (AoE).
+
+In addition, the corresponding author of each accepted paper, acting on behalf of all of the authors of that paper, must complete and sign a Consent-to-Publish form. The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the paper has been submitted, changes relating to its authorship cannot be made.
+
+Accepted papers will be published in the conference proceedings in the Springer Lecture Notes in Computer Science series. The proceedings will be distributed to all delegates at the conference. Accepted papers will have to be presented at the conference by one of the authors in person – and at least one author for each accepted contribution will be required to register and attend.
+Dual Submission Policy
+
+Papers submitted to ECIR 2026 should be substantially different from papers that have been previously published, or accepted for publication, or that are under review at other venues. Exceptions to this rule are:
+
+    Submission is permitted for papers presented or to be presented at conferences or workshops without proceedings.
+
+    Submission is permitted for papers that have previously been made available as a technical report (e.g., in institutional archives or preprint archives like arXiv). Please do not cite your technical report and make effort to avoid any issues that may harm the double-blindness of your submission. Reviewers will receive guidance that asks them to refrain from trying to break blindness, but be aware that the availability of an available technical report for an ECIR submission might cause some issues.
+
+Ethics and Professional Conduct
+
+ECIR 2026 expects authors (as well as the PC, and the organising committee) to adhere to accepted standards on ethics and professionalism in our community, namely:
+
+    The ACM’s Policy on Authorship,
+
+    The ACM’s Code of Ethics and Professional Conduct,
+
+    The ACM’s Conflict of Interest Policy,
+
+    The ACM’s Policy on Plagiarism, Misrepresentation, and Falsification,
+
+    The ACM’s Policy Against Harassment
+
+Full Paper Track Dates
+
+    Full paper abstract submission: September 25, 2025, 11:59pm (AoE)
+
+    Full paper submission: October 2, 2025, 11:59pm (AoE)
+
+    Full paper notification: December 16, 2025
+
+    Main conference: March 30 - April 1, 2026
+
+Full Paper Track Chairs
+
+    Adam Jatowt (University of Innsbruck, Austria)
+
+    Ricardo Campos (University of Beira Interior / INESC TEC, Portugal)
+
+    Yanyan Lan (Tsinghua University, China)
+
+Contact: ecir2026-full@easychair.org

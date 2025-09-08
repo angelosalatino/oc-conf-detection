@@ -1,0 +1,36 @@
+{
+    "event_name": "ECIR 2026",
+    "conference_series": "ECIR",
+    "event_acronym": "ECIR",
+    "colocated_with": "",
+    "location": "Not explicitly mentioned in the call but assumed to be on site wherever the main conference is held",
+    "organisers": [
+        {
+            "organiser_name": "Negar Arabzadeh",
+            "organiser_affiliation": "UC Berkeley",
+            "organiser_country": "United States",
+            "track_name": "Workshop Proposals Track",
+            "openalex_name": "Negar Arabzadeh",
+            "openalex_page": "https://openalex.org/A5049487742",
+            "orcid": "https://orcid.org/0000-0002-4411-7089",
+            "affiliation_ror": "https://ror.org/01an7q238"
+        },
+        {
+            "organiser_name": "Franco Maria Nardini",
+            "organiser_affiliation": "ISTI-CNR, Pisa, Italy",
+            "organiser_country": "Italy",
+            "track_name": "Workshop Proposals Track",
+            "openalex_name": "Franco Maria Nardini",
+            "openalex_page": "https://openalex.org/A5082554104",
+            "orcid": "https://orcid.org/0000-0003-3183-334X",
+            "affiliation_ror": ""
+        }
+    ],
+    "DBLP": {
+        "name": "",
+        "id": "",
+        "url": "https://dblp.org/streams/conf/"
+    },
+    "AIDA": {},
+    "ConfIDent": {}
+}

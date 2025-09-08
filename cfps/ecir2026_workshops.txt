@@ -1,0 +1,70 @@
+Call for Workshop Proposals
+
+ECIR 2026 (https://ecir2026.eu/) workshops provide a platform for presenting novel ideas and research results in emerging areas in IR in a focused and interactive way. 
+
+Workshops can be either a half-day (3.5 hours plus breaks) or a full day (7 hours plus breaks). The organizers of approved workshops are expected to set up a webpage for the workshop, disseminate the call for papers and the call for participation, gather and review submissions, and prepare the final program. A camera-ready summary of the workshop, written by the organizers, will be included in the ECIR conference proceedings.
+
+Workshops are encouraged to be as dynamic and interactive as possible and should lead to a concrete outcome, such as the publication of workshop proceedings. Organizers are also encouraged to write a summary article for the June edition of the ACM SIGIR Forum, highlighting the main results of the workshop.
+
+Workshops are on site, and at least one organizer is expected to attend the workshop.
+Topics of Interest
+
+We welcome submissions on any topic relevant to the general field of Information Retrieval, including those mentioned in the Call for Full papers for ECIR 2026.
+Submission Guidelines
+
+Workshop proposals should contain the following information:
+
+    Title and abstract of the workshop;
+
+    Motivation and relevance to ECIR;
+
+    Workshop goals/objectives and overall vision, coupled with desired outcomes;
+
+    Format and Structure, in particular, duration of the workshop (full-day or half-day workshop); mention to the type of papers (e.g., full papers, demo papers, negative papers, etc); type of presentation (e.g., oral; poster, etc); and proceedings (e.g., CEUR; Special Issue, etc); planned activities, the tentative schedule of events etc.; resources needed to deliver the workshop (e.g., poster boards, etc);
+
+    Intended audience, including number of expected participants and how they will be selected/invited;
+
+    List of organizers with a brief bio highlighting the relevance of their expertise to the workshop topics
+
+    Names of potential programme committee members, invited speakers, etc
+
+    Indicate if the workshop is related to or follows on from another workshop; if so, please, identify which conference it was previously held at, the past attendance and outcomes, and why another workshop is needed;
+
+    Any other relevant information to support your proposal.
+
+Workshop proposals should be prepared using Springer proceedings templates available on the Springer webpage, with a maximum length of 8 pages. All proposals must be in English and will be submitted electronically through the conference submission system. Workshop proposals will be reviewed by the ECIR 2026 workshop committee based on the quality of their proposal, covered topics, relationship to ECIR, and likelihood of attracting participants. The ECIR workshop co-chairs will make final decisions.
+
+Springer webpage:
+https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines   
+
+Submission page:
+EasyChair submission page: https://easychair.org/conferences/?conf=ecir2026
+Ethics and Professional Conduct
+
+ECIR 2026 expects authors (as well as the PC, and the organising committee) to adhere to accepted standards on ethics and professionalism in our community, namely:
+
+    The ACM’s Policy on Authorship,
+
+    The ACM’s Code of Ethics and Professional Conduct,
+
+    The ACM’s Conflict of Interest Policy,
+
+    The ACM’s Policy on Plagiarism, Misrepresentation, and Falsification,
+
+    The ACM’s Policy Against Harassment
+
+Workshop Proposals Track Dates
+
+    Workshop proposals submission: September 12, 2025, 11:59pm (AoE)
+
+    Workshop proposals notification: October 17, 2025
+
+    Workshop day: April 02, 2026
+
+Workshop Proposals Track Chairs
+
+    Negar Arabzadeh (UC Berkeley)
+
+    Franco Maria Nardini (ISTI-CNR, Pisa, Italy)
+
+    Contact: ecir2026-workshops@easychair.org
