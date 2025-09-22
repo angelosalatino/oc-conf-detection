@@ -4,6 +4,12 @@
  
  By using cutting-edge AI technology, this tool saves researchers and administrators countless hours, allowing them to quickly access and analyse key data points about academic events and their organisers. The tool works by taking a CfP as input and outputting a structured JSON object, making the data easily searchable, shareable, and integrable with other systems.
  
+- [Conference Organising Committee Identifier](#conference-organising-committee-identifier)
+    - [Key Data Extracted](#key-data-extracted)
+    - [Organiser Details](#organiser-details)
+    - [Integration and Data Mapping](#integration-and-data-mapping)
+    - [How to use it](#how-to-use-it)
+
  ---
  
  ### Key Data Extracted
@@ -36,4 +42,26 @@
  - **DBLP, AIDA Dashboard, and Conference ConfIDent**: Conference details are mapped to these databases to provide a comprehensive view of the event's history and relevance within the scientific community.
  
  ---
+
+ ### How to use it
+
+ Create a virtual environment. In a terminal, please run the following command:
+
+```python -m venv /path/to/new/virtual/environment```
+
+Otherwise, refer to (https://docs.python.org/3/library/venv.html)[https://docs.python.org/3/library/venv.html] on how to create a virtual environment. 
+
+Activate the new environment:
+
+```$ source /path/to/new/virtual/environment/bin/activate```
+
+Install requirement (from the repository):
+
+```$ pip install -r /path/to/requirements.txt```
+
+And finally, within a python shell, run the code via Streamlit:
+
+```streamlit run COCI.py```
+
+``````
 
