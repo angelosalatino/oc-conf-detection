@@ -20,7 +20,7 @@ import os
 
 def card(title:str, value:str="", color:str="#f0f2f6")->None:
     """
-    Generates the HTML of a simple card. No link, no image.
+    Generates and displays the HTML of a simple card component. No link, no image.
 
     Parameters
     ----------
@@ -34,7 +34,7 @@ def card(title:str, value:str="", color:str="#f0f2f6")->None:
     Returns
     -------
     None
-        The card will be diplayed. Nothing is returned.
+        The card will be displayed in the Streamlit app. Nothing is returned.
 
     """
     st.html(f"""<div class="card text-center mb-3" style="background-color: {color};">
@@ -47,7 +47,7 @@ def card(title:str, value:str="", color:str="#f0f2f6")->None:
         
 def card_w_l(title:str, value:str="", link:str="", link_text:str="Visit", color:str="#f0f2f6")->None:
     """
-    Generates the HTML of a card
+    Generates and displays the HTML of a card component with an image and an optional link.
 
     Parameters
     ----------
@@ -65,16 +65,18 @@ def card_w_l(title:str, value:str="", link:str="", link_text:str="Visit", color:
     Returns
     -------
     None
-        The card will be diplayed. Nothing is returned.
+        The card will be displayed in the Streamlit app. Nothing is returned.
 
     """
     
+    # Determine the image URL based on the card title
     image_url = ""
     if title == "DBLP": image_url = "assets/images/dblp_total.png"
     elif title == "AIDA Dashboard": image_url = "assets/images/AIDA-dashboard.png"
     elif title == "ConfIDent": image_url = "assets/images/ConfIDent_TIB_Logo.png"        
     else: print(f"Error. Card creation requested with title {title}")
     
+    # Construct the HTML structure for the card
     html_bit = f"""<div class="card text-center mb-3" style="background-color: {color};">
              <div class="card-header">
                <img class="logo" src={render_image(image_url)}/>
@@ -83,6 +85,7 @@ def card_w_l(title:str, value:str="", link:str="", link_text:str="Visit", color:
               <h4 class="card-title" style="padding: 0;">{title}</h4> 
               <p class="card-text">{value}</p>
               """
+    # Add the link button if a URL is provided
     if len(link) > 0:
         html_bit += f"""<a href="{link}" class="btn oc-btn" target="_blank">{link_text}</a>"""
         
@@ -95,14 +98,33 @@ def card_w_l(title:str, value:str="", link:str="", link_text:str="Visit", color:
         
         
 def remote(url:str)->None:
+    """
+    Injects a remote CSS stylesheet into the Streamlit app.
+
+    Parameters
+    ----------
+    url : str
+        The URL of the CSS file.
+    """
     st.markdown(f'<link href="{url}" rel="stylesheet">', unsafe_allow_html=True)
     
 def local(file_name:str)->None:
+    """
+    Injects a local CSS file into the Streamlit app.
+
+    Parameters
+    ----------
+    file_name : str
+        Path to the local CSS file.
+    """
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
         
 
 def add_logo():
+    """
+    Adds a custom logo to the Streamlit sidebar navigation using CSS injection.
+    """
     image_string = render_image('assets/images/coci_logo.png')
     st.markdown(
         """
@@ -123,17 +145,17 @@ def add_logo():
 
 def render_image(filepath: str)->str:
     """
-    
+    Converts an image file to a base64 encoded string for embedding in HTML.
 
     Parameters
     ----------
     filepath : str
-        path to the image. Must have a valid file extension..
+        Path to the image file. Must have a valid file extension.
 
     Returns
     -------
     str
-        the base64 string of the image.
+        The base64 encoded string of the image, prefixed with the data URI scheme.
 
     """
     mime_type = filepath.split('.')[-1:][0].lower()
@@ -145,17 +167,18 @@ def render_image(filepath: str)->str:
         
 def display_main(conf_data:dict)->None:
     """
-    
+    Displays the main content of the application, including conference details,
+    organisers table, and links to external datasets.
 
     Parameters
     ----------
     conf_data : dict
-        Dictionary containing the conference information.
+        Dictionary containing the structured conference information.
 
     Returns
     -------
     None
-        Nothng is returned as this function displays the content.
+        Nothing is returned as this function renders content directly to Streamlit.
 
     """
     
@@ -178,6 +201,7 @@ def display_main(conf_data:dict)->None:
     
     ## Preparing the table for the organisers
     
+    # Create a DataFrame from the organisers list
     organisers = pd.DataFrame.from_dict(conf_data["organisers"])
     organisers = organisers[["organiser_name",
                              "openalex_name",
@@ -186,7 +210,10 @@ def display_main(conf_data:dict)->None:
                              "organiser_affiliation",
                              "affiliation_ror",
                              "organiser_country",
-                             "track_name"]]
+                             "track_name",
+                             "verified"]]
+    
+    # Rename columns for better display in the UI
     organisers = organisers.rename(columns={"organiser_name": "Name",
                                         "organiser_affiliation": "Affiliation",
                                         "organiser_country": "Country",
@@ -197,18 +224,21 @@ def display_main(conf_data:dict)->None:
                                         "openalex_name": "OpenAlex Name"
                                         })
     
-    # removes empty columns (as not all the info is avaible, such as affiliation)   
+    # Helper function to check if a column has any valid data (non-empty strings or True booleans)
     def check_series(x):
         for i in x:
-            if len(i) > 0:
+            if type(i) == bool and i == True:
+                return True
+            elif type(i) != bool and len(i) > 0:
                 return True
         return False
 
+    # Filter out columns that are completely empty
     final_list_columns = organisers.apply(lambda x: check_series(x), axis=0)
     organisers = organisers[final_list_columns[final_list_columns==True].index]
     
     
-    # this is mostly useful for the export in excel
+    # Prepare conference info dictionary for Excel export
     conf_info = dict()
     conf_info["Event"] = conf_data["event_name"]
     conf_info["Acronym"] = conf_data["event_acronym"]
@@ -242,7 +272,14 @@ def display_main(conf_data:dict)->None:
     
     ## Second part: organisers, table
     
-    st.dataframe(organisers,
+    # Create a copy for display modification
+    organisers_mod = organisers.copy(deep=True)
+    # Mark verified affiliations with a star symbol
+    organisers_mod.loc[organisers_mod['verified'] == True, 'Affiliation'] = organisers_mod['Affiliation'] + ' ✪'
+    organisers_mod = organisers_mod.drop(columns=['verified'])
+    
+    # Display the dataframe with configured link columns
+    st.dataframe(organisers_mod,
         column_config={
             "ROR": st.column_config.LinkColumn("ROR",display_text=r"https://ror\.org/(.*)"),
             "OpenAlex Profile": st.column_config.LinkColumn("OpenAlex Profile",display_text=r"https://openalex\.org/(.*)"),
@@ -255,6 +292,7 @@ def display_main(conf_data:dict)->None:
         
     ## Third part: showing mapping of conference toward other datasets.
     
+    # Create three columns for DBLP, AIDA, and ConfIDent cards
     dfColumns = st.columns(3)
     with dfColumns[0]:
         if len(conf_data["DBLP"]) > 0:
@@ -284,14 +322,14 @@ def display_main(conf_data:dict)->None:
     st.divider()
             
     ######### EXPORT DATA   
-    # buffer to use for excel writer
+    # Buffer to use for excel writer
     buffer = BytesIO()
     
     export_file = conf_data["event_name"]
     
     
     
-    # download button to download dataframe as xlsx
+    # Create Excel file in memory and provide download button
     with pd.ExcelWriter(buffer, engine='xlsxwriter') as writer:
         # Write each dataframe to a different worksheet.
         organisers.to_excel(writer, sheet_name='Organisers', index=True)
@@ -316,4 +354,3 @@ def display_main(conf_data:dict)->None:
     ## END of main display
 
             
-
