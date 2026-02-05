@@ -19,7 +19,7 @@ import json
 from rapidfuzz.distance import Levenshtein
 from rapidfuzz import fuzz
 import json
-
+import country_converter as coco
 
 
 def create_destination_path(filename:str)->str:
@@ -155,6 +155,10 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
                 "type": "string",
                 "description": "If the name of the event is co-located with another big event. Otherwise if empty."
               },
+              "year": {
+                "type": "string",
+                "description": "Year in which the event takes place. The only acceptable format is YYYY, such as 2024."
+              },
               "location": {
                 "type": "string",
                 "description": "City or location name"
@@ -187,7 +191,7 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
                 "description": "Identifies the name, affiliation (ideally including country) of the conference organisers and the name of the track they organise."
               }
             },
-            "required": ["event_name", "event_acronym", "conference_series", "colocated_with", "location", "organisers"],
+            "required": ["event_name", "event_acronym", "conference_series", "colocated_with", "year", "location", "organisers"],
             "additionalProperties": false
           }
         }
@@ -219,7 +223,7 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
     return result
 
 
-def get_authors_info_from_openalex(organisers:list)->list:
+def get_authors_info_from_openalex(organisers:list, year:str)->list:
     """
     Enriches the organiser information by querying OpenAlex.
     
@@ -248,6 +252,12 @@ def get_authors_info_from_openalex(organisers:list)->list:
     
     
     DEBUG = True
+    
+    if year == None: year = 2026
+    else: year = int(year)
+    
+    priority_types = {"education":0, "company":1, "facility":2, "healthcare":3, "funder":4, "government":5, "archive":6, "other":7}
+    
     for organiser in organisers:
         
         # Initialize fields
@@ -258,7 +268,7 @@ def get_authors_info_from_openalex(organisers:list)->list:
         organiser["verified"] = False
         
         print("HERE")
-        print(organisers)
+        print(organiser)
         
         find_author_with_less_info = False
         orga = {}
@@ -314,34 +324,60 @@ def get_authors_info_from_openalex(organisers:list)->list:
                             max_similarity = author_similarity
                             final_position = author_position
     
-                orga = new_auths[final_position]
+                orga = new_auths[final_position] # contains the openalex record of the chosen person.
     
         # If an author record was found, populate the organiser dictionary
         if len(orga) > 0:
             organiser["openalex_name"] = orga["display_name"]
             organiser["openalex_page"] = orga["id"]
-            organiser["orcid"] = orga["orcid"]
+            organiser["orcid"]         = orga["orcid"]
             
-            # Try to recover ROR if it wasn't found earlier but we have the author
-            if len(organiser["organiser_affiliation"]) > 0:
-                if organiser["affiliation_ror"] == "":
-                    last_known_institutions = orga["last_known_institutions"]
-                    max_similarity = 0
-                    final_position = -1
-                    if last_known_institutions is not None and len(last_known_institutions) > 0:
-                        for institution_position, last_known_institution in enumerate(last_known_institutions):
-                            institute_name = last_known_institution["display_name"]
-                            institution_similarity = fuzz.token_set_ratio(institute_name,organiser["organiser_affiliation"])
+            # now processing affiliations                    
+            affiliations = orga["affiliations"]
+            if affiliations is not None and len(affiliations) > 0:
+                affiliations_dict = dict()
+                for pos, affiliation in enumerate(affiliations):
+                    affiliations_dict[pos] = {"pos":pos, 
+                                              "display_name":affiliation["institution"]["display_name"],
+                                              "type_priority":priority_types[affiliation["institution"]["type"]] if affiliation["institution"]["type"] in priority_types else 99, 
+                                              "min_years":min([abs(year-i) for i in affiliation["years"]])}
+                    
+                sorted_affiliation_history = sorted(affiliations_dict, key=lambda k: (affiliations_dict[k]["min_years"],affiliations_dict[k]["type_priority"]))
+                
+                # checking that the most appropriate affiliation is close in time with the call for papers.
+                if affiliations_dict[sorted_affiliation_history[0]]["min_years"] <= 10:
+                    most_appropriate_affiliation = affiliations[sorted_affiliation_history[0]]
+            
+            
+                    organiser["organiser_affiliation"] = most_appropriate_affiliation["institution"]["display_name"]
+                    organiser["affiliation_ror"]       = most_appropriate_affiliation["institution"]["ror"]
+                    try:
+                        organiser["organiser_country"] = coco.convert(names=[most_appropriate_affiliation["institution"]["country_code"]], to='name_short') 
+                    except:
+                        organiser["organiser_country"] = ""
+                    institution_similarity = fuzz.token_set_ratio(most_appropriate_affiliation["institution"]["display_name"],organiser["organiser_affiliation"])
+                    if institution_similarity >= 40:        
+                        organiser["verified"] = True
+                        
+                # Try to recover ROR from affiliation even if the recent know affiliation is not precise
+                elif len(organiser["organiser_affiliation"]) > 0:
+                    if organiser["affiliation_ror"] == "":
+                            
+                        max_similarity = 0
+                        final_position = -1
+                        
+                        
+                        for institution_position, affiliation in affiliations_dict.items():
+                            institution_similarity = fuzz.token_set_ratio(affiliation["display_name"],organiser["organiser_affiliation"])
+                            if DEBUG: print(f'{affiliation["display_name"]}; {institution_position}; {institution_similarity}')
                             if institution_similarity > max_similarity:
-                                if DEBUG: print(f"{institute_name}; {institution_position}; {institution_similarity}")
+                                if DEBUG: print(f'{affiliation["display_name"]}; {institution_position}; {institution_similarity}')
                                 max_similarity = institution_similarity
                                 final_position = institution_position
-                        if max_similarity >= 40:        
-                            organiser_institution_from_OA = last_known_institutions[final_position]
+                        if max_similarity >= 70:        
+                            organiser_institution_from_OA = affiliations[final_position]["institution"]
                             organiser["affiliation_ror"] = organiser_institution_from_OA["ror"]
                             organiser["verified"] = True
-                    else:
-                        print(f"WARNING: for {json.dumps(organiser)} I have encountered issues in extracting the last know affiliation")
         print(organiser)
     
     return organisers
@@ -533,7 +569,12 @@ def process_call_for_papers(call_for_papers:str)->dict:
     print("Connected to remote model")
     result = run_model(client, call_for_papers)
     print("Finished running model")
-    result["organisers"] = get_authors_info_from_openalex(result["organisers"])
+    
+    # result = {"event_name": "30th Annual International Conference on Science and Technology Indicators", "year":"2026", "conference_series": "Science and Technology Indicators", "event_acronym": "STI-ENID 2026", "colocated_with": "", "location": "Antwerp", "organisers": [{"organiser_name": "Tim Engels", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Steven Van Passel", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Peter Aspeslagh", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Pei-Shan Chi", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Ine De Parade", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Dirk Derom", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Myroslava Hladchenko", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Bart Thijs", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Sandy Van Ael", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Eline Vandewalle", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Johanna Vanderstraeten", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Walter Ysebaert", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}]}
+    
+    # print(json.dumps(result))
+    
+    result["organisers"] = get_authors_info_from_openalex(result["organisers"], result["year"])
     print("Completed processing organisers via OpenAlex")
     result = match_conference_with_other_datasets(result)
     print("Mapped the conference to other datasets")
