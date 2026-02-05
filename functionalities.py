@@ -94,11 +94,23 @@ def prepare_prompt(call_for_papers:str)->str:
     Returns:
         str: The formatted prompt string.
     """
-    text_prompt = f"""In this prompt, you will receive a Call for Papers of a scientific event. Your task is to parse it, and identify some crucial elements:
+    text_prompt = f"""In this prompt, you will receive a Call for Papers of a scientific event. Your task is to parse it, and identify some crucial elements.
 
-                - the event name and its acronym;
-                - the location of the event
-                - the organisers of the event
+    You must be exhaustive when extracting people. Extract **ALL** organisers, chairs, committee members, and track chairs listed in the text. Do not leave anyone out.
+    
+    For each person extracted:
+    - 'organiser_name': The full name.
+    - 'organiser_affiliation': The institution or company.
+    - 'organiser_country': The country of the institution (infer if necessary/possible).
+    - 'track_name': The specific role (e.g., 'General Chair', 'Program Chair') or the track they are associated with (e.g., 'Research Track', 'Demo Track'). If they are part of the general Program Committee, use 'Program Committee'.
+
+    Extract:
+    - the event name and its acronym;
+    - the conference series;
+    - any co-located events;
+    - the year of the event;
+    - the location of the event;
+    - the list of all organisers/people.
                 
                 <call_for_papers>
                 {call_for_papers}
@@ -188,7 +200,7 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
                     "required": ["organiser_name", "organiser_affiliation", "organiser_country", "track_name"],
                     "additionalProperties": false
                     },
-                "description": "Identifies the name, affiliation (ideally including country) of the conference organisers and the name of the track they organise."
+                "description": "Identifies the name, affiliation (ideally including country) of ALL the conference organisers, chairs, and committee members."
               }
             },
             "required": ["event_name", "event_acronym", "conference_series", "colocated_with", "year", "location", "organisers"],
@@ -218,32 +230,49 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
             if organiser["track_name"].lower() == "main":
                 print("Changed")
                 organiser["track_name"] = "Other"
-    
+                
+    # Post-processing: adding affiliation provenance
+    for organiser in result["organisers"]:
+        organiser["affiliation_provenance"] = "LLM"
+        organiser["verified"] = False
     
     return result
 
 
 def get_authors_info_from_openalex(organisers:list, year:str)->list:
     """
-    Enriches the organiser information by querying OpenAlex.
+    Enriches the organiser information by querying OpenAlex to retrieve author details and affiliations.
+
+    This function attempts to identify each organiser in the OpenAlex database to fetch their
+    OpenAlex ID, ORCID, and the ROR (Research Organization Registry) ID of their affiliation.
     
-    This function attempts to find the author in OpenAlex to retrieve their
-    OpenAlex ID, ORCID, and ROR (Research Organization Registry) ID for their affiliation.
-    
-    It uses a two-step approach:
-    1. Search by affiliation (Institution) + Author Name.
-    2. If that fails, search by Author Name and disambiguate using string similarity.
-    
+    The identification process follows a two-step strategy:
+    1.  **Affiliation-based Search**: It first attempts to find the author by filtering for their 
+        provided affiliation (institution). This is generally more accurate but relies on the 
+        affiliation text being correctly parsed and present in OpenAlex.
+    2.  **Name-based Search (Fallback)**: If the first step fails (e.g., affiliation is missing 
+        or not matched), it searches by the author's name. To handle common names, it employs 
+        heuristics such as prioritizing authors with a higher works count and using Levenshtein 
+        similarity to match alternative names.
+
+    Additionally, the function performs a quality check on the provided affiliations. If a high 
+    degree of homogeneity is detected (suggesting a default or placeholder value was used for 
+    all organisers), it clears the affiliation data to force a fresh lookup via OpenAlex.
 
     Parameters
     ----------
     organisers : list
-        A list of dictionaries, each representing an organiser.
+        A list of dictionaries, where each dictionary represents an organiser and contains keys 
+        like 'organiser_name', 'organiser_affiliation', etc.
+    year : str
+        The year of the conference. This is used to prioritize affiliations that are temporally 
+        relevant to the event. Defaults to 2026 if None.
 
     Returns
     -------
     list
-        The updated list of organisers with OpenAlex information.
+        The updated list of organisers, enriched with fields such as 'openalex_name', 
+        'openalex_page', 'orcid', 'affiliation_ror', and 'verified'.
 
     """
 
@@ -253,50 +282,85 @@ def get_authors_info_from_openalex(organisers:list, year:str)->list:
     
     DEBUG = True
     
+    # Set default year if not provided
     if year == None: year = 2026
     else: year = int(year)
     
+    # Priority mapping for institution types to prefer academic/research institutions
     priority_types = {"education":0, "company":1, "facility":2, "healthcare":3, "funder":4, "government":5, "archive":6, "other":7}
+    
+    
+    ###### CHECK QUALITY OF AFFILIATIONS
+    # Sometimes LLMs hallucinate the same affiliation for everyone. We detect this by checking for low variance.
+    
+    to_clean = False
+    list_of_institutions = list()
+    for organiser in organisers:
+        list_of_institutions.append(organiser["organiser_affiliation"])
+    
+    # Checking heterogeneity: if the number of total entries is much larger than unique entries, it might be suspicious.
+    # Heuristic: if total items >= 4 * unique items, assume data is dirty.
+    if len(list_of_institutions) >= len(set(list_of_institutions)) * 4: # static threshold which defines heterogeneity
+        to_clean = True
+        
+        
+    if to_clean:
+        # Clear potentially incorrect affiliations to force OpenAlex lookup
+        for organiser in organisers:
+            organiser["organiser_affiliation"] = ""
+            organiser["organiser_country"] = ""
+            organiser["affiliation_ror"] = ""
+            organiser["affiliation_provenance"] = ""
+            
+            
+    ###### NOW PROCESSING EACH INDIVIDUAL ORGANISER
+    
     
     for organiser in organisers:
         
-        # Initialize fields
+        # Initialize fields for OpenAlex data
         organiser["openalex_name"] = ""
         organiser["openalex_page"] = ""
         organiser["orcid"] = ""
         organiser["affiliation_ror"] = ""
         organiser["verified"] = False
         
-        print("HERE")
-        print(organiser)
+
+        if DEBUG: print(organiser)
         
         find_author_with_less_info = False
-        orga = {}
+        openalex_matched_organiser = dict()
         
-        # Attempt 1: Search using Institution
+        ######## FINDING ORGANISER ON OPENALEX
+        
+        # Attempt 1: Search using Institution + Author Name
         if len(organiser["organiser_affiliation"]) > 0:
-            # Search for the institution and then filtering
+            if DEBUG: print(f"Found {len(organiser['organiser_affiliation'])} affiliations")
+            # Search for the institution first to get its ID
             insts = Institutions().search(organiser["organiser_affiliation"]).get()
             if len(insts) > 0:
                 inst_id = insts[0]["id"].replace("https://openalex.org/", "")
         
-                if "ror" in insts[0]["ids"]:
-                    organiser["affiliation_ror"] = insts[0]["ids"]["ror"]
+                # if "ror" in insts[0]["ids"]:
+                #     organiser["affiliation_ror"] = insts[0]["ids"]["ror"]
                 
-                # Search for the author within the institution
+                # Search for the author specifically within that institution
                 auths = Authors().search(organiser["organiser_name"]).filter(affiliations={"institution":{"id": inst_id}}).get()
                 if len(auths) > 0:        
                     if DEBUG: print(f"{len(auths)} search results found for the author")
-                    orga = auths[0]
+                    openalex_matched_organiser = auths[0]
                 else:
+                    # Author not found in that institution, fallback to name-only search
                     find_author_with_less_info = True
                     if DEBUG: print(f"For {organiser['organiser_name']} I could not find a record")
                 
                     
             else:
+                # Institution not found, fallback to name-only search
                 find_author_with_less_info = True
                 if DEBUG: print(f"For {organiser['organiser_name']} I could not find a record of their institution")
         else:
+            # No affiliation provided, fallback to name-only search
             find_author_with_less_info = True
             if DEBUG: print(f"For {organiser['organiser_name']} there is no affiliation")
     
@@ -304,7 +368,8 @@ def get_authors_info_from_openalex(organisers:list, year:str)->list:
         if find_author_with_less_info:
             auths = Authors().search(organiser['organiser_name']).get()
             if len(auths) == 1:
-                orga = auths[0]
+                # Exact single match
+                openalex_matched_organiser = auths[0]
             elif len(auths) == 0:
                 if DEBUG: print(f"For {organiser['organiser_name']} I could not find a record, AGAIN")
             else:
@@ -312,7 +377,7 @@ def get_authors_info_from_openalex(organisers:list, year:str)->list:
                 # Sort by works count to prioritize more prolific authors (heuristic)
                 new_auths = sorted(auths, key=lambda item: item['works_count'], reverse=True)
     
-                # Match the author with the most similar name (handling variations)
+                # Match the author with the most similar name (handling variations/typos)
                 max_similarity = 0
                 final_position = -1
                 for author_position, new_auth in enumerate(new_auths):
@@ -324,61 +389,88 @@ def get_authors_info_from_openalex(organisers:list, year:str)->list:
                             max_similarity = author_similarity
                             final_position = author_position
     
-                orga = new_auths[final_position] # contains the openalex record of the chosen person.
-    
-        # If an author record was found, populate the organiser dictionary
-        if len(orga) > 0:
-            organiser["openalex_name"] = orga["display_name"]
-            organiser["openalex_page"] = orga["id"]
-            organiser["orcid"]         = orga["orcid"]
-            
-            # now processing affiliations                    
-            affiliations = orga["affiliations"]
-            if affiliations is not None and len(affiliations) > 0:
-                affiliations_dict = dict()
-                for pos, affiliation in enumerate(affiliations):
-                    affiliations_dict[pos] = {"pos":pos, 
-                                              "display_name":affiliation["institution"]["display_name"],
-                                              "type_priority":priority_types[affiliation["institution"]["type"]] if affiliation["institution"]["type"] in priority_types else 99, 
-                                              "min_years":min([abs(year-i) for i in affiliation["years"]])}
-                    
-                sorted_affiliation_history = sorted(affiliations_dict, key=lambda k: (affiliations_dict[k]["min_years"],affiliations_dict[k]["type_priority"]))
+                openalex_matched_organiser = new_auths[final_position] # contains the openalex record of the chosen person.
                 
-                # checking that the most appropriate affiliation is close in time with the call for papers.
-                if affiliations_dict[sorted_affiliation_history[0]]["min_years"] <= 10:
-                    most_appropriate_affiliation = affiliations[sorted_affiliation_history[0]]
+        
+        # If an author record was found, populate the organiser dictionary
+        if len(openalex_matched_organiser) > 0:
+            organiser["openalex_name"] = openalex_matched_organiser["display_name"]
+            organiser["openalex_page"] = openalex_matched_organiser["id"]
+            organiser["orcid"] = ""
             
+            # Extract ORCID if available
+            if openalex_matched_organiser["orcid"] is not None:
+                organiser["orcid"] = openalex_matched_organiser["orcid"]
+            else:
+                if "orcid" in openalex_matched_organiser["ids"] and openalex_matched_organiser["ids"]["orcid"] is not None:
+                    organiser["orcid"] = openalex_matched_organiser["ids"]["orcid"]
             
-                    organiser["organiser_affiliation"] = most_appropriate_affiliation["institution"]["display_name"]
-                    organiser["affiliation_ror"]       = most_appropriate_affiliation["institution"]["ror"]
-                    try:
-                        organiser["organiser_country"] = coco.convert(names=[most_appropriate_affiliation["institution"]["country_code"]], to='name_short') 
-                    except:
-                        organiser["organiser_country"] = ""
-                    institution_similarity = fuzz.token_set_ratio(most_appropriate_affiliation["institution"]["display_name"],organiser["organiser_affiliation"])
-                    if institution_similarity >= 40:        
-                        organiser["verified"] = True
+
+            # Case A: No valid affiliation from LLM (or cleaned), try to infer from OpenAlex history
+            if organiser["organiser_affiliation"] == "": 
+                # now processing affiliations                    
+                affiliations = openalex_matched_organiser["affiliations"]
+                if DEBUG: print(f"Found {len(affiliations)} affiliations (FOR THIS AUTHOR I DON'T HAVE CLEAR AFFILIATION)")
+                if affiliations is not None and len(affiliations) > 0:
+                    affiliations_dict = dict()
+                    # Analyze all past affiliations
+                    for institution_position, affiliation in enumerate(affiliations):
+                        affiliations_dict[institution_position] = {"pos":institution_position, 
+                                                                  "display_name":affiliation["institution"]["display_name"],
+                                                                  "type_priority":priority_types[affiliation["institution"]["type"]] if affiliation["institution"]["type"] in priority_types else 99, 
+                                                                  "min_years":min([abs(year-i) for i in affiliation["years"]]), # Distance to conference year
+                                                                  "activity":len(affiliation["years"])}
                         
-                # Try to recover ROR from affiliation even if the recent know affiliation is not precise
-                elif len(organiser["organiser_affiliation"]) > 0:
-                    if organiser["affiliation_ror"] == "":
+                    # Sort affiliations by temporal proximity and then by institution type priority
+                    sorted_affiliation_history = sorted(affiliations_dict, key=lambda k: (affiliations_dict[k]["min_years"],affiliations_dict[k]["type_priority"]))
+                    
+                    # Check if the most appropriate affiliation is close in time (within 10 years)
+                    if affiliations_dict[sorted_affiliation_history[0]]["min_years"] <= 10:
+                        most_appropriate_affiliation = affiliations[sorted_affiliation_history[0]]
+                
+                        # Update organiser with inferred affiliation
+                        organiser["organiser_affiliation"]  = most_appropriate_affiliation["institution"]["display_name"]
+                        organiser["affiliation_ror"]        = most_appropriate_affiliation["institution"]["ror"]
+                        organiser["affiliation_provenance"] = "OA" # Provenance: OpenAlex
+                        try:
+                            organiser["organiser_country"] = coco.convert(names=[most_appropriate_affiliation["institution"]["country_code"]], to='name_short') 
+                        except:
+                            organiser["organiser_country"] = ""
+                        # institution_similarity = fuzz.token_set_ratio(most_appropriate_affiliation["institution"]["display_name"],organiser["organiser_affiliation"])
+                        # if institution_similarity >= 40:        
+                        #     organiser["verified"] = True
                             
-                        max_similarity = 0
-                        final_position = -1
-                        
-                        
-                        for institution_position, affiliation in affiliations_dict.items():
-                            institution_similarity = fuzz.token_set_ratio(affiliation["display_name"],organiser["organiser_affiliation"])
-                            if DEBUG: print(f'{affiliation["display_name"]}; {institution_position}; {institution_similarity}')
-                            if institution_similarity > max_similarity:
-                                if DEBUG: print(f'{affiliation["display_name"]}; {institution_position}; {institution_similarity}')
-                                max_similarity = institution_similarity
-                                final_position = institution_position
-                        if max_similarity >= 70:        
-                            organiser_institution_from_OA = affiliations[final_position]["institution"]
-                            organiser["affiliation_ror"] = organiser_institution_from_OA["ror"]
-                            organiser["verified"] = True
-        print(organiser)
+            
+            
+            # Case B: Affiliation exists (from LLM), try to verify and recover ROR
+            elif len(organiser["organiser_affiliation"]) > 0: 
+                if organiser["affiliation_ror"] == "": ## at this stage this always true
+                    
+                    max_similarity = 0
+                    final_position = -1
+                    
+                    affiliations = openalex_matched_organiser["affiliations"]
+                    if DEBUG: print(f"Found {len(affiliations)} affiliations (FOR THIS AUTHOR I ALREADY HOLD INFO ABOUT AFFILIATION)")
+                    
+                    # Fuzzy match the provided affiliation against the author's OpenAlex affiliation history
+                    for institution_position, affiliation in enumerate(affiliations):
+                        institution_similarity = fuzz.token_set_ratio(affiliation["institution"]["display_name"],organiser["organiser_affiliation"])
+                        if DEBUG: print(f'{affiliation["institution"]["display_name"]}; {institution_position}; {institution_similarity}')
+                        if institution_similarity > max_similarity:
+                            if DEBUG: print(f'{affiliation["institution"]["display_name"]}; {institution_position}; {institution_similarity}')
+                            max_similarity = institution_similarity
+                            final_position = institution_position
+                    
+                    # If a good match is found, assign the ROR and mark as verified
+                    if max_similarity >= 40:        
+                        organiser_institution_from_OA = affiliations[final_position]["institution"]
+                        organiser["affiliation_ror"] = organiser_institution_from_OA["ror"]
+                        organiser["verified"] = True
+                
+                
+        
+        if DEBUG: print(organiser)
+        if DEBUG: print("-------------------------")
     
     return organisers
 
@@ -571,8 +663,10 @@ def process_call_for_papers(call_for_papers:str)->dict:
     print("Finished running model")
     
     # result = {"event_name": "30th Annual International Conference on Science and Technology Indicators", "year":"2026", "conference_series": "Science and Technology Indicators", "event_acronym": "STI-ENID 2026", "colocated_with": "", "location": "Antwerp", "organisers": [{"organiser_name": "Tim Engels", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Steven Van Passel", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Peter Aspeslagh", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Pei-Shan Chi", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Ine De Parade", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Dirk Derom", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Myroslava Hladchenko", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Bart Thijs", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Sandy Van Ael", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Eline Vandewalle", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Johanna Vanderstraeten", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}, {"organiser_name": "Walter Ysebaert", "organiser_affiliation": "ECOOM, University of Antwerp", "organiser_country": "Belgium", "track_name": "main"}]}
-    
-    # print(json.dumps(result))
+    # result = {"event_name": "24th International Semantic Web Conference (ISWC 2025)", "conference_series": "International Semantic Web Conference", "event_acronym": "ISWC 2025", "colocated_with": "", "year": "2025", "location": "Nara, Japan", "organisers": [{"organiser_name": "Daniel Garijo", "organiser_affiliation": "Universidad Polit\u00e9cnica de Madrid", "organiser_country": "Spain", "track_name": "Research Track Chair"}, {"organiser_name": "Sabrina Kirrane", "organiser_affiliation": "Vienna University of Economics and Business", "organiser_country": "Austria", "track_name": "Research Track Chair"}, {"organiser_name": "Cogan Shimizu", "organiser_affiliation": "Wright State University", "organiser_country": "US", "track_name": "Resource Track Chair"}, {"organiser_name": "Angelo Salatino", "organiser_affiliation": "KMi, The Open University", "organiser_country": "UK", "track_name": "Resource Track Chair"}, {"organiser_name": "Maribel Acosta", "organiser_affiliation": "Technical University of Munich", "organiser_country": "Germany", "track_name": "In-Use Track Chair"}, {"organiser_name": "Andrea Giovanni Nuzzolese", "organiser_affiliation": "CNR - Institute of Cognitive Sciences and Technologies", "organiser_country": "Italy", "track_name": "In-Use Track Chair"}, {"organiser_name": "Gong Cheng", "organiser_affiliation": "Nanjing University", "organiser_country": "China", "track_name": "Posters and Demos Chair"}, {"organiser_name": "Shenghui Wang", "organiser_affiliation": "University of Twente", "organiser_country": "The Netherlands", "track_name": "Posters and Demos Chair"}, {"organiser_name": "Mayank Kejriwal", "organiser_affiliation": "University of Southern California", "organiser_country": "United States", "track_name": "Semantic Web Challenge Chair"}, {"organiser_name": "Pablo Mendes", "organiser_affiliation": "Upwork", "organiser_country": "United States", "track_name": "Semantic Web Challenge Chair"}, {"organiser_name": "Blerina Spahiu", "organiser_affiliation": "University of Milano-Bicocca", "organiser_country": "Italy", "track_name": "Workshop Chair & Dagstuhl Style Workshop Chair & Tutorial Chair"}, {"organiser_name": "Juan Sequeda", "organiser_affiliation": "data.world", "organiser_country": "USA", "track_name": "Workshop Chair & Dagstuhl Style Workshop Chair & Tutorial Chair"}, {"organiser_name": "Oktie Hassanzadeh", "organiser_affiliation": "IBM Research", "organiser_country": "US", "track_name": "Industry Track Chair"}, {"organiser_name": "Irene Celino", "organiser_affiliation": "Cefriel", "organiser_country": "Italy", "track_name": "Industry Track Chair"}, {"organiser_name": "Abraham Bernstein", "organiser_affiliation": "University of Zurich", "organiser_country": "Switzerland", "track_name": "Doctoral Consortium Track Chair"}, {"organiser_name": "Natasha Noy", "organiser_affiliation": "Google Research", "organiser_country": "US", "track_name": "Doctoral Consortium Track Chair"}]}
+    # result = {"event_name": "24th International Semantic Web Conference (ISWC 2025)", "conference_series": "International Semantic Web Conference", "event_acronym": "ISWC 2025", "colocated_with": "", "year": "2025", "location": "Nara, Japan", "organisers": [{"organiser_name": "Daniel Garijo", "organiser_affiliation": "Universidad Polit\u00e9cnica de Madrid", "organiser_country": "Spain", "track_name": "Research Track Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Sabrina Kirrane", "organiser_affiliation": "Vienna University of Economics and Business", "organiser_country": "Austria", "track_name": "Research Track Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Cogan Shimizu", "organiser_affiliation": "Wright State University", "organiser_country": "United States", "track_name": "Resource Track Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Angelo Salatino", "organiser_affiliation": "KMi, The Open University", "organiser_country": "United Kingdom", "track_name": "Resource Track Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Maribel Acosta", "organiser_affiliation": "Technical University of Munich", "organiser_country": "Germany", "track_name": "In-Use Track Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Andrea Giovanni Nuzzolese", "organiser_affiliation": "CNR - Institute of Cognitive Sciences and Technologies", "organiser_country": "Italy", "track_name": "In-Use Track Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Gong Cheng", "organiser_affiliation": "Nanjing University", "organiser_country": "China", "track_name": "Posters and Demos Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Shenghui Wang", "organiser_affiliation": "University of Twente", "organiser_country": "Netherlands", "track_name": "Posters and Demos Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Mayank Kejriwal", "organiser_affiliation": "University of Southern California", "organiser_country": "United States", "track_name": "Semantic Web Challenge Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Pablo Mendes", "organiser_affiliation": "Upwork", "organiser_country": "United States", "track_name": "Semantic Web Challenge Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Blerina Spahiu", "organiser_affiliation": "University of Milano-Bicocca", "organiser_country": "Italy", "track_name": "Workshop Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Juan Sequeda", "organiser_affiliation": "data.world", "organiser_country": "United States", "track_name": "Workshop Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Oktie Hassanzadeh", "organiser_affiliation": "IBM Research", "organiser_country": "United States", "track_name": "Industry Track Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Irene Celino", "organiser_affiliation": "Cefriel", "organiser_country": "Italy", "track_name": "Industry Track Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Abraham Bernstein", "organiser_affiliation": "University of Zurich", "organiser_country": "Switzerland", "track_name": "Doctoral Consortium Track Chair", "affiliation_provenance": "LLM"}, {"organiser_name": "Natasha Noy", "organiser_affiliation": "Google Research", "organiser_country": "United States", "track_name": "Doctoral Consortium Track Chair", "affiliation_provenance": "LLM"}]}
+    # result = {"event_name": "30th Annual Conference on Science and Technology Indicators", "conference_series": "Science and Technology Indicators Conference", "event_acronym": "STI-ENID 2026", "colocated_with": "ECOOM", "year": "2026", "location": "Antwerp", "organisers": [{"organiser_name": "Tim Engels", "organiser_affiliation": "University of Antwerp", "organiser_country": "Belgium", "track_name": "Co-Chair", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Steven Van Passel", "organiser_affiliation": "University of Antwerp", "organiser_country": "Belgium", "track_name": "Co-Chair", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Peter Aspeslagh", "organiser_affiliation": "University of Antwerp", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Pei-Shan Chi", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Ine De Parade", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Dirk Derom", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Myroslava Hladchenko", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Bart Thijs", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Sandy Van Ael", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Eline Vandewalle", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Johanna Vanderstraeten", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Walter Ysebaert", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}]}
+    print(json.dumps(result))
     
     result["organisers"] = get_authors_info_from_openalex(result["organisers"], result["year"])
     print("Completed processing organisers via OpenAlex")
