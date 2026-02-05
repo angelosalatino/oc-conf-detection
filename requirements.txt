@@ -4,3 +4,4 @@ pandas
 faiss
 streamlit
 streamlit-extras
+country_converter
