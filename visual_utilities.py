@@ -266,6 +266,8 @@ def display_main(conf_data:dict)->None:
         description += f"<br> co-located with {conf_data['colocated_with']}"
     if len(conf_data["location"]) > 0:
         description += f"<br> held in {conf_data['location']}"
+    if len(conf_data["year"]) > 0:
+        description += f"<br>({conf_data['year']} edition)"
     
     card(conf_data["event_name"],description)
     
@@ -274,9 +276,11 @@ def display_main(conf_data:dict)->None:
     
     # Create a copy for display modification
     organisers_mod = organisers.copy(deep=True)
+    
     # Mark verified affiliations with a star symbol
-    organisers_mod.loc[organisers_mod['verified'] == True, 'Affiliation'] = organisers_mod['Affiliation'] + ' ✪'
-    organisers_mod = organisers_mod.drop(columns=['verified'])
+    if 'verified' in organisers_mod: # just because it could have gotten cleaned
+        organisers_mod.loc[organisers_mod['verified'] == True, 'Affiliation'] = organisers_mod['Affiliation'] + ' ✪'
+        organisers_mod = organisers_mod.drop(columns=['verified'])
     
     # Display the dataframe with configured link columns
     st.dataframe(organisers_mod,
