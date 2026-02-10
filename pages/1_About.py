@@ -10,12 +10,11 @@ import streamlit as st
 from visual_utilities import *
 
 
-
     
 
 st.set_page_config(
     layout="wide",
-    page_title="About COCI",
+    page_title=f"About {st.session_state['config']['APP']['app_acronym']}",
     page_icon="🌐",
 )
 
@@ -25,14 +24,15 @@ local('assets/css/mycss.css')
 
 
 
+
 with st.sidebar:
     add_logo()
 
 st.markdown(
-    """
-    # About the Conference Organising Committee Identifier
+    f"""
+    # About the {st.session_state['config']['APP']['app_name']}
     
-    The **Conference Organising Committee Identifier** is a powerful, AI-driven tool designed to streamline the process of extracting critical information from academic **Call for Papers (CfPs)**. This tool automates the tedious task of manually parsing documents to identify conference details, series, locations, and, most importantly, the organising committee members.
+    The **{st.session_state['config']['APP']['app_name']}** is a powerful, AI-driven tool designed to streamline the process of extracting critical information from academic **Call for Papers (CfPs)**. This tool automates the tedious task of manually parsing documents to identify conference details, series, locations, and, most importantly, the organising committee members.
     
     By using cutting-edge AI technology, this tool saves researchers and administrators countless hours, allowing them to quickly access and analyse key data points about academic events and their organisers. The tool works by taking a CfP as input and outputting a structured JSON object, making the data easily searchable, shareable, and integrable with other systems.
     
@@ -63,11 +63,40 @@ st.markdown(
     
     ### Integration and Data Mapping
     
-    To further enrich the extracted information, the **Conference Organising Committee Identifier** integrates with several well-known academic databases.
+    To further enrich the extracted information, the **{st.session_state['config']['APP']['app_name']}** integrates with several well-known academic databases.
     
     - **OpenAlex**: Organiser names are mapped to OpenAlex, a global, open index of scholarly literature and researchers. This allows the tool to identify additional identifiers like **ORCIDs** and **RORs** (Research Organisation Registry identifiers) for institutions.
     - **DBLP, AIDA Dashboard, and Conference ConfIDent**: Conference details are mapped to these databases to provide a comprehensive view of the event's history and relevance within the scientific community.
     
     ---
+    
+    ### Organiser Matching Process
+    
+    The tool employs a sophisticated multi-stage process to match extracted organisers with their OpenAlex profiles:
+    
+    1. **Quality Check**: First, the system evaluates the provided affiliations for diversity. If they appear too homogeneous (suggesting a default value), they are discarded to force a broader search.
+    2. **Profile Search**:
+        - **Affiliation-Based**: The system attempts to locate the author within their specific institution in OpenAlex.
+        - **Name-Based Fallback**: If the affiliation search fails, it searches by name, using publication count and name similarity to identify the most likely candidate.
+    3. **Verification and Enrichment**:
+        - **Verification**: If an affiliation was provided, it is cross-referenced with the author's publication history. Validated matches are marked with a star (✪).
+        - **Inference**: If no affiliation was provided, the system infers the most likely current affiliation based on recent publication history.
+        - **ID Extraction**: Finally, ORCID and ROR (Research Organization Registry) identifiers are retrieved.
+
+    
     """
 )
+
+st.image("pages/flowchart.png", caption="Architectural flow of the matching process", width=500)
+
+
+st.markdown(
+    """
+    ---
+    
+    ### Rebranding COCI
+    _(note from 10 Feb 2026)_
+    
+    By simply changing "Organising Committee" to "Organisers and Content", we have shifted the focus from a narrow group of people to a broader spectrum of information without losing the brand equity of COCI.
+    """
+    )
