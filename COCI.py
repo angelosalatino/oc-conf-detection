@@ -26,7 +26,7 @@ def main():
     
     st.set_page_config(
         layout="wide",
-        page_title="COCI",
+        page_title=st.session_state['config']['APP']['app_acronym'],
         page_icon="🌐"
         )
     filename = ""
@@ -38,7 +38,7 @@ def main():
     
     
     
-    st.title('Conference Organising Committee Identifier')  
+    st.title(st.session_state['config']['APP']['app_name'])  
     
     
     # Sidebar content
