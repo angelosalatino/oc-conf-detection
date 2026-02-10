@@ -239,7 +239,7 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
     return result
 
 
-def get_authors_info_from_openalex(organisers:list, year:str)->list:
+def get_organisers_info_from_openalex(organisers:list, year:str)->list:
     """
     Enriches the organiser information by querying OpenAlex to retrieve author details and affiliations.
 
@@ -668,7 +668,7 @@ def process_call_for_papers(call_for_papers:str)->dict:
     # result = {"event_name": "30th Annual Conference on Science and Technology Indicators", "conference_series": "Science and Technology Indicators Conference", "event_acronym": "STI-ENID 2026", "colocated_with": "ECOOM", "year": "2026", "location": "Antwerp", "organisers": [{"organiser_name": "Tim Engels", "organiser_affiliation": "University of Antwerp", "organiser_country": "Belgium", "track_name": "Co-Chair", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Steven Van Passel", "organiser_affiliation": "University of Antwerp", "organiser_country": "Belgium", "track_name": "Co-Chair", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Peter Aspeslagh", "organiser_affiliation": "University of Antwerp", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Pei-Shan Chi", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Ine De Parade", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Dirk Derom", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Myroslava Hladchenko", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Bart Thijs", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Sandy Van Ael", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Eline Vandewalle", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Johanna Vanderstraeten", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}, {"organiser_name": "Walter Ysebaert", "organiser_affiliation": "ECOOM", "organiser_country": "Belgium", "track_name": "Organizing Committee", "affiliation_provenance": "LLM", "verified": False}]}
     print(json.dumps(result))
     
-    result["organisers"] = get_authors_info_from_openalex(result["organisers"], result["year"])
+    result["organisers"] = get_organisers_info_from_openalex(result["organisers"], result["year"])
     print("Completed processing organisers via OpenAlex")
     result = match_conference_with_other_datasets(result)
     print("Mapped the conference to other datasets")
