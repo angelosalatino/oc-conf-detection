@@ -5,7 +5,6 @@ Created on Sun Aug 17 17:55:11 2025
 
 @author: aas358
 """
-
 import streamlit as st
 import pandas as pd
 from tkinter import filedialog as fd
@@ -46,14 +45,9 @@ def main():
         
         add_logo()
             
-        # st.image("assets/images/coci_logo.png")
-        # Using object notation
+
         st.title('Load Call for Papers')
         
-        # txt = st.text_area(
-        #     "Either paste the text here",
-        #     "",
-        # )
         
 
         uploaded_file = st.file_uploader("Choose a file")
@@ -74,22 +68,20 @@ def main():
         to_recompute = st.checkbox("Force", value=False)
         st.write("Selecting **Force** will reprocess the call for papers regardless of whether a cached result exists.")
 
-        # if to_recompute:
-        #     st.write("Great!")
         
         st.divider()
     
-        with stylable_container(
-            key="process_data",
-            css_styles="""
-            button{
-                float: right;
-            }
-            """
-        ):
+   
+        # Create a container that arranges items horizontally
+        with st.container(horizontal=True):
+            st.write("") # Placeholder to push button right
+            st.write("") 
             submitted = st.button("Process", type="primary")
+            
+        with st.container(horizontal=True):
+            st.write("") # Placeholder to push button right
+            st.write("") 
             clear = st.button("Clear", type="secondary")
-        
         
         
 
