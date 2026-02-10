@@ -1,7 +1,10 @@
 openai==1.99.9
 pyalex==0.18
 pandas
-faiss
+faiss-cpu
 streamlit
 streamlit-extras
 country_converter
+sentence_transformers
+rapidfuzz
+xlsxwriter
