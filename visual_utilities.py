@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+Visual utilities for the COCI application.
+
+This module contains helper functions for rendering UI components in Streamlit,
+such as cards, headers, logos, and the main results display.
+
 Created on Mon Aug 18 09:29:17 2025
 
 @author: aas358
@@ -144,6 +149,16 @@ def add_logo():
     )
     
 def add_header(text:str, level:int=2):
+    """
+    Adds a header to the Streamlit app using HTML.
+
+    Parameters
+    ----------
+    text : str
+        The text of the header.
+    level : int, optional
+        The heading level (e.g., 1 for <h1>, 2 for <h2>). The default is 2.
+    """
     st.markdown(f"<h{level}>{text}</h{level}>",unsafe_allow_html=True)
     
 
@@ -331,7 +346,7 @@ def display_main(conf_data:dict)->None:
         else:
             card_w_l("ConfIDent","No information found on ConfIDent database about this conference.")
 
-    
+    ## Fourth part: Topics of Interest
 
     if "enhanced_topics" in conf_data and len(conf_data["enhanced_topics"]) > 0:
         st.divider()      
@@ -340,7 +355,7 @@ def display_main(conf_data:dict)->None:
         list_of_topics = []
         for topic, openalex_topics in conf_data["enhanced_topics"].items():
             
-            line = f"* {topic};"
+            line = f"* {topic}"
             if len(openalex_topics) > 0:
                 for oatopic in openalex_topics:
                     line += f" :blue-badge[📎 {oatopic}]"
@@ -359,7 +374,7 @@ def display_main(conf_data:dict)->None:
     
     
     st.divider()
-    ######### EXPORT DATA   
+    ## Fifth part: Export Data
     # Buffer to use for excel writer
     buffer = BytesIO()
     
