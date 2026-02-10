@@ -46,6 +46,7 @@ st.markdown(
     - **`conference_series`**: The name of the recurring conference series, without the year or edition number.
     - **`event_acronym`**: The short, official acronym for the event (e.g., "ICML," "CHI").
     - **`colocated_with`**: If the event is held in conjunction with another larger event, this field captures that information.
+    - **`year`**: The year in which the event takes place.
     - **`location`**: The specific city or location where the event is scheduled to take place.
     - **`organisers`**: An array of objects, each containing detailed information about a committee member.
     
@@ -56,7 +57,7 @@ st.markdown(
     Within the `organisers` array, the tool provides a rich set of information for each individual:
     
     - **`organiser_name`**: The full name of the organiser.
-    - **`organiser_affiliation`**: The academic institution or company the organiser is affiliated with.
+    - **`organiser_affiliation`**: The academic institution or company the organiser is affiliated with. Verified affiliations are marked with a star (✪).
     - **`organiser_country`**: The country of the organiser's affiliation, if available.
     - **`track_name`**: The specific track or area of the conference the organiser is involved in. For single-track events, the default value is 'main'.
     
