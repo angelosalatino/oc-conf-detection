@@ -267,7 +267,7 @@ def display_main(conf_data:dict)->None:
     if len(conf_data["location"]) > 0:
         description += f"<br> held in {conf_data['location']}"
     if len(conf_data["year"]) > 0:
-        description += f"<br>({conf_data['year']} edition)"
+        description += f"<br>📆 {conf_data['year']}"
     
     card(conf_data["event_name"],description)
     
