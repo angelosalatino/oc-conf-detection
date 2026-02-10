@@ -20,7 +20,7 @@ from rapidfuzz.distance import Levenshtein
 from rapidfuzz import fuzz
 import json
 import country_converter as coco
-from sentence_transformers import SentenceTransformer
+
 
 
 def create_destination_path(filename:str)->str:
@@ -335,7 +335,9 @@ def get_organisers_info_from_openalex(organisers:list, year:str)->list:
         organiser["verified"] = False
         
 
-        if DEBUG: print(organiser)
+        if DEBUG: 
+            print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+            print(organiser)
         
         find_author_with_less_info = False
         openalex_matched_organiser = dict()
@@ -478,8 +480,8 @@ def get_organisers_info_from_openalex(organisers:list, year:str)->list:
                 
                 
         
-        if DEBUG: print(organiser)
-        if DEBUG: print("-------------------------")
+        
+    if DEBUG: print("---------FINISHED ORGANISERS----------------")
     
     return organisers
 
@@ -498,6 +500,8 @@ def match_conference_with_other_datasets(result:dict)->dict:
         dict: The updated dictionary with 'DBLP', 'AIDA', and 'ConfIDent' keys populated.
     """
     
+    DEBUG = True
+    
     # Load a pretrained Sentence Transformer model
     model = SentenceTransformer("all-MiniLM-L6-v2")
     embeddings = model.encode([result["conference_series"]])
@@ -513,9 +517,10 @@ def match_conference_with_other_datasets(result:dict)->dict:
     if D[0][0] <= 0.4:
         this_conf_dblp = dblp_confs["sentences"][I[0][0]]
         this_acronym_dblp = dblp_confs["confs"][this_conf_dblp]
-        # print(this_conf_dblp)
-        # print(this_acronym_dblp)
-        # print(f"https://dblp.org/streams/conf/{urllib.parse.quote(this_acronym_dblp, safe='')}")
+        if DEBUG: 
+            print(this_conf_dblp)
+            print(this_acronym_dblp)
+            print(f"https://dblp.org/streams/conf/{urllib.parse.quote(this_acronym_dblp, safe='')}")
     else:
         this_conf_dblp = ""
         this_acronym_dblp = ""
@@ -529,9 +534,10 @@ def match_conference_with_other_datasets(result:dict)->dict:
     if D[0][0] <= 0.4:
         this_conf_aida = aida_confs["sentences"][I[0][0]]
         this_acronym_aida = aida_confs["confs"][this_conf_aida]
-        # print(this_conf_aida)
-        # print(this_acronym_aida)
-        # print(f"https://w3id.org/aida/dashboard/cs/conference/{urllib.parse.quote(this_conf_aida, safe='')}")
+        if DEBUG: 
+            print(this_conf_aida)
+            print(this_acronym_aida)
+            print(f"https://w3id.org/aida/dashboard/cs/conference/{urllib.parse.quote(this_conf_aida, safe='')}")
     else:
         this_conf_aida = ""
         this_acronym_aida = ""
@@ -546,9 +552,10 @@ def match_conference_with_other_datasets(result:dict)->dict:
     if D[0][0] <= 0.4:
         this_conf_confident = confident_confs["sentences"][I[0][0]]
         this_id_confident = confident_confs["confs"][this_conf_confident]
-        # print(this_conf_confident)
-        # print(this_id_confident)
-        # print(f"https://www.confident-conference.org/index.php/{urllib.parse.quote(this_id_confident, safe='')}")
+        if DEBUG:
+            print(this_conf_confident)
+            print(this_id_confident)
+            print(f"https://www.confident-conference.org/index.php/{urllib.parse.quote(this_id_confident, safe='')}")
     else:
         this_conf_confident = ""
         this_id_confident = ""
@@ -644,6 +651,21 @@ def match_conference_with_other_datasets(result:dict)->dict:
     return result
 
 def match_openalex_topics(result:dict)->dict:
+    """
+    Matches extracted topics of interest with OpenAlex concepts/topics.
+
+    This function uses semantic similarity to map the raw topics extracted from the 
+    Call for Papers to standardized OpenAlex topics. It utilizes a pre-trained 
+    SentenceTransformer model and a FAISS index of OpenAlex topics loaded from a pickle file.
+
+    Args:
+        result (dict): The dictionary containing conference data, including a "topics" list.
+
+    Returns:
+        dict: The updated dictionary with an "enhanced_topics" key, mapping original topics to matched OpenAlex topics.
+    """
+    
+    DEBUG = True
     
     if len(result["topics"])>0:
         
@@ -657,21 +679,22 @@ def match_openalex_topics(result:dict)->dict:
         emb_model = SentenceTransformer("all-MiniLM-L6-v2")
             
         for topic in result["topics"]:
+            if DEBUG: print(f"----> {topic}")
             
             embeddings = emb_model.encode([topic])
         
             # Search the vector index for the top 5 similar topics
             # Assumes 'self.embedding_vectors["index"]' is a FAISS or similar index.
             dists, similar_items = openalex["index"].search(embeddings, k=5)
-            
+            matched_topic = list()
             for pos, returned_item in enumerate(similar_items[0]): 
-                matched_topic = list()
+                if DEBUG: print(openalex['sentences'][returned_item],f"({dists[0][pos]:.2f})")
                 # Check if the semantic distance is within the threshold
                 if dists[0][pos] <= dist_threshold:
-                    matched_topic.append(openalex['sentences'][returned_item])
+                    matched_topic.append(openalex['sentences'][returned_item].lower())
             
             
-            enhanced_topics[topic] = matched_topic
+            enhanced_topics[topic] = list(set(matched_topic))
             
         result["enhanced_topics"] = enhanced_topics
     
@@ -721,3 +744,26 @@ def process_call_for_papers(call_for_papers:str)->dict:
     print(result["enhanced_topics"])
     return result
     
+
+
+def refine_process(result:dict):
+    """
+    Refines the processed conference data by performing additional matching steps.
+
+    Currently, this function triggers the matching of topics against OpenAlex concepts.
+    It is intended to be used on data that has already been processed or loaded from cache.
+
+    Args:
+        result (dict): The dictionary containing the conference data.
+
+    Returns:
+        dict: The refined dictionary with additional enriched information (e.g., enhanced topics).
+    """
+    
+    
+    result = match_openalex_topics(result)
+    print(result["topics"])
+    print("Mapped the topics of interest to OpenAlex Topics")
+    print(result["enhanced_topics"])
+    
+    return result
