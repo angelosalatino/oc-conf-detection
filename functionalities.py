@@ -20,6 +20,7 @@ from rapidfuzz.distance import Levenshtein
 from rapidfuzz import fuzz
 import json
 import country_converter as coco
+from sentence_transformers import SentenceTransformer
 
 
 def create_destination_path(filename:str)->str:
@@ -110,6 +111,7 @@ def prepare_prompt(call_for_papers:str)->str:
     - any co-located events;
     - the year of the event;
     - the location of the event;
+    - the list of topics of interest;
     - the list of all organisers/people.
                 
                 <call_for_papers>
@@ -175,6 +177,13 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
                 "type": "string",
                 "description": "City or location name"
               },
+              "topics": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "description": "A list of topics of interest, research areas, or submission categories mentioned in the Call for Papers."
+              },
               "organisers": {
                 "type": "array",
                 "items": {
@@ -203,7 +212,7 @@ def run_model(client:OpenAI, call_for_papers:str)->dict:
                 "description": "Identifies the name, affiliation (ideally including country) of ALL the conference organisers, chairs, and committee members."
               }
             },
-            "required": ["event_name", "event_acronym", "conference_series", "colocated_with", "year", "location", "organisers"],
+            "required": ["event_name", "event_acronym", "conference_series", "colocated_with", "year", "location", "topics", "organisers"],
             "additionalProperties": false
           }
         }
@@ -634,6 +643,40 @@ def match_conference_with_other_datasets(result:dict)->dict:
 
     return result
 
+def match_openalex_topics(result:dict)->dict:
+    
+    if len(result["topics"])>0:
+        
+        enhanced_topics = dict()
+        dist_threshold = 0.6
+        
+        with open('openalex.pickle', 'rb') as handle:
+            openalex = pickle.load(handle)
+            
+        # 1. Load a pretrained Sentence Transformer model
+        emb_model = SentenceTransformer("all-MiniLM-L6-v2")
+            
+        for topic in result["topics"]:
+            
+            embeddings = emb_model.encode([topic])
+        
+            # Search the vector index for the top 5 similar topics
+            # Assumes 'self.embedding_vectors["index"]' is a FAISS or similar index.
+            dists, similar_items = openalex["index"].search(embeddings, k=5)
+            
+            for pos, returned_item in enumerate(similar_items[0]): 
+                matched_topic = list()
+                # Check if the semantic distance is within the threshold
+                if dists[0][pos] <= dist_threshold:
+                    matched_topic.append(openalex['sentences'][returned_item])
+            
+            
+            enhanced_topics[topic] = matched_topic
+            
+        result["enhanced_topics"] = enhanced_topics
+    
+    return result
+
 def process_call_for_papers(call_for_papers:str)->dict:
     """
     Processes the call for papers from unstructured to structured data.
@@ -672,5 +715,9 @@ def process_call_for_papers(call_for_papers:str)->dict:
     print("Completed processing organisers via OpenAlex")
     result = match_conference_with_other_datasets(result)
     print("Mapped the conference to other datasets")
+    result = match_openalex_topics(result)
+    print(result["topics"])
+    print("Mapped the topics of interest to OpenAlex Topics")
+    print(result["enhanced_topics"])
     return result
     

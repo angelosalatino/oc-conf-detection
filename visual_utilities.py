@@ -13,6 +13,7 @@ import pandas as pd
 import base64
 from io import BytesIO
 import os
+from annotated_text import annotated_text
 
 
 
@@ -142,6 +143,9 @@ def add_logo():
         unsafe_allow_html=True,
     )
     
+def add_header(text:str, level:int=2):
+    st.markdown(f"<h{level}>{text}</h{level}>",unsafe_allow_html=True)
+    
 
 def render_image(filepath: str)->str:
     """
@@ -267,7 +271,7 @@ def display_main(conf_data:dict)->None:
     if len(conf_data["location"]) > 0:
         description += f"<br> held in {conf_data['location']}"
     if len(conf_data["year"]) > 0:
-        description += f"<br>📆 {conf_data['year']}"
+        description += f" ({conf_data['year']} edition)"
     
     card(conf_data["event_name"],description)
     
@@ -282,6 +286,8 @@ def display_main(conf_data:dict)->None:
         organisers_mod.loc[organisers_mod['verified'] == True, 'Affiliation'] = organisers_mod['Affiliation'] + ' ✪'
         organisers_mod = organisers_mod.drop(columns=['verified'])
     
+    
+    add_header("Organisers")
     # Display the dataframe with configured link columns
     st.dataframe(organisers_mod,
         column_config={
@@ -293,9 +299,11 @@ def display_main(conf_data:dict)->None:
         width=1920
     )
     
+    
+
         
     ## Third part: showing mapping of conference toward other datasets.
-    
+    add_header("Conference on External Indexes")
     # Create three columns for DBLP, AIDA, and ConfIDent cards
     dfColumns = st.columns(3)
     with dfColumns[0]:
@@ -323,8 +331,34 @@ def display_main(conf_data:dict)->None:
         else:
             card_w_l("ConfIDent","No information found on ConfIDent database about this conference.")
 
-    st.divider()
+    
+
+    if "enhanced_topics" in conf_data and len(conf_data["enhanced_topics"]) > 0:
+        st.divider()      
+        add_header("Topics of Interest")
+        
+        list_of_topics = []
+        for topic, openalex_topics in conf_data["enhanced_topics"].items():
             
+            line = f"* {topic};"
+            if len(openalex_topics) > 0:
+                for oatopic in openalex_topics:
+                    line += f" :blue-badge[📎 {oatopic}]"
+            
+            st.markdown(line)
+        
+        
+        
+        # for k, v in conf_data["enhanced_topics"].items():
+            
+            
+        #     st.markdown(f"{k} -> {v}")
+    
+    
+    
+    
+    
+    st.divider()
     ######### EXPORT DATA   
     # Buffer to use for excel writer
     buffer = BytesIO()
@@ -339,22 +373,13 @@ def display_main(conf_data:dict)->None:
         organisers.to_excel(writer, sheet_name='Organisers', index=True)
         conf_info_df.to_excel(writer, sheet_name='Conference Info', index=True)
         writer._save()
-        with stylable_container(
-            key="download_data",
-            css_styles="""
-            button{
-                float: right;
-            }
-            """
-        ):
-            download = st.download_button(
-                label="Download data as Excel",
-                data=buffer,
-                file_name=f"{export_file}.xlsx",
-                mime='application/vnd.ms-excel',
-            )
-            
-            
+        download = st.download_button(
+            label="Download data as Excel",
+            data=buffer,
+            file_name=f"{export_file}.xlsx",
+            mime='application/vnd.ms-excel',
+        )
+    
     ## END of main display
 
             
