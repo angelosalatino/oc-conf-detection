@@ -1,0 +1,1198 @@
+IEEE INFOCOM 2026
+Tokyo, Japan
+18 - 21 May 2026
+
+News and Announcements
+IEEE INFOCOM 2026 Call for Papers Announced
+Important Dates
+Important Dates
+24 Jul 2025
+Abstract Submission Deadline
+31 Jul 2025
+Paper Submission Deadline
+08 Dec 2025
+Acceptance Notification
+18 May 2026
+Conference Begins
+Welcome to IEEE INFOCOM 2026!
+
+IEEE International Conference on Computer Communications (INFOCOM) is a top-ranked conference on networking in the research community. It is a major conference venue for researchers to present and exchange significant and innovative contributions and ideas in the field of networking and closely related areas. IEEE INFOCOM covers both theoretical and systems research. For INFOCOM 2026, the conference includes a main technical program, a number of workshops, a keynote speech, panels, a student poster session, and demo/poster sessions.
+
+
+Call for Papers
+
+IEEE INFOCOM 2026 is scheduled to take place at the Hilton Tokyo, Tokyo, Japan during May 18-21, 2026. This event will be conducted in person, allowing attendees to fully immerse themselves in the conference experience. 
+
+IEEE INFOCOM is a top-ranked conference on networking by the IEEE Communications Society. IEEE INFOCOM 2026 solicits research papers describing significant and innovative research contributions to the field of networking technologies and systems. Following INFOCOM’s tradition, we welcome submissions from a wide range of research topics, spanning both theoretical and systems research. Topics include but are not limited to:
+
+    Artificial Intelligence/Machine learning for networking
+    Cellular wireless broadband systems, including 6G and beyond
+    Censorship circumvention and net neutrality
+    Challenging Network Environments (underwater, underground)
+    Cloud computing/mobile cloud computing
+    Cross-layer designs
+    Cyber-physical network systems
+    Datacenter networking
+    Dynamic spectrum sharing
+    Edge and fog computing/networking
+    Extremely high-frequency communications (mmWave, THz)
+    Fault tolerance, reliability, and survivability
+    Full duplex communication networks
+    Green networks
+    Information-centric networking
+    Interference management and mitigation
+    Internet architectures
+    Internet of Things
+    Large-scale MIMO-based networking
+    Localization and location-based services
+    Medium access control
+    Mobile sensing and applications
+    Mobility management and models
+    Multimedia networking
+    Network economics and pricing
+    Network management
+    Network measurement and analysis
+    Network security and privacy
+    Network support for VR/AR
+    Network virtualization
+    Networked autonomous aerial/terrestrial/underwater systems
+    Non-terrestrial networks
+    Online social networks
+    Optical networks
+    Quality-of-service and resource management
+    Quantum networking
+    Radio Frequency Identification (RFID) and Near-Field Communication (NFC)
+    Router and switch design
+    Routing and multicast
+    Scaling laws and fundamental limits
+    Software-defined networking (SDN)
+    Tactile Internet
+    Testbeds, experimentations, and networked experimental platforms
+    Ultra-Reliable Low-Latency Communications (URLLC)
+    Vehicular networks
+    Visible light communications (VLC)
+    Web applications and content distribution
+    Wireless networks
+    Foundation models for communication and networks
+    AI/ML Ethics for networking
+    Industry 4.0 communication and networking
+    Human-machine interactions in future networks
+    Block-chain and payment channel networks
+    Digital twin and world models for communication and networks 
+
+To enhance the reproducibility and replicability of scientific findings authors are encouraged to make their data and code open-source via anonymous online repository (e.g., anonymous GitHub). Reviewers are not required to review the data or code.
+
+IEEE INFOCOM incorporates a rigorous double-blind review process. The review assignment will be based on the review assignment system described in the following paper, which analyzes the submitted manuscripts and the representative publications of TPC members and matches the submissions to TPC members’ expertise and interests. 
+
+B. Li and Y.T. Hou. “The new automated INFOCOM review assignment system,” IEEE Network, vol.30, no.5, pp.18-24, Sept./Oct. 2016.
+https://ieeexplore.ieee.org/document/7579022
+
+Papers that present data that include experiments on or with humans or animals and/or presentation or analysis of personally identifiable information, including aggregated data, must have the appropriate approval from the author(s)’ institution(s). An explicit statement about the approval must be included in the paper (with appropriate anonymization in the paper submitted for review).
+PREPRINTS POLICY
+
+While a paper is under submission to the IEEE INFOCOM, authors may choose to present their work and talk about it, post a preprint of the paper to an archival repository such as arXiv, and disclose security vulnerabilities to vendors. Authors should refrain from widely advertising their results. The reviewers are not under any obligation to check the archive in evaluating the manuscript.
+RESEARCH ETHICS
+
+Authors of all submissions must consider the ethics of their work. Without sufficient precautions, research endeavors can lead to negative outcomes. Due to the complexity of today's networking and communication systems, people could experience negative outcomes either directly or indirectly in unexpected ways (see The Menlo Report).
+CONFLICT OF INTEREST (COI)
+
+Before submission, please update your CoIs in the EDAS system. A CoI occurs when a person’s objective judgment is — or is perceived by a reasonable observer — compromised by an existing relationship, affiliation, or connection to a person whose work they must evaluate.
+
+The following are considered to be specific examples of relationships that produce CoIs. Individuals in such relationships should not be involved in peer review of, or making editorial decisions about, materials provided by the related parties.
+
+    The lifelong relationship between a Ph.D. student and his/her Ph.D. supervisor
+    Within the last 24 months or reasonably expected within the next year:
+        Working closely together (e.g., at the same institution, company, or organization; or within the same organizational team).
+        Recipients of joint funding or significant professional collaboration.
+        Joint authorship of an archival publication.
+    Personal or family relationships that would reasonably cause others to doubt the impartiality of the review
+    Notable personal or professional conflicts (publicly known or not).
+
+SUBMISSION CAP, LENGTH, AND FORMATTING REQUIREMENTS
+
+An individual may be listed as author or co-author on at most FIVE papers submitted to IEEEE INFOCOM 2026. In the event that an individual exceeds this limit, only the first five papers received before the deadline will be considered for review, and the remainder will be rejected without review. Submitted papers must be written in English, with a maximum length limit of 10 printed pages. The main text (including figures, tables, appendices, and any material other than references) must be no more than 9 pages. Papers that do not comply with the length limit will not be reviewed. Use the standard IEEE Transactions templates for Microsoft Word or LaTeX formats found at:
+https://www.ieee.org/conferences/publishing/templates.html
+
+If the paper is typeset in LaTeX, please use an unmodified version of the LaTeX template IEEEtran.cls version 1.8, and use the preamble: \documentclass[10pt, conference, letterpaper]{ IEEEtran}
+
+Do not use additional LaTeX commands or packages to override and change the default typesetting choices in the template, including line spacing, font sizes, margins, space between the columns, and font types. This implies that the manuscript must use 10-point Times font, two-column formatting, as well as all default margins and line spacing requirements as dictated by the original version of IEEEtran.cls version 1.8. If you are using Microsoft Word to format your paper, you should use an unmodified version of the Microsoft Word IEEE Transactions template (US letter size). Regardless of the source of your paper formatting, you must submit your paper in Adobe PDF format.
+
+The paper must print clearly and legibly, including all the figures, on standard black-and-white printers. Reviewers are not required to read your paper in color. The submitted manuscript should be self-contained. Inclusion of additional material (e.g., a technical report containing the detailed math proof through an anonymous Dropbox or OneDrive link) is not allowed.
+IMPORTANT DATES
+
+Abstract Due: Thursday, July 24, 2025 (11:59 p.m., AOE)
+
+Full Paper Due: Thursday, July 31, 2025 (11:59 p.m., AOE)
+
+Notification of Acceptance: Monday, December 8, 2025  
+
+Accepted and presented papers will be published in the IEEE INFOCOM 2026 Conference Proceedings and submitted to IEEE Xplore®. Full details regarding the submission procedures and requirements are available at https://infocom2026.ieee-infocom.org/. The submission website can be accessed by following this link https://edas.info/N33581.
+TECHNICAL PROGRAM CHAIRS
+
+Tian Lan (George Washington University, USA)
+
+Satyajayant Misra (New Mexico State University, USA)
+TECHNICAL PROGRAM VICE-CHAIR FOR INFORMATION SYSTEMS
+
+Qiben Yan (Michigan State University, USA)
+
+ 
+Important Dates
+Abstract Due
+24 July 2025
+Full Paper Due
+31 July 2025
+Notification of Acceptance
+8 December 2025
+
+Committees
+
+General Chairs
+
+Hiroshi Esaki (University of Tokyo, Japan) 
+
+Yusheng Ji (National Institute of Informatics, Japan) 
+General Vice Chair
+
+Ruidong Li (Kanazawa University, Japan) 
+TPC Chairs
+
+Tian Lan (George Washington University, USA)
+
+Satyajayant Misra (New Mexico State University, USA) 
+TPC Vice Chair for Information Systems (EDAS)
+
+Qiben Yan (Michigan State University, USA)
+Workshop Chairs
+
+Yi Shi (Virginia Tech, USA)
+
+Noriaki Kamiyama (Ritsumeikan University, Japan)
+Panel Chair
+
+Josep Miquel Jornet (Northeastern Univ., USA)
+Industry Program Chair   
+
+Sastry Kompella (Nexcepta Inc., USA) 
+Demo/Posters Chairs
+
+Zhangyu Guan (Univ. of Minnesota, USA)
+
+Takayuki Nishio (Institute of Science Tokyo,  Japan)
+Publication Chairs
+
+Qiben Yan (Michigan State University, USA)
+
+Yi Shi (Virginia Tech, USA)
+
+Jimmy Le (IEEE Communications Society, USA)  
+Student Travel Grant Chairs
+
+Francesco Restuccia (Northeastern Univ., USA)   
+
+Zhen Zeng (Univ. of Wisconsin Milwaukee, USA)   
+Sponsorship Chairs
+
+Hiroshi Esaki (University of Tokyo, Japan) 
+
+Yusheng Ji (National Institute of Informatics, Japan) 
+
+Ruidong Li (Kanazawa Univ., Japan)
+
+Tom Hou (Virginia Tech, USA) 
+Publicity Chairs 
+
+Hitoshi Asaeda (National Institute of Information and Communications Technology, Japan)
+
+Yuchen Liu (North Carolina State Univ., USA)
+Web Chairs
+
+Ning Wang (Univ. of South Florida, USA) 
+
+Yinxin Wan (Univ. Mass Boston, USA) 
+TPC Meeting Chair
+
+Kaushik Chowdhury (Univ. of Texas at Austin, USA)   
+Local Chairs
+
+Celimuge Wu (Univ. of Electro-Communications, Japan)
+
+Manabu Tsukada (University of Tokyo, Japan)
+Conference Operations Chair
+
+Tom Hou (Virginia Tech, USA)                                       
+Registration and Travel (Visa) Chair
+
+Jimmy Le (IEEE Communications Society, USA)                       
+Patrons
+Gold
+NTT
+Bronze
+Toyota
+Special Supporters
+tcvb
+
+TPC Chairs
+
+Tian Lan (George Washington University, USA)
+
+Satyajayant Misra (New Mexico State University, USA) 
+TPC Vice Chair for Information Systems (EDAS)
+
+Qiben Yan (Michigan State University, USA)
+Area Chairs
+
+Alhussein A. Abouzeid (Rensselaer Polytechnic Institute, USA)
+
+Sem Borst (Eindhoven University of Technology, USA)
+
+Kai Chen (Hong Kong University of Science and Technology, China)
+
+Shigang Chen (University of Florida, USA)
+
+Yingying Chen (Rutgers University, USA)
+
+Carla Fabiana Chiasserini (Politecnico di Torino, Italy)
+
+Kaushik Chowdhury (University of Texas at Austin, USA)
+
+Huaiyu Dai (NC State University, USA)
+
+György Dán (KTH Royal Institute of Technology, Sweden)
+
+Falko Dressler (TU Berlin, Germany)
+
+Roy Friedman (Technion, Israel)
+
+Wei Gao (University of Pittsburgh, USA)
+
+Javad Ghaderi (Columbia University, USA)
+
+David Hay (The Hebrew University of Jerusalem, Israel)
+
+Bo Ji (Virginia Tech, USA)
+
+Carlee Joe-Wong (Carnegie Mellon University, USA)
+
+Josep M Jornet (Northeastern University, USA)
+
+Jussi Kangasharju (University of Helsinki, Finland)
+
+Isaac Keslassy (Technion, Israel)
+
+Sastry Kompella (NEXCEPTA INC, USA)
+
+Dimitrios Koutsonikolas (Northeastern University, USA)
+
+Fernando A. Kuipers (Delft University of Technology, The Netherlands)
+
+T. V Lakshman (Bell Labs, Nokia, USA)
+
+Bin Li (The Pennsylvania State University, USA)
+
+Ben Liang (University of Toronto, Canada)
+
+Jia Liu (The Ohio State University, USA)
+
+Jun Luo (Nanyang Technological University, Singapore)
+
+Shiwen Mao (Auburn University, USA)
+
+Janise McNair (University of Florida, USA)
+
+Deep Medhi (US National Science Foundation, USA)
+
+Srinivas G Shakkottai (Texas A&M University, USA)
+
+Alex Sprintson (Texas A&M University, USA)
+
+Aaron D Striegel (University of Notre Dame, USA)
+
+Vijay Subramanian (University of Michigan, USA)
+
+Ananthram Swami (DEVCOM Army Research Laboratory, USA)
+
+Damla Turgut (University of Central Florida, USA)
+
+Mehmet Can Vuran (University of Nebraska-Lincoln, USA)
+
+Isabel Wagner (University of Basel, Switzerland)
+
+Lan Wang (University of Memphis, USA)
+
+Joerg Widmer (IMDEA Networks Institute, Spain)
+
+Tilman Wolf (University of Massachusetts Amherst, USA)
+
+Linda Jiang Xie (University of North Carolina at Charlotte, USA)
+
+Lei Ying (University of Michigan, USA)
+
+Murat Yuksel (University of Central Florida, USA)
+
+Xinyu Zhang (University of California San Diego, USA)
+
+Yanchao Zhang (Arizona State University, USA)
+
+Zhi-Li Zhang (University of Minnesota, USA)
+
+Rong Zheng (McMaster University, Canada)
+Patrons
+Gold
+NTT
+Bronze
+Toyota
+Special Supporters
+tcvb
+
+TPC Members
+
+(🏅represents Distinguished Member of the 2026 INFOCOM Technical Program Committee. This distinction is awarded based upon ratings by peer TPC members, fairness in review scores, and promptness in meeting various deadlines during the review process. Area TPC Chairs are excluded from this recognition program.)
+
+ 
+
+🏅Anubhavnidhi Abhashkumar (Meta, USA)
+
+Bahman Abolhassani (Virginia Tech, USA)
+
+Nael Abu-Ghazaleh (University of California, Riverside, USA)
+
+Hrishikesh B Acharya (Oklahoma State University, USA)
+
+Sara Alouf (Inria, France)
+
+Kittipat Apicharttrisorn (Nokia Bell Labs, USA)
+
+🏅Serhat Arslan (Nvidia Corporation, USA)
+
+Ehsan Aryafar (Portland State University, USA)
+
+Arash Asadi (TU Delft, Germany)
+
+🏅Hitoshi Asaeda (National Institute of Information and Communications Technology (NICT), Japan)
+
+Nils Aschenbruck (Osnabrück University, Germany)
+
+Ashwin Ashok (Georgia State University, USA)
+
+Leonardo Badia (Università degli Studi di Padova, Italy)
+
+Sasitharan Balasubramaniam (University of Nebraska-Lincoln, USA)
+
+Albert Banchs (Universidad Carlos III de Madrid, Spain)
+
+🏅Avishek Banerjee (Nokia Bell Labs, USA)
+
+🏅Wei Bao (The University of Sydney, Australia)
+
+Marinho Barcellos (University of Waikato, New Zealand)
+
+Stefano Basagni (Northeastern University, USA)
+
+Antonio Bazco Nogueras (IMDEA Networks Institute, Spain)
+
+Robert Birke (University of Turin, Italy)
+
+Shaileshh Bojja Venkatakrishnan (The Ohio State University, USA)
+
+Vladimir Braverman (Rice University, USA)
+
+Christopher G. Brinton (Purdue University, USA)
+
+Olivier Brun (Laboratoire d'Analyse et d'Architecture des Systemes, France)
+
+Zhipeng Cai (Georgia State University, USA)
+
+Xiaojun Cao (Georgia State University, USA)
+
+Xuanyu Cao (Washington State University, USA)
+
+Zhichao Cao (Michigan State University, USA)
+
+Damiano Carra (University of Verona, Italy)
+
+Paolo Castagno (University of Turin, Italy)
+
+Ayon Chakraborty (Indian Institute of Technology, Madras, India)
+
+🏅Sandip Chakraborty (Indian Institute of Technology Kharagpur, India)
+
+Jaya Prakash V Champati (University of Victoria, Canada)
+
+Kevin S Chan (DEVCOM Army Research Laboratory, USA)
+
+Zheng Chang (University of Jyväskylä, Finland)
+
+Sid Chi-Kin Chau (Data61, CSIRO, Australia)
+
+Chung Shue Chen (Nokia Bell Labs, France)
+
+Jiasi Chen (University of Michigan, Ann Arbor, USA)
+
+🏅Jing Chen (Wuhan University, China)
+
+Jingdi Chen (University of Arizona, USA)
+
+🏅Lin Chen (Macao Polytechnic University, Macao)
+
+Minghua Chen (City University of Hong Kong, Hong Kong)
+
+Mingzhe Chen (University of Miami, USA)
+
+Tingjun Chen (Duke University, USA)
+
+🏅Yanjiao Chen (Zhejiang University, China)
+
+Yimin Chen (University of Massachusetts Lowell, USA)
+
+Zhe Chen (Fudan University, China)
+
+🏅Xiuzhen Cheng (Shandong University, China)
+
+Yu Cheng (Illinois Institute of Technology, USA)
+
+🏅Man Hon Cheung (City University of Hong Kong, Hong Kong)
+
+Mainak Chowdhury (Milaneum, Inc., USA)
+
+Xiaowen Chu (The Hong Kong University of Science and Technology (Guangzhou), Hong Kong)
+
+🏅Mooi Choo Chuah (Lehigh University, USA)
+
+Didier Colle (IMEC - Ghent University, Belgium)
+
+Mauro Conti (University of Padua, Italy)
+
+🏅Luis Henrique M. K. Costa (Federal University of Rio de Janeiro, Brazil)
+
+Yong Cui (Tsinghua University, China)
+
+🏅Salvatore D'Oro (Northeastern University, USA)
+
+Haipeng Dai (Nanjing University, China)
+
+Sajal K. Das (Missouri University of Science and Technology, USA)
+
+Luiz DaSilva (Virginia Tech, USA)
+
+Luca Davoli (University of Parma, Italy)
+
+🏅Swades De (Indian Institute of Technology Delhi, India)
+
+Francesco De Pellegrini (University of Avignon, France)
+
+Saptarshi Debroy (City University of New York, USA)
+
+Yong Deng (Lakehead University, Canada)
+
+Marco Di Felice (University of Bologna, Italy)
+
+Khaled Diab (Hewlett Packard Labs, Canada)
+
+Yingfei Dong (University of Hawaii, USA)
+
+Hongwei Du (Harbin Institute of Technology, Shenzhen, China)
+
+Wan Du (University of California, Merced, USA)
+
+Lingjie Duan (Singapore University of Technology and Design (SUTD), Singapore)
+
+Andrzej Duda (Grenoble Institute of Technology, France)
+
+🏅Gil Einziger (Ben-Gurion University of the Negev, Israel)
+
+Eylem Ekici (The Ohio State University, USA)
+
+Rachid El-Azouzi (University of Avignon, France)
+
+Tamer ElBatt (The American University in Cairo (AUC), Egypt)
+
+Ozgur Ercetin (Sabanci University, Turkey)
+
+Flavio Esposito (Saint Louis University, USA)
+
+Vaji Farhadi (Bucknell University, USA)
+
+Faramarz Fekri (Georgia Institute of Technology, USA)
+
+Mingjie Feng (Huazhong University of Science and Technology, China)
+
+Claudio Fiandrino (IMDEA Networks Institute, Spain)
+
+Markus Fidler (Leibniz Universität Hannover, Germany)
+
+🏅Marco Fiore (IMDEA Networks Institute, Spain)
+
+Viktoria Fodor (KTH Royal Institute of Technology, Sweden)
+
+Pantelis A. Frangoudis (TU Wien, Austria)
+
+Xinwen Fu (University of Massachusetts Lowell, USA)
+
+Fraida Fund (NYU Tandon School of Engineering, USA)
+
+Andres Garcia-Saavedra (NEC Laboratories Europe, Germany)
+
+Arnob Ghosh (New Jersey Institute of Technology, USA)
+
+Domenico Giustiniano (IMDEA Networks Institute, Spain)
+
+Javier Gomez (National University of Mexico, Mexico)
+
+Xiaowen Gong (Auburn University, USA)
+
+Yanmin Gong (University of Texas at San Antonio, USA)
+
+🏅Sergey Gorinsky (IMDEA Networks Institute, Spain)
+
+Zhangyu Guan (University of Minnesota - Twin Cities, USA)
+
+🏅Roch Guérin (Washington University in St. Louis, USA)
+
+🏅Basak Guler (University of California, Riverside, USA)
+
+Hanqing Guo (University of Hawaii at Manoa, USA)
+
+Hongzhi Guo (University of Nebraska-Lincoln, USA)
+
+Linke Guo (Clemson University, USA)
+
+Song Guo (The Hong Kong University of Science and Technology, Hong Kong)
+
+🏅Xiaonan Guo (George Mason University, USA)
+
+Yuanxiong Guo (University of Texas at San Antonio, USA)
+
+Sangtae Ha (University of Colorado Boulder, USA)
+
+Bo Han (George Mason University, USA)
+
+Dianqi Han (University of Texas at Arlington, USA)
+
+Dong-Jun Han (Yonsei University, Korea (South))
+
+Jiangping Han (University of Science and Technology of China, China)
+
+Jinsong Han (Zhejiang University, China)
+
+Zhenhua Han (Microsoft Research Asia, China)
+
+Zhu Han (University of Houston, USA)
+
+🏅Toru Hasegawa (Shimane University, Japan)
+
+Morteza Hashemi (University of Kansas, USA)
+
+Mahbub Hassan (University of New South Wales, Australia)
+
+David Hausheer (OVGU Magdeburg, Germany)
+
+Yezekael Hayel (LIA, University of Avignon, France)
+
+🏅Yuan He (Tsinghua University, China)
+
+Teruo Higashino (Kyoto Tachibana University, Japan)
+
+Moinul Hossain (George Mason University, USA)
+
+Seyyedali Hosseinalipour (University at Buffalo, USA)
+
+🏅I-Hong Hou (Texas A&M University, USA)
+
+Ningning Hou (Macquarie University, Australia)
+
+Tao Hou (University of North Texas, USA)
+
+🏅Pengfei Hu (Shandong University, China)
+
+Qin Hu (Georgia State University, USA)
+
+🏅Yidan Hu (Rochester Institute of Technology, USA)
+
+He Huang (Soochow University, China)
+
+Karin Anna Hummel (Johannes Kepler University Linz, Austria)
+
+Stratis Ioannidis (Northeastern University, USA)
+
+Mingyue Ji (University of Florida, USA)
+
+🏅Hongbo Jiang (Hunan University, China)
+
+Lei Jiao (University of Oregon, USA)
+
+Long Jiao (University of Massachusetts Dartmouth, USA)
+
+🏅Haiming Jin (Shanghai Jiao Tong University, China)
+
+Jason P. Jue (University of Texas at Dallas, USA)
+
+Igor Kadota (Northwestern University, USA)
+
+Vana Kalogeraki (Athens University of Economics and Business, Greece)
+
+Clement Kam (Naval Research Laboratory, USA)
+
+Salil S Kanhere (UNSW Sydney, Australia)
+
+Krishna Kant (Temple University, USA)
+
+Koushik Kar (Rensselaer Polytechnic Institute, USA)
+
+Gaurav S. Kasbekar (Indian Institute of Technology, Bombay, India)
+
+Abdallah A Khreishah (New Jersey Institute of Technology, USA)
+
+Hyoil Kim (Ulsan National Institute of Science and Technology (UNIST), Korea (South))
+
+Song Min Kim (KAIST, Korea (South))
+
+Taejoon Kim (Arizona State University, USA)
+
+Florian Klingler (University of Bamberg, Germany)
+
+Iordanis Koutsopoulos (Athens University of Economics and Business, Greece)
+
+Bhaskar Krishnamachari (University of Southern California, USA)
+
+Marwan Krunz (University of Arizona, USA)
+
+Richard J La (University of Maryland, USA)
+
+🏅Guohao Lan (Delft University of Technology, The Netherlands)
+
+🏅Chul-Ho Lee (Texas State University, USA)
+
+🏅Kyunghan Lee (Seoul National University, Korea (South))
+
+🏅Patrick Pak-Ching Lee (The Chinese University of Hong Kong, Hong Kong)
+
+Stephen Lee (University of Pittsburgh, USA)
+
+🏅Marco Levorato (University of California, Irvine, USA)
+
+🏅Ang Li (The University of Michigan-Dearborn, USA)
+
+Baochun Li (University of Toronto, Canada)
+
+Chengzhang Li (The Ohio State University, USA)
+
+Fan Li (Beijing Institute of Technology, China)
+
+Feng Li (Purdue University, USA)
+
+Jian Li (Stony Brook University, USA)
+
+🏅Jun Li (City University of New York, USA)
+
+Ming Li (University of Texas at Arlington, USA)
+
+Mo Li (Hong Kong University of Science and Technology, Hong Kong)
+
+Mushu Li (Lehigh University, USA)
+
+Pan Li (Hangzhou Dianzi University, China)
+
+🏅Peng Li (Xi'an Jiaotong University, China)
+
+Qun Li (William & Mary, USA)
+
+Ruidong Li (Kanazawa University, Japan)
+
+Shaoran Li (NVIDIA Corp, USA)
+
+Tao Li (Purdue University, USA)
+
+Wenxin Li (Tianjin University, China)
+
+Yuanjie Li (Tsinghua University, China)
+
+Yupeng Li (Hong Kong Baptist University, Hong Kong)
+
+🏅Zhenhua Li (Tsinghua University, China)
+
+Zhenjiang Li (City University of Hong Kong, Hong Kong)
+
+Zhenyu Li (Institute of Computing Technology, Chinese Academy of Sciences, China)
+
+🏅Chi Lin (Dalian University of Technology, China)
+
+Kate Ching-Ju Lin (National Yang Ming Chiao Tung University, Taiwan)
+
+🏅Qiulin Lin (City University of Hong Kong, Hong Kong)
+
+Sen Lin (University of Houston, USA)
+
+Shan Lin (Stony Brook University, USA)
+
+Xiaojun Lin (The Chinese University of Hong Kong, Hong Kong)
+
+🏅Zhen Ling (Southeast University, China)
+
+Leonardo Linguaglossa (Telecom Paris, France)
+
+Chao Liu (Ocean University of China, China)
+
+Fangming Liu (Huazhong University of Science and Technology, China)
+
+Hang Liu (The Catholic University of America, USA)
+
+Hongbo Liu (Electronic Science and Technology of China, China)
+
+🏅Jia Liu (Nanjing University, China)
+
+Jiangchuan Liu (Simon Fraser University, Canada)
+
+Jianqing Liu (North Carolina State University, USA)
+
+Qiang Liu (University of Nebraska-Lincoln, USA)
+
+Qingyu Liu (Peking University, China)
+
+Tang Liu (Sichuan Normal University, China)
+
+Xin Liu (ShanghaiTech University, China)
+
+Yao Liu (University of South Florida, USA)
+
+Yuchen Liu (North Carolina State University, USA)
+
+Yunhao Liu (Tsinghua University, China)
+
+Zhenhua Liu (Stony Brook University, USA)
+
+Zhenming Liu (College of William and Mary, USA)
+
+🏅Renato Lo Cigno (University of Brescia, Italy)
+
+Wenjing Lou (Virginia Tech, USA)
+
+Li Lu (Zhejiang University, China)
+
+Ning Lu (Queen's University, Canada)
+
+Zhuo Lu (University of South Florida, USA)
+
+John Chi Shing Lui (Chinese University of Hong Kong, Hong Kong)
+
+Changqing Luo (University of Houston, USA)
+
+🏅Xiapu Luo (The Hong Kong Polytechnic University, Hong Kong)
+
+🏅Feng Lyu (Central South University, China)
+
+Olaf M Maennel (University of Adelaide, Australia)
+
+Francesco Malandrino (CNR-IEIIT, Italy)
+
+🏅David Malone (Maynooth University, Ireland)
+
+Vincenzo Mancuso (University of Palermo, Italy)
+
+Victoria Ursula Manfredi (Wesleyan University, USA)
+
+Mahesh K Marina (The University of Edinburgh, United Kingdom (Great Britain))
+
+Fabio Martignon (University of Bergamo, Italy)
+
+Alessandro Mei (Sapienza University of Rome, Italy)
+
+Daniel Menasché (Federal University of Rio de Janeiro, Brazil)
+
+🏅Chenglin Miao (Iowa State University, USA)
+
+Enzo Mingozzi (University of Pisa, Italy)
+
+Edmundo Monteiro (University of Coimbra, Portugal)
+
+🏅Roberto Morabito (EURECOM, France)
+
+Abde Mtibaa (University of Missouri St. Louis, USA)
+
+Tamer Nadeem (Virginia Commonwealth University, USA)
+
+🏅Enrico Natalizio (University of Lorraine/Loria, France)
+
+Edith C.-H. Ngai (The University of Hong Kong, Hong Kong)
+
+Duong Tung Nguyen (Arizona State University, USA)
+
+Di Niu (University of Alberta, Canada)
+
+Michele Nogueira (Federal University of Minas Gerais, Brazil)
+
+🏅Sangheon Pack (Korea University, Korea (South))
+
+Jeongyeup Paek (Chung-Ang University, Korea (South))
+
+🏅Deng Pan (Florida International University, USA)
+
+Jianping Pan (University of Victoria, Canada)
+
+Miao Pan (University of Houston, USA)
+
+Gaurav Panwar (New Mexico State University, USA)
+
+Shivendra Panwar (New York University, USA)
+
+George Parisis (University of Sussex, United Kingdom (Great Britain))
+
+Parth Pathak (George Mason University, USA)
+
+Ioannis Pefkianakis (Hewlett Packard Labs, USA)
+
+Ferdous Pervej (Utah State University, USA)
+
+Dimitrios P Pezaros (University of Glasgow, United Kingdom (Great Britain))
+
+🏅Massimiliano Pierobon (University of Nebraska-Lincoln, USA)
+
+Sofie Pollin (KU Leuven, Belgium)
+
+George C. Polyzos (The Chinese University of Hong Kong, Shenzhen, China)
+
+Corrado Puligheddu (Politecnico di Torino, Italy)
+
+🏅Chen Qian (University of California at Santa Cruz, USA)
+
+Kun Qian (University of Virginia, USA)
+
+Daji Qiao (Iowa State University, USA)
+
+Chenxi Qiu (University of North Texas, USA)
+
+Yuben Qu (Nanjing University of Aeronautics and Astronautics, China)
+
+🏅Hanif Rahbari (Rochester Institute of Technology, USA)
+
+Byrav Ramamurthy (University of Nebraska-Lincoln, USA)
+
+Danda B. Rawat (Howard University, USA)
+
+🏅Hans P. Reiser (Reykjavík University, Iceland)
+
+Ju Ren (Tsinghua University, China)
+
+🏅Francesco Restuccia (Northeastern University, USA)
+
+Amr Rizk (Leibniz University Hannover, Germany)
+
+Gianluca Rizzo (HES SO Valais, Switzerland)
+
+Roberto Rojas-Cessa (New Jersey Institute of Technology, USA)
+
+Michele Rossi (University of Padova, Italy)
+
+🏅Debashri Roy (The University of Texas Arlington, USA)
+
+Dan Rubenstein (Columbia University, USA)
+
+Eric Ruzomberka (Air Force Institute of Technology, USA)
+
+Yalin E Sagduyu (Nexcepta, USA)
+
+Swetank Kumar Saha (Apple Inc., USA)
+
+Sara Garcia Sanchez (IBM T. J. Watson Research Center, USA)
+
+Gregor Schiele (University of Duisburg-Essen, Germany)
+
+Jens Schmitt (TU Kaiserslautern, Germany)
+
+Henning Schulzrinne (Columbia University, USA)
+
+Laurent Schumacher (UNamur, Belgium)
+
+Michael Segal (Ben-Gurion University of the Negev, Israel)
+
+Aruna Seneviratne (University of New South Wales, Australia)
+
+Pablo Serrano (Universidad Carlos III de Madrid, Spain)
+
+Mo Sha (Florida International University, USA)
+
+Vijay K. Shah (North Carolina State University, USA)
+
+Susmit Shannigrahi (Tennessee Technological University, USA)
+
+Cong Shen (University of Virginia, USA)
+
+Haiying Shen (University of Virginia, USA)
+
+Amit Sheoran (AT&T Labs - Research, USA)
+
+Sachin Shetty (Old Dominion University, USA)
+
+🏅Yi Shi (Virginia Tech, USA)
+
+🏅Tao Shu (Auburn University, USA)
+
+🏅Craig A. Shue (Worcester Polytechnic Institute, USA)
+
+Stephan Sigg (Aalto University, Finland)
+
+Simone Silvestri (University of Kentucky, USA)
+
+Suresh Singh (Portland State University, USA)
+
+Chetna Singhal (Inria, France)
+
+Krishna M Sivalingam (Indian Institute of Technology Madras, India)
+
+Linqi Song (City University of Hong Kong, Hong Kong)
+
+Eleni G Stai (NTUA, Greece)
+
+Lu Su (Purdue University, USA)
+
+🏅Kun Sun (George Mason University, USA)
+
+Wenhai Sun (Purdue University, USA)
+
+Chee Wei Tan (Nanyang Technological University, Singapore)
+
+Chiu C. Tan (Temple University, USA)
+
+Haisheng Tan (University of Science and Technology of China, China)
+
+Zhaowei Tan (University of California, Riverside, USA)
+
+🏅Jhonatan Tavori (Columbia University, USA)
+
+Christo Kurisummoottil Thomas (Worcester Polytechnic Institute (WPI), USA)
+
+🏅Sahil Tikale (Nokia Bell Labs, USA)
+
+🏅Massimo Tornatore (Politecnico di Milano, Italy)
+
+🏅Reza Tourani (Saint Louis University, USA)
+
+🏅Eirini Eleni Tsiropoulou (Arizona State University, USA)
+
+🏅Guan-Hua Tu (Michigan State University, USA)
+
+Balajee Vamanan (University of Illinois at Chicago, USA)
+
+Balázs Vass (Budapest University of Technology and Economics, Hungary)
+
+Yinxin Wan (University of Massachusetts Boston, USA)
+
+🏅Zhiguo Wan (Zhejiang Lab, Hangzhou, Zhejiang, China)
+
+Boyang Wang (University of Cincinnati, USA)
+
+Cong Wang (Zhejiang University, China)
+
+🏅Dan Wang (Hong Kong University of Science and Technology, Hong Kong)
+
+En Wang (Jilin University, China)
+
+Feng Wang (University of Mississippi, USA)
+
+Guangjing Wang (University of South Florida, USA)
+
+🏅Haibo Wang (University of Kentucky, USA)
+
+🏅Hao Wang (Stevens Institute of Technology, USA)
+
+🏅Haoxin Wang (Georgia State University, USA)
+
+🏅Juncheng Wang (Hong Kong Baptist University, Hong Kong)
+
+Lin Wang (Paderborn University, Germany)
+
+Ning Wang (University of South Florida, USA)
+
+Pengfei Wang (Dalian University of Technology, China)
+
+Tao Wang (University of North Texas, USA)
+
+🏅Wei Wang (San Diego State University, USA)
+
+Wei Wang (Hong Kong University of Science and Technology, Hong Kong)
+
+🏅Weichao Wang (University of North Carolina at Charlotte, USA)
+
+Wenye Wang (NC State University, USA)
+
+🏅Xiaofei Wang (Tianjin University, China)
+
+🏅Xiaojian Wang (University of Colorado Denver, USA)
+
+Xin Wang (Stony Brook University, USA)
+
+🏅Xuyu Wang (Florida International University, USA)
+
+🏅Yan Wang (Temple University, USA)
+
+Yu Wang (Temple University, USA)
+
+Yue Wang (Georgia State University, USA)
+
+Zhibo Wang (Zhejiang University, China)
+
+🏅Klaus Wehrle (RWTH Aachen University, Germany)
+
+Honghao Wei (Washington State University, USA)
+
+🏅Jinpeng Wei (University of North Carolina at Charlotte, USA)
+
+Cedric Westphal (Huawei Innovation Center, USA)
+
+Celimuge Wu (The University of Electro-Communications, Japan)
+
+Chuan Wu (The University of Hong Kong, Hong Kong)
+
+Fan Wu (Shanghai Jiao Tong University, China)
+
+Hongyi Wu (The University of Arizona, USA)
+
+Jie Wu (China Telecom Cloud Computing Research Institute, USA)
+
+🏅Kui Wu (University of Victoria, Canada)
+
+Qiao Xiang (Xiamen University, China)
+
+Liang Xiao (Xiamen University, China)
+
+🏅Qingjun Xiao (SouthEast University of China, China)
+
+Yang Xiao (University of Kentucky, USA)
+
+Lei Xie (Nanjing University, China)
+
+🏅Yaxiong Xie (University at Buffalo, USA)
+
+Chenren Xu (Peking University, China)
+
+Hong Xu (The Chinese University of Hong Kong, Hong Kong)
+
+Hongli Xu (University of Science and Technology of China, China)
+
+Jie Xu (University of Florida, USA)
+
+🏅Kuai Xu (Arizona State University, USA)
+
+Lisong Xu (University of Nebraska-Lincoln, USA)
+
+Minghui Xu (Shandong University, China)
+
+Yang Xu (Fudan University, China)
+
+Guoliang Xue (Arizona State University, USA)
+
+Kaiping Xue (University of Science and Technology of China, China)
+
+🏅Zheng Yan (Xidian University, China)
+
+Zhenyu Yan (The Chinese University of Hong Kong, Hong Kong)
+
+Dejun Yang (Colorado School of Mines, USA)
+
+Dummy Yang (Michigan State, USA)
+
+Haibo Yang (Rochester Institute of Technology, USA)
+
+Jie Yang (Florida State University, USA)
+
+🏅Lei Yang (University of Nevada, Reno, USA)
+
+Panlong Yang (University of Science and Technology of China, China)
+
+🏅Qing Yang (University of North Texas, USA)
+
+🏅Song Yang (Beijing Institute of Technology, China)
+
+Tong Yang (Peking University, China)
+
+Yanbing Yang (Sichuan University, China)
+
+Yuanyuan Yang (Stony Brook University, USA)
+
+Zheng Yang (Tsinghua University, China)
+
+🏅Evsen Yanmaz (Ozyegin University, Turkey)
+
+🏅Xin Yao (Central South University, China)
+
+David Yau (Singapore University of Technology and Design, Singapore)
+
+Fan Ye (Stony Brook University, USA)
+
+Feng Ye (University of Wisconsin-Madison, USA)
+
+Dongxiao Yu (Shandong University, China)
+
+Jiadi Yu (Shanghai Jiao Tong University, China)
+
+🏅Jihong Yu (Beijing Institute of Technology, China)
+
+🏅Ruozhou Yu (North Carolina State University, USA)
+
+Shucheng Yu (Yeshiva University, USA)
+
+Tingting Yuan (IMC University of Applied Sciences Krems, Austria)
+
+Xu Yuan (University of Louisiana at Lafayette, USA)
+
+Huacheng Zeng (Michigan State University, USA)
+
+🏅Kai Zeng (George Mason University, USA)
+
+Haijun Zhang (University of Science and Technology Beijing, China)
+
+Han Zhang (Tsinghua University, China)
+
+Hong Zhang (University of Waterloo, China)
+
+Hongwei Zhang (Iowa State University, USA)
+
+🏅Junqing Zhang (University of Liverpool, United Kingdom (Great Britain))
+
+Ning Zhang (University of Windsor, Canada)
+
+Ning Zhang (Washington University in St. Louis, USA)
+
+Peng Zhang (Xi'an Jiaotong University, China)
+
+Qian Zhang (Hong Kong University of Science and Technology, Hong Kong)
+
+🏅Rui Zhang (University of Delaware, USA)
+
+Sheng Zhang (Nanjing University, China)
+
+Wensheng Zhang (Iowa State University, USA)
+
+Xiaonan Zhang (Florida State University, USA)
+
+🏅Yan Zhang (The University of Akron, USA)
+
+🏅Yuan Zhang (Nanjing University, China)
+
+Zhaofeng Zhang (Delaware State University, USA)
+
+Zhenghao Zhang (Florida State University, USA)
+
+Gongming Zhao (University of Science and Technology of China, China)
+
+Jin Zhao (Fudan University, China)
+
+Jun Zhao (Nanyang Technological University, Singapore)
+
+🏅Yanchao Zhao (Nanjing University of Aeronautics and Astronautics, China)
+
+Mariya Zheleva (UAlbany SUNY, USA)
+
+Xiaolong Zheng (Beijing University of Posts and Telecommunications, China)
+
+Yuanqing Zheng (The Hong Kong Polytechnic University, Hong Kong)
+
+Ruiting Zhou (Southeast University, China)
+
+🏅Haojin Zhu (Shanghai Jiao Tong University, China)
+
+🏅Hongzi Zhu (Shanghai Jiao Tong University, China)
+
+Quanyan Zhu (New York University, USA)
+
+Yanmin Zhu (Shanghai Jiao Tong University, China)

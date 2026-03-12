@@ -1,0 +1,486 @@
+UbiComp / ISWC is a premier interdisciplinary venue in which leading international researchers, designers, developers, and practitioners in the field present and discuss novel results in all aspects of ubiquitous, pervasive and wearable computing. This includes the design, development, and deployment of ubiquitous, pervasive and wearable computing technologies and the understanding of human experiences and social impacts that these technologies facilitate.
+
+The conference will be held during October, 2025 at Aalto University, Espoo, Finland. Aalto University is a public research university located in Espoo, Finland, within the Greater Helsinki metropolitan area. It was established in 2010 as a merger of three major Finnish universities: the Helsinki University of Technology, the Helsinki School of Economics and the University of Art and Design Helsinki.
+
+Registration is now open! Join us for UbiComp/ISWC 2025 in-person! We are excited to host the community in Aalto University.
+We would like to thank our awesome sponsors and supporters for aiding the 2025 UbiComp/ISWC community. Your help shapes the conference and will benefit students, researchers, and practitioners to advance our knowledge.
+
+
+
+Submissions Due:
+May 18, 2025 [11.59 pm AoE]
+May 25, 2025 [11.59 pm AoE] [Hard]
+
+ISWC 2025, the 29th annual International Symposium on Wearable Computers, will be held in conjunction with UbiComp 2025 in Espoo, Finland, October 12-16, 2025.
+
+ISWC is the premier forum for research on wearable technology and topics related to on-body and worn mobile technologies. ISWC brings together an eclectic and interdisciplinary mix of visionary researchers, developers, designers, artists, manufacturers, and users to share information and advances in wearable technology. Contributions from a wide range of domains (including fashion design, computer science, textile engineering, electrical engineering, optics, human factors, sociology, anthropology, mechanical engineering, and medicine; among others) are encouraged.
+
+ISWC invites submissions on all research related to technology that is worn on or interacts with the body, both the development and deployment thereof as well as the impacts and influences on individuals and cultures. ISWC looks for rigorous research contributions as well as highly creative ideas. Authors should consult the 2025 ISWC Author Guide for more details.
+
+While this call focuses specifically on research contributions, interested parties should be aware that other submission categories are also open for design innovation, system demonstrations, and interactive workshop formats (see our overall Call for Participation for more information).
+Summary of Key Dates
+
+    May 18, 2025 [11.59 pm AoE] May 25, 2025 [11.59 pm AoE] [Hard]: Submission deadline for Notes and Briefs (AoE)
+    July 4, 2025: Author Notification Date (all papers)
+    July 25, 2025: Camera Ready Deadline
+    12-16 October, 2025: Conference Date
+
+Areas of Interest Include (But Are Not Limited To):
+
+    Wearable Systems, Novel Devices and Form Factors
+        Smartphone- and smartwatch-based systems and applications
+        Glasses
+        Earables
+        Rings and Gloves
+        Wearable equipment for specialized applications and professions
+        Exoskeletons and physical strength augmentation
+    Enabling Technologies
+        Displays, mobile augmented reality optics (freeform optics, light-guides, holographic and diffractive approaches)
+        Haptics and actuators
+        Novel sensor technologies enabling and enhancing context-aware sensing, including but not limited to:
+            Sensing the body (movement, behavior, physiology)
+            Sensing the eye (gaze, patterns of looking, eye-computer interaction)
+            Sensing the brain (wearable fNIRS, EEG, brain-computer interfaces)
+        Wearable sensor networks
+        Manufacturing of wearable technologies
+        Wearable technology toolkits
+        Power sources and management, thermal management
+    Textiles and Clothing
+        E-textiles, advanced textiles, and clothing-based wearables
+        Functional clothing and non-electronic wearable technologies
+        Novel materials for textiles and clothing
+    On-Skin and Implantable Interfaces
+        On-skin technology and interfaces
+        Implantable, insertable technology and interfaces
+        Unconventional materials and form factors for close-body devices
+        Biotechnology and HCI
+        Microfluidics for on-skin interfaces
+    Design Process for Wearables
+        Research through design
+        Craft and computing for wearables
+        Culturally-sensitive design processes
+        Design and conceptual innovation in wearables
+        From basic research to commercial product
+    Information and Data
+        Machine learning, and artificial intelligence for wearables
+        Data augmentation, big data, crowd-sourcing, fusion of online data & sensors
+        Datasets and performance evaluation
+        Individual activity recognition, behavior analysis, context recognition, skill assessment
+        Social, team and group activity and context recognition, skill assessment
+        Exploratory domain mapping and feature identification/extraction, ontologies for wearable applications
+        Novel processing approaches beyond “machine learning”, bio-inspired approaches, cognitively-inspired architectures, towards human-like perception
+        Computationally efficient processing (memory, energy), architecture optimization
+    Human/Device Interaction
+        Human factors and HCI of wearables, wearability, interaction design
+        Anthropometrics and fit
+        Social interactions and impacts
+        Social perception and acceptance towards wearable devices
+        Human augmentation and portable environments
+        Human-robot interaction
+        Human/environmental/economic impacts, long-term effects, and future of wearable technologies, ethics and privacy
+    Applications
+        Health and wellness, mental health and therapy, rehabilitation
+        Leisure and entertainment, including sports, tourism, games
+        Virtual, mixed and augmented reality
+        The future of work, including; industrial applications, supporting physical, cognitive, and collaborative work
+        Extreme environments, including: outer space, underwater environments
+        Research on behavior, psychology, and cognition
+        Art and fashion; theatre and performance
+        Education and training
+        Biometrics and security
+        Wearables and smart cities
+        Markets and consumer behavior in wearables
+
+Submission Types and Procedures
+Notes & Briefs
+
+ISWC accepts contributions of original, unpublished research in two lengths. Papers are published and archived in the ACM Digital Library.
+
+Notes: novel, rigorous research contributions of smaller scope than full papers submissions to IMWUT. Notes should reflect a more narrow research question, but not reflect early-stage (e.g. pilot, under-developed) research, or preliminary technological development without a robust evaluation. Notes should not exceed 6 pages in the 2-column, ACM proceedings format (please refer to the UbiComp/ISWC templates and formatting). References do not count to the page limit (i.e. references can be on pages 7+), but it is important that the core paper including all text and figures is in the first 6 pages. Appendices are not allowed.
+
+Briefs: novel research contributions of a narrow scope. Briefs should include system or technology development with limited evaluation. Briefs should not exceed 3 pages in the 2-column, ACM proceedings format (please refer to the UbiComp/ISWC templates and formatting). References do not count to the page limit (i.e. references can be on pages 3+), but it is important that the core paper including all text and figures is in the first 3 pages. Appendices are not allowed.
+
+Former “Long Papers”: Since ISWC and UbiComp have started co-hosting the conference, papers formerly known as “Long papers” must be submitted via the IMWUT journal system. IMWUT has 3 submission deadlines a year (1 February, 1 May, 1 November). When submitting to IMWUT, please make sure you tick the “Wearable” checkbox as it helps allocate the papers to suitable Associate Editors. More information about IMWUT submissions and their presentation is available here.
+
+ISWC 2025 contributions will be invited to the UbiComp/ISWC 2025 conference in Espoo, Finland, October 12-16, 2025.
+
+*ISWC Notes & Briefs, as any other track at UbiComp/ISWC 2025, will be in-person only.
+Template for the Submission
+
+Please refer to the UbiComp/ISWC template and formatting.
+Submission, Reviewing and Camera-ready Procedures
+
+All papers should be sent through the submission site available through the Precision Conference System (PCS).
+
+Double-blind review: ISWC follows a double-blind review process, and the anonymization policy of ACM IMWUT should be observed. Therefore, submit your papers without identifying information (i.e. it must be anonymized), including author names and pay attention when citing prior work to use a style which does not lend to easy identification of the authors (i.e. in third person). For instance, instead of “In our previous work we showed….” one could write “It was recently shown that … [ref]”. Authors must leave citations to their previous work unanonymized to allow reviewers to ensure that the existing literature has been adequately taken into account. Any link to codes or visual materials (e.g., videos, images) needs to be anonymized too.
+
+Accepted papers: final edits (in alignment with reviewer comments) will be prepared by the authors for submission on the Camera Ready Deadline.
+
+Shepherded papers: those are papers which require very specific changes identified by reviewers and the program committee members. They are considered to be conditionally accepted, subject to the authors modifying their paper to address specific shepherding comments. These may fall in two categories. Some papers may be requested to be revised in a shorter format (e.g. from Notes to Briefs), while others may be requested to be revised in the same format. A shepherd will guide the authors to ensure that the required changes are adequately completed. Revision timelines will be agreed between the shepherd and authors, but must be fully complete and approved by the shepherd by the Shepherding Acceptance Deadline and then readied for the Camera Ready Deadline.
+
+Rejected papers: Some rejected papers may be invited for submission as posters or demonstrations at the UbiComp/ISWC 2025 Conference.
+
+Desk Rejects: Papers out of the scope of ISWC or without appropriate anonymization may be rejected without reviews.
+
+All papers well suited for the format may also be invited for an additional submission as a demonstration at the UbiComp/ISWC 2025 conference.
+Reviewing Criteria
+
+All papers are reviewed based on their scientific merit and contribution to the scientific progress in the domain of wearable technology. Submissions should demonstrate novelty (contribution above the state of the art); impact (contribution that furthers the state of the art in meaningful and significant ways, that can be translated and applied to new contexts); and rigor (contribution that is thoroughly supported with well-constructed evidence).
+
+For authors to get a sense of what the ISWC community likes to see in papers we may suggest consulting the 2025 ISWC Author Guide.
+
+Questions? Contact the Program Chairs at iswc-2025@ubicomp.org .
+Submission System
+
+Submissions can be made at http://new.precisionconference.com/sigchi
+
+On the submissions tab, please select SIGCHI society, the UbiComp/ISWC 2025 conference, and the “ISWC 2025 Notes and Briefs” track.
+IMPORTANT DATES
+
+Submission Deadline:
+May 18, 2025 [11.59 pm AoE]
+May 25, 2025 [11.59 pm AoE] [Hard]
+
+Author Notification Date:
+July 4, 2025
+
+Camera-Ready Deadline:
+July 25, 2025
+CONTACT
+
+iswc-2025@ubicomp.org
+
+Organizing Committee
+GENERAL CHAIRS
+
+Contact: generalchairs-2025@ubicomp.org
+Michael Beigl
+
+Michael Beigl
+Karlsruhe Institute of Technology, Germany
+Giulio Jacucci
+
+Giulio Jacucci
+Helsingin yliopisto, Finland
+Stephan Sigg
+
+Stephan Sigg
+Aalto University, Finland
+Yu Xiao
+
+Yu Xiao
+Aalto University, Finland
+TECHNICAL PROGRAM CHAIRS
+
+Contact: programchairs-2025@ubicomp.org
+Jakob Bardram
+
+Jakob Bardram
+Technical University of Denmark, Denmark
+Chenren Xu
+
+Chenren Xu
+Peking University, China
+Eirini Eleni Tsiroupoulou
+
+Eirini Eleni Tsiropoulou
+Arizona State University, US
+WORKSHOPS AND TUTORIALS
+
+Contact: workshops-2025@ubicomp.org
+Yutaka Arakawa
+
+Yutaka Arakawa
+Kyushu University, Japan
+Aaron Ding
+
+Aaron Ding
+TU Delft, Netherlands
+Ella Peltonen
+
+Ella Peltonen
+University of Oulu, Finland
+POSTERS AND DEMOS
+
+Contact: pd-2025@ubicomp.org
+Gopika Premsankar
+
+Gopika Premsankar
+Aalto University, Finland
+Uichin Lee
+
+Uichin Lee
+Korea Advanced Institute of Science and Technology, Korea
+Laura E Barnes
+
+Laura E Barnes
+University of Virginia, US
+ISWC BRIEFS AND NOTES
+
+Contact: iswc-2025@ubicomp.org
+Gopika Premsankar
+
+Franca Delmastro
+CNR, Italy
+Sizhen Bian
+
+Sizhen Bian
+DFKI
+DOCTORAL COLLOQUIUM
+
+Contact: dc-2025@ubicomp.org
+Antti Oulasvirta
+
+Antti Oulasvirta
+Aalto University, Finland
+Benjamin Tag
+
+Benjamin Tag
+University of New South Wales
+Qi Han
+
+Qi Han
+Colorado School of Mines, US
+STUDENT COMPETITION AND CHALLENGES
+
+Contact: sc-2025@ubicomp.org
+Nan Gao
+
+Nan Gao
+Nankai University, China
+Shantanu Pal
+
+Shantanu Pal
+Deakin University, Australia
+Huber Flores
+
+Huber Flores
+University of Tartu, Estonia
+SPONSORSHIP AND INDUSTRIAL RELATIONS
+
+Contact: sponsorship-2025@ubicomp.org
+Chulhong Min
+
+Chulhong Min
+Nokia Bell Labs, UK
+Sasu Tarkoma
+
+Sasu Tarkoma
+University of Helsinki, Finland
+Lei Zhong
+
+Lei Zhong
+Toyota
+Florian Michahelles
+
+Florian Michahelles
+TU Wien, Austria
+INCLUSION AND BROADENING PARTICIPATION
+
+Contact: inclusion-2025@ubicomp.org
+Sara Khalifa
+
+Sara Khalifa
+Queensland University of Technology (QUT)
+Tom Bäckström
+
+Tom Bäckström
+Aalto University, Finland
+Maija Poikela
+
+Maija Poikela
+Berlin Institute of Health at Charité
+WEB
+
+Contact: web-2025@ubicomp.org
+Le Nguyen
+
+Le Nguyen
+University of Oulu, Finland
+Manas Bedmutha
+
+Sang Won Bae
+Stevens Institute of Technology, US
+Tahera Hossain
+
+Tahera Hossain
+Nagoya University, Japan
+PUBLICATION
+
+Contact: publication-2025@ubicomp.org
+Till Riedel
+
+Till Riedel
+Karlsruhe Institute of Technology, Germany
+Sozo Inoue
+
+Sozo Inoue
+Kyushu Institute of Technology, Japan
+REGISTRATION
+
+Contact: registration-2025@ubicomp.org
+Fusang Zhang
+
+Fusang Zhang
+University of Chinese Academy of Sciences, China
+Anandghan Waghmare
+
+Anandghan Waghmare
+University of Washington, US
+Manas Bedmutha
+
+Manas Bedmutha
+University of California San Diego, US
+TREASURER
+
+Contact: treasurer-2025@ubicomp.org
+Petteri Nurmi
+
+Petteri Nurmi
+Helsingin yliopisto, Finland
+STUDENT VOLUNTEER CHAIRS
+
+Contact: sv-2025@ubicomp.org
+Robin Welsch
+
+Robin Welsch
+Aalto University, Finland
+Takuya Maekawa
+
+Takuya Maekawa
+Osaka University, Japan
+Tim Moesgen
+
+Tim Moesgen
+Aalto University, Finland
+Chi-Jung Lee
+
+Chi-Jung Lee
+Cornell University, US
+PUBLICITY & SOCIAL MEDIA
+
+Contact: publicity-2025@ubicomp.org
+Si Zuo
+
+Si Zuo
+Aalto University, Finland
+Yuuki Nishiyama
+
+Yuuki Nishiyama
+University of Tokyo, Japan
+Zhi Liu
+
+Zhi Liu
+The University of Electro-Communications, Japan
+LOCAL ARRANGEMENTS
+
+Contact: local-2025@ubicomp.org
+Talayeh Aledavood
+
+Talayeh Aledavood
+Aalto University, Finland
+Bo Zhao
+
+Bo Zhao
+Aalto University, Finland
+Hong-Tri Nguyen
+
+Hong-Tri Nguyen
+Aalto University, Finland
+Xiaoli Liu
+
+Xiaoli Liu
+University of Helsinki, Finland
+Krisztina Cziner
+
+Krisztina Cziner
+Aalto University, Finland
+Hanna-Mari Ylinen
+
+Hanna-Mari Ylinen
+Aalto University, Finland
+AWARDS
+
+Contact: awards-2025@ubicomp.org
+Daqing Zhang
+
+Daqing Zhang
+University of Sud Paris
+Moustafa Youssef
+
+Moustafa Youssef
+American University in Cairo, Egypt
+Silvia Santini
+
+Silvia Santini
+Università della Svizzera italiana (USI), Switzerland
+Sarah Clinch
+
+Sarah Clinch
+University of Manchester, UK
+Eric Larson
+
+Eric Larson
+Southern Methodist University, US
+DESIGN EXHIBITION
+
+Contact: design-2025@ubicomp.org
+Mirela Alistar
+
+Mirela Alistar
+University of Colorado Boulder
+Eldy Lazaro
+
+Eldy Lazaro
+University of Colorado Boulder
+Ramyah Gowrishankar
+
+Ramyah Gowrishankar
+Aalto University
+Emmi Pouta
+
+Emmi Pouta
+Aalto University
+VIDEOS
+
+Contact: videos-2025@ubicomp.org
+Veljko Pejović
+
+Veljko Pejović
+University of Ljubljana, Slovenia
+Vitor Fortes Rey
+
+Vitor Fortes Rey
+DFKI
+Biyun Sheng
+
+Biyun Sheng
+Nanjing University of Posts and Telecommunications
+GADGET SHOW
+Mathias Ciliberto
+
+Mathias Ciliberto
+University of Cambridge, UK
+COMMUNICATION
+
+Contact: communication-2025@ubicomp.org
+Francesca Meneghello
+
+Francesca Meneghello
+University of Padova, Italy
+Bo Zhou
+
+Bo Zhou
+German Research Center for Artificial Intelligence (DFKI)
+Irmandy Wicaksono
+
+Irmandy Wicaksono
+National University of Singapore
+TRAVEL GRANTS
+
+Contact: travel-grants-2025@ubicomp.org
+Alanson Sample
+
+Alanson Sample
+University of Michigan
+

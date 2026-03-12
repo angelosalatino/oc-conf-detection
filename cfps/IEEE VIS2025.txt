@@ -1,0 +1,455 @@
+
+VIS 2025
+Content
+Schedule
+All Events
+Accepted Papers
+Posters
+VIS 2025 Logo
+
+The premier forum for advances in visualization and visual analytics
+
+IEEE VIS is made possible by our supporters
+
+VIS Supporter Packages
+IEEE VIS: Visualization & Visual Analytics
+November 2 to 7 in Vienna, Austria
+Welcome to IEEE VIS 2025
+
+IEEE VIS 2025 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.
+
+In 2025, the conference is again moving to the old continent, and we cannot wait to welcome you to the heart of Europe in the beautiful city of Vienna! Vienna is a welcoming host that excels at traditional hospitality, and a highly efficient modern city. It is a major urban center but still has the largest proportion of green space of any large European city. In addition to the well-known cultural highlights, the capital’s outstanding infrastructure sets Vienna apart as a remarkably clean and safe city. The public transportation network and short walking distances between attractions mean it takes no time to get around, with some of Europe’s most beautiful sights and the finest culinary delicacies around every corner. Sustainability is a key factor - from renewable energy forms and the outstanding drinking water fresh from the city’s taps. Like many other events in Vienna, VIS 2025 will be certified as a green meeting.
+
+We will do our best to plan an extraordinary experience for you and will cheer together for IEEE VIS’ past and future!
+
+VIS 2025 General Chairs
+Johanna Schmidt, TU Wien
+Eduard Gröller, TU Wien
+Barbora Kozlíková, Masaryk University
+Krešimir Matković, VRVis GmbH
+
+Follow @ieeevis on X (Twitter), the IEEE VIS page on Facebook, or sign up to our mailing list to keep up with conference activities and announcements.
+
+Questions? E-mail info@ieeevis.org
+A photo of the ferris wheel in Vienna.
+IEEE VIS is made possible by our supporters.
+
+Our generous supporters help to fund our diversity and inclusion scholarship, childcare grants and more. Participate in IEEE VIS by supporting and exhibiting at the conference.
+Become a Supporter
+Platinum
+VRVis GmbH
+Gold
+VISUAPPS GmbH
+Silver
+Apple Inc.
+Autodesk
+Siemens Healthineers AG
+Bronze
+Nomic
+Databricks Inc.
+DATAVIEW Handels- und Systemberatungs Ges.m.b.H.
+Tableau
+Adobe
+Academic
+Zhejiang University
+Hangzhou City University
+Hangzhou Research Institute of AI and Holographic Technology
+Frontiers of Computer Science
+King Abdullah University of Science and Technology (KAUST)
+Monash University
+Texas A&M University
+Local support by
+City of Vienna
+Data physicalization card game activity. Photo credit: Bon Adriel Aseniero.
+Data physicalization card game activity. Photo credit: Bon Adriel Aseniero.
+Photo credit: Bon Adriel Aseniero.
+Photo credit: Bon Adriel Aseniero.
+From Rathore et al., 'Estimating Color-Concept Associations from Image Statistics'
+From Rathore et al., 'Estimating Color-Concept Associations from Image Statistics'
+From Günther et al., 'scenery: Flexible Virtual Reality Visualization on the Java VM'
+From Günther et al., 'scenery: Flexible Virtual Reality Visualization on the Java VM'
+Photo credit: Bon Adriel Aseniero.
+Photo credit: Bon Adriel Aseniero.
+VISAP 2018. Photo credit: Bon Adriel Aseniero.
+VISAP 2018. Photo credit: Bon Adriel Aseniero.
+
+See
+
+Explore the most recent advances in visualization
+
+Learn
+
+Get hands on with tutorials and workshops
+
+Meet
+
+Join our creative, capable visualization community
+
+Share
+
+Share your work and research findings
+Problems with this webpage? Contact general_chair@ieeevis.org, file a bug, or suggest a fix.
+VIS 2025
+
+The premier forum for advances in visualization and visual analytics
+
+Past years archive
+
+    2024
+    2023
+    2022
+    2021
+    2020
+    2019
+    2018
+    2017
+    2016
+    2015
+    2014
+    2013
+    2012
+    2011
+    2010
+    2009
+    2008
+    2007
+    2006
+    2005
+    2004
+    2003
+    2002
+    2001
+    2000
+    1999
+    1998
+    1997
+    1996
+
+Social media
+
+    Mastodon
+    Facebook
+    X (Twitter)
+
+IEEE
+IEEE Computer Society
+IEEE Visualization and Graphics Technical Community
+© 2025 IEEE. Sponsored by the IEEE Computer Society and the Visualization and Graphics Technical Community.
+IEEE Privacy Policy
+
+VIS 2025
+Content
+Schedule
+All Events
+Accepted Papers
+Posters
+Papers - Call For Participation
+IEEE VIS 2025 solicits novel research contributions and innovative applications in all areas of visualization.
+Area 1: Theoretical & Empirical
+
+Theoretical and empirical research topics that aim to define the foundation of VIS as a scientific subject.
+Theoretical & Empirical
+Area 2: Applications
+
+All forms of application-focused research.
+Applications
+Area 3: Systems & Rendering
+
+Building systems, algorithms for rendering, and alternate input and output modalities.
+Systems & Rendering
+Area 4: Representations & Interaction
+
+The design of visual representations and interaction techniques for different types of data, users, and visualization tasks.
+Representations & Interaction
+Area 5: Data Transformations
+
+Algorithms and techniques that transform data from one form to another to enable effective and efficient visual mapping as required by the intended visual representations.
+Data Transformations
+Area 6: Analytics & Decisions
+
+Design and optimization of integrated workflows for visual data analysis, knowledge discovery, decision support, machine learning, and other data intelligence tasks.
+Analytics & Decisions
+
+Publication Venue Full papers accepted to IEEE VIS will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be indexed in IEEE Xplore. Plan S has provided verbal approval of IEEE’s hybrid journal portfolio, including TVCG, for transformative status, allowing TVCG to accept articles from authors whose funders require Plan S compliance.
+Important Dates
+
+All deadlines are at 11:59pm (23:59) AoE Anywhere on Earth (AoE).
+Submission activity 	Date
+Abstract submission (MANDATORY) 	March 21, 2025
+Paper submission 	March 31, 2025
+Notification of results of first review cycle 	June 6, 2025
+Paper submission for second review cycle 	July 1, 2025
+Final notification 	July 15, 2025
+Camera-ready copy 	August 8, 2025
+Submission Guidelines and Reviewing Criteria
+
+As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative contributions. Submissions will be judged on their scientific quality and novelty, potential impact, degree to which the evidence supports the findings, appropriateness of methodology, and the research process followed. After the initial notification of review results, selected papers are only conditionally accepted and will undergo a full revision and review cycle: only papers that improve according to the required changes will be accepted after the second round review.
+
+IEEE VIS 2025 also features a separate short papers track. You can find more information in the call for participation for short papers.
+
+When preparing your submission, please make sure that you carefully read and adhere to the paper submission guidelines.
+
+Reviewers should be familiar with the guidelines for reviewing papers for VIS.
+Accessibility
+
+We highly recommend screen reader accessible final submissions. Please see the VIS Accessibility Guide to learn how you can make your contribution accessible.
+Open Access Policy
+
+Visualization research is best communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open-access repository in accordance with IEEE copyright regulations. We also recommend that authors include sufficient supplemental materials with their submission so that their work can be easily scrutinized and used or extended by future researchers and practitioners. For instructions on how to post an accepted paper to an open-access repository and recommendations on sharing supplemental materials, please see the VIS Open Practices Guidelines. Additionally, funding agencies and research organizations may have specific rules concerning Plan S compliance: impacted authors should check and comply with their respective organizational rules.
+
+Email: opc@ieeevis.org
+
+Submit your work
+Papers
+Short Papers
+Posters
+Tutorials
+Workshops
+Panels
+Doctoral Colloquium
+
+Submission process
+Paper Submission Guidelines
+Submission Keywords
+Review Instructions
+Student Reviewer Guidelines
+Open Practices
+
+Presenter Information
+Final Information for Paper Authors
+Preparing For Your Talk
+Virtual Presentations
+Problems with this webpage? Contact papers@ieeevis.org, file a bug, or suggest a fix.
+VIS 2025
+
+The premier forum for advances in visualization and visual analytics
+
+Past years archive
+
+    2024
+    2023
+    2022
+    2021
+    2020
+    2019
+    2018
+    2017
+    2016
+    2015
+    2014
+    2013
+    2012
+    2011
+    2010
+    2009
+    2008
+    2007
+    2006
+    2005
+    2004
+    2003
+    2002
+    2001
+    2000
+    1999
+    1998
+    1997
+    1996
+
+Social media
+
+    Mastodon
+    Facebook
+    X (Twitter)
+
+IEEE
+IEEE Computer Society
+IEEE Visualization and Graphics Technical Community
+© 2025 IEEE. Sponsored by the IEEE Computer Society and the Visualization and Graphics Technical Community.
+IEEE Privacy Policy
+
+VIS 2025
+Content
+Schedule
+All Events
+Accepted Papers
+Posters
+Conference Organizing Committee
+General Chairs 	 
+Johanna Schmidt 	TU Wien
+Eduard Gröller 	TU Wien
+Barbora Kozlíková 	Masaryk University
+Krešimir Matković 	VRVis GmbH
+Program Chairs 	 
+Alfie Abdul-Rahman 	King’s College London
+Tushar Athawale 	Oak Ridge National Laboratory
+Gautam Chaudhary 	Alcon
+Michelle Dowling 	Pacific Northwest National Laboratory
+Michael Oppermann 	AIT Austrian Institute of Technology GmbH
+Overall Paper Chairs 	 
+Niklas Elmqvist 	Aarhus University
+Holger Theisel 	University of Magdeburg
+Melanie Tory 	Northeastern University
+Petra Specht (OPC Assistant) 	University of Magdeburg
+Area Paper Chairs 	 
+Area 1: Theoretical & Empirical 	 
+Matthew Kay 	Northwestern University
+Timo Ropinski 	Ulm University
+Area 2: Applications 	 
+Elisabeta Marai 	University of Illinois Chicago
+Wesley Willett 	University of Calgary
+Area 3: Systems & Rendering 	 
+Christoph Garth 	University of Kaiserslautern-Landau
+Markus Hadwiger 	King Abdullah University of Science and Technology (KAUST)
+Area 4: Representations & Interaction 	 
+Daniel Keefe 	University of Minnesota
+Marc Streit 	Johannes Kepler University Linz
+Area 5: Data Transformations 	 
+Filip Sadlo 	Heidelberg University
+Hongfeng Yu 	University of Nebraska-Lincoln
+Area 6: Analysis & Decisions 	 
+Jaegul Choo 	Korea Advanced Institute of Science and Technology (KAIST)
+Steffen Koch 	University of Stuttgart
+Short Paper Chairs 	 
+Charles Perin 	University of Victoria
+Julian Tierny 	Sorbonne University
+Cagatay Turkay 	University of Warwick
+Jiazhi Xia 	Central South University
+Poster Chairs 	 
+Benjamin Bach 	University of Edinburgh
+Renata Raidou 	TU Wien
+Alvitta Ottley 	Washington University
+Lingyun Yu 	Xi’an Jiaotong-Liverpool University
+Panels & Tutorials Chairs 	 
+Leilani Battle 	University of Washington
+Kai Lawonn 	University of Jena
+Qianwen Wang 	University of Minnesota
+Open Practices Chairs 	 
+Laura Garrison 	University of Bergen
+Devin Lange 	Harvard Medical School
+Lace Padilla 	Northeastern University
+Workshop Chairs 	 
+Ana Crisan 	University of Waterloo
+Petra Isenberg 	INRIA
+Ross Maciejewski 	Arizona State University
+Michael Papka 	University of Illinois Chicago
+Arvind Satyanarayan 	Massachusetts Institute of Technology
+Arts Program Chairs 	 
+Damla Cay 	Moholy-Nagy University of Art and Design Budapest
+Dario Rodighiero 	University of Groningen
+Weidi Zhang 	Arizona State University
+Vis in Practice Chairs 	 
+Chris Bryan 	Arizona State University
+Arjun Srinivasan 	Databricks
+Doctoral Colloquium Chairs 	 
+Michael Behrisch 	Utrecht University
+Emily Wall 	Emory University
+Yunhai Wang 	Renmin University of China
+Publication Chairs 	 
+Minsuk Kahng 	Yonsei University
+Zhicheng Liu 	University of Maryland College Park
+Cindy Xiong Bearfield 	Georgia Tech
+Community, Meetups, & Election Chairs 	 
+Isaac Cho 	Utah State University
+Kyle Wm. Hall 	Temple University
+Georgia Panagiotidou 	King’s College London
+Student Volunteer Chairs 	 
+Magdalena ‘Momo’ Boucher 	St. Pölten University of Applied Sciences
+Hamza Elhamdadi 	University of Massachusetts Amherst
+Zeyang Huang 	Linköping University
+Hyeon Jeon 	Seoul National University
+Yixuan Wang 	Arizona State University
+Publicity Chairs 	 
+Alex Kale 	University of Chicago
+Khairi Reda 	Indiana University
+Inclusivity & Accessibility Chairs 	 
+Laura Koesten 	University of Vienna
+Ab Mosca 	Westfield State University
+John Thompson 	Microsoft Research
+Supporters Chairs 	 
+Michael Krone 	University of Tübingen
+Victor Mateevitsi 	Argonne National Laboratory
+Dominik Moritz 	Carnegie Mellon University
+Chris Traxler 	VRVis GmbH
+Finance Chairs 	 
+Loretta Auvil 	National Center for Supercomputing Applications
+Bhavana Doppalapudi 	University of South Florida
+Maria C. Velez 	Marvel Analytics
+Incoming General Chairs (VIS26) 	 
+Lane Harrison 	Worcester Polytechnic Institute
+Lace Padilla 	Northeastern University
+Arvind Satyanarayan 	Massachusetts Institute of Technology
+Hendrik Strobelt 	IBM Research
+Archive Chairs 	 
+Changjian Chen 	Hunan University
+Fabio Miranda 	University of Illinois Chicago
+Mukund Raj 	Broad Institute
+Ashley Suh 	MIT Lincoln Laboratory
+Nicole Sultanum 	Tableau
+Web Chairs 	 
+Mahmood Jasim 	Louisiana State University
+Harry Li 	Massachusetts Institute of Technology
+Shayan Monadjemi 	Oak Ridge National Laboratory
+Mashrur Rashik 	University of Massachusetts Amherst
+Technology Chairs 	 
+Jan Byska 	Masaryk University
+Kelvin Li 	Databricks
+Xinyi Liu 	Northeastern University
+Alexander Rind 	St. Pölten University of Applied Sciences
+VAST Challenge Chairs 	 
+R. Jordan Crouser 	Smith College
+Steve Gomez 	MIT Lincoln Laboratory
+Jereme Haack 	Pacific Northwest National Laboratory
+SciVis Contest Chairs 	 
+Tim Gerrits 	RWTH Aachen University
+Christoph Heinzl 	University of Passau
+IEEE 	 
+Kathy Park 	 
+Problems with this webpage? Contact web@ieeevis.org, file a bug, or suggest a fix.
+VIS 2025
+
+The premier forum for advances in visualization and visual analytics
+
+Past years archive
+
+    2024
+    2023
+    2022
+    2021
+    2020
+    2019
+    2018
+    2017
+    2016
+    2015
+    2014
+    2013
+    2012
+    2011
+    2010
+    2009
+    2008
+    2007
+    2006
+    2005
+    2004
+    2003
+    2002
+    2001
+    2000
+    1999
+    1998
+    1997
+    1996
+
+Social media
+
+    Mastodon
+    Facebook
+    X (Twitter)
+
+IEEE
+IEEE Computer Society
+IEEE Visualization and Graphics Technical Community
+© 2025 IEEE. Sponsored by the IEEE Computer Society and the Visualization and Graphics Technical Community.
+IEEE Privacy Policy

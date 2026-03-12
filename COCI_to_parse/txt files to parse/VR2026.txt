@@ -1,0 +1,218 @@
+The IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR) is the premier international event for the presentation of research results in the broad area of virtual, augmented, and mixed reality (VR/AR/MR).
+IEEE VR brings together leaders, innovators, and influencers to disseminate the latest research and advancements being developed from around the world. Since 1993, IEEE VR has presented groundbreaking research and accomplishments by virtual reality pioneers: scientists, engineers, designers, and artists, paving the way for the future.
+Host City: Daegu, Korea
+Located in the southeastern region of Korea, Daegu is a dynamic city where rich history, vibrant culture, advanced industries, and world-class research institutions come together. The city offers a safe and convenient environment, a state-of-the-art convention venue, unique attractions, and a wide range of leisure activities. With its well-developed infrastructure and extensive experience in hosting international events, Daegu is an ideal destination for IEEE VR 2026   ensuring a memorable experience for all participants.
+Call for Papers
+OVERVIEW
+IEEE VR 2026 seeks original, high-quality papers in all areas related to virtual reality (VR), including augmented reality (AR), mixed reality (MR), and 3D user interfaces (3DUIs). This year there is again a SINGLE submission deadline for a unified review process for both the IEEE TVCG and the conference-only papers. The possible outcomes of this unified process are:
+1. Accept as IEEE TVCG paper, with presentation at IEEE VR 2026
+2. Accept as IEEE VR 2026 conference paper, with presentation at IEEE VR 2026
+3. Reject
+Inquiries: program2026@ieeevr.org
+New this year: Papers will not have the option to be automatically accepted as IEEE VR Posters. Rather, authors of rejected papers will have to submit directly to the poster track.
+New this year: All senior (PhD-holding) authors should familiarize themselves with the IEEE VR 2026 reviewing guidelines. Unless serving IEEE VR 2026 in another capacity, ALL SENIOR AUTHORS are expected to volunteer as reviewers and perform their duties in a timely and responsive fashion. This supersedes the prior requirement that one author for each paper commit to reviewing; if a paper has multiple senior co-authors, all are expected to volunteer. Egregious violations of this policy may be considered Highly Irresponsible Conduct, which could result in penalties up to and including desk rejection of their submitted paper(s).
+Submissions will be accepted through Precision Conference Solutions this year. The PCS will open around mid Aug 2025.
+https://new.precisionconference.com/vr26a
+IMPORTANT DATES
+Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located. The submission deadlines will be strictly enforced. Requests for extensions will not be honored.
+* September 05, 2025: Abstracts due (REQUIRED)
+* September 12, 2025: Submissions due
+* December 12, 2025: Initial notifications
+* January 16, 2026: Revised submissions due
+* January 23, 2026: Final notifications
+* January 30, 2026: Camera-ready materials due
+SUBMISSION GUIDELINES
+IMPORTANT: IEEE VR 2026 uses a DOUBLE-BLIND review process. Failure to anonymize submissions will result in DESK REJECTION. Authors should review the Author Guidelines at https://docs.google.com/document/d/1uGWPIlPGpUW4R03Wl-XRYw30ny3STZHqOSd_6FBaHvo/edit?tab=t.0
+Each research paper should provide a contribution covering one or more of the following categories: methodological, technical, applications, and systems.
+* Methodological papers should describe advances in theories and methods of AR/VR/MR and 3DUI, such as ethical issues, theories on presence, or human factors.
+* Technical papers should describe advancements in algorithms or devices critical to AR/VR/MR and 3DUI development such as input, display, user interaction, or tracking.
+* Application papers provide an important insight to the community by explaining how the authors built upon existing ideas and applied them to solve an interesting problem in a novel way. Each paper should include an evaluation of the success of the use of AR/VR/MR and/or 3DUI in the given application domain.
+* System papers should indicate how the developers integrated techniques and technologies to produce an effective system, and convey any lessons learned in the process.
+Each paper should include an evaluation of its contributions, such as user studies, benchmarking and/or comparison with existing systems/techniques/methods.
+Format: Papers must be strictly formatted according to IEEE VGTC conference submission guidelines and submitted electronically as PDF documents.
+* All paper submissions must be formatted using the IEEE Computer Society VGTC conference format (https://tc.computer.org/vgtc/publications/conference/). See the visual examples below.
+o MS Word template: At the time of writing this CFP, the provided .docx file may not comply with the VR formatting guidelines. Please use the provided .dotx file and ensure that the final submission matches the formatting guidelines or the paper may be desk rejected. Check the provided sample pdf documents for correct formatting.
+* Papers should be 4-9 pages of text, figures, and tables, but NOT including references. References should not exceed 2 pages in length. Note that the minimum length is 4 full pages of text. Appendices are included in the page count.
+* Supplementary materials should be provided in a separate file. Authors are encouraged to submit videos to aid the program committee in reviewing their submissions.
+* Accepted papers will have to be formatted by the authors according to the relevant camera-ready guidelines.
+TOPICS
+IEEE VR 2026 seeks contributions in VR/AR/MR and 3DUI including, but not limited to, the following topics:
+* 360  video
+* 3D and volumetric display and projection technology
+* 3D authoring
+* 3D user interfaces
+* Accessibility of immersive interfaces
+* Audio interfaces and rendering
+* Collaborative interactions
+* Computer graphics techniques
+* Crowd simulation
+* Cybersickness
+* Diversity and gender issues
+* Embodied agents, virtual humans, and (self-)avatars
+* Ethical issues
+* Evaluation methods
+* Haptic interfaces and rendering
+* Human factors and ergonomics
+* Immersive analytics and visualization
+* Immersive applications and games
+* Input devices
+* Locomotion and navigation
+* Mediated and diminished reality
+* Mobile, desktop, or hybrid 3DUIs
+* Modeling and simulation
+* Multi-user and distributed systems
+* Multimodal capturing and reconstruction
+* Multimodal/cross-modal interaction and perception
+* Multisensory interfaces and rendering
+* Perception and cognition
+* Presence, body ownership, and agency
+* Redirection
+* Software architectures, toolkits, and engineering
+* Teleoperation and telepresence
+* Therapy and rehabilitation
+* Touch, tangible, and gesture interfaces
+* Tracking and sensing
+* User experience and usability
+* XR technology infrastructure
+While no list can be exhaustive, papers should, as a rule of thumb, engage meaningfully with existing literature in VR/AR/MR/3DUI. If a submission contains few or no references to this literature (focusing entirely on, for example, computer vision or computer graphics), that submission might not be appropriate for IEEE VR and may be desk rejected.
+Conference Committee
+General Chairs
+general2026@ieeevr.org
+* Gerard J. Kim   Korea University, Republic of Korea
+* JungHyun Han   Korea University, Republic of Korea
+* Soon Ki Jung   Kyungpook National University, Republic of Korea
+Honorary Chairs
+* Ferran Argelaguet   Inria, France
+* Hajine Kimn   Ajou University, Republic of Korea
+* Anatole Lecuyer   Inria, France
+* Anne Helene Olivier   Univ Rennes 2, France
+* Chanmo Park   POSTECH, Republic of Korea
+* Kwangyun Wohn   KAIST, Republic of Korea
+Program Chairs
+program2026@ieeevr.org
+* Lonni Besan on   Link ping University, Sweden
+* Bobby Bodenheimer   Vanderbilt University, USA
+* Daisuke Iwai   University of Osaka, Japan
+* Shohei Mori   University of Stuttgart, Germany
+* Tabitha Peck   Davidson College, USA
+* Rick Skarbez   La Trobe University, Australia
+Finance Chairs
+finance2026@ieeevr.org
+* Dong-Soo Choi   Kumoh National Institute of Technology, Republic of Korea
+* Youngwon Kim   kumoh National Institute of Technology, Republic of Korea
+* Myungho Lee   Pusan National University, Republic of Korea
+Exhibits and Sponsors Chairs
+exhibitsponsor2026@ieeevr.org
+* Isaac Cho   Utah State University, USA
+* Itaru Kitahara   University of Tsukuba, Japan
+* Hyeongyeop Kang   Korea University, Republic of Korea
+* Gabriel Zachmann   University of Bremen, Germany
+On-line Experience Chairs
+onlineexperience2026@ieeevr.org
+* Isayas Berhe Adhanom   Texas State University, USA
+* Seungwon Kim   Jeonnam National University, Republic of Korea
+* Krzysztof Walczak   Pozna? University of Economics and Business, Poland
+Poster Chairs
+posters2026@ieeevr.org
+* Mohammed Safayet Arefin   Colorado State Univ., USA
+* Justine Saint Aubert   IRISA, France
+* Andrea B nsch   RWTH Aachen University, Germany
+* Pablo Figueroa   Universidad di los Angdes, Colombia
+* Gun Lee   University of South Australia, Australia
+Publication Chairs
+publication2026@ieeevr.org
+* Saeed Boorboor   University of Illinois Chicago, USA
+* Chen Jian   Ohio State University, USA
+* Christos Mousas   Purdue University, USA
+* Sang Ho Yoon   KAIST, Republic of Korea
+Awards Chairs
+awards2026@ieeevr.org
+* Amela Sadagic   Naval Postgraduate School, USA
+* Henning Pohl   Aalborg University, Denmark
+* Christian Wallraven   Korea University, Republic of Korea
+XR Gallery Chairs
+xrgallery2026@ieeevr.org
+* Jean-R my Chardonnet - Arts et M tiers Institute of Technology, France
+* Henry Duh - Hong Kong Polytechnic University, Hong Kong
+* Georges Gagner - Universit  Paris 8, France
+* Val rie Gouranton - Inria, IRISA, INSA Rennes, France
+* HyungSeok Kim - Konkuk University, Republic of Korea
+* Yue Li - Xi an Jiaotong-Liverpool University, China
+* Hai-Ning Liang - Hong Kong University of Science and Technology (Guangzhou), China
+Demo Chairs
+demo2026@ieeevr.org
+* Ehsan Azimi   University of Arizona, USA
+* Ellie Ebrahimi   University of North Carolina Wilmington, USA
+* Geoffrey Gorisse   Arts et M tiers Institute of Technology, France
+* Uijong Ju   Kyung Hee University, Republic of Korea
+* Ungyeon Yang   ETRI, Republic of Korea
+* Daniel Zielasko   Technical University of Denmark, Denmark
+Student Volunteers Chairs
+studentvolunteers2026@ieeevr.org
+* Jane Hwang   KIST, Republic of Korea
+* Kevin Desai   University of Texas at San Antonio, USA
+* Hanseob Kim   Konyang University, Republic of Korea
+Workshop Chairs
+workshop2026@ieeevr.org
+* Dongsik Jo   University of Ulsan, Republic of Korea
+* Pierre Bourdin Kreitz   Universitat Oberta de Catalunya, Spain
+* Hyeongil Nam   University of Calgary, Canada
+* Dirk Reiners   University of Central Florida, USA
+3D UI Contest Chairs
+3dui@ieeevr.org
+* Regis Kopper   Iowa State University, USA
+* Katerina Mania   Technical University of Crete, Greece
+* Chaeyong Park   Korea University, Republic of Korea
+* Tim Weissker   RWTH Aachen University, Germany
+Environmental Impact Reduction and Awareness Chairs
+eira2026@ieeevr.org
+* Seokhee Jeon   Kyung Hee University, Republic of Korea
+* Marc Mac頖 Centre Inria de l'Universit  de Rennes, France
+* Ludovic Hoyet   Centre Inria de l'Universit  de Rennes, France
+Diversity, Equity, Inclusion, and Accessibility Chairs
+deia2026@ieeevr.org
+* Seokhee Jeon   Kyung Hee University, Republic of Korea
+* Seongkook Heo   University of Virginia, USA
+* Manuela Chessa   University of Genoa, Italy
+Tutorial Chairs
+tutorial2026@ieeevr.org
+* Sungchul Jung   Kennesaw State University, USA
+* Kangsoo Kim   University of Calgary, Canada
+* Etienne Peillard   IMT-Atlantique, France
+* Thammathip Piumsomboon   University of Canterbury, New Zealand
+Web / Publicity Chairs
+web2026@ieeevr.org
+* Hansung Kim   University of Southampton, United Kingdom
+* Nels Numan   UCL, United Kingdom
+* Gao Yang   Beihang University, China
+Panel Chairs
+panel2026@ieeevr.org
+* Byunghyun Yoo   KIST, Republic of Korea
+Future Faculty Forum Chairs
+futurefacultyforum2026@ieeevr.org
+* SeungJeh Chung - Kyunghee University, Republic of Korea
+* Matt Gottsacker - University of Central Florida, USA
+* Jeanne Hecquard - Inria, France
+* Radha Kumaran - University of California, Santa Barbara, USA
+* Jeongmi Lee - KAIST, Republic of Korea
+* Lee Lisle - University of Central Florida, USA
+* Cassidy R. Nelson - Ohio University, USA
+* Niall L. Williams - New York University, USA
+Doctoral Consortium Chairs
+doctoralconsortium2026@ieeevr.org
+* Yongsoon Choi   Sogang University, Republic of Korea
+* Edgar Rojas Mu oz   Texas A&M University, USA
+XR Standards Chairs
+xrstandards2026@ieeevr.org
+* Yahya (Yohan) Hmaiti   University of Central Florida, USA
+* Ryosuke Ichikari   AIST, Japan
+* Seonji Kim   KAIST, South Korea
+* Takeshi Kurata   AIST, Japan
+* Jen-Shuo Liu   Columbia University, USA
+* Christine Perey   Spime Wrangler, Switzerland
+Social Events / Local Arrangement Chairs
+local2026@ieeevr.org
+* Sunghoon Ihm   DGIST, Republic of Korea
+* Kwang-Ju Kim   ETRI, Republic of Korea
+* Gyeorae Yoon   KNU, Republic of Korea
+

@@ -1,0 +1,417 @@
+SIGMOD
+
+
+Welcome
+
+    Homepage
+    News
+
+Organization
+
+    Organizers
+        ▸ Conference
+        ▸ SIGMOD
+        ▸ PODS
+    SIGMOD PC
+    PODS PC
+    SIGMOD Industry PC
+    SIGMOD Demo PC
+    Sponsor Opportunities
+    ACM SIGMOD Online
+
+Participant Information
+
+    Registrations
+    Conference Venue
+    Accomodation
+    Discover India
+    About Bangalore
+
+SIGMOD Program
+
+    Accepted Papers
+    Accepted Tutorials
+    Accepted Workshops
+
+PODS Program
+
+    Accepted Papers
+
+Calls For Submissions
+
+    Important Dates
+    SIGMOD Call for Research Papers
+    PODS Call for Research Papers
+    SIGMOD Call for Industrial Track Papers
+    SIGMOD Call for Demonstration Proposals
+    SIGMOD Call for Workshop Proposals
+    SIGMOD Call for Tutorial Proposals
+    SIGMOD Call for Awards Nomination (by 2026/02/15)
+
+
+
+Follow us on and X and LinkedIn to stay updated on what's happening at SIGMOD/PODS 2026
+X logo LinkedIn logo
+Welcome
+
+Welcome to the home of the 2026 ACM SIGMOD/PODS Conference, to be held in Bengaluru, India, on May 31 - June 05, 2026.
+
+The Conference. The annual ACM SIGMOD/PODS Conference is a leading international forum for database researchers, practitioners, developers, and users to explore cutting-edge ideas and results, and to exchange techniques, tools, and experiences. The conference includes a fascinating technical program with research and industrial talks, tutorials, demos, and focused workshops. It also hosts a poster session to learn about innovative technology, an industrial exhibition to meet companies and publishers, and a careers-in-industry panel with representatives from leading companies.
+
+The Bengaluru Area. Bengaluru, often referred to as the "Silicon Valley of India," is the capital of Karnataka and a major hub in southern India. Nestled on the Deccan Plateau, it boasts a moderate climate year-round. Bengaluru is home to numerous lakes, including Ulsoor Lake and Bellandur Lake, which add to the city's charm, along with lush parks like Cubbon Park and Lalbagh Botanical Garden. With a population of over 12 million, it is a thriving metropolis that seamlessly blends tradition and modernity. Bengaluru is known for its dynamic tech industry, attracting talent from across the globe, making it a melting pot of cultures. In addition to being the IT capital, the city offers a wealth of experiences, from historic landmarks such as the Bangalore Palace and Tipu Sultan's Summer Palace to a vibrant art scene, buzzing nightlife, and an impressive array of shopping and dining options that reflect the diverse flavors of India and beyond.
+
+
+
+
+ACM SIGMOD, Bengaluru, 2026, India
+Welcome
+
+    Homepage
+    News
+
+Organization
+
+    Organizers
+        ▸ Conference
+        ▸ SIGMOD
+        ▸ PODS
+    SIGMOD PC
+    PODS PC
+    SIGMOD Industry PC
+    SIGMOD Demo PC
+    Sponsor Opportunities
+    ACM SIGMOD Online
+
+Participant Information
+
+    Registrations
+    Conference Venue
+    Accomodation
+    Discover India
+    About Bangalore
+
+SIGMOD Program
+
+    Accepted Papers
+    Accepted Tutorials
+    Accepted Workshops
+
+PODS Program
+
+    Accepted Papers
+
+Calls For Submissions
+
+    Important Dates
+    SIGMOD Call for Research Papers
+    PODS Call for Research Papers
+    SIGMOD Call for Industrial Track Papers
+    SIGMOD Call for Demonstration Proposals
+    SIGMOD Call for Workshop Proposals
+    SIGMOD Call for Tutorial Proposals
+    SIGMOD Call for Awards Nomination (by 2026/02/15)
+
+
+
+Follow us on and X and LinkedIn to stay updated on what's happening at SIGMOD/PODS 2026
+X logo LinkedIn logo
+SIGMOD 2026 CALL FOR RESEARCH PAPERS
+
+Bangalore, India, May 31-June 5, 2026,
+https://2026.sigmod.org
+
+The PACMMOD issues of SIGMOD 2026 seek contributions in all aspects of data management research. Authors of papers published in the PACMMOD issues of SIGMOD 2026 will be invited to present their work at the SIGMOD conference, May 31-June 5, 2026. The annual ACM SIGMOD conference is a leading international forum for data management researchers, practitioners, developers, and users to explore cutting-edge ideas and results, and to exchange techniques, tools, and experiences.
+Highlights of 2026:
+
+    Submission website: https://cmt3.research.microsoft.com/SIGMOD2026 (available from about one week before the abstract submission deadlines of all four rounds).
+    Four Paper Submission Deadlines: January 17 (Round 1), April 17 (Round 2), July 17 (Round 3), October 17 (Round 4).
+    Abstract, COIs and Paper Submission Dates: Abstracts and COIs need to be submitted a week ahead of the main paper submission on Jan 10, Apr 10, Jul 10, or Oct 10. See also Dates. Each author of a paper needs a verified CMT account before submitting an abstract. Each author has to declare their individual domain and PC conflicts during abstract submission. While these conflicts are automatically applied to all their submissions, the authors need to check that conflicts are up to date in each round.
+    1 Year Wait: Rejected papers cannot be submitted to SIGMOD until a full year has passed. I.e. a paper rejected at Round 4 of SIGMOD 2025 can only be resubmitted to Round 4 of SIGMOD 2026. A paper rejected at Round 2 can be resubmitted to Round 2, 3, and 4 of SIGMOD 2026.
+    Double-Anonymity: All submissions must be anonymized accordingly.
+    No Special Tracks. Previous data-intensive and data science applications tracks are now paper types in the main research track.
+    ORCIDs: ORCIDs are required for all authors at the time of abstract submission. See Submission Guidelines.
+    Paper length: Submissions must be at most 12 pages in length, plus an unlimited number of pages for citations.
+    New! Appendix: An appendix as a separate pdf can be submitted along with the paper. Note that the paper must be self-contained and the reviewers are not required to read the appendix.The appendix should be short and used judiciously by authors to include some helpful details such as proofs. A long appendix which covers material that contains contents which in fact expands the scope of the paper and cannot be sufficiently discussed in the main paper (e.g., contains many additional experimental results) will be ignored in the review process. Finally, note that the appendix is only used in the paper review process and will not be part of the camera ready version of accepted papers (as it is not part of the official review).
+    New! Revisions and Author Feedback: SIGMOD 2026 will have revisions and an author feedback phase. See Review Process for more details.
+    New! Revision Plans from Authors with Author Feedback (before Decisions): With the author feedback, authors can suggest a revision plan before a decision is reached. The proposed revision plan will be taken into account during decision making by the AE and the reviewers. See Review Process for more details.
+    New! Interactive Discussion Phase (after Author Feedback and before Decisions): The reviewers can ask authors directly and anonymously if further clarifications are needed.
+    New! Presentations and Posters: All papers will be presented at the conference. We will have long and short presentations to accommodate the growing number of papers in SIGMOD. In addition, all papers will also have a poster.
+    New! Submission and Review Ethics Committee: In 2026, there is a Submission and Review Ethics Committee to uphold the integrity of the submissions and reviews. Serious cases of ethics violations, including egregious misuses of COI declaration and plagiarism will be discussed by the committee.
+
+TABLE OF CONTENTS
+
+    Topics of Interest & Paper Types
+    Important Dates
+    Presentation and Dissemination
+    Submission Guidelines
+    Anonymity Requirements
+    Artifacts and Reproducibility
+    Conflict of Interest
+    Reviewing Process and Revisions
+
+1. TOPICS OF INTEREST & PAPER TYPES
+
+We invite submissions relating to all aspects of the data life cycle.
+TOPICS OF INTEREST
+
+Topics of interest include, but are not limited to:
+
+Data Management Systems
+
+    Monitoring, testing, and tuning database systems
+    Cloud, distributed, decentralized, and parallel data management
+    Database systems on emerging hardware
+    Embedded databases, IoT, and Sensor networks
+    Storage, indexing, and physical database design
+    Query processing and optimization
+    Transaction processing
+    Data warehousing, OLAP, Analytics
+
+Data Models and Languages
+
+    Data models and semantics
+    Declarative programming languages and optimization
+    Spatial and temporal data management
+    Graphs, social networks, web data, and semantic web
+    Multimedia and information retrieval
+    Data lakes
+    Uncertain, probabilistic, and approximate databases
+    Streams and complex event processing
+
+Human-Centric Data Management
+
+    Data exploration, visualization, query languages, and user interfaces
+    User-centric and human-in-the-loop data management
+    Crowdsourced and collaborative data management
+
+Data Governance, Quality, and Fairness
+
+    Data integration, information extraction, and schema matching
+    Data provenance and workflows
+    Metadata management
+    Data security, privacy, and access control
+    Data quality and data cleaning
+    Responsible data management and data fairness
+
+Modern AI & Data Management
+
+    Structured queries over unstructured data: images, video, natural language, etc.
+    Natural language queries
+    Machine learning methods for database engine internals
+    Machine learning methods for database engineering
+    Data management and metadata for machine learning pipelines
+    AI & knowledge bases
+    Data mining & prescriptive analytics in databases
+    Systems for AI
+
+Other topics which are not listed but clearly address data management related challenges are also welcome. SIGMOD also welcomes submissions on inter-disciplinary work, as long as there are clear contributions to management of data.
+PAPER TYPES
+
+The conference invites the submission of (1) Regular Research Papers, (2) Experiment & Analysis (E&A) Studies, and (3) Papers on Data-Intensive & Data Science (DI&DS) Applications that focus on data management challenges relevant to one of the topics in the call for papers. All papers are reviewed by the same SIGMOD program committee.
+
+    Regular Research Papers: Research Papers present original contributions related to aspects of data management mentioned in the list of topics above.
+    Experimental Analysis (E&A) Studies. The scientific contribution of an E&A paper lies in providing new insights into the strengths and weaknesses of existing methods in one of the topics in the list above rather than in providing new methods. E&A paper titles must use a suffix of ": [Experiments & Analysis]", i.e., the full title of the paper should look like “<paper title>: [Experiments & Analysis]”. Note that submissions of this type should be one or more of the following:
+        Experimental Survey: Experimental surveys that compare multiple existing solutions (including open source solutions) to a problem and through extensive experiments, provide a comprehensive perspective on their strengths and weaknesses.
+        Experimental Analysis: Papers that focus on relevant problems or phenomena of data management and through analysis and/or experimentation provide insights on the nature or characteristics of these phenomena.
+        Benchmarks and Datasets: Papers that present new workloads, benchmark data and methods, methods in generating the data, usage of the benchmarks, and example experimental results on the benchmarks. Papers of this category (1) should provide all artifacts in an anonymous repository for review, and (2) if accepted, are expected to release the benchmark and datasets for public use by the research community.
+        Reproducibility: Papers that verify or refute results published in the past and that, through a renewed performance evaluation, help to advance the state of the art.
+        User Studies: Papers in this line explore how data management and analysis can be made more effective when taking into account the people who design, build, and use these processes as well as those who are impacted by their results.
+    Data-Intensive & Data Science (DI&DS) Applications. The scientific contribution of a DI&DS submission lies in providing new insights into data management challenges (see list of topics above) from real-world applications. DI&DS paper titles must use a suffix of ": [Data-Intensive & Data Science Application]", i.e., the full title of the paper should look like “<paper title>: [Data-Intensive & Data Science Application]”. Note that submissions of this type should:
+        Focus on challenges regarding data life cycle and pipelines in real-world DS applications OR novel data management related challenges in DI fields outside our core (e.g., graphics, networking, astronomy).
+        Detail deployed solutions for DS&DI applications.
+        Share real-world experiences for DS&DI applications.
+        Provide datasets, query logs, benchmarks from real-world systems. Papers of this category (1) should provide all artifacts in an anonymous repository for review, and (2), if accepted, are expected to release the benchmark and datasets for public use by the research community.
+
+2. IMPORTANT DATES
+
+There are 4 submission rounds (January, April, July, and October). Authors of submissions with a revision decision will be given approximately one month to submit a revised version. While we strive to adhere to the published timeline, we note that author feedback and notification dates may vary slightly. Submission deadlines are not expected to be altered.
+
+As we have moved to quarterly deadlines, maintaining consistency is important, both to avoid confusion, and to better manage and plan the workload of the PC. We realize that deadlines may occasionally fall on holidays or weekends. However, we note that holidays are not common across different countries and cultures, and there is variability in which days of the week are considered workdays. We encourage authors to plan ahead and aim to submit a few days early if they wish to avoid a particular holiday or weekend.
+
+RESEARCH PAPER SUBMISSION ROUND 1 (All Deadlines are 11:59 PM AoE)
+January 10, 2025 : Abstract submission & declaration of COIs
+January 17, 2025 : Paper submission
+March 1-8, 2025: Author feedback phase
+March 9-15, 2025: Interactive discussion phase
+April 4, 2025: Notification of accept//reject/revision
+May 4, 2025: Revised paper submission
+May 23, 2025: Final notification of accept/reject
+
+RESEARCH PAPER SUBMISSION ROUND 2 (All Deadlines are 11:59 PM AoE)
+April 10, 2025 : Abstract submission & declaration of COIs
+April 17, 2025 : Paper submission
+June 1-8, 2025: Author feedback phase
+June 9-15, 2025: Interactive discussion phase
+July 4, 2025: Notification of accept//reject/revision
+August 4, 2025: Revised paper submission
+August 23, 2025: Final notification of accept/reject
+
+RESEARCH PAPER SUBMISSION ROUND 3 (All Deadlines are 11:59 PM AoE)
+July 10, 2025 : Abstract submission & declaration of COIs
+July 17, 2025 : Paper submission
+September 1-8, 2025: Author feedback phase
+September 9-15, 2025: Interactive discussion phase
+October 4, 2025: Notification of accept//reject/revision
+November 4, 2025: Revised paper submission
+November 23, 2025: Final notification of accept/reject
+
+RESEARCH PAPER SUBMISSION ROUND 4 (All Deadlines are 11:59 PM AoE)
+October 10, 2025 : Abstract submission & declaration of COIs
+October 17, 2025 : Paper submission
+December 1-8, 2025: Author feedback phase
+December 9-15, 2025: Interactive discussion phase
+January 4, 2025: Notification of accept//reject/revision
+February 4, 2026: Revised paper submission
+February 23, 2026: Final notification of accept/reject
+3. PRESENTATION AND DISSEMINATION
+
+Accepted papers will be published in issues of the Proceedings of the ACM on Management of Data (PACMMOD) (https://dl.acm.org/journal/pacmmod), with one issue corresponding to each submission deadline, and invited for presentation at the SIGMOD conference. The number of SIGMOD submissions has been growing steadily over many years resulting in more accepted papers while the duration of the conference is fixed. While the goal is to have a presentation slot for all accepted papers at the conference, based on the number of accepted papers, papers may be chosen to have longer or shorter slots. All papers will be presented as posters in addition. More details of the presentation format will be updated later in the process.
+4. SUBMISSION GUIDELINES
+
+Submission Link 	https://cmt3.research.microsoft.com/SIGMOD2026
+Submission Paper length 	12 pages excluding references
+References 	Unlimited
+Appendix 	Yes, as a separate pdf, but only to include essential details. Note that the paper must be self-contained and the reviewers are not required to read the appendix. The appendix is only used during review and is not part of the camera-ready version of accepted papers. The appendix should be short and used judiciously by authors to include the essential details that may be useful in the review process (e.g., additional proofs). A longer appendix with additional results and material that cannot be sufficiently discussed in the main paper is discouraged and will definitively be ignored in the review process.
+File type and size 	PDF (<= 10 MB)
+Paper size 	Letter (8.5” x 11”)
+Format
+
+    LaTeX
+    Word
+    Overleaf
+
+	2-column ACM Proceedings format:
+
+    sample-sigconf.tex (version 2e)
+    ACM’s official 2-column template
+    ACM’s official 2-column template
+
+Anonymity 	Double-anonymity (see below)
+Camera Ready Paper length 	13 pages excluding references (for all accepted papers), no appendix, in 2-column ACM format, converted to the PACMMOD format
+
+    Additional information:
+    No changes to author lists are allowed after submission.
+    No changes to title are allowed after submission except by AE request.
+    Submitted papers must print without difficulty on a variety of printers, using Adobe Acrobat Reader. It is the responsibility of the authors to ensure that their submitted PDF file will print easily on simple default configurations.
+    Please make sure you are using the latest version of the ACM template. The font size, margins, inter-column spacing, and line spacing in the templates must be kept unchanged. Any submitted paper violating the length, file type, or formatting requirements will be rejected without review.
+    Accepted papers will need to be ported to the PACMMOD format for final publication. Do not use PACMMOD format for submission or revision.
+
+DUPLICATE SUBMISSIONS AND NOVELTY REQUIREMENT
+
+Following the ACM guidelines a paper submitted to SIGMOD 2026 cannot be under review for any other publishing forum or presentation venue, including conferences, workshops, and journals, during the time it is being considered for SIGMOD. Furthermore, after you submit a paper to SIGMOD, you must await the response from SIGMOD and only re-submit elsewhere if your paper is rejected—or withdrawn at your request—from SIGMOD. This restriction applies not only to identical papers but also to papers with a substantial overlap in scientific content and results.
+
+To enforce this requirement, the high-level metadata of submissions (title, abstract, list of authors), may be shared with the Program Chairs / Editors of other conferences and journals.
+
+Every paper submitted to SIGMOD 2026 must present substantial novel and include material not described in any prior publication. In this context, a prior publication is (a) a paper of five pages or more, presented, or accepted for presentation, at a refereed conference or workshop with proceedings; or (b) an article published, or accepted for publication, in a refereed journal. If a SIGMOD 2026 submission has overlap with a prior publication, the submission must cite the prior publication (respecting the double anonymity requirement), and clearly indicate which parts of the work appeared in prior publications and which parts are novel to the current submission.
+
+Any violation of this policy will result in the immediate rejection of the submission, as well as in notification to the members of the SIGMOD Executive Committee, the members of the SIGMOD PC, and the editors or chairs of any other forums involved. Plagiarism cases will also be referred to the ethics committee of SIGMOD 2026.
+ACM PUBLICATIONS POLICY ON RESEARCH INVOLVING HUMAN PARTICIPANTS AND SUBJECTS
+
+As a published ACM author, you and your co-authors are subject to all ACM Publications Policies, including ACM's new Publications Policy on Research Involving Human Participants and Subjects.
+INCLUSION AND DIVERSITY IN WRITING
+
+We value Diversity and Inclusion in our community and professions. Both are important in our writing as well. Diversity of representation in writing is a simple but visible avenue to celebrate and ultimately help improve our community's diversity. Be mindful in your writing of not using language or examples that further the marginalization, stereotyping, or erasure of any group of people, especially historically marginalized and/or under-represented groups (URGs) in computing. Be vigilant and guard against unintentionally exclusionary examples.
+
+Please visit this page for many examples of both exclusionary writing to avoid and inclusive writing that celebrates diversity to consider adopting: https://dbdni.github.io/pages/inclusivewriting.html. Authors are further encouraged to follow the tips and guidelines provided at: https://dbdni.github.io/#materials. Reviewers will be empowered to monitor and demand changes if such issues arise. Going further, also consider actively raising the representation of URGs in writing.
+
+Please see https://www.acm.org/diversity-inclusion/words-matter for inclusive alternatives for some of the terms commonly used in the computing profession.
+POLICY ON AUTHORSHIP REQUIREMENTS
+
+We follow the ACM policy on authorship requirements. Specifically on the use of generative AI tools and technologies, the guidelines note that: "Generative AI tools and technologies, such as ChatGPT, may not be listed as authors of an ACM published Work. The use of generative AI tools and technologies to create content is permitted but must be fully disclosed in the Work. For example, the authors could include the following statement in the Acknowledgements section of the Work: ChatGPT was utilized to generate sections of this Work, including text, tables, graphs, code, data, citations, etc.). If you are uncertain about the need to disclose the use of a particular tool, err on the side of caution, and include a disclosure in the acknowledgements section of the Work."
+5. ANONYMITY REQUIREMENTS
+
+Research track submissions are subject to the double-anonymity requirement.
+
+Every research track paper submitted to SIGMOD 2026 will undergo a double-anonymous reviewing process, following the three principles put forward in (Snodgrass 2007): authors should not be required to go to great lengths to anonymize their submissions; comprehensiveness of the review trumps anonymizing efficacy. AEs retain flexibility and authority in managing the reviewing process.
+
+PC members and referees, except the Associate Editors, who review the submission will not know the identity of the authors. To ensure anonymity of authorship from the PC members and referees, authors must at least do the following:
+
+    Authors' names and affiliations must not appear on the title page or elsewhere in the submission.
+    Funding sources must not be acknowledged anywhere in the submission.
+    Research group members, or other colleagues or collaborators, must not be acknowledged anywhere in the submission.
+    The paper’s file name must not identify the authors of the submission.
+    Source file naming must also be done with care, to avoid identifying the authors’ names in the submission’s associated metadata. For example, if your name is Jane Smith and you submit a PDF file generated from a .dvi file called Jane-Smith.dvi, your authorship could be inferred by looking into the PDF file.
+
+To avoid compromising the double-anonymity requirement, we request that the authors refrain from publicizing and uploading versions of their submitted manuscripts to pre-publication servers, such as arXiv, and other online forums during the reviewing period. If a version of a submission already resides on a pre-publication server, such as arXiv, the authors do not need to remove it before submitting to SIGMOD.
+
+You must also use care in referring to related past work, particularly your own, in the paper. For example, if you are Jane Smith, the following text gives away the authorship of the submitted paper:
+
+    In our previous work [1, 2], we presented two algorithms for ... In this paper, we build on that work by ... 
+
+    Bibliography
+    [1] Jane Smith, "A Simple Algorithm for ...," Proceedings of ACM SIGMOD 1997, pp. 1 - 10.
+    [2] Jane Smith, "A More Complicated Algorithm for ...," Proceedings of ACM SIGMOD 1998, pp. 34 - 44.
+
+The solution is to reference one's past work in the third person. This allows setting the context for your submission, while at the same time preserving anonymity:
+
+    In previous work [1, 2], algorithms were presented for ... In this paper, we build on that work by ... 
+
+    Bibliography
+    [1] Jane Smith, "A Simple Algorithm for ...," Proceedings of ACM SIGMOD 1997, pp. 1 - 10.
+    [2] Jane Smith, "A More Complicated Algorithm for ...," Proceedings of ACM SIGMOD 1998, pp. 34 - 44.
+
+Despite the anonymity requirements, authors should still include all relevant work of their own in the references, using the above style; omitting them could potentially reveal their identity by negation. However, self-references should be limited to the essential ones, and extended versions of the submitted paper (e.g., technical reports or URLs for downloadable versions) must not be referenced.
+
+Common sense and careful writing can go a long way toward preserving anonymity without diminishing the quality or impact of a paper. The goal is to preserve anonymity while still allowing the reader to fully grasp the context (related past work, including your own) of the submitted paper. In past years, this goal has been achieved successfully by thousands of papers.
+
+It is the responsibility of authors to do their very best to preserve anonymity. Papers that do not follow these guidelines, or otherwise potentially reveal the identity of the authors, are subject to immediate rejection.
+
+No exceptions will be made to the double anonymity requirement for Research Track papers. If the authors of a submission feel that double anonymity needs to be violated, for example to reveal the identity of a system, they may consider submission to a SIGMOD track that does not impose a double anonymity requirement, such as the Industry Track.
+6. ARTIFACTS and REPRODUCIBILITY
+
+SIGMOD strives to establish a culture where sharing research artifacts (data, results, code, and scripts) is the norm rather than an exception. SIGMOD reproducibility has three goals: (a) Highlighting the impact of database research papers; (b) enabling easy dissemination of research results; and (c) enabling easy sharing of code and experimentation set-ups. In this context, we expect all papers to make their code, data, scripts, and notebooks available. Although it is not mandatory for acceptance, providing this extra material can help reviewers evaluate your work more thoroughly. Papers published at SIGMOD which have been successfully reproduced are also recognized and highlighted as such in the ACM Digital Library.
+
+Please include a link with your materials in the text box provided in the submission form at the time of submission. For all submissions, the link and materials should preserve anonymity. For example this may be an anonymous GitHub repository. You may want to make sure that the link you provide is not indexed by search engines. On GitHub, you can do so by adding the following to the page head:
+
+<meta name="robots" content="noindex">
+        
+
+We recognize that at the time of submission authors focus on fine-tuning the paper, and so we expect this link to be live within one week from submission. Reviewers that may need to look at the materials will not do so earlier than that. We do not expect a fully polished submission in terms of automatically reproducing results, but rather a reasonably clean version of the state of the code when submitting the paper. Please, do not use a shortened link which traces who accesses it.
+
+In the event that you are not able to submit your code, data, scripts, and notebooks please explain in the text box provided in the submission form why this is the case.
+7. CONFLICTS OF INTEREST
+
+Declaring Conflicts of Interest (COI)
+
+    Each author is responsible for entering their ORCID, and their own individual domain and PC conflicts on CMT. You can mark your conflicts by clicking on your name (upper right-hand side on CMT) and selecting ''Domain Conflicts'' and ''Individual Conflicts''. We expect authors to have a single unique ORCID: the one used at submission will be used for publication.
+    An author's declared conflicts will be automatically applied to all of their submissions.
+    Conflicts are not declared per submission.
+    Conflict declaration must occur by the abstract submission deadline.
+    Authors need to check that conflicts are up to date in each round.
+
+It is the full responsibility of all authors of a paper to identify all and only their potential conflict-of-interest PC members.
+
+Papers with incorrect or incomplete COI information after the abstract submission deadline are subject to immediate rejection. Egregious misuse of COIs will be referred to the ethics committee of SIGMOD 2026.
+
+Definition of Conflict of Interest
+
+A paper author has a conflict of interest with a PC member when, and only when, one or more of the following conditions holds:
+
+    The PC member is a co-author of the paper.
+    The PC member has been a co-worker in the same company or university within the past five years, or is scheduled to join the same company or university in the next one year.1
+    The PC member has been a collaborator within the past five years.2
+    The PC member is or was the author's primary thesis advisor, or post-doctoral advisor, no matter how long ago.
+    The author is or was the PC member's primary thesis advisor, or post-doctoral advisor, no matter how long ago.
+    The PC member is a relative or close personal friend of the author.
+
+1Short-term associations, such as summer internships do not constitute institutional COIs. E.g., a student who interned at Microsoft should declare as conflicts any individuals in the group they worked with and other collaborators on their projects, but they should not declare a domain conflict with microsoft.com.
+
+2Collaborations are indicated by prior co-authorships, shared grant funding, and close research relationships, even if those have not yet resulted in common publications. Publications (typically with a large set of authors) that fall outside the traditional sense of research collaborations (e.g., “The Seattle Report on Database Research”, “ Diversity and Inclusion Activities in Database Conferences: A 2021 Report”, etc.) do not in themselves constitute a COI.
+
+To identify any potentially spurious conflicts, PC members may be asked to confirm declared conflicts with submitting authors.
+8. REVIEWING PROCESS, INTERACTIVE DISCUSSIONS, AND REVISIONS
+
+Number of reviews: Each submission will first receive at least three reviews. At the discretion of the AE and the PC chairs, additional reviews may be procured.
+
+Author feedback phase: There is an author feedback phase. Before the interactive discussion phase starts and decisions are made, authors will have a few days to read the initial reviews and submit feedback. The feedback (limited length) has two purposes:
+
+    New! Propose a revision plan: Based on the reviews, authors can propose a revision plan on how they aim to address the feedback of the reviews in a potential revision. The revision plan will be input to the reviewer discussion to make their decision (accept, revision, reject). In case a paper is selected for a revision, the revision plan will be the basis for the revision. However, reviewers and AEs can still ask for additional requests or changes to the revision plan.
+    Clarify misunderstandings: The second purpose of the author feedback is to clarify misunderstandings and factual errors through pointers to specific text in the submitted paper. As an example, a reviewer may have overlooked a part of the discussion in the paper and state that the paper fails to compare with a certain method; an example feedback will be of the form "We compare to the method suggested by reviewer #3 in Section 2.4, paragraph 3t".
+
+New! Interactive discussion phase: After submitting author feedback, the interactive discussion phase will start and last for about a week. During this phase, reviewers will discuss the paper based on the input from the author feedback which includes the revision plan. During this time, the reviewers can reach out to authors for additional clarifications on the paper or the proposed revision plan.
+
+Decisions: After the interactive discussion phase with the authors and the discussions of the reviewers and AEs, each paper will be notified of a decision from Accept / Reject / Minor Revision / Major Revision.
+
+Revisions: Some papers will be invited to submit a revised version (minor or major). Authors will have one month to implement the revision items. The revision process is intended to be a constructive partnership between reviewers and authors. To this end, reviewers will be instructed to request revisions only in constructive scenarios with specific requests. The basis for the revision is the revision plan and the additional feedback/requests that reviewers or AEs provided. In turn, authors bear the responsibility of attempting to meet those requests within the stated time frame, or of withdrawing the paper from submission. The revised papers will be reviewed again by the reviewers, and an acceptance after the revision is not guaranteed.
+
+For the revision, one extra content page is allowed after the first review to accommodate the requested revision items. The revised submission should include a revision letter (up to 4 pages) to summarize how the authors have addressed the requested revisions. For papers that go through major or minor revisions, the changed text must be highlighted in different colors for different reviewers, and section/page numbers must be referred to (along with line numbers when possible) in the revision letter, to ease their identification by the reviewers. The extra page is also available for the final version to the papers that are directly accepted.

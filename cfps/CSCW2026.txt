@@ -1,0 +1,328 @@
+
+CSCW 2026
+
+    HOME
+    SUBMIT
+    ATTEND
+    ROLLING SUBMISSIONS
+    BLOG
+    CODE OF CONDUCT
+    ABOUT CSCW
+
+CALL FOR PAPERS
+The ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW) is the premier venue for human-centered research in the design, use, and evaluation of technologies that support or affect social, cooperative, and collaborative practices in groups, organizations, communities, and networks. Bringing together top researchers and practitioners, CSCW 2026 will explore topics across sociotechnical domains of work, home, education, healthcare, the arts, design, entertainment, and ethics, including social computing and social media, crowdsourcing, and technologies for co-located or remote collaboration, communication, education, work articulation, coordination, awareness, and information sharing.
+Papers are expected to report on novel results from human-centered research discussing the design, development, use, and/or analysis of CSCW and social computing systems; or introduce new human-centered approaches to the conceptualization or critical analysis of such systems. Submissions exploring how computing technologies — including those linked to recent developments in AI, machine learning, robotics, and AR/VR — relate to questions of race, indigeneity, gender, and the environment are particularly encouraged, providing they are properly contextualized within cooperative, collaborative, or social computing issues. Submissions by members of underrepresented groups are particularly welcome. Authors exploring historical and sociotechnical perspectives on CSCW systems are also encouraged to submit.
+In general, contributions must have a focus on social aspects of technology mediation and be properly contextualized in the CSCW literature, with clear reference to CSCW concepts and/or theories informing, being affected or being proposed. Please note that papers whose research contributions are primarily of relevance or benefit to individual users will be considered out of scope. For example, this would include papers whose major contribution is on user research findings that inform the design of a system primarily focused on benefiting a sole, individual user. This would also include research on a collaboration between a single user and any number of AI agents. Additionally, systems-based or algorithmic research not making explicit how it involves aspects of cooperative, collaborative or social computing are not within the scope of CSCW.
+We invite contributions to CSCW across a variety of human-centered research techniques, methods, approaches, and domains, including:
+
+    Social and crowd computing. Studies, theories, designs, mechanisms, systems, and/or infrastructures addressing social media, social networking, wikis, blogs, online gaming, crowdsourcing, collective intelligence, virtual worlds, or collaborative information behaviors.
+    CSCW and social computing system development. Hardware, architectures, infrastructures, interaction design, technical foundations, algorithms, and/or toolkits that are explored and discussed within the context of building new social and collaborative systems and experiences.
+    Methodologies and tools. Novel human-centered methods, or combinations of approaches and tools used in building collaborative systems or studying their use.
+    Critical, historical, ethnographic analyses. Studies of technologically enabled social, cooperative, and collaborative practices within and beyond work settings illuminating their historical, social, and material specificity, and/or exploring their political or ethical dimensions.
+    Empirical investigations. Findings, guidelines, and/or studies of social practices, communication, cooperation, collaboration, or use, as related to CSCW and social technologies.
+    Domain-specific social, cooperative, and collaborative applications. Including applications to healthcare, transportation, design, manufacturing, gaming, ICT4D, sustainability, education, accessibility, global collaboration, or other domains.
+    Ethics and policy implications. Analysis of the implications of sociotechnical systems in social, cooperative and collaborative practices, as well as the algorithms that shape them.
+    CSCW and social computing systems based on emerging technologies. Including mobile and ubiquitous computing, game engines, virtual worlds, multi-touch, novel display technologies, vision and gesture recognition, big data, MOOCs, crowd labor markets, SNSs, computer-aided or robotically-supported work, and sensing systems.
+    Crossing boundaries. Studies, prototypes, or other investigations that explore interactions across fields of research, disciplines, distances, languages, generations, and cultures to help better understand how CSCW and social systems might help transcend social, temporal, and/or spatial boundaries.
+
+Send queries about paper submissions to papers2026@cscw.acm.org.
+To promote work-life balance, we have set all deadlines on Tuesdays to avoid weekends at any time zone. Note that the submission system is usually opened two weeks before each deadline (submission and revision).
+SUBMISSIONS
+SUBMISSION MODEL
+To support diverse and high-quality contributions, CSCW 2026 will use a two-round review process with the opportunity for major revisions reviewed by the same reviewers. Accepted papers are published in the Proceedings of the ACM on Human-Computer Interaction (PACM HCI) Journal. Important note: CSCW 2026 papers will be published under ACM Open Access. Reading more details about ACM OPEN here.
+To be included in ACM Open, the corresponding author must be affiliated with a participating institution. For APC-eligible articles (research, short paper, and survey) where none of the authors are currently from participating institutions, an APC will be required.
+ACM understands this transition may create financial challenges. To ease the shift and give institutions more time to join ACM Open, the ACM Council has approved a subsidy for 2026 APCs. Authors whose institutions are not yet participating will pay a discounted rate of $250 (ACM/SIG Members) or $350 (Non-Members)—a 65% reduction. We encourage authors to use this transition year to help bring their institutions into the ACM Open program.
+Note: ACM is not lowering APCs, but is instead contributing funds to temporarily subsidize APC pricing as the community adjusts to the Open Access program.
+The only submission deadline for new papers for CSCW 2026 will be in May 2025. Failure to submit a revised version of a paper by the associated deadline means that the paper has been withdrawn.
+Below is an overview of the submission timeline. All accepted papers from these two rounds will be invited to present at CSCW 2026.
+submissiontimeline
+MAY 2025 SUBMISSION CYCLE
+
+    May 14, 2025: New paper submissions due 12:00 Eastern Daylight Time (EDT)
+        Expected notification date: August 19, 2025, AoE
+        Possible outcomes: Revise for External Review, Assisted Desk Reject*
+        *ACM permits both desk (or bench) rejects and "assisted” desk rejects. For CSCW 2026, Assisted Desk Rejects are rejections based on the judgment of the senior PC member (SPC) and PC member that a paper is either out of scope or so far from acceptable as to make external reviews unnecessary.
+    September 16, 2025: Resubmission of papers that received a Revise for External Review recommendation due 23:59 AoE
+        Expected notification date: November 11, 2025
+        Possible outcomes: Conditional Accept with Minor Changes, Revise and Resubmit, Reject
+    January 13, 2026: Resubmission of papers that received a Major Revision recommendation due 23:59 AoE.
+        Expected notification date: Late March 2026
+        Possible outcomes: Conditional Accept with Minor Changes, Reject
+
+Note that the submission system is usually opened two weeks before each deadline (submission and revision).
+SUBMISSION PROCESS
+CSCW 2026 uses the Precision Conference System (PCS) 2.0: https://new.precisionconference.com. Authors submitting papers for peer-review to ACM publications must comply with the SIGCHI Submission and Review Policy, including, but not limited to:
+
+    That the paper submitted is original, that the listed authors are the creators of the work, that each author is aware of the submission and that they are listed as an author, and that the paper is an honest representation of the underlying work.
+    Occasionally, a paper may have some overlap with a prior publication (for example, there is some overlap with the datasets used, but the analyses in each paper are considered to be a completely different and substantial contribution). This must be disclosed to the editorial team at time of submission. Authors must provide a detailed explanation of the overlap and distinct contribution of each paper in the “Comments (optional)” field on the submission form. Failure to disclose this information will lead to a Desk Reject decision. Please make sure to refer and adhere to the ACM policy in reuse of content from prior publication available at https://www.acm.org/publications/policies/simultaneous-submissions.
+    Similarly, for parallel submissions (authors submitting multiple papers related to the same study), authors also must provide information about the relationship between submissions, as well as how they are different from one another in the “Comments (optional)” field of the submission form. Failure to disclose this information will lead to a Desk Reject decision. Please make sure to refer and adhere to the ACM policy in simultaneous submissions available at: https://www.acm.org/publications/policies/simultaneous-submissions
+    That the work submitted is not currently under review at any other publication venue, and that it will not be submitted to another venue unless it has been rejected or withdrawn from this venue.
+
+For information about re-publication in English of work previously published in another language, please refer to section 1.5.4 of the ACM SIGCHI policy.
+Confidentiality of submitted material will be maintained. Upon acceptance, the titles, authorship, and abstracts of papers will be used in the Advance Program. Submissions should contain no information or material that is or will be proprietary and/or confidential at the time of publication and should cite no publication that will be proprietary or confidential at that time. Final versions of accepted papers must be formatted according to detailed instructions provided by the publisher. Copyright release forms must be signed for inclusion in the PACM HCI and the ACM Digital Library.
+Authors should adhere to the new ACM policy in authorship, available at https://www.acm.org/publications/policies/new-acm-policy-on-authorship.
+ACM OPEN
+CSCW papers will be published under ACM Open Access.
+Starting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). With over 1,800 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 70-75%).
+To be included in ACM Open, the corresponding author must be affiliated with a participating institution. For APC-eligible articles (research, short paper, and survey) where none of the authors are currently from participating institutions, an APC will be required. Corresponding authors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial or discretionary waiver. To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the APC Waivers and Discounts Policy. Keep in mind that waivers are rare and are granted based on specific criteria set by ACM.
+Understanding that this change could present financial challenges, ACM has approved a temporary subsidy for 2026 to ease the transition and allow more time for institutions to join ACM Open. The subsidy will offer:
+
+    $250 APC for ACM/SIG members
+    $350 for non-members
+
+This represents a 65% discount, funded directly by ACM. Authors are encouraged to help advocate for their institutions to join ACM Open during this transition period. This temporary subsidized pricing will apply to all conferences scheduled for 2026.
+Note: ACM is not lowering APCs, but is instead contributing funds to temporarily subsidize APC pricing as the community adjusts to the Open Access program.
+PAPER GUIDELINES REGARDING SCOPE
+CSCW is a broad and interdisciplinary field, covering many methods, theories, and epistemologies. It is difficult to draw explicit disciplinary boundaries of what counts and what does not count as CSCW research. Nonetheless, in the spirit of welcoming those new and not as familiar to CSCW, we believe it is beneficial to offer some guidelines when deciding whether your submissions are appropriate for CSCW.
+In general, contributions must have a focus on social aspects of technology mediation and be properly contextualized in the CSCW literature, with clear reference to CSCW concepts and/or theories informing, being affected or being proposed. Please note that papers whose research contributions are primarily of relevance or benefit to individual users will be considered out of scope. For example, this would include papers whose major contribution is on user research findings that inform the design of a system primarily focused on benefiting a sole, individual user. This would also include research on a collaboration between a single user and any number of AI agents. Additionally, systems-based or algorithmic research not making explicit how it involves aspects of cooperative, collaborative or social computing are not within the scope of CSCW.
+Therefore, authors should clearly answer yes to the following:
+
+    Does your work build upon, bridge, discuss, or cite prior CSCW work in a significant manner? Does it make clear how it offers new knowledge of benefit to the CSCW community?
+    Have you clearly elaborated on how the results of your work are useful for thinking about the design of computing technologies to support cooperative/collaborative work or social interactions?
+
+Authors must make sure that their submission is within the scope of the conference. During the submission, authors will be asked to write a short paragraph explaining how this is the case. Contributions out of scope will be desk rejected.
+ANONYMOUS REVIEW POLICY
+Papers are subject to anonymous reviewing. Submissions must have authors' names and affiliations removed, including references to universities, companies, labs, and cities. Any grant information that identifies the author(s) and their institution should be removed as well. Furthermore, obvious identifying statements and information that might confuse reviewers regarding the authors (e.g., mock authors' names originally in templates provided to demonstrate formatting) should be removed. Images used in the paper must NOT disclose the authors' identity or suggest affiliation. This policy includes all submitted materials, including supplemental materials. Papers that violate this policy will be desk rejected.
+Please check in particular the first page, headers and footers, images, the acknowledgments section, AND meta-data of all submitted files. For resubmissions, make sure that the authors' identities are not disclosed in the annotated document submitted in addition to the clean version. If possible, check the document with tracked changes in different PDF readers. It is possible that some tracked-change information that is visible in a reader (e.g., Adobe Acrobat) is not visible in others (e.g., Preview).
+Citations should be done as if the authors were different people; e.g., Jane Smith should refer to and cite "prior work by Jane Smith" instead of "our prior work."
+CSCW does not have a policy against uploading preprints to SSRN or arXiv before they are submitted for review at the conference. Nevertheless, to ensure the integrity of the peer review process, we ask that no authors publicize the work until the review process is complete. Please do not share any confidential information specific to a current review process publicly or on social media, with the exception of doing public exhibitions, festivals, and performances as part of the research where the name is integral to the work.
+We also ask reviewers to refrain from taking steps to learn about authors' identity during the peer review process.
+FORMATTING AND LENGTH
+Word authors: Because CSCW papers are published in PACM HCI, which uses the Sheridan service, authors need to use the old interim ACM Small template, which is ONLY available at the following link: https://dl.acm.org/journal/pacmhci/submission-templates
+LaTeX authors need to use the template at https://www.acm.org/publications/authors/submissions, and insert the acmsmall call.
+Overleaf authors need to use the template at https://www.overleaf.com/latex/templates/acm-journals-new-master-template/vgtfrcvmrvxf, and use the acmsmall call.
+Papers that use a completely different template will be desk rejected. Small variance on font styles, which is possible when authors do not have particular fonts installed in their computers, will be tolerated for the initial submission but will have to be fixed in case the paper is accepted for publication.
+Note: In preparing revisions, authors should continue using the template they had used for their original submissions. Reviewers will be instructed to weigh the contribution of a paper relative to its length. If a paper is shorter than 5000 words or exceeds 12,000 words, it will be submitted to additional scrutiny. Papers whose length is incommensurate with their contribution will be desk rejected. Note that additional materials can be submitted as appendices but be aware that reviewers are not bound to decide based on these materials.
+“TIERED” REVIEW PROCESS
+CSCW 2026 adopts a tiered review process. In this review process, the previous “Editor” role will be replaced with “Senior Program Committee” (SPC).
+This tiered review process aims to ensure the quality of reviews while managing the increasing load. Each submission after the Assisted DR phase will be reviewed by a Senior Program Committee member (SPC), a Program Committee member (PC), and two external reviewers. A blog will be published soon to explain the rationale behind this approach and provide more details about the review process.
+Overall, the review process is divided into the following phases:
+
+    Assisted DR Phase: ACM permits both desk (or bench) rejects and "assisted” desk rejects. For CSCW 2026, Assisted Desk Rejects are rejections based on the judgment of the senior PC member (SPC) and PC member that a paper is either out of scope or so far from acceptable as to make external reviews unnecessary. Decision: Revise for External Review or Assisted DR.
+    External Review Phase: The remaining submissions are additionally reviewed by two external reviewers and discussed in the Revision PC meeting. Decision: Conditional Accept with Minor Changes, Revise and Resubmit, or Reject.
+    Revise and Resubmit Phase: Revision submissions are reviewed again by the same SPC, PC, and external reviewers; and the SPC will lead the discussion. Decision: Conditional Accept with Minor Changes, or Reject.
+
+Similar to CSCW 2025, anyone who submits must make themselves available as a reviewer for this CSCW cycle. If the authors do not agree to review, the paper will be desk rejected. To review, you must first sign up by visiting the PCS review volunteering page at the PCS review volunteering page. Select Society "SIGCHI" and then select the current CSCW year (2026) and cycle (May 2025). Reviewers must volunteer to review on PCS by May 14, 2025 at 23:59 Anywhere on Earth (AoE) time. The actual review assignment will be based on the match of expertise, etc.
+You must volunteer to complete 3 reviews for each paper you submitted, so we can make the process sustainable. If you have co-authors, you are allowed to distribute this review load among you; in fact, we strongly encourage that authors who have published in this community volunteer so that we can have a high quality reviewer pool. In total, you and your co-authors should volunteer to complete at least 3 reviews for each paper you submitted. For example, you should multiply the number of papers you are submitting by 3 to find the number of reviews that you should volunteer for. (If no one on the author team has previously published in CSCW, please contact the Paper Chairs at papers2026@cscw.acm.org)
+POLICY ON USE OF LARGE LANGUAGE MODELS IN WRITING PAPERS
+In line with other SIGCHI conferences’ (e.g., CHI) and computing conferences’ (e.g., CVPR and KDD) policies on use of generative AI in writing papers, CSCW 2026 employs the following policy on the use of Large Language Models in paper writing.
+Text generated from a large-scale language model (LLM), such as ChatGPT, must be clearly marked where such tools are used for purposes beyond editing the author’s own text. Please carefully review the April 2023 ACM Policy on Authorship before you use these tools. The SIGCHI blog post describes approaches to acknowledging the use of such tools and we refer to it for guidance. Note that the LaTeX template will default to hiding the Acknowledgements section while in review mode – please make sure that any LLM disclosure is available in your submitted version. We will investigate submissions brought to our attention and desk reject papers where LLM use is not clearly marked or where an LLM is not appropriately used (e.g., including fake references generated by LLM, relying on AI-tools to generate ideas in the manuscript, etc.).
+POLICY ON IRRESPONSIBLE REVIEWS
+ACM policies forbid the uploading of author text into an LLM or similar system. Doing so, violates the author’s right to confidentiality and shares intellectual property without consent. Reviewing is a professional responsibility and violations are subject to investigation. In line with other SIGCHI conferences’ (e.g., CHI) and computing conferences’ (e.g., CVPR and KDD) policies on irresponsible reviews, CSCW 2026 employs the following policy on highly irresponsible reviews.
+LLMs are NOT allowed to be used for writing the reviews nor the meta-reviews at any step. You cannot use an LLM to write your review. This is true for any LLM, whether you run it locally or use an API.
+This policy includes but is not restricted to:
+
+    You can NOT ask an LLM to write content for you. The review needs to be based on your own judgment.
+    You can NOT share substantial content from the paper or your review with an LLM. This means, for example, that you cannot use an LLM to translate a review.
+    You CAN use an LLM to check the grammar of your (meta-)review.
+
+It is also expected that reviewers will submit fair and thoughtful reviews on time. Paper chairs, SPCs, and PCs will check (meta-)reviews for highly irresponsible reviews. If a review is flagged as “highly irresponsible,” we will investigate the review. Example cases of highly irresponsible reviews include: reviews that violate the above-mentioned LLM policy, missing or one-sentence reviews, reviews not relevant to the paper or that miss a substantial portion of the paper. Highly irresponsible reviews do not include cases where reviewers merely have some misunderstandings, miss small parts of the paper, or hold a different opinion from other reviewers or the PC. If the review is confirmed as “highly irresponsible,” the papers submitted by the reviewer will be desk rejected per discretion of the papers chairs. We might also report this incident and this reviewer to the ACM.
+DECISIONS AND DEADLINES
+CSCW will be returning submissions to the primary contact author with one of the following decisions, along with the reviews, roughly 2-4 months from the initial submission (depending on the decision).
+
+    Conditional Accept with Minor Changes: Submissions that receive this decision are ready or nearly ready for publication, though they may require a few small changes. The final version of the paper must be submitted for approval by the corresponding SPC. The revision will be verified by the SPC and if approved, the submission will be promoted to an accepted paper.
+    Revise and Resubmit: Submissions that receive this decision have real potential, but will require major portions rewritten or redone, then re-reviewed. The authors must ensure that the paper has been revised sufficiently to warrant re-review. To the extent possible, resubmissions will be assigned the same SPC, PC, and external reviewers for re-review. Upon re-review, submissions can receive one of two decisions: Conditional Accept with Minor changes, or Reject.
+    Reject: Submissions that receive this decision may not be ready for publication. Authors of rejected papers are recommended to resubmit their papers to CSCW or other venues in the future.
+    Assisted Desk Reject: Authors should only submit completed work of publishable quality and within the scope of ACM CSCW. The SPC will desk reject papers that do not comply with such requirements. Incomplete or otherwise inappropriate submissions will also be desk rejected without review. Finally, the SPC and PC may also desk reject any submission that they believe has little chance of being accepted if it goes through the peer review process. See ACM policy on “assisted desk reject.”
+
+RESUBMISSION OF REJECTED AND WITHDRAWN PAPERS
+Because there is only one submission cycle (May 2025) in 2025 for CSCW, authors of rejected papers from previous CSCW cycles (e.g., CSCW Oct 2024 cycle and earlier) are allowed to resubmit their papers to the CSCW May 2025 cycle.
+However, authors must describe the paper's submission history and briefly outline the changes in a designated field in PCS when resubmitting. Failure to disclose the paper's submission history may lead to a desk reject decision. ACs and reviewers will have access to this description of the paper's submission history and may also request to review the detailed submission history.
+Please notice that all resubmitted papers will be treated as a new submission, meaning that they will most likely be assigned to a new SPC, a new PC, and new reviewers, who are expected to provide new and fresh reviews based on the revised resubmission. This means that the new review team is not bound to the previous assessment of the paper. Papers resubmitted with no or marginal changes (except resubmission of minor revisions papers that missed the resubmission deadline) will be desk rejected.
+PRIMARY RESEARCH PARADIGM
+When uploading the paper to the PCS reviewing system, authors will be asked to indicate the primary research paradigm of their paper for appropriate reviewer assignment. Currently there are six paradigm choices available:
+
+    Technical/Systems, e.g., building novel CSCW systems, algorithms, implementing novel features in existing systems, etc.
+    Empirical–Qualitative, e.g., ethnography, workplace studies, qualitative user studies, etc.
+    Empirical–Quantitative, e.g., “big data,” quantitative user studies, statistical methods, etc.
+    Mixed Methods, e.g., combined qualitative and quantitative empirical research, design explorations combined with technical feature development.
+    Design, e.g., design implications, guidelines, methods, techniques, etc.
+    Theoretical, e.g., conceptual frameworks, theory underpinning CSCW studies/domains, theoretical analysis, literature reviews, and essays.
+
+OPEN AND TRANSPARENT SCIENCE
+Authors are encouraged to submit supplementary material when possible and when aligned with their methods. Authors are encouraged to submit links to pre-registrations on the Open Science Framework (OSF) when appropriate for their work. Authors are also encouraged to use open access repositories and make their data and other material FAIR when appropriate for their work. Authors are encouraged to describe efforts to make their work more reproducible. Reviewers are encouraged to support evolving approaches to supporting open and transparent research practices.
+VIDEO FIGURES
+Authors may consider submitting a video that illustrates their work as part of the submission (no more than three minutes long). Videos are not required for paper submissions, but are encouraged, particularly for papers contributing novel systems or interaction techniques.
+PRESENTING AT THE CONFERENCE
+Accepted papers are invited to present at the corresponding conference, and authors can choose whether or not they wish to present. If a situation arises and an author who is scheduled to present at the conference is no longer able to, they should immediately reach out to the Papers Chairs to discuss alternative options. Presenting at the conference is strongly recommended but not required.
+PAPERS CHAIRS
+
+    Kurt Luther (Virginia Tech, USA)
+    Xiaojuan Ma (Hong Kong University of Science and Technology, Hong Kong SAR)
+    Jeffrey Nichols (Apple, USA)
+    Adriana S Vivacqua (Federal University of Rio de Janeiro, Brazil)
+
+Contact: papers2026@cscw.acm.org
+SENIOR PROGRAM COMMITTEE
+
+    Morgan G. Ames (University of California, Berkeley, USA)
+    Eric P. S. Baumer (University of Toronto, Canada)
+    Jed Brubaker (University of Colorado Boulder, USA)
+    Cody Buntain (University of Maryland, USA)
+    Heloisa Candello (IBM Research, Brazil)
+    Shiwei Cheng (Zhejiang University of Technology, China)
+    Nicola Dell (Cornell Tech, USA)
+    Michael Ann DeVito (Northeastern University, USA)
+    Dominic DiFranzo (Lehigh University, USA)
+    Xianghua (Sharon) Ding (University of Glasgow, Scotland)
+    Casey Fiesler (University of Colorado Boulder, USA)
+    Ujwal Gadiraju (Delft University of Technology, Netherlands)
+    Sarah Gilbert (Cornell University, USA)
+    Nitesh Goyal (Google, USA)
+    Andrea Grover (University of Nebraska Omaha, USA)
+    Shion Guha (University of Toronto, Canada)
+    Xinning Gui (The Pennsylvania State University, USA)
+    Francisco J. Gutierrez (Universidad de Chile, Chile)
+    Benjamin Mako Hill (University of Washington, USA)
+    James Howison (University of Texas at Austin, USA)
+    Gary Hsieh (University of Washington, USA)
+    Yun Huang (University of Illinois Urbana-Champaign, USA)
+    Jina Huh-Yoo (Stevens Institute of Technology, USA)
+    David Karger (MIT, USA)
+    Ryan M. Kelly (RMIT University, Australia)
+    Sunyoung Kim (Rutgers University, USA)
+    Bart Knijnenburg (Clemson University, USA)
+    Amanda Lazar (University of Maryland, USA)
+    David Lee (University of California, Santa Cruz, USA)
+    Yao Li (University of Central Florida, USA)
+    Claudia López (Universidad Técnica Federico Santa María, Chile)
+    Ioanna Lykourentzou (Utrecht University, Netherlands)
+    Brian McInnis (University of Texas at Austin, USA)
+    Andrés Monroy-Hernández (Princeton University, USA)
+    Vivian Genaro Motti (George Mason University, USA)
+    Shuo Niu (Clark University, United States)
+    Sun Young Park (University of Michigan, USA)
+    Nathaniel Poor (Underwood Institute, USA)
+    Saiph Savage (Northeastern University, USA)
+    Irina Shklovski (University of Copenhagen, Denmark)
+    Robert Soden (University of Toronto, Canada)
+    Jacob Thebault-Spieker (University of Wisconsin-Madison, USA)
+    Nervo Xavier Verdezoto (Cardiff University, United Kingdom)
+    Dhaval Vyas (The University of Queensland, Australia)
+    Hao-Chuan Wang (University of California, Davis, USA)
+    Mark Whiting (Pareto & University of Pennsylvania, USA)
+    Donghee Yvette Wohn (New Jersey Institute of Technology, USA)
+    Richmond Y. Wong (Georgia Institute of Technology, USA)
+    Paweł W. Woźniak (TU Wien, Austria)
+    Chien Wen (Tina) Yuan (National Taiwan University, Taiwan)
+    Amy X. Zhang (University of Washington, USA)
+    Douglas Zytko (University of Michigan-Flint, USA)
+
+PROGRAM COMMITTEE
+
+    Mamtaj Akter (New York Institute of Technology, United States)
+    Heba Aly (University of Houston, United States)
+    Jacy R. Anthis (University of Chicago, United States)
+    Scott Appling (Georgia Tech, United States)
+    Rosa I. Arriaga (Georgia Tech, United States)
+    Sumit Asthana (University of Michigan, United States)
+    Md Momen Bhuiyan (University of Minnesota Duluth, United States)
+    Alex Cabral (Georgia Tech, United States)
+    Jie Cai (Tsinghua University, China)
+    Kaylea Champion (University of Washington Bothell, United States)
+    Niki Chatzipanagiotou (Lund University, Sweden)
+    Ruijia "Regina" Cheng (Apple Inc., United States)
+    Samantha Dalal (Princeton University, United States)
+    Dipto Das (University of Toronto, Canada)
+    Dylan Thomas Doyle (University of Colorado Boulder, United States)
+    Juliana Baptista dos Santos França (Federal University of Rio de Janeiro (UFRJ), Brazil)
+    Diana Freed (Brown University, United States)
+    Aakash Gautam (University of Pittsburgh, United States)
+    Maria Antonietta Grasso (Naver Labs Europe, France)
+    Ehsan-Ul Haq (Hong Kong University of Science and Technology (GZ), China)
+    Jean Hardy (Michigan State University, United States)
+    Taha Hassan (University of Alabama, United States)
+    Gaole He (Delft University of Technology, Netherlands)
+    Changyang He (Max Planck Institute for Security and Privacy, Germany)
+    Sungsoo Ray Hong (George Mason University, United States)
+    Jiaxiong Hu (Hong Kong University of Science and Technology, Hong Kong)
+    Siying Hu (City University of Hong Kong)
+    Yue Huang (CSIRO's Data61, Australia)
+    Amanda Lee Hughes (Brigham Young University, United States)
+    Angel Hsing-Chi Hwang (University of Southern California, United States)
+    Sohyeon Hwang (Princeton University, United States)
+    Jeongwon Jo (University of Notre Dame, United States)
+    Yasmine Kotturi (University of Maryland, Baltimore County, United States)
+    Oksana Kulyk (IT University of Copenhagen, Denmark)
+    Kyungho Lee (Ulsan National Institute of Science & Technology (UNIST), Republic of Korea)
+    Guozheng Li (Beijing Institute of Technology, China)
+    Tianyi Li (Purdue University, United States)
+    Gionnieve Lim (Singapore University of Technology and Design, Singapore)
+    Xi Lu (University at Buffalo, United States)
+    Ying Ma (The University of Melbourne, Australia)
+    Leticia Santos Machado (Federal University of Rio Grande do Sul (UFRGS), Brazil)
+    Renkai Ma (University of Cincinnati, United States)
+    Juan Fernando Maestre (Swansea University, United Kingdom)
+    Reza Hadi Mogavi (University of Waterloo, Canada)
+    Jinkyung Katie Park (Clemson University, United States)
+    Weiping Pei (The University of Tulsa, United States)
+    Belén Barros Pena (City St George's, University of London, United Kingdom)
+    Anthony Pinter (University of Colorado Boulder, United States)
+    Hemant Purohit (George Mason University, United States)
+    Cassidy Pyle (University of Michigan, United States)
+    Neal Reeves (King's College London, United Kingdom)
+    Manoel Horta Ribeiro (Princeton University, United States)
+    Thea Riebe (TU Darmstadt, Germany)
+    Sabirat Rubya (Marquette University, United States)
+    Morgan Klaus Scheuerman (Sony AI, United States)
+    Woosuk Seo (Yale University, United States)
+    Tanusree Sharma (Penn State University, United States)
+    Yan Shvartzshnaider (York University, Canada)
+    Ellen Simpson (University of Alaska Southeast, United States)
+    C. Estelle Smith (Colorado School of Mines, United States)
+    Diva Smriti (Arizona State University, United States)
+    Poly Z.H. Sun (East China Normal University, China)
+    Zhida Sun (Shenzhen University, China)
+    Nathan TeBlunthuis (University of Texas at Austin, United States)
+    Zheng Yao (Google, United States)
+    Bingsheng Yao (Northeastern University, United States)
+    Lu Wang (Stevens Institute of Technology, United States)
+    Xingbo Wang (Bosch Research North America & Bosch Center for Artificial Intelligence (BCAI), United States)
+    Yuping Wang (Renmin University of China, China)
+    Zhijie Wang (University of Alberta, Canada)
+    Asra Sakeen Wani (IIIT-Delhi, India)
+    Xiaoying Wei (Hong Kong University of Science and Technology, Hong Kong)
+    Daricia Wilkinson (Arizona State University, United States)
+    Andrea Stevenson Won (Cornell University, United States)
+    Sijia Xiao (Carnegie Mellon University, United States)
+    Dong Whi Yoo (Indiana University Indianapolis, United States)
+    Chuang-Wen You (National Tsing Hua University, Taiwan)
+    Zhan Zhang (Pace University, United States)
+    Peng Zhang (Fudan University, China)
+
+GENERAL CHAIRS
+
+    Xinru Page (Brigham Young University, USA)
+    Guo Freeman (Clemson University, USA)
+
+Contact: chairs2026@cscw.acm.org
+Copyright © 2026 CSCW 2026
+
+
+CSCW 2026
+
+    HOME
+    SUBMIT
+    ATTEND
+    ROLLING SUBMISSIONS
+    BLOG
+    CODE OF CONDUCT
+    ABOUT CSCW
+
+THE 29TH ACM CONFERENCE ON COMPUTER-SUPPORTED COOPERATIVE WORK AND SOCIAL COMPUTING
+CSCW 2026 will be held in Salt Lake City, Utah, USA, October 10-14, 2026.
+CSCW is the premier venue for research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners, CSCW explores the technical, social, material, and theoretical challenges of designing technology to support collaborative work and life activities.
+News
+Second round reviews from the May 2025 cycle are published!
+
+November 20, 2025
+First round reviews from the May 2025 cycle are published!
+
+August 19, 2025
+We have written a blog post to explain the paper review process for CSCW 2026.
+
+April 19, 2025
+The 2026 Call for Papers is live!
+
+March 30, 2025
+Copyright © 2026 CSCW 2026

@@ -1,0 +1,121 @@
+On behalf of the organizing committee, it is our great pleasure to welcome you to the 2026 IEEE World Congress on Computational Intelligence (WCCI)   the world s leading forum for advances in computational intelligence.
+WCCI 2026 will take place in the beautiful and historic city of Maastricht, a vibrant hub of culture, innovation, and international collaboration. This congress brings together the three flagship conferences of the IEEE Computational Intelligence Society:
+* The International Joint Conference on Neural Networks (IJCNN)
+* The IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)
+* The IEEE Congress on Evolutionary Computation (IEEE CEC)
+We are committed to delivering a comprehensive and engaging program that includes:
+* Cutting-edge technical sessions
+* Inspiring keynote talks
+* Hands-on tutorials and workshops
+* A dynamic student and early-career program
+* Ample networking opportunities
+* And, new for 2026, a dedicated Industry Day   designed to foster meaningful collaboration between academia and industry, and to showcase real-world applications of computational intelligence.
+Whether you are a researcher, practitioner, educator, or industry professional, WCCI 2026 will offer a unique opportunity to connect, learn, and shape the future of our field.
+We look forward to welcoming you to Maastricht for an unforgettable week of innovation, exchange, and community.
+Warm regards,
+On behalf of the WCCI 2026 Organizing Committee
+
+Anna Wilbik
+Maastricht University, The Netherlands
+General Chair IEEE WCCI 2026
+
+Christian Wagner
+University of Nottingham, UK
+General Chair IEEE WCCI 2026
+
+Important Dates & Deadlines
+November 2025
+1 November: Special sessions, tutorials and workshops proposals final deadline
+To facilitate promotion and maximize participation, proposals will be reviewed on a
+rolling basis until the final deadline (1 Nov 2025), with notifications asap. Early submissions are strongly encouraged!
+14 November: Competition proposals final deadline
+21 November: Special sessions, competitions, tutorials and workshops notification deadline.
+January 2026
+31 January: Paper submission deadline (23:59, anywhere on Earth, i.e. UTC-12)   no extension will be given!
+March 2026
+01 March: J2C paper presentation application deadline
+15 March: Paper acceptance notification
+20 March: J2C paper presentation acceptance notification
+April 2026
+15 April: Camera-ready papers
+June 2026
+21 June: Tutorials
+24 June: Industry Day
+22- 26 June: Conference
+
+Congress Host
+Maastricht University (UM), the European university of the Netherlands, has nearly 22,000 students and 5,000 staff. We are young, interdisciplinary and socially engaged, which is evident in everything we do. Despite our relatively recent establishment, we have already built a strong reputation through our excellent research and education, and by connecting science with regional, European and global challenges. We rank among the best young universities in the world.
+
+PAPER SUBMISSION SYSTEM NOW OPEN (SCROLL DOWN)
+IEEE WCCI 2026   the world s premier event in computational intelligence   brings together the three flagship conferences of the IEEE Computational Intelligence Society under one roof:
+* IJCNN International Joint Conference on Neural Networks
+* IEEE CEC Congress on Evolutionary Computation
+* FUZZ-IEEE International Conference on Fuzzy Systems
+The 2026 edition will be held in Maastricht, the Netherlands, a dynamic hub of academic and industrial collaboration. With a leading university, research centers, and companies in AI, robotics, healthcare, and sustainable technologies, Maastricht offers an inspiring setting for exploring the future of science and technology   blending AI with physiology, psychology, and innovation-driven industries.
+We look forward to receiving many outstanding research contributions for the 2026 IEEE World Congress on Computational Intelligence. Help shape the event by submitting a high-quality research paper.
+Please note that ORCID will be required for each author of the paper!
+IJCNN 2026 Topics
+The annual IEEE/INNS IJCNN is the premier international conference in the area of neural networks theory, analysis and applications. Since its inception, IJCNN has been playing a leading role in promoting and facilitating interaction among researchers and practitioners, and dissemination of knowledge in neural networks and related facets of machine learning.  This year IEEE/INNS IJCNN 2026 is a part of the WCCI2026. IJCNN 2026 will represent a unique meeting point for scientists and engineers, both from academia and industry, to interact and discuss the latest enhancements and innovations in the field.
+The technical program, including tutorials, special sessions, workshops and plenary talks, covers almost all facets of neural networks and related learning systems including supervised learning, unsupervised learning, reinforcement learning, cognitive algorithms, and deep learning along with a wide spectrum of applications. In particular, IEEE/INNS IJCNN 2026 topics include, but are not limited to:
+* Brain-machine Interfaces
+* Cognitive Models
+* Collective & Ensemble Intelligence
+* Computational Neuroscience
+* Dynamic Neural Networks
+* Efficient and Tiny Neural Networks
+* Ethics and Regulation in AI
+* Generative AI Models
+* Graph Neural Networks
+* Industrial applications
+* Interpretable and Explainable AI
+* Large Language Models
+* Large-Scale Neural Networks
+* Mixture of Experts
+* Modular Neural Networks
+* Neural Engineering
+* Neural Network Applications
+* Neural Networks for Sciences
+* Neuromorphic Systems
+* Neurosymbolic AI
+* Perceptual Neural Networks
+* Physics-inspired Neural Networks and Neural Operators
+* Quantum Neural Networks
+* Reinforcement Learning
+* Representation & Reasoning
+* Reservoir & Echo-State Networks
+* Spiking Neural Networks
+* Theory of Neural Networks
+* Transformer Networks
+* Trustworthy and Reliable AI
+* Unsupervised Learning 
+
+Call for Position Papers
+New Position Paper Tracks at WCCI 2026 
+We are pleased to announce the introduction of Position Paper Tracks at IEEE WCCI. In the dynamic and increasingly impactful field of computational intelligence, progress is not only achieved by novel algorithms and empirical results, but also from forward-thinking perspectives, critical reflections, and calls to action across theory, methodology, applications, societal impact, and interdisciplinary cross-fertilisation. While traditional conference papers focus on new methods, empirical results, benchmark studies, and applications, position papers emphasise viewpoints: why certain directions matter (or don t), how the field should evolve, what emerging challenges or opportunities we face, what are the intersections with other domains (e.g., machine learning, optimisation, operations research, industry, sustainability), and how we might act collectively. 
+The new tracks are designed to provide a dedicated forum for sharing thought-provoking viewpoints, inspiring debate, and shaping future directions in computational Intelligence. For further detail on the specific guidelines for each of the three conferences, see the dedicated pages for IJCNN, CEC, and Fuzz-IEEE (below).
+Submission Guidelines 
+* Position papers must use the same general formatting and submission system as regular WCCI papers (e.g., same page limit, template, submission portal). 
+* Titles must begin with the phrase  Position Paper:   to clearly identify submissions to this track.
+* All submissions will undergo double-blind peer review. Authors should anonymise their manuscripts accordingly.
+* Submissions must adhere to the same policies as regular WCCI papers, including ethics, dual submission, and plagiarism policies.
+* Accepted position papers will be presented at WCCI (either via oral or poster format) and will be included in the conference proceedings (e.g., IEEE Xplore) and indexed accordingly. 
+Evaluation Criteria 
+Position papers will be evaluated based on: 
+* Position: Does the paper clearly articulate a stance, argument or perspective relevant to evolutionary computation?
+* Support: Is the position backed by clear reasoning, relevant evidence, and appropriate citations of the literature? 
+* Significance: Is the topic timely, impactful, and relevant to the WCCI audience? 
+* Discussion potential: Does the paper inspire constructive and meaningful discussion among researchers, practitioners or educators in EC? 
+* Communication quality: Is the paper well organised, coherent and clearly written? 
+* Context: Does the paper situate its perspective within existing literature, identify gaps, and propose a way forward? 
+Papers that are essentially standard empirical research papers (rather than viewpoint/position-type) but are submitted as Position Papers are likely to be rejected as out-of-scope. 
+Important Dates 
+* All regular deadlines for paper submission, notification, etc. apply to Position Papers. 
+Track Chairs 
+* IJCNN: Manuel Roveri, Politecnico di Milano, Italy 
+* IJCNN: Fabrizio Pittorino, Politecnico di Milano, Italy,
+* CEC: Juergen Branke, University of Warwick, UK 
+* FUZZ: Marek Reformat, University of Alberta, Canada 
+How to Submit 
+Please submit your manuscript via the WCCI conference submission portal (once open), selecting the track labelled  Position Papers   IJCNN/CEC/FUZZ  (or equivalent). Make sure your title begins with  Position Paper:   . Adhere to the specified formatting guidelines and anonymisation for double-blind review. 
+We look forward to your insightful contributions and to fostering a vibrant exchange of perspectives at WCCI 2026. 
+

@@ -1,0 +1,917 @@
+
+Events About Contact
+Log In My Submissions
+The 4th International Online Conference on Materials
+
+The 4th International Online Conference on Materials
+The 4th International Online Conference on Materials
+Part of the International Online Conference on Materials series
+3–6 November 2025
+Event's Timezone: Central European Time
+Biomaterials, Materials Theory, Nanomaterials
+Calendar
+Share
+Bookmark
+Bookmark event
+Contact Us
+Become a Sponsor
+
+    Go to the Sessions
+    Event Details
+        Award Winners Announcement
+        Welcome from the Chair
+        Program Overview
+        IOCM 2025 Program - Day 1
+        IOCM 2025 Program - Day 2
+        IOCM 2025 Program - Day 3
+        IOCM 2025 Program - Day 4
+        Live Session Recordings
+        Book of Abstracts
+        Poster Gallery
+        Event Chair
+        Session Chairs
+        Event Committee
+        Event Speakers
+        Sessions
+        Registration
+        Instructions for Authors
+        Publication Opportunities
+        List of Accepted Submissions
+        Event Awards
+        Sponsors and Partners
+        Conference Secretariat
+        Events in series IOCM
+
+ 
+Thank you for attending IOCM 2025!
+
+The 4th International Online Conference on Materials (IOCM 2025) has successfully concluded!
+We sincerely thank all participants, speakers, session chairs, and contributors for their valuable involvement and for making this edition a great success.
+Click HERE for the Book of Abstracts.
+Click HERE for the Poster Gallery.
+
+Click HERE for Publication Opportunities.
+
+We look forward to welcoming you to the next edition of IOCM!
+Award Winners Announcement
+
+On behalf of the chairs of IOCM 2025, we are pleased to announce the winners of the Best Oral Presentation Awards and Best Poster Awards. Congratulations! We will be contacting the winners on the next steps.
+The Best Oral Presentation Awards have been awarded to:
+
+ID
+	
+
+Title
+	
+
+Authors
+sciforum-135744 	Soft, Stretchable, and Smart: Alginate/Gelatin Organohydrogels for Wearable Electronics 	
+
+Pietro Tordi
+sciforum-144810 	Pump-Probe Microscopy Unravels Distance-Dependent Collective Plasmonic Behaviour in Gold Nanoparticle Supercrystals 	Pietro Castronovo, Cristian Gonzales, Giuseppe Ammirati, Shengsong Yang, Daniele Catone, Alessandra Paladini, Patrick O'Keeffe, Cherie R. Kagan, Christopher B. Murray, Antonio Emanuele, Emanuele Marino, Fabrizio Messina and Alice Sciortino
+The Best Poster Awards have been awarded to:
+
+ID
+	
+
+Title
+	
+
+Authors
+sciforum-137903 	Tailoring wettability and photocatalytic properties of NiO nanosystems fabricated by plasma-assisted vapor deposition 	Chiara Maccato, Davide Barreca, Alberto Gasparotto, Naida El Habra, Andraž Šuligoj, Urška Lavrenčič Štangar and Gian Andrea Rizzi
+sciforum-144345 	Investigating the 8CB Liquid Crystal–Insulin Interaction: The Role of the Smectic A Phase in Enhancing Detection Sensitivity 	Athul Satya and Ayon Bhattacharjee
+Welcome from the Chair
+We are thrilled to extend a warm welcome to you for the upcoming 4th International Online Conference on Materials (IOCM 2025), proudly sponsored by the MDPI open access journal Materials (ISSN 1996-1944; IF: 3.2).
+
+This conference offers a platform for scholars, researchers and experts in the field of materials science to come together, exchange ideas, and showcase cutting-edge research. The conference will cover a wide range of topics in materials science, including, but not limited to the following:
+
+• Optical, Electric and Magnetic Materials and Their Characterization;
+• Nanomaterials, Nanotechnology and Quantum Materials;
+• Soft Matter, Biomaterials, Composites and Interfaces;
+• Materials Theory, Simulations and AI;
+• Materials for Energy Harvesting, Conversion and Storage;
+• Green Materials, Synthesis, Characterization and Recycling;
+• Materials Manufacturing, Processing and Applications.
+
+The event will take place virtually on Sciforum.net, a platform developed and sponsored by MDPI to organize and provide technical support for electronic conferences. The virtual format offers the distinct advantage of eliminating the need for travel and its associated expenses, allowing you to engage in quick and direct exchanges of the latest research findings and innovative ideas.
+
+We would like to express our sincere gratitude for your unwavering support and participation! Thank you for joining us on this journey of discovery and innovation in materials science.
+
+Kind regards,
+Dr. Ingo Dierking
+Department of Physics and Astronomy, The University of Manchester, Manchester, UK
+
+Follow the conference organizer on Social Media
+Program Overview
+3 November - Morning
+	
+4 November - Morning
+	
+5 November - Morning
+	
+6 November - Morning
+Session 3. Soft Matter, Biomaterials, Composites and Interfaces
+
+	
+Session 5. Materials for Energy Harvesting, Conversion and Storage
+	
+Session 4. Materials Theory, Simulations and AI
+
+
+
+	Session 7. Materials Manufacturing, Processing and Applications
+3 November - Afternoon
+	
+4 November - Afternoon
+	
+5 November - Afternoon
+	
+6 November - Afternoon
+Session 1. Optical, Electric and Magnetic Materials and Their Characterization
+	
+Session 2. Nanomaterials, Nanotechnology and Quantum Materials
+	Session 6. Green Materials, Synthesis, Characterization and Recycling 	Flash Poster Session
+IOCM 2025 Program - Day 1
+IOCM 2025 Day 1
+Session 3. Soft Matter, Biomaterials, Composites and Interfaces
+
+Date: 3 November 2025 (Monday)
+Time: 9:30 (CET, Basel) | 03:30 (EST, New York) | 16:30 (CST Asia, Beijing)
+Time (CET) 	Speaker 	Title
+09:30-09:35 	Dr. Ingo Dierking
+Event Chair
+	Welcome from the Event Chair
+09:35-09:40 	Dr. Qingchun Yuan
+Session Chair 	
+
+Welcome from the Session Chair
+09:40-10:10 	Prof. Dr. Danqing Liu
+Keynote Speaker 	Human Interactive Materials (HIM) for soft robotic machine/haptics applications
+10:10-10:40 	Prof. Dr. Ivan I. Smalyukh
+Keynote Speaker 	Metamaterial designs based on universality of phenomena in liquid crystals: from cosmic strings to optical engineering
+10:40-10:55 	Ayub Alam
+Selected Speaker
+	Wearable Textile Organic Electrochemical Transistors and Biosensors (OECTs) for Non-Invasive Real-Time Monitoring of Neurodegenerative Disorders
+10:55-11:10 	Ana Iglesias-Mejuto
+Selected Speaker
+	Bacterial nanocellulose-loaded 3D-printed scaffolds for regenerative medicine
+11:10-11:25 	Iga Peterson
+Selected Speaker
+	Synthesis and Characterization of Dual-Responsive Hydrogels for Biomedical Use
+11:25-11:40 	Gianluca Ciarleglio
+Selected Speaker
+	Electrospun Nanofibers for Biomedical Applications: Biocompatible Dressings and Bioactive Implant Coatings
+11:40-11:55 	Solange Fossa
+Selected Speaker
+	Study of the Wettability of Hierarchical Superhydrophobic Surfaces
+11:55-12:10 	Stefanos Atata
+Selected Speaker
+	Role of Nanoparticle Geometry in the Electro-Optical Properties of Nematic Phases
+12:10-12:25 	Pietro Tordi
+Selected Speaker
+	Soft, Stretchable, and Smart: Alginate/Gelatin Organohydrogels for Wearable Electronics
+12:25-12:40 	Sara Madeira
+Selected Speaker
+	Bioinspired channel-embedded porous zirconia surfaces for dental implants fibrointegration: fabrication, characterization and in vitro evaluation
+Session 1. Optical, Electric and Magnetic Materials and Their Characterization
+
+Date: 3 November 2025 (Monday)
+Time: 15:00 (CET, Basel) | 09:00 (EST, New York) | 22:00 (CST Asia, Beijing)
+Time (CET) 	Speaker 	Title
+15:00-15:10 	Prof. Dr. Weili Zhang
+Session Chair 	Welcome from the Session Chair
+15:10-15:40 	Dr. Chun-Chieh Chang
+Keynote Speaker 	Recent Development of Functional Metasurfaces at LANL
+15:40-15:55 	Asma Hajji
+Selected Speaker 	Non-Invasive Deep-Tissue Temperature Monitoring via High-Performance Optical Nano-thermometer
+15:55-16:10 	Ruxue Wei
+Selected Speaker 	Polarization-Dependent Plasmonic Transmission of Subwavelength Metasurfaces Resonating at D-Band Frequencies
+16:10-16:25 	Azat Galiev
+Selected Speaker
+	Switching effect initiated by changing the boundary conditions of the metal/polymer interface
+16:25-16:40 	Juliusz Chojenka
+Selected Speaker
+	Titanium dioxide nanotubes as a matrix for tailoring photoactivity and magnetic properties
+16:40-16:55 	Saqib Shabbir
+Selected Speaker
+	Comparative structural and magnetic study of Cr-substituted Sr-hexaferrites synthesized by sol-gel and solid-state routes
+16:55-17:10 	Marco Reale
+Selected Speaker
+	Tailoring Carbon Dot Surfaces for Optical Modulation through Plasmonic Interactions
+17:10-17:25 	Kriti Sahu
+Selected Speaker
+	Strain-Induced Superconductivity Enhancement in Co-Doped BaFe₂As₂ via Argon Ion Implantation: Evidence from Electrical and Magnetic Measurements
+IOCM 2025 Program - Day 2
+IOCM 2025 Day 2
+Session 5. Materials for Energy Harvesting, Conversion and Storage
+
+Date: 4 November 2025 (Tuesday)
+Time: 9:00 (CET, Basel) | 03:00 (EST, New York) | 16:00 (CST Asia, Beijing)
+Time (CET) 	Speaker 	Title
+09:00-09:10 	Prof. Dr. Federico Bella
+Prof. Dr. Vlassios Likodimos
+Session Chairs 	
+
+Welcome from the Session Chairs
+09:10-09:40 	Dr. Thomas Stergiopoulos
+Keynote Speaker 	A Pinch of Salt: Making the Difference in Perovskite Optoelectronics
+09:40-09:55 	Pawel Gluchowski
+Selected Speaker 	Engineering Low-Dimensional Materials for Efficient Energy Conversion
+09:55-10:10 	Maria-Athina Apostolaki
+Selected Speaker
+	Oxygen-Deficient WO3-x Photonic Crystal Photoanodes for Enhanced Photoelectrocatalytic Activity
+10:10-10:25 	Anna Mangini
+Selected Speaker
+	Parameters affecting the ammonia production via the lithium-mediated electrochemical dinitrogen reduction
+10:25-10:40 	Lorenzo Sibella
+Selected Speaker
+	Green Ammonia Production through Nitrate Reduction on Defect-Rich NiO Nanoparticles
+10:40-10:55 	Agnieszka Przybek
+Selected Speaker
+	Geopolymer foams with the addition of paraffin phase change materials encapsulated in diatomite to improve thermal energy storage
+10:55-11:10 	Ilia Doroshenko
+Selected Speaker
+	A Lithium Extraction Technology Based on MOF-Modified Membrane
+11:10-11:25 	Awa Kalu
+Selected Speaker
+	Novel Strategies to mitigate chromium poisoning on the air electrodes of solid oxide cells
+11:25-11:40 	Ana Espinosa
+Selected Speaker
+	Clayey Soil Improvement: Sustainable Solutions with Ladle Furnace Slag and Recycled Fibers from Wind Turbine Blade Waste
+Session 2. Nanomaterials, Nanotechnology and Quantum Materials
+
+Date: 4 November 2025 (Tuesday)
+Time: 14:30 (CET, Basel) | 08:30 (EST, New York) | 21:30 (CST Asia, Beijing)
+Time (CET) 	Speaker 	Title
+14:30-14:40 	Prof. Dr. Xinyu Liu
+Dr. Pietro Mazzuca
+Session Chairs 	Welcome from the Session Chairs
+14:40-15:10 	Prof. Dr. Li Yang
+Keynote Speaker 	Understanding Irradiation Damage in High Temperature Superconductors for Fusion Reactors
+15:10-15:40 	Prof. Dr. Khachatur Manukyan
+Keynote Speaker 	Solution Combustion Synthesis of Nanostructured Materials and Thin Films
+15:40-15:55 	Christian Enyoh
+Selected Speaker 	Computational Biocompatibility and Safety Evaluation of Metal-Doped PET-Carbon Quantum Dots via Multi-Target Molecular Docking and ADMET Analysis on Human Proteins
+15:55-16:10 	Pietro Castronovo
+Selected Speaker
+	Pump-Probe Microscopy Unravels Distance-Dependent Collective Plasmonic Behaviour in Gold Nanoparticle Supercrystals
+16:10-16:25 	Emmanuela Di Giorgio
+Selected Speaker
+	Influence of Mn oxidation in persistent luminescence halide double perovskites
+16:25-16:40 	Semyon Baidak
+Selected Speaker
+	Electronic structure and Fermi surfaces of WTe2 Weyl semimetal with strong electron correlations
+16:40-16:55 	Mariana Fernandes
+Selected Speaker
+	Production of Lignin Nanoparticles from Eucalyptus Bark via Green Antisolvent Precipitation
+16:55-17:10 	Viacheslav Muratov
+Selected Speaker
+	Beyond Animal Studies: AI-Driven Toxicogenomics for Next-Generation Titanium Dioxide Nanoparticle Safety
+17:10-17:25 	Ivana Gabelica
+Selected Speaker
+	Synthesis of a Molecularly Imprinted Magnetic Core-Shell Photocatalyst for Efficient Micropollutant Removal
+17:25-17:40 	Cezar Comanescu
+Selected Speaker
+	New advances on functionalized magnetic nanoparticles for drug delivery
+IOCM 2025 Program - Day 3
+IOCM 2025 Day 3
+Session 4. Materials Theory, Simulations and AI
+
+Date: 5 November 2025 (Wednesday)
+Time: 9:00 (CET, Basel) | 03:00 (EST, New York) | 16:00 (CST Asia, Beijing)
+Time (CET) 	Speaker 	Title
+09:00-09:10 	Dr. Dimosthenis Stamopoulos
+Dr. Geo Paul
+Session Chairs 	
+
+Welcome from the Session Chairs
+09:10-09:40 	Prof. Dr. Maurizio Cossi
+Keynote Speaker 	PoLA (Porosity Local Analysis): An Accurate Descriptor of Microporous Volumes and Surfaces to Predict Gas Adsorption in Porous Carbons
+09:40-10:10 	Prof. Dr. Samo Kralj
+Keynote Speaker
+	Liquid Crystals as the Laboratory Playground of Physics
+10:10-10:25 	Nektarios Lathiotakis
+Selected Speaker
+	Theoretical design and study of Porous Carbon Nitride Fullerenes: Introducing a Novel Family of Cage Molecules
+10:25-10:40 	Evangelia Karali
+Selected Speaker
+	Dual energy CBCT detector configuration: High Z materials for improving microcalcifications&rsquo; detection and characterization in breast imaging
+10:40-10:55 	Héctor Penadés
+Selected Speaker
+	Key predictors of lightweight aggregate concrete compressive strength by machine learning from density parameters and ultrasonic pulse velocity testing
+10:55-11:10 	Jacob Abdelfatah Ndioubnane
+Selected Speaker
+	An Integrated Framework for studying changes in morphology and porosity under static and dynamic conditions for bioresorbable polymeric scaffolds
+11:10-11:25 	Mohsin Sattar
+Selected Speaker
+	Enhancing Predictive accuracy of a novel creep model for stainless steel-316 using AI-Driven Optimization and Machine Learning Methods
+11:25-11:40 	Dino Bogdanić
+Selected Speaker
+	Mathematical Modelling of the Influence of Powder Boriding Parameters on Surface Roughness and Electrochemical Behaviour of Austenitic Stainless Steel AISI 316
+11:40-11:55 	Oliwia Plewińska
+Selected Speaker
+	Modelling and simulation of thermal conditions in a hot microclimate using textile cooling clothing
+11:55-12:10 	Yiheng Guan
+Selected Speaker
+	AI-Driven Smart Material Design for Driver Stress Detection Based on Physiological Databases
+Session 6. Green Materials, Synthesis, Characterization and Recycling
+
+Date: 5 November 2025 (Wednesday)
+Time: 14:00 (CET, Basel) | 08:00 (EST, New York) | 21:00 (CST Asia, Beijing)
+Time (CET) 	Speaker 	Title
+14:00-14:10 	Prof. Dr. Konstantinos Salonitis
+Dr. Sara García-Ballesteros
+Session Chairs 	
+
+Welcome from the Session Chairs
+14:10-14:40 	Dr. Konstantinos Georgarakis
+Keynote Speaker 	On the Recycling of Aerospace Alloys
+14:40-15:10 	Dr. Mohamad Azuwa Bin Mohamed
+Keynote Speaker
+	Transforming Biomass and Industrial Waste into Functional Photocatalytic Materials for a Greener Future
+15:10-15:25 	Shuqin Geng
+Selected Speaker
+	Waste-to-hydrogen: carbon-based catalysts with oxygenated acid sites for lignin electrolysis
+15:25-15:40 	Paola Grobenski
+Selected Speaker
+	Effect of Precursor and Exfoliation on the Photocatalytic Performance of g-C₃N₄ Toward Pharmaceutical Contaminants
+15:40-15:55 	Tony Kllobocishta
+Selected Speaker
+	Use of Recycled Asphalt Shingles to Recycle Asphalt Pavement
+15:55-16:10 	Abdisa Mekonnin
+Selected Speaker
+	Mechanical Performance of AISI 304 Austenitic Stainless Steel for Cryo-Compressed Hydrogen Storage in Support of the 2050 Energy Transition
+16:10-16:25 	Adeel Iqbal
+Selected Speaker
+	From Waste to Roadway: Evaluating the Performance of Sustainable Asphalt with Waste Plastic Aggregates
+16:25-16:40 	Andrea Ravicini
+Selected Speaker
+	Flexible Thermoset Films from Zein: Transforming Agricultural Waste into Green Materials
+16:40-16:55 	Nihal Salian
+Selected Speaker
+	Computational Fluid Dynamic Simulation of Sedimentation Process; Optimisation of Inclusion Control in
+Recycled Aluminium Alloys
+IOCM 2025 Program - Day 4
+
+IOCM 2025 Day 4
+Session 7. Materials Manufacturing, Processing and Applications
+
+Date: 6 November 2025 (Thursday)
+Time: 9:00 (CET, Basel) | 03:00 (EST, New York) | 16:00 (CST Asia, Beijing)
+Time (CET) 	Speaker 	Title
+09:00-09:10 	Prof. Dr. Abdollah Saboori
+Prof. Dr. Mohammad Malekan
+Session Chairs 	
+
+Welcome from the Session Chairs
+09:10-09:40 	Prof. Eleonora Atzeni
+Keynote Speaker 	Pushing the boundaries of metal Additive Manufacturing with Directed Energy Deposition: from state of the art to next frontiers
+09:40-10:10 	Dr. Tianbo Yu
+Keynote Speaker
+	Microstructural Engineering of Metals in Laser Powder Bed Fusion
+10:10-10:25 	Geoffrey Mitchell
+Selected Speaker
+	Enabling the inclusion of materials in the optimisation of Direct Digital Manufacturing
+10:25-10:40 	Zaneta Swiatkowska-Warkocka
+Selected Speaker
+	Laser Synthesis of Cu\Cu-oxide composite particles: Formation, Properties, and Applications
+10:40-10:55 	Silvia Rizzato
+Selected Speaker
+	Colloidal Lithography for Tunable Plasmonic Nanostructures in Biosensing Platforms
+10:55-11:10 	Amir Shabani
+Selected Speaker
+	Electrochemical Performance of Ti&ndash;10Mo Alloy Produced by Laser Powder Bed Fusion for Biomedical Applications
+11:10-11:25 	Mahta Khorramian
+Selected Speaker
+	Impact of Surface Post-Treatments on the Properties of Additively Manufactured Ti-6242 Alloy
+11:25-11:40 	Pouya Azarandaz
+Selected Speaker
+	A comparative multi-method study of uniform and graded TPMS lattices fabricated via additive manufacturing
+11:40-11:55 	Ramin Moradi
+Selected Speaker
+	Vibration-based Intelligent Monitoring for L-PBF Additive Manufacturing
+11:55-12:10
+	Alireza Kavei
+Selected Speaker 	
+Additive Manufacturing of Graded TPMS and Voronoi Lattices in AlSi10Mg: From Design to Mechanical Characterization
+Flash Poster Session
+
+Date: 6 November 2025 (Thursday)
+Time: 14:00 (CET, Basel) | 08:00 (EST, New York) | 21:00 (CST Asia, Beijing)
+Time (CET) 	Speaker 	Title
+14:00-14:10 	Session Host 	Introduction
+14:10-14:15 	Umer Draz
+Poster Presenter 	Tailoring Structural and Optical Properties of Metal-Doped ZnO Nanoparticles for Next-Generation Optoelectronic and Consumer Applications
+14:15-14:20 	Derya Bal Altuntaş
+Poster Presenter
+	Biomedical Applications of Polymer-Based Nano/Micromotors Synthesized by Electropolymerization Method
+14:20-14:25 	Kalyani Pathak
+Poster Presenter
+	Biomedical Applications of Graphene Oxide Nanomaterials: Progress and Prospects
+14:25-14:30 	Swapnil Doke
+Poster Presenter
+	Shaping the Quantum Future with Core/Shell Quantum Dots
+14:30-14:35 	Kacper Odziomek
+Poster Presenter
+	Characterization of hydrogel biomaterial as a potential hydrocortisone delivery system for topical therapy of Psoriasis
+14:35-14:40 	Natalia Osiecka-Drewniak
+Poster Presenter
+	Machine Learning-Driven Insight into Crystallization Kinetics in Liquid Crystals
+14:40-14:45 	Carlos Oliveira
+Poster Presenter
+	Proxy of a Ti-Ni Shape memory alloy Actuators Based on Recurrent Neural Networks
+14:45-14:50 	Karen Simonyan
+Poster Presenter
+	Multilayer THz Metasurface Bandpass Filter with PTFE and HDPE Dielectric Spacers
+14:50-14:55 	Huma Amber
+Poster Presenter
+	Enhancing Hydrogen Generation via Overall Water Splitting Using Au-Modified CoP and CoFeP
+14:55-15:00 	Kaustav Bora
+Poster Presenter
+	Exploring the Ferroelectric Nematic Liquid Crystals for Electromechanical Performance Evaluation in PVDF-based Triboelectric Nanogenerators
+15:00-15:05 	Hussam Musleh
+Poster Presenter
+	Synthesis and Investigation of Structural, Mechanical and Optical Properties of Porous ZnO Nano Particles Prepared Via Eco-frindly Technique
+15:05-15:10 	D. Ben Ghida
+Poster Presenter
+	Decarbonization and Circular Economy Transition: The Transformative Potential of Eco-Friendly Polymers
+15:10-15:15 	Tiago Ferreira
+Poster Presenter
+	Direct ink writing of hydroxyapatite based paste scaffolds for absorption-release of drug solutions
+Live Session Recordings
+To view this content, you need to be logged in to Sciforum platform and registered to this specific event.
+Book of Abstracts
+To view this content, you need to be logged in to Sciforum platform and registered to this specific event.
+Poster Gallery
+Event Chair
+
+Dr. Ingo Dierking
+
+Department of Physics and Astronomy, The University of Manchester, Oxford Road, Manchester, UK
+Introduction
+Session Chairs
+
+Prof. Dr. Weili Zhang
+
+School of Electrical and Computer Engineering, Oklahoma State University, Stillwater, USA
+
+Prof. Dr. Xinyu Liu
+
+Department Physics and Astronomy, University of Notre Dame, Notre Dame, USA
+
+Dr. Pietro Mazzuca
+
+Department of Civil Engineering, University of Calabria, Cosenza, Italy
+
+Dr. Ingo Dierking
+
+Department of Physics and Astronomy, The University of Manchester, Manchester, UK
+
+Dr. Qingchun Yuan
+
+Aston Institute of Materials Research, Aston University, Birmingham, UK
+
+Dr. Dimosthenis Stamopoulos
+
+Department of Physics, School of Science, National and Kapodistrian University of Athens, Athens, Greece
+
+Dr. Geo Paul
+
+Dipartimento di Scienze e Innovazione Tecnologica, Università del Piemonte Orientale, Alessandria, Italy
+
+Prof. Dr. Federico Bella
+
+Department of Applied Science and Technology, Politecnico di Torino, Torino, Italy
+
+Prof. Dr. Vlassios Likodimos
+
+Department of Physics, National and Kapodistrian University of Athens, Athens, Greece
+
+Prof. Dr. Konstantinos Salonitis
+
+Sustainable Manufacturing Systems Centre, School of Aerospace Transport and Manufacturing, Cranfield University, Cranfield, UK
+
+Dr. Sara García-Ballesteros
+
+Department of Applied Science and Technology, Politecnico di Torino, Torino, Italy
+
+Prof. Dr. Abdollah Saboori
+
+Integrated Additive Manufacturing Center, Department of Management and Production engineering, Politecnico di Torino, Torino, Italy
+
+Prof. Dr. Mohammad Malekan
+
+Centre for Industrial Mechanics, Institute of Mechanical and Electrical Engineering, University of Southern Denmark, Denmark
+Event Committee
+
+Dr. Amrita Jain
+
+Institute of Fundamental Technological Research, Polish Academy of Sciences, Warsaw, Poland
+
+Prof. Dr. Robert N. Farrugia
+
+Institute for Sustainable Energy, University of Malta, Marsaxlokk, Malta
+
+Prof. Dr. Roser Sabater i Serra
+
+Centre for Biomaterials and Tissue Engineering, Universitat Politècnica de València, Valencia, Spain
+
+Dr. Galija Šuļga
+
+Department of Lignin Chemistry, Latvian State Institute of Wood Chemistry, Riga, Latvia
+
+Dr. Hongwei Wang
+
+School of Resources and Safety Engineering, Central South University, Changsha, China
+
+Dr. Salvatore Verre
+
+Department of Theoretical and Applied Sciences (DiSTA) eCampus University, Novedrate, Italy
+
+Assoc. Prof. Vinoy Thomas
+
+Department of Mechanical and Materials Engineering, University of Alabama at Birmingham (UAB), Birmingham, USA
+
+Prof. Dr. Ewa Skrzetuska
+
+Faculty of Material Technologies and Textile Design, Institute of Material Science of Textiles and Polymer Composites, Lodz University of Technology, Lodz, Poland
+
+Dr. Anna Grazia Monteduro
+
+Omnics Research Group, Department of Mathematics and Physics, University of Salento, CNR-Institute of Nanotechnology, INFN Sezione di Lecce, Lecce, Italy
+
+Dr. Victor Revilla-Cuesta
+
+Department of Civil Engineering, University of Burgos, Burgos, Spain
+
+Prof. Dr. Bożena Łosiewicz
+
+Institute of Material Engineering, University of Silesia in Katowice, Katowice, Poland
+
+Dr. Ganesh R. Chate
+
+Department of Mechanical Engineering, KLS Gogte Institute of Technology, Belagavi, India
+
+Prof. Dr. Se-Jin Choi
+
+Department of Architectural Engineering, Wonkwang University, Iksan, Republic of Korea
+
+Prof. Dr. Mostafa El Sayed
+
+Department of Mechanical and Aerospace Engineering, Carleton University, Ottawa, Canada
+Introduction
+
+Prof. Dr. Silvino Dias Capitão
+
+1. CERIS—Civil Engineering Research and Innovation for Sustainability, Instituto Superior Técnico, Universidade de Lisboa, Lisboa, Portugal 2. Instituto Superior de Engenharia de Coimbra, Instituto Politécnico de Coimbra, Coimbra, Portugal
+
+Dr. Geethapriyan Thangamani
+
+Dipartimento di Scienza Applicata e Tecnologia (DISAT), Politecnico di Torino, Torino, Italy
+
+Dr. Federico Locardi
+
+Department of Chemistry and Industrial Chemistry, University of Genova, Genova, Italy
+
+Dr. Łukasz Rakoczy
+
+Faculty of Metals Engineering and Industrial Computer Science, AGH University of Krakow, Krakow, Poland
+
+Prof. Dr. Gianrico Spagnuolo
+
+Department of Neurosciences, Reproductive and Odontostomatological Sciences, University of Naples “Federico II”, Naples, Italy
+
+Prof. Dr. Izabela Barszczewska-Rybarek
+
+Department of Physical Chemistry and Technology of Polymers, Silesian University of Technology, Gliwice, Poland
+
+Dr. Tomasz Majka
+
+Department of Chemistry and Technology of Polymers, Cracow University of Technology, Kraków, Poland,
+Interdisciplinary Center for Circular Economy, Cracow University of Technology, Kraków, Poland
+
+Prof. Dr. Yifeng Zhong
+
+School of Civil Engineering, Chongqing University, Chongqing, China
+
+Dr. Abderrachid Hamrani
+
+Department of Mechanical and Materials Engineering, Florida International University, Miami, USA
+
+Dr. Biao Hu
+
+Guangdong Provincial Key Laboratory of Durability for Marine Civil Engineering, Shenzhen University, Shenzhen, China
+
+Prof. Dr. Ruihua Cheng
+
+Department of Physics, Indiana University-Purdue University Indianapolis, Indianapolis, USA
+
+Dr. Alice Sciortino
+
+Department of Chimica e Fisica “E. Segrè”, Università Degli Studi di Palermo, Palermo, Italy
+
+Dr. Anna Jędrzejczak
+
+Institute of Materials Science and Engineering, Faculty of Mechanical Engineering, Lodz University of Technology, Lodz, Poland
+
+Prof. Dr. Paula Ossowicz-Rupniewska
+
+Department of Chemical Organic Technology and Polymeric Materials, Faculty of Chemical Technology and Engineering, West Pomeranian University of Technology, Szczecin, Poland
+
+Dr. Lin Dong
+
+New Jersey Institute of Technology, New Jersey, USA
+
+Dr. Diego Ramón Lobato-Peralta
+
+Instituto de Carboquímica, CSIC, Zaragoza, Spain
+
+Dr. Rui P. P. L. Ribeiro
+
+HyLab - Green Hydrogen Collaborative Laboratory, Sines, Portugal
+
+Dr. Oleksandr Pastukh
+
+Institute of Nuclear Physics Polish Academy of Sciences, Kraków, Poland
+
+Prof. Dr. Ioannis Lelidis
+
+Department of Physics, National and Kapodistrian University of Athens, Athens , Greece
+
+Dr. Klaudio Bari
+
+School of Engineering, Computer and Mathematical Sciences, Faculty of Science and Engineering, University of Wolverhampton, Telford, UK
+
+Prof. Dr. Kelin Chen
+
+School of Mechanical Engineering, Dalian University of Technology, Dalian, China
+
+Dr. Abderrahim Yassar
+
+LPICM, CNRS, Ecole Polytechnique, Institut Polytechnique de Paris, Palaiseau, France
+
+Prof. Dr. Chunxu Pan
+
+School of Physics and Technology, Wuhan University, Wuhan, China
+
+Prof. Dr. Davide Barreca
+
+ICMATE-CNR, Department of Chemical Sciences, Padova University, Padova, Italy
+
+Prof. Dr. Ke Yang
+
+Institute of Metal Research, Chinese Academy of Sciences, Shenyang, China
+
+Dr. Swee Leong Sing
+
+Department of Mechanical Engineering, National University of Singapore, Singapore, Singapore
+
+Prof. Dr. Lucian Baia
+
+Faculty of Physics, Institute of Interdisciplinary Research in Bio-Nano-Sciences, Babes-Bolyai University, Cluj-Napoca, Romania
+
+Assoc. Prof. Francesca Lionetto
+
+Department of Engineering for Innovation, University of Salento, Lecce, Italy
+
+Assoc. Prof. Paulo Santos
+
+Department of Civil Engineering, University of Coimbra, Coimbra, Portugal
+
+Dr. Marco Girolami
+
+Istituto di Struttura della Materia, Consiglio Nazionale delle Ricerche, ISM-CNR, Rome, Italy
+
+Prof. Dr. Dae-Cheol Ko
+
+Department of Nanomechatronics Engineering, Pusan National University, Pusan, Republic of Korea
+
+Prof. Dr. Raphaël Schneider
+
+LRGP, CNRS, Université de Lorraine, Nancy, France
+
+Dr. Bo Xiao
+
+School of Chemistry and Chemical Engineering, Queen's University Belfast, Belfast, UK
+
+Dr. Michele Penza
+
+ENEA, Italian National Agency for New Technologies, Energy and Sustainable Economic Development, Department for Sustainability, Division of Sustainable Materials, Laboratory Functional Materials and Technologies for Sustainable Applications, Brindisi Research Center, Brindisi, Italy
+
+Dr. Julfikar Haider
+
+Department of Engineering, Manchester Metropolitan University, Manchester, UK
+Keynote Speakers
+
+Prof. Dr. Li Yang
+
+UT-Oak Ridge Innovation Institute, University of Tennessee, Knoxville, USA,
+Department of Nuclear Engineering, University of Tennessee, Knoxville, USA
+Introduction
+
+Dr. Thomas Stergiopoulos
+
+Institute of Nanoscience and Nanotechnology, NCSR Demokritos, Athens, Greece
+Introduction
+
+Dr. Konstantinos Georgarakis
+
+Low Energy and Novel Casting Sustainable Manufacturing Systems Centre, The School of Aerospace, Transport and Manufacturing, Cranfield University, Bedford, UK
+Introduction
+
+Dr. Mohamad Azuwa Mohamed
+
+Department of Chemical Science, Faculty of Science and Technology, Universiti Kebangsaan, Malaysia
+Introduction
+
+Prof. Dr. Maurizio Cossi
+
+Department of Science and Technological Innovation, Università del Piemonte Orientale, Alessandria, Italy
+Introduction
+
+Prof. Dr. Eleonora Atzeni
+
+Department of Management and Production Engineering, Politecnico di Torino, Torino, Italy
+Introduction
+
+Prof. Dr. Khachatur Manukyan
+
+Department of Physics, University of Notre Dame, Notre Dame, Indiana, USA
+Introduction
+
+Prof. Dr. Samo Kralj
+
+1. Faculty of Natural Sciences and Mathematics, University of Maribor, Maribor, Slovenia,
+2. Jožef Stefan Institute, Ljubljana, Slovenia
+Introduction
+
+Dr. Chun-Chieh Chang
+
+Center for Integrated Nanotechnologies (CINT), Los Alamos National Laboratories, USA
+Introduction
+
+Prof. Dr. Ivan Smalyukh
+
+University of Colorado Boulder, USA
+Introduction
+
+Dr. Tianbo Yu
+
+Department of Civil and Mechanical Engineering, Technical University of Denmark, Kongens Lyngby, Denmark
+Introduction
+
+Prof. Dr. Danqing Liu
+
+Eindhoven University of Technology, Eindhoven, Netherlands
+Sessions
+S1. Optical, Electric and Magnetic Materials and Their Characterization
+S2. Nanomaterials, Nanotechnology and Quantum Materials
+S3. Soft Matter, Biomaterials, Composites and Interfaces
+S4. Materials Theory, Simulations and AI
+S5. Materials for Energy Harvesting, Conversion and Storage
+S6. Green Materials, Synthesis, Characterization and Recycling
+S7. Materials Manufacturing, Processing and Applications
+Registration
+
+The registration for IOCM 2025 will be free of charge! The registration includes attendance to all conference sessions.
+
+If you are registering several people under the same registration, please do not use the same email address for each person, but their individual university email addresses. Thank you for your understanding.
+
+Please note that the submission and registration are two separate parts. Only scholars who registered can receive a link to access the conference live streaming. The deadline for registration is 31 October 2025.
+Instructions for Authors
+Procedure for Submission
+IOCM 2025 will accept abstracts only. The accepted abstracts will be available online on Sciforum.net during and after the conference.
+
+Important Deadline
+1. Deadline for abstract submission: 1̶5̶t̶h̶ ̶A̶u̶g̶u̶s̶t̶ ̶2̶0̶2̶5̶ 10 September 2025
+2. Announcement of oral and poster abstract results: 1̶5̶ ̶S̶e̶p̶t̶e̶m̶b̶e̶r̶ ̶2̶0̶2̶5̶ 10 October 2025. You will be notified of the acceptance of an oral/poster presentation in a separate email.
+
+Certificates of Participation are available in your logged-in area of Sciforum.net, under “My Certificates” after the conference.
+Abstract Submission
+Abstract submissions should be completed online by registering with www.sciforum.net and using the "Submit Abstract" function once logged into the system. No physical template is necessary.
+
+1. The abstract structure should include the introduction, methods, results, and conclusions sections of about 200–300 words in length.
+2. All abstracts should be submitted and presented in clear, publication-ready English with accurate grammar and spelling.
+3. You may submit multiple abstracts. However, only one abstract will be selected for oral presentation.
+4. The abstracts submitted to this conference must be original and novel, without prior publication in any journals or it will not be accepted to this conference.
+
+Detailed Requirements:
+1. The submitting author must ensure that all co-authors are aware of the contents of the abstract.
+2. Please select only one presenter for each submission. If you would like to change the presenter after submission, please email us accordingly.
+
+Note: We only accept live presentations.
+
+Oral Presentation and Slides Submission
+
+The slot for the oral presentation is 15 mins. We advise that your presentation lasts for a maximum of 12 mins, leaving at least 3 mins for the Q&A session.
+
+Authors are encouraged to prepare a presentation in PowerPoint or similar software, to be displayed online along with the abstract. Slides, if available, will be displayed directly on the website using the proprietary slide viewer at Sciforum.net. Slides can be prepared in exactly the same way as for any traditional conference where research results are presented. Slides should be converted to PDF format prior to submission so that they can be converted for online display.
+Poster Gallery
+
+- Should include the title, authors, contact details and main research findings, as well as tables, figures and graphs where necessary.
+- Size in pixel: 1080 width x 1536 height–portrait orientation.
+- Size in cm: 38,1 width x 54,2 height–portrait orientation.
+- Font size: ≥16.
+- Examples of successful submissions can be viewed here at the following links: (1), (2), (3)
+- You can use our free template to create your poster. The poster template can be downloaded HERE.
+
+Authors who wish to present a poster are invited to send it to the conference email at iocm2025@mdpi.com. All posters will be permanently exhibited online in the Poster Gallery.
+Potential Conflicts of Interest
+
+It is the author's responsibility to identify and declare any personal circumstances or interests that may be perceived as inappropriately influencing the representation or interpretation of clinical research. If there is no conflict, please state "The authors declare no conflicts of interest." This should be conveyed in a separate "Conflict of Interest" statement preceding the "Acknowledgments" and "References" sections at the end of the manuscript. Any financial support for the study must be fully disclosed in the "Acknowledgments" section.
+Copyright
+
+MDPI, the publisher of the Sciforum.net platform, is an open access publisher. We believe authors should retain the copyright to their scholarly works. Hence, by submitting an abstract to this conference, you retain the copyright to the work, but you grant MDPI the non-exclusive right to publish this abstract online on the Sciforum.net platform. This means you can easily submit your full paper (with the abstract) to any scientific journal at a later stage and transfer the copyright to its publisher if required.
+Publication Opportunities
+
+1. Materials Journal Publication
+Participants in this conference are cordially invited to contribute a full manuscript to the conference's Special Issue, published in Materials (ISSN 1996-1944, Impact Factor 3.2), with a 20% discount on the publication fee. All submitted papers will undergo MDPI’s standard peer-review procedure. The abstracts should be cited and noted on the first page of the paper.
+
+Please note if you have IOAP/association discounts, conference discounts will be combined with IOAP/association discounts. Conference discounts cannot be combined with reviewer vouchers.
+
+2. Proceeding Paper Publication
+All accepted abstracts will be published in the conference report of The 4th International Online Conference on Materials in Materials Proceedings (ISSN: 2673-4605); if you wish to publish an extended proceeding paper (4–8 pages), please submit it to the same journal after the conference. There will be no additional fees.
+
+Authors are asked to disclose that it is a proceeding paper of the IOCM 2025 conference paper in their cover letter. Carefully read the rules outlined in the 'Instructions for Authors' on the journal’s website and ensure that your submission adheres to these guidelines.
+
+Proceedings submission deadline: 31 December 2025.
+
+Manuscripts for the proceedings issue must be formatted as follows:
+Title
+Full author names
+Affiliations (including full postal address) and authors' e-mail addresses
+Abstract
+Keywords
+Introduction
+Methods
+Results and Discussion
+Conclusions
+Acknowledgements
+References.
+
+Please click HERE to submit your proceeding paper to Materials Proceedings.
+Materials Proceedings Microsoft Word template.dot
+List of accepted submissions (339)
+Id 	Title 	Authors 	
+sciforum-119352 	Characterization of hydrogel biomaterial as a potential hydrocortisone delivery system for topical therapy of Psoriasis 	Kacper Odziomek
+	Show Abstract
+sciforum-119610 	EVALUATION AND STATISTICAL OPTIMIZATION OF OPHTHALMIC NANO-GEL LOADED WITH GANCICLOVIR FOR BETTER RESIDENCE TIME 	Susanta Paul
+, Subhabrota Majumdar
+, Mainak Chakraborty
+	Show Abstract
+sciforum-123930 	Multi-Criteria Optimization of Mechanical Behavior in Jute, Glass, and Carbon Fiber-Reinforced Hybrid Polymer Composites Using ANOVA and AHP-TOPSIS Framework 	Rajesh Dewangan
+	Show Abstract
+sciforum-130874 	Machine Learning-Driven Insight into Crystallization Kinetics in Liquid Crystals 	Natalia Osiecka-Drewniak
+, Ewa Juszyńska-Gałązka
+, Marcin Piwowarczyk
+	Show Abstract
+sciforum-131939 	Control of ions in molecular liquid crystals using multiple nanoparticles 	Yuriy Garbovskiy
+	Show Abstract
+Full List
+Event Awards
+
+To acknowledge the support of the conference's esteemed authors and recognize their outstanding scientific accomplishments, we are pleased to announce that the conference will provide 4 awards including Best Oral Presentation Awards and Best Poster Awards.
+The Awards
+Best Oral Presentation Awards and Best Poster Awards
+
+Number of Awards Available: 4
+
+The Best Oral Presentation Awards are given to the paper judged to make the most significant oral contribution to the conference.
+The Best Poster Awards are given to the submission judged to make the most significant and interesting poster for the conference.
+
+There will be 4 winners selected for these awards. The winner will receive a certificate and 200 CHF each, along with an offer to publish an extended paper, free of charge, in Materials.
+Sponsors and Partners
+
+For information regarding sponsorship and exhibition opportunities, please click here.
+Organizers
+
+Media Partners
+Conference Secretariat
+
+Ms. Adelina Platon
+Mr. Ionut Spatar
+Mr. Russell Wang
+Email: iocm2025@mdpi.com
+
+For inquiries regarding submissions and sponsorship opportunities, please feel free to contact us.
+Join 70,000 academics already using Sciforum!
+Follow Sciforum
+LinkedIn
+Twitter
+Facebook
+Further Information
+About Sciforum
+Services
+Sciforum Team
+Contact us
+MDPI Initiatives
+MDPI Books
+Preprints.org
+Scilit
+SciProfiles
+MDPI
+Encyclopedia
+JAMS
+Proceedings Series
+© 1996-2026 MDPI (Basel, Switzerland) unless otherwise stated
+Disclaimer Terms and Conditions Privacy Policy
