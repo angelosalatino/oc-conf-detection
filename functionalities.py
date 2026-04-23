@@ -5,6 +5,8 @@ Created on Mon Aug 18 09:05:26 2025
 
 @author: aas358
 """
+import os
+os.environ['FAISS_OPT_LEVEL'] = ''  # do this BEFORE importing any faiss library
 import streamlit as st
 import configparser
 from openai import OpenAI
