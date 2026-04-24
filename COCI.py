@@ -156,7 +156,7 @@ def main():
                     conf_data = refine_process(conf_data)
             
             # Display results in tabs
-            tab1, tab2 = st.tabs(["Results", "Read Call for Papers"])
+            tab1, tab2 = st.tabs(["**Results**", "**Read Call for Papers**"])
             
             with tab1:
                 display_main(conf_data)
