@@ -19,15 +19,7 @@ from io import StringIO
 import base64
 import os
 
-def get_image_as_base64(path):
-    try:
-        with open(path, "rb") as image_file:
-            encoded = base64.b64encode(image_file.read()).decode()
-            ext = os.path.splitext(path)[1].lower()
-            mime = "image/jpeg" if ext in [".jpg", ".jpeg"] else "image/png"
-            return f"data:{mime};base64,{encoded}"
-    except Exception:
-        return "https://via.placeholder.com/120x40?text=Image+Not+Found"
+
 
 
 
@@ -129,41 +121,7 @@ def main():
         st.rerun()
         
         
-    footer = f"""
-<style>
-.custom-footer {{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #183642;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 150px;
-    border-top: 1px solid #eaeaea;
-    z-index: 999999;
-}}
-.custom-footer img {{
-    height: 100px;       
-    object-fit: contain;
-}}
-/* Hide Streamlit default footer so it doesn't overlap */
-footer {{visibility: hidden;}}
-</style>
-<div class="custom-footer">
-    <div>
-        <img src="{get_image_as_base64('assets/logos/KMi-logo-white.png')}" alt="KMi Logo">
-    </div>
-    <div>
-        <img src="{get_image_as_base64('assets/logos/ou-logo-white.png')}" alt="Open University Logo">
-    </div>
-    <div>
-        <img src="{get_image_as_base64('assets/logos/sn-logo-white.png')}" alt="Springer Nature Logo">
-    </div>
-</div>
-"""
-    st.markdown(footer, unsafe_allow_html=True)
+    render_footer()
               
         
     if submitted:

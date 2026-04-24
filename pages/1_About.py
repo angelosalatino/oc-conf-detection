@@ -111,3 +111,5 @@ st.markdown(
     By simply changing "Organising Committee" to "Organisers and Content", we have shifted the focus from a narrow group of people to a broader spectrum of information without losing the brand equity of COCI.
     """
     )
+
+render_footer()
