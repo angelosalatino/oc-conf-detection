@@ -302,16 +302,19 @@ def display_main(conf_data:dict)->None:
     
     
     add_header("Organisers")
-    # Display the dataframe with configured link columns
-    st.dataframe(organisers_mod,
-        column_config={
-            "ROR": st.column_config.LinkColumn("ROR",display_text=r"https://ror\.org/(.*)"),
-            "OpenAlex Profile": st.column_config.LinkColumn("OpenAlex Profile",display_text=r"https://openalex\.org/(.*)"),
-            "ORCID": st.column_config.LinkColumn("ORCID",display_text=r"https://orcid\.org/(.*)"),
-        },
-        # hide_index=True,
-        width=1920
-    )
+    if organisers_mod.empty:
+        st.write("No organisers found.")
+    else:
+        # Display the dataframe with configured link columns
+        st.dataframe(organisers_mod,
+            column_config={
+                "ROR": st.column_config.LinkColumn("ROR",display_text=r"https://ror\.org/(.*)"),
+                "OpenAlex Profile": st.column_config.LinkColumn("OpenAlex Profile",display_text=r"https://openalex\.org/(.*)"),
+                "ORCID": st.column_config.LinkColumn("ORCID",display_text=r"https://orcid\.org/(.*)"),
+            },
+            # hide_index=True,
+            width=1920
+        )
     
     
 
