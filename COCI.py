@@ -81,8 +81,9 @@ def main():
             # To read file as bytes:
             bytes_data = uploaded_file.getvalue()
         
-            # To convert to a string based IO:
-            stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
+            # To convert to a string based IO, replacing invalid utf-8 characters with space:
+            decoded_string = uploaded_file.getvalue().decode("utf-8", errors="replace").replace('\ufffd', ' ')
+            stringio = StringIO(decoded_string)
         
             # To read file as string:
             call_for_papers = stringio.read()
