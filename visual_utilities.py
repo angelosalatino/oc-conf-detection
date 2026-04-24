@@ -220,17 +220,16 @@ def display_main(conf_data:dict)->None:
     
     ## Preparing the table for the organisers
     
-    # Create a DataFrame from the organisers list
-    organisers = pd.DataFrame.from_dict(conf_data["organisers"])
-    organisers = organisers[["organiser_name",
-                             "openalex_name",
-                             "openalex_page",
-                             "orcid",
-                             "organiser_affiliation",
-                             "affiliation_ror",
-                             "organiser_country",
-                             "track_name",
-                             "verified"]]
+    # Create a DataFrame from the organisers list and ensure required columns exist
+    organisers_data = conf_data.get("organisers", [])
+    organisers = pd.DataFrame.from_dict(organisers_data)
+    
+    expected_columns = [
+        "organiser_name", "openalex_name", "openalex_page", "orcid",
+        "organiser_affiliation", "affiliation_ror", "organiser_country",
+        "track_name", "verified"
+    ]
+    organisers = organisers.reindex(columns=expected_columns)
     
     # Rename columns for better display in the UI
     organisers = organisers.rename(columns={"organiser_name": "Name",
