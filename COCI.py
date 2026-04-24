@@ -16,6 +16,7 @@ import streamlit as st
 import pandas as pd
 from tkinter import filedialog as fd
 from io import StringIO
+import html
 import base64
 import os
 
@@ -145,8 +146,6 @@ def main():
                 with open(file_path,'w') as fw:
                     json.dump(conf_data, fw, indent=4)
                     
-                display_main(conf_data)
-                
             else:
                 # Load from cache
                 file_path = create_destination_path(filename)
@@ -155,8 +154,16 @@ def main():
                     
                     # Refine process (e.g. topic matching) on loaded data
                     conf_data = refine_process(conf_data)
-                    
-                    display_main(conf_data)
+            
+            # Display results in tabs
+            tab1, tab2 = st.tabs(["Results", "Read Call for Papers"])
+            
+            with tab1:
+                display_main(conf_data)
+                
+            with tab2:
+                safe_text = html.escape(call_for_papers)
+                st.markdown(f"<div style='white-space: pre-wrap; font-family: monospace; background-color: #f4f6f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd;'>{safe_text}</div>", unsafe_allow_html=True)
                 
                                                 
         
