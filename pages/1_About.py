@@ -70,6 +70,17 @@ st.markdown(
     
     ---
     
+    ### Topic Extraction and OpenAlex Matching
+    
+    In addition to capturing event metadata and organisers, COCI identifies the core research themes of the conference.
+    
+    1. **Raw Extraction**: The tool first extracts a list of topics of interest, research areas, or submission categories explicitly mentioned in the Call for Papers.
+    2. **Semantic Encoding**: Each raw topic is encoded into a high-dimensional semantic vector using a pre-trained SentenceTransformer model.
+    3. **Vector Search**: The system queries a FAISS vector index containing all standardized OpenAlex topics to find the closest semantic matches for each raw topic.
+    4. **Enrichment**: The original extracted topics are then mapped to these standardized OpenAlex concepts, enabling better categorization, interoperability, and trend analysis.
+
+    ---
+    
     ### Organiser Matching Process
     
     The tool employs a sophisticated multi-stage process to match extracted organisers with their OpenAlex profiles:
