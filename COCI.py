@@ -16,6 +16,18 @@ import streamlit as st
 import pandas as pd
 from tkinter import filedialog as fd
 from io import StringIO
+import base64
+import os
+
+def get_image_as_base64(path):
+    try:
+        with open(path, "rb") as image_file:
+            encoded = base64.b64encode(image_file.read()).decode()
+            ext = os.path.splitext(path)[1].lower()
+            mime = "image/jpeg" if ext in [".jpg", ".jpeg"] else "image/png"
+            return f"data:{mime};base64,{encoded}"
+    except Exception:
+        return "https://via.placeholder.com/120x40?text=Image+Not+Found"
 
 
 
@@ -60,7 +72,9 @@ def main():
     
     
     # Main Title
-    st.title(st.session_state['config']['APP']['app_name'])  
+    st.title(st.session_state['config']['APP']['app_name'])
+    welcome_placeholder = st.empty()
+    welcome_placeholder.markdown(f"<h4 style='text-align: left; color: gray;'>Welcome to the Conference Organisers and Content Identifier (COCI), an AI-powered tool for extracting and structuring metadata from calls for papers. To begin, please upload your CfP as a .txt file using the sidebar on the left to automatically identify conference details, organizers, and research topics.</h4>", unsafe_allow_html=True)
     
     
     # 3. Sidebar: Input and Controls
@@ -115,9 +129,45 @@ def main():
         st.rerun()
         
         
-        
+    footer = f"""
+<style>
+.custom-footer {{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #183642;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    border-top: 1px solid #eaeaea;
+    z-index: 999999;
+}}
+.custom-footer img {{
+    height: 100px;       
+    object-fit: contain;
+}}
+/* Hide Streamlit default footer so it doesn't overlap */
+footer {{visibility: hidden;}}
+</style>
+<div class="custom-footer">
+    <div>
+        <img src="{get_image_as_base64('assets/logos/KMi-logo-white.png')}" alt="KMi Logo">
+    </div>
+    <div>
+        <img src="{get_image_as_base64('assets/logos/ou-logo-white.png')}" alt="Open University Logo">
+    </div>
+    <div>
+        <img src="{get_image_as_base64('assets/logos/sn-logo-white.png')}" alt="Springer Nature Logo">
+    </div>
+</div>
+"""
+    st.markdown(footer, unsafe_allow_html=True)
+              
         
     if submitted:
+        welcome_placeholder.empty()
         # Validation
         if call_for_papers is None:
             st.write("Cannot process as no **call for papers** has been provided.")
