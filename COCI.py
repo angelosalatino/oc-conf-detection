@@ -10,22 +10,18 @@ from classes.orchestrator import Orchestrator
 from classes.visualiser import ConferenceVisualiser
 from classes.conference import Conference
 from classes.call_for_paper import CallForPaper
+from classes.storage import ConferenceStorage
 
 def read_config_file():
     if 'config' not in st.session_state:
         st.session_state['config'] = configparser.ConfigParser()
         st.session_state['config'].read('config.ini')
 
-def create_destination_path(filename: str) -> str:
-    cut_filename = Path(filename).stem
-    return f"{st.session_state['config']['FOLDERS']['destination_folder']}/{cut_filename}.json"
-
-def check_if_file_was_previously_processed(filename: str) -> bool:
-    my_file = Path(create_destination_path(filename))
-    return my_file.is_file()
-
 def main():
     read_config_file()
+    
+    dest_folder = st.session_state['config']['FOLDERS']['destination_folder']
+    storage = ConferenceStorage(dest_folder)
     
     st.set_page_config(
         layout="wide",
@@ -89,12 +85,11 @@ def main():
             st.write("The **call for papers** file is empty.")
         else:
             cached_llm_result = None
-            if mild_force and not to_recompute and check_if_file_was_previously_processed(filename):
-                file_path = create_destination_path(filename)
-                with open(file_path, 'r') as fr:
-                    cached_llm_result = json.load(fr)
+            if mild_force and not to_recompute and storage.is_processed(filename):
+                loaded_data = storage.load(filename)
+                cached_llm_result = loaded_data.get("llm-output")
 
-            if not check_if_file_was_previously_processed(filename) or to_recompute or mild_force:
+            if not storage.is_processed(filename) or to_recompute or mild_force:
                 api_url = st.session_state['config']['DEFAULT']['api_url']
                 api_key = st.session_state['config']['DEFAULT']['api_key']
                 referer = st.session_state['config']['TEAM']['website']
@@ -108,7 +103,7 @@ def main():
                     logs_html = "<br>".join([f"&gt; {msg}" for msg in logs])
                     spinner_html = f'''
                     <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background-color: #f4f6f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd;">
-                        <img src="https://i.gifer.com/ZKZg.gif" width="40" height="40" style="margin-right: 15px; margin-top: 5px;" />
+                        <img src="{vis.render_image('assets/gifs/cooking.gif')}" width="60" height="60" style="margin-right: 15px; margin-top: 5px;" />
                         <div style="font-size: 14px; font-family: monospace; color: #333;">
                             {logs_html}
                         </div>
@@ -117,19 +112,14 @@ def main():
                     progress_placeholder.markdown(spinner_html, unsafe_allow_html=True)
                 
                 orchestrator = Orchestrator(api_url, api_key, referer, title)
-                conf = orchestrator.process(call_for_papers, progress_callback=update_progress, cached_llm_result=cached_llm_result)
+                conf, llm_result = orchestrator.process(call_for_papers, progress_callback=update_progress, cached_llm_result=cached_llm_result)
                 
                 progress_placeholder.empty()
                 
-                file_path = create_destination_path(filename)
-                with open(file_path, 'w') as fw:
-                    json.dump(conf.to_dict(), fw, indent=4)
+                storage.save(filename, conf.to_dict(), llm_result)
             else:
-                file_path = create_destination_path(filename)
-                with open(file_path, 'r') as fr:
-                    conf_data = json.load(fr)
-                
-                conf = Conference.from_dict(conf_data)
+                loaded_data = storage.load(filename)
+                conf = Conference.from_dict(loaded_data.get("processed"))
             
             tab1, tab2 = st.tabs(["**Results**", "**Read Call for Papers**"])
             

@@ -52,4 +52,4 @@ class Orchestrator:
         conf.match_conference_with_other_datasets()
         log("Mapped the conference to other datasets.")
 
-        return conf
+        return conf, llm_result
