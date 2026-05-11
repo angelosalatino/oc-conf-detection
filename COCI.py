@@ -56,8 +56,14 @@ def main():
             cfp = CallForPaper(uploaded_file)
             call_for_papers = cfp.text
         
-        to_recompute = st.checkbox("Force", value=False)
-        st.write("Selecting **Force** will reprocess the call for papers regardless of whether a cached result exists.")
+        processing_mode = st.radio(
+            "Processing Mode",
+            options=["Cached", "Mild Force", "Force"],
+            index=0
+        )
+        st.caption("**Cached**: Uses cache if available.  \n**Mild Force**: Reuses LLM extractions but reruns matching.  \n**Force**: Reprocesses everything from scratch.")
+        to_recompute = (processing_mode == "Force")
+        mild_force = (processing_mode == "Mild Force")
         
         st.divider()
         with st.container(horizontal=True):
@@ -82,14 +88,38 @@ def main():
         elif len(call_for_papers) == 0:
             st.write("The **call for papers** file is empty.")
         else:
-            if not check_if_file_was_previously_processed(filename) or to_recompute:
+            cached_llm_result = None
+            if mild_force and not to_recompute and check_if_file_was_previously_processed(filename):
+                file_path = create_destination_path(filename)
+                with open(file_path, 'r') as fr:
+                    cached_llm_result = json.load(fr)
+
+            if not check_if_file_was_previously_processed(filename) or to_recompute or mild_force:
                 api_url = st.session_state['config']['DEFAULT']['api_url']
                 api_key = st.session_state['config']['DEFAULT']['api_key']
                 referer = st.session_state['config']['TEAM']['website']
                 title = st.session_state['config']['TEAM']['description']
                 
+                progress_placeholder = st.empty()
+                logs = []
+                
+                def update_progress(message: str):
+                    logs.append(message)
+                    logs_html = "<br>".join([f"&gt; {msg}" for msg in logs])
+                    spinner_html = f'''
+                    <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background-color: #f4f6f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd;">
+                        <img src="https://i.gifer.com/ZKZg.gif" width="40" height="40" style="margin-right: 15px; margin-top: 5px;" />
+                        <div style="font-size: 14px; font-family: monospace; color: #333;">
+                            {logs_html}
+                        </div>
+                    </div>
+                    '''
+                    progress_placeholder.markdown(spinner_html, unsafe_allow_html=True)
+                
                 orchestrator = Orchestrator(api_url, api_key, referer, title)
-                conf = orchestrator.process(call_for_papers)
+                conf = orchestrator.process(call_for_papers, progress_callback=update_progress, cached_llm_result=cached_llm_result)
+                
+                progress_placeholder.empty()
                 
                 file_path = create_destination_path(filename)
                 with open(file_path, 'w') as fw:
@@ -108,6 +138,7 @@ def main():
                 
             with tab2:
                 safe_text = html.escape(call_for_papers)
+                print(call_for_papers)
                 st.markdown(f"<div style='white-space: pre-wrap; font-family: monospace; background-color: #f4f6f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd;'>{safe_text}</div>", unsafe_allow_html=True)
 
 if __name__ == '__main__':

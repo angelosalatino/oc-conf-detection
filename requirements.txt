@@ -8,3 +8,4 @@ country_converter
 sentence_transformers
 rapidfuzz
 xlsxwriter
+spacy

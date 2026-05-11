@@ -34,11 +34,15 @@ class OpenAlexWrapper:
                 organiser["affiliation_provenance"] = ""
                 
         for organiser in organisers:
+            if organiser.get("affiliation_provenance") == "OA":
+                organiser["organiser_affiliation"] = ""
+                organiser["organiser_country"] = ""
+                
             organiser["openalex_name"] = ""
             organiser["openalex_page"] = ""
             organiser["orcid"] = ""
-            if "affiliation_ror" not in organiser:
-                organiser["affiliation_ror"] = ""
+            organiser["affiliation_ror"] = ""
+            organiser["affiliation_provenance"] = ""
             organiser["verified"] = False
 
             if self.debug:

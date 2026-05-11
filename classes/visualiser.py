@@ -218,16 +218,7 @@ class ConferenceVisualiser(CoreVisualiser):
             else:
                 self.card_w_l("ConfIDent", "No information found on ConfIDent database about this conference.")
 
-        if conf.topics and conf.topics.enhanced_topics:
-            st.divider()      
-            self.add_header("Topics of Interest")
-            
-            for topic, openalex_topics in conf.topics.enhanced_topics.items():
-                line = f"* {topic}"
-                if len(openalex_topics) > 0:
-                    for oatopic in openalex_topics:
-                        line += f" :blue-badge[📎 {oatopic}]"
-                st.markdown(line)
+        self.display_topics(conf)
         
         st.divider()
         buffer = BytesIO()
@@ -243,3 +234,22 @@ class ConferenceVisualiser(CoreVisualiser):
             file_name=f"{export_file}.xlsx",
             mime='application/vnd.ms-excel',
         )
+
+    @st.fragment
+    def display_topics(self, conf: Conference) -> None:
+        if conf.topics and conf.topics.enhanced_topics:
+            st.divider()      
+            self.add_header("Topics of Interest")
+            
+            new_threshold = st.slider("Similarity Distance Threshold (lower is stricter)", min_value=0.0, max_value=1.0, value=0.8, step=0.05)
+            
+            if new_threshold != 0.4:
+                with st.spinner("Recomputing topic matches..."):
+                    conf.topics.match_openalex_topics(dist_threshold=new_threshold)
+            
+            for topic, openalex_topics in conf.topics.enhanced_topics.items():
+                line = f"* {topic}"
+                if len(openalex_topics) > 0:
+                    for oatopic in openalex_topics:
+                        line += f" :blue-badge[📎 {oatopic}]"
+                st.markdown(line)
