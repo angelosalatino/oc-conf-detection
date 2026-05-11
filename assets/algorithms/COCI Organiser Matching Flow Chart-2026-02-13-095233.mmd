@@ -1,0 +1,41 @@
+graph TD
+    A[Start: Receive Organiser List from LLM] --> B{1. Affiliation Quality Check};
+    B -->|Data looks homogeneous| C[Clear all affiliations to force lookup];
+    B -->|Data looks good| D[Loop through each organiser];
+    C --> D;
+
+    D --> E{2. Has Affiliation Info?};
+    E -->|Yes| F[Attempt 1: Search OpenAlex for Author by Name + Affiliation];
+    E -->|No| G[Attempt 2: Search OpenAlex by Name Only];
+
+    F --> H{Match Found?};
+    H -->|Yes| I[Process Matched Author];
+    H -->|No, fallback| G;
+
+    G --> J{Match Found?};
+    J -->|No| K[End loop for this organiser];
+    J -->|Yes| L{Multiple Matches?};
+    L -->|No, single match| I;
+    L -->|Yes, ambiguous| M[Disambiguate using works count & name similarity];
+    M --> I;
+
+    I --> N{3. Was original affiliation empty?};
+    N -->|Yes, infer affiliation| O[Find best affiliation from author's OpenAlex history based on year and institution type];
+    N -->|No, verify affiliation| P[Fuzzy match LLM affiliation against author's OpenAlex history];
+
+    O --> Q[Update organiser with inferred affiliation & ROR from OpenAlex];
+    P --> R{Good Match Found?};
+    R -->|Yes| S[Update with ROR and mark as Verified ✪];
+    R -->|No| K;
+
+    S --> K;
+    Q --> K;
+
+    K --> T{More organisers to process?};
+    T -->|Yes| D;
+    T -->|No| U[End: Return Enriched Organiser List];
+
+    style C fill:#f9f,stroke:#333,stroke-width:2px
+    style O fill:#bbf,stroke:#333,stroke-width:2px
+    style P fill:#bbf,stroke:#333,stroke-width:2px
+    style S fill:#cfc,stroke:#333,stroke-width:2px

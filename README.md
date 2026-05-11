@@ -91,3 +91,7 @@ Install requirement (from the repository):
 And finally, within a python shell, run the code via Streamlit:
 
 ```streamlit run COCI.py```
+
+or
+
+```python test_script.py cfps/iswc2025.txt```
