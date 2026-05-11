@@ -39,7 +39,7 @@ def main():
     
     st.title(st.session_state['config']['APP']['app_name'])
     welcome_placeholder = st.empty()
-    welcome_placeholder.markdown(f"<h4 style='text-align: left; color: gray;'>Welcome to the Conference Organisers and Content Identifier (COCI), an AI-powered tool for extracting and structuring metadata from calls for papers. To begin, please upload your CfP as a .txt file using the sidebar on the left to automatically identify conference details, organizers, and research topics.</h4>", unsafe_allow_html=True)
+    welcome_placeholder.markdown(f"<h4 style='text-align: left; color: gray;'>Welcome to the Conference Organisers and Content Identifier (COCI), an AI-powered tool for extracting and structuring metadata from <i><u>calls for papers</u></i>. To begin, please upload your CfP as a .txt file using the sidebar on the left to automatically identify conference details, organizers, and research topics.</h4>", unsafe_allow_html=True)
     
     with st.sidebar:
         vis.add_logo()
@@ -71,6 +71,8 @@ def main():
             st.write("") 
             st.write("") 
             clear = st.button("Clear", type="secondary")
+            
+        st.html("<div style='height: 120px;'></div>")
 
     if clear:
         st.rerun()
@@ -127,9 +129,8 @@ def main():
                 vis.display_main(conf)
                 
             with tab2:
-                safe_text = html.escape(call_for_papers)
-                print(call_for_papers)
-                st.markdown(f"<div style='white-space: pre-wrap; font-family: monospace; background-color: #f4f6f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd;'>{safe_text}</div>", unsafe_allow_html=True)
+                cfp_obj = CallForPaper(call_for_papers)
+                st.html(cfp_obj.get_rendered_html())
 
 if __name__ == '__main__':
     main()
