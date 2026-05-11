@@ -426,7 +426,7 @@ def render_footer():
     z-index: 999999;
 }}
 .custom-footer img {{
-    height: 100px;       
+    height: 50px;       
     object-fit: contain;
 }}
 /* Hide Streamlit default footer so it doesn't overlap */
