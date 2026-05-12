@@ -25,6 +25,8 @@ with st.sidebar:
 
 st.markdown(
     f"""
+    <div id="top" style="height: 60px;"></div>
+    
     # About the {config['APP']['app_name']}
     
     The **{config['APP']['app_name']}** is a powerful, AI-driven tool designed to streamline the process of extracting critical information from academic **Call for Papers (CfPs)**. This tool automates the tedious task of manually parsing documents to identify conference details, series, locations, and, most importantly, the organising committee members.
@@ -142,6 +144,24 @@ st.markdown(
     This tool has been brought to you by the **Knowledge Media Institute** of the **Open University** in collaboration with **Springer Nature**.
     
     For any information or questions, please contact **Angelo Salatino** at angelo dot salatino at open dot ac dot uk.
+    
+    <a href="#top" title="Scroll to top" style="
+        position: fixed;
+        bottom: 120px;
+        right: 30px;
+        background-color: #183642;
+        color: white;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        text-decoration: none;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        z-index: 999999;
+    ">↑</a>
     """, unsafe_allow_html=True
 )
 
