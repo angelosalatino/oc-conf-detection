@@ -13,9 +13,18 @@ except OSError:
     nlp = spacy.load("en_core_web_sm")
 
 class Topics:
-    def __init__(self, topics_list: list):
+    def __init__(self, topics_list: list, preferred_threshold: float = 0.60):
         self.topics_list = topics_list
         self.enhanced_topics = {}
+        self.preferred_threshold = preferred_threshold
+        
+        if self.topics_list:
+            with open('data_sources/openalex.pickle', 'rb') as handle:
+                self.openalex = pickle.load(handle)
+            self.emb_model = SentenceTransformer("all-MiniLM-L6-v2")
+        else:
+            self.openalex = None
+            self.emb_model = None
 
     def extract_subtopics(self, topic: str) -> list:
         # 1. Split by commas and "and"
@@ -40,35 +49,35 @@ class Topics:
             
         return list(set(extracted))
 
-    def match_openalex_topics(self, debug=False, dist_threshold=0.4):
-        if not self.topics_list:
+    def match_openalex_topics(self, debug=False, sim_threshold=0.6):
+        if not self.topics_list or not self.openalex or not self.emb_model:
             return
-        
-        with open('data_sources/openalex.pickle', 'rb') as handle:
-            openalex = pickle.load(handle)
-            
-        emb_model = SentenceTransformer("all-MiniLM-L6-v2")
             
         for topic in self.topics_list:
             if debug: print(f"----> {topic}")
             
             subtopics = self.extract_subtopics(topic)
-            matched_topic = []
+            matched_topics_dict = {}
             
             for sub in subtopics:
                 if debug: print(f"  Subtopic: {sub}")
-                embeddings = emb_model.encode([sub])
-                dists, similar_items = openalex["index"].search(embeddings, k=5)
+                embeddings = self.emb_model.encode([sub])
+                dists, similar_items = self.openalex["index"].search(embeddings, k=5)
                 for pos, returned_item in enumerate(similar_items[0]): 
-                    if debug: print(f"    Match: {openalex['sentences'][returned_item]} ({dists[0][pos]:.2f})")
-                    if dists[0][pos] <= dist_threshold:
-                        matched_topic.append(openalex['sentences'][returned_item].lower())
+                    dist = float(dists[0][pos])
+                    sim = 1.0 - dist
+                    if debug: print(f"    Match: {self.openalex['sentences'][returned_item]} ({sim:.2f})")
+                    if sim >= sim_threshold:
+                        oatopic = self.openalex['sentences'][returned_item].lower()
+                        if oatopic not in matched_topics_dict or sim > matched_topics_dict[oatopic]:
+                            matched_topics_dict[oatopic] = sim
             
-            self.enhanced_topics[topic] = list(set(matched_topic))
+            self.enhanced_topics[topic] = [{"topic": k, "similarity": v} for k, v in matched_topics_dict.items()]
 
     def to_dict(self):
         return {
             "topics": self.topics_list,
-            "enhanced_topics": self.enhanced_topics
+            "enhanced_topics": self.enhanced_topics,
+            "preferred_threshold": self.preferred_threshold
         }
 

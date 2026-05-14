@@ -100,7 +100,9 @@ st.markdown(
     4. **Enrichment**: The original extracted topics are then mapped to these standardized OpenAlex concepts, enabling better categorization, interoperability, and trend analysis.
     
     **Interactive Topic Thresholding:**
-    Within the results page, users can dynamically adjust the **Similarity Distance Threshold** via an interactive slider. This allows you to strictly filter or broadly expand the semantic topic matches on the fly, instantly recalculating results without needing to reprocess the entire document.
+    - **Similarity Scores**: Within the results page, users can dynamically adjust the **Similarity Threshold** via an interactive slider (where higher is stricter). The exact similarity score is displayed directly inside each matched OpenAlex topic badge.
+    - **Zero-Lag Recalculation**: Because the ML models and FAISS indices are pre-loaded internally, moving the slider instantly recalculates and filters the semantic matches on the fly without any loading delays.
+    - **Persistent Preferences**: Once you find the perfect threshold for a document, you can click the **"Save this setting!"** button. This securely saves your preferred threshold and refined topic matches directly into the output file, keeping the raw LLM extraction fully intact for future use.
 
     ---
     

@@ -124,7 +124,7 @@ class CoreVisualiser:
 
 
 class ConferenceVisualiser(CoreVisualiser):
-    def display_main(self, conf: Conference) -> None:
+    def display_main(self, conf: Conference, filename: str = None, storage = None) -> None:
         organisers_data = conf.organisers.to_dict() if conf.organisers else []
         organisers_df = pd.DataFrame.from_dict(organisers_data)
         
@@ -218,7 +218,7 @@ class ConferenceVisualiser(CoreVisualiser):
             else:
                 self.card_w_l("ConfIDent", "No information found on ConfIDent database about this conference.")
 
-        self.display_topics(conf)
+        self.display_topics(conf, filename, storage)
         
         st.divider()
         buffer = BytesIO()
@@ -236,19 +236,33 @@ class ConferenceVisualiser(CoreVisualiser):
         )
 
     @st.fragment
-    def display_topics(self, conf: Conference) -> None:
+    def display_topics(self, conf: Conference, filename: str = None, storage = None) -> None:
         if conf.topics and conf.topics.enhanced_topics:
             st.divider()      
             self.add_header("Topics of Interest")
             
-            new_threshold = st.slider("Similarity Distance Threshold (lower is stricter)", min_value=0.0, max_value=1.0, value=0.4, step=0.05)
+            col1, col2 = st.columns([5, 1], vertical_alignment="bottom")
+            with col1:
+                new_threshold = st.slider("Similarity Threshold (higher is stricter)", min_value=0.0, max_value=1.0, value=conf.topics.preferred_threshold, step=0.05)
             
             with st.spinner("Recomputing topic matches..."):
-                conf.topics.match_openalex_topics(dist_threshold=new_threshold)
+                conf.topics.match_openalex_topics(sim_threshold=new_threshold)
+                
+            with col2:
+                if st.button("Save this setting!", use_container_width=True):
+                    conf.topics.preferred_threshold = new_threshold
+                    if filename and storage:
+                        loaded_data = storage.load(filename)
+                        storage.save(filename, conf.to_dict(), loaded_data.get("llm-output"))
+                        st.toast("Settings saved successfully!", icon="✅")
             
             for topic, openalex_topics in conf.topics.enhanced_topics.items():
                 line = f"* {topic}"
                 if len(openalex_topics) > 0:
                     for oatopic in openalex_topics:
-                        line += f" :blue-badge[📎 {oatopic}]"
+                        if isinstance(oatopic, dict):
+                            sim_val = oatopic.get("similarity")
+                            line += f" :blue-badge[📎 {oatopic['topic']} (sim: {sim_val:.2f})]"
+                        else:
+                            line += f" :blue-badge[📎 {oatopic}]"
                 st.markdown(line)

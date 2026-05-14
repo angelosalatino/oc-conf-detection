@@ -143,7 +143,7 @@ class Conference:
             conf.set_organisers(Organisers(data["organisers"]))
         
         if "topics" in data:
-            topics = Topics(data["topics"])
+            topics = Topics(data["topics"], data.get("preferred_threshold", 0.60))
             topics.enhanced_topics = data.get("enhanced_topics", {})
             conf.set_topics(topics)
             

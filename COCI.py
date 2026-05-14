@@ -126,7 +126,7 @@ def main():
             tab1, tab2 = st.tabs(["**Results**", "**Read Call for Papers**"])
             
             with tab1:
-                vis.display_main(conf)
+                vis.display_main(conf, filename, storage)
                 
             with tab2:
                 cfp_obj = CallForPaper(call_for_papers)
