@@ -1,3 +1,6 @@
+import os
+os.environ['FAISS_OPT_LEVEL'] = ''  # do this BEFORE importing any faiss library
+
 import pickle
 import urllib.parse
 # pyrefly: ignore [missing-import]
