@@ -54,7 +54,6 @@ class CoreVisualiser:
             <style>
                 [data-testid="stSidebarNav"] {
                     background-image: url(%s);
-                    height: 200px;
                     background-repeat: no-repeat;
                     padding-top: 150px;
                     background-position: 20px 0px;

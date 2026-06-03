@@ -72,7 +72,7 @@ def main():
             st.write("") 
             clear = st.button("Clear", type="secondary")
             
-        st.html("<div style='height: 120px;'></div>")
+        st.html("<div style='height: 120px;'></div>") # space to the bottom.
 
     if clear:
         st.rerun()
