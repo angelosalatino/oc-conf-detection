@@ -96,6 +96,7 @@ def main():
                 api_key = st.session_state['config']['DEFAULT']['api_key']
                 referer = st.session_state['config']['TEAM']['website']
                 title = st.session_state['config']['TEAM']['description']
+                openalex_api = st.session_state['config']['OPENALEX']['openalex_api']
                 
                 progress_placeholder = st.empty()
                 logs = []
@@ -113,7 +114,7 @@ def main():
                     '''
                     progress_placeholder.markdown(spinner_html, unsafe_allow_html=True)
                 
-                orchestrator = Orchestrator(api_url, api_key, referer, title)
+                orchestrator = Orchestrator(api_url, api_key, referer, title, openalex_api)
                 conf, llm_result = orchestrator.process(call_for_papers, progress_callback=update_progress, cached_llm_result=cached_llm_result)
                 
                 progress_placeholder.empty()

@@ -1,16 +1,21 @@
+import pyalex
 from pyalex import Authors, Institutions
 from rapidfuzz.distance import Levenshtein
 from rapidfuzz import fuzz
 import country_converter as coco
 
+
+
 class OpenAlexWrapper:
-    def __init__(self, debug=False):
+    def __init__(self, debug=False, openalex_api=""):
         self.debug = debug
         self.priority_types = {
             "education": 0, "company": 1, "facility": 2, 
             "healthcare": 3, "funder": 4, "government": 5, 
             "archive": 6, "other": 7
         }
+        
+        pyalex.config.api_key = openalex_api
 
     def enrich_organisers(self, organisers: list, year: str) -> list:
         if year is None: 

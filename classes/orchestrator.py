@@ -6,9 +6,9 @@ from .topics import Topics
 from .conference import Conference
 
 class Orchestrator:
-    def __init__(self, api_url: str, api_key: str, referer: str = "", title: str = ""):
+    def __init__(self, api_url: str, api_key: str, referer: str = "", title: str = "", openalex_api= ""):
         self.llm_wrapper = LLMWrapper(api_url, api_key, referer, title)
-        self.openalex_wrapper = OpenAlexWrapper(debug=False)
+        self.openalex_wrapper = OpenAlexWrapper(debug=False, openalex_api=openalex_api)
 
     def process(self, cfp_text: str, progress_callback=None, cached_llm_result=None) -> Conference:
         def log(msg):
