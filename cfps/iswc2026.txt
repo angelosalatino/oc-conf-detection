@@ -1,0 +1,182 @@
+Call for Research Track Papers
+
+The International Semantic Web Conference is the premier venue for presenting fundamental research, innovative technologies, and applications related to semantics, data, and the Web. Which will take place in Bari, Italy.
+
+The research track of ISWC 2026 solicits novel and significant research contributions addressing theoretical, analytical, and empirical aspects of the Semantic Web. We welcome work describing original and replicable research showing evidence of a substantial contribution to the Semantic Web.
+
+The track’s program committee will assess all papers. Each paper will be reviewed by at least three committee members, with a meta-review provided by a senior member. The review criteria used are outlined below.
+
+As ISWC 2026 features multiple tracks, authors are asked to consult the calls of the other tracks to choose the track that best fits their contribution (see Differentiation from Other Tracks ). The submission of the same work to multiple tracks (as well as to other conferences) is not allowed and results in rejection without review.
+
+
+Important information for authors:
+
+Submissions are dual anonymous.
+Papers are limited to 15 pages excluding references and the "Declaration of use of Generative AI” section. Supplemental materials and annexes count toward the established page limit.
+All submissions are expected to include a mandatory Supplemental Material Statement that may contain links to code and data repositories. In case this is not possible, the statement must be justified.
+Unless otherwise justified in the Supplemental Material Statement , we expect supplemental material to be provided anonymously with the submitted paper.
+Pre-submission of abstracts is a strict requirement.
+
+
+Important Dates
+
+Abstract submission due 2 May 2026
+Full paper submission due 7 May 2026
+Rebuttal 11 June - 18 June 2026
+Notifications 16 July 2026
+Camera-ready papers due 6 August 2026
+Conference: 27 - 29 October 2026
+
+All deadlines are 23:59 AoE (anywhere on Earth)
+
+
+Topics of Interest
+We encourage papers that directly advance the Semantic Web. The relationship to the core area of the conference needs to be clearly described in the submitted work. Submissions beyond the scope will be desk-rejected. Topics in the Semantic Web area include, but are not limited to:
+
+
+Ontologies and capturing knowledge including:
+
+Ontology Engineering and ontology patterns
+Ontology modularity, mapping, merging, and alignment
+Information extraction, knowledge graph construction
+
+
+Representation, management, and applications of Knowledge Graphs (including RDF and property graphs):
+
+Knowledge Representation and Reasoning
+Search, query, integration, and analysis
+Robust and scalable management
+Information visualization and exploratory analysis
+Databases and ontology-based data access, integration, and exchange on the Web
+Knowledge graph-centered Natural Language Processing, information retrieval, semantic analysis, and Large Language Models
+
+
+Integration of the Semantic Web with:
+
+Machine learning, data mining, and neurosymbolic reasoning
+Generative AI (including Large Language Models) and Agentic AI
+User interfaces, usability, and accessibility
+Data integration, quality assurance, and data provenance
+Social issues, including trust, bias, fairness, privacy, security, and policy
+Web services, process management, social Web, and Internet of Things
+Dynamic and streaming data, including complex event processing and stream reasoning
+Software engineering, algorithms, and decentralized architectures
+Specialized domains (geographical, biomedical, e-Science, multimedia, performing arts, public administration, cultural heritage, law, etc.)
+Artificial Intelligence and hybrid app
+
+
+Semantic Web Agents including:
+
+Autonomous systems, including multi-agent systems and robotics
+Architecture characteristics for autonomy exploiting KGs
+Incomplete or conflicting knowledge, beliefs, and assumptions and KGs
+Human-machine social interactions and KGs
+Architecture characteristics for exploiting KGs autonomously
+Development platforms and frameworks for exploiting KGs in an autonomous manner
+Governance of autonomous agents on the Web
+
+We welcome descriptions of contributions that leverage knowledge representation based on Semantic Web standards or other graph data models to improve the acquisition, processing, and sharing of data on the Web. We require authors to explicitly highlight how their work could be applied in a Semantic Web setting.
+
+
+Review Criteria
+Papers in this track will be reviewed according to the following criteria:
+
+Originality and novelty
+Relevance of the topic to the conference
+Impact of the research contributions
+Technical soundness
+Rigor and reproducibility of the work (including evaluation)
+Clarity and quality of presentation
+Grounding in the literature
+
+Any submissions that are clearly out of scope, or have significant omissions with respect to these criteria, may be subject to desk rejection before a full review. Guidelines for reviewers are available here .
+
+
+Rebuttal
+Authors will have the chance to provide a response to the reviews during a rebuttal period that precedes the reviewer discussion period. The SPCs and PC Chairs will consider the authors' responses to the points raised by the reviewers.
+
+
+Policy on the use of Generative AI
+All submissions must comply with the conference’s Generative AI policy . This includes use for writing or preparing the manuscript and for carrying out or reporting the research. Authors remain fully responsible for the work and must disclose any covered use as required; non-compliant submissions may be rejected or withdrawn.
+
+In case of any questions regarding this policy, please contact the track chairs.
+
+Each submission must include a section titled "Declaration of use of Generative AI” placed immediately before the references. Authors should briefly describe any Generative AI use and how they comply with the policy. This section does not count toward the maximum paper length.
+
+
+Supplemental Material Statement and Reproducibility
+Reproducibility is a key goal of scientific research. We require authors of all papers to include a statement at the end of their submission that facilitates the independent reproducibility or verification of the results presented (where relevant), pointing to where supplemental material can be found. These resources may include datasets, queries, code, proofs of results, configuration details, hyperparameters, etc., depending on the contributions of the paper. The statement should cover all of the resources necessary to reproduce or verify the results presented in the paper, indicating their persistent identifiers (e.g., DOI) when appropriate. In case certain resources cannot be made available (e.g., due to privacy, ethical, or financial concerns), the statement should include a justification of why this is the case. In case the paper is fully self-contained and does not have additional resources associated (e.g., a theoretical paper with full proofs contained in the body of the paper), a short statement can be provided arguing that the paper is self-contained. Please see the Supplemental Material Statement Guidelines for more details.
+
+Reviewers will be asked to evaluate the statement. In particular, they will be asked to ensure that the statement convinces them that the results of the paper are reproducible, to ensure that the resources are indeed available and support reproducibility (both now and for the foreseeable future), and, in cases where resources are not provided, to verify that there is a reasonable justification. Unless otherwise justified, it is expected that access to resources is provided from the submitted paper since these resources may often play an important role in the review process. All resources must be provided anonymously; please see the “Supplemental Material” section for recommended options.
+
+
+Submission Details
+Pre-submission of abstracts is a strict requirement.
+All papers and abstracts have to be submitted electronically via EasyChair .
+Submitted papers will be checked to ensure that they satisfy the submission criteria and are in scope with the aims of the conference, and if such violations are identified, then the submission may be subject to desk rejection without review.
+Papers must provide a clear statement of their claims, argue how the results of the paper substantiate their claims, clarify any technical assumptions and/or known limitations, and provide a Supplemental Material Statement.
+All research submissions must be in English, and no longer than 15 pages (excluding references and the "Declaration of use of Generative AI” section).
+Submissions must be either in PDF or HTML, formatted in the style of the Springer Publications format for Lecture Notes in Computer Science (LNCS). For details on the LNCS style, see Springer’s Author Instructions. For HTML submission guidance, please see the HTML submission guide .
+Each submission must be original. Authors need to authorize the organizer to perform a plagiarism check of the paper.
+Papers that exceed the page limit, violate the style or show any kind of plagiarism will be rejected without review.
+Papers submitted to the research track will be subject to dual anonymous peer review and must conform to the instructions (detailed below) for dual anonymous review.
+We encourage embedding metadata in the PDF/HTML to provide machine-readable links from the paper to resources.
+Authors of accepted papers will be required to provide semantic annotations for the submission, which will be made available online. Details will be provided at the time of acceptance.
+Accepted papers will be distributed to conference attendees and also published in the conference proceedings.
+At least one author of each accepted paper must register for the conference and present the paper.
+As in previous years, students will be able to apply for funding to support their travel to attend/register for the conference.
+
+
+Differentiation From Other Tracks
+We strongly recommend that prospective authors carefully check the calls of the other tracks of the conference in order to identify the optimal track for their submission (submission of the same work to multiple tracks is prohibited). Papers that propose new algorithms and architectures should be submitted to the Research track as usual. Papers focusing on new reusable resources themselves, such as datasets, ontologies, workflows, etc., should be submitted to the Resources Track. Papers that describe and/or assess the use or application of Semantic Web and Knowledge Graph technologies in practical settings should be submitted to the In-Use track. See “Exemplary In-Use Papers From Previous Editions of ISWC” (below) for additional details.
+
+We strongly recommend that prospective authors carefully check the calls of the other main tracks of the conference in order to identify the optimal track for their submission (submission of the same work to multiple tracks is prohibited).
+
+Papers that propose new algorithms and architectures should be submitted to the regular research track;
+Papers that reuse and apply state-of-the-art semantic technology or resources in practical settings should be submitted to the in-use track (i.e., the novelty falls into the in-use application of the semantic technology or resource);
+Authors who want to present an interesting industry application but who do not want to submit a full paper should submit to the industry track;
+Papers describing concrete resources (datasets, ontologies, vocabularies, annotated corpora, workflows, knowledge graphs, evaluation benchmarks, etc.) should be submitted to the resources track.
+
+Note that research, in-use and resource papers are published within the same proceedings by Springer’s Lecture Notes in Computer Science series.
+
+
+Instructions for Dual Anonymous Reviewing
+Reviewing for ISWC 2026 is dual-anonymous, i.e., the identities of the authors and reviewers are hidden. Both authors and reviewers are expected to make every effort to honor this process. Authors should do their best to ensure that the submission can be evaluated without it being obvious who wrote the paper, and reviewers should not undertake any investigation with the specific goal of revealing the authors’ identity.
+
+To help with the dual anonymous reviewing process please ensure the following when submitting to ISWC 2026:
+
+The first page, on which the paper body begins, should include the title and abstract but not the names or affiliations of the authors.
+Remove any identifying information, including author names, from file names and ensure document properties are also anonymized.
+Remove any identifying information from your paper resources such as datasets, models, or code (e.g., README and package files in code repositories, Zenodo deposits, etc.)
+The references should include all published literature relevant to the paper. When referring to one’s own work, use the third person, rather than the first person. For example, say “Previously, Foo [4] showed that…,” rather than “In our previous work [4] we showed that…”
+Try to avoid including any information that would identify the authors or their affiliations. Such information may be added to the final camera-ready version for publication.
+Remove references to funding sources and/or acknowledgments. Such information should be included in the final camera-ready version for publication.
+
+
+Supplemental Material
+The length of the main submission is strictly limited as indicated in the call for papers. However, authors may also choose to submit supplemental material, including proofs of theorems stated in the main paper, video demonstrations, data from experimental evaluations, source code, and so on. Note that submissions may reference the supplemental material for further details, but should be self-contained. Reviewers are instructed to make their evaluations based on the main submission and are not obliged to consult the supplemental material. Therefore, make sure that your submission stands on its own without them.
+
+Please ensure you do not violate the dual-anonymous-review requirements in the supplemental material. You may make supplemental material available per one of the following options:
+
+OPTION 1. As an anonymized link to supplemental material included in the paper. This option may be used, in particular, in case the total size of the submission (paper+supplemental materials) exceeds 100MB. We recommend the use of Github, Zenodo, Figshare, or Dryad. Anonymous dataset submissions can be managed through Zenodo and Figshare without additional accounts; see, for example, this guide by Daniel Graziotin . Code repository submissions may be anonymized using platforms such as https://anonymous.4open.science/. .
+
+OPTION 2. As a second zipped folder uploaded via the Easychair system; note that the total size of the submission (paper+supplemental materials) must not exceed 100MB.
+
+Supplemental material submitted at the time of submission for review will not be automatically published or posted if the paper is accepted for publication. Hence, we expect authors of accepted papers choosing OPTION 2 to publish this material in one of the aforementioned repositories (or arXiv in the case of an extended version of the paper with proofs) and provide references to the supplemental material in the final camera-ready version of the paper.
+
+In both cases, we strongly encourage making supplemental material available under open licenses and providing sufficient documentation to enable reproducibility
+
+
+Prior Publication and Multiple Submissions
+ISWC 2026 will not accept research papers that, at the time of submission, are under review for or have already been published in, or accepted for publication, in a journal or another conference. Please refer and adhere to the ISWC Prior Publication and Multiple Submission Policy.
+
+
+Positioning with respect to other fields
+Contributions should be clearly related to the Semantic Web or have an impact in the field of semantics. The scope of the conference is semantic technologies and how they enable new research and applications. While semantic technologies are part of a broader interdisciplinary ecosystem, including aspects of Data Management and Artificial Intelligence, such as Machine Learning (ML) and Natural Language Processing (NLP), it remains a distinct scholarly field, with its own research methods, tools, and challenges. Therefore, contributions to other disciplines that have no direct impact on the landscape of semantic technologies are not relevant to the ISWC conference, and may be desk-rejected on this basis.
+
+
+Research Track Chairs
+Contact: iswc2026-research@easychair.org
+
+Manolis Koubarakis — National and Kapodistrian University of Athens, Greece
+Maria-Esther Vidal — Leibniz University Hannover & TIB-Leibniz Information Center of Science and Technology, Germany 
