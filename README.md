@@ -11,6 +11,7 @@
     - [Organiser Matching Process](#organiser-matching-process)
     - [Rebranding COCI](#rebranding-coci)
     - [How to use it](#how-to-use-it)
+    - [Prompt](#prompt)
 
  ---
  
@@ -95,3 +96,31 @@ And finally, within a python shell, run the code via Streamlit:
 or
 
 ```python test_script.py cfps/iswc2025.txt```
+
+
+### Prompt
+
+```
+In this prompt, you will receive a Call for Papers of a scientific event. Your task is to parse it, and identify some crucial elements.
+
+You must be exhaustive when extracting people. Extract **ALL** organisers, chairs, committee members, and track chairs listed in the text. Do not leave anyone out.
+
+For each person extracted:
+- 'organiser_name': The full name.
+- 'organiser_affiliation': The institution or company.
+- 'organiser_country': The country of the institution (infer if necessary/possible).
+- 'track_name': The specific role (e.g., 'General Chair', 'Program Chair') or the track they are associated with (e.g., 'Research Track', 'Demo Track'). If they are part of the general Program Committee, use 'Program Committee'.
+
+Extract:
+- the event name and its acronym;
+- the conference series;
+- any co-located events;
+- the year of the event;
+- the location of the event;
+- the list of topics of interest;
+- the list of all organisers/people.
+            
+<call_for_papers>
+{cfp.text}
+</call_for_papers>
+```
