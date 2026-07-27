@@ -1,16 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import streamlit as st
-import json
-import os
 import configparser
-from io import StringIO
-import html
-from pathlib import Path
-
-from classes.orchestrator import Orchestrator
 from classes.visualiser import ConferenceVisualiser
-from classes.conference import Conference
-from classes.call_for_paper import CallForPaper
-from classes.storage import ConferenceStorage
 
 def read_config_file():
     if 'config' not in st.session_state:
@@ -26,7 +18,8 @@ def check_page_change(page_name):
             'selected_event_id', 'selected_organiser_key', 
             'search_mode', 'search_term', 
             'org_search_mode', 'org_search_term',
-            'selected_openalex_author', 'openalex_search_query'
+            'selected_openalex_author', 'openalex_search_query',
+            'processed_conf', 'processed_filename', 'processed_cfp_text'
         ]
         for key in keys_to_clear:
             if key in st.session_state:
@@ -36,120 +29,105 @@ def main():
     read_config_file()
     check_page_change("home")
     
-    dest_folder = st.session_state['config']['FOLDERS']['destination_folder']
-    storage = ConferenceStorage(dest_folder)
+    config = st.session_state['config']
+    vis = ConferenceVisualiser()
     
     st.set_page_config(
         layout="wide",
-        page_title=st.session_state['config']['APP']['app_acronym'],
+        page_title=config['APP']['app_acronym'],
         page_icon="🌐"
     )
-    
-    filename = ""
-    call_for_papers = None
-    
-    vis = ConferenceVisualiser()
     
     vis.local('assets/css/bootstrap.min.css')
     vis.local('assets/css/mycss.css')
     
-    st.title(st.session_state['config']['APP']['app_name'])
-    welcome_placeholder = st.empty()
-    welcome_placeholder.markdown(f"<h4 style='text-align: left; color: gray;'>Welcome to the Conference Organisers and Content Identifier (COCI), an AI-powered tool for extracting and structuring metadata from <i><u>calls for papers</u></i>. To begin, please upload your CfP as a .txt file using the sidebar on the left to automatically identify conference details, organizers, and research topics.</h4>", unsafe_allow_html=True)
-    
     with st.sidebar:
         vis.add_logo()
-        st.title('Load Call for Papers')
         
-        uploaded_file = st.file_uploader("Choose a file")
-        if uploaded_file is not None:
-            st.write("File loaded")
-            filename = uploaded_file.name
-            cfp = CallForPaper(uploaded_file)
-            call_for_papers = cfp.text
-        
-        processing_mode = st.radio(
-            "Processing Mode",
-            options=["Cached", "Mild Force", "Force"],
-            index=0
+    st.title(config['APP']['app_name'])
+    st.markdown(
+        f"<h4 style='text-align: left; color: gray; margin-bottom: 40px; font-weight: normal; line-height: 1.5;'>"
+        f"Welcome to the Conference Organisers and Content Identifier (COCI). "
+        f"Select one of the tools below or use the sidebar navigation to get started."
+        f"</h4>",
+        unsafe_allow_html=True
+    )
+    
+    # 2x2 Grid Layout for features with clickable HTML links
+    row1_col1, row1_col2 = st.columns(2)
+    with row1_col1:
+        st.markdown(
+            """
+            <a href="Process_Events" target="_self" style="text-decoration: none; color: inherit;">
+                <div style="border: 1px solid #e6e8eb; padding: 25px; border-radius: 12px; cursor: pointer; background: #ffffff; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02); height: 180px;" 
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.06)'; this.style.borderColor='#183642';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.02)'; this.style.borderColor='#e6e8eb';">
+                  <h3 style="margin-top:0; color:#1a1d20; text-align:center;">Process Events</h3>
+                  <p style="color:#5f6368; font-size:14.5px; line-height:1.6; margin-bottom:0;">
+                    Upload a Call for Papers in text format to automatically extract and structure its conference details, organizers, and research topics using AI.
+                  </p>
+                </div>
+            </a>
+            """,
+            unsafe_allow_html=True
         )
-        st.caption("**Cached**: Uses cache if available.  \n**Mild Force**: Reuses LLM extractions but reruns matching.  \n**Force**: Reprocesses everything from scratch.")
-        to_recompute = (processing_mode == "Force")
-        mild_force = (processing_mode == "Mild Force")
-        
-        st.divider()
-        with st.container(horizontal=True):
-            st.write("") 
-            st.write("") 
-            submitted = st.button("Process", type="primary")
-            
-        with st.container(horizontal=True):
-            st.write("") 
-            st.write("") 
-            clear = st.button("Clear", type="secondary")
-            
-        st.html("<div style='height: 120px;'></div>") # space to the bottom.
-
-    if clear:
-        st.rerun()
-        
+                
+    with row1_col2:
+        st.markdown(
+            """
+            <a href="Explore_Events" target="_self" style="text-decoration: none; color: inherit;">
+                <div style="border: 1px solid #e6e8eb; padding: 25px; border-radius: 12px; cursor: pointer; background: #ffffff; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02); height: 180px;" 
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.06)'; this.style.borderColor='#183642';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.02)'; this.style.borderColor='#e6e8eb';">
+                  <h3 style="margin-top:0; color:#1a1d20; text-align:center;">Explore Events</h3>
+                  <p style="color:#5f6368; font-size:14.5px; line-height:1.6; margin-bottom:0;">
+                    Search and inspect all processed conferences in the database by topic, acronym, name, or series, or browse the latest additions.
+                  </p>
+                </div>
+            </a>
+            """,
+            unsafe_allow_html=True
+        )
+                
+    st.markdown("<div style='height: 20px;'></div>", unsafe_allow_html=True)
+    
+    row2_col1, row2_col2 = st.columns(2)
+    with row2_col1:
+        st.markdown(
+            """
+            <a href="Explore_Organisers" target="_self" style="text-decoration: none; color: inherit;">
+                <div style="border: 1px solid #e6e8eb; padding: 25px; border-radius: 12px; cursor: pointer; background: #ffffff; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02); height: 180px;" 
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.06)'; this.style.borderColor='#183642';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.02)'; this.style.borderColor='#e6e8eb';">
+                  <h3 style="margin-top:0; color:#1a1d20; text-align:center;">Explore Organisers</h3>
+                  <p style="color:#5f6368; font-size:14.5px; line-height:1.6; margin-bottom:0;">
+                    Browse and search academic organizers who have contributed to stored conferences, inspect their profiles, and view their events.
+                  </p>
+                </div>
+            </a>
+            """,
+            unsafe_allow_html=True
+        )
+                
+    with row2_col2:
+        st.markdown(
+            """
+            <a href="Audit_Researchers" target="_self" style="text-decoration: none; color: inherit;">
+                <div style="border: 1px solid #e6e8eb; padding: 25px; border-radius: 12px; cursor: pointer; background: #ffffff; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02); height: 180px;" 
+                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.06)'; this.style.borderColor='#183642';"
+                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.02)'; this.style.borderColor='#e6e8eb';">
+                  <h3 style="margin-top:0; color:#1a1d20; text-align:center;">Audit Researcher</h3>
+                  <p style="color:#5f6368; font-size:14.5px; line-height:1.6; margin-bottom:0;">
+                    Verify publication integrity by querying OpenAlex researcher profiles and auditing their papers against RetractionWatch and PubPeer.
+                  </p>
+                </div>
+            </a>
+            """,
+            unsafe_allow_html=True
+        )
+                
+    st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)
     vis.render_footer()
-        
-    if submitted:
-        welcome_placeholder.empty()
-        if call_for_papers is None:
-            st.write("Cannot process as no **call for papers** has been provided.")
-        elif len(call_for_papers) == 0:
-            st.write("The **call for papers** file is empty.")
-        else:
-            cached_llm_result = None
-            if mild_force and not to_recompute and storage.is_processed(filename):
-                loaded_data = storage.load(filename)
-                cached_llm_result = loaded_data.get("llm-output")
-
-            if not storage.is_processed(filename) or to_recompute or mild_force:
-                api_url = st.session_state['config']['DEFAULT']['api_url']
-                api_key = st.session_state['config']['DEFAULT']['api_key']
-                referer = st.session_state['config']['TEAM']['website']
-                title = st.session_state['config']['TEAM']['description']
-                openalex_api = st.session_state['config']['OPENALEX']['openalex_api']
-                
-                progress_placeholder = st.empty()
-                logs = []
-                
-                def update_progress(message: str):
-                    logs.append(message)
-                    logs_html = "<br>".join([f"&gt; {msg}" for msg in logs])
-                    spinner_html = f'''
-                    <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background-color: #f4f6f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd;">
-                        <img src="{vis.render_image('assets/gifs/cooking.gif')}" width="60" height="60" style="margin-right: 15px; margin-top: 5px;" />
-                        <div style="font-size: 14px; font-family: monospace; color: #333;">
-                            {logs_html}
-                        </div>
-                    </div>
-                    '''
-                    progress_placeholder.markdown(spinner_html, unsafe_allow_html=True)
-                
-                orchestrator = Orchestrator(api_url, api_key, referer, title, openalex_api)
-                conf, llm_result = orchestrator.process(call_for_papers, progress_callback=update_progress, cached_llm_result=cached_llm_result)
-                
-                progress_placeholder.empty()
-                
-                storage.save(filename, conf.to_dict(), llm_result, call_for_papers)
-            else:
-                loaded_data = storage.load(filename)
-                conf = Conference.from_dict(loaded_data.get("processed"))
-                if not call_for_papers and loaded_data.get("cfp_text"):
-                    call_for_papers = loaded_data["cfp_text"]
-            
-            tab1, tab2 = st.tabs(["**Results**", "**Read Call for Papers**"])
-            
-            with tab1:
-                vis.display_main(conf, filename, storage)
-                
-            with tab2:
-                cfp_obj = CallForPaper(call_for_papers)
-                st.html(cfp_obj.get_rendered_html())
 
 if __name__ == '__main__':
     main()
