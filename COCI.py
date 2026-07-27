@@ -119,10 +119,12 @@ def main():
                 
                 progress_placeholder.empty()
                 
-                storage.save(filename, conf.to_dict(), llm_result)
+                storage.save(filename, conf.to_dict(), llm_result, call_for_papers)
             else:
                 loaded_data = storage.load(filename)
                 conf = Conference.from_dict(loaded_data.get("processed"))
+                if not call_for_papers and loaded_data.get("cfp_text"):
+                    call_for_papers = loaded_data["cfp_text"]
             
             tab1, tab2 = st.tabs(["**Results**", "**Read Call for Papers**"])
             

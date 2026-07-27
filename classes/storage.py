@@ -15,13 +15,28 @@ class StorageToFile:
         """Check if the conference file has already been processed."""
         return self._get_path(filename).is_file()
 
-    def save(self, filename: str, conf_dict: dict, llm_output: dict) -> None:
-        """Save both the raw LLM output and the fully processed conference data."""
+    def save(self, filename: str, conf_dict: dict, llm_output: dict, cfp_text: str = None) -> None:
+        """Save both the raw LLM output and the fully processed conference data, preserving/saving cfp_text."""
         path = self._get_path(filename)
+        
+        existing_cfp = None
+        if path.is_file():
+            try:
+                with open(path, 'r') as f:
+                    old_data = json.load(f)
+                existing_cfp = old_data.get("cfp_text")
+            except Exception:
+                pass
+        
+        final_cfp = cfp_text if cfp_text is not None else existing_cfp
+        
         data = {
             "llm-output": llm_output,
             "processed": conf_dict
         }
+        if final_cfp is not None:
+            data["cfp_text"] = final_cfp
+            
         with open(path, 'w') as f:
             json.dump(data, f, indent=4)
 
@@ -38,10 +53,15 @@ class StorageToFile:
         if "processed" not in data and "event_name" in data:
             return {
                 "llm-output": data,
-                "processed": data
+                "processed": data,
+                "cfp_text": data.get("cfp_text", "")
             }
             
-        return data
+        return {
+            "llm-output": data.get("llm-output", {}),
+            "processed": data.get("processed", {}),
+            "cfp_text": data.get("cfp_text", "")
+        }
 
 
 def merge_dict(existing_dict, new_dict):
@@ -182,13 +202,26 @@ class StorageToMongo:
         if not doc:
             raise FileNotFoundError(f"No database record found for filename {filename}")
         
-        # Construct standard dict with "llm-output" and "processed"
+        filenames = doc.get("filenames", [])
+        cfps = doc.get("cfps", [])
+        
+        cfp_text = ""
+        try:
+            idx = filenames.index(stem)
+            if idx < len(cfps):
+                cfp_text = cfps[idx]
+        except ValueError:
+            if cfps:
+                cfp_text = cfps[0]
+        
+        # Construct standard dict with "llm-output", "processed" and "cfp_text"
         return {
             "llm-output": doc.get("llm-output", {}),
-            "processed": doc.get("processed", {})
+            "processed": doc.get("processed", {}),
+            "cfp_text": cfp_text
         }
 
-    def save(self, filename: str, conf_dict: dict, llm_output: dict) -> None:
+    def save(self, filename: str, conf_dict: dict, llm_output: dict, cfp_text: str = None) -> None:
         """Save both the raw LLM output and the fully processed conference data to MongoDB."""
         stem = Path(filename).stem
         
@@ -225,8 +258,23 @@ class StorageToMongo:
                 merged_processed = merge_event_data(existing_event.get("processed", {}), conf_dict)
                 merged_llm_output = merge_event_data(existing_event.get("llm-output", {}), llm_output)
                 filenames = existing_event.get("filenames", [])
+                
+                # Fetch existing CFPs list and ensure length aligns
+                cfps = existing_event.get("cfps", [])
+                if not isinstance(cfps, list):
+                    # Migration fallback if old structure was a dict
+                    cfps = [cfps.get(f, "") for f in filenames] if isinstance(cfps, dict) else []
+                
+                while len(cfps) < len(filenames):
+                    cfps.append("")
+                
                 if stem not in filenames:
                     filenames.append(stem)
+                    cfps.append(cfp_text if cfp_text is not None else "")
+                else:
+                    stem_idx = filenames.index(stem)
+                    if cfp_text is not None:
+                        cfps[stem_idx] = cfp_text
                 
                 self.events.replace_one(
                     {"_id": idx},
@@ -234,16 +282,19 @@ class StorageToMongo:
                         "_id": idx,
                         "index": idx,
                         "filenames": filenames,
+                        "cfps": cfps,
                         "llm-output": merged_llm_output,
                         "processed": merged_processed
                     }
                 )
             else:
                 # Fallback if events_index doc exists but events doc is missing
+                cfps = [cfp_text if cfp_text is not None else ""]
                 self.events.insert_one({
                     "_id": idx,
                     "index": idx,
                     "filenames": [stem],
+                    "cfps": cfps,
                     "llm-output": llm_output,
                     "processed": conf_dict
                 })
@@ -260,11 +311,14 @@ class StorageToMongo:
                 "year": year_str
             })
             
+            cfps = [cfp_text if cfp_text is not None else ""]
+            
             # Insert into events
             self.events.insert_one({
                 "_id": new_idx,
                 "index": new_idx,
                 "filenames": [stem],
+                "cfps": cfps,
                 "llm-output": llm_output,
                 "processed": conf_dict
             })
@@ -286,10 +340,10 @@ class StorageToBoth:
         except Exception:
             return self.mongo_storage.load(filename)
 
-    def save(self, filename: str, conf_dict: dict, llm_output: dict) -> None:
+    def save(self, filename: str, conf_dict: dict, llm_output: dict, cfp_text: str = None) -> None:
         """Save both the raw LLM output and the fully processed conference data to both file storage and MongoDB."""
-        self.file_storage.save(filename, conf_dict, llm_output)
-        self.mongo_storage.save(filename, conf_dict, llm_output)
+        self.file_storage.save(filename, conf_dict, llm_output, cfp_text)
+        self.mongo_storage.save(filename, conf_dict, llm_output, cfp_text)
 
 
 # Aliases as requested
