@@ -4,8 +4,7 @@ import streamlit as st
 from classes.visualiser import CoreVisualiser
 
 if 'config' not in st.session_state:
-    st.write("Please visit the main page first to load the configuration.")
-    st.stop()
+    st.switch_page("COCI.py")
 
 config = st.session_state['config']
 vis = CoreVisualiser()
