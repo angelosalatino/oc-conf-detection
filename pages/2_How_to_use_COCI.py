@@ -10,6 +10,23 @@ if 'config' not in st.session_state:
 config = st.session_state['config']
 vis = CoreVisualiser()
 
+def check_page_change(page_name):
+    if 'current_page' not in st.session_state:
+        st.session_state['current_page'] = page_name
+    elif st.session_state['current_page'] != page_name:
+        st.session_state['current_page'] = page_name
+        keys_to_clear = [
+            'selected_event_id', 'selected_organiser_key', 
+            'search_mode', 'search_term', 
+            'org_search_mode', 'org_search_term',
+            'selected_openalex_author', 'openalex_search_query'
+        ]
+        for key in keys_to_clear:
+            if key in st.session_state:
+                del st.session_state[key]
+
+check_page_change("how_to_use")
+
 st.set_page_config(
     layout="wide",
     page_title=f"How to use {config['APP']['app_acronym']}",
