@@ -8,9 +8,9 @@
 }
 
 .oc-btn:hover {
-  border-color: rgb(255, 75, 75);
+  border-color: #183642;
   background-color: rgb(249, 249, 251);
-  color: rgb(255, 75, 75) !important;
+  color: #183642 !important;
 }
 
 .logo {
