@@ -34,7 +34,7 @@ def check_page_change(page_name):
 
 def main():
     read_config_file()
-    check_page_change("home")
+    check_page_change("process_events")
     
     dest_folder = st.session_state['config']['FOLDERS']['destination_folder']
     storage = ConferenceStorage(dest_folder)
@@ -88,9 +88,9 @@ def main():
             
     # UPLOAD FORM VIEW
     else:
-        st.markdown(f"<h4 style='text-align: left; color: gray; margin-bottom: 30px;'>Welcome to the Conference Organisers and Content Identifier (COCI), an AI-powered tool for extracting and structuring metadata from <i><u>calls for papers</u></i>. Please upload your CfP as a .txt file using the form below to automatically identify conference details, organizers, and research topics.</h4>", unsafe_allow_html=True)
-        
-        main_col, margin_right_col = st.columns([2, 3])
+        # st.markdown(f"<h4 style='text-align: left; color: gray; margin-bottom: 30px;'>Welcome to the Conference Organisers and Content Identifier (COCI), an AI-powered tool for extracting and structuring metadata from <i><u>calls for papers</u></i>. Please upload your CfP as a .txt file using the form below to automatically identify conference details, organizers, and research topics.</h4>", unsafe_allow_html=True)
+        st.markdown("Please upload your CfP as a .txt file using the form below to automatically identify conference details, organizers, and research topics.")
+        margin_left_col, main_col, margin_right_col = st.columns([1, 2, 1])
         with main_col:
             # st.markdown("### Upload Call for Papers")
             uploaded_file = st.file_uploader("Choose a file", type=["txt"])
