@@ -53,20 +53,109 @@ def main():
         unsafe_allow_html=True
     )
     
+    # Inject CSS to style the cards and define the tinted palettes
+    st.markdown(
+        """
+        <style>
+        .coci-card {
+            padding: 25px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            height: 180px;
+            display: block;
+            text-decoration: none !important;
+        }
+        .coci-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.06);
+        }
+        .coci-card h3 {
+            margin-top: 0;
+            font-size: 20px;
+            text-align: center;
+        }
+        .coci-card p {
+            font-size: 14.5px;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        /* Card 1: Process Events (Slate Blue) */
+        .card-process {
+            background-color: #f0f4f8;
+            border: 1px solid #d0daf0;
+        }
+        .card-process:hover {
+            border-color: #183642;
+        }
+        .card-process h3 {
+            color: #183642;
+        }
+        .card-process p {
+            color: #405060;
+        }
+
+        /* Card 2: Explore Events (Teal/Sage) */
+        .card-explore {
+            background-color: #edf7f6;
+            border: 1px solid #cce8e4;
+        }
+        .card-explore:hover {
+            border-color: #1e6b60;
+        }
+        .card-explore h3 {
+            color: #1e6b60;
+        }
+        .card-explore p {
+            color: #3d5e59;
+        }
+
+        /* Card 3: Explore Organisers (Warm Amber/Bronze) */
+        .card-organisers {
+            background-color: #fbf6ef;
+            border: 1px solid #f2e3cc;
+        }
+        .card-organisers:hover {
+            border-color: #b37424;
+        }
+        .card-organisers h3 {
+            color: #8c5315;
+        }
+        .card-organisers p {
+            color: #664e33;
+        }
+
+        /* Card 4: Audit Researcher (Deep Lavender/Slate Purple) */
+        .card-audit {
+            background-color: #f4f0f6;
+            border: 1px solid #dfd5e7;
+        }
+        .card-audit:hover {
+            border-color: #684b80;
+        }
+        .card-audit h3 {
+            color: #533766;
+        }
+        .card-audit p {
+            color: #4a3a54;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
     # 2x2 Grid Layout for features with clickable HTML links
     row1_col1, row1_col2 = st.columns(2)
     with row1_col1:
         st.markdown(
             """
-            <a href="Process_Events" target="_self" style="text-decoration: none; color: inherit;">
-                <div style="border: 1px solid #e6e8eb; padding: 25px; border-radius: 12px; cursor: pointer; background: #ffffff; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02); height: 180px;" 
-                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.06)'; this.style.borderColor='#183642';"
-                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.02)'; this.style.borderColor='#e6e8eb';">
-                  <h3 style="margin-top:0; color:#1a1d20; text-align:center;">Process Events</h3>
-                  <p style="color:#5f6368; font-size:14.5px; line-height:1.6; margin-bottom:0;">
-                    Upload a Call for Papers in text format to automatically extract and structure its conference details, organizers, and research topics using AI.
-                  </p>
-                </div>
+            <a href="Process_Events" target="_self" class="coci-card card-process">
+              <h3>Process Events</h3>
+              <p>
+                Upload a Call for Papers in text format to automatically extract and structure its conference details, organizers, and research topics using AI.
+              </p>
             </a>
             """,
             unsafe_allow_html=True
@@ -75,15 +164,11 @@ def main():
     with row1_col2:
         st.markdown(
             """
-            <a href="Explore_Events" target="_self" style="text-decoration: none; color: inherit;">
-                <div style="border: 1px solid #e6e8eb; padding: 25px; border-radius: 12px; cursor: pointer; background: #ffffff; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02); height: 180px;" 
-                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.06)'; this.style.borderColor='#183642';"
-                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.02)'; this.style.borderColor='#e6e8eb';">
-                  <h3 style="margin-top:0; color:#1a1d20; text-align:center;">Explore Events</h3>
-                  <p style="color:#5f6368; font-size:14.5px; line-height:1.6; margin-bottom:0;">
-                    Search and inspect all processed conferences in the database by topic, acronym, name, or series, or browse the latest additions.
-                  </p>
-                </div>
+            <a href="Explore_Events" target="_self" class="coci-card card-explore">
+              <h3>Explore Events</h3>
+              <p>
+                Search and inspect all processed conferences in the database by topic, acronym, name, or series, or browse the latest additions.
+              </p>
             </a>
             """,
             unsafe_allow_html=True
@@ -95,15 +180,11 @@ def main():
     with row2_col1:
         st.markdown(
             """
-            <a href="Explore_Organisers" target="_self" style="text-decoration: none; color: inherit;">
-                <div style="border: 1px solid #e6e8eb; padding: 25px; border-radius: 12px; cursor: pointer; background: #ffffff; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02); height: 180px;" 
-                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.06)'; this.style.borderColor='#183642';"
-                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.02)'; this.style.borderColor='#e6e8eb';">
-                  <h3 style="margin-top:0; color:#1a1d20; text-align:center;">Explore Organisers</h3>
-                  <p style="color:#5f6368; font-size:14.5px; line-height:1.6; margin-bottom:0;">
-                    Browse and search academic organizers who have contributed to stored conferences, inspect their profiles, and view their events.
-                  </p>
-                </div>
+            <a href="Explore_Organisers" target="_self" class="coci-card card-organisers">
+              <h3>Explore Organisers</h3>
+              <p>
+                Browse and search academic organizers who have contributed to stored conferences, inspect their profiles, and view their events.
+              </p>
             </a>
             """,
             unsafe_allow_html=True
@@ -112,15 +193,11 @@ def main():
     with row2_col2:
         st.markdown(
             """
-            <a href="Audit_Researchers" target="_self" style="text-decoration: none; color: inherit;">
-                <div style="border: 1px solid #e6e8eb; padding: 25px; border-radius: 12px; cursor: pointer; background: #ffffff; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02); height: 180px;" 
-                     onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.06)'; this.style.borderColor='#183642';"
-                     onmouseout="this.style.transform='none'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.02)'; this.style.borderColor='#e6e8eb';">
-                  <h3 style="margin-top:0; color:#1a1d20; text-align:center;">Audit Researcher</h3>
-                  <p style="color:#5f6368; font-size:14.5px; line-height:1.6; margin-bottom:0;">
-                    Verify publication integrity by querying OpenAlex researcher profiles and auditing their papers against RetractionWatch and PubPeer.
-                  </p>
-                </div>
+            <a href="Audit_Researchers" target="_self" class="coci-card card-audit">
+              <h3>Audit Researcher</h3>
+              <p>
+                Verify publication integrity by querying OpenAlex researcher profiles and auditing their papers against RetractionWatch and PubPeer.
+              </p>
             </a>
             """,
             unsafe_allow_html=True
