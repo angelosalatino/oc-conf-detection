@@ -19,3 +19,22 @@ Build Info: {
         "target_arch": "arm64"
     }
 }
+
+
+# Commands
+
+```mongosh```
+
+```show dbs``` - show databases
+
+```use coci``` - use the coci database
+
+```
+db.events.find().pretty()```
+
+```
+db.events_index.find().pretty()```
+
+## Reset DB
+
+```!python utilities/reset_mongodb.py --uri "mongodb://localhost:27017/" --db "coci" --force```
