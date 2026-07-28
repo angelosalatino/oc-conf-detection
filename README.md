@@ -8,6 +8,9 @@
     - [Key Data Extracted](#key-data-extracted)
     - [Organiser Details](#organiser-details)
     - [Integration and Data Mapping](#integration-and-data-mapping)
+    - [Storage Engines and Schema](#storage-engines-and-schema)
+    - [Database Merging Logic](#database-merging-logic)
+    - [Application Portal Modules](#application-portal-modules)
     - [Organiser Matching Process](#organiser-matching-process)
     - [Rebranding COCI](#rebranding-coci)
     - [How to use it](#how-to-use-it)
@@ -47,6 +50,30 @@ To further enrich the extracted information, the **{st.session_state['config']['
 
 ---
 
+### Storage Engines and Schema
+
+The application supports three storage configurations, defined in the configuration file (`config.ini`):
+- **File Storage**: Saves parsed conference data as JSON files under the `processed_cfps/` directory.
+- **MongoDB Storage**: Persists raw and processed JSON data in a MongoDB instance.
+- **Hybrid Storage (both)**: Saves data to both the local file storage and MongoDB simultaneously.
+
+When using MongoDB, the system creates two collections:
+1. **`events`**: Stores the complete raw LLM output, structured processed conference data, a list of processed file stems (`filenames`), and a parallel list of raw Call for Papers texts (`cfps`). Each document is keyed by a progressive integer ID (`_id` / `index`).
+2. **`events_index`**: Maps each progressive `index` to the `event_name`, `conference_series`, and `year`. This enables extremely fast lookup to determine if a conference has already been parsed.
+
+---
+
+### Database Merging Logic
+
+When a Call for Papers for an event and year that already exists in the database is processed:
+- **Parallel CFP Storage**: Instead of overwriting or discarding, the new file stem is added to the `filenames` array, and the raw CFP text is appended to the `cfps` array, allowing the database to maintain a history of multiple parsed CFPs for the same conference.
+- **Metadata Merging**:
+  - **Organisers**: Compares incoming organisers with existing ones. If a match is found (by comparing ORCID, OpenAlex page, or case-insensitive name), the fields are merged (enriching missing attributes and preserving `verified` status). If no match is found, the new organiser is appended.
+  - **Topics & Enhanced Topics**: Merges the lists of extracted topics (case-insensitively deduplicated). For semantic OpenAlex topics, matches are merged, keeping the match with the higher similarity score.
+  - **General Fields**: Merges DBLP, AIDA, and ConfIDent metadata dictionaries, preserving existing values and adding any new ones.
+
+---
+
 ### Organiser Matching Process
 
 The tool employs a sophisticated multi-stage process to match extracted organisers with their OpenAlex profiles:
@@ -65,7 +92,17 @@ Here is the flowchart:
 
 <img src="pages/flowchart.png" alt="Flowchart for matching organisers" width="500">
 
- 
+---
+
+### Application Portal Modules
+
+The application is structured as a multi-page Streamlit portal, offering the following specialized tools:
+- **Process Events**: Upload plain `.txt` files containing Call for Papers. Run execution in **Cached** (loads from cache), **Mild Force** (reuses LLM output but runs new database matches/mappings), or **Force** (runs entire pipeline from scratch) mode.
+- **Explore Events**: Fuzzy search across processed events' names, acronyms, series, and topics. Includes a strict **60% similarity filter** and lightbulb highlights for topic matches.
+- **Explore Organisers**: Compiles and searches unique organizer records across all stored conferences. Shows verified affiliations, ORCIDs, and lists of conferences they have organized.
+- **Audit Researcher**: Verifies publication integrity by fetching OpenAlex profiles, downloading histories via cursor pagination, and checking DOIs against **Retraction Watch** (OpenAlex & Crossref update API) and **PubPeer** (batch POST discussion API).
+
+---
 
 ### Rebranding COCI
 _(note from 10 Feb 2026)_
@@ -96,6 +133,20 @@ And finally, within a python shell, run the code via Streamlit:
 or
 
 ```python test_script.py cfps/iswc2025.txt```
+
+#### Configuration (`config.ini`)
+
+To configure database storage or API keys, create a `config.ini` file in the root directory (you can use `config_sample.ini` as a template). The storage type can be configured as follows:
+
+```ini
+[STORAGE]
+# Allowed values: file, mongodb, both
+type = both
+
+[MONGODB]
+uri = mongodb://localhost:27017/
+db_name = coci
+```
 
 
 ### Prompt
