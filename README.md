@@ -116,7 +116,7 @@ By simply changing "Organising Committee" to "Organisers and Content", we have s
 
 ```python -m venv /path/to/new/virtual/environment```
 
-Otherwise, refer to (https://docs.python.org/3/library/venv.html)[https://docs.python.org/3/library/venv.html] on how to create a virtual environment. 
+Otherwise, refer to the [Python documentation](https://docs.python.org/3/library/venv.html) on how to create a virtual environment. 
 
 Activate the new environment:
 
