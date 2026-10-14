@@ -53,7 +53,7 @@ st.markdown("### Table of Contents")
 st.markdown(
     """
     * [1. Getting Started: The Hub Landing Page](#getting-started-the-hub-landing-page)
-    * [2. Process Events](#process-events)
+    * [2. Add Events](#add-events)
     * [3. Explore Events](#explore-events)
     * [4. Explore Organisers](#explore-organisers)
     * [5. Audit Researcher](#audit-researcher)
@@ -76,16 +76,16 @@ st.markdown(
 st.write("")
 
 # Section 2
-st.subheader("2. Process Events", anchor="process-events")
+st.subheader("2. Add Events", anchor="add-events")
 st.markdown(
-    "The **Process Events** tool allows you to upload a conference's Call for Papers (CFP) to automatically extract metadata, topics, and organizer details.\n\n"
+    "The **Add Events** tool allows you to upload a conference's Call for Papers (CFP) to automatically extract metadata, topics, and organizer details.\n\n"
     "1. **Prepare the text file**: Locate the official Call for Papers text on the conference website. Copy the text, paste it into a blank text editor, and save it as a plain `.txt` file. Word documents and PDFs are not supported.\n"
     "2. **Upload the file**: Drag and drop or browse to select your `.txt` file using the centered uploader box.\n"
     "3. **Choose Processing Mode**:\n"
     "   * *Cached*: Retrieves previous results from the database if this exact file name has been processed before.\n"
     "   * *Mild Force*: Reuses the extracted metadata from LLM output but reruns local database matching and mapping logic.\n"
     "   * *Force*: Reprocesses the entire text file from scratch through the LLM orchestrator.\n"
-    "4. **Analyze Results**: Click **Process**. Once completed, check the **Results** tab for structured conference details, organized tracks, topics, and matched organizers. Use the **Read Call for Papers** tab to view the formatted original text."
+    "4. **Analyze Results**: Click **Add Event**. Once completed, check the **Results** tab for structured conference details, organized tracks, topics, and matched organizers. Use the **Read Call for Papers** tab to view the formatted original text."
 )
 
 st.write("")

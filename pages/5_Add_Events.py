@@ -34,14 +34,14 @@ def check_page_change(page_name):
 
 def main():
     read_config_file()
-    check_page_change("process_events")
+    check_page_change("add_events")
     
     dest_folder = st.session_state['config']['FOLDERS']['destination_folder']
     storage = ConferenceStorage(dest_folder)
     
     st.set_page_config(
         layout="wide",
-        page_title=st.session_state['config']['APP']['app_acronym'],
+        page_title=f"Add Events - {st.session_state['config']['APP']['app_acronym']}",
         page_icon="🌐"
     )
     
@@ -53,7 +53,8 @@ def main():
     vis.local('assets/css/bootstrap.min.css')
     vis.local('assets/css/mycss.css')
     
-    st.title(st.session_state['config']['APP']['app_name'])
+    st.markdown("<div id='top' style='height: 40px;'></div>", unsafe_allow_html=True)
+    st.title(f"Add Events to {st.session_state['config']['APP']['app_acronym']}")
 
     with st.sidebar:
         vis.add_logo()
@@ -118,7 +119,7 @@ def main():
             # st.divider()
             btn_col1, btn_col2 = st.columns(2)
             with btn_col1:
-                submitted = st.button("Process", type="primary", use_container_width=True)
+                submitted = st.button("Add Event", type="primary", use_container_width=True)
             with btn_col2:
                 clear = st.button("Clear", type="secondary", use_container_width=True)
                 
@@ -127,7 +128,7 @@ def main():
             
         if submitted:
             if call_for_papers is None:
-                st.error("Cannot process as no **call for papers** has been provided.")
+                st.error("Cannot add event as no **call for papers** has been provided.")
             elif len(call_for_papers) == 0:
                 st.error("The **call for papers** file is empty.")
             else:

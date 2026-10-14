@@ -97,7 +97,7 @@ Here is the flowchart:
 ### Application Portal Modules
 
 The application is structured as a multi-page Streamlit portal, offering the following specialized tools:
-- **Process Events**: Upload plain `.txt` files containing Call for Papers. Run execution in **Cached** (loads from cache), **Mild Force** (reuses LLM output but runs new database matches/mappings), or **Force** (runs entire pipeline from scratch) mode.
+- **Add Events**: Upload plain `.txt` files containing Call for Papers. Run execution in **Cached** (loads from cache), **Mild Force** (reuses LLM output but runs new database matches/mappings), or **Force** (runs entire pipeline from scratch) mode.
 - **Explore Events**: Fuzzy search across processed events' names, acronyms, series, and topics. Includes a strict **60% similarity filter** and lightbulb highlights for topic matches.
 - **Explore Organisers**: Compiles and searches unique organizer records across all stored conferences. Shows verified affiliations, ORCIDs, and lists of conferences they have organized.
 - **Audit Researcher**: Verifies publication integrity by fetching OpenAlex profiles, downloading histories via cursor pagination, and checking DOIs against **Retraction Watch** (OpenAlex & Crossref update API) and **PubPeer** (batch POST discussion API).

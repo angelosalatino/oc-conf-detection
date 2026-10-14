@@ -82,18 +82,18 @@ def main():
             margin-bottom: 0;
         }
 
-        /* Card 1: Process Events (Slate Blue) */
-        .card-process {
+        /* Card 1: Add Events (Slate Blue) */
+        .card-add {
             background-color: #f0f4f8;
             border: 1px solid #d0daf0;
         }
-        .card-process:hover {
+        .card-add:hover {
             border-color: #183642;
         }
-        .card-process h3 {
+        .card-add h3 {
             color: #183642;
         }
-        .card-process p {
+        .card-add p {
             color: #405060;
         }
 
@@ -151,8 +151,8 @@ def main():
     with row1_col1:
         st.markdown(
             """
-            <a href="Process_Events" target="_self" class="coci-card card-process">
-              <h3>Process Events</h3>
+            <a href="Add_Events" target="_self" class="coci-card card-add">
+              <h3>Add Events</h3>
               <p>
                 Upload a Call for Papers in text format to automatically extract and structure its conference details, organizers, and research topics using AI.
               </p>
