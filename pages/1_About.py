@@ -43,7 +43,7 @@ st.markdown("<div id='top' style='height: 40px;'></div>", unsafe_allow_html=True
 st.title(f"About the {config['APP']['app_name']}")
 st.markdown(
     f"The **{config['APP']['app_name']}** is an AI-powered system designed to automate the extraction, "
-    f"enrichment, search, and audit of scholarly conference metadata and academic organizer records."
+    f"enrichment, search, and audit of scholarly conference metadata and academic organiser records."
 )
 
 st.divider()
@@ -70,8 +70,8 @@ st.divider()
 # Section 1
 st.subheader("1. Processing Modes", anchor="processing-modes")
 st.markdown(
-    "To optimize processing speed and control API resource utilization, the system offers three execution modes when parsing a document:\n\n"
-    "* **Cached**: Instantly loads the fully matched and finalized JSON data from the database or local storage cache if the file was processed previously.\n"
+    "To optimise processing speed and control API resource utilisation, the system offers three execution modes when parsing a document:\n\n"
+    "* **Cached**: Instantly loads the fully matched and finalised JSON data from the database or local storage cache if the file was processed previously.\n"
     "* **Mild Force**: Reuses the LLM metadata extraction from the cache, but forces a clean execution of local semantic vector search pipelines and database matching algorithms to fetch updated database links.\n"
     "* **Force**: Bypasses all cache systems, initiating a fresh LLM extraction and top-to-bottom re-processing of the document."
 )
@@ -83,12 +83,12 @@ st.subheader("2. Key Data Extracted", anchor="key-data-extracted")
 st.markdown(
     "The system extracts the following structured elements from Call for Papers texts:\n\n"
     "* **Event Name**: Full title of the conference or workshop.\n"
-    "* **Conference Series**: Normalized name of the recurring conference series.\n"
+    "* **Conference Series**: Normalised name of the recurring conference series.\n"
     "* **Event Acronym**: The official acronym for the event.\n"
     "* **Colocated With**: Details of any co-hosted or parent conferences.\n"
     "* **Year**: Calendar year of the conference.\n"
     "* **Location**: Scheduled city and country.\n"
-    "* **Organisers**: Structured list of organizing committee members, including their affiliations, countries, and roles/tracks."
+    "* **Organisers**: Structured list of organising committee members, including their affiliations, countries, and roles/tracks."
 )
 
 st.write("")
@@ -96,10 +96,10 @@ st.write("")
 # Section 3
 st.subheader("3. Topic Extraction and FAISS Matching", anchor="topic-extraction-and-faiss-matching")
 st.markdown(
-    "Standardizing extracted topics of interest is key to categorizing events:\n\n"
+    "Standardising extracted topics of interest is key to categorising events:\n\n"
     "1. **Raw Extraction**: Extracted topics are retrieved directly from the text.\n"
     "2. **Vector Embedding**: Raw topics are encoded into high-dimensional semantic vectors using a SentenceTransformer model.\n"
-    "3. **Similarity Indexing**: Vectors query a local FAISS index containing standardized OpenAlex topics.\n"
+    "3. **Similarity Indexing**: Vectors query a local FAISS index containing standardised OpenAlex topics.\n"
     "4. **Interactive Filtering**: The interface includes a similarity threshold slider. Users can dynamically filter mapped topics on the fly, with zero-lag recalculation, and persist their custom threshold choice to the database."
 )
 
@@ -108,7 +108,7 @@ st.write("")
 # Section 4
 st.subheader("4. Organiser Matching and Verification", anchor="organiser-matching-and-verification")
 st.markdown(
-    "Matches extracted organizer names against OpenAlex to identify verified academic records:\n\n"
+    "Matches extracted organiser names against OpenAlex to identify verified academic records:\n\n"
     "1. **Quality Check**: Discards homogeneous/default affiliations to avoid false matches.\n"
     "2. **Profile Mapping**: Attempts to map names to profiles within their stated institution. If unsuccessful, runs a name-based fallback search.\n"
     "3. **Affiliation Verification**: Cross-references stated affiliations with recent publication history. Validated matches are marked with a verification symbol (✪).\n"
@@ -121,7 +121,7 @@ st.write("")
 st.subheader("5. Database Storage and Parallel Call for Papers", anchor="database-storage-and-parallel-call-for-papers")
 st.markdown(
     "All processed events are stored in a MongoDB collection. To capture the full context of a conference:\n\n"
-    "* **Parallel Arrays**: Stored documents save the raw Call for Papers texts in a parallel `cfps` array synchronized 1-to-1 with file names.\n"
+    "* **Parallel Arrays**: Stored documents save the raw Call for Papers texts in a parallel `cfps` array synchronised 1-to-1 with file names.\n"
     "* **Multiple CFPs**: If a conference has multiple Calls for Papers associated with it (e.g. from different tracks or update cycles), the second text is added to the MongoDB list, preserving all sources for search and reading."
 )
 
@@ -132,7 +132,7 @@ st.subheader("6. Search and Exploration Pipelines", anchor="search-and-explorati
 st.markdown(
     "The search interface supports multi-level exploration of database records:\n\n"
     "* **Event Search**: Matches user queries against event names, acronyms, series, and standard OpenAlex topics, highlighting topic matches with lightbulb badges.\n"
-    "* **Organiser Aggregation**: Aggregates unique organizer profiles across the database using ORCIDs, OpenAlex IDs, and normalized names, linking each organizer to their total list of contributed conferences.\n"
+    "* **Organiser Aggregation**: Aggregates unique organiser profiles across the database using ORCIDs, OpenAlex IDs, and normalised names, linking each organiser to their total list of contributed conferences.\n"
     "* **Match Constraints**: Searches enforce a strict **60% minimum similarity threshold** to filter out irrelevant results."
 )
 
@@ -143,7 +143,7 @@ st.subheader("7. Researcher Auditing Integrations", anchor="researcher-auditing-
 st.markdown(
     "The portal incorporates integrity checks to audit researcher publication lists:\n\n"
     "* **Publications Fetch**: Retrieves the complete publication list of a selected author from OpenAlex using cursor-based pagination.\n"
-    "* **Retraction Watch Checks**: Cross-references DOIs against retraction registries. This utilizes OpenAlex's retraction updates and makes real-time calls to the Crossref API using `update-type:retraction` and ORCID filters.\n"
+    "* **Retraction Watch Checks**: Cross-references DOIs against retraction registries. This utilises OpenAlex's retraction updates and makes real-time calls to the Crossref API using `update-type:retraction` and ORCID filters.\n"
     "* **PubPeer Checks**: Gathers DOIs and queries the PubPeer publications API via batch POST requests, displaying commenter lists and direct links to post-publication discussions."
 )
 

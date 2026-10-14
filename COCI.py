@@ -154,7 +154,7 @@ def main():
             <a href="Add_Events" target="_self" class="coci-card card-add">
               <h3>Add Events</h3>
               <p>
-                Upload a Call for Papers in text format to automatically extract and structure its conference details, organizers, and research topics using AI.
+                Upload a Call for Papers in text format to automatically extract and structure its conference details, organisers, and research topics using AI.
               </p>
             </a>
             """,
@@ -183,7 +183,7 @@ def main():
             <a href="Explore_Organisers" target="_self" class="coci-card card-organisers">
               <h3>Explore Organisers</h3>
               <p>
-                Browse and search academic organizers who have contributed to stored conferences, inspect their profiles, and view their events.
+                Browse and search academic organisers who have contributed to stored conferences, inspect their profiles, and view their events.
               </p>
             </a>
             """,

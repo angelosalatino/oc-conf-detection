@@ -89,8 +89,8 @@ def main():
             
     # UPLOAD FORM VIEW
     else:
-        # st.markdown(f"<h4 style='text-align: left; color: gray; margin-bottom: 30px;'>Welcome to the Conference Organisers and Content Identifier (COCI), an AI-powered tool for extracting and structuring metadata from <i><u>calls for papers</u></i>. Please upload your CfP as a .txt file using the form below to automatically identify conference details, organizers, and research topics.</h4>", unsafe_allow_html=True)
-        st.markdown("Please upload your CfP as a .txt file using the form below to automatically identify conference details, organizers, and research topics.")
+        # st.markdown(f"<h4 style='text-align: left; color: gray; margin-bottom: 30px;'>Welcome to the Conference Organisers and Content Identifier (COCI), an AI-powered tool for extracting and structuring metadata from <i><u>calls for papers</u></i>. Please upload your CfP as a .txt file using the form below to automatically identify conference details, organisers, and research topics.</h4>", unsafe_allow_html=True)
+        st.markdown("Please upload your CfP as a .txt file using the form below to automatically identify conference details, organisers, and research topics.")
         margin_left_col, main_col, margin_right_col = st.columns([1, 2, 1])
         with main_col:
             # st.markdown("### Upload Call for Papers")

@@ -78,14 +78,14 @@ st.write("")
 # Section 2
 st.subheader("2. Add Events", anchor="add-events")
 st.markdown(
-    "The **Add Events** tool allows you to upload a conference's Call for Papers (CFP) to automatically extract metadata, topics, and organizer details.\n\n"
+    "The **Add Events** tool allows you to upload a conference's Call for Papers (CFP) to automatically extract metadata, topics, and organiser details.\n\n"
     "1. **Prepare the text file**: Locate the official Call for Papers text on the conference website. Copy the text, paste it into a blank text editor, and save it as a plain `.txt` file. Word documents and PDFs are not supported.\n"
-    "2. **Upload the file**: Drag and drop or browse to select your `.txt` file using the centered uploader box.\n"
+    "2. **Upload the file**: Drag and drop or browse to select your `.txt` file using the centred uploader box.\n"
     "3. **Choose Processing Mode**:\n"
     "   * *Cached*: Retrieves previous results from the database if this exact file name has been processed before.\n"
     "   * *Mild Force*: Reuses the extracted metadata from LLM output but reruns local database matching and mapping logic.\n"
     "   * *Force*: Reprocesses the entire text file from scratch through the LLM orchestrator.\n"
-    "4. **Analyze Results**: Click **Add Event**. Once completed, check the **Results** tab for structured conference details, organized tracks, topics, and matched organizers. Use the **Read Call for Papers** tab to view the formatted original text."
+    "4. **Analyse Results**: Click **Add Event**. Once completed, check the **Results** tab for structured conference details, organised tracks, topics, and matched organisers. Use the **Read Call for Papers** tab to view the formatted original text."
 )
 
 st.write("")
@@ -106,10 +106,10 @@ st.write("")
 # Section 4
 st.subheader("4. Explore Organisers", anchor="explore-organisers")
 st.markdown(
-    "The **Explore Organisers** page compiles unique organizer records across all stored conferences.\n\n"
-    "1. **Organizer Search**: Enter an organizer's name or affiliation. Results are filtered using a **60% minimum similarity match**.\n"
-    "2. **Quick Browse**: Click **I'm feeling lucky** to display the 10 most recently added organizers.\n"
-    "3. **Detailed Profiles**: Click **View Events** on any organizer card to view their profile, including verified affiliations, country codes, ORCID profile link, OpenAlex page, and a list of all conferences in the database they have organized."
+    "The **Explore Organisers** page compiles unique organiser records across all stored conferences.\n\n"
+    "1. **Organiser Search**: Enter an organiser's name or affiliation. Results are filtered using a **60% minimum similarity match**.\n"
+    "2. **Quick Browse**: Click **I'm feeling lucky** to display the 10 most recently added organisers.\n"
+    "3. **Detailed Profiles**: Click **View Events** on any organiser card to view their profile, including verified affiliations, country codes, ORCID profile link, OpenAlex page, and a list of all conferences in the database they have organised."
 )
 
 st.write("")

@@ -1,25 +1,26 @@
 # Conference Organisers and Content Identifier
- 
+
  The **Conference Organisers and Content Identifier** is an AI-driven tool designed to streamline the process of extracting critical information from academic **Call for Papers (CfPs)**. This tool automates the tedious task of manually parsing documents to identify conference details, series, locations, and, most importantly, organising committee members, and the topics of interest.
- 
+
  By using cutting-edge AI technology, this tool saves researchers and administrators countless hours, allowing them to quickly access and analyse key data points about academic events and their organisers. The tool works by taking a CfP as input and outputting a structured JSON object, making the data easily searchable, shareable, and integrable with other systems.
- 
+
 - [Conference Organisers and Content Identifier](#conference-organisers-and-content-identifier)
     - [Key Data Extracted](#key-data-extracted)
     - [Organiser Details](#organiser-details)
     - [Integration and Data Mapping](#integration-and-data-mapping)
     - [Storage Engines and Schema](#storage-engines-and-schema)
     - [Database Merging Logic](#database-merging-logic)
-    - [Application Portal Modules](#application-portal-modules)
     - [Organiser Matching Process](#organiser-matching-process)
+    - [Application Portal Modules](#application-portal-modules)
     - [Rebranding COCI](#rebranding-coci)
     - [How to use it](#how-to-use-it)
+      - [Configuration (`config.ini`)](#configuration-configini)
     - [Prompt](#prompt)
 
  ---
- 
+
  ### Key Data Extracted
-    
+
 The tool is built to recognise and extract the following core components from a CfP:
 
 - **`event_name`**: The full, official title of the conference or workshop.
@@ -96,10 +97,10 @@ Here is the flowchart:
 
 ### Application Portal Modules
 
-The application is structured as a multi-page Streamlit portal, offering the following specialized tools:
+The application is structured as a multi-page Streamlit portal, offering the following specialised tools:
 - **Add Events**: Upload plain `.txt` files containing Call for Papers. Run execution in **Cached** (loads from cache), **Mild Force** (reuses LLM output but runs new database matches/mappings), or **Force** (runs entire pipeline from scratch) mode.
 - **Explore Events**: Fuzzy search across processed events' names, acronyms, series, and topics. Includes a strict **60% similarity filter** and lightbulb highlights for topic matches.
-- **Explore Organisers**: Compiles and searches unique organizer records across all stored conferences. Shows verified affiliations, ORCIDs, and lists of conferences they have organized.
+- **Explore Organisers**: Compiles and searches unique organiser records across all stored conferences. Shows verified affiliations, ORCIDs, and lists of conferences they have organised.
 - **Audit Researcher**: Verifies publication integrity by fetching OpenAlex profiles, downloading histories via cursor pagination, and checking DOIs against **Retraction Watch** (OpenAlex & Crossref update API) and **PubPeer** (batch POST discussion API).
 
 ---
@@ -108,7 +109,7 @@ The application is structured as a multi-page Streamlit portal, offering the fol
 _(note from 10 Feb 2026)_
 
 By simply changing "Organising Committee" to "Organisers and Content", we have shifted the focus from a narrow group of people to a broader spectrum of information without losing the brand equity of COCI.
-    
+
 
  ### How to use it
 
@@ -116,7 +117,7 @@ By simply changing "Organising Committee" to "Organisers and Content", we have s
 
 ```python -m venv /path/to/new/virtual/environment```
 
-Otherwise, refer to the [Python documentation](https://docs.python.org/3/library/venv.html) on how to create a virtual environment. 
+Otherwise, refer to the [Python documentation](https://docs.python.org/3/library/venv.html) on how to create a virtual environment.
 
 Activate the new environment:
 
@@ -170,7 +171,7 @@ Extract:
 - the location of the event;
 - the list of topics of interest;
 - the list of all organisers/people.
-            
+
 <call_for_papers>
 {cfp.text}
 </call_for_papers>

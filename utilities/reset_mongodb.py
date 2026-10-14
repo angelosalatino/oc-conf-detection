@@ -50,7 +50,7 @@ def reset_database():
         ("year", pymongo.ASCENDING)
     ], unique=True)
 
-    print("\nDatabase reset and initialized successfully!")
+    print("\nDatabase reset and initialised successfully!")
 
 if __name__ == "__main__":
     reset_database()

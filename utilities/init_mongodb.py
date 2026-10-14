@@ -4,7 +4,7 @@ import configparser
 import pymongo
 
 def initialize_database():
-    parser = argparse.ArgumentParser(description="Initialize MongoDB Database for COCI")
+    parser = argparse.ArgumentParser(description="Initialise MongoDB Database for COCI")
     parser.add_argument("--uri", type=str, help="MongoDB connection URI (overrides config.ini)")
     parser.add_argument("--db", type=str, help="Database name (overrides config.ini)")
     args = parser.parse_args()
@@ -55,7 +55,7 @@ def initialize_database():
         ("year", pymongo.ASCENDING)
     ], unique=True)
 
-    print("\nDatabase initialization completed successfully!")
+    print("\nDatabase initialisation completed successfully!")
     print("MongoDB tables/collections and indexes are ready.")
 
 if __name__ == "__main__":
