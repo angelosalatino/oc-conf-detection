@@ -132,7 +132,9 @@ st.subheader("6. Search and Exploration Pipelines", anchor="search-and-explorati
 st.markdown(
     "The search interface supports multi-level exploration of database records:\n\n"
     "* **Event Search**: Matches user queries against event names, acronyms, series, and standard OpenAlex topics, highlighting topic matches with lightbulb badges.\n"
-    "* **Organiser Aggregation**: Aggregates unique organiser profiles across the database using ORCIDs, OpenAlex IDs, and normalised names, linking each organiser to their total list of contributed conferences.\n"
+    "* **Event Details & View Toggle**: When inspecting an event, the organisers dataframe defaults to a **Simplified view** (Name with OpenAlex profile link, Affiliation, Country, and Track) with an optional **Comprehensive view** toggle for full metadata.\n"
+    "* **Audit Organisers**: Allows users to run an in-event bulk audit across all organisers with OpenAlex profiles, evaluating them against RetractionWatch and PubPeer with direct deep-links to full researcher profiles.\n"
+    "* **Search Organiser Module**: Aggregates unique organiser records across the database using ORCIDs, OpenAlex IDs, and normalised names. Each organiser profile features dual tabs for inspecting their contributed conferences and instantly auditing their academic record.\n"
     "* **Match Constraints**: Searches enforce a strict **60% minimum similarity threshold** to filter out irrelevant results."
 )
 
@@ -141,10 +143,11 @@ st.write("")
 # Section 7
 st.subheader("7. Researcher Auditing Integrations", anchor="researcher-auditing-integrations")
 st.markdown(
-    "The portal incorporates integrity checks to audit researcher publication lists:\n\n"
+    "The portal incorporates rigorous integrity checks to audit researcher publication lists:\n\n"
     "* **Publications Fetch**: Retrieves the complete publication list of a selected author from OpenAlex using cursor-based pagination.\n"
-    "* **Retraction Watch Checks**: Cross-references DOIs against retraction registries. This utilises OpenAlex's retraction updates and makes real-time calls to the Crossref API using `update-type:retraction` and ORCID filters.\n"
-    "* **PubPeer Checks**: Gathers DOIs and queries the PubPeer publications API via batch POST requests, displaying commenter lists and direct links to post-publication discussions."
+    "* **Retraction Watch Checks**: Cross-references publication DOIs against retraction registries. This utilises OpenAlex's retraction updates and cross-checks the Crossref API using `update-type:retraction` verified strictly at the individual paper (DOI) and ORCID level to eliminate false positives.\n"
+    "* **PubPeer Checks**: Gathers DOIs and queries the PubPeer publications API via batch POST requests, displaying commenter lists and direct links to post-publication peer review discussions.\n"
+    "* **Deep-Link Integration**: Supports direct URL parameter routing (`?author_id=...`), allowing seamless navigation from search and event exploration views into pre-loaded audit dashboards."
 )
 
 st.write("")

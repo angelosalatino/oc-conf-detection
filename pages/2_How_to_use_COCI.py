@@ -96,9 +96,11 @@ st.markdown(
     "The **Explore Events** tool enables you to search and browse through all processed conferences stored in the database.\n\n"
     "1. **Fuzzy Search**: Type keywords into the search bar. The tool searches across conference names, acronyms, series, and extracted topic lists.\n"
     "2. **Strict Relevance Filtering**: The system filters search results to exclude any match with a similarity score below **60%**.\n"
-    "3. **Matched Topics**: If a search term matches an extracted topic of a conference, a lightbulb icon will highlight the matched topic (e.g. `Matched topic: 'Ontology Engineering'`).\n"
+    "3. **Matched Topics**: If a search term matches an extracted topic of a conference, a lightbulb icon highlights the matched topic (e.g. `Matched topic: 'Ontology Engineering'`).\n"
     "4. **Quick Browse**: Click the **I'm feeling lucky** button to quickly display the last 10 conferences added to the system.\n"
-    "5. **View Event**: Click on any result card to view the complete parsed details of the conference."
+    "5. **Add Event Call-to-Action**: If you cannot find the conference you are looking for, a dedicated **+ Add Event** button next to the search results header and in empty search states takes you directly to the **Add Events** page.\n"
+    "6. **Organisers Table & Toggle View**: When inspecting an event, the organisers table defaults to a **Simplified view** (showing the organiser's hyperlinked Name, Affiliation, Country, and Track). You can switch on the **Comprehensive view** toggle to display all metadata columns (including ORCID, OpenAlex Profile, and ROR).\n"
+    "7. **Audit Organisers**: Below the table, click **Audit Organisers** to screen all committee members with OpenAlex profiles. This checks their publications against the RetractionWatch database and PubPeer post-publication peer review, displaying a summary `RW-PB` status column (`✅` clean, `⚠️` retracted paper found, `💬` PubPeer discussions, or `➖` no profile) with a direct `🔗` link to inspect individual researcher profiles."
 )
 
 st.write("")
@@ -109,7 +111,9 @@ st.markdown(
     "The **Search Organiser** page compiles unique organiser records across all stored conferences.\n\n"
     "1. **Organiser Search**: Enter an organiser's name or affiliation. Results are filtered using a **60% minimum similarity match**.\n"
     "2. **Quick Browse**: Click **I'm feeling lucky** to display the 10 most recently added organisers.\n"
-    "3. **Detailed Profiles**: Click **View Events** on any organiser card to view their profile, including verified affiliations, country codes, ORCID profile link, OpenAlex page, and a list of all conferences in the database they have organised."
+    "3. **Dual Profile Tabs**: Selecting an organiser opens their dedicated profile, split into two tabs:\n"
+    "   * **📚 Organised Events**: Displays all conferences in the database they have contributed to, with direct links to view complete event details.\n"
+    "   * **🔍 Researcher Audit**: Directly runs an automated integrity audit using their verified OpenAlex profile without requiring profile reselection, checking their full publication record against RetractionWatch and PubPeer."
 )
 
 st.write("")
@@ -119,9 +123,10 @@ st.subheader("5. Audit Researcher", anchor="audit-researcher")
 st.markdown(
     "The **Audit Researcher** tool verifies publication integrity by checking researcher profiles against RetractionWatch and PubPeer.\n\n"
     "1. **Search Profiles**: Enter a researcher's name to query academic profiles on OpenAlex. Select the correct profile from the results list.\n"
-    "2. **Fetch Publications**: The tool queries OpenAlex and downloads the researcher's complete publication record using cursor pagination.\n"
-    "3. **RetractionWatch Check**: Scans the publication list for retracted articles. This uses OpenAlex's retraction status and queries the Crossref update API for retraction records matching the researcher's name or ORCID.\n"
-    "4. **PubPeer Discussion Check**: Extracts DOIs from the publication list and queries the PubPeer API in batch. It displays any publications with comments, providing commenters lists and direct links to read discussions on PubPeer."
+    "2. **Direct Deep-Linking**: You can open this tool pre-populated via URL query parameter (e.g. `?author_id=https://openalex.org/A...`), which automatically loads the researcher and initiates the audit.\n"
+    "3. **Fetch Publications**: The tool queries OpenAlex and downloads the researcher's complete publication record using cursor pagination.\n"
+    "4. **RetractionWatch Check**: Scans the publication list for retracted articles. This uses OpenAlex's retraction status and cross-checks the Crossref update API for retraction records verified at the individual paper (DOI) and ORCID level.\n"
+    "5. **PubPeer Discussion Check**: Extracts DOIs from the publication list and queries the PubPeer API in batch. It displays any publications with comments, providing commenters' lists and direct links to read discussions on PubPeer."
 )
 
 # Scroll to top button
