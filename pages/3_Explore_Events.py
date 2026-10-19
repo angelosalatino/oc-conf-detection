@@ -220,12 +220,58 @@ else:
             # Sort by similarity score descending, and then by Index ID descending
             matched.sort(key=lambda x: (x.get("similarity", 0), x.get("index", 0)), reverse=True)
             results = matched
-            st.subheader(f"Search results for '{query}' ({len(results)} matches)")
+            
+            res_head_col, add_btn_col = st.columns([5, 4], vertical_alignment="bottom")
+            with res_head_col:
+                st.subheader(f"Search results for '{query}' ({len(results)} matches)")
+            with add_btn_col:
+                st.markdown(
+                    """
+                    <div style="display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin-bottom: 8px;">
+                      <span style="color: #666; font-size: 14px;">Did not find the event of your interest?</span>
+                      <a href="Add_Events" target="_self" style="
+                        background-color: #183642;
+                        color: #ffffff !important;
+                        padding: 6px 14px;
+                        border-radius: 6px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 13.5px;
+                        display: inline-block;
+                        white-space: nowrap;
+                      ">
+                        <span style="color: #ffffff; font-weight: bold; margin-right: 4px;">+</span><span style="color: #ffffff;">Add Event</span>
+                      </a>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
 
     # Display list of events
     if mode == 'lucky' or (mode == 'search' and st.session_state.get('search_term', '').strip()):
         if not results:
-            st.info("No matching events found in the database.")
+            with st.container(border=True):
+                st.info("No matching events found in the database.")
+                st.markdown(
+                    """
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                      <span style="color: #555; font-size: 14.5px;">Did not find the event of your interest?</span>
+                      <a href="Add_Events" target="_self" style="
+                        background-color: #183642;
+                        color: #ffffff !important;
+                        padding: 6px 16px;
+                        border-radius: 6px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 14px;
+                        display: inline-block;
+                      ">
+                        <span style="color: #ffffff; font-weight: bold; margin-right: 4px;">+</span><span style="color: #ffffff;">Add Event</span>
+                      </a>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
         else:
             for doc in results:
                 idx = doc["index"]
