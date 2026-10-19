@@ -186,18 +186,57 @@ class ConferenceVisualiser(CoreVisualiser):
             organisers_mod.loc[organisers_mod['verified'] == True, 'Affiliation'] = organisers_mod['Affiliation'] + ' ✪'
             organisers_mod = organisers_mod.drop(columns=['verified'])
         
-        self.add_header("Organisers")
+        head_col, toggle_col = st.columns([4, 1], vertical_alignment="bottom")
+        with head_col:
+            self.add_header("Organisers")
+        with toggle_col:
+            comprehensive_view = st.toggle("Comprehensive view", value=False, key=f"org_toggle_{filename or getattr(conf, 'acronym', 'default')}")
+        
         if organisers_mod.empty:
             st.write("No organisers found.")
         else:
-            st.dataframe(organisers_mod,
-                column_config={
-                    "ROR": st.column_config.LinkColumn("ROR", display_text=r"https://ror\.org/(.*)"),
-                    "OpenAlex Profile": st.column_config.LinkColumn("OpenAlex Profile", display_text=r"https://openalex\.org/(.*)"),
-                    "ORCID": st.column_config.LinkColumn("ORCID", display_text=r"https://orcid\.org/(.*)"),
-                },
-                width=1920
-            )
+            if not comprehensive_view:
+                # Simplified view (default): Name (hyperlinked to OpenAlex Profile), Affiliation, Country, Track
+                simple_df = organisers_mod.copy(deep=True)
+                has_openalex = "OpenAlex Profile" in simple_df.columns
+                
+                # Format Name column: embed name in OpenAlex URL fragment so LinkColumn displays the person's name as a clickable link
+                if has_openalex:
+                    def make_name_link(row):
+                        name = str(row.get("Name", ""))
+                        url = row.get("OpenAlex Profile")
+                        if pd.notnull(url) and str(url).strip():
+                            clean_url = str(url).strip().rstrip("/")
+                            return f"{clean_url}#{name}"
+                        return name
+
+                    simple_df["Name"] = simple_df.apply(make_name_link, axis=1)
+
+                simple_cols = [c for c in ["Name", "Affiliation", "Country", "Track"] if c in simple_df.columns]
+                df_to_show = simple_df[simple_cols]
+
+                st.dataframe(
+                    df_to_show,
+                    column_config={
+                        "Name": st.column_config.LinkColumn(
+                            "Name",
+                            help="Organiser name (links to OpenAlex Profile if matched)",
+                            display_text=r"#(.*)"
+                        ),
+                    },
+                    width=1920
+                )
+            else:
+                # Comprehensive view: show all available columns from the full in-memory dataframe
+                st.dataframe(
+                    organisers_mod,
+                    column_config={
+                        "ROR": st.column_config.LinkColumn("ROR", display_text=r"https://ror\.org/(.*)"),
+                        "OpenAlex Profile": st.column_config.LinkColumn("OpenAlex Profile", display_text=r"https://openalex\.org/(.*)"),
+                        "ORCID": st.column_config.LinkColumn("ORCID", display_text=r"https://orcid\.org/(.*)"),
+                    },
+                    width=1920
+                )
         
         self.add_header("Conference on External Indexes")
         dfColumns = st.columns(3)
