@@ -112,7 +112,7 @@ def main():
             color: #3d5e59;
         }
 
-        /* Card 3: Explore Organisers (Warm Amber/Bronze) */
+        /* Card 3: Search Organiser (Warm Amber/Bronze) */
         .card-organisers {
             background-color: #fbf6ef;
             border: 1px solid #f2e3cc;
@@ -180,8 +180,8 @@ def main():
     with row2_col1:
         st.markdown(
             """
-            <a href="Explore_Organisers" target="_self" class="coci-card card-organisers">
-              <h3>Explore Organisers</h3>
+            <a href="Search_Organiser" target="_self" class="coci-card card-organisers">
+              <h3>Search Organiser</h3>
               <p>
                 Browse and search academic organisers who have contributed to stored conferences, inspect their profiles, and view their events.
               </p>

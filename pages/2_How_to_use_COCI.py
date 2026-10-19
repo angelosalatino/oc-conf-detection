@@ -55,7 +55,7 @@ st.markdown(
     * [1. Getting Started: The Hub Landing Page](#getting-started-the-hub-landing-page)
     * [2. Add Events](#add-events)
     * [3. Explore Events](#explore-events)
-    * [4. Explore Organisers](#explore-organisers)
+    * [4. Search Organiser](#search-organiser)
     * [5. Audit Researcher](#audit-researcher)
     """,
     unsafe_allow_html=True
@@ -104,9 +104,9 @@ st.markdown(
 st.write("")
 
 # Section 4
-st.subheader("4. Explore Organisers", anchor="explore-organisers")
+st.subheader("4. Search Organiser", anchor="search-organiser")
 st.markdown(
-    "The **Explore Organisers** page compiles unique organiser records across all stored conferences.\n\n"
+    "The **Search Organiser** page compiles unique organiser records across all stored conferences.\n\n"
     "1. **Organiser Search**: Enter an organiser's name or affiliation. Results are filtered using a **60% minimum similarity match**.\n"
     "2. **Quick Browse**: Click **I'm feeling lucky** to display the 10 most recently added organisers.\n"
     "3. **Detailed Profiles**: Click **View Events** on any organiser card to view their profile, including verified affiliations, country codes, ORCID profile link, OpenAlex page, and a list of all conferences in the database they have organised."

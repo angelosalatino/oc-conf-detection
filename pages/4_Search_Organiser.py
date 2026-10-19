@@ -36,12 +36,12 @@ def check_page_change(page_name):
             if key in st.session_state:
                 del st.session_state[key]
 
-check_page_change("explore_organisers")
+check_page_change("search_organiser")
 
 # Page configuration
 st.set_page_config(
     layout="wide",
-    page_title=f"Explore Organisers - {config['APP']['app_acronym']}",
+    page_title=f"Search Organiser - {config['APP']['app_acronym']}",
     page_icon="🌐",
 )
 
@@ -57,7 +57,7 @@ storage_type = config.get('STORAGE', 'type', fallback='file')
 storage_type = storage_type.split('#')[0].split(';')[0].strip()
 
 if storage_type not in ['mongodb', 'both']:
-    st.warning("⚠️ The **Explore Organisers** page requires MongoDB to be active. Please enable it by setting `type = mongodb` or `type = both` in the `[STORAGE]` section of your `config.ini` file.")
+    st.warning("⚠️ The **Search Organiser** page requires MongoDB to be active. Please enable it by setting `type = mongodb` or `type = both` in the `[STORAGE]` section of your `config.ini` file.")
     vis.render_footer()
     st.stop()
 
@@ -260,7 +260,7 @@ elif 'selected_organiser_key' in st.session_state:
 # ----------------- LEVEL 3: SEARCH LIST VIEW -----------------
 else:
     st.markdown("<div id='top' style='height: 40px;'></div>", unsafe_allow_html=True)
-    st.title("Explore Organisers in COCI")
+    st.title("Search Organiser in COCI")
     st.markdown("Search for conference organisers by name, openalex name, or affiliation, or click **I'm feeling lucky** to see the latest organisers added to the system.")
 
     # Centered Search Controls
