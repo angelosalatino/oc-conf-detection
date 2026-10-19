@@ -8,6 +8,9 @@ import configparser
 import pymongo
 from rapidfuzz import fuzz
 from pathlib import Path
+import requests
+import pyalex
+from pyalex import Authors, Works
 
 from classes.visualiser import ConferenceVisualiser
 from classes.conference import Conference
@@ -236,26 +239,191 @@ elif 'selected_organiser_key' in st.session_state:
                 st.markdown("**OpenAlex Profile**: *Not available*")
                 
         st.divider()
-        st.subheader("📚 Organised Events")
-        st.write(f"This organiser has contributed to {len(org['events'])} event(s) in the database:")
         
-        for ev in org["events"]:
-            ev_idx = ev["index"]
-            ev_name = ev.get("event_name", "Unknown Event")
-            ev_year = ev.get("year", "")
-            ev_series = ev.get("conference_series", "")
+        tab_events, tab_audit = st.tabs(["📚 Organised Events", "🔍 Researcher Audit"])
+        
+        with tab_events:
+            st.subheader("📚 Organised Events")
+            st.write(f"This organiser has contributed to {len(org['events'])} event(s) in the database:")
             
-            with st.container(border=True):
-                ev_col, btn_col = st.columns([5, 1], vertical_alignment="center")
-                with ev_col:
-                    st.markdown(f"#### {ev_name} ({ev_year})")
-                    if ev_series and ev_series != ev_name:
-                        st.markdown(f"**Series**: {ev_series}")
-                    st.markdown(f"**ID / Index**: {ev_idx}")
-                with btn_col:
-                    if st.button("View Event", key=f"org_view_ev_{ev_idx}", type="primary", use_container_width=True):
-                        st.session_state['selected_event_id'] = ev_idx
-                        st.rerun()
+            for ev in org["events"]:
+                ev_idx = ev["index"]
+                ev_name = ev.get("event_name", "Unknown Event")
+                ev_year = ev.get("year", "")
+                ev_series = ev.get("conference_series", "")
+                
+                with st.container(border=True):
+                    ev_col, btn_col = st.columns([5, 1], vertical_alignment="center")
+                    with ev_col:
+                        st.markdown(f"#### {ev_name} ({ev_year})")
+                        if ev_series and ev_series != ev_name:
+                            st.markdown(f"**Series**: {ev_series}")
+                        st.markdown(f"**ID / Index**: {ev_idx}")
+                    with btn_col:
+                        if st.button("View Event", key=f"org_view_ev_{ev_idx}", type="primary", use_container_width=True):
+                            st.session_state['selected_event_id'] = ev_idx
+                            st.rerun()
+
+        with tab_audit:
+            st.subheader("🔍 Researcher Audit")
+            openalex_page = org.get("openalex_page", "")
+            
+            if not openalex_page:
+                st.info("⚠️ No OpenAlex profile is linked to this organiser, so an automatic audit cannot be performed.")
+            else:
+                # Configure OpenAlex API
+                pyalex.config.api_key = config.get('OPENALEX', 'openalex_api', fallback='')
+                author_id = openalex_page.strip()
+                
+                try:
+                    with st.spinner("Retrieving profile and publications from OpenAlex..."):
+                        author_obj = Authors()[author_id]
+                        works = []
+                        pager = Works().filter(author={"id": author_id}).paginate(n_max=None)
+                        for page in pager:
+                            works.extend(page)
+                            
+                    # Profile summary & metrics
+                    audit_author_name = author_obj.get("display_name", org.get("openalex_name") or org.get("name"))
+                    audit_orcid = author_obj.get("orcid") or org.get("orcid") or ""
+                    
+                    last_inst = author_obj.get("last_known_institution")
+                    inst_name = last_inst.get("display_name", "") if last_inst else ""
+                    inst_country = last_inst.get("country_code", "") if last_inst else ""
+                    if inst_name:
+                        loc_str = f" ({inst_country})" if inst_country else ""
+                        st.markdown(f"🏢 **Last Known Institution**: {inst_name}{loc_str}")
+                        
+                    col_m1, col_m2, col_m3 = st.columns(3)
+                    with col_m1:
+                        st.metric("Total Papers", author_obj.get("works_count", len(works)))
+                    with col_m2:
+                        st.metric("Total Citations", author_obj.get("cited_by_count", 0))
+                    with col_m3:
+                        if audit_orcid:
+                            audit_orcid_url = audit_orcid if audit_orcid.startswith("http") else f"https://orcid.org/{audit_orcid}"
+                            st.markdown(f"🔗 **ORCID**: [{audit_orcid}]({audit_orcid_url})")
+                        st.markdown(f"🌐 [OpenAlex Profile Page]({author_id})")
+                        
+                    st.divider()
+                    st.write(f"Auditing **{len(works)}** publications...")
+                    
+                    # 1. RetractionWatch Database Audit
+                    st.markdown("### 🚨 RetractionWatch Database Audit")
+                    
+                    retracted_papers = []
+                    for w in works:
+                        if w.get("is_retracted"):
+                            title = w.get("title", "Unknown Title")
+                            doi = w.get("doi") or ""
+                            if doi.startswith("https://doi.org/"):
+                                doi = doi.replace("https://doi.org/", "")
+                            pub_year = w.get("publication_year", "")
+                            retracted_papers.append({
+                                "title": title,
+                                "doi": doi,
+                                "year": pub_year,
+                                "source": "OpenAlex (RetractionWatch)"
+                            })
+                            
+                    # Crossref retraction updates check
+                    crossref_retracted = []
+                    crossref_url = "https://api.crossref.org/v1/works"
+                    params = {
+                        "query.author": audit_author_name,
+                        "filter": "update-type:retraction",
+                        "rows": 50
+                    }
+                    if audit_orcid:
+                        orcid_num = audit_orcid.split("orcid.org/")[-1].strip()
+                        params["filter"] = f"orcid:{orcid_num},update-type:retraction"
+                        
+                    try:
+                        resp = requests.get(crossref_url, params=params, timeout=10)
+                        if resp.status_code == 200:
+                            items = resp.json().get("message", {}).get("items", [])
+                            for item in items:
+                                c_doi = item.get("DOI", "")
+                                c_title = item.get("title", ["Unknown Title"])[0]
+                                c_year = ""
+                                date_parts = item.get("created", {}).get("date-parts", [[None]])[0]
+                                if date_parts and date_parts[0]:
+                                    c_year = date_parts[0]
+                                
+                                if not any(p["doi"].lower() == c_doi.lower() for p in retracted_papers):
+                                    crossref_retracted.append({
+                                        "title": c_title,
+                                        "doi": c_doi,
+                                        "year": c_year,
+                                        "source": "Crossref Retractions"
+                                    })
+                    except Exception as e:
+                        st.caption(f"Note: Crossref query bypassed or failed: {e}")
+                        
+                    all_retracted = retracted_papers + crossref_retracted
+                    
+                    if all_retracted:
+                        st.error(f"⚠️ **FLAGGED**: Found {len(all_retracted)} retracted paper(s) associated with this researcher!")
+                        for p in all_retracted:
+                            with st.container(border=True):
+                                st.markdown(f"❌ **{p['title']}** ({p['year']})")
+                                if p['doi']:
+                                    st.markdown(f"**DOI**: [{p['doi']}](https://doi.org/{p['doi']})")
+                                st.markdown(f"**Verification Source**: {p['source']}")
+                    else:
+                        st.success("✅ **Passed**: No retracted papers found in RetractionWatch or Crossref databases.")
+                        
+                    st.divider()
+                    
+                    # 2. PubPeer Comments Check
+                    st.markdown("### 💬 PubPeer Post-Publication Peer Review")
+                    
+                    dois = []
+                    doi_to_work = {}
+                    for w in works:
+                        doi = w.get("doi") or ""
+                        if doi:
+                            if doi.startswith("https://doi.org/"):
+                                doi = doi.replace("https://doi.org/", "")
+                            doi = doi.strip()
+                            dois.append(doi)
+                            doi_to_work[doi] = w
+                            
+                    pubpeer_results = []
+                    if dois:
+                        pubpeer_url = "https://pubpeer.com/v3/publications"
+                        try:
+                            resp = requests.post(pubpeer_url, json={"dois": dois, "devkey": "Zotero"}, timeout=10)
+                            if resp.status_code == 200:
+                                feedbacks = resp.json().get("feedbacks", [])
+                                for fb in feedbacks:
+                                    doi_key = fb.get("id")
+                                    matched_work = doi_to_work.get(doi_key, {})
+                                    pubpeer_results.append({
+                                        "title": fb.get("title") or matched_work.get("title") or "Unknown Title",
+                                        "doi": doi_key,
+                                        "total_comments": fb.get("total_comments", 0),
+                                        "last_comment": fb.get("last_commented_at", ""),
+                                        "url": fb.get("url", ""),
+                                        "users": fb.get("users", "")
+                                    })
+                        except Exception as e:
+                            st.warning(f"Could not check comments on PubPeer: {e}")
+                            
+                    if pubpeer_results:
+                        st.warning(f"💡 **ALERT**: Found {len(pubpeer_results)} paper(s) with comments or discussions on PubPeer.")
+                        for fb in pubpeer_results:
+                            with st.container(border=True):
+                                st.markdown(f"💬 **{fb['title']}**")
+                                st.markdown(f"**Comments count**: {fb['total_comments']} | **Last commented**: {fb['last_comment']}")
+                                if fb['users']:
+                                    st.markdown(f"**Commenters**: *{fb['users']}*")
+                                st.markdown(f"🔗 [Read comments on PubPeer]({fb['url']})")
+                    else:
+                        st.success("✅ **Passed**: No comments found on PubPeer for this author's papers.")
+                        
+                except Exception as e:
+                    st.error(f"❌ Failed to run audit: {e}")
 
 # ----------------- LEVEL 3: SEARCH LIST VIEW -----------------
 else:
