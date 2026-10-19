@@ -145,18 +145,6 @@ else:
         loc_str = f" ({country})" if country else ""
         st.markdown(f"🏢 **Institution**: {inst_name}{loc_str}")
         
-    # Metrics
-    col_metrics = st.columns(3)
-    with col_metrics[0]:
-        st.metric("Total Papers", author.get("works_count", 0))
-    with col_metrics[1]:
-        st.metric("Total Citations", author.get("cited_by_count", 0))
-    with col_metrics[2]:
-        orcid_url = orcid if orcid.startswith("http") else f"https://orcid.org/{orcid}" if orcid else ""
-        if orcid_url:
-            st.markdown(f"🔗 **ORCID**: [{orcid}]({orcid_url})")
-        st.markdown(f"🌐 [OpenAlex Profile Page]({author_id})")
-        
     # Fetch works
     pyalex.config.api_key = config.get('OPENALEX', 'openalex_api', fallback='')
     
@@ -171,8 +159,28 @@ else:
             st.error(f"❌ Failed to fetch publications from OpenAlex: {e}")
             vis.render_footer()
             st.stop()
+
+    total_profile_works = author.get("works_count", len(works))
+
+    # Metrics
+    col_metrics = st.columns(3)
+    with col_metrics[0]:
+        st.metric(
+            "Total Papers",
+            f"{len(works)}",
+            help=f"Audited {len(works)} core publication records (out of {total_profile_works} total profile records across all repositories and expansion items)."
+        )
+    with col_metrics[1]:
+        st.metric("Total Citations", author.get("cited_by_count", 0))
+    with col_metrics[2]:
+        orcid_url = orcid if orcid.startswith("http") else f"https://orcid.org/{orcid}" if orcid else ""
+        if orcid_url:
+            st.markdown(f"🔗 **ORCID**: [{orcid}]({orcid_url})")
+        st.markdown(f"🌐 [OpenAlex Profile Page]({author_id})")
             
     st.subheader(f"Auditing {len(works)} publications...")
+    if total_profile_works > len(works):
+        st.caption(f"ℹ️ Auditing all **{len(works)}** indexed core publications. (OpenAlex reports **{total_profile_works}** total records, including unindexed repository items and expansion entries).")
     
     # ---------------- 1. RetractionWatch Database Audit ----------------
     st.markdown("### 🚨 RetractionWatch Database Audit")

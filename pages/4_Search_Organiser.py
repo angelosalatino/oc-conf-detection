@@ -294,9 +294,14 @@ elif 'selected_organiser_key' in st.session_state:
                         loc_str = f" ({inst_country})" if inst_country else ""
                         st.markdown(f"🏢 **Last Known Institution**: {inst_name}{loc_str}")
                         
+                    total_profile_works = author_obj.get("works_count", len(works))
                     col_m1, col_m2, col_m3 = st.columns(3)
                     with col_m1:
-                        st.metric("Total Papers", author_obj.get("works_count", len(works)))
+                        st.metric(
+                            "Total Papers",
+                            f"{len(works)}",
+                            help=f"Audited {len(works)} core publication records (out of {total_profile_works} total profile records across all repositories and expansion items)."
+                        )
                     with col_m2:
                         st.metric("Total Citations", author_obj.get("cited_by_count", 0))
                     with col_m3:
@@ -307,6 +312,8 @@ elif 'selected_organiser_key' in st.session_state:
                         
                     st.divider()
                     st.write(f"Auditing **{len(works)}** publications...")
+                    if total_profile_works > len(works):
+                        st.caption(f"ℹ️ Auditing all **{len(works)}** indexed core publications. (OpenAlex reports **{total_profile_works}** total records, including unindexed repository items and expansion entries).")
                     
                     # 1. RetractionWatch Database Audit
                     st.markdown("### 🚨 RetractionWatch Database Audit")
