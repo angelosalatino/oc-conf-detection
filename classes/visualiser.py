@@ -4,6 +4,9 @@ from io import BytesIO
 import base64
 import os
 import html
+import requests
+import pyalex
+from pyalex import Works
 from .conference import Conference
 
 class CoreVisualiser:
@@ -186,17 +189,46 @@ class ConferenceVisualiser(CoreVisualiser):
             organisers_mod.loc[organisers_mod['verified'] == True, 'Affiliation'] = organisers_mod['Affiliation'] + ' ✪'
             organisers_mod = organisers_mod.drop(columns=['verified'])
         
+        conf_key = filename or getattr(conf, 'acronym', 'default') or 'default'
+        audit_state_key = f"audit_results_{conf_key}"
+        if audit_state_key not in st.session_state:
+            st.session_state[audit_state_key] = None
+
+        audit_dict = st.session_state[audit_state_key]
+        if audit_dict is not None:
+            # Map combined audit status to organisers_mod: [RW_emoji PB_emoji] with link to Audit_Researchers
+            def get_rwpb_value(row):
+                name = str(row.get("Name", "")).strip()
+                openalex = str(row.get("OpenAlex Profile", "")).strip() if "OpenAlex Profile" in row else ""
+                entry = audit_dict.get(openalex) or audit_dict.get(name)
+                if not entry or not isinstance(entry, dict):
+                    return "—"
+                rw = entry.get("rw", "➖")
+                pb = entry.get("pb", "➖")
+                
+                # If OpenAlex Profile is available, format as LinkColumn cell with fragment #emoji emoji 🔗
+                if openalex and openalex.startswith("http"):
+                    import urllib.parse
+                    encoded_id = urllib.parse.quote(openalex, safe="")
+                    # Deep-link to Audit_Researchers
+                    target_url = f"Audit_Researchers?author_id={encoded_id}"
+                    return f"{target_url}#{rw} {pb} 🔗"
+                else:
+                    return f"#{rw} {pb}"
+
+            organisers_mod["RW-PB"] = organisers_mod.apply(get_rwpb_value, axis=1)
+
         head_col, toggle_col = st.columns([4, 1], vertical_alignment="bottom")
         with head_col:
             self.add_header("Organisers")
         with toggle_col:
-            comprehensive_view = st.toggle("Comprehensive view", value=False, key=f"org_toggle_{filename or getattr(conf, 'acronym', 'default')}")
+            comprehensive_view = st.toggle("Comprehensive view", value=False, key=f"org_toggle_{conf_key}")
         
         if organisers_mod.empty:
             st.write("No organisers found.")
         else:
             if not comprehensive_view:
-                # Simplified view (default): Name (hyperlinked to OpenAlex Profile), Affiliation, Country, Track
+                # Simplified view (default): Name (hyperlinked to OpenAlex Profile), Affiliation, Country, Track, [RW-PB]
                 simple_df = organisers_mod.copy(deep=True)
                 has_openalex = "OpenAlex Profile" in simple_df.columns
                 
@@ -212,31 +244,155 @@ class ConferenceVisualiser(CoreVisualiser):
 
                     simple_df["Name"] = simple_df.apply(make_name_link, axis=1)
 
-                simple_cols = [c for c in ["Name", "Affiliation", "Country", "Track"] if c in simple_df.columns]
+                simple_cols = [c for c in ["Name", "Affiliation", "Country", "Track", "RW-PB"] if c in simple_df.columns]
                 df_to_show = simple_df[simple_cols]
+
+                col_cfg = {
+                    "Name": st.column_config.LinkColumn(
+                        "Name",
+                        help="Organiser name (links to OpenAlex Profile if matched)",
+                        display_text=r"#(.*)"
+                    ),
+                }
+                if "RW-PB" in df_to_show.columns:
+                    col_cfg["RW-PB"] = st.column_config.LinkColumn(
+                        "RW-PB",
+                        help="RetractionWatch & PubPeer audit. Click 🔗 to open full Researcher Audit profile.",
+                        display_text=r"#(.*)"
+                    )
 
                 st.dataframe(
                     df_to_show,
-                    column_config={
-                        "Name": st.column_config.LinkColumn(
-                            "Name",
-                            help="Organiser name (links to OpenAlex Profile if matched)",
-                            display_text=r"#(.*)"
-                        ),
-                    },
+                    column_config=col_cfg,
                     width=1920
                 )
             else:
                 # Comprehensive view: show all available columns from the full in-memory dataframe
+                col_cfg = {
+                    "ROR": st.column_config.LinkColumn("ROR", display_text=r"https://ror\.org/(.*)"),
+                    "OpenAlex Profile": st.column_config.LinkColumn("OpenAlex Profile", display_text=r"https://openalex\.org/(.*)"),
+                    "ORCID": st.column_config.LinkColumn("ORCID", display_text=r"https://orcid\.org/(.*)"),
+                }
+                if "RW-PB" in organisers_mod.columns:
+                    col_cfg["RW-PB"] = st.column_config.LinkColumn(
+                        "RW-PB",
+                        help="RetractionWatch & PubPeer audit. Click 🔗 to open full Researcher Audit profile.",
+                        display_text=r"#(.*)"
+                    )
+
                 st.dataframe(
                     organisers_mod,
-                    column_config={
-                        "ROR": st.column_config.LinkColumn("ROR", display_text=r"https://ror\.org/(.*)"),
-                        "OpenAlex Profile": st.column_config.LinkColumn("OpenAlex Profile", display_text=r"https://openalex\.org/(.*)"),
-                        "ORCID": st.column_config.LinkColumn("ORCID", display_text=r"https://orcid\.org/(.*)"),
-                    },
+                    column_config=col_cfg,
                     width=1920
                 )
+
+            # Audit Organisers action under the dataframe
+            audit_btn_col, info_btn_col = st.columns([1, 4], vertical_alignment="center")
+            with audit_btn_col:
+                run_audit = st.button("Audit Organisers", key=f"btn_audit_orgs_{conf_key}", type="primary", use_container_width=True)
+            with info_btn_col:
+                if audit_dict is not None:
+                    st.caption("ℹ️ Audit complete. **RW** (RetractionWatch: ✅ passed / ⚠️ retracted), **PB** (PubPeer: ✅ passed / 💬 comments found).")
+                else:
+                    st.caption("Audit all organisers with OpenAlex profiles against the RetractionWatch database and PubPeer post-publication peer review.")
+
+            if run_audit:
+                results_map = {}
+                openalex_api = st.session_state.get('config', {}).get('OPENALEX', 'openalex_api', fallback='') if 'config' in st.session_state else ''
+                pyalex.config.api_key = openalex_api
+
+                progress_text = st.empty()
+                progress_bar = st.progress(0)
+                total_orgs = len(organisers_mod)
+
+                for idx, (_, row) in enumerate(organisers_mod.iterrows()):
+                    name = str(row.get("Name", "")).strip()
+                    openalex_url = str(row.get("OpenAlex Profile", "")).strip() if "OpenAlex Profile" in row else ""
+                    orcid = str(row.get("ORCID", "")).strip() if "ORCID" in row else ""
+                    
+                    progress_text.text(f"Auditing organiser {idx + 1} of {total_orgs}: {name}...")
+                    
+                    if not openalex_url or not openalex_url.startswith("http"):
+                        status_entry = {"rw": "➖", "pb": "➖"}
+                    else:
+                        author_id = openalex_url.split("/")[-1].strip()
+                        try:
+                            # 1. Fetch publications
+                            works = []
+                            pager = Works().filter(author={"id": author_id}).paginate(n_max=None)
+                            for page in pager:
+                                works.extend(page)
+
+                            # Extract DOIs and normalized titles from researcher's publications
+                            works_dois = set()
+                            for w in works:
+                                d = w.get("doi") or ""
+                                if d:
+                                    if d.startswith("https://doi.org/"):
+                                        d = d.replace("https://doi.org/", "")
+                                    works_dois.add(d.strip().lower())
+
+                            # 2. RetractionWatch audit (paper level)
+                            has_rw = any(w.get("is_retracted") for w in works)
+                            if not has_rw and (works_dois or orcid):
+                                crossref_url = "https://api.crossref.org/v1/works"
+                                params = {"query.author": name, "filter": "update-type:retraction", "rows": 50}
+                                if orcid:
+                                    clean_orcid = orcid.split("orcid.org/")[-1].strip()
+                                    params["filter"] = f"orcid:{clean_orcid},update-type:retraction"
+                                try:
+                                    r = requests.get(crossref_url, params=params, timeout=8)
+                                    if r.status_code == 200:
+                                        items = r.json().get("message", {}).get("items", [])
+                                        # Verify at work (paper) level: matched DOI in author's works or matching verified ORCID
+                                        for item in items:
+                                            c_doi = (item.get("DOI") or "").strip().lower()
+                                            if c_doi and c_doi in works_dois:
+                                                has_rw = True
+                                                break
+                                            if orcid:
+                                                # Check if author array in Crossref actually contains this person's ORCID
+                                                for c_auth in item.get("author", []):
+                                                    if clean_orcid in (c_auth.get("ORCID") or ""):
+                                                        has_rw = True
+                                                        break
+                                                if has_rw:
+                                                    break
+                                except Exception:
+                                    pass
+
+                            rw_val = "⚠️" if has_rw else "✅"
+
+                            # 3. PubPeer audit
+                            has_pb = False
+                            dois = list(works_dois)
+
+                            if dois:
+                                pubpeer_url = "https://pubpeer.com/v3/publications"
+                                try:
+                                    resp = requests.post(pubpeer_url, json={"dois": dois, "devkey": "Zotero"}, timeout=8)
+                                    if resp.status_code == 200:
+                                        feedbacks = resp.json().get("feedbacks", [])
+                                        if feedbacks:
+                                            has_pb = True
+                                except Exception:
+                                    pass
+
+                            pb_val = "💬" if has_pb else "✅"
+                            status_entry = {"rw": rw_val, "pb": pb_val}
+                        except Exception:
+                            status_entry = {"rw": "❓", "pb": "❓"}
+
+                    results_map[name] = status_entry
+                    if openalex_url:
+                        results_map[openalex_url] = status_entry
+
+                    progress_bar.progress((idx + 1) / total_orgs)
+
+                progress_text.empty()
+                progress_bar.empty()
+                st.session_state[audit_state_key] = results_map
+                st.rerun()
         
         self.add_header("Conference on External Indexes")
         dfColumns = st.columns(3)

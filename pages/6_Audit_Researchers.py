@@ -54,6 +54,17 @@ with st.sidebar:
 if 'selected_openalex_author' not in st.session_state:
     st.session_state['selected_openalex_author'] = None
 
+# Support direct deep-linking via query parameters (e.g. ?author_id=https://openalex.org/A...)
+param_author_id = st.query_params.get("author_id", "")
+if param_author_id and st.session_state['selected_openalex_author'] is None:
+    pyalex.config.api_key = config.get('OPENALEX', 'openalex_api', fallback='')
+    try:
+        author_data = Authors()[param_author_id]
+        if author_data:
+            st.session_state['selected_openalex_author'] = author_data
+    except Exception:
+        pass
+
 # ----------------- SEARCH & PROFILE SELECT VIEW -----------------
 if st.session_state['selected_openalex_author'] is None:
     st.markdown("<div id='top' style='height: 40px;'></div>", unsafe_allow_html=True)
@@ -182,7 +193,16 @@ else:
                 "source": "OpenAlex (RetractionWatch)"
             })
             
-    # Check Crossref retraction updates by name or orcid
+    # Extract DOIs from author's publications
+    works_dois = set()
+    for w in works:
+        d = w.get("doi") or ""
+        if d:
+            if d.startswith("https://doi.org/"):
+                d = d.replace("https://doi.org/", "")
+            works_dois.add(d.strip().lower())
+
+    # Check Crossref retraction updates verified at paper (DOI) or ORCID level
     crossref_retracted = []
     crossref_url = "https://api.crossref.org/v1/works"
     params = {
@@ -190,23 +210,35 @@ else:
         "filter": "update-type:retraction",
         "rows": 50
     }
-    if orcid:
-        orcid_id = orcid.split("orcid.org/")[-1].strip()
-        params["filter"] = f"orcid:{orcid_id},update-type:retraction"
+    clean_orcid = orcid.split("orcid.org/")[-1].strip() if orcid else ""
+    if clean_orcid:
+        params["filter"] = f"orcid:{clean_orcid},update-type:retraction"
         
     try:
         resp = requests.get(crossref_url, params=params, timeout=10)
         if resp.status_code == 200:
             items = resp.json().get("message", {}).get("items", [])
             for item in items:
-                c_doi = item.get("DOI", "")
+                c_doi = (item.get("DOI") or "").strip()
+                # Verify match at paper (DOI) level or confirmed author ORCID in Crossref
+                is_paper_match = c_doi.lower() in works_dois if c_doi else False
+                is_orcid_match = False
+                if clean_orcid:
+                    for c_auth in item.get("author", []):
+                        if clean_orcid in (c_auth.get("ORCID") or ""):
+                            is_orcid_match = True
+                            break
+
+                if not (is_paper_match or is_orcid_match):
+                    continue
+
                 c_title = item.get("title", ["Unknown Title"])[0]
                 c_year = ""
                 date_parts = item.get("created", {}).get("date-parts", [[None]])[0]
                 if date_parts and date_parts[0]:
                     c_year = date_parts[0]
                 
-                # Check for duplicates
+                # Check for duplicates against OpenAlex retractions
                 if not any(p["doi"].lower() == c_doi.lower() for p in retracted_papers):
                     crossref_retracted.append({
                         "title": c_title,
