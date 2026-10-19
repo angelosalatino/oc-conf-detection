@@ -416,17 +416,136 @@ class ConferenceVisualiser(CoreVisualiser):
         
         st.divider()
         buffer = BytesIO()
-        export_file = conf.name
+        export_file = conf.name or "conference_data"
         
+        # Prepare enhanced Organisers sheet
+        export_orgs = organisers_df.copy(deep=True)
+        # Rename or ensure clean columns
+        if 'verified' in export_orgs.columns:
+            export_orgs['Verified Affiliation'] = export_orgs['verified'].apply(lambda x: "Yes" if x is True else "No")
+            export_orgs = export_orgs.drop(columns=['verified'])
+        
+        # If audit results exist in session state, add RetractionWatch and PubPeer columns
+        if audit_dict is not None:
+            rw_list = []
+            pb_list = []
+            for _, row in export_orgs.iterrows():
+                name = str(row.get("Name", "")).strip()
+                openalex = str(row.get("OpenAlex Profile", "")).strip() if "OpenAlex Profile" in row else ""
+                entry = audit_dict.get(openalex) or audit_dict.get(name)
+                if entry and isinstance(entry, dict):
+                    rw_val = entry.get("rw", "➖")
+                    pb_val = entry.get("pb", "➖")
+                    rw_desc = "Retracted" if rw_val == "⚠️" else ("Clear" if rw_val == "✅" else "Not Audited")
+                    pb_desc = "Comments Found" if pb_val == "💬" else ("Clear" if pb_val == "✅" else "Not Audited")
+                    rw_list.append(rw_desc)
+                    pb_list.append(pb_desc)
+                else:
+                    rw_list.append("Not Audited")
+                    pb_list.append("Not Audited")
+            export_orgs["RetractionWatch Status"] = rw_list
+            export_orgs["PubPeer Status"] = pb_list
+
+        # Prepare Topics sheet if available
+        topics_rows = []
+        if conf.topics and hasattr(conf.topics, "enhanced_topics") and conf.topics.enhanced_topics:
+            for top, oa_list in conf.topics.enhanced_topics.items():
+                if oa_list:
+                    for item in oa_list:
+                        if isinstance(item, dict):
+                            topics_rows.append({
+                                "Extracted Topic": top,
+                                "OpenAlex Topic": item.get("topic", ""),
+                                "Similarity Score": round(float(item.get("similarity", 0.0)), 2)
+                            })
+                        else:
+                            topics_rows.append({
+                                "Extracted Topic": top,
+                                "OpenAlex Topic": str(item),
+                                "Similarity Score": ""
+                            })
+                else:
+                    topics_rows.append({
+                        "Extracted Topic": top,
+                        "OpenAlex Topic": "None",
+                        "Similarity Score": ""
+                    })
+        elif conf.topics and hasattr(conf.topics, "topics_list") and conf.topics.topics_list:
+            for top in conf.topics.topics_list:
+                topics_rows.append({
+                    "Extracted Topic": top,
+                    "OpenAlex Topic": "",
+                    "Similarity Score": ""
+                })
+        topics_df = pd.DataFrame(topics_rows)
+
+        # Prepare Tracks sheet if tracks exist
+        tracks_list = []
+        if "Track" in organisers_df.columns:
+            tracks_list = [t for t in organisers_df["Track"].dropna().unique() if str(t).strip()]
+        tracks_df = pd.DataFrame({"Conference Track": tracks_list}) if tracks_list else pd.DataFrame()
+
         with pd.ExcelWriter(buffer, engine='xlsxwriter') as writer:
-            organisers_df.to_excel(writer, sheet_name='Organisers', index=True)
-            conf_info_df.to_excel(writer, sheet_name='Conference Info', index=True)
+            workbook = writer.book
+            
+            # Header formatting: Dark blue #183642 with white text
+            header_format = workbook.add_format({
+                'bold': True,
+                'text_wrap': False,
+                'valign': 'vcenter',
+                'fg_color': '#183642',
+                'font_color': '#FFFFFF',
+                'border': 1
+            })
+
+            # Data cell format
+            cell_format = workbook.add_format({
+                'valign': 'vcenter'
+            })
+
+            # 1. Conference Summary Sheet
+            conf_info_df.to_excel(writer, sheet_name='Conference Summary', index=False)
+            ws_summary = writer.sheets['Conference Summary']
+            ws_summary.set_row(0, 24, header_format)
+            ws_summary.set_column('A:A', 25, cell_format)
+            ws_summary.set_column('B:B', 60, cell_format)
+
+            # 2. Organisers Sheet
+            export_orgs.to_excel(writer, sheet_name='Organisers', index=False)
+            ws_orgs = writer.sheets['Organisers']
+            ws_orgs.set_row(0, 24, header_format)
+            for idx, col in enumerate(export_orgs.columns):
+                max_len = max(
+                    export_orgs[col].astype(str).map(len).max() if not export_orgs.empty else 0,
+                    len(str(col))
+                ) + 4
+                ws_orgs.set_column(idx, idx, max(max_len, 14), cell_format)
+
+            # 3. Topics of Interest Sheet
+            if not topics_df.empty:
+                topics_df.to_excel(writer, sheet_name='Topics of Interest', index=False)
+                ws_topics = writer.sheets['Topics of Interest']
+                ws_topics.set_row(0, 24, header_format)
+                for idx, col in enumerate(topics_df.columns):
+                    max_len = max(
+                        topics_df[col].astype(str).map(len).max() if not topics_df.empty else 0,
+                        len(str(col))
+                    ) + 4
+                    ws_topics.set_column(idx, idx, max(max_len, 18), cell_format)
+
+            # 4. Tracks Sheet
+            if not tracks_df.empty:
+                tracks_df.to_excel(writer, sheet_name='Tracks', index=False)
+                ws_tracks = writer.sheets['Tracks']
+                ws_tracks.set_row(0, 24, header_format)
+                ws_tracks.set_column('A:A', 35, cell_format)
             
         st.download_button(
             label="Download data as Excel",
-            data=buffer,
+            data=buffer.getvalue(),
             file_name=f"{export_file}.xlsx",
-            mime='application/vnd.ms-excel',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+            type="primary"
         )
 
     @st.fragment
