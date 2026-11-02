@@ -141,6 +141,21 @@ def main():
         .card-audit p {
             color: #4a3a54;
         }
+
+        /* Card 5: Statistics (Sky/Soft Cyan) */
+        .card-stats {
+            background-color: #f0f7fb;
+            border: 1px solid #d4e8f5;
+        }
+        .card-stats:hover {
+            border-color: #1e557d;
+        }
+        .card-stats h3 {
+            color: #184261;
+        }
+        .card-stats p {
+            color: #2b4f6e;
+        }
         </style>
         """,
         unsafe_allow_html=True
@@ -197,6 +212,21 @@ def main():
               <h3>Audit Researcher</h3>
               <p>
                 Verify publication integrity by querying OpenAlex researcher profiles and auditing their papers against RetractionWatch and PubPeer.
+              </p>
+            </a>
+            """,
+            unsafe_allow_html=True
+        )
+
+    st.markdown("<div style='height: 20px;'></div>", unsafe_allow_html=True)
+    row3_col1, row3_col2 = st.columns([1, 1])
+    with row3_col1:
+        st.markdown(
+            """
+            <a href="Database_Statistics" target="_self" class="coci-card card-stats">
+              <h3>📊 Database Statistics</h3>
+              <p>
+                Explore database metrics, distribution of events per year, top series, organiser demographics, and external dataset linkages.
               </p>
             </a>
             """,
