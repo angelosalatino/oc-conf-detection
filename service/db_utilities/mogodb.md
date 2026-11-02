@@ -37,4 +37,20 @@ db.events_index.find().pretty()```
 
 ## Reset DB
 
-```!python utilities/reset_mongodb.py --uri "mongodb://localhost:27017/" --db "coci" --force```
+```python service/db_utilities/reset_mongodb.py --uri "mongodb://localhost:27017/" --db "coci" --force```
+
+## Export DB
+
+Export to compressed archive (default: `coci_export_<timestamp>.json.gz`):
+```python service/db_utilities/export_mongodb.py```
+
+Export to a specific file:
+```python service/db_utilities/export_mongodb.py --output coci_backup.json.gz```
+
+## Import DB
+
+Import from backup file (clean overwrite with `--drop`):
+```python service/db_utilities/import_mongodb.py coci_backup.json.gz --drop --force```
+
+Import and merge / update existing records:
+```python service/db_utilities/import_mongodb.py coci_backup.json.gz```
