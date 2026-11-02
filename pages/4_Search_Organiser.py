@@ -184,14 +184,11 @@ if 'selected_event_id' in st.session_state:
                 
         processed_at = event_doc.get("processed_at") or event_doc.get("created_at")
 
-        if cfp_text:
-            tab1, tab2 = st.tabs(["**Results**", "**Read Call for Papers**"])
-            with tab1:
-                vis.display_main(conf, filename, storage)
-            with tab2:
-                vis.display_cfp_tab(cfp_text, filename, storage, processed_at=processed_at)
-        else:
+        tab1, tab2 = st.tabs(["**Results**", "**Read Call for Papers**"])
+        with tab1:
             vis.display_main(conf, filename, storage)
+        with tab2:
+            vis.display_cfp_tab(cfp_text, filename, storage, processed_at=processed_at)
 
 # ----------------- LEVEL 2: ORGANISER PROFILE VIEW -----------------
 elif 'selected_organiser_key' in st.session_state:

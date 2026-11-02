@@ -616,83 +616,119 @@ class ConferenceVisualiser(CoreVisualiser):
                 f"</div>",
                 unsafe_allow_html=True
             )
+        # Render Call for Papers content or apology notice
+        has_cfp = bool(cfp_text and cfp_text.strip())
+
         with col_btn:
             with st.popover("🔄 Rerun Process", type="primary", use_container_width=True):
                 st.markdown("##### Rerun Event Processing")
                 st.caption("Reprocess this call for papers to update structured event metadata, organisers, and topics.")
-                
+
+                uploaded_cfp_file = None
+                pasted_cfp_text = ""
+                if not has_cfp:
+                    st.info("💡 Upload or paste a Call for Papers text below to process this event:")
+                    uploaded_cfp_file = st.file_uploader("Upload CfP text file", type=["txt"], key=f"re_upload_{filename}")
+                    pasted_cfp_text = st.text_area("Or paste CfP text here", height=120, key=f"re_paste_{filename}")
+
                 rerun_mode = st.radio(
                     "Select Rerun Mode",
                     options=["Mild Force", "Force"],
                     index=0,
                     help="Mild Force: Reuses LLM-extracted entities and reruns dataset & OpenAlex matching.\nForce: Reprocesses everything from scratch using LLM."
                 )
-                
+
                 run_btn = st.button("Start Processing", type="primary", use_container_width=True)
-                
+
                 if run_btn:
-                    if not cfp_text:
-                        st.error("No Call for Papers text available to process.")
+                    # Determine active cfp text
+                    active_cfp = cfp_text
+                    if not active_cfp and uploaded_cfp_file is not None:
+                        try:
+                            from classes.call_for_paper import CallForPaper
+                            cfp_parsed = CallForPaper(uploaded_cfp_file)
+                            active_cfp = cfp_parsed.text
+                        except Exception as e:
+                            st.error(f"Could not read uploaded file: {e}")
+                    elif not active_cfp and pasted_cfp_text.strip():
+                        active_cfp = pasted_cfp_text.strip()
+
+                    if not active_cfp or not active_cfp.strip():
+                        st.error("Please provide or upload a Call for Papers text to process.")
                     else:
-                        config = st.session_state.get('config')
-                        if not config:
-                            import configparser
-                            config = configparser.ConfigParser()
-                            config.read('config.ini')
+                        with st.spinner("Processing event and updating database..."):
+                            config = st.session_state.get('config')
+                            if not config:
+                                import configparser
+                                config = configparser.ConfigParser()
+                                config.read('config.ini')
 
-                        api_url = config['DEFAULT']['api_url']
-                        api_key = config['DEFAULT']['api_key']
-                        referer = config['TEAM']['website']
-                        title = config['TEAM']['description']
-                        openalex_api = config['OPENALEX']['openalex_api']
+                            api_url = config['DEFAULT']['api_url']
+                            api_key = config['DEFAULT']['api_key']
+                            referer = config['TEAM']['website']
+                            title = config['TEAM']['description']
+                            openalex_api = config['OPENALEX']['openalex_api']
 
-                        from classes.orchestrator import Orchestrator
-                        cached_llm_result = None
-                        if rerun_mode == "Mild Force" and filename and storage:
-                            try:
-                                loaded = storage.load(filename)
-                                cached_llm_result = loaded.get("llm-output")
-                            except Exception:
-                                pass
+                            from classes.orchestrator import Orchestrator
+                            cached_llm_result = None
+                            if rerun_mode == "Mild Force" and filename and storage:
+                                try:
+                                    loaded = storage.load(filename)
+                                    cached_llm_result = loaded.get("llm-output")
+                                except Exception:
+                                    pass
 
-                        progress_placeholder = st.empty()
-                        logs = []
+                            progress_placeholder = st.empty()
+                            logs = []
 
-                        def update_progress(message: str):
-                            logs.append(message)
-                            logs_html = "<br>".join([f"&gt; {msg}" for msg in logs])
-                            spinner_html = f'''
-                            <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background-color: #f4f6f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd;">
-                                <img src="{self.render_image('assets/gifs/cooking.gif')}" width="60" height="60" style="margin-right: 15px; margin-top: 5px;" />
-                                <div style="font-size: 14px; font-family: monospace; color: #333;">
-                                    {logs_html}
+                            def update_progress(message: str):
+                                logs.append(message)
+                                logs_html = "<br>".join([f"&gt; {msg}" for msg in logs])
+                                spinner_html = f'''
+                                <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background-color: #f4f6f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd;">
+                                    <img src="{self.render_image('assets/gifs/cooking.gif')}" width="60" height="60" style="margin-right: 15px; margin-top: 5px;" />
+                                    <div style="font-size: 14px; font-family: monospace; color: #333;">
+                                        {logs_html}
+                                    </div>
                                 </div>
-                            </div>
-                            '''
-                            progress_placeholder.markdown(spinner_html, unsafe_allow_html=True)
+                                '''
+                                progress_placeholder.markdown(spinner_html, unsafe_allow_html=True)
 
-                        orchestrator = Orchestrator(api_url, api_key, referer, title, openalex_api)
-                        conf, llm_result = orchestrator.process(
-                            cfp_text, 
-                            progress_callback=update_progress, 
-                            cached_llm_result=cached_llm_result
-                        )
-                        progress_placeholder.empty()
+                            orchestrator = Orchestrator(api_url, api_key, referer, title, openalex_api)
+                            conf, llm_result = orchestrator.process(
+                                active_cfp, 
+                                progress_callback=update_progress, 
+                                cached_llm_result=cached_llm_result
+                            )
+                            progress_placeholder.empty()
 
-                        if filename and storage:
-                            storage.save(filename, conf.to_dict(), llm_result, cfp_text)
+                            if filename and storage:
+                                storage.save(filename, conf.to_dict(), llm_result, active_cfp)
 
-                        # Update session state if present
-                        if 'processed_conf' in st.session_state:
-                            st.session_state['processed_conf'] = conf
-                        if 'processed_filename' in st.session_state:
-                            st.session_state['processed_filename'] = filename
-                        if 'processed_cfp_text' in st.session_state:
-                            st.session_state['processed_cfp_text'] = cfp_text
+                            # Update session state if present
+                            if 'processed_conf' in st.session_state:
+                                st.session_state['processed_conf'] = conf
+                            if 'processed_filename' in st.session_state:
+                                st.session_state['processed_filename'] = filename
+                            if 'processed_cfp_text' in st.session_state:
+                                st.session_state['processed_cfp_text'] = active_cfp
 
-                        st.toast("Reprocessing completed successfully!", icon="✅")
-                        st.rerun()
+                            st.toast("Reprocessing completed successfully!", icon="✅")
+                            st.rerun()
 
-        # Render Call for Papers text
-        cfp_obj = CallForPaper(cfp_text)
-        st.html(cfp_obj.get_rendered_html())
+        # Render CFP content or the missing-text apology banner
+        if has_cfp:
+            cfp_obj = CallForPaper(cfp_text)
+            st.html(cfp_obj.get_rendered_html())
+        else:
+            st.markdown(
+                """
+                <div style='background-color: #fdfaf6; border: 1px solid #fae8d2; border-left: 5px solid #d97706; border-radius: 6px; padding: 20px 24px; margin-top: 15px; margin-bottom: 20px;'>
+                    <h5 style='color: #92400e; margin-top: 0; margin-bottom: 8px;'>📄 Call for Papers text not available</h5>
+                    <p style='color: #78350f; font-size: 14.5px; margin-bottom: 0; line-height: 1.6;'>
+                        Apologies, no call for papers saved at the time it was processed. You may add one by reprocessing this event.
+                    </p>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
