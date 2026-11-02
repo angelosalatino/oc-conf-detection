@@ -54,3 +54,11 @@ Import from backup file (clean overwrite with `--drop`):
 
 Import and merge / update existing records:
 ```python service/db_utilities/import_mongodb.py coci_backup.json.gz```
+
+## Import Processed CFPs (Folder of JSONs)
+
+Import JSON files from a folder (e.g. `processed_cfps`) discarding any duplicates:
+```python service/db_utilities/import_processed_cfps.py --folder processed_cfps```
+
+Test import first without modifying database:
+```python service/db_utilities/import_processed_cfps.py --folder processed_cfps --dry-run```
