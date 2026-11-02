@@ -1,0 +1,282 @@
+{
+    "llm-output": {
+        "event_name": "3rd Language Models for Underserved Communities (LM4UC) Workshop",
+        "conference_series": "Language Models for Underserved Communities",
+        "event_acronym": "LM4UC",
+        "colocated_with": "IJCAI 2026",
+        "year": "2026",
+        "location": "Bremen",
+        "topics": [
+            "Benchmark Design & Task Construction",
+            "Alignment & Safety (Multilingual / Global)",
+            "Agentic Systems in Global Environments"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Sang Truong",
+                "organiser_affiliation": "University of Luxembourg",
+                "organiser_country": "Luxembourg",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sang Truong",
+                "openalex_page": "https://openalex.org/A5059418368",
+                "orcid": "https://orcid.org/0000-0001-8069-9410",
+                "affiliation_ror": "https://ror.org/02mks6v46"
+            },
+            {
+                "organiser_name": "Fred Philippy",
+                "organiser_affiliation": "University of Luxembourg",
+                "organiser_country": "Luxembourg",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Fred Philippy",
+                "openalex_page": "https://openalex.org/A5018702042",
+                "orcid": "https://orcid.org/0000-0001-5842-4285",
+                "affiliation_ror": "https://ror.org/036x5ad56"
+            },
+            {
+                "organiser_name": "Dr. Agathe Balayn",
+                "organiser_affiliation": "Microsoft Research",
+                "organiser_country": "USA",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Fagun Patel",
+                "organiser_affiliation": "National University of Singapore (NUS)",
+                "organiser_country": "Singapore",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Fagun Patel",
+                "openalex_page": "https://openalex.org/A5002352427",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/059x8vm09"
+            },
+            {
+                "organiser_name": "Duc Nguyen",
+                "organiser_affiliation": "National University of Singapore (NUS)",
+                "organiser_country": "Singapore",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Duc T. Nguyen",
+                "openalex_page": "https://openalex.org/A5081825134",
+                "orcid": "https://orcid.org/0000-0002-5059-4404",
+                "affiliation_ror": "https://ror.org/04wn28048"
+            },
+            {
+                "organiser_name": "Prof. Sanmi Koyejo",
+                "organiser_affiliation": "Stanford University",
+                "organiser_country": "USA",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Preslav Nakov",
+                "organiser_affiliation": "MBZUAI",
+                "organiser_country": "UAE",
+                "track_name": "Keynote Speaker",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Iryna Gurevych",
+                "organiser_affiliation": "TU Darmstadt",
+                "organiser_country": "Germany",
+                "track_name": "Keynote Speaker",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Andreas Haupt",
+                "organiser_affiliation": "Stanford University",
+                "organiser_country": "USA",
+                "track_name": "Keynote Speaker",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "3rd Language Models for Underserved Communities (LM4UC) Workshop",
+        "event_acronym": "LM4UC",
+        "conference_series": "Language Models for Underserved Communities",
+        "colocated_with": "IJCAI 2026",
+        "year": "2026",
+        "location": "Bremen",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Sang Truong",
+                "organiser_affiliation": "University of Luxembourg",
+                "organiser_country": "Luxembourg",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sang Truong",
+                "openalex_page": "https://openalex.org/A5059418368",
+                "orcid": "https://orcid.org/0000-0001-8069-9410",
+                "affiliation_ror": "https://ror.org/02mks6v46"
+            },
+            {
+                "organiser_name": "Fred Philippy",
+                "organiser_affiliation": "University of Luxembourg",
+                "organiser_country": "Luxembourg",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Fred Philippy",
+                "openalex_page": "https://openalex.org/A5018702042",
+                "orcid": "https://orcid.org/0000-0001-5842-4285",
+                "affiliation_ror": "https://ror.org/036x5ad56"
+            },
+            {
+                "organiser_name": "Dr. Agathe Balayn",
+                "organiser_affiliation": "Microsoft Research",
+                "organiser_country": "USA",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Fagun Patel",
+                "organiser_affiliation": "National University of Singapore (NUS)",
+                "organiser_country": "Singapore",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Fagun Patel",
+                "openalex_page": "https://openalex.org/A5002352427",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/059x8vm09"
+            },
+            {
+                "organiser_name": "Duc Nguyen",
+                "organiser_affiliation": "National University of Singapore (NUS)",
+                "organiser_country": "Singapore",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Duc T. Nguyen",
+                "openalex_page": "https://openalex.org/A5081825134",
+                "orcid": "https://orcid.org/0000-0002-5059-4404",
+                "affiliation_ror": "https://ror.org/04wn28048"
+            },
+            {
+                "organiser_name": "Prof. Sanmi Koyejo",
+                "organiser_affiliation": "Stanford University",
+                "organiser_country": "USA",
+                "track_name": "Workshop Organizer",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Preslav Nakov",
+                "organiser_affiliation": "MBZUAI",
+                "organiser_country": "UAE",
+                "track_name": "Keynote Speaker",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Iryna Gurevych",
+                "organiser_affiliation": "TU Darmstadt",
+                "organiser_country": "Germany",
+                "track_name": "Keynote Speaker",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Andreas Haupt",
+                "organiser_affiliation": "Stanford University",
+                "organiser_country": "USA",
+                "track_name": "Keynote Speaker",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Benchmark Design & Task Construction",
+            "Alignment & Safety (Multilingual / Global)",
+            "Agentic Systems in Global Environments"
+        ],
+        "enhanced_topics": {
+            "Benchmark Design & Task Construction": [],
+            "Alignment & Safety (Multilingual / Global)": [
+                {
+                    "topic": "safety",
+                    "similarity": 0.9999999999992847
+                },
+                {
+                    "topic": "safety and health",
+                    "similarity": 0.7178142368793488
+                },
+                {
+                    "topic": "safety concerns",
+                    "similarity": 0.6819106340408325
+                },
+                {
+                    "topic": "safety measures",
+                    "similarity": 0.681400716304779
+                },
+                {
+                    "topic": "health safety",
+                    "similarity": 0.6668348014354706
+                },
+                {
+                    "topic": "alignment",
+                    "similarity": 0.9999999999994396
+                }
+            ],
+            "Agentic Systems in Global Environments": []
+        },
+        "preferred_threshold": 0.6
+    }
+}

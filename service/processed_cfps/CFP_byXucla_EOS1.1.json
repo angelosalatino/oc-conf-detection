@@ -1,0 +1,287 @@
+{
+    "llm-output": {
+        "event_name": "EGU General Assembly 2026",
+        "conference_series": "EGU General Assembly",
+        "event_acronym": "EGU26",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Vienna, Austria and Online",
+        "topics": [
+            "Global Nitrogen Cycle",
+            "Nitrogen\u2013carbon\u2013climate interactions",
+            "Terrestrial Biological Nitrogen Fixation (BNF)",
+            "Nitrogen deposition",
+            "Nitrous Oxide (N2O) emissions",
+            "Agricultural soil emissions",
+            "Nitrogen redistribution and fertilization effects",
+            "Hydrological Nitrogen export",
+            "Abiotic Nitrous Oxide formation",
+            "Nitrogen inputs and management",
+            "Ecosystem Nitrogen limitation",
+            "Atmospheric Nitrogen processes"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Hanqin Tian",
+                "organiser_affiliation": "Tsinghua University",
+                "organiser_country": "China",
+                "track_name": "Convener",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Hanqin Tian",
+                "openalex_page": "https://openalex.org/A5100771544",
+                "orcid": "https://orcid.org/0000-0002-1806-4091",
+                "affiliation_ror": "https://ror.org/03cve4549"
+            },
+            {
+                "organiser_name": "S\u00f6nke Zaehle",
+                "organiser_affiliation": "Max Planck Institute for Biogeochemistry",
+                "organiser_country": "Germany",
+                "track_name": "Co-convener/Chairperson",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "S\u00f6nke Zaehle",
+                "openalex_page": "https://openalex.org/A5025734197",
+                "orcid": "https://orcid.org/0000-0001-5602-7956",
+                "affiliation_ror": "https://ror.org/051yxp643"
+            },
+            {
+                "organiser_name": "Cheng Gong",
+                "organiser_affiliation": "Nanjing University",
+                "organiser_country": "China",
+                "track_name": "Co-convener/Chairperson",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gongzhen Cheng",
+                "openalex_page": "https://openalex.org/A5010309536",
+                "orcid": "https://orcid.org/0000-0002-3335-6412",
+                "affiliation_ror": "https://ror.org/02y0rxk19"
+            },
+            {
+                "organiser_name": "Philippe Ciais",
+                "organiser_affiliation": "Laboratoire des Sciences du Climat et de l'Environnement",
+                "organiser_country": "France",
+                "track_name": "Co-convener",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Philippe Ciais",
+                "openalex_page": "https://openalex.org/A5070378593",
+                "orcid": "https://orcid.org/0000-0001-8560-4943",
+                "affiliation_ror": "https://ror.org/03dsd0g48"
+            },
+            {
+                "organiser_name": "Parvadha Suntharalingam",
+                "organiser_affiliation": "Norwich University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Co-convener",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Parvadha Suntharalingam",
+                "openalex_page": "https://openalex.org/A5089502522",
+                "orcid": "https://orcid.org/0000-0001-9461-8845",
+                "affiliation_ror": "https://ror.org/026k5mg93"
+            },
+            {
+                "organiser_name": "Wilfried Winiwarter",
+                "organiser_affiliation": "IIASA",
+                "organiser_country": "Austria",
+                "track_name": "Panel Discussion / Author",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Wilfried Winiwarter",
+                "openalex_page": "https://openalex.org/A5087643639",
+                "orcid": "https://orcid.org/0000-0001-7131-1496",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Sian Kou-Giesbrecht",
+                "organiser_affiliation": "USGS John Wesley Powell Center for Analysis and Synthesis",
+                "organiser_country": "USA",
+                "track_name": "Panel Discussion / Author",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sian Kou\u2010Giesbrecht",
+                "openalex_page": "https://openalex.org/A5077389532",
+                "orcid": "https://orcid.org/0000-0002-4086-0561",
+                "affiliation_ror": "https://ror.org/02hw5fp67"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "EGU General Assembly 2026",
+        "event_acronym": "EGU26",
+        "conference_series": "EGU General Assembly",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Vienna, Austria and Online",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Hanqin Tian",
+                "organiser_affiliation": "Tsinghua University",
+                "organiser_country": "China",
+                "track_name": "Convener",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Hanqin Tian",
+                "openalex_page": "https://openalex.org/A5100771544",
+                "orcid": "https://orcid.org/0000-0002-1806-4091",
+                "affiliation_ror": "https://ror.org/03cve4549"
+            },
+            {
+                "organiser_name": "S\u00f6nke Zaehle",
+                "organiser_affiliation": "Max Planck Institute for Biogeochemistry",
+                "organiser_country": "Germany",
+                "track_name": "Co-convener/Chairperson",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "S\u00f6nke Zaehle",
+                "openalex_page": "https://openalex.org/A5025734197",
+                "orcid": "https://orcid.org/0000-0001-5602-7956",
+                "affiliation_ror": "https://ror.org/051yxp643"
+            },
+            {
+                "organiser_name": "Cheng Gong",
+                "organiser_affiliation": "Nanjing University",
+                "organiser_country": "China",
+                "track_name": "Co-convener/Chairperson",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gongzhen Cheng",
+                "openalex_page": "https://openalex.org/A5010309536",
+                "orcid": "https://orcid.org/0000-0002-3335-6412",
+                "affiliation_ror": "https://ror.org/02y0rxk19"
+            },
+            {
+                "organiser_name": "Philippe Ciais",
+                "organiser_affiliation": "Laboratoire des Sciences du Climat et de l'Environnement",
+                "organiser_country": "France",
+                "track_name": "Co-convener",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Philippe Ciais",
+                "openalex_page": "https://openalex.org/A5070378593",
+                "orcid": "https://orcid.org/0000-0001-8560-4943",
+                "affiliation_ror": "https://ror.org/03dsd0g48"
+            },
+            {
+                "organiser_name": "Parvadha Suntharalingam",
+                "organiser_affiliation": "Norwich University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Co-convener",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Parvadha Suntharalingam",
+                "openalex_page": "https://openalex.org/A5089502522",
+                "orcid": "https://orcid.org/0000-0001-9461-8845",
+                "affiliation_ror": "https://ror.org/026k5mg93"
+            },
+            {
+                "organiser_name": "Wilfried Winiwarter",
+                "organiser_affiliation": "IIASA",
+                "organiser_country": "Austria",
+                "track_name": "Panel Discussion / Author",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Wilfried Winiwarter",
+                "openalex_page": "https://openalex.org/A5087643639",
+                "orcid": "https://orcid.org/0000-0001-7131-1496",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Sian Kou-Giesbrecht",
+                "organiser_affiliation": "USGS John Wesley Powell Center for Analysis and Synthesis",
+                "organiser_country": "USA",
+                "track_name": "Panel Discussion / Author",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sian Kou\u2010Giesbrecht",
+                "openalex_page": "https://openalex.org/A5077389532",
+                "orcid": "https://orcid.org/0000-0002-4086-0561",
+                "affiliation_ror": "https://ror.org/02hw5fp67"
+            }
+        ],
+        "topics": [
+            "Global Nitrogen Cycle",
+            "Nitrogen\u2013carbon\u2013climate interactions",
+            "Terrestrial Biological Nitrogen Fixation (BNF)",
+            "Nitrogen deposition",
+            "Nitrous Oxide (N2O) emissions",
+            "Agricultural soil emissions",
+            "Nitrogen redistribution and fertilization effects",
+            "Hydrological Nitrogen export",
+            "Abiotic Nitrous Oxide formation",
+            "Nitrogen inputs and management",
+            "Ecosystem Nitrogen limitation",
+            "Atmospheric Nitrogen processes"
+        ],
+        "enhanced_topics": {
+            "Global Nitrogen Cycle": [
+                {
+                    "topic": "nitrogen cycle",
+                    "similarity": 0.8159532248973846
+                }
+            ],
+            "Nitrogen\u2013carbon\u2013climate interactions": [],
+            "Terrestrial Biological Nitrogen Fixation (BNF)": [
+                {
+                    "topic": "nitrogen fixation",
+                    "similarity": 0.7421534657478333
+                },
+                {
+                    "topic": "artificial nitrogen fixation",
+                    "similarity": 0.6413936913013458
+                }
+            ],
+            "Nitrogen deposition": [
+                {
+                    "topic": "nitrogen deposition",
+                    "similarity": 0.9999999999993429
+                }
+            ],
+            "Nitrous Oxide (N2O) emissions": [
+                {
+                    "topic": "nitrous oxide emission",
+                    "similarity": 0.7262325584888458
+                }
+            ],
+            "Agricultural soil emissions": [
+                {
+                    "topic": "agricultural emissions",
+                    "similarity": 0.7050617933273315
+                }
+            ],
+            "Nitrogen redistribution and fertilization effects": [
+                {
+                    "topic": "fertilization mechanisms",
+                    "similarity": 0.6601065397262573
+                }
+            ],
+            "Hydrological Nitrogen export": [],
+            "Abiotic Nitrous Oxide formation": [],
+            "Nitrogen inputs and management": [
+                {
+                    "topic": "management",
+                    "similarity": 0.9999999999992721
+                },
+                {
+                    "topic": "organizational management",
+                    "similarity": 0.7255971431732178
+                },
+                {
+                    "topic": "business management",
+                    "similarity": 0.6609124541282654
+                },
+                {
+                    "topic": "management systems",
+                    "similarity": 0.64071324467659
+                }
+            ],
+            "Ecosystem Nitrogen limitation": [],
+            "Atmospheric Nitrogen processes": []
+        },
+        "preferred_threshold": 0.6
+    }
+}

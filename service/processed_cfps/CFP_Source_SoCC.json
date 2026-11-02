@@ -1,0 +1,475 @@
+{
+    "llm-output": {
+        "event_name": "ACM Symposium on Cloud Computing 2026",
+        "conference_series": "ACM Symposium on Cloud Computing",
+        "event_acronym": "SoCC'26",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Singapore",
+        "topics": [
+            "Administration, service level agreements, and manageability",
+            "Blockchain systems, Byzantine fault tolerance, and decentralized ledgers",
+            "Confidential computing",
+            "Cross data center data management",
+            "Datacenter architectures",
+            "Data markets and data economy",
+            "Distributed and networked systems",
+            "Distributed/parallel query processing and optimization",
+            "Edge and fog computing",
+            "Energy efficiency, sustainability, and management",
+            "Fault tolerance, high availability, and reliability",
+            "Internet-of-Things infrastructure and cyber-physical systems",
+            "Large-scale cloud applications",
+            "Multi-tenancy in the cloud",
+            "Networking and communication",
+            "Operating systems and system support",
+            "Platform-as-a-Service and other cloud models",
+            "Privacy and security",
+            "Programming models for cloud (e.g., serverless, microservices)",
+            "Resource management, allocation, scheduling, provisioning, and metering",
+            "Scientific data management and workflows",
+            "Sky computing",
+            "Storage systems and new storage technologies",
+            "Machine learning for clouds and cloud-based systems",
+            "Systems for machine learning training and/or serving",
+            "Tracing and monitoring systems",
+            "Transactional models and transaction processing",
+            "Virtualization, containers, and virtual machines"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Eric Lo",
+                "organiser_affiliation": "No information given",
+                "organiser_country": "No information given",
+                "track_name": "Program Co-chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Eric Lo",
+                "openalex_page": "https://openalex.org/A5011148671",
+                "orcid": "https://orcid.org/0000-0003-2679-3945",
+                "affiliation_ror": "https://ror.org/02zhqgq86"
+            },
+            {
+                "organiser_name": "Ivan Beschastnikh",
+                "organiser_affiliation": "No information given",
+                "organiser_country": "No information given",
+                "track_name": "Program Co-chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ivan Beschastnikh",
+                "openalex_page": "https://openalex.org/A5064061802",
+                "orcid": "https://orcid.org/0000-0003-1676-8834",
+                "affiliation_ror": "https://ror.org/0040r6f76"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "ACM Symposium on Cloud Computing 2026",
+        "event_acronym": "SoCC'26",
+        "conference_series": "ACM Symposium on Cloud Computing",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Singapore",
+        "DBLP": {
+            "name": "ACM Symposium on Cloud Computing",
+            "id": "cloud",
+            "url": "https://dblp.org/streams/conf/cloud"
+        },
+        "AIDA": {
+            "name": "Symposium on Cloud Computing, SoCC",
+            "id": "cloud",
+            "url": "https://w3id.org/aida/dashboard/cs/conference/Symposium%20on%20Cloud%20Computing%2C%20SoCC"
+        },
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Eric Lo",
+                "organiser_affiliation": "No information given",
+                "organiser_country": "No information given",
+                "track_name": "Program Co-chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Eric Lo",
+                "openalex_page": "https://openalex.org/A5011148671",
+                "orcid": "https://orcid.org/0000-0003-2679-3945",
+                "affiliation_ror": "https://ror.org/02zhqgq86"
+            },
+            {
+                "organiser_name": "Ivan Beschastnikh",
+                "organiser_affiliation": "No information given",
+                "organiser_country": "No information given",
+                "track_name": "Program Co-chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ivan Beschastnikh",
+                "openalex_page": "https://openalex.org/A5064061802",
+                "orcid": "https://orcid.org/0000-0003-1676-8834",
+                "affiliation_ror": "https://ror.org/0040r6f76"
+            }
+        ],
+        "topics": [
+            "Administration, service level agreements, and manageability",
+            "Blockchain systems, Byzantine fault tolerance, and decentralized ledgers",
+            "Confidential computing",
+            "Cross data center data management",
+            "Datacenter architectures",
+            "Data markets and data economy",
+            "Distributed and networked systems",
+            "Distributed/parallel query processing and optimization",
+            "Edge and fog computing",
+            "Energy efficiency, sustainability, and management",
+            "Fault tolerance, high availability, and reliability",
+            "Internet-of-Things infrastructure and cyber-physical systems",
+            "Large-scale cloud applications",
+            "Multi-tenancy in the cloud",
+            "Networking and communication",
+            "Operating systems and system support",
+            "Platform-as-a-Service and other cloud models",
+            "Privacy and security",
+            "Programming models for cloud (e.g., serverless, microservices)",
+            "Resource management, allocation, scheduling, provisioning, and metering",
+            "Scientific data management and workflows",
+            "Sky computing",
+            "Storage systems and new storage technologies",
+            "Machine learning for clouds and cloud-based systems",
+            "Systems for machine learning training and/or serving",
+            "Tracing and monitoring systems",
+            "Transactional models and transaction processing",
+            "Virtualization, containers, and virtual machines"
+        ],
+        "enhanced_topics": {
+            "Administration, service level agreements, and manageability": [
+                {
+                    "topic": "good administration",
+                    "similarity": 0.6097077131271362
+                }
+            ],
+            "Blockchain systems, Byzantine fault tolerance, and decentralized ledgers": [
+                {
+                    "topic": "byzantine fault tolerance",
+                    "similarity": 0.9999999999993289
+                },
+                {
+                    "topic": "blockchain",
+                    "similarity": 0.6973536014556885
+                },
+                {
+                    "topic": "blockchain technology",
+                    "similarity": 0.621423751115799
+                }
+            ],
+            "Confidential computing": [],
+            "Cross data center data management": [
+                {
+                    "topic": "data centers",
+                    "similarity": 0.6663089990615845
+                }
+            ],
+            "Datacenter architectures": [],
+            "Data markets and data economy": [
+                {
+                    "topic": "data economy",
+                    "similarity": 0.9999999999990961
+                }
+            ],
+            "Distributed and networked systems": [],
+            "Distributed/parallel query processing and optimization": [
+                {
+                    "topic": "optimization",
+                    "similarity": 0.9999999999991391
+                },
+                {
+                    "topic": "optimization methods",
+                    "similarity": 0.7128329277038574
+                }
+            ],
+            "Edge and fog computing": [
+                {
+                    "topic": "fog computing",
+                    "similarity": 0.9999999999991271
+                }
+            ],
+            "Energy efficiency, sustainability, and management": [
+                {
+                    "topic": "management",
+                    "similarity": 0.9999999999992721
+                },
+                {
+                    "topic": "organizational management",
+                    "similarity": 0.7255971431732178
+                },
+                {
+                    "topic": "business management",
+                    "similarity": 0.6609124541282654
+                },
+                {
+                    "topic": "management systems",
+                    "similarity": 0.64071324467659
+                },
+                {
+                    "topic": "energy efficiency",
+                    "similarity": 0.9999999999992114
+                },
+                {
+                    "topic": "energy-efficient",
+                    "similarity": 0.821588471531868
+                },
+                {
+                    "topic": "energy efficiency and management",
+                    "similarity": 0.7473129630088806
+                },
+                {
+                    "topic": "energy performance",
+                    "similarity": 0.7082822918891907
+                },
+                {
+                    "topic": "energy conversion efficiency",
+                    "similarity": 0.7066085934638977
+                },
+                {
+                    "topic": "sustainability",
+                    "similarity": 0.9999999999989982
+                },
+                {
+                    "topic": "environmental sustainability",
+                    "similarity": 0.8477619737386703
+                },
+                {
+                    "topic": "sustainability economics",
+                    "similarity": 0.6984833180904388
+                },
+                {
+                    "topic": "social sustainability",
+                    "similarity": 0.6915953755378723
+                }
+            ],
+            "Fault tolerance, high availability, and reliability": [
+                {
+                    "topic": "fault tolerance",
+                    "similarity": 0.9999999999992447
+                },
+                {
+                    "topic": "reliability",
+                    "similarity": 0.9999999999990401
+                },
+                {
+                    "topic": "reliability study",
+                    "similarity": 0.7455997169017792
+                },
+                {
+                    "topic": "reliability assessment",
+                    "similarity": 0.7024129927158356
+                },
+                {
+                    "topic": "reliability analysis",
+                    "similarity": 0.7001047730445862
+                },
+                {
+                    "topic": "reliability evaluation",
+                    "similarity": 0.6873315572738647
+                }
+            ],
+            "Internet-of-Things infrastructure and cyber-physical systems": [
+                {
+                    "topic": "cyber-physical systems",
+                    "similarity": 0.9999999999990994
+                },
+                {
+                    "topic": "cyber-physical system",
+                    "similarity": 0.8777838945388794
+                },
+                {
+                    "topic": "cyber-physical-social systems",
+                    "similarity": 0.637011706829071
+                }
+            ],
+            "Large-scale cloud applications": [],
+            "Multi-tenancy in the cloud": [],
+            "Networking and communication": [
+                {
+                    "topic": "networking",
+                    "similarity": 0.9999999999991622
+                },
+                {
+                    "topic": "network",
+                    "similarity": 0.7802172601222992
+                },
+                {
+                    "topic": "communication",
+                    "similarity": 0.999999999999352
+                },
+                {
+                    "topic": "communications",
+                    "similarity": 0.7472314238548279
+                },
+                {
+                    "topic": "communication strategies",
+                    "similarity": 0.6296720206737518
+                },
+                {
+                    "topic": "social communication",
+                    "similarity": 0.6213279664516449
+                }
+            ],
+            "Operating systems and system support": [],
+            "Platform-as-a-Service and other cloud models": [
+                {
+                    "topic": "cloud model",
+                    "similarity": 0.8108628392219543
+                }
+            ],
+            "Privacy and security": [
+                {
+                    "topic": "security",
+                    "similarity": 0.9999999999991953
+                },
+                {
+                    "topic": "security measures",
+                    "similarity": 0.6194793581962585
+                },
+                {
+                    "topic": "security and privacy",
+                    "similarity": 0.6093282997608185
+                },
+                {
+                    "topic": "security threats",
+                    "similarity": 0.6014477610588074
+                },
+                {
+                    "topic": "privacy",
+                    "similarity": 0.999999999998861
+                },
+                {
+                    "topic": "privacy protection",
+                    "similarity": 0.7657962590456009
+                },
+                {
+                    "topic": "privacy rights",
+                    "similarity": 0.7525134533643723
+                },
+                {
+                    "topic": "privacy regulations",
+                    "similarity": 0.7043470144271851
+                },
+                {
+                    "topic": "privacy and confidentiality",
+                    "similarity": 0.6870474219322205
+                }
+            ],
+            "Programming models for cloud (e.g., serverless, microservices)": [
+                {
+                    "topic": "microservices",
+                    "similarity": 0.9132286161184311
+                },
+                {
+                    "topic": "clouds",
+                    "similarity": 0.6689212918281555
+                },
+                {
+                    "topic": "cloud service",
+                    "similarity": 0.6173452138900757
+                },
+                {
+                    "topic": "model-based programming",
+                    "similarity": 0.7426983714103699
+                }
+            ],
+            "Resource management, allocation, scheduling, provisioning, and metering": [
+                {
+                    "topic": "resource management",
+                    "similarity": 0.9999999999991244
+                },
+                {
+                    "topic": "resource planning",
+                    "similarity": 0.64930659532547
+                },
+                {
+                    "topic": "scheduling",
+                    "similarity": 0.9999999999992726
+                },
+                {
+                    "topic": "scheduling algorithms",
+                    "similarity": 0.7331537902355194
+                },
+                {
+                    "topic": "personnel scheduling",
+                    "similarity": 0.7228208184242249
+                },
+                {
+                    "topic": "task scheduling",
+                    "similarity": 0.6928910911083221
+                },
+                {
+                    "topic": "group scheduling",
+                    "similarity": 0.6733013391494751
+                }
+            ],
+            "Scientific data management and workflows": [
+                {
+                    "topic": "workflow management",
+                    "similarity": 0.7109769582748413
+                },
+                {
+                    "topic": "scientific data management",
+                    "similarity": 0.999999999999177
+                },
+                {
+                    "topic": "scientific computing and data management",
+                    "similarity": 0.7547601163387299
+                }
+            ],
+            "Sky computing": [],
+            "Storage systems and new storage technologies": [
+                {
+                    "topic": "advanced data storage technologies",
+                    "similarity": 0.6335763931274414
+                },
+                {
+                    "topic": "storage systems",
+                    "similarity": 0.9999999999992627
+                },
+                {
+                    "topic": "data storage",
+                    "similarity": 0.6328857243061066
+                }
+            ],
+            "Machine learning for clouds and cloud-based systems": [],
+            "Systems for machine learning training and/or serving": [
+                {
+                    "topic": "machine learning",
+                    "similarity": 0.694231241941452
+                },
+                {
+                    "topic": "system",
+                    "similarity": 0.7806407958269119
+                }
+            ],
+            "Tracing and monitoring systems": [
+                {
+                    "topic": "monitoring system",
+                    "similarity": 0.8961059898138046
+                },
+                {
+                    "topic": "monitoring",
+                    "similarity": 0.7124661207199097
+                },
+                {
+                    "topic": "monitoring techniques",
+                    "similarity": 0.6462089717388153
+                }
+            ],
+            "Transactional models and transaction processing": [],
+            "Virtualization, containers, and virtual machines": [
+                {
+                    "topic": "virtual machines",
+                    "similarity": 0.9999999999990445
+                },
+                {
+                    "topic": "virtualization",
+                    "similarity": 0.9999999999990135
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    }
+}

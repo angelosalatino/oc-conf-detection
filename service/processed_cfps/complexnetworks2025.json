@@ -1,0 +1,591 @@
+{
+    "llm-output": {
+        "event_name": "14th International Conference on Complex Networks & Their Applications",
+        "conference_series": "International Conference on Complex Networks & Their Applications",
+        "event_acronym": "COMPLEX NETWORKS 2025",
+        "colocated_with": "",
+        "year": "2025",
+        "location": "Binghamton, New York USA",
+        "topics": [
+            "Models of Complex Networks",
+            "Structural Network Properties and Analysis",
+            "Epidemics",
+            "Community Structure",
+            "Motifs",
+            "Network Mining",
+            "Network embedding",
+            "Machine learning with graphs",
+            "Dynamics and Evolution Patterns of Complex Networks",
+            "Link Prediction",
+            "Multilayer Networks",
+            "Controllability",
+            "Synchronization",
+            "Visual Representation",
+            "Large-scale Graph Analytics",
+            "Social Reputation, Influence, and Trust",
+            "Information Spreading in Social Media",
+            "Rumour and Viral Marketing in Social Networks",
+            "Recommendation Systems",
+            "Financial and Economic Networks",
+            "Mobility",
+            "Biological and Technological Networks",
+            "Mobile call Networks",
+            "Bioinformatics",
+            "Earth Sciences Applications",
+            "Resilience and Robustness of Complex Networks",
+            "Networks for Physical Infrastructures",
+            "Networks, Smart Cities and Smart Grids",
+            "Political networks",
+            "Supply chain networks",
+            "Complex networks and information systems",
+            "Complex networks and CPS/IoT",
+            "Graph signal processing",
+            "Cognitive Network Science",
+            "Network Medicine",
+            "Network Neuroscience",
+            "Quantifying success through network analysis",
+            "Temporal and spatial networks",
+            "Historical Networks",
+            "Graph-Based Natural Language Processing"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Hocine Cherifi",
+                "organiser_affiliation": "University of Burgundy",
+                "organiser_country": "France",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Hocine Cherifi",
+                "openalex_page": "https://openalex.org/A5006125158",
+                "orcid": "https://orcid.org/0000-0001-9124-4921",
+                "affiliation_ror": "https://ror.org/02rzqza52"
+            },
+            {
+                "organiser_name": "Luis M. Rocha",
+                "organiser_affiliation": "Binghamton University",
+                "organiser_country": "USA",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Lu\u00eds M. Rocha",
+                "openalex_page": "https://openalex.org/A5065682719",
+                "orcid": "https://orcid.org/0000-0001-9402-887X",
+                "affiliation_ror": "https://ror.org/008rmbt77"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "14th International Conference on Complex Networks & Their Applications",
+        "event_acronym": "COMPLEX NETWORKS 2025",
+        "conference_series": "International Conference on Complex Networks & Their Applications",
+        "colocated_with": "",
+        "year": "2025",
+        "location": "Binghamton, New York USA",
+        "DBLP": {
+            "name": "International Workshop on Complex Networks & Their Applications",
+            "id": "complexnetworks",
+            "url": "https://dblp.org/streams/conf/complexnetworks"
+        },
+        "AIDA": {
+            "name": "Complex Networks & Their Applications",
+            "id": "complexnetworks",
+            "url": "https://w3id.org/aida/dashboard/cs/conference/Complex%20Networks%20%26%20Their%20Applications"
+        },
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Hocine Cherifi",
+                "organiser_affiliation": "University of Burgundy",
+                "organiser_country": "France",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Hocine Cherifi",
+                "openalex_page": "https://openalex.org/A5006125158",
+                "orcid": "https://orcid.org/0000-0001-9124-4921",
+                "affiliation_ror": "https://ror.org/02rzqza52"
+            },
+            {
+                "organiser_name": "Luis M. Rocha",
+                "organiser_affiliation": "Binghamton University",
+                "organiser_country": "USA",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Lu\u00eds M. Rocha",
+                "openalex_page": "https://openalex.org/A5065682719",
+                "orcid": "https://orcid.org/0000-0001-9402-887X",
+                "affiliation_ror": "https://ror.org/008rmbt77"
+            }
+        ],
+        "topics": [
+            "Models of Complex Networks",
+            "Structural Network Properties and Analysis",
+            "Epidemics",
+            "Community Structure",
+            "Motifs",
+            "Network Mining",
+            "Network embedding",
+            "Machine learning with graphs",
+            "Dynamics and Evolution Patterns of Complex Networks",
+            "Link Prediction",
+            "Multilayer Networks",
+            "Controllability",
+            "Synchronization",
+            "Visual Representation",
+            "Large-scale Graph Analytics",
+            "Social Reputation, Influence, and Trust",
+            "Information Spreading in Social Media",
+            "Rumour and Viral Marketing in Social Networks",
+            "Recommendation Systems",
+            "Financial and Economic Networks",
+            "Mobility",
+            "Biological and Technological Networks",
+            "Mobile call Networks",
+            "Bioinformatics",
+            "Earth Sciences Applications",
+            "Resilience and Robustness of Complex Networks",
+            "Networks for Physical Infrastructures",
+            "Networks, Smart Cities and Smart Grids",
+            "Political networks",
+            "Supply chain networks",
+            "Complex networks and information systems",
+            "Complex networks and CPS/IoT",
+            "Graph signal processing",
+            "Cognitive Network Science",
+            "Network Medicine",
+            "Network Neuroscience",
+            "Quantifying success through network analysis",
+            "Temporal and spatial networks",
+            "Historical Networks",
+            "Graph-Based Natural Language Processing"
+        ],
+        "enhanced_topics": {
+            "Models of Complex Networks": [
+                {
+                    "topic": "complex networks",
+                    "similarity": 0.7565152049064636
+                },
+                {
+                    "topic": "statistical mechanics of complex networks",
+                    "similarity": 0.6767819821834564
+                }
+            ],
+            "Structural Network Properties and Analysis": [
+                {
+                    "topic": "analysis",
+                    "similarity": 0.9999999999991188
+                },
+                {
+                    "topic": "mathematical analysis",
+                    "similarity": 0.6133468151092529
+                }
+            ],
+            "Epidemics": [
+                {
+                    "topic": "epidemics",
+                    "similarity": 0.9999999999994171
+                },
+                {
+                    "topic": "epidemic",
+                    "similarity": 0.9076502397656441
+                },
+                {
+                    "topic": "epidemic spreading",
+                    "similarity": 0.717480480670929
+                },
+                {
+                    "topic": "epidemic models",
+                    "similarity": 0.6424337029457092
+                }
+            ],
+            "Community Structure": [
+                {
+                    "topic": "community structure",
+                    "similarity": 0.9999999999992663
+                }
+            ],
+            "Motifs": [],
+            "Network Mining": [],
+            "Network embedding": [
+                {
+                    "topic": "network embedding",
+                    "similarity": 0.9999999999991975
+                },
+                {
+                    "topic": "virtual network embedding",
+                    "similarity": 0.7528356164693832
+                }
+            ],
+            "Machine learning with graphs": [],
+            "Dynamics and Evolution Patterns of Complex Networks": [
+                {
+                    "topic": "dynamics",
+                    "similarity": 0.9999999999992611
+                },
+                {
+                    "topic": "complex networks",
+                    "similarity": 0.9999999999991449
+                },
+                {
+                    "topic": "statistical mechanics of complex networks",
+                    "similarity": 0.6366751194000244
+                }
+            ],
+            "Link Prediction": [],
+            "Multilayer Networks": [],
+            "Controllability": [
+                {
+                    "topic": "controllability",
+                    "similarity": 0.9999999999993231
+                }
+            ],
+            "Synchronization": [
+                {
+                    "topic": "synchronization",
+                    "similarity": 0.9999999999993348
+                },
+                {
+                    "topic": "distributed synchronization",
+                    "similarity": 0.7573558241128922
+                },
+                {
+                    "topic": "adaptive synchronization",
+                    "similarity": 0.7469636797904968
+                },
+                {
+                    "topic": "synchronization transitions",
+                    "similarity": 0.6673102974891663
+                },
+                {
+                    "topic": "synchronicity",
+                    "similarity": 0.6446242928504944
+                }
+            ],
+            "Visual Representation": [
+                {
+                    "topic": "visual representation",
+                    "similarity": 0.9999999999990181
+                },
+                {
+                    "topic": "graphical representation",
+                    "similarity": 0.6137549877166748
+                }
+            ],
+            "Large-scale Graph Analytics": [
+                {
+                    "topic": "large-scale graphs",
+                    "similarity": 0.6674172878265381
+                }
+            ],
+            "Social Reputation, Influence, and Trust": [
+                {
+                    "topic": "influence",
+                    "similarity": 0.9999999999987731
+                },
+                {
+                    "topic": "human influence",
+                    "similarity": 0.6932802796363831
+                },
+                {
+                    "topic": "social influence",
+                    "similarity": 0.6627157926559448
+                },
+                {
+                    "topic": "trust",
+                    "similarity": 0.9999999999990813
+                },
+                {
+                    "topic": "trust and reputation",
+                    "similarity": 0.6565130949020386
+                }
+            ],
+            "Information Spreading in Social Media": [
+                {
+                    "topic": "information",
+                    "similarity": 0.9999999999988846
+                },
+                {
+                    "topic": "information content",
+                    "similarity": 0.6143069863319397
+                },
+                {
+                    "topic": "social media",
+                    "similarity": 0.9999999999986088
+                },
+                {
+                    "topic": "social media use",
+                    "similarity": 0.6488985121250153
+                },
+                {
+                    "topic": "social networking",
+                    "similarity": 0.6037251651287079
+                }
+            ],
+            "Rumour and Viral Marketing in Social Networks": [
+                {
+                    "topic": "social networks",
+                    "similarity": 0.9999999999987619
+                },
+                {
+                    "topic": "online social networks",
+                    "similarity": 0.7671507298946381
+                },
+                {
+                    "topic": "social networking",
+                    "similarity": 0.6711836457252502
+                }
+            ],
+            "Recommendation Systems": [
+                {
+                    "topic": "recommender system technologies",
+                    "similarity": 0.6835770606994629
+                },
+                {
+                    "topic": "recommender systems and techniques",
+                    "similarity": 0.6146451830863953
+                }
+            ],
+            "Financial and Economic Networks": [
+                {
+                    "topic": "finance",
+                    "similarity": 0.7885514497756958
+                },
+                {
+                    "topic": "economic networks",
+                    "similarity": 0.9999999999993457
+                }
+            ],
+            "Mobility": [
+                {
+                    "topic": "mobility",
+                    "similarity": 0.9999999999990145
+                },
+                {
+                    "topic": "human mobility",
+                    "similarity": 0.7084443867206573
+                },
+                {
+                    "topic": "mobility support",
+                    "similarity": 0.631760984659195
+                },
+                {
+                    "topic": "mobility models",
+                    "similarity": 0.6060503721237183
+                }
+            ],
+            "Biological and Technological Networks": [
+                {
+                    "topic": "technology networks",
+                    "similarity": 0.8146901279687881
+                },
+                {
+                    "topic": "biology",
+                    "similarity": 0.7253059148788452
+                }
+            ],
+            "Mobile call Networks": [
+                {
+                    "topic": "mobile networks",
+                    "similarity": 0.6197863817214966
+                }
+            ],
+            "Bioinformatics": [
+                {
+                    "topic": "bioinformatics",
+                    "similarity": 0.9999999999986008
+                },
+                {
+                    "topic": "bioinformatics tools",
+                    "similarity": 0.7977283447980881
+                },
+                {
+                    "topic": "machine learning in bioinformatics",
+                    "similarity": 0.623091846704483
+                },
+                {
+                    "topic": "bioinformatics and genomic networks",
+                    "similarity": 0.6042113900184631
+                }
+            ],
+            "Earth Sciences Applications": [],
+            "Resilience and Robustness of Complex Networks": [
+                {
+                    "topic": "resilience",
+                    "similarity": 0.9999999999990754
+                },
+                {
+                    "topic": "resilience analysis",
+                    "similarity": 0.802843302488327
+                },
+                {
+                    "topic": "psychological resilience",
+                    "similarity": 0.7948871403932571
+                },
+                {
+                    "topic": "resilience enhancement",
+                    "similarity": 0.7331864237785339
+                }
+            ],
+            "Networks for Physical Infrastructures": [],
+            "Networks, Smart Cities and Smart Grids": [
+                {
+                    "topic": "smart grids",
+                    "similarity": 0.9999999999992366
+                },
+                {
+                    "topic": "smart grid",
+                    "similarity": 0.9296862706542015
+                },
+                {
+                    "topic": "smart grid applications",
+                    "similarity": 0.7365797758102417
+                },
+                {
+                    "topic": "smart grid development",
+                    "similarity": 0.6895508468151093
+                },
+                {
+                    "topic": "smart grid technology",
+                    "similarity": 0.6735339164733887
+                },
+                {
+                    "topic": "networks",
+                    "similarity": 0.9999999999990791
+                },
+                {
+                    "topic": "network",
+                    "similarity": 0.690041720867157
+                },
+                {
+                    "topic": "global networks",
+                    "similarity": 0.641360342502594
+                },
+                {
+                    "topic": "business networks",
+                    "similarity": 0.6231380701065063
+                },
+                {
+                    "topic": "communication networks",
+                    "similarity": 0.6163976788520813
+                },
+                {
+                    "topic": "smart cities",
+                    "similarity": 0.9999999999988763
+                },
+                {
+                    "topic": "smart city",
+                    "similarity": 0.8520668894052505
+                },
+                {
+                    "topic": "smart city technologies",
+                    "similarity": 0.761732429265976
+                },
+                {
+                    "topic": "smart cities and technologies",
+                    "similarity": 0.7503164559602737
+                },
+                {
+                    "topic": "smart city technology",
+                    "similarity": 0.7407332360744476
+                }
+            ],
+            "Political networks": [],
+            "Supply chain networks": [
+                {
+                    "topic": "supply chain networks",
+                    "similarity": 0.9999999999992556
+                },
+                {
+                    "topic": "supply chain",
+                    "similarity": 0.7111667990684509
+                },
+                {
+                    "topic": "supply chain network design",
+                    "similarity": 0.6853705644607544
+                }
+            ],
+            "Complex networks and information systems": [
+                {
+                    "topic": "information systems",
+                    "similarity": 0.9999999999987464
+                },
+                {
+                    "topic": "information system",
+                    "similarity": 0.848882332444191
+                },
+                {
+                    "topic": "information systems and management",
+                    "similarity": 0.6817702949047089
+                },
+                {
+                    "topic": "management information systems",
+                    "similarity": 0.6682118475437164
+                },
+                {
+                    "topic": "complex networks",
+                    "similarity": 0.9999999999991449
+                },
+                {
+                    "topic": "statistical mechanics of complex networks",
+                    "similarity": 0.6366751194000244
+                }
+            ],
+            "Complex networks and CPS/IoT": [
+                {
+                    "topic": "complex networks",
+                    "similarity": 0.9999999999991449
+                },
+                {
+                    "topic": "statistical mechanics of complex networks",
+                    "similarity": 0.6366751194000244
+                }
+            ],
+            "Graph signal processing": [
+                {
+                    "topic": "signal processing on graphs",
+                    "similarity": 0.9029546603560448
+                },
+                {
+                    "topic": "graph processing",
+                    "similarity": 0.7013112902641296
+                }
+            ],
+            "Cognitive Network Science": [],
+            "Network Medicine": [],
+            "Network Neuroscience": [],
+            "Quantifying success through network analysis": [
+                {
+                    "topic": "network analysis",
+                    "similarity": 0.9999999999990473
+                },
+                {
+                    "topic": "complex network analysis techniques",
+                    "similarity": 0.6093915402889252
+                }
+            ],
+            "Temporal and spatial networks": [
+                {
+                    "topic": "spatial network analysis",
+                    "similarity": 0.6628378033638
+                },
+                {
+                    "topic": "temporality",
+                    "similarity": 0.8737574815750122
+                },
+                {
+                    "topic": "temporalities",
+                    "similarity": 0.8409405052661896
+                },
+                {
+                    "topic": "temporal structure",
+                    "similarity": 0.7007732093334198
+                }
+            ],
+            "Historical Networks": [],
+            "Graph-Based Natural Language Processing": []
+        },
+        "preferred_threshold": 0.6
+    }
+}

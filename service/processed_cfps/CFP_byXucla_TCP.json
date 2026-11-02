@@ -1,0 +1,682 @@
+{
+    "llm-output": {
+        "event_name": "9th International Conference on Trapped Charged Particles and Fundamental Physics",
+        "conference_series": "International Conference on Trapped Charged Particles and Fundamental Physics",
+        "event_acronym": "TCP",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "The Vale Resort, Vale of Glamorgan, UK",
+        "topics": [
+            "Fundamental Interactions and Symmetries",
+            "QED Effects",
+            "Quantum State Manipulation and Quantum Information",
+            "Precision Spectroscopy and Frequency Standards",
+            "Highly Charged Ions in Traps",
+            "Radioactive Isotopes in Traps",
+            "Plasmas and Collective Behavior",
+            "Storage Ring Physics",
+            "Trapped Antimatter",
+            "Applications of Charged Particle Trapping"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Niels Madsen",
+                "organiser_affiliation": "Swansea University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "N. Madsen",
+                "openalex_page": "https://openalex.org/A5041780334",
+                "orcid": "https://orcid.org/0000-0002-7372-0784",
+                "affiliation_ror": "https://ror.org/053fq8t95"
+            },
+            {
+                "organiser_name": "Michael Charlton",
+                "organiser_affiliation": "Swansea University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "M. Charlton",
+                "openalex_page": "https://openalex.org/A5047329269",
+                "orcid": "https://orcid.org/0000-0002-9754-1932",
+                "affiliation_ror": "https://ror.org/053fq8t95"
+            },
+            {
+                "organiser_name": "Stefan Eriksson",
+                "organiser_affiliation": "Swansea University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "S. Eriksson",
+                "openalex_page": "https://openalex.org/A5059420612",
+                "orcid": "https://orcid.org/0000-0002-5390-1879",
+                "affiliation_ror": "https://ror.org/053fq8t95"
+            },
+            {
+                "organiser_name": "Aled Isaac",
+                "organiser_affiliation": "Swansea University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "C. A. Isaac",
+                "openalex_page": "https://openalex.org/A5005113691",
+                "orcid": "https://orcid.org/0000-0002-7813-1903",
+                "affiliation_ror": "https://ror.org/053fq8t95"
+            },
+            {
+                "organiser_name": "Dirk Peter van der Werf",
+                "organiser_affiliation": "Swansea University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "D. P. van der Werf",
+                "openalex_page": "https://openalex.org/A5053677739",
+                "orcid": "https://orcid.org/0000-0001-5436-5214",
+                "affiliation_ror": "https://ror.org/053fq8t95"
+            },
+            {
+                "organiser_name": "Adam Powell",
+                "organiser_affiliation": "CERN",
+                "organiser_country": "Switzerland",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "A. Powell",
+                "openalex_page": "https://openalex.org/A5112524224",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Rainer Blatt",
+                "organiser_affiliation": "University of Innsbruck",
+                "organiser_country": "Austria",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "R. Blatt",
+                "openalex_page": "https://openalex.org/A5040977712",
+                "orcid": "https://orcid.org/0000-0002-3122-2461",
+                "affiliation_ror": "https://ror.org/054pv6659"
+            },
+            {
+                "organiser_name": "Georg Bollen",
+                "organiser_affiliation": "FRIB, MSU East Lansing",
+                "organiser_country": "USA",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "G. Bollen",
+                "openalex_page": "https://openalex.org/A5077992291",
+                "orcid": "https://orcid.org/0000-0003-4453-1180",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "John Bollinger",
+                "organiser_affiliation": "NIST, Boulder",
+                "organiser_country": "USA",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "J. J. Bollinger",
+                "openalex_page": "https://openalex.org/A5086425769",
+                "orcid": "https://orcid.org/0000-0001-9117-7896",
+                "affiliation_ror": "https://ror.org/02ttsq026"
+            },
+            {
+                "organiser_name": "Dima Budker",
+                "organiser_affiliation": "HIM, UMz",
+                "organiser_country": "Germany",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Jens Dilling",
+                "organiser_affiliation": "Jefferson Lab, Virginia",
+                "organiser_country": "USA",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "J. Dilling",
+                "openalex_page": "https://openalex.org/A5006484840",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/02vwzrd76"
+            },
+            {
+                "organiser_name": "Anu Kankainen",
+                "organiser_affiliation": "Jyv\u00e4skyl\u00e4",
+                "organiser_country": "Finland",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "A. Kankainen",
+                "openalex_page": "https://openalex.org/A5044839828",
+                "orcid": "https://orcid.org/0000-0003-1082-7602",
+                "affiliation_ror": "https://ror.org/05n3dz165"
+            },
+            {
+                "organiser_name": "Martina Knoop",
+                "organiser_affiliation": "University Aix-Marseille",
+                "organiser_country": "France",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Martina Knoop",
+                "openalex_page": "https://openalex.org/A5052451487",
+                "orcid": "https://orcid.org/0000-0002-8789-2544",
+                "affiliation_ror": "https://ror.org/035xkbk20"
+            },
+            {
+                "organiser_name": "Xiwen Ma",
+                "organiser_affiliation": "Institute of Modern Physics, Lanzhou",
+                "organiser_country": "China",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Xiwen Ma",
+                "openalex_page": "https://openalex.org/A5103933742",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Daniel Rodriguez",
+                "organiser_affiliation": "University of Granada",
+                "organiser_country": "Spain",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "D. Rodr\u0131\u0301guez",
+                "openalex_page": "https://openalex.org/A5100713373",
+                "orcid": "https://orcid.org/0000-0002-2989-7566",
+                "affiliation_ror": "https://ror.org/05n0gsn30"
+            },
+            {
+                "organiser_name": "Guy Ron",
+                "organiser_affiliation": "Racah Institute of Physics",
+                "organiser_country": "Israel",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "G. Ron",
+                "openalex_page": "https://openalex.org/A5023958808",
+                "orcid": "https://orcid.org/0000-0002-8129-7146",
+                "affiliation_ror": "https://ror.org/02yhj4v17"
+            },
+            {
+                "organiser_name": "Guy Savard",
+                "organiser_affiliation": "Argonne National Lab",
+                "organiser_country": "France",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "G. Savard",
+                "openalex_page": "https://openalex.org/A5002113571",
+                "orcid": "https://orcid.org/0009-0001-9672-2846",
+                "affiliation_ror": "https://ror.org/05gvnxz63"
+            },
+            {
+                "organiser_name": "Yannis Semertzidis",
+                "organiser_affiliation": "Korea Adv. Institute of Science and Technology",
+                "organiser_country": "South Korea",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yannis K. Semertzidis",
+                "openalex_page": "https://openalex.org/A5073649257",
+                "orcid": "https://orcid.org/0000-0001-7941-6639",
+                "affiliation_ror": "https://ror.org/05kzfa883"
+            },
+            {
+                "organiser_name": "Richard Thompson",
+                "organiser_affiliation": "Imperial College London",
+                "organiser_country": "United Kingdom",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Richard C. Thompson",
+                "openalex_page": "https://openalex.org/A5034506802",
+                "orcid": "https://orcid.org/0000-0003-2262-6621",
+                "affiliation_ror": "https://ror.org/041kmwe10"
+            },
+            {
+                "organiser_name": "Stefan Ulmer",
+                "organiser_affiliation": "HHU, D\u00fcsseldorf",
+                "organiser_country": "Germany",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "S. Ulmer",
+                "openalex_page": "https://openalex.org/A5030885545",
+                "orcid": "https://orcid.org/0000-0002-4185-4147",
+                "affiliation_ror": "https://ror.org/024z2rq82"
+            },
+            {
+                "organiser_name": "Michiharu Wada",
+                "organiser_affiliation": "KEK",
+                "organiser_country": "Japan",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "M. Wada",
+                "openalex_page": "https://openalex.org/A5020079698",
+                "orcid": "https://orcid.org/0000-0003-3109-759X",
+                "affiliation_ror": "https://ror.org/01sjwvz98"
+            },
+            {
+                "organiser_name": "Eberhard Widmann",
+                "organiser_affiliation": "S. Meyer Institute",
+                "organiser_country": "Austria",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "E. Widmann",
+                "openalex_page": "https://openalex.org/A5002908349",
+                "orcid": "https://orcid.org/0000-0003-0486-6023",
+                "affiliation_ror": "https://ror.org/05kdjqf72"
+            },
+            {
+                "organiser_name": "Takayuki Yamaguchi",
+                "organiser_affiliation": "Saitama",
+                "organiser_country": "Japan",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Takayuki Yamaguchi",
+                "openalex_page": "https://openalex.org/A5104779069",
+                "orcid": "https://orcid.org/0000-0001-5176-6792",
+                "affiliation_ror": "https://ror.org/02evnh647"
+            },
+            {
+                "organiser_name": "Yuhu Zang",
+                "organiser_affiliation": "Institute of Modern Physics, Lanzhou",
+                "organiser_country": "China",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "9th International Conference on Trapped Charged Particles and Fundamental Physics",
+        "event_acronym": "TCP",
+        "conference_series": "International Conference on Trapped Charged Particles and Fundamental Physics",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "The Vale Resort, Vale of Glamorgan, UK",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Niels Madsen",
+                "organiser_affiliation": "Swansea University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "N. Madsen",
+                "openalex_page": "https://openalex.org/A5041780334",
+                "orcid": "https://orcid.org/0000-0002-7372-0784",
+                "affiliation_ror": "https://ror.org/053fq8t95"
+            },
+            {
+                "organiser_name": "Michael Charlton",
+                "organiser_affiliation": "Swansea University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "M. Charlton",
+                "openalex_page": "https://openalex.org/A5047329269",
+                "orcid": "https://orcid.org/0000-0002-9754-1932",
+                "affiliation_ror": "https://ror.org/053fq8t95"
+            },
+            {
+                "organiser_name": "Stefan Eriksson",
+                "organiser_affiliation": "Swansea University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "S. Eriksson",
+                "openalex_page": "https://openalex.org/A5059420612",
+                "orcid": "https://orcid.org/0000-0002-5390-1879",
+                "affiliation_ror": "https://ror.org/053fq8t95"
+            },
+            {
+                "organiser_name": "Aled Isaac",
+                "organiser_affiliation": "Swansea University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "C. A. Isaac",
+                "openalex_page": "https://openalex.org/A5005113691",
+                "orcid": "https://orcid.org/0000-0002-7813-1903",
+                "affiliation_ror": "https://ror.org/053fq8t95"
+            },
+            {
+                "organiser_name": "Dirk Peter van der Werf",
+                "organiser_affiliation": "Swansea University",
+                "organiser_country": "United Kingdom",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "D. P. van der Werf",
+                "openalex_page": "https://openalex.org/A5053677739",
+                "orcid": "https://orcid.org/0000-0001-5436-5214",
+                "affiliation_ror": "https://ror.org/053fq8t95"
+            },
+            {
+                "organiser_name": "Adam Powell",
+                "organiser_affiliation": "CERN",
+                "organiser_country": "Switzerland",
+                "track_name": "Local Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "A. Powell",
+                "openalex_page": "https://openalex.org/A5112524224",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Rainer Blatt",
+                "organiser_affiliation": "University of Innsbruck",
+                "organiser_country": "Austria",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "R. Blatt",
+                "openalex_page": "https://openalex.org/A5040977712",
+                "orcid": "https://orcid.org/0000-0002-3122-2461",
+                "affiliation_ror": "https://ror.org/054pv6659"
+            },
+            {
+                "organiser_name": "Georg Bollen",
+                "organiser_affiliation": "FRIB, MSU East Lansing",
+                "organiser_country": "USA",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "G. Bollen",
+                "openalex_page": "https://openalex.org/A5077992291",
+                "orcid": "https://orcid.org/0000-0003-4453-1180",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "John Bollinger",
+                "organiser_affiliation": "NIST, Boulder",
+                "organiser_country": "USA",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "J. J. Bollinger",
+                "openalex_page": "https://openalex.org/A5086425769",
+                "orcid": "https://orcid.org/0000-0001-9117-7896",
+                "affiliation_ror": "https://ror.org/02ttsq026"
+            },
+            {
+                "organiser_name": "Dima Budker",
+                "organiser_affiliation": "HIM, UMz",
+                "organiser_country": "Germany",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Jens Dilling",
+                "organiser_affiliation": "Jefferson Lab, Virginia",
+                "organiser_country": "USA",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "J. Dilling",
+                "openalex_page": "https://openalex.org/A5006484840",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/02vwzrd76"
+            },
+            {
+                "organiser_name": "Anu Kankainen",
+                "organiser_affiliation": "Jyv\u00e4skyl\u00e4",
+                "organiser_country": "Finland",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "A. Kankainen",
+                "openalex_page": "https://openalex.org/A5044839828",
+                "orcid": "https://orcid.org/0000-0003-1082-7602",
+                "affiliation_ror": "https://ror.org/05n3dz165"
+            },
+            {
+                "organiser_name": "Martina Knoop",
+                "organiser_affiliation": "University Aix-Marseille",
+                "organiser_country": "France",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Martina Knoop",
+                "openalex_page": "https://openalex.org/A5052451487",
+                "orcid": "https://orcid.org/0000-0002-8789-2544",
+                "affiliation_ror": "https://ror.org/035xkbk20"
+            },
+            {
+                "organiser_name": "Xiwen Ma",
+                "organiser_affiliation": "Institute of Modern Physics, Lanzhou",
+                "organiser_country": "China",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Xiwen Ma",
+                "openalex_page": "https://openalex.org/A5103933742",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Daniel Rodriguez",
+                "organiser_affiliation": "University of Granada",
+                "organiser_country": "Spain",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "D. Rodr\u0131\u0301guez",
+                "openalex_page": "https://openalex.org/A5100713373",
+                "orcid": "https://orcid.org/0000-0002-2989-7566",
+                "affiliation_ror": "https://ror.org/05n0gsn30"
+            },
+            {
+                "organiser_name": "Guy Ron",
+                "organiser_affiliation": "Racah Institute of Physics",
+                "organiser_country": "Israel",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "G. Ron",
+                "openalex_page": "https://openalex.org/A5023958808",
+                "orcid": "https://orcid.org/0000-0002-8129-7146",
+                "affiliation_ror": "https://ror.org/02yhj4v17"
+            },
+            {
+                "organiser_name": "Guy Savard",
+                "organiser_affiliation": "Argonne National Lab",
+                "organiser_country": "France",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "G. Savard",
+                "openalex_page": "https://openalex.org/A5002113571",
+                "orcid": "https://orcid.org/0009-0001-9672-2846",
+                "affiliation_ror": "https://ror.org/05gvnxz63"
+            },
+            {
+                "organiser_name": "Yannis Semertzidis",
+                "organiser_affiliation": "Korea Adv. Institute of Science and Technology",
+                "organiser_country": "South Korea",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yannis K. Semertzidis",
+                "openalex_page": "https://openalex.org/A5073649257",
+                "orcid": "https://orcid.org/0000-0001-7941-6639",
+                "affiliation_ror": "https://ror.org/05kzfa883"
+            },
+            {
+                "organiser_name": "Richard Thompson",
+                "organiser_affiliation": "Imperial College London",
+                "organiser_country": "United Kingdom",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Richard C. Thompson",
+                "openalex_page": "https://openalex.org/A5034506802",
+                "orcid": "https://orcid.org/0000-0003-2262-6621",
+                "affiliation_ror": "https://ror.org/041kmwe10"
+            },
+            {
+                "organiser_name": "Stefan Ulmer",
+                "organiser_affiliation": "HHU, D\u00fcsseldorf",
+                "organiser_country": "Germany",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "S. Ulmer",
+                "openalex_page": "https://openalex.org/A5030885545",
+                "orcid": "https://orcid.org/0000-0002-4185-4147",
+                "affiliation_ror": "https://ror.org/024z2rq82"
+            },
+            {
+                "organiser_name": "Michiharu Wada",
+                "organiser_affiliation": "KEK",
+                "organiser_country": "Japan",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "M. Wada",
+                "openalex_page": "https://openalex.org/A5020079698",
+                "orcid": "https://orcid.org/0000-0003-3109-759X",
+                "affiliation_ror": "https://ror.org/01sjwvz98"
+            },
+            {
+                "organiser_name": "Eberhard Widmann",
+                "organiser_affiliation": "S. Meyer Institute",
+                "organiser_country": "Austria",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "E. Widmann",
+                "openalex_page": "https://openalex.org/A5002908349",
+                "orcid": "https://orcid.org/0000-0003-0486-6023",
+                "affiliation_ror": "https://ror.org/05kdjqf72"
+            },
+            {
+                "organiser_name": "Takayuki Yamaguchi",
+                "organiser_affiliation": "Saitama",
+                "organiser_country": "Japan",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Takayuki Yamaguchi",
+                "openalex_page": "https://openalex.org/A5104779069",
+                "orcid": "https://orcid.org/0000-0001-5176-6792",
+                "affiliation_ror": "https://ror.org/02evnh647"
+            },
+            {
+                "organiser_name": "Yuhu Zang",
+                "organiser_affiliation": "Institute of Modern Physics, Lanzhou",
+                "organiser_country": "China",
+                "track_name": "International Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Fundamental Interactions and Symmetries",
+            "QED Effects",
+            "Quantum State Manipulation and Quantum Information",
+            "Precision Spectroscopy and Frequency Standards",
+            "Highly Charged Ions in Traps",
+            "Radioactive Isotopes in Traps",
+            "Plasmas and Collective Behavior",
+            "Storage Ring Physics",
+            "Trapped Antimatter",
+            "Applications of Charged Particle Trapping"
+        ],
+        "enhanced_topics": {
+            "Fundamental Interactions and Symmetries": [],
+            "QED Effects": [],
+            "Quantum State Manipulation and Quantum Information": [
+                {
+                    "topic": "quantum information",
+                    "similarity": 0.9999999999989716
+                },
+                {
+                    "topic": "quantum information and computation",
+                    "similarity": 0.7789408564567566
+                },
+                {
+                    "topic": "quantum information and cryptography",
+                    "similarity": 0.6643667221069336
+                }
+            ],
+            "Precision Spectroscopy and Frequency Standards": [
+                {
+                    "topic": "advanced frequency and time standards",
+                    "similarity": 0.6378801763057709
+                }
+            ],
+            "Highly Charged Ions in Traps": [],
+            "Radioactive Isotopes in Traps": [],
+            "Plasmas and Collective Behavior": [
+                {
+                    "topic": "collective behavior",
+                    "similarity": 0.9999999999993731
+                },
+                {
+                    "topic": "collective behaviours",
+                    "similarity": 0.9190637767314911
+                },
+                {
+                    "topic": "collective action",
+                    "similarity": 0.6438382565975189
+                },
+                {
+                    "topic": "plasma",
+                    "similarity": 0.8820232972502708
+                },
+                {
+                    "topic": "space plasmas",
+                    "similarity": 0.6766246557235718
+                }
+            ],
+            "Storage Ring Physics": [],
+            "Trapped Antimatter": [],
+            "Applications of Charged Particle Trapping": [
+                {
+                    "topic": "applications",
+                    "similarity": 0.9999999999993826
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    }
+}

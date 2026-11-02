@@ -1,0 +1,79 @@
+{
+    "llm-output": {
+        "event_name": "2026 European Political Science Association Conference",
+        "conference_series": "European Political Science Association Conference",
+        "event_acronym": "EPSA 2026",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Prague, Czech Republic",
+        "topics": [
+            "state of the art in political science",
+            "substantive area of politics"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Raymond Duch",
+                "organiser_affiliation": "University of Oxford",
+                "organiser_country": "UK",
+                "track_name": "Chair for EPSA 2026",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Raymond Duch",
+                "openalex_page": "https://openalex.org/A5055869562",
+                "orcid": "https://orcid.org/0000-0002-1166-7674",
+                "affiliation_ror": "https://ror.org/052gg0110"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "2026 European Political Science Association Conference",
+        "event_acronym": "EPSA 2026",
+        "conference_series": "European Political Science Association Conference",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Prague, Czech Republic",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Raymond Duch",
+                "organiser_affiliation": "University of Oxford",
+                "organiser_country": "UK",
+                "track_name": "Chair for EPSA 2026",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Raymond Duch",
+                "openalex_page": "https://openalex.org/A5055869562",
+                "orcid": "https://orcid.org/0000-0002-1166-7674",
+                "affiliation_ror": "https://ror.org/052gg0110"
+            }
+        ],
+        "topics": [
+            "state of the art in political science",
+            "substantive area of politics"
+        ],
+        "enhanced_topics": {
+            "state of the art in political science": [
+                {
+                    "topic": "political science",
+                    "similarity": 0.999999999998773
+                },
+                {
+                    "topic": "sociology and political science",
+                    "similarity": 0.7065024375915527
+                },
+                {
+                    "topic": "state",
+                    "similarity": 0.999999999999281
+                },
+                {
+                    "topic": "art",
+                    "similarity": 0.7409771084785461
+                }
+            ],
+            "substantive area of politics": []
+        },
+        "preferred_threshold": 0.6
+    }
+}

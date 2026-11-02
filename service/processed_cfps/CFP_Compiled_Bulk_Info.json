@@ -1,0 +1,179 @@
+{
+    "llm-output": {
+        "event_name": "International Conference on Materials and Processing for Sustainable Development: Empowering the Future with Smart Technologies 2025",
+        "conference_series": "International Conference on Materials and Processing for Sustainable Development",
+        "event_acronym": "MPSD-EFT 2025",
+        "colocated_with": "",
+        "year": "2025",
+        "location": "Not specified",
+        "topics": [
+            "Sustainable Materials",
+            "Innovative Methods",
+            "Technology Integration"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "John Doe",
+                "organiser_affiliation": "University of Sustainable Technology",
+                "organiser_country": "USA",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "John Doe",
+                "openalex_page": "https://openalex.org/A5109346276",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/04pp8hn57"
+            },
+            {
+                "organiser_name": "Jane Smith",
+                "organiser_affiliation": "Institute for Environmental Innovations",
+                "organiser_country": "UK",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Jane Smith",
+                "openalex_page": "https://openalex.org/A5101515828",
+                "orcid": "https://orcid.org/0000-0001-9104-6327",
+                "affiliation_ror": "https://ror.org/00f1zfq44"
+            },
+            {
+                "organiser_name": "Ravi Patel",
+                "organiser_affiliation": "Indian Institute of Technology",
+                "organiser_country": "India",
+                "track_name": "Technical Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ravi M. Patel",
+                "openalex_page": "https://openalex.org/A5082154330",
+                "orcid": "https://orcid.org/0000-0002-7444-5550",
+                "affiliation_ror": "https://ror.org/050113w36"
+            },
+            {
+                "organiser_name": "Li Wei",
+                "organiser_affiliation": "Shanghai University",
+                "organiser_country": "China",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Wei Li",
+                "openalex_page": "https://openalex.org/A5109869303",
+                "orcid": "https://orcid.org/0000-0002-4641-620X",
+                "affiliation_ror": "https://ror.org/006teas31"
+            },
+            {
+                "organiser_name": "Fatima Al-Mansoori",
+                "organiser_affiliation": "Sustainable Development Research Center",
+                "organiser_country": "United Arab Emirates",
+                "track_name": "Exhibition Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Fatima Al-Mansoori",
+                "openalex_page": "https://openalex.org/A5119561627",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "International Conference on Materials and Processing for Sustainable Development: Empowering the Future with Smart Technologies 2025",
+        "event_acronym": "MPSD-EFT 2025",
+        "conference_series": "International Conference on Materials and Processing for Sustainable Development",
+        "colocated_with": "",
+        "year": "2025",
+        "location": "Not specified",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {
+            "name": "Materials for Sustainable Development Conference",
+            "id": "Event Series:97ba5a93-fff9-4d02-8d93-a4bfa283d7cf",
+            "url": "https://www.confident-conference.org/index.php/Event%20Series%3A97ba5a93-fff9-4d02-8d93-a4bfa283d7cf"
+        },
+        "organisers": [
+            {
+                "organiser_name": "John Doe",
+                "organiser_affiliation": "University of Sustainable Technology",
+                "organiser_country": "USA",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "John Doe",
+                "openalex_page": "https://openalex.org/A5109346276",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/04pp8hn57"
+            },
+            {
+                "organiser_name": "Jane Smith",
+                "organiser_affiliation": "Institute for Environmental Innovations",
+                "organiser_country": "UK",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Jane Smith",
+                "openalex_page": "https://openalex.org/A5101515828",
+                "orcid": "https://orcid.org/0000-0001-9104-6327",
+                "affiliation_ror": "https://ror.org/00f1zfq44"
+            },
+            {
+                "organiser_name": "Ravi Patel",
+                "organiser_affiliation": "Indian Institute of Technology",
+                "organiser_country": "India",
+                "track_name": "Technical Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ravi M. Patel",
+                "openalex_page": "https://openalex.org/A5082154330",
+                "orcid": "https://orcid.org/0000-0002-7444-5550",
+                "affiliation_ror": "https://ror.org/050113w36"
+            },
+            {
+                "organiser_name": "Li Wei",
+                "organiser_affiliation": "Shanghai University",
+                "organiser_country": "China",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Wei Li",
+                "openalex_page": "https://openalex.org/A5109869303",
+                "orcid": "https://orcid.org/0000-0002-4641-620X",
+                "affiliation_ror": "https://ror.org/006teas31"
+            },
+            {
+                "organiser_name": "Fatima Al-Mansoori",
+                "organiser_affiliation": "Sustainable Development Research Center",
+                "organiser_country": "United Arab Emirates",
+                "track_name": "Exhibition Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Fatima Al-Mansoori",
+                "openalex_page": "https://openalex.org/A5119561627",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Sustainable Materials",
+            "Innovative Methods",
+            "Technology Integration"
+        ],
+        "enhanced_topics": {
+            "Sustainable Materials": [
+                {
+                    "topic": "sustainable materials",
+                    "similarity": 0.9999999999992986
+                }
+            ],
+            "Innovative Methods": [],
+            "Technology Integration": [
+                {
+                    "topic": "technology integration",
+                    "similarity": 0.9999999999992231
+                },
+                {
+                    "topic": "education and technology integration",
+                    "similarity": 0.6430463194847107
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "llm-output": {
+        "event_name": "The International Conference on Law, European Studies, and International Relations",
+        "conference_series": "International Conference on Law, European Studies, and International Relations",
+        "event_acronym": "N/A",
+        "colocated_with": "",
+        "year": "2025",
+        "location": "Bucharest",
+        "topics": [
+            "Legislative Gaps",
+            "Normative Excess",
+            "New Legal Frontiers in the Digital Age",
+            "Data Protection",
+            "Artificial Intelligence",
+            "Digital Rights",
+            "Legal Systems",
+            "Legislative Reform",
+            "Technological Progress"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "M\u0103d\u0103lina Dinu",
+                "organiser_affiliation": "Titu Maiorescu University of Bucharest",
+                "organiser_country": "Romania",
+                "track_name": "Contact Person",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "M\u0103d\u0103lina Dinu",
+                "openalex_page": "https://openalex.org/A5033699103",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/0367qb939"
+            },
+            {
+                "organiser_name": "Alina-Monica Axente",
+                "organiser_affiliation": "Titu Maiorescu University of Bucharest",
+                "organiser_country": "Romania",
+                "track_name": "Contact Person",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Alina-Monica Axente",
+                "openalex_page": "https://openalex.org/A5071164243",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "The International Conference on Law, European Studies, and International Relations",
+        "event_acronym": "N/A",
+        "conference_series": "International Conference on Law, European Studies, and International Relations",
+        "colocated_with": "",
+        "year": "2025",
+        "location": "Bucharest",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "M\u0103d\u0103lina Dinu",
+                "organiser_affiliation": "Titu Maiorescu University of Bucharest",
+                "organiser_country": "Romania",
+                "track_name": "Contact Person",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "M\u0103d\u0103lina Dinu",
+                "openalex_page": "https://openalex.org/A5033699103",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/0367qb939"
+            },
+            {
+                "organiser_name": "Alina-Monica Axente",
+                "organiser_affiliation": "Titu Maiorescu University of Bucharest",
+                "organiser_country": "Romania",
+                "track_name": "Contact Person",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Alina-Monica Axente",
+                "openalex_page": "https://openalex.org/A5071164243",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Legislative Gaps",
+            "Normative Excess",
+            "New Legal Frontiers in the Digital Age",
+            "Data Protection",
+            "Artificial Intelligence",
+            "Digital Rights",
+            "Legal Systems",
+            "Legislative Reform",
+            "Technological Progress"
+        ],
+        "enhanced_topics": {
+            "Legislative Gaps": [],
+            "Normative Excess": [],
+            "New Legal Frontiers in the Digital Age": [
+                {
+                    "topic": "digital age",
+                    "similarity": 0.9216575622558594
+                }
+            ],
+            "Data Protection": [
+                {
+                    "topic": "data protection",
+                    "similarity": 0.9999999999991314
+                },
+                {
+                    "topic": "data security",
+                    "similarity": 0.6941636800765991
+                }
+            ],
+            "Artificial Intelligence": [
+                {
+                    "topic": "artificial intelligence",
+                    "similarity": 0.9999999999984769
+                },
+                {
+                    "topic": "artificial intelligences",
+                    "similarity": 0.791956216096878
+                },
+                {
+                    "topic": "artificial intelligence technology",
+                    "similarity": 0.742019534111023
+                },
+                {
+                    "topic": "computational intelligence",
+                    "similarity": 0.6817816495895386
+                }
+            ],
+            "Digital Rights": [
+                {
+                    "topic": "digital rights",
+                    "similarity": 0.9999999999989758
+                }
+            ],
+            "Legal Systems": [
+                {
+                    "topic": "legal systems",
+                    "similarity": 0.999999999999022
+                },
+                {
+                    "topic": "legal system",
+                    "similarity": 0.9048347473144531
+                },
+                {
+                    "topic": "legal systems and institutions",
+                    "similarity": 0.7140209972858429
+                }
+            ],
+            "Legislative Reform": [
+                {
+                    "topic": "government reform",
+                    "similarity": 0.6216359734535217
+                }
+            ],
+            "Technological Progress": [
+                {
+                    "topic": "technological development",
+                    "similarity": 0.6792410910129547
+                },
+                {
+                    "topic": "technological change",
+                    "similarity": 0.6504741907119751
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    }
+}

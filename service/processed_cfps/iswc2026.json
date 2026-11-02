@@ -1,6 +1,6 @@
 {
     "llm-output": {
-        "event_name": "International Semantic Web Conference 2026",
+        "event_name": "Research Track of the International Semantic Web Conference 2026",
         "conference_series": "International Semantic Web Conference",
         "event_acronym": "ISWC 2026",
         "colocated_with": "",
@@ -8,25 +8,21 @@
         "location": "Bari, Italy",
         "topics": [
             "Ontology Engineering and ontology patterns",
-            "Ontology modularity, mapping, merging",
+            "Ontology modularity, mapping, merging, and alignment",
             "Information extraction, knowledge graph construction",
             "Knowledge Representation and Reasoning",
             "Search, query, integration, and analysis",
-            "Robust and scalable management",
+            "Robust and scalable management of knowledge graphs",
             "Information visualization and exploratory analysis",
-            "Databases and ontology-based data access",
+            "Databases and ontology-based data access, integration, and exchange on the Web",
             "Knowledge graph-centered Natural Language Processing",
-            "Integration of the Semantic Web with Machine learning",
-            "Generative AI and Agentic AI",
-            "User interfaces, usability, and accessibility",
             "Data integration, quality assurance, and data provenance",
-            "Social issues, including trust, bias, privacy, security",
-            "Web services, process management, social web",
-            "Dynamic and streaming data",
-            "Software engineering, algorithms",
-            "Artificial Intelligence and hybrid applications",
-            "Semantic Web Agents",
-            "Autonomous systems, including multi-agent systems and robotics"
+            "Generative AI and Agentic AI",
+            "Autonomous systems and Semantic Web Agents",
+            "Social issues: trust, bias, fairness, privacy, security, and policy",
+            "Web services, process management, social Web, and IoT",
+            "Software engineering and decentralized architectures",
+            "Specialized domains: geographical, biomedical, performing arts, etc."
         ],
         "organisers": [
             {
@@ -56,7 +52,7 @@
         ]
     },
     "processed": {
-        "event_name": "International Semantic Web Conference 2026",
+        "event_name": "Research Track of the International Semantic Web Conference 2026",
         "event_acronym": "ISWC 2026",
         "conference_series": "International Semantic Web Conference",
         "colocated_with": "",
@@ -105,123 +101,136 @@
         ],
         "topics": [
             "Ontology Engineering and ontology patterns",
-            "Ontology modularity, mapping, merging",
+            "Ontology modularity, mapping, merging, and alignment",
             "Information extraction, knowledge graph construction",
             "Knowledge Representation and Reasoning",
             "Search, query, integration, and analysis",
-            "Robust and scalable management",
+            "Robust and scalable management of knowledge graphs",
             "Information visualization and exploratory analysis",
-            "Databases and ontology-based data access",
+            "Databases and ontology-based data access, integration, and exchange on the Web",
             "Knowledge graph-centered Natural Language Processing",
-            "Integration of the Semantic Web with Machine learning",
-            "Generative AI and Agentic AI",
-            "User interfaces, usability, and accessibility",
             "Data integration, quality assurance, and data provenance",
-            "Social issues, including trust, bias, privacy, security",
-            "Web services, process management, social web",
-            "Dynamic and streaming data",
-            "Software engineering, algorithms",
-            "Artificial Intelligence and hybrid applications",
-            "Semantic Web Agents",
-            "Autonomous systems, including multi-agent systems and robotics"
+            "Generative AI and Agentic AI",
+            "Autonomous systems and Semantic Web Agents",
+            "Social issues: trust, bias, fairness, privacy, security, and policy",
+            "Web services, process management, social Web, and IoT",
+            "Software engineering and decentralized architectures",
+            "Specialized domains: geographical, biomedical, performing arts, etc."
         ],
         "enhanced_topics": {
             "Ontology Engineering and ontology patterns": [
                 {
                     "topic": "ontologies",
-                    "similarity": 0.7674015760421753
+                    "similarity": 0.7674015015363693
                 },
                 {
                     "topic": "ontology system",
-                    "similarity": 0.7592333853244781
+                    "similarity": 0.7592333555221558
                 },
                 {
                     "topic": "ontology",
-                    "similarity": 0.7440824508666992
+                    "similarity": 0.7440823912620544
                 },
                 {
                     "topic": "ontology-based",
-                    "similarity": 0.6883124709129333
+                    "similarity": 0.6883123815059662
                 },
                 {
                     "topic": "ontology-based modeling",
-                    "similarity": 0.6504669189453125
+                    "similarity": 0.6504668891429901
                 }
             ],
-            "Ontology modularity, mapping, merging": [],
+            "Ontology modularity, mapping, merging, and alignment": [
+                {
+                    "topic": "alignment",
+                    "similarity": 0.9999999999994396
+                }
+            ],
             "Information extraction, knowledge graph construction": [],
             "Knowledge Representation and Reasoning": [
                 {
                     "topic": "knowledge representation",
-                    "similarity": 0.9999999999991201
+                    "similarity": 0.9999999999988693
                 },
                 {
                     "topic": "reasoning",
-                    "similarity": 0.9999999999990525
+                    "similarity": 0.9999999999986071
                 }
             ],
             "Search, query, integration, and analysis": [
                 {
-                    "topic": "web search",
-                    "similarity": 0.6104510426521301
-                },
-                {
                     "topic": "analysis",
-                    "similarity": 0.999999999999155
+                    "similarity": 0.9999999999991188
                 },
                 {
                     "topic": "mathematical analysis",
-                    "similarity": 0.6133466362953186
+                    "similarity": 0.6133468151092529
                 },
                 {
                     "topic": "integration",
-                    "similarity": 0.9999999999992462
+                    "similarity": 0.9999999999991127
                 },
                 {
                     "topic": "continuous integration",
-                    "similarity": 0.621738076210022
+                    "similarity": 0.6217381060123444
+                },
+                {
+                    "topic": "web search",
+                    "similarity": 0.6104508638381958
                 }
             ],
-            "Robust and scalable management": [
+            "Robust and scalable management of knowledge graphs": [
                 {
                     "topic": "robust",
-                    "similarity": 0.9999999999994619
+                    "similarity": 0.9999999999992781
                 },
                 {
                     "topic": "robustness",
-                    "similarity": 0.8597294986248016
+                    "similarity": 0.8597295582294464
                 },
                 {
                     "topic": "robustness evaluation",
-                    "similarity": 0.6942285001277924
+                    "similarity": 0.6942285299301147
                 },
                 {
                     "topic": "robust statistics",
-                    "similarity": 0.6233960688114166
+                    "similarity": 0.6233961880207062
+                },
+                {
+                    "topic": "knowledge networks",
+                    "similarity": 0.6128783226013184
                 }
             ],
             "Information visualization and exploratory analysis": [
                 {
                     "topic": "information visualization",
-                    "similarity": 0.9999999999993952
+                    "similarity": 0.9999999999991819
                 },
                 {
                     "topic": "visualization",
-                    "similarity": 0.6547378897666931
+                    "similarity": 0.6547377109527588
                 },
                 {
                     "topic": "data visualization",
-                    "similarity": 0.6437633037567139
+                    "similarity": 0.6437631249427795
                 }
             ],
-            "Databases and ontology-based data access": [
+            "Databases and ontology-based data access, integration, and exchange on the Web": [
+                {
+                    "topic": "integration",
+                    "similarity": 0.9999999999991127
+                },
+                {
+                    "topic": "continuous integration",
+                    "similarity": 0.6217381060123444
+                },
                 {
                     "topic": "databases",
-                    "similarity": 0.9999999999995067
+                    "similarity": 0.9999999999993336
                 },
                 {
                     "topic": "database",
-                    "similarity": 0.8007304668426514
+                    "similarity": 0.8007305711507797
                 },
                 {
                     "topic": "database systems",
@@ -229,285 +238,37 @@
                 },
                 {
                     "topic": "database management",
-                    "similarity": 0.6000337600708008
+                    "similarity": 0.6000338792800903
                 }
             ],
             "Knowledge graph-centered Natural Language Processing": [],
-            "Integration of the Semantic Web with Machine learning": [
-                {
-                    "topic": "machine learning",
-                    "similarity": 0.9999999999987857
-                },
-                {
-                    "topic": "machine learning algorithms",
-                    "similarity": 0.7623510360717773
-                },
-                {
-                    "topic": "machine learning models",
-                    "similarity": 0.7418791651725769
-                },
-                {
-                    "topic": "machine learning and algorithms",
-                    "similarity": 0.7121974229812622
-                },
-                {
-                    "topic": "integration",
-                    "similarity": 0.9999999999992462
-                },
-                {
-                    "topic": "continuous integration",
-                    "similarity": 0.621738076210022
-                },
-                {
-                    "topic": "semantic web",
-                    "similarity": 0.8832085058093071
-                },
-                {
-                    "topic": "semantic web and ontologies",
-                    "similarity": 0.6466051340103149
-                }
-            ],
-            "Generative AI and Agentic AI": [],
-            "User interfaces, usability, and accessibility": [
-                {
-                    "topic": "user interface design",
-                    "similarity": 0.6695781946182251
-                },
-                {
-                    "topic": "usability",
-                    "similarity": 0.999999999999242
-                },
-                {
-                    "topic": "usability engineering",
-                    "similarity": 0.8266252875328064
-                },
-                {
-                    "topic": "usability research",
-                    "similarity": 0.7968973517417908
-                },
-                {
-                    "topic": "usability evaluation",
-                    "similarity": 0.7506520748138428
-                },
-                {
-                    "topic": "usability and user interface design",
-                    "similarity": 0.6634390652179718
-                },
-                {
-                    "topic": "accessibility",
-                    "similarity": 0.9999999999994068
-                },
-                {
-                    "topic": "accessibility studies",
-                    "similarity": 0.7709754854440689
-                },
-                {
-                    "topic": "accessibility guidelines",
-                    "similarity": 0.7353703379631042
-                },
-                {
-                    "topic": "web accessibility",
-                    "similarity": 0.6786674559116364
-                },
-                {
-                    "topic": "mobile accessibility",
-                    "similarity": 0.6631959676742554
-                }
-            ],
             "Data integration, quality assurance, and data provenance": [
                 {
-                    "topic": "quality assurance",
-                    "similarity": 0.9999999999994207
+                    "topic": "data integration",
+                    "similarity": 0.9999999999993185
                 },
                 {
-                    "topic": "data integration",
-                    "similarity": 0.9999999999994804
+                    "topic": "quality assurance",
+                    "similarity": 0.9999999999990782
                 },
                 {
                     "topic": "data provenance",
-                    "similarity": 0.9999999999991793
+                    "similarity": 0.9999999999992129
                 },
                 {
                     "topic": "provenance research",
-                    "similarity": 0.8106580227613449
+                    "similarity": 0.8106579482555389
                 },
                 {
                     "topic": "provenance analysis",
-                    "similarity": 0.7868629544973373
+                    "similarity": 0.7868628799915314
                 }
             ],
-            "Social issues, including trust, bias, privacy, security": [
-                {
-                    "topic": "privacy",
-                    "similarity": 0.9999999999992014
-                },
-                {
-                    "topic": "privacy protection",
-                    "similarity": 0.7657962888479233
-                },
-                {
-                    "topic": "privacy rights",
-                    "similarity": 0.7525134980678558
-                },
-                {
-                    "topic": "privacy regulations",
-                    "similarity": 0.7043470144271851
-                },
-                {
-                    "topic": "privacy and confidentiality",
-                    "similarity": 0.6870473623275757
-                },
-                {
-                    "topic": "security",
-                    "similarity": 0.9999999999994096
-                },
-                {
-                    "topic": "security measures",
-                    "similarity": 0.6194793879985809
-                },
-                {
-                    "topic": "security and privacy",
-                    "similarity": 0.6093283295631409
-                },
-                {
-                    "topic": "security threats",
-                    "similarity": 0.6014477610588074
-                },
-                {
-                    "topic": "social and political issues",
-                    "similarity": 0.6563042104244232
-                },
-                {
-                    "topic": "economic and social issues",
-                    "similarity": 0.6260094940662384
-                },
-                {
-                    "topic": "political and social issues",
-                    "similarity": 0.621910810470581
-                },
-                {
-                    "topic": "social issues and policies",
-                    "similarity": 0.6098694503307343
-                },
-                {
-                    "topic": "data bias",
-                    "similarity": 0.6652549207210541
-                },
-                {
-                    "topic": "political bias",
-                    "similarity": 0.6336100101470947
-                },
-                {
-                    "topic": "racial bias",
-                    "similarity": 0.6105167269706726
-                }
-            ],
-            "Web services, process management, social web": [
-                {
-                    "topic": "business process management",
-                    "similarity": 0.744661808013916
-                },
-                {
-                    "topic": "process planning",
-                    "similarity": 0.6344042420387268
-                },
-                {
-                    "topic": "web services",
-                    "similarity": 0.9999999999993414
-                },
-                {
-                    "topic": "web and library services",
-                    "similarity": 0.6537366807460785
-                },
-                {
-                    "topic": "social networking",
-                    "similarity": 0.647778332233429
-                }
-            ],
-            "Dynamic and streaming data": [
-                {
-                    "topic": "streaming data",
-                    "similarity": 0.9999999999994661
-                },
-                {
-                    "topic": "data streams",
-                    "similarity": 0.7161009907722473
-                },
-                {
-                    "topic": "dynamic",
-                    "similarity": 0.9999999999994165
-                },
-                {
-                    "topic": "dynamic behavior",
-                    "similarity": 0.6712044179439545
-                }
-            ],
-            "Software engineering, algorithms": [
-                {
-                    "topic": "algorithms",
-                    "similarity": 0.9999999999994738
-                },
-                {
-                    "topic": "algorithm",
-                    "similarity": 0.7614733427762985
-                },
-                {
-                    "topic": "efficient algorithms",
-                    "similarity": 0.6718832850456238
-                },
-                {
-                    "topic": "algorithmic applications",
-                    "similarity": 0.6398062705993652
-                },
-                {
-                    "topic": "software engineering",
-                    "similarity": 0.9999999999992164
-                },
-                {
-                    "topic": "software engineering research",
-                    "similarity": 0.6690481305122375
-                },
-                {
-                    "topic": "software development",
-                    "similarity": 0.6489873230457306
-                }
-            ],
-            "Artificial Intelligence and hybrid applications": [
-                {
-                    "topic": "artificial intelligence",
-                    "similarity": 0.9999999999988222
-                },
-                {
-                    "topic": "artificial intelligences",
-                    "similarity": 0.7919561564922333
-                },
-                {
-                    "topic": "artificial intelligence technology",
-                    "similarity": 0.7420194745063782
-                },
-                {
-                    "topic": "computational intelligence",
-                    "similarity": 0.6817816495895386
-                }
-            ],
-            "Semantic Web Agents": [
-                {
-                    "topic": "semantic web",
-                    "similarity": 0.690285325050354
-                }
-            ],
-            "Autonomous systems, including multi-agent systems and robotics": [
-                {
-                    "topic": "multi-agent systems",
-                    "similarity": 0.8183125406503677
-                },
-                {
-                    "topic": "multi-agent system",
-                    "similarity": 0.7971305549144745
-                },
+            "Generative AI and Agentic AI": [],
+            "Autonomous systems and Semantic Web Agents": [
                 {
                     "topic": "autonomous systems",
-                    "similarity": 0.9999999999990293
+                    "similarity": 0.9999999999990017
                 },
                 {
                     "topic": "autonomous vehicles",
@@ -515,27 +276,158 @@
                 },
                 {
                     "topic": "autonomous control",
-                    "similarity": 0.6221351623535156
+                    "similarity": 0.6221351027488708
                 },
                 {
-                    "topic": "robotics",
-                    "similarity": 0.9999999999990858
+                    "topic": "semantic web",
+                    "similarity": 0.6902852654457092
+                }
+            ],
+            "Social issues: trust, bias, fairness, privacy, security, and policy": [
+                {
+                    "topic": "data bias",
+                    "similarity": 0.6652548015117645
                 },
                 {
-                    "topic": "robotic systems",
-                    "similarity": 0.6673516929149628
+                    "topic": "political bias",
+                    "similarity": 0.6336100399494171
                 },
                 {
-                    "topic": "robotics and automated systems",
-                    "similarity": 0.638290137052536
+                    "topic": "racial bias",
+                    "similarity": 0.6105168461799622
                 },
                 {
-                    "topic": "robots",
-                    "similarity": 0.6242120862007141
+                    "topic": "fairness",
+                    "similarity": 0.9999999999984046
+                },
+                {
+                    "topic": "security",
+                    "similarity": 0.9999999999991953
+                },
+                {
+                    "topic": "security measures",
+                    "similarity": 0.6194793581962585
+                },
+                {
+                    "topic": "security and privacy",
+                    "similarity": 0.6093282997608185
+                },
+                {
+                    "topic": "security threats",
+                    "similarity": 0.6014477610588074
+                },
+                {
+                    "topic": "privacy",
+                    "similarity": 0.999999999998861
+                },
+                {
+                    "topic": "privacy protection",
+                    "similarity": 0.7657962590456009
+                },
+                {
+                    "topic": "privacy rights",
+                    "similarity": 0.7525134533643723
+                },
+                {
+                    "topic": "privacy regulations",
+                    "similarity": 0.7043470144271851
+                },
+                {
+                    "topic": "privacy and confidentiality",
+                    "similarity": 0.6870474219322205
+                },
+                {
+                    "topic": "policy",
+                    "similarity": 0.9999999999990964
+                },
+                {
+                    "topic": "policies",
+                    "similarity": 0.8393986225128174
+                },
+                {
+                    "topic": "government policy",
+                    "similarity": 0.6698765456676483
+                },
+                {
+                    "topic": "policy making",
+                    "similarity": 0.6620463132858276
+                }
+            ],
+            "Web services, process management, social Web, and IoT": [
+                {
+                    "topic": "business process management",
+                    "similarity": 0.7446616888046265
+                },
+                {
+                    "topic": "process planning",
+                    "similarity": 0.6344043016433716
+                },
+                {
+                    "topic": "iot",
+                    "similarity": 0.9999999999991218
+                },
+                {
+                    "topic": "iot technology",
+                    "similarity": 0.7804640531539917
+                },
+                {
+                    "topic": "iot applications",
+                    "similarity": 0.7397319674491882
+                },
+                {
+                    "topic": "iot devices",
+                    "similarity": 0.7186540365219116
+                },
+                {
+                    "topic": "iot networks",
+                    "similarity": 0.6777786910533905
+                },
+                {
+                    "topic": "web services",
+                    "similarity": 0.9999999999992774
+                },
+                {
+                    "topic": "web and library services",
+                    "similarity": 0.6537366509437561
+                },
+                {
+                    "topic": "social networking",
+                    "similarity": 0.6477785110473633
+                }
+            ],
+            "Software engineering and decentralized architectures": [
+                {
+                    "topic": "decentralization",
+                    "similarity": 0.629026472568512
+                },
+                {
+                    "topic": "software engineering",
+                    "similarity": 0.9999999999989095
+                },
+                {
+                    "topic": "software engineering research",
+                    "similarity": 0.6690479815006256
+                },
+                {
+                    "topic": "software development",
+                    "similarity": 0.6489872634410858
+                }
+            ],
+            "Specialized domains: geographical, biomedical, performing arts, etc.": [
+                {
+                    "topic": "biomedical science",
+                    "similarity": 0.7305046916007996
+                },
+                {
+                    "topic": "biomedical engineering",
+                    "similarity": 0.621942937374115
+                },
+                {
+                    "topic": "performance arts",
+                    "similarity": 0.7723957151174545
                 }
             ]
         },
         "preferred_threshold": 0.6
-    },
-    "cfp_text": "Call for Research Track Papers\n\nThe International Semantic Web Conference is the premier venue for presenting fundamental research, innovative technologies, and applications related to semantics, data, and the Web. Which will take place in Bari, Italy.\n\nThe research track of ISWC 2026 solicits novel and significant research contributions addressing theoretical, analytical, and empirical aspects of the Semantic Web. We welcome work describing original and replicable research showing evidence of a substantial contribution to the Semantic Web.\n\nThe track\u2019s program committee will assess all papers. Each paper will be reviewed by at least three committee members, with a meta-review provided by a senior member. The review criteria used are outlined below.\n\nAs ISWC 2026 features multiple tracks, authors are asked to consult the calls of the other tracks to choose the track that best fits their contribution (see Differentiation from Other Tracks ). The submission of the same work to multiple tracks (as well as to other conferences) is not allowed and results in rejection without review.\n\n\nImportant information for authors:\n\nSubmissions are dual anonymous.\nPapers are limited to 15 pages excluding references and the \"Declaration of use of Generative AI\u201d section. Supplemental materials and annexes count toward the established page limit.\nAll submissions are expected to include a mandatory Supplemental Material Statement that may contain links to code and data repositories. In case this is not possible, the statement must be justified.\nUnless otherwise justified in the Supplemental Material Statement , we expect supplemental material to be provided anonymously with the submitted paper.\nPre-submission of abstracts is a strict requirement.\n\n\nImportant Dates\n\nAbstract submission due 2 May 2026\nFull paper submission due 7 May 2026\nRebuttal 11 June - 18 June 2026\nNotifications 16 July 2026\nCamera-ready papers due 6 August 2026\nConference: 27 - 29 October 2026\n\nAll deadlines are 23:59 AoE (anywhere on Earth)\n\n\nTopics of Interest\nWe encourage papers that directly advance the Semantic Web. The relationship to the core area of the conference needs to be clearly described in the submitted work. Submissions beyond the scope will be desk-rejected. Topics in the Semantic Web area include, but are not limited to:\n\n\nOntologies and capturing knowledge including:\n\nOntology Engineering and ontology patterns\nOntology modularity, mapping, merging, and alignment\nInformation extraction, knowledge graph construction\n\n\nRepresentation, management, and applications of Knowledge Graphs (including RDF and property graphs):\n\nKnowledge Representation and Reasoning\nSearch, query, integration, and analysis\nRobust and scalable management\nInformation visualization and exploratory analysis\nDatabases and ontology-based data access, integration, and exchange on the Web\nKnowledge graph-centered Natural Language Processing, information retrieval, semantic analysis, and Large Language Models\n\n\nIntegration of the Semantic Web with:\n\nMachine learning, data mining, and neurosymbolic reasoning\nGenerative AI (including Large Language Models) and Agentic AI\nUser interfaces, usability, and accessibility\nData integration, quality assurance, and data provenance\nSocial issues, including trust, bias, fairness, privacy, security, and policy\nWeb services, process management, social Web, and Internet of Things\nDynamic and streaming data, including complex event processing and stream reasoning\nSoftware engineering, algorithms, and decentralized architectures\nSpecialized domains (geographical, biomedical, e-Science, multimedia, performing arts, public administration, cultural heritage, law, etc.)\nArtificial Intelligence and hybrid app\n\n\nSemantic Web Agents including:\n\nAutonomous systems, including multi-agent systems and robotics\nArchitecture characteristics for autonomy exploiting KGs\nIncomplete or conflicting knowledge, beliefs, and assumptions and KGs\nHuman-machine social interactions and KGs\nArchitecture characteristics for exploiting KGs autonomously\nDevelopment platforms and frameworks for exploiting KGs in an autonomous manner\nGovernance of autonomous agents on the Web\n\nWe welcome descriptions of contributions that leverage knowledge representation based on Semantic Web standards or other graph data models to improve the acquisition, processing, and sharing of data on the Web. We require authors to explicitly highlight how their work could be applied in a Semantic Web setting.\n\n\nReview Criteria\nPapers in this track will be reviewed according to the following criteria:\n\nOriginality and novelty\nRelevance of the topic to the conference\nImpact of the research contributions\nTechnical soundness\nRigor and reproducibility of the work (including evaluation)\nClarity and quality of presentation\nGrounding in the literature\n\nAny submissions that are clearly out of scope, or have significant omissions with respect to these criteria, may be subject to desk rejection before a full review. Guidelines for reviewers are available here .\n\n\nRebuttal\nAuthors will have the chance to provide a response to the reviews during a rebuttal period that precedes the reviewer discussion period. The SPCs and PC Chairs will consider the authors' responses to the points raised by the reviewers.\n\n\nPolicy on the use of Generative AI\nAll submissions must comply with the conference\u2019s Generative AI policy . This includes use for writing or preparing the manuscript and for carrying out or reporting the research. Authors remain fully responsible for the work and must disclose any covered use as required; non-compliant submissions may be rejected or withdrawn.\n\nIn case of any questions regarding this policy, please contact the track chairs.\n\nEach submission must include a section titled \"Declaration of use of Generative AI\u201d placed immediately before the references. Authors should briefly describe any Generative AI use and how they comply with the policy. This section does not count toward the maximum paper length.\n\n\nSupplemental Material Statement and Reproducibility\nReproducibility is a key goal of scientific research. We require authors of all papers to include a statement at the end of their submission that facilitates the independent reproducibility or verification of the results presented (where relevant), pointing to where supplemental material can be found. These resources may include datasets, queries, code, proofs of results, configuration details, hyperparameters, etc., depending on the contributions of the paper. The statement should cover all of the resources necessary to reproduce or verify the results presented in the paper, indicating their persistent identifiers (e.g., DOI) when appropriate. In case certain resources cannot be made available (e.g., due to privacy, ethical, or financial concerns), the statement should include a justification of why this is the case. In case the paper is fully self-contained and does not have additional resources associated (e.g., a theoretical paper with full proofs contained in the body of the paper), a short statement can be provided arguing that the paper is self-contained. Please see the Supplemental Material Statement Guidelines for more details.\n\nReviewers will be asked to evaluate the statement. In particular, they will be asked to ensure that the statement convinces them that the results of the paper are reproducible, to ensure that the resources are indeed available and support reproducibility (both now and for the foreseeable future), and, in cases where resources are not provided, to verify that there is a reasonable justification. Unless otherwise justified, it is expected that access to resources is provided from the submitted paper since these resources may often play an important role in the review process. All resources must be provided anonymously; please see the \u201cSupplemental Material\u201d section for recommended options.\n\n\nSubmission Details\nPre-submission of abstracts is a strict requirement.\nAll papers and abstracts have to be submitted electronically via EasyChair .\nSubmitted papers will be checked to ensure that they satisfy the submission criteria and are in scope with the aims of the conference, and if such violations are identified, then the submission may be subject to desk rejection without review.\nPapers must provide a clear statement of their claims, argue how the results of the paper substantiate their claims, clarify any technical assumptions and/or known limitations, and provide a Supplemental Material Statement.\nAll research submissions must be in English, and no longer than 15 pages (excluding references and the \"Declaration of use of Generative AI\u201d section).\nSubmissions must be either in PDF or HTML, formatted in the style of the Springer Publications format for Lecture Notes in Computer Science (LNCS). For details on the LNCS style, see Springer\u2019s Author Instructions. For HTML submission guidance, please see the HTML submission guide .\nEach submission must be original. Authors need to authorize the organizer to perform a plagiarism check of the paper.\nPapers that exceed the page limit, violate the style or show any kind of plagiarism will be rejected without review.\nPapers submitted to the research track will be subject to dual anonymous peer review and must conform to the instructions (detailed below) for dual anonymous review.\nWe encourage embedding metadata in the PDF/HTML to provide machine-readable links from the paper to resources.\nAuthors of accepted papers will be required to provide semantic annotations for the submission, which will be made available online. Details will be provided at the time of acceptance.\nAccepted papers will be distributed to conference attendees and also published in the conference proceedings.\nAt least one author of each accepted paper must register for the conference and present the paper.\nAs in previous years, students will be able to apply for funding to support their travel to attend/register for the conference.\n\n\nDifferentiation From Other Tracks\nWe strongly recommend that prospective authors carefully check the calls of the other tracks of the conference in order to identify the optimal track for their submission (submission of the same work to multiple tracks is prohibited). Papers that propose new algorithms and architectures should be submitted to the Research track as usual. Papers focusing on new reusable resources themselves, such as datasets, ontologies, workflows, etc., should be submitted to the Resources Track. Papers that describe and/or assess the use or application of Semantic Web and Knowledge Graph technologies in practical settings should be submitted to the In-Use track. See \u201cExemplary In-Use Papers From Previous Editions of ISWC\u201d (below) for additional details.\n\nWe strongly recommend that prospective authors carefully check the calls of the other main tracks of the conference in order to identify the optimal track for their submission (submission of the same work to multiple tracks is prohibited).\n\nPapers that propose new algorithms and architectures should be submitted to the regular research track;\nPapers that reuse and apply state-of-the-art semantic technology or resources in practical settings should be submitted to the in-use track (i.e., the novelty falls into the in-use application of the semantic technology or resource);\nAuthors who want to present an interesting industry application but who do not want to submit a full paper should submit to the industry track;\nPapers describing concrete resources (datasets, ontologies, vocabularies, annotated corpora, workflows, knowledge graphs, evaluation benchmarks, etc.) should be submitted to the resources track.\n\nNote that research, in-use and resource papers are published within the same proceedings by Springer\u2019s Lecture Notes in Computer Science series.\n\n\nInstructions for Dual Anonymous Reviewing\nReviewing for ISWC 2026 is dual-anonymous, i.e., the identities of the authors and reviewers are hidden. Both authors and reviewers are expected to make every effort to honor this process. Authors should do their best to ensure that the submission can be evaluated without it being obvious who wrote the paper, and reviewers should not undertake any investigation with the specific goal of revealing the authors\u2019 identity.\n\nTo help with the dual anonymous reviewing process please ensure the following when submitting to ISWC 2026:\n\nThe first page, on which the paper body begins, should include the title and abstract but not the names or affiliations of the authors.\nRemove any identifying information, including author names, from file names and ensure document properties are also anonymized.\nRemove any identifying information from your paper resources such as datasets, models, or code (e.g., README and package files in code repositories, Zenodo deposits, etc.)\nThe references should include all published literature relevant to the paper. When referring to one\u2019s own work, use the third person, rather than the first person. For example, say \u201cPreviously, Foo [4] showed that\u2026,\u201d rather than \u201cIn our previous work [4] we showed that\u2026\u201d\nTry to avoid including any information that would identify the authors or their affiliations. Such information may be added to the final camera-ready version for publication.\nRemove references to funding sources and/or acknowledgments. Such information should be included in the final camera-ready version for publication.\n\n\nSupplemental Material\nThe length of the main submission is strictly limited as indicated in the call for papers. However, authors may also choose to submit supplemental material, including proofs of theorems stated in the main paper, video demonstrations, data from experimental evaluations, source code, and so on. Note that submissions may reference the supplemental material for further details, but should be self-contained. Reviewers are instructed to make their evaluations based on the main submission and are not obliged to consult the supplemental material. Therefore, make sure that your submission stands on its own without them.\n\nPlease ensure you do not violate the dual-anonymous-review requirements in the supplemental material. You may make supplemental material available per one of the following options:\n\nOPTION 1. As an anonymized link to supplemental material included in the paper. This option may be used, in particular, in case the total size of the submission (paper+supplemental materials) exceeds 100MB. We recommend the use of Github, Zenodo, Figshare, or Dryad. Anonymous dataset submissions can be managed through Zenodo and Figshare without additional accounts; see, for example, this guide by Daniel Graziotin . Code repository submissions may be anonymized using platforms such as https://anonymous.4open.science/. .\n\nOPTION 2. As a second zipped folder uploaded via the Easychair system; note that the total size of the submission (paper+supplemental materials) must not exceed 100MB.\n\nSupplemental material submitted at the time of submission for review will not be automatically published or posted if the paper is accepted for publication. Hence, we expect authors of accepted papers choosing OPTION 2 to publish this material in one of the aforementioned repositories (or arXiv in the case of an extended version of the paper with proofs) and provide references to the supplemental material in the final camera-ready version of the paper.\n\nIn both cases, we strongly encourage making supplemental material available under open licenses and providing sufficient documentation to enable reproducibility\n\n\nPrior Publication and Multiple Submissions\nISWC 2026 will not accept research papers that, at the time of submission, are under review for or have already been published in, or accepted for publication, in a journal or another conference. Please refer and adhere to the ISWC Prior Publication and Multiple Submission Policy.\n\n\nPositioning with respect to other fields\nContributions should be clearly related to the Semantic Web or have an impact in the field of semantics. The scope of the conference is semantic technologies and how they enable new research and applications. While semantic technologies are part of a broader interdisciplinary ecosystem, including aspects of Data Management and Artificial Intelligence, such as Machine Learning (ML) and Natural Language Processing (NLP), it remains a distinct scholarly field, with its own research methods, tools, and challenges. Therefore, contributions to other disciplines that have no direct impact on the landscape of semantic technologies are not relevant to the ISWC conference, and may be desk-rejected on this basis.\n\n\nResearch Track Chairs\nContact: iswc2026-research@easychair.org\n\nManolis Koubarakis \u2014 National and Kapodistrian University of Athens, Greece\nMaria-Esther Vidal \u2014 Leibniz University Hannover & TIB-Leibniz Information Center of Science and Technology, Germany "
+    }
 }

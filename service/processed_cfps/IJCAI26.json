@@ -1,0 +1,303 @@
+{
+    "llm-output": {
+        "event_name": "International Joint Conference on Artificial Intelligence - European Conference on Artificial Intelligence 2026",
+        "conference_series": "International Joint Conference on Artificial Intelligence - European Conference on Artificial Intelligence",
+        "event_acronym": "IJCAI-ECAI 2026",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Bremen, Germany",
+        "topics": [
+            "Human-centered AI",
+            "AI for Social Good",
+            "AI4Tech: AI Enabling Critical Technologies",
+            "AI and Health",
+            "AI and Robotics",
+            "Survey Track",
+            "Journal Track",
+            "Sister Conferences Track",
+            "Early Career Highlights",
+            "Competitions",
+            "Demos",
+            "Doctoral Consortium"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Francesca Toni",
+                "organiser_affiliation": "Imperial College",
+                "organiser_country": "United Kingdom",
+                "track_name": "Conference Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Francesca Toni",
+                "openalex_page": "https://openalex.org/A5078354590",
+                "orcid": "https://orcid.org/0000-0001-8194-1459",
+                "affiliation_ror": "https://ror.org/039kas258"
+            },
+            {
+                "organiser_name": "Diego Calvanese",
+                "organiser_affiliation": "Free University of Bozen-Bolzano",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Diego Calvanese",
+                "openalex_page": "https://openalex.org/A5077723508",
+                "orcid": "https://orcid.org/0000-0001-5174-9693",
+                "affiliation_ror": "https://ror.org/012ajp527"
+            },
+            {
+                "organiser_name": "Tanja Schultz",
+                "organiser_affiliation": "Universit\u00e4t Bremen",
+                "organiser_country": "Germany",
+                "track_name": "Local Arrangement Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tanja Schultz",
+                "openalex_page": "https://openalex.org/A5058049725",
+                "orcid": "https://orcid.org/0000-0002-9809-7028",
+                "affiliation_ror": "https://ror.org/04ers2y35"
+            },
+            {
+                "organiser_name": "Frank Kirchner",
+                "organiser_affiliation": "Universit\u00e4t Bremen, German Research Center for Artificial Intelligence (DFKI)",
+                "organiser_country": "Germany",
+                "track_name": "Local Arrangement Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Frank Kirchner",
+                "openalex_page": "https://openalex.org/A5016436943",
+                "orcid": "https://orcid.org/0000-0002-1713-9784",
+                "affiliation_ror": "https://ror.org/01ayc5b57"
+            },
+            {
+                "organiser_name": "Monika Michaelis",
+                "organiser_affiliation": "Universit\u00e4t Bremen",
+                "organiser_country": "Germany",
+                "track_name": "Local Arrangement Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Monika Michaelis",
+                "openalex_page": "https://openalex.org/A5046232669",
+                "orcid": "https://orcid.org/0000-0002-8968-5848",
+                "affiliation_ror": "https://ror.org/04ers2y35"
+            },
+            {
+                "organiser_name": "Holger Hoos",
+                "organiser_affiliation": "RWTH Aachen University",
+                "organiser_country": "Germany",
+                "track_name": "EurAI President",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Holger H. Hoos",
+                "openalex_page": "https://openalex.org/A5025342513",
+                "orcid": "https://orcid.org/0000-0003-0629-0099",
+                "affiliation_ror": "https://ror.org/04xfq0f34"
+            },
+            {
+                "organiser_name": "Kristian Kersting",
+                "organiser_affiliation": "University of Darmstadt, German Research Center for Artificial Intelligence (DFKI)",
+                "organiser_country": "Germany",
+                "track_name": "IJCAI Secretary Treasurer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Kristian Kersting",
+                "openalex_page": "https://openalex.org/A5037636074",
+                "orcid": "https://orcid.org/0000-0002-2873-9152",
+                "affiliation_ror": "https://ror.org/01ayc5b57"
+            },
+            {
+                "organiser_name": "Vesna Sabljakovic-Fritz",
+                "organiser_affiliation": "Center for Computer Science",
+                "organiser_country": "Germany",
+                "track_name": "IJCAI Executive Director and Secretary",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Vesna V. S.-F. Sabljakovic-Fritz",
+                "openalex_page": "https://openalex.org/A5021906717",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "International Joint Conference on Artificial Intelligence - European Conference on Artificial Intelligence 2026",
+        "event_acronym": "IJCAI-ECAI 2026",
+        "conference_series": "International Joint Conference on Artificial Intelligence - European Conference on Artificial Intelligence",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Bremen, Germany",
+        "DBLP": {
+            "name": "European Conference on Artificial Intelligence",
+            "id": "ecai",
+            "url": "https://dblp.org/streams/conf/ecai"
+        },
+        "AIDA": {
+            "name": "European Conference on Artificial Intelligence (ECAI)",
+            "id": "ecai",
+            "url": "https://w3id.org/aida/dashboard/cs/conference/European%20Conference%20on%20Artificial%20Intelligence%20%28ECAI%29"
+        },
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Francesca Toni",
+                "organiser_affiliation": "Imperial College",
+                "organiser_country": "United Kingdom",
+                "track_name": "Conference Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Francesca Toni",
+                "openalex_page": "https://openalex.org/A5078354590",
+                "orcid": "https://orcid.org/0000-0001-8194-1459",
+                "affiliation_ror": "https://ror.org/039kas258"
+            },
+            {
+                "organiser_name": "Diego Calvanese",
+                "organiser_affiliation": "Free University of Bozen-Bolzano",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Diego Calvanese",
+                "openalex_page": "https://openalex.org/A5077723508",
+                "orcid": "https://orcid.org/0000-0001-5174-9693",
+                "affiliation_ror": "https://ror.org/012ajp527"
+            },
+            {
+                "organiser_name": "Tanja Schultz",
+                "organiser_affiliation": "Universit\u00e4t Bremen",
+                "organiser_country": "Germany",
+                "track_name": "Local Arrangement Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tanja Schultz",
+                "openalex_page": "https://openalex.org/A5058049725",
+                "orcid": "https://orcid.org/0000-0002-9809-7028",
+                "affiliation_ror": "https://ror.org/04ers2y35"
+            },
+            {
+                "organiser_name": "Frank Kirchner",
+                "organiser_affiliation": "Universit\u00e4t Bremen, German Research Center for Artificial Intelligence (DFKI)",
+                "organiser_country": "Germany",
+                "track_name": "Local Arrangement Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Frank Kirchner",
+                "openalex_page": "https://openalex.org/A5016436943",
+                "orcid": "https://orcid.org/0000-0002-1713-9784",
+                "affiliation_ror": "https://ror.org/01ayc5b57"
+            },
+            {
+                "organiser_name": "Monika Michaelis",
+                "organiser_affiliation": "Universit\u00e4t Bremen",
+                "organiser_country": "Germany",
+                "track_name": "Local Arrangement Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Monika Michaelis",
+                "openalex_page": "https://openalex.org/A5046232669",
+                "orcid": "https://orcid.org/0000-0002-8968-5848",
+                "affiliation_ror": "https://ror.org/04ers2y35"
+            },
+            {
+                "organiser_name": "Holger Hoos",
+                "organiser_affiliation": "RWTH Aachen University",
+                "organiser_country": "Germany",
+                "track_name": "EurAI President",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Holger H. Hoos",
+                "openalex_page": "https://openalex.org/A5025342513",
+                "orcid": "https://orcid.org/0000-0003-0629-0099",
+                "affiliation_ror": "https://ror.org/04xfq0f34"
+            },
+            {
+                "organiser_name": "Kristian Kersting",
+                "organiser_affiliation": "University of Darmstadt, German Research Center for Artificial Intelligence (DFKI)",
+                "organiser_country": "Germany",
+                "track_name": "IJCAI Secretary Treasurer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Kristian Kersting",
+                "openalex_page": "https://openalex.org/A5037636074",
+                "orcid": "https://orcid.org/0000-0002-2873-9152",
+                "affiliation_ror": "https://ror.org/01ayc5b57"
+            },
+            {
+                "organiser_name": "Vesna Sabljakovic-Fritz",
+                "organiser_affiliation": "Center for Computer Science",
+                "organiser_country": "Germany",
+                "track_name": "IJCAI Executive Director and Secretary",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Vesna V. S.-F. Sabljakovic-Fritz",
+                "openalex_page": "https://openalex.org/A5021906717",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Human-centered AI",
+            "AI for Social Good",
+            "AI4Tech: AI Enabling Critical Technologies",
+            "AI and Health",
+            "AI and Robotics",
+            "Survey Track",
+            "Journal Track",
+            "Sister Conferences Track",
+            "Early Career Highlights",
+            "Competitions",
+            "Demos",
+            "Doctoral Consortium"
+        ],
+        "enhanced_topics": {
+            "Human-centered AI": [],
+            "AI for Social Good": [],
+            "AI4Tech: AI Enabling Critical Technologies": [],
+            "AI and Health": [
+                {
+                    "topic": "health",
+                    "similarity": 0.9999999999990551
+                },
+                {
+                    "topic": "human health",
+                    "similarity": 0.6617706418037415
+                }
+            ],
+            "AI and Robotics": [
+                {
+                    "topic": "robotics",
+                    "similarity": 0.9999999999987863
+                },
+                {
+                    "topic": "robotic systems",
+                    "similarity": 0.6673516929149628
+                },
+                {
+                    "topic": "robotics and automated systems",
+                    "similarity": 0.6382901072502136
+                },
+                {
+                    "topic": "robots",
+                    "similarity": 0.6242119669914246
+                }
+            ],
+            "Survey Track": [],
+            "Journal Track": [],
+            "Sister Conferences Track": [],
+            "Early Career Highlights": [],
+            "Competitions": [
+                {
+                    "topic": "competition",
+                    "similarity": 0.7375462055206299
+                },
+                {
+                    "topic": "sporting contests",
+                    "similarity": 0.6510739326477051
+                }
+            ],
+            "Demos": [],
+            "Doctoral Consortium": []
+        },
+        "preferred_threshold": 0.6
+    }
+}

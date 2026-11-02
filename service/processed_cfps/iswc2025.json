@@ -1,22 +1,22 @@
 {
     "llm-output": {
-        "event_name": "24th International Semantic Web Conference",
+        "event_name": "24th International Semantic Web Conference (ISWC 2025)",
         "conference_series": "International Semantic Web Conference",
         "event_acronym": "ISWC 2025",
         "colocated_with": "",
         "year": "2025",
         "location": "Nara, Japan",
         "topics": [
-            "Research Track",
-            "Resource Track",
-            "In-Use Track",
-            "Posters & Demos",
-            "Challenges",
-            "Workshops",
-            "Dagstuhl Style Workshops",
-            "Tutorials",
-            "Industry Track",
-            "Doctoral Consortium"
+            "Research on Semantic Web",
+            "Resources related to Semantic Web",
+            "Real-world applications and industrial use of Semantic Web technologies",
+            "Posters and Demos presenting innovative ideas in Semantic Web",
+            "Semantic Web Challenges",
+            "Workshops on focused Semantic Web topics",
+            "Dagstuhl-style Workshops",
+            "Semantic Web Tutorials",
+            "Industry applications of Semantic Web",
+            "Doctoral Consortium for Semantic Web research"
         ],
         "organisers": [
             {
@@ -95,7 +95,7 @@
                 "organiser_name": "Gong Cheng",
                 "organiser_affiliation": "Nanjing University",
                 "organiser_country": "China",
-                "track_name": "Posters and Demos Chairs",
+                "track_name": "Posters and Demos Chair",
                 "affiliation_provenance": "",
                 "verified": true,
                 "openalex_name": "Gong Cheng",
@@ -106,8 +106,8 @@
             {
                 "organiser_name": "Shenghui Wang",
                 "organiser_affiliation": "University of Twente",
-                "organiser_country": "Netherlands",
-                "track_name": "Posters and Demos Chairs",
+                "organiser_country": "The Netherlands",
+                "track_name": "Posters and Demos Chair",
                 "affiliation_provenance": "",
                 "verified": true,
                 "openalex_name": "Shenghui Wang",
@@ -143,7 +143,7 @@
                 "organiser_name": "Blerina Spahiu",
                 "organiser_affiliation": "University of Milano-Bicocca",
                 "organiser_country": "Italy",
-                "track_name": "Workshop and Dagstuhl Style Workshops Chairs",
+                "track_name": "Workshop Chair",
                 "affiliation_provenance": "",
                 "verified": true,
                 "openalex_name": "Blerina Spahiu",
@@ -155,7 +155,7 @@
                 "organiser_name": "Juan Sequeda",
                 "organiser_affiliation": "data.world",
                 "organiser_country": "USA",
-                "track_name": "Workshop and Dagstuhl Style Workshops Chairs",
+                "track_name": "Workshop Chair",
                 "affiliation_provenance": "",
                 "verified": true,
                 "openalex_name": "Juan Sequeda",
@@ -214,7 +214,7 @@
         ]
     },
     "processed": {
-        "event_name": "24th International Semantic Web Conference",
+        "event_name": "24th International Semantic Web Conference (ISWC 2025)",
         "event_acronym": "ISWC 2025",
         "conference_series": "International Semantic Web Conference",
         "colocated_with": "",
@@ -312,7 +312,7 @@
                 "organiser_name": "Gong Cheng",
                 "organiser_affiliation": "Nanjing University",
                 "organiser_country": "China",
-                "track_name": "Posters and Demos Chairs",
+                "track_name": "Posters and Demos Chair",
                 "affiliation_provenance": "",
                 "verified": true,
                 "openalex_name": "Gong Cheng",
@@ -323,8 +323,8 @@
             {
                 "organiser_name": "Shenghui Wang",
                 "organiser_affiliation": "University of Twente",
-                "organiser_country": "Netherlands",
-                "track_name": "Posters and Demos Chairs",
+                "organiser_country": "The Netherlands",
+                "track_name": "Posters and Demos Chair",
                 "affiliation_provenance": "",
                 "verified": true,
                 "openalex_name": "Shenghui Wang",
@@ -360,7 +360,7 @@
                 "organiser_name": "Blerina Spahiu",
                 "organiser_affiliation": "University of Milano-Bicocca",
                 "organiser_country": "Italy",
-                "track_name": "Workshop and Dagstuhl Style Workshops Chairs",
+                "track_name": "Workshop Chair",
                 "affiliation_provenance": "",
                 "verified": true,
                 "openalex_name": "Blerina Spahiu",
@@ -372,7 +372,7 @@
                 "organiser_name": "Juan Sequeda",
                 "organiser_affiliation": "data.world",
                 "organiser_country": "USA",
-                "track_name": "Workshop and Dagstuhl Style Workshops Chairs",
+                "track_name": "Workshop Chair",
                 "affiliation_provenance": "",
                 "verified": true,
                 "openalex_name": "Juan Sequeda",
@@ -430,40 +430,122 @@
             }
         ],
         "topics": [
-            "Research Track",
-            "Resource Track",
-            "In-Use Track",
-            "Posters & Demos",
-            "Challenges",
-            "Workshops",
-            "Dagstuhl Style Workshops",
-            "Tutorials",
-            "Industry Track",
-            "Doctoral Consortium"
+            "Research on Semantic Web",
+            "Resources related to Semantic Web",
+            "Real-world applications and industrial use of Semantic Web technologies",
+            "Posters and Demos presenting innovative ideas in Semantic Web",
+            "Semantic Web Challenges",
+            "Workshops on focused Semantic Web topics",
+            "Dagstuhl-style Workshops",
+            "Semantic Web Tutorials",
+            "Industry applications of Semantic Web",
+            "Doctoral Consortium for Semantic Web research"
         ],
         "enhanced_topics": {
-            "Research Track": [],
-            "Resource Track": [],
-            "In-Use Track": [],
-            "Posters & Demos": [],
-            "Challenges": [
+            "Research on Semantic Web": [
                 {
-                    "topic": "challenges",
-                    "similarity": 0.9999999999993318
+                    "topic": "semantic web",
+                    "similarity": 0.8379770666360855
+                },
+                {
+                    "topic": "semantic web and ontologies",
+                    "similarity": 0.620889812707901
                 }
             ],
-            "Workshops": [
+            "Resources related to Semantic Web": [
+                {
+                    "topic": "semantic web",
+                    "similarity": 0.9999999999991999
+                },
+                {
+                    "topic": "semantic web and ontologies",
+                    "similarity": 0.7022566199302673
+                },
+                {
+                    "topic": "semantic web services",
+                    "similarity": 0.6402815878391266
+                }
+            ],
+            "Real-world applications and industrial use of Semantic Web technologies": [
+                {
+                    "topic": "real-time applications",
+                    "similarity": 0.6506017744541168
+                },
+                {
+                    "topic": "semantic web",
+                    "similarity": 0.8756792545318604
+                },
+                {
+                    "topic": "semantic web and ontologies",
+                    "similarity": 0.6477887034416199
+                },
+                {
+                    "topic": "semantic web services",
+                    "similarity": 0.6376558244228363
+                },
+                {
+                    "topic": "industrial production",
+                    "similarity": 0.6144449710845947
+                }
+            ],
+            "Posters and Demos presenting innovative ideas in Semantic Web": [
+                {
+                    "topic": "semantic web",
+                    "similarity": 0.9999999999991999
+                },
+                {
+                    "topic": "semantic web and ontologies",
+                    "similarity": 0.7022566199302673
+                },
+                {
+                    "topic": "semantic web services",
+                    "similarity": 0.6402815878391266
+                }
+            ],
+            "Semantic Web Challenges": [
+                {
+                    "topic": "semantic web",
+                    "similarity": 0.6400966346263885
+                }
+            ],
+            "Workshops on focused Semantic Web topics": [
                 {
                     "topic": "urban workshops",
-                    "similarity": 0.695466160774231
+                    "similarity": 0.6954662799835205
                 }
             ],
-            "Dagstuhl Style Workshops": [],
-            "Tutorials": [],
-            "Industry Track": [],
-            "Doctoral Consortium": []
+            "Dagstuhl-style Workshops": [],
+            "Semantic Web Tutorials": [
+                {
+                    "topic": "semantic web",
+                    "similarity": 0.6060807406902313
+                }
+            ],
+            "Industry applications of Semantic Web": [
+                {
+                    "topic": "semantic web",
+                    "similarity": 0.9999999999991999
+                },
+                {
+                    "topic": "semantic web and ontologies",
+                    "similarity": 0.7022566199302673
+                },
+                {
+                    "topic": "semantic web services",
+                    "similarity": 0.6402815878391266
+                },
+                {
+                    "topic": "industrial applications",
+                    "similarity": 0.7428854703903198
+                }
+            ],
+            "Doctoral Consortium for Semantic Web research": [
+                {
+                    "topic": "semantic web",
+                    "similarity": 0.7872720062732697
+                }
+            ]
         },
         "preferred_threshold": 0.6
-    },
-    "cfp_text": " ISWC 2025 Call for Submissions\n===========================================\n24th International Semantic Web Conference (ISWC 2025)\nNara, Japan\nNovember 2-6,  2025\n\nFollow us:\nTwitter/X: @iswc_conf #iswc_conf ( https://twitter.com/iswc_conf )\nLinkedIn: https://www.linkedin.com/company/iswc/  \nMastodon Social: https://mastodon.social/@iswc_conf\nBsky: https://bsky.app/profile/iswc-conf.bsky.social\n\nISWC 2025 features multiple tracks, i.e., research, resource, in-use, industry, poster & demos, doctoral consortium, workshops, dagstuhl-style workshops, challenges, and tutorials,  Hence, authors are kindly asked to check out the calls of each track to choose the one that best fits their contribution.\n===========================================\nCall for Research Track Papers\n\nThe research track of ISWC 2025 solicits novel and significant research contributions addressing theoretical, analytical, and empirical aspects of the Semantic Web. We welcome work describing original and replicable research showing evidence of significant contribution to the Semantic Web.\n\nImportant Dates:\nAbstract submission due May 6th, 2025\nFull paper submission due May 13th, 2025\nRebuttal June 17th - 20th, 2025\nNotifications July 17th, 2025\nCamera ready papers due July 31st, 2025\n\nResearch Track Chairs:\nContact: iswc2025-research@easychair.org\n\nDaniel Garijo, Universidad Polit\u00e9cnica de Madrid, Spain\nSabrina Kirrane, Vienna University of Economics and Business, Austria\n\n===========================================\nCall for Resource Track Papers\n\nThe ISWC 2025 Resources Track aims to promote the sharing of resources that support, enable, or utilize semantic web research. We welcome descriptions of resources that leverage knowledge representation based on Semantic Web standards or other graph data models to improve the acquisition, processing, and sharing of data on the web.\n\nImportant Dates:\nAbstract submission due May 6th, 2025\nFull paper submission due May 13th, 2025\nRebuttal June 17th - 20th, 2025\nNotifications July 17th, 2025\nCamera ready papers due July 31st, 2025\n\nResource Track Chairs:\nContact:  iswc2025-resource@easychair.org\n\nCogan Shimizu, Wright State University, US\nAngelo Salatino, KMi,The Open University, UK\n\n===========================================\nCall for In-use Track Papers\n\nThe In-Use track seeks submissions describing applied research as well as software tools, systems, or architectures that benefit from the use of Semantic Web and Knowledge Graph technologies (including, but not limited to, technologies based on the Semantic Web standards). Importantly, submitted papers should provide convincing evidence of the use of the proposed application or tool by the target user group, preferably outside the group that conducted the development and, more broadly, outside the Semantic Web and Knowledge Graph research communities.\n\nImportant Dates:\nAbstract submission due May 6th, 2025\nFull paper submission due May 13th, 2025\nRebuttal June 17th - 20th, 2025\nNotifications July 17th, 2025\nCamera ready papers due July 31st, 2025\n\nIn-Use Track Chairs:\nContact: iswc2025-in-use@easychair.org\n\nMaribel Acosta\nTechnical University of Munich, Germany\n\nAndrea Giovanni Nuzzolese\nCNR - Institute of Cognitive Sciences and Technologies, Italy\n\n\n===========================================\nCall for Posters and Demos Track Papers\n\nThe ISWC 2025 Posters and Demos Track offers an opportunity to showcase late-breaking research results, ongoing research or resource projects, speculative or innovative ideas, and interactive demonstrations. This track is designed to encourage dynamic discussions between presenters and participants, fostering feedback that can shape future research directions. These discussions will offer participants an effective way to broaden their knowledge of emerging research trends and to network with other researchers.\n\nImportant Dates:\nPosters & demos submissions due - July 31st, 2025\nAuthor notifications - August 28th, 2025\nCamera-ready submissions due - September 11th, 2025\n\nPosters and Demos Chairs:\nContact email: iswc2025-pd@easychair.org\nGong Cheng\nNanjing University, China\n\nShenghui Wang\nUniversity of Twente, The Netherlands\n\n===========================================\nCall for Challenges Proposals\n\nA great way to advance the state of the art in a given domain is to create competition. We invite you to propose an ISWC 2025 Challenge, in which you define an open competition on a problem of your choice within the Semantic Web domain.\n\nImportant Dates:\nChallenge proposal submission due Feb 18th, 2025\nNotification of challenge acceptance Mar 2nd, 2025\n\nSemantic Web Challenge Chairs:\nContact: iswc2025-challenge@easychair.org\n\nMayank Kejriwal\nUniversity of Southern California, United States\n\nPablo Mendes\nUpwork, United States\n\n===========================================\nCall for Workshops\n\nWorkshops at ISWC play a critical role in fostering focused, intensive scientific exchange on specific topics aligned with the conference\u2019s overarching themes. They provide a unique venue for exploring emerging ideas, discussing novel perspectives on established research, and engaging with related research communities. We encourage proposals for workshops that will inspire meaningful dialogue and collaboration among ISWC attendees, providing a platform to advance research and innovation in this dynamic field.\n\nImportant dates:\nSubmission deadline - February 18, 2025\nNotification to proposers - March 11, 2025\nWorkshop website and CfP available online - April 8, 2025\nWorkshop program with list of accepted papers available online - July 29, 2025\nWorkshop days - November 2-3, 2025\n\nWorkshop Chairs:\nBlerina Spahiu - University of Milano-Bicocca, Italy\nJuan Sequeda - data.world, USA\nContact: iswc2025-ws@easychair.org\n\n===========================================\nCall for Dagstuhl Style Workshops\n\nInspired by the Special Session at ISWC 2024 and the Dagstuhl Seminar model, these workshops are designed to encourage in-depth discussions on challenges or emerging topics within a half-day or full-day event format. The goal is to create a collaborative and open environment for brainstorming and exploring new directions, similar to the spirit of Dagstuhl Seminars. These workshops will prioritize dynamic discussions and the presentation of fresh ideas and ongoing research, rather than requiring participants to submit papers or give formal presentations.\n\nImportant dates:\nSubmission deadline - July 1, 2025\nNotification to proposers - July 11, 2025\nWorkshop website online - July 25, 2025\nWorkshop days - November 2-3, 2025\n\n\nWorkshop Chairs\nBlerina Spahiu - University of Milano-Bicocca, Italy\nJuan Sequeda - data.world, USA\nContact: iswc2025-ws@easychair.org\n\n===========================================\nCall for Tutorials\n\nThe International Semantic Web Conference 2025 is pleased to announce the Call for Tutorials. Continuing the tradition of excellence, the 2025 edition will feature a comprehensive tutorial program serving the diverse interests and expertise of our audience. These tutorials aim to provide attendees with insights into foundational and cutting-edge topics, practical applications, and the latest advancements in Semantic Web, Knowledge Graphs, and Linked Data technologies.\n\nImportant dates:\nSubmission deadline - May 20, 2025\nNotification to proposers - June 10, 2025\nTutorial website online - July 8, 2025\nMaterials available on the website (if any) - August 8, 2025\nTutorial days - November 2-3, 2025\n\nTutorial chairs:\nBlerina Spahiu - University of Milano-Bicocca, Italy\nJuan Sequeda - data.world, USA\nContact: iswc2025-ws@easychair.org\n\n\n===========================================\nCall for Industry Track Papers\n\nThe Industry Track at ISWC 2025 welcomes extended abstracts about the application of knowledge graphs and semantic technologies in various industrial sectors, aiming to showcase the state of their adoption and the latest trends. It provides an opportunity for industry adopters to highlight and share the key learnings and new research challenges posed by real-world implementations.\n\nImportant dates:\nSubmissions Due - 1st July 2025\nNotifications Due - 29th July 2025\nCamera-Ready Papers Due - 11th September 2025\n\nIndustry Track Chairs:\nContact email: iswc2025-industry@easychair.org\nOktie Hassanzadeh\nIBM Research, US\nIrene Celino\nCefriel, Italy\n\n\n===========================================\nCall for Doctoral Consortium Submissions\n\nThe DC event is intended for students who have articulated a reasonably detailed research proposal, preferably supported by some preliminary results, but are not yet on the final stretch of their thesis, such that the feedback gathered at the DC will have a maximal impact. The aim is to support the students in refining their proposal and to suggest possible ways to improve their research plan and to achieve results with prospective greater impact.\n\nSubmissions Due - 3 June 2025\nNotifications - 8 July 2025\nCamera-ready Submissions Due - 31 July 2025\nDoctoral Consortium - 3 November 2025\n\nDoctoral Consortium Track Chairs:\nContact: iswc2025-doctoral-consortium@easychair.org\n\nAbraham Bernstein\nUniversity of Zurich, Switzerland\nNatasha Noy\nGoogle Research, US\n===========================================\n\nAll deadlines are 23:59 AoE (anywhere on Earth)\nFor more details check out the conference website: https://iswc2025.semanticweb.org/\n"
+    }
 }

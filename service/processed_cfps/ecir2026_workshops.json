@@ -1,0 +1,132 @@
+{
+    "llm-output": {
+        "event_name": "European Conference on Information Retrieval 2026",
+        "conference_series": "European Conference on Information Retrieval",
+        "event_acronym": "ECIR 2026",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Not specified (typically changes each year)",
+        "topics": [
+            "Information Retrieval",
+            "Full Papers",
+            "Demo Papers",
+            "Negative Papers",
+            "Oral Presentations",
+            "Poster Presentations"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Negar Arabzadeh",
+                "organiser_affiliation": "UC Berkeley",
+                "organiser_country": "USA",
+                "track_name": "Workshop Proposals Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Negar Arabzadeh",
+                "openalex_page": "https://openalex.org/A5049487742",
+                "orcid": "https://orcid.org/0000-0002-4411-7089",
+                "affiliation_ror": "https://ror.org/02xewxa75"
+            },
+            {
+                "organiser_name": "Franco Maria Nardini",
+                "organiser_affiliation": "ISTI-CNR",
+                "organiser_country": "Italy",
+                "track_name": "Workshop Proposals Track Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Franco Maria Nardini",
+                "openalex_page": "https://openalex.org/A5082554104",
+                "orcid": "https://orcid.org/0000-0003-3183-334X",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "European Conference on Information Retrieval 2026",
+        "event_acronym": "ECIR 2026",
+        "conference_series": "European Conference on Information Retrieval",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Not specified (typically changes each year)",
+        "DBLP": {
+            "name": "European Conference on Advances in Information Retrieval (ECIR)",
+            "id": "ecir",
+            "url": "https://dblp.org/streams/conf/ecir"
+        },
+        "AIDA": {
+            "name": "European Conference on IR Research (ECIR)",
+            "id": "ecir",
+            "url": "https://w3id.org/aida/dashboard/cs/conference/European%20Conference%20on%20IR%20Research%20%28ECIR%29"
+        },
+        "ConfIDent": {
+            "name": "European Conference on Information Retrieval Research",
+            "id": "Event Series:ECIR",
+            "url": "https://www.confident-conference.org/index.php/Event%20Series%3AECIR"
+        },
+        "organisers": [
+            {
+                "organiser_name": "Negar Arabzadeh",
+                "organiser_affiliation": "UC Berkeley",
+                "organiser_country": "USA",
+                "track_name": "Workshop Proposals Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Negar Arabzadeh",
+                "openalex_page": "https://openalex.org/A5049487742",
+                "orcid": "https://orcid.org/0000-0002-4411-7089",
+                "affiliation_ror": "https://ror.org/02xewxa75"
+            },
+            {
+                "organiser_name": "Franco Maria Nardini",
+                "organiser_affiliation": "ISTI-CNR",
+                "organiser_country": "Italy",
+                "track_name": "Workshop Proposals Track Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Franco Maria Nardini",
+                "openalex_page": "https://openalex.org/A5082554104",
+                "orcid": "https://orcid.org/0000-0003-3183-334X",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Information Retrieval",
+            "Full Papers",
+            "Demo Papers",
+            "Negative Papers",
+            "Oral Presentations",
+            "Poster Presentations"
+        ],
+        "enhanced_topics": {
+            "Information Retrieval": [
+                {
+                    "topic": "information retrieval",
+                    "similarity": 0.9999999999987375
+                },
+                {
+                    "topic": "information retrieval system",
+                    "similarity": 0.7341567277908325
+                },
+                {
+                    "topic": "information retrieval techniques and evaluation",
+                    "similarity": 0.6681702733039856
+                },
+                {
+                    "topic": "content-based retrieval",
+                    "similarity": 0.6299024522304535
+                }
+            ],
+            "Full Papers": [],
+            "Demo Papers": [],
+            "Negative Papers": [],
+            "Oral Presentations": [],
+            "Poster Presentations": [
+                {
+                    "topic": "poster presentations",
+                    "similarity": 0.9999999999994088
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    }
+}

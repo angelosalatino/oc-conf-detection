@@ -1,0 +1,2063 @@
+{
+    "llm-output": {
+        "event_name": "Engineering Disciplines and Sustainable Energy Transformation (EDMSET)",
+        "conference_series": "Engineering Disciplines and Sustainable Energy Transformation",
+        "event_acronym": "EDMSET",
+        "colocated_with": "Abu Dhabi University",
+        "year": "2026",
+        "location": "Online Conference",
+        "topics": [
+            "Sustainable Urban Planning and Architectural Design",
+            "Net-Zero Energy Buildings: Design Strategies and Technologies",
+            "Smart Cities and Technology Integration in Urban Environments",
+            "Circular Economy Principles in Urban Design",
+            "Transit-Oriented Development and Sustainable Transportation Planning",
+            "Green Infrastructure and Urban Sustainability",
+            "Urban Heat Island Mitigation and Climate Adaptation Strategies",
+            "Building Information Modeling (BIM)",
+            "Resilient Urban Design: Strategies for Disaster Risk Reduction",
+            "Indoor Environmental Quality and Occupant Comfort",
+            "Renewable Energy Solutions and Innovations",
+            "Solar Energy Harvesting and Photovoltaic Technologies",
+            "Advances in Wind Turbine Design and Efficiency",
+            "Energy Storage Innovations: Battery Technologies and Grid Integration",
+            "Geothermal Energy: Exploration and Utilization",
+            "Sustainable Development and Deployment of Renewable Energy Systems",
+            "Hydropower Optimization and Modernization",
+            "Smart Technologies in Renewable Energy Integration",
+            "Offshore Energy Solutions",
+            "Advances in Materials Engineering and Sustainable Practices",
+            "Sustainable Materials in Infrastructure Development",
+            "Advanced Composite Materials for Structural Applications",
+            "Eco-Friendly Materials in Sustainable Construction",
+            "Responsive Polymers for Smart Applications",
+            "Corrosion and Surface Engineering",
+            "Advanced Steel Alloys for Structural Applications",
+            "Environmental Sustainability and Strategic Management",
+            "Carbon Footprint Reduction Strategies",
+            "Waste Reduction and Circular Economy Practices",
+            "Ecosystem Conservation and Biodiversity Preservation",
+            "Water Resource Management and Conservation",
+            "Sustainable Business Models and Strategies",
+            "Innovations in Structural Engineering and Urban Infrastructure",
+            "Adaptive Structural Systems for Changing Environments",
+            "Novel Approaches to Seismic Design and Resilience",
+            "Sustainable Construction Practices in Structural Engineering",
+            "Smart City Integration: IoT and Urban Connectivity",
+            "Bioclimatic Design for Energy-Efficient Buildings",
+            "Resilient Urban Infrastructure Planning and Design",
+            "Digital Transformation in Engineering",
+            "The Role of Artificial Intelligence in Engineering Design",
+            "Machine Learning Applications in Predictive Maintenance",
+            "Digital Twins for Real-Time Monitoring and Optimization",
+            "AI and Machine Learning for Structural and Material Optimization",
+            "Big Data Analytics for Engineering Decision-Making",
+            "Virtual and Augmented Reality in Engineering Training",
+            "Transportation Engineering and Mobility Solutions",
+            "Future Trends in Autonomous Vehicles",
+            "Sustainable Transportation Planning and Infrastructure",
+            "Smart Traffic Management Systems",
+            "Electric and Hybrid Vehicle Technologies",
+            "Public Transportation Innovations and Accessibility",
+            "Active Transportation and Pedestrian-Friendly Design",
+            "Climate Resilience and Adaptation Strategies",
+            "Urban Resilience Planning for Extreme Weather Events",
+            "Green Infrastructure for Climate Adaptation",
+            "Risk Assessment and Management for Climate Impact",
+            "Community Engagement in Climate Resilience Initiatives",
+            "Policy Frameworks for Climate Adaptation",
+            "Case Studies of Successful Climate Resilience Projects",
+            "Health and Safety in Engineering Practices",
+            "Occupational Health and Safety Management Systems",
+            "Ergonomics and Human Factors in Engineering Design",
+            "Risk Assessment and Mitigation Strategies",
+            "Innovations in Personal Protective Equipment (PPE)",
+            "Mental Health Considerations in Engineering Workplaces",
+            "Emergency Response Planning and Crisis Management",
+            "Emerging Technologies in Construction",
+            "Robotics and Automation in Construction",
+            "Prefabrication and Modular Construction Techniques",
+            "Advances in Construction Materials",
+            "3D Printing Applications in Building Construction",
+            "Drones for Site Surveying and Monitoring",
+            "Sustainable Practices in Construction Waste Management",
+            "Circular Economy in Engineering",
+            "Design for Disassembly and End-of-Life Strategies",
+            "Life Cycle Assessment (LCA) in Engineering Projects",
+            "Waste Minimization Techniques in Manufacturing",
+            "Resource Recovery and Recycling Technologies",
+            "Economic Implications of Circular Economy Practices",
+            "Policy and Regulatory Frameworks for Circular Economy",
+            "Preservation and Conservation of Architectural Heritage",
+            "Digital Technologies for Heritage Conservation and Restoration",
+            "Adaptive Reuse and Sustainable Restoration of Historic Buildings",
+            "Innovative Materials and Methods for Architectural Heritage Preservation",
+            "Community Engagement in the Preservation of Architectural Heritage",
+            "Conservation Ethics and Principles in Architectural Heritage Preservation",
+            "Case Studies in Successful Architectural Heritage Preservation Projects",
+            "Advancements in Renewable Materials",
+            "Biodegradable Materials for Construction and Packaging",
+            "Innovations in Natural Fiber Reinforced Composites",
+            "Recycled Materials in Product Design",
+            "Life Cycle Analysis of Renewable Materials",
+            "Performance Evaluation of Bio-based Materials",
+            "Market Trends and Future Directions for Renewable Materials",
+            "Artificial Intelligence and Machine Learning in Engineering",
+            "Predictive Analytics for Engineering Applications",
+            "AI-Driven Design Optimization Techniques",
+            "Natural Language Processing for Engineering Documentation",
+            "Robotics Process Automation in Manufacturing",
+            "AI in Infrastructure Asset Management",
+            "Ethical Considerations in AI Applications",
+            "Social Impact of Engineering",
+            "Community Development through Engineering Projects",
+            "Engineering Solutions for Global Challenges (e.g., poverty, health)",
+            "The Role of Engineers in Sustainable Development Goals (SDGs)",
+            "Enhancing Social Equity through Infrastructure Design",
+            "Public Engagement in Engineering Projects",
+            "Educational Initiatives to Promote Engineering Careers",
+            "Geospatial Technologies and Engineering",
+            "Geographic Information Systems (GIS) in Urban Planning",
+            "Remote Sensing for Environmental Monitoring",
+            "Spatial Data Analysis for Infrastructure Development",
+            "3D Mapping Technologies and Applications",
+            "Location-Based Services and Smart Cities",
+            "Geospatial Data Management and Ethical Considerations",
+            "Industrial Innovation and Smart Manufacturing",
+            "Industry 4.0: The Future of Manufacturing",
+            "Smart Factories and Cyber-Physical Systems",
+            "Additive Manufacturing (3D Printing) in Industry",
+            "Lean Manufacturing Techniques for Efficiency",
+            "Supply Chain Digitalization and Optimization",
+            "Sustainable Practices in Industrial Operations",
+            "Cybersecurity in Engineering Systems",
+            "Threat Modeling and Risk Assessment in Engineering",
+            "Secure Software Development Life Cycle (SDLC)",
+            "Cybersecurity Frameworks for Critical Infrastructure",
+            "Incident Response and Recovery Planning",
+            "Training and Awareness for Cybersecurity Best Practices",
+            "Emerging Trends in Cyber Threats and Defense",
+            "Cultural Sustainability in Engineering",
+            "Integrating Cultural Heritage in Urban Development",
+            "Engineering Solutions for Cultural Preservation",
+            "Community Participation in Sustainable Design",
+            "The Role of Arts in Engineering and Design",
+            "Evaluating Cultural Impact in Engineering Projects",
+            "Policies for Promoting Cultural Sustainability",
+            "Engineering Solutions for Sustainable Development Goals (SDGs)",
+            "Engineering Innovations for Clean Water and Sanitation",
+            "Sustainable Energy Access for All",
+            "Building Resilient Infrastructure and Inclusive Cities",
+            "Climate Action through Engineering",
+            "Circular Economy and Responsible Consumption",
+            "Engineering Solutions for Zero Hunger and Sustainable Agriculture",
+            "Gender Equality and Inclusive Engineering Practices",
+            "Cross-Sectoral Approaches to Achieving the SDGs",
+            "Sustainable Economics and Policy for a Sustainable Society",
+            "Environmental Policy and Sustainable Development",
+            "ESG Finance: Opportunities, Challenges, and Greenwashing Risks",
+            "Sustainable Aviation Fuels (SAF) and the Future of Green Tourism",
+            "Renewable Energy and its Social Dimensions: Gender, Health, and Equity",
+            "Socio-Economic Factors Shaping Climate Resilience",
+            "The Blue Economy: Innovations, Challenges, and Sustainable Growth",
+            "Sustainable Interior Design",
+            "Sustainable Materials in Interior Design",
+            "Biophilic Design",
+            "Energy-Efficient Lighting and HVAC Systems",
+            "Smart and Connected Interior Spaces",
+            "Universal Design and Inclusivity",
+            "Sustainable Furniture and Product Design",
+            "Adaptive Reuse and Historic Preservation",
+            "Biodegradable and Compostable Interiors",
+            "IEQ, Occupant Health and Well-being",
+            "Lighting & Acoustics in Design and Construction",
+            "Electrical and Mechanical Engineering & Advanced Fabrication",
+            "Additive Manufacturing (3D Printing) and CNC Machining",
+            "Advanced Machining Processes and Precision Engineering",
+            "Micro- and Nanostructure Fabrication for Components",
+            "Sustainable Materials and Manufacturing Processes",
+            "Automation, Robotics, and Intelligent Control Systems",
+            "Power Systems and Renewable Energy Integration",
+            "Advanced Materials Engineering and Nanotechnology",
+            "Composite Materials Fabrication and Characterization",
+            "Aerospace Engineering & Technology",
+            "Industrial Engineering & Process Optimization",
+            "Biomedical & Biotechnology Engineering",
+            "Fluids & Thermal Engineering",
+            "Chemical Engineering and Chemistry of Materials",
+            "Advanced Polymers and Functional Materials",
+            "Nanomaterials Synthesis, Characterization, and Applications",
+            "Catalysis, Reaction Engineering, and Green Chemical Processes",
+            "Corrosion, Surface Chemistry, and Protective Coatings",
+            "Sustainable and Eco-Friendly Material Development",
+            "Advanced Alloys and Composite Materials Chemistry",
+            "Materials for Electrochemical Energy Storage",
+            "Bio-inspired and Biomaterials Chemistry",
+            "Materials for Environmental Applications (Adsorbents, Catalytic Remediation)",
+            "Smart and Responsive Materials for Industrial and Technological Applications"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Dr. Ayesha Mehmood Malik",
+                "organiser_affiliation": "The University of Lahore",
+                "organiser_country": "Pakistan",
+                "track_name": "Conference Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ayesha Mehmood Malik",
+                "openalex_page": "https://openalex.org/A5013047796",
+                "orcid": "https://orcid.org/0000-0001-7289-9703",
+                "affiliation_ror": "https://ror.org/051jrjw38"
+            },
+            {
+                "organiser_name": "Prof. Aliev Rayimjon",
+                "organiser_affiliation": "Andijan State University (ASU)",
+                "organiser_country": "Uzbekistan",
+                "track_name": "Conference Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Khaled El-Daghar",
+                "organiser_affiliation": "Beirut Arab University",
+                "organiser_country": "Lebanon",
+                "track_name": "Conference Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "Engineering Disciplines and Sustainable Energy Transformation (EDMSET)",
+        "event_acronym": "EDMSET",
+        "conference_series": "Engineering Disciplines and Sustainable Energy Transformation",
+        "colocated_with": "Abu Dhabi University",
+        "year": "2026",
+        "location": "Online Conference",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Dr. Ayesha Mehmood Malik",
+                "organiser_affiliation": "The University of Lahore",
+                "organiser_country": "Pakistan",
+                "track_name": "Conference Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ayesha Mehmood Malik",
+                "openalex_page": "https://openalex.org/A5013047796",
+                "orcid": "https://orcid.org/0000-0001-7289-9703",
+                "affiliation_ror": "https://ror.org/051jrjw38"
+            },
+            {
+                "organiser_name": "Prof. Aliev Rayimjon",
+                "organiser_affiliation": "Andijan State University (ASU)",
+                "organiser_country": "Uzbekistan",
+                "track_name": "Conference Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Khaled El-Daghar",
+                "organiser_affiliation": "Beirut Arab University",
+                "organiser_country": "Lebanon",
+                "track_name": "Conference Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Sustainable Urban Planning and Architectural Design",
+            "Net-Zero Energy Buildings: Design Strategies and Technologies",
+            "Smart Cities and Technology Integration in Urban Environments",
+            "Circular Economy Principles in Urban Design",
+            "Transit-Oriented Development and Sustainable Transportation Planning",
+            "Green Infrastructure and Urban Sustainability",
+            "Urban Heat Island Mitigation and Climate Adaptation Strategies",
+            "Building Information Modeling (BIM)",
+            "Resilient Urban Design: Strategies for Disaster Risk Reduction",
+            "Indoor Environmental Quality and Occupant Comfort",
+            "Renewable Energy Solutions and Innovations",
+            "Solar Energy Harvesting and Photovoltaic Technologies",
+            "Advances in Wind Turbine Design and Efficiency",
+            "Energy Storage Innovations: Battery Technologies and Grid Integration",
+            "Geothermal Energy: Exploration and Utilization",
+            "Sustainable Development and Deployment of Renewable Energy Systems",
+            "Hydropower Optimization and Modernization",
+            "Smart Technologies in Renewable Energy Integration",
+            "Offshore Energy Solutions",
+            "Advances in Materials Engineering and Sustainable Practices",
+            "Sustainable Materials in Infrastructure Development",
+            "Advanced Composite Materials for Structural Applications",
+            "Eco-Friendly Materials in Sustainable Construction",
+            "Responsive Polymers for Smart Applications",
+            "Corrosion and Surface Engineering",
+            "Advanced Steel Alloys for Structural Applications",
+            "Environmental Sustainability and Strategic Management",
+            "Carbon Footprint Reduction Strategies",
+            "Waste Reduction and Circular Economy Practices",
+            "Ecosystem Conservation and Biodiversity Preservation",
+            "Water Resource Management and Conservation",
+            "Sustainable Business Models and Strategies",
+            "Innovations in Structural Engineering and Urban Infrastructure",
+            "Adaptive Structural Systems for Changing Environments",
+            "Novel Approaches to Seismic Design and Resilience",
+            "Sustainable Construction Practices in Structural Engineering",
+            "Smart City Integration: IoT and Urban Connectivity",
+            "Bioclimatic Design for Energy-Efficient Buildings",
+            "Resilient Urban Infrastructure Planning and Design",
+            "Digital Transformation in Engineering",
+            "The Role of Artificial Intelligence in Engineering Design",
+            "Machine Learning Applications in Predictive Maintenance",
+            "Digital Twins for Real-Time Monitoring and Optimization",
+            "AI and Machine Learning for Structural and Material Optimization",
+            "Big Data Analytics for Engineering Decision-Making",
+            "Virtual and Augmented Reality in Engineering Training",
+            "Transportation Engineering and Mobility Solutions",
+            "Future Trends in Autonomous Vehicles",
+            "Sustainable Transportation Planning and Infrastructure",
+            "Smart Traffic Management Systems",
+            "Electric and Hybrid Vehicle Technologies",
+            "Public Transportation Innovations and Accessibility",
+            "Active Transportation and Pedestrian-Friendly Design",
+            "Climate Resilience and Adaptation Strategies",
+            "Urban Resilience Planning for Extreme Weather Events",
+            "Green Infrastructure for Climate Adaptation",
+            "Risk Assessment and Management for Climate Impact",
+            "Community Engagement in Climate Resilience Initiatives",
+            "Policy Frameworks for Climate Adaptation",
+            "Case Studies of Successful Climate Resilience Projects",
+            "Health and Safety in Engineering Practices",
+            "Occupational Health and Safety Management Systems",
+            "Ergonomics and Human Factors in Engineering Design",
+            "Risk Assessment and Mitigation Strategies",
+            "Innovations in Personal Protective Equipment (PPE)",
+            "Mental Health Considerations in Engineering Workplaces",
+            "Emergency Response Planning and Crisis Management",
+            "Emerging Technologies in Construction",
+            "Robotics and Automation in Construction",
+            "Prefabrication and Modular Construction Techniques",
+            "Advances in Construction Materials",
+            "3D Printing Applications in Building Construction",
+            "Drones for Site Surveying and Monitoring",
+            "Sustainable Practices in Construction Waste Management",
+            "Circular Economy in Engineering",
+            "Design for Disassembly and End-of-Life Strategies",
+            "Life Cycle Assessment (LCA) in Engineering Projects",
+            "Waste Minimization Techniques in Manufacturing",
+            "Resource Recovery and Recycling Technologies",
+            "Economic Implications of Circular Economy Practices",
+            "Policy and Regulatory Frameworks for Circular Economy",
+            "Preservation and Conservation of Architectural Heritage",
+            "Digital Technologies for Heritage Conservation and Restoration",
+            "Adaptive Reuse and Sustainable Restoration of Historic Buildings",
+            "Innovative Materials and Methods for Architectural Heritage Preservation",
+            "Community Engagement in the Preservation of Architectural Heritage",
+            "Conservation Ethics and Principles in Architectural Heritage Preservation",
+            "Case Studies in Successful Architectural Heritage Preservation Projects",
+            "Advancements in Renewable Materials",
+            "Biodegradable Materials for Construction and Packaging",
+            "Innovations in Natural Fiber Reinforced Composites",
+            "Recycled Materials in Product Design",
+            "Life Cycle Analysis of Renewable Materials",
+            "Performance Evaluation of Bio-based Materials",
+            "Market Trends and Future Directions for Renewable Materials",
+            "Artificial Intelligence and Machine Learning in Engineering",
+            "Predictive Analytics for Engineering Applications",
+            "AI-Driven Design Optimization Techniques",
+            "Natural Language Processing for Engineering Documentation",
+            "Robotics Process Automation in Manufacturing",
+            "AI in Infrastructure Asset Management",
+            "Ethical Considerations in AI Applications",
+            "Social Impact of Engineering",
+            "Community Development through Engineering Projects",
+            "Engineering Solutions for Global Challenges (e.g., poverty, health)",
+            "The Role of Engineers in Sustainable Development Goals (SDGs)",
+            "Enhancing Social Equity through Infrastructure Design",
+            "Public Engagement in Engineering Projects",
+            "Educational Initiatives to Promote Engineering Careers",
+            "Geospatial Technologies and Engineering",
+            "Geographic Information Systems (GIS) in Urban Planning",
+            "Remote Sensing for Environmental Monitoring",
+            "Spatial Data Analysis for Infrastructure Development",
+            "3D Mapping Technologies and Applications",
+            "Location-Based Services and Smart Cities",
+            "Geospatial Data Management and Ethical Considerations",
+            "Industrial Innovation and Smart Manufacturing",
+            "Industry 4.0: The Future of Manufacturing",
+            "Smart Factories and Cyber-Physical Systems",
+            "Additive Manufacturing (3D Printing) in Industry",
+            "Lean Manufacturing Techniques for Efficiency",
+            "Supply Chain Digitalization and Optimization",
+            "Sustainable Practices in Industrial Operations",
+            "Cybersecurity in Engineering Systems",
+            "Threat Modeling and Risk Assessment in Engineering",
+            "Secure Software Development Life Cycle (SDLC)",
+            "Cybersecurity Frameworks for Critical Infrastructure",
+            "Incident Response and Recovery Planning",
+            "Training and Awareness for Cybersecurity Best Practices",
+            "Emerging Trends in Cyber Threats and Defense",
+            "Cultural Sustainability in Engineering",
+            "Integrating Cultural Heritage in Urban Development",
+            "Engineering Solutions for Cultural Preservation",
+            "Community Participation in Sustainable Design",
+            "The Role of Arts in Engineering and Design",
+            "Evaluating Cultural Impact in Engineering Projects",
+            "Policies for Promoting Cultural Sustainability",
+            "Engineering Solutions for Sustainable Development Goals (SDGs)",
+            "Engineering Innovations for Clean Water and Sanitation",
+            "Sustainable Energy Access for All",
+            "Building Resilient Infrastructure and Inclusive Cities",
+            "Climate Action through Engineering",
+            "Circular Economy and Responsible Consumption",
+            "Engineering Solutions for Zero Hunger and Sustainable Agriculture",
+            "Gender Equality and Inclusive Engineering Practices",
+            "Cross-Sectoral Approaches to Achieving the SDGs",
+            "Sustainable Economics and Policy for a Sustainable Society",
+            "Environmental Policy and Sustainable Development",
+            "ESG Finance: Opportunities, Challenges, and Greenwashing Risks",
+            "Sustainable Aviation Fuels (SAF) and the Future of Green Tourism",
+            "Renewable Energy and its Social Dimensions: Gender, Health, and Equity",
+            "Socio-Economic Factors Shaping Climate Resilience",
+            "The Blue Economy: Innovations, Challenges, and Sustainable Growth",
+            "Sustainable Interior Design",
+            "Sustainable Materials in Interior Design",
+            "Biophilic Design",
+            "Energy-Efficient Lighting and HVAC Systems",
+            "Smart and Connected Interior Spaces",
+            "Universal Design and Inclusivity",
+            "Sustainable Furniture and Product Design",
+            "Adaptive Reuse and Historic Preservation",
+            "Biodegradable and Compostable Interiors",
+            "IEQ, Occupant Health and Well-being",
+            "Lighting & Acoustics in Design and Construction",
+            "Electrical and Mechanical Engineering & Advanced Fabrication",
+            "Additive Manufacturing (3D Printing) and CNC Machining",
+            "Advanced Machining Processes and Precision Engineering",
+            "Micro- and Nanostructure Fabrication for Components",
+            "Sustainable Materials and Manufacturing Processes",
+            "Automation, Robotics, and Intelligent Control Systems",
+            "Power Systems and Renewable Energy Integration",
+            "Advanced Materials Engineering and Nanotechnology",
+            "Composite Materials Fabrication and Characterization",
+            "Aerospace Engineering & Technology",
+            "Industrial Engineering & Process Optimization",
+            "Biomedical & Biotechnology Engineering",
+            "Fluids & Thermal Engineering",
+            "Chemical Engineering and Chemistry of Materials",
+            "Advanced Polymers and Functional Materials",
+            "Nanomaterials Synthesis, Characterization, and Applications",
+            "Catalysis, Reaction Engineering, and Green Chemical Processes",
+            "Corrosion, Surface Chemistry, and Protective Coatings",
+            "Sustainable and Eco-Friendly Material Development",
+            "Advanced Alloys and Composite Materials Chemistry",
+            "Materials for Electrochemical Energy Storage",
+            "Bio-inspired and Biomaterials Chemistry",
+            "Materials for Environmental Applications (Adsorbents, Catalytic Remediation)",
+            "Smart and Responsive Materials for Industrial and Technological Applications"
+        ],
+        "enhanced_topics": {
+            "Sustainable Urban Planning and Architectural Design": [
+                {
+                    "topic": "sustainable urban planning",
+                    "similarity": 0.999999999999104
+                },
+                {
+                    "topic": "sustainable urban development and planning",
+                    "similarity": 0.9144462645053864
+                },
+                {
+                    "topic": "sustainable urban development",
+                    "similarity": 0.7876598984003067
+                },
+                {
+                    "topic": "architectural design",
+                    "similarity": 0.9999999999991785
+                }
+            ],
+            "Net-Zero Energy Buildings: Design Strategies and Technologies": [
+                {
+                    "topic": "technology",
+                    "similarity": 0.8233371078968048
+                }
+            ],
+            "Smart Cities and Technology Integration in Urban Environments": [
+                {
+                    "topic": "smart cities",
+                    "similarity": 0.9999999999991404
+                },
+                {
+                    "topic": "smart city",
+                    "similarity": 0.8520668745040894
+                },
+                {
+                    "topic": "smart city technologies",
+                    "similarity": 0.7617323994636536
+                },
+                {
+                    "topic": "smart cities and technologies",
+                    "similarity": 0.7503164708614349
+                },
+                {
+                    "topic": "technology integration",
+                    "similarity": 0.9999999999991572
+                },
+                {
+                    "topic": "urban environment",
+                    "similarity": 0.8402703702449799
+                }
+            ],
+            "Circular Economy Principles in Urban Design": [
+                {
+                    "topic": "urban design",
+                    "similarity": 0.9999999999993011
+                },
+                {
+                    "topic": "circular economy",
+                    "similarity": 0.8418502509593964
+                }
+            ],
+            "Transit-Oriented Development and Sustainable Transportation Planning": [
+                {
+                    "topic": "sustainable transportation",
+                    "similarity": 0.7996096760034561
+                }
+            ],
+            "Green Infrastructure and Urban Sustainability": [
+                {
+                    "topic": "urban sustainability",
+                    "similarity": 0.999999999999187
+                },
+                {
+                    "topic": "sustainable urban development",
+                    "similarity": 0.7603903263807297
+                }
+            ],
+            "Urban Heat Island Mitigation and Climate Adaptation Strategies": [
+                {
+                    "topic": "urban heat island mitigation",
+                    "similarity": 0.9999999999992768
+                },
+                {
+                    "topic": "urban heat islands and mitigation strategies",
+                    "similarity": 0.9259733259677887
+                },
+                {
+                    "topic": "climate adaptation",
+                    "similarity": 0.8362686485052109
+                },
+                {
+                    "topic": "climate change adaptation",
+                    "similarity": 0.765661284327507
+                }
+            ],
+            "Building Information Modeling (BIM)": [],
+            "Resilient Urban Design: Strategies for Disaster Risk Reduction": [
+                {
+                    "topic": "strategy",
+                    "similarity": 0.7684108018875122
+                }
+            ],
+            "Indoor Environmental Quality and Occupant Comfort": [],
+            "Renewable Energy Solutions and Innovations": [
+                {
+                    "topic": "innovations",
+                    "similarity": 0.9999999999990922
+                }
+            ],
+            "Solar Energy Harvesting and Photovoltaic Technologies": [
+                {
+                    "topic": "photovoltaics",
+                    "similarity": 0.8556511700153351
+                },
+                {
+                    "topic": "photovoltaic devices",
+                    "similarity": 0.8384461849927902
+                },
+                {
+                    "topic": "photovoltaic systems",
+                    "similarity": 0.8264619410037994
+                },
+                {
+                    "topic": "photovoltaic",
+                    "similarity": 0.8023765534162521
+                }
+            ],
+            "Advances in Wind Turbine Design and Efficiency": [
+                {
+                    "topic": "efficiency",
+                    "similarity": 0.9999999999991044
+                },
+                {
+                    "topic": "efficiency enhancement",
+                    "similarity": 0.7631959021091461
+                }
+            ],
+            "Energy Storage Innovations: Battery Technologies and Grid Integration": [
+                {
+                    "topic": "grid integration",
+                    "similarity": 0.9999999999994031
+                },
+                {
+                    "topic": "battery technology",
+                    "similarity": 0.8997650817036629
+                }
+            ],
+            "Geothermal Energy: Exploration and Utilization": [
+                {
+                    "topic": "geothermal energy",
+                    "similarity": 0.8048336207866669
+                },
+                {
+                    "topic": "utilization",
+                    "similarity": 0.9999999999990832
+                }
+            ],
+            "Sustainable Development and Deployment of Renewable Energy Systems": [
+                {
+                    "topic": "sustainable development",
+                    "similarity": 0.9999999999990795
+                },
+                {
+                    "topic": "sustainable development and policies",
+                    "similarity": 0.7940485626459122
+                },
+                {
+                    "topic": "power systems and renewable energy",
+                    "similarity": 0.8505403995513916
+                },
+                {
+                    "topic": "renewable energy and sustainable power systems",
+                    "similarity": 0.7813563048839569
+                }
+            ],
+            "Hydropower Optimization and Modernization": [
+                {
+                    "topic": "modernization",
+                    "similarity": 0.9999999999993467
+                }
+            ],
+            "Smart Technologies in Renewable Energy Integration": [
+                {
+                    "topic": "renewable energy integration",
+                    "similarity": 0.9999999999991193
+                }
+            ],
+            "Offshore Energy Solutions": [],
+            "Advances in Materials Engineering and Sustainable Practices": [
+                {
+                    "topic": "advancements in materials engineering",
+                    "similarity": 0.8823376297950745
+                },
+                {
+                    "topic": "sustainability practices",
+                    "similarity": 0.8635508120059967
+                }
+            ],
+            "Sustainable Materials in Infrastructure Development": [
+                {
+                    "topic": "sustainable materials",
+                    "similarity": 0.9999999999991269
+                },
+                {
+                    "topic": "infrastructure development",
+                    "similarity": 0.9999999999992228
+                }
+            ],
+            "Advanced Composite Materials for Structural Applications": [
+                {
+                    "topic": "structural applications",
+                    "similarity": 0.9999999999989637
+                },
+                {
+                    "topic": "advanced materials and composites",
+                    "similarity": 0.9388854429125786
+                }
+            ],
+            "Eco-Friendly Materials in Sustainable Construction": [
+                {
+                    "topic": "sustainable construction",
+                    "similarity": 0.9999999999992817
+                },
+                {
+                    "topic": "sustainability in construction",
+                    "similarity": 0.8652865588665009
+                }
+            ],
+            "Responsive Polymers for Smart Applications": [],
+            "Corrosion and Surface Engineering": [
+                {
+                    "topic": "corrosion",
+                    "similarity": 0.999999999999346
+                },
+                {
+                    "topic": "metal corrosion",
+                    "similarity": 0.7890612334012985
+                },
+                {
+                    "topic": "corrosion behavior",
+                    "similarity": 0.7562688589096069
+                },
+                {
+                    "topic": "surface engineering",
+                    "similarity": 0.9999999999992402
+                }
+            ],
+            "Advanced Steel Alloys for Structural Applications": [
+                {
+                    "topic": "structural applications",
+                    "similarity": 0.9999999999989637
+                }
+            ],
+            "Environmental Sustainability and Strategic Management": [
+                {
+                    "topic": "environmental sustainability",
+                    "similarity": 0.9999999999989916
+                },
+                {
+                    "topic": "sustainability",
+                    "similarity": 0.8477620184421539
+                },
+                {
+                    "topic": "environmental sustainability and technology",
+                    "similarity": 0.7705729603767395
+                },
+                {
+                    "topic": "strategic management",
+                    "similarity": 0.9999999999989907
+                }
+            ],
+            "Carbon Footprint Reduction Strategies": [],
+            "Waste Reduction and Circular Economy Practices": [
+                {
+                    "topic": "circular economy",
+                    "similarity": 0.8405876159667969
+                },
+                {
+                    "topic": "waste reduction",
+                    "similarity": 0.9999999999991468
+                }
+            ],
+            "Ecosystem Conservation and Biodiversity Preservation": [
+                {
+                    "topic": "biodiversity preservation",
+                    "similarity": 0.9999999999991362
+                },
+                {
+                    "topic": "biodiversity conservation",
+                    "similarity": 0.8067921847105026
+                },
+                {
+                    "topic": "ecosystem conservation",
+                    "similarity": 0.9999999999991408
+                }
+            ],
+            "Water Resource Management and Conservation": [
+                {
+                    "topic": "water resource management",
+                    "similarity": 0.9999999999991555
+                },
+                {
+                    "topic": "water resources management",
+                    "similarity": 0.9755790270864964
+                },
+                {
+                    "topic": "water resources and management",
+                    "similarity": 0.8715510070323944
+                },
+                {
+                    "topic": "water resources management and optimization",
+                    "similarity": 0.7726102769374847
+                },
+                {
+                    "topic": "conservation",
+                    "similarity": 0.9999999999993605
+                }
+            ],
+            "Sustainable Business Models and Strategies": [
+                {
+                    "topic": "strategy",
+                    "similarity": 0.7684108018875122
+                }
+            ],
+            "Innovations in Structural Engineering and Urban Infrastructure": [],
+            "Adaptive Structural Systems for Changing Environments": [],
+            "Novel Approaches to Seismic Design and Resilience": [
+                {
+                    "topic": "resilience",
+                    "similarity": 0.9999999999990892
+                },
+                {
+                    "topic": "resilience analysis",
+                    "similarity": 0.8028433620929718
+                },
+                {
+                    "topic": "psychological resilience",
+                    "similarity": 0.7948870062828064
+                }
+            ],
+            "Sustainable Construction Practices in Structural Engineering": [
+                {
+                    "topic": "sustainable construction",
+                    "similarity": 0.8294889181852341
+                },
+                {
+                    "topic": "sustainability in construction",
+                    "similarity": 0.8055598735809326
+                },
+                {
+                    "topic": "construction management and sustainability",
+                    "similarity": 0.7589719295501709
+                },
+                {
+                    "topic": "structural engineering",
+                    "similarity": 0.9999999999990902
+                }
+            ],
+            "Smart City Integration: IoT and Urban Connectivity": [],
+            "Bioclimatic Design for Energy-Efficient Buildings": [],
+            "Resilient Urban Infrastructure Planning and Design": [
+                {
+                    "topic": "design",
+                    "similarity": 0.9999999999988745
+                }
+            ],
+            "Digital Transformation in Engineering": [],
+            "The Role of Artificial Intelligence in Engineering Design": [
+                {
+                    "topic": "engineering design",
+                    "similarity": 0.9999999999992154
+                },
+                {
+                    "topic": "artificial intelligence",
+                    "similarity": 0.9999999999986667
+                },
+                {
+                    "topic": "artificial intelligences",
+                    "similarity": 0.7919561862945557
+                }
+            ],
+            "Machine Learning Applications in Predictive Maintenance": [
+                {
+                    "topic": "predictive maintenance",
+                    "similarity": 0.9999999999991843
+                }
+            ],
+            "Digital Twins for Real-Time Monitoring and Optimization": [
+                {
+                    "topic": "digital twin",
+                    "similarity": 0.8845631331205368
+                },
+                {
+                    "topic": "optimization",
+                    "similarity": 0.9999999999991538
+                },
+                {
+                    "topic": "real-time monitoring",
+                    "similarity": 0.9999999999992174
+                }
+            ],
+            "AI and Machine Learning for Structural and Material Optimization": [
+                {
+                    "topic": "multi-material optimization",
+                    "similarity": 0.7814125269651413
+                }
+            ],
+            "Big Data Analytics for Engineering Decision-Making": [
+                {
+                    "topic": "big data analytics",
+                    "similarity": 0.9999999999984699
+                }
+            ],
+            "Virtual and Augmented Reality in Engineering Training": [
+                {
+                    "topic": "augmented reality",
+                    "similarity": 0.9999999999985674
+                }
+            ],
+            "Transportation Engineering and Mobility Solutions": [],
+            "Future Trends in Autonomous Vehicles": [
+                {
+                    "topic": "autonomous vehicles",
+                    "similarity": 0.999999999998303
+                },
+                {
+                    "topic": "autonomous driving",
+                    "similarity": 0.8112554401159286
+                }
+            ],
+            "Sustainable Transportation Planning and Infrastructure": [
+                {
+                    "topic": "infrastructure",
+                    "similarity": 0.9999999999990371
+                },
+                {
+                    "topic": "sustainable transportation",
+                    "similarity": 0.7996096760034561
+                }
+            ],
+            "Smart Traffic Management Systems": [],
+            "Electric and Hybrid Vehicle Technologies": [
+                {
+                    "topic": "hybrid vehicles",
+                    "similarity": 0.8255251944065094
+                },
+                {
+                    "topic": "electric and hybrid vehicle technologies",
+                    "similarity": 0.7677114903926849
+                }
+            ],
+            "Public Transportation Innovations and Accessibility": [
+                {
+                    "topic": "accessibility",
+                    "similarity": 0.9999999999992336
+                },
+                {
+                    "topic": "accessibility studies",
+                    "similarity": 0.7709755301475525
+                }
+            ],
+            "Active Transportation and Pedestrian-Friendly Design": [],
+            "Climate Resilience and Adaptation Strategies": [
+                {
+                    "topic": "adaptation strategies",
+                    "similarity": 0.9999999999990242
+                },
+                {
+                    "topic": "climate resilience",
+                    "similarity": 0.9999999999992637
+                },
+                {
+                    "topic": "climate change resilience",
+                    "similarity": 0.9445465132594109
+                }
+            ],
+            "Urban Resilience Planning for Extreme Weather Events": [
+                {
+                    "topic": "urban resilience",
+                    "similarity": 0.7505182772874832
+                },
+                {
+                    "topic": "extreme weather events",
+                    "similarity": 0.9999999999993613
+                }
+            ],
+            "Green Infrastructure for Climate Adaptation": [
+                {
+                    "topic": "climate adaptation",
+                    "similarity": 0.9999999999991875
+                },
+                {
+                    "topic": "climate change adaptation",
+                    "similarity": 0.8930373340845108
+                }
+            ],
+            "Risk Assessment and Management for Climate Impact": [
+                {
+                    "topic": "risk assessment",
+                    "similarity": 0.999999999999004
+                }
+            ],
+            "Community Engagement in Climate Resilience Initiatives": [
+                {
+                    "topic": "community engagement",
+                    "similarity": 0.9999999999992832
+                },
+                {
+                    "topic": "climate resilience",
+                    "similarity": 0.8214710652828217
+                },
+                {
+                    "topic": "climate change resilience",
+                    "similarity": 0.7939198315143585
+                }
+            ],
+            "Policy Frameworks for Climate Adaptation": [
+                {
+                    "topic": "climate adaptation",
+                    "similarity": 0.9999999999991875
+                },
+                {
+                    "topic": "climate change adaptation",
+                    "similarity": 0.8930373340845108
+                }
+            ],
+            "Case Studies of Successful Climate Resilience Projects": [
+                {
+                    "topic": "case study",
+                    "similarity": 0.8494954407215118
+                }
+            ],
+            "Health and Safety in Engineering Practices": [
+                {
+                    "topic": "health",
+                    "similarity": 0.9999999999990551
+                }
+            ],
+            "Occupational Health and Safety Management Systems": [
+                {
+                    "topic": "occupational health",
+                    "similarity": 0.9999999999991241
+                },
+                {
+                    "topic": "occupational health and performance",
+                    "similarity": 0.7806836813688278
+                },
+                {
+                    "topic": "safety management systems",
+                    "similarity": 0.9999999999991581
+                },
+                {
+                    "topic": "safety management",
+                    "similarity": 0.845408171415329
+                }
+            ],
+            "Ergonomics and Human Factors in Engineering Design": [
+                {
+                    "topic": "human factors",
+                    "similarity": 0.9999999999988618
+                },
+                {
+                    "topic": "ergonomics",
+                    "similarity": 0.9999999999990774
+                },
+                {
+                    "topic": "ergonomics and human factors",
+                    "similarity": 0.7638816237449646
+                },
+                {
+                    "topic": "engineering design",
+                    "similarity": 0.9999999999992154
+                }
+            ],
+            "Risk Assessment and Mitigation Strategies": [
+                {
+                    "topic": "mitigation strategies",
+                    "similarity": 0.9999999999992544
+                },
+                {
+                    "topic": "mitigation measures",
+                    "similarity": 0.7852034717798233
+                },
+                {
+                    "topic": "risk assessment",
+                    "similarity": 0.999999999999004
+                }
+            ],
+            "Innovations in Personal Protective Equipment (PPE)": [
+                {
+                    "topic": "innovations",
+                    "similarity": 0.9999999999990922
+                },
+                {
+                    "topic": "personal protective equipment",
+                    "similarity": 0.9999999999993582
+                }
+            ],
+            "Mental Health Considerations in Engineering Workplaces": [],
+            "Emergency Response Planning and Crisis Management": [
+                {
+                    "topic": "crisis management",
+                    "similarity": 0.9999999999990923
+                }
+            ],
+            "Emerging Technologies in Construction": [],
+            "Robotics and Automation in Construction": [
+                {
+                    "topic": "robotics",
+                    "similarity": 0.9999999999987863
+                },
+                {
+                    "topic": "construction automation",
+                    "similarity": 0.91968734562397
+                },
+                {
+                    "topic": "building automation",
+                    "similarity": 0.7884110361337662
+                }
+            ],
+            "Prefabrication and Modular Construction Techniques": [
+                {
+                    "topic": "prefabrication",
+                    "similarity": 0.9999999999988258
+                }
+            ],
+            "Advances in Construction Materials": [],
+            "3D Printing Applications in Building Construction": [
+                {
+                    "topic": "3d printing",
+                    "similarity": 0.8610987067222595
+                },
+                {
+                    "topic": "building construction",
+                    "similarity": 0.9999999999994625
+                },
+                {
+                    "topic": "building and construction",
+                    "similarity": 0.8820105195045471
+                },
+                {
+                    "topic": "construction",
+                    "similarity": 0.7637536227703094
+                }
+            ],
+            "Drones for Site Surveying and Monitoring": [
+                {
+                    "topic": "monitoring",
+                    "similarity": 0.9999999999991263
+                }
+            ],
+            "Sustainable Practices in Construction Waste Management": [
+                {
+                    "topic": "construction waste management",
+                    "similarity": 0.9999999999991535
+                },
+                {
+                    "topic": "sustainability practices",
+                    "similarity": 0.8635508120059967
+                }
+            ],
+            "Circular Economy in Engineering": [],
+            "Design for Disassembly and End-of-Life Strategies": [],
+            "Life Cycle Assessment (LCA) in Engineering Projects": [
+                {
+                    "topic": "life cycle assessment",
+                    "similarity": 0.9999999999989736
+                }
+            ],
+            "Waste Minimization Techniques in Manufacturing": [
+                {
+                    "topic": "manufacturing",
+                    "similarity": 0.9999999999992464
+                }
+            ],
+            "Resource Recovery and Recycling Technologies": [
+                {
+                    "topic": "resource recovery",
+                    "similarity": 0.999999999999355
+                },
+                {
+                    "topic": "recycling",
+                    "similarity": 0.7934062480926514
+                }
+            ],
+            "Economic Implications of Circular Economy Practices": [
+                {
+                    "topic": "economic implications",
+                    "similarity": 0.999999999999281
+                },
+                {
+                    "topic": "economic consequences",
+                    "similarity": 0.8141733705997467
+                },
+                {
+                    "topic": "circular economy",
+                    "similarity": 0.8405876159667969
+                }
+            ],
+            "Policy and Regulatory Frameworks for Circular Economy": [
+                {
+                    "topic": "policy",
+                    "similarity": 0.999999999999041
+                },
+                {
+                    "topic": "policies",
+                    "similarity": 0.8393986821174622
+                },
+                {
+                    "topic": "circular economy",
+                    "similarity": 0.9999999999993716
+                },
+                {
+                    "topic": "regulatory framework",
+                    "similarity": 0.9343677461147308
+                }
+            ],
+            "Preservation and Conservation of Architectural Heritage": [],
+            "Digital Technologies for Heritage Conservation and Restoration": [
+                {
+                    "topic": "digital technologies",
+                    "similarity": 0.9999999999985544
+                },
+                {
+                    "topic": "digital technology",
+                    "similarity": 0.9327192008495331
+                },
+                {
+                    "topic": "heritage conservation",
+                    "similarity": 0.9999999999991495
+                }
+            ],
+            "Adaptive Reuse and Sustainable Restoration of Historic Buildings": [
+                {
+                    "topic": "historic buildings",
+                    "similarity": 0.9999999999993059
+                },
+                {
+                    "topic": "historical buildings",
+                    "similarity": 0.9347559735178947
+                },
+                {
+                    "topic": "adaptive reuse",
+                    "similarity": 0.9999999999991264
+                },
+                {
+                    "topic": "environmental restoration",
+                    "similarity": 0.84062360227108
+                }
+            ],
+            "Innovative Materials and Methods for Architectural Heritage Preservation": [],
+            "Community Engagement in the Preservation of Architectural Heritage": [
+                {
+                    "topic": "community engagement",
+                    "similarity": 0.9999999999992832
+                }
+            ],
+            "Conservation Ethics and Principles in Architectural Heritage Preservation": [],
+            "Case Studies in Successful Architectural Heritage Preservation Projects": [
+                {
+                    "topic": "case study",
+                    "similarity": 0.8494954407215118
+                }
+            ],
+            "Advancements in Renewable Materials": [],
+            "Biodegradable Materials for Construction and Packaging": [
+                {
+                    "topic": "packaging",
+                    "similarity": 0.9999999999991962
+                },
+                {
+                    "topic": "product packaging",
+                    "similarity": 0.8790766447782516
+                }
+            ],
+            "Innovations in Natural Fiber Reinforced Composites": [
+                {
+                    "topic": "natural fiber reinforced composites",
+                    "similarity": 0.9999999999990877
+                },
+                {
+                    "topic": "natural fiber reinforced polymer composites",
+                    "similarity": 0.9374195337295532
+                },
+                {
+                    "topic": "fiber-reinforced composites",
+                    "similarity": 0.7536819875240326
+                },
+                {
+                    "topic": "innovations",
+                    "similarity": 0.9999999999990922
+                }
+            ],
+            "Recycled Materials in Product Design": [
+                {
+                    "topic": "recycled materials",
+                    "similarity": 0.9999999999993435
+                },
+                {
+                    "topic": "product design",
+                    "similarity": 0.9999999999993339
+                }
+            ],
+            "Life Cycle Analysis of Renewable Materials": [
+                {
+                    "topic": "life cycle assessment",
+                    "similarity": 0.7611424028873444
+                },
+                {
+                    "topic": "cycle life modeling",
+                    "similarity": 0.7556646466255188
+                }
+            ],
+            "Performance Evaluation of Bio-based Materials": [
+                {
+                    "topic": "performance evaluation",
+                    "similarity": 0.9999999999993635
+                }
+            ],
+            "Market Trends and Future Directions for Renewable Materials": [],
+            "Artificial Intelligence and Machine Learning in Engineering": [
+                {
+                    "topic": "artificial intelligence",
+                    "similarity": 0.9999999999986667
+                },
+                {
+                    "topic": "artificial intelligences",
+                    "similarity": 0.7919561862945557
+                }
+            ],
+            "Predictive Analytics for Engineering Applications": [
+                {
+                    "topic": "predictive analytics",
+                    "similarity": 0.9999999999992157
+                }
+            ],
+            "AI-Driven Design Optimization Techniques": [],
+            "Natural Language Processing for Engineering Documentation": [
+                {
+                    "topic": "natural language processing",
+                    "similarity": 0.9999999999984178
+                },
+                {
+                    "topic": "natural language processing techniques",
+                    "similarity": 0.8000321686267853
+                }
+            ],
+            "Robotics Process Automation in Manufacturing": [
+                {
+                    "topic": "robotic process automation",
+                    "similarity": 0.9105057269334793
+                },
+                {
+                    "topic": "robotic process automation applications",
+                    "similarity": 0.8296180069446564
+                },
+                {
+                    "topic": "manufacturing",
+                    "similarity": 0.9999999999992464
+                }
+            ],
+            "AI in Infrastructure Asset Management": [],
+            "Ethical Considerations in AI Applications": [
+                {
+                    "topic": "ethical considerations",
+                    "similarity": 0.9999999999992027
+                }
+            ],
+            "Social Impact of Engineering": [],
+            "Community Development through Engineering Projects": [
+                {
+                    "topic": "community development",
+                    "similarity": 0.9999999999990081
+                }
+            ],
+            "Engineering Solutions for Global Challenges (e.g., poverty, health)": [
+                {
+                    "topic": "global challenges",
+                    "similarity": 0.9999999999989231
+                },
+                {
+                    "topic": "poverty",
+                    "similarity": 0.9999999999991623
+                }
+            ],
+            "The Role of Engineers in Sustainable Development Goals (SDGs)": [
+                {
+                    "topic": "sustainable development goals",
+                    "similarity": 0.999999999999213
+                },
+                {
+                    "topic": "engineers",
+                    "similarity": 0.9999999999991027
+                }
+            ],
+            "Enhancing Social Equity through Infrastructure Design": [
+                {
+                    "topic": "infrastructure design",
+                    "similarity": 0.9999999999993114
+                },
+                {
+                    "topic": "social equity",
+                    "similarity": 0.9999999999992383
+                }
+            ],
+            "Public Engagement in Engineering Projects": [
+                {
+                    "topic": "public engagement",
+                    "similarity": 0.9999999999993076
+                }
+            ],
+            "Educational Initiatives to Promote Engineering Careers": [],
+            "Geospatial Technologies and Engineering": [
+                {
+                    "topic": "geospatial technology",
+                    "similarity": 0.9566695801913738
+                },
+                {
+                    "topic": "geospatial applications",
+                    "similarity": 0.7536932080984116
+                },
+                {
+                    "topic": "engineering",
+                    "similarity": 0.9999999999988741
+                }
+            ],
+            "Geographic Information Systems (GIS) in Urban Planning": [
+                {
+                    "topic": "geographic information systems",
+                    "similarity": 0.9999999999991454
+                },
+                {
+                    "topic": "geographic information system",
+                    "similarity": 0.9149287790060043
+                },
+                {
+                    "topic": "geographic information systems studies",
+                    "similarity": 0.847945511341095
+                },
+                {
+                    "topic": "geographic information systems (gis)",
+                    "similarity": 0.844631090760231
+                },
+                {
+                    "topic": "urban planning",
+                    "similarity": 0.9999999999992482
+                },
+                {
+                    "topic": "city planning",
+                    "similarity": 0.8860956579446793
+                },
+                {
+                    "topic": "urban and spatial planning",
+                    "similarity": 0.7761227488517761
+                },
+                {
+                    "topic": "gis",
+                    "similarity": 0.9999999999991757
+                }
+            ],
+            "Remote Sensing for Environmental Monitoring": [
+                {
+                    "topic": "remote sensing",
+                    "similarity": 0.9999999999981944
+                },
+                {
+                    "topic": "remote sensing images",
+                    "similarity": 0.785915195941925
+                },
+                {
+                    "topic": "environmental monitoring",
+                    "similarity": 0.9999999999992072
+                }
+            ],
+            "Spatial Data Analysis for Infrastructure Development": [
+                {
+                    "topic": "spatial analysis",
+                    "similarity": 0.7965805232524872
+                },
+                {
+                    "topic": "infrastructure development",
+                    "similarity": 0.9999999999992228
+                }
+            ],
+            "3D Mapping Technologies and Applications": [
+                {
+                    "topic": "applications",
+                    "similarity": 0.9999999999993795
+                }
+            ],
+            "Location-Based Services and Smart Cities": [
+                {
+                    "topic": "smart cities",
+                    "similarity": 0.9999999999991404
+                },
+                {
+                    "topic": "smart city",
+                    "similarity": 0.8520668745040894
+                },
+                {
+                    "topic": "smart city technologies",
+                    "similarity": 0.7617323994636536
+                },
+                {
+                    "topic": "smart cities and technologies",
+                    "similarity": 0.7503164708614349
+                },
+                {
+                    "topic": "location-based services",
+                    "similarity": 0.9999999999994356
+                }
+            ],
+            "Geospatial Data Management and Ethical Considerations": [
+                {
+                    "topic": "ethical considerations",
+                    "similarity": 0.9999999999992027
+                }
+            ],
+            "Industrial Innovation and Smart Manufacturing": [
+                {
+                    "topic": "smart manufacturing",
+                    "similarity": 0.999999999999248
+                }
+            ],
+            "Industry 4.0: The Future of Manufacturing": [
+                {
+                    "topic": "manufacturing",
+                    "similarity": 0.9999999999992464
+                }
+            ],
+            "Smart Factories and Cyber-Physical Systems": [
+                {
+                    "topic": "cyber-physical systems",
+                    "similarity": 0.9999999999989684
+                },
+                {
+                    "topic": "cyber-physical system",
+                    "similarity": 0.8777838200330734
+                },
+                {
+                    "topic": "smart factory",
+                    "similarity": 0.7598878443241119
+                }
+            ],
+            "Additive Manufacturing (3D Printing) in Industry": [
+                {
+                    "topic": "3d printing",
+                    "similarity": 0.999999999999285
+                },
+                {
+                    "topic": "additive manufacturing",
+                    "similarity": 0.9999999999994121
+                },
+                {
+                    "topic": "additive manufacturing materials and processes",
+                    "similarity": 0.813133955001831
+                },
+                {
+                    "topic": "additive manufacturing and 3d printing technologies",
+                    "similarity": 0.750979945063591
+                }
+            ],
+            "Lean Manufacturing Techniques for Efficiency": [
+                {
+                    "topic": "efficiency",
+                    "similarity": 0.9999999999991044
+                },
+                {
+                    "topic": "efficiency enhancement",
+                    "similarity": 0.7631959021091461
+                },
+                {
+                    "topic": "lean manufacturing",
+                    "similarity": 0.8748459070920944
+                }
+            ],
+            "Supply Chain Digitalization and Optimization": [
+                {
+                    "topic": "optimization",
+                    "similarity": 0.9999999999991538
+                }
+            ],
+            "Sustainable Practices in Industrial Operations": [
+                {
+                    "topic": "sustainability practices",
+                    "similarity": 0.8635508120059967
+                }
+            ],
+            "Cybersecurity in Engineering Systems": [],
+            "Threat Modeling and Risk Assessment in Engineering": [],
+            "Secure Software Development Life Cycle (SDLC)": [],
+            "Cybersecurity Frameworks for Critical Infrastructure": [
+                {
+                    "topic": "critical infrastructure",
+                    "similarity": 0.9999999999993456
+                }
+            ],
+            "Incident Response and Recovery Planning": [
+                {
+                    "topic": "recovery strategies",
+                    "similarity": 0.7551044523715973
+                }
+            ],
+            "Training and Awareness for Cybersecurity Best Practices": [
+                {
+                    "topic": "training",
+                    "similarity": 0.9999999999994328
+                },
+                {
+                    "topic": "awareness",
+                    "similarity": 0.9999999999990143
+                }
+            ],
+            "Emerging Trends in Cyber Threats and Defense": [],
+            "Cultural Sustainability in Engineering": [],
+            "Integrating Cultural Heritage in Urban Development": [
+                {
+                    "topic": "cultural heritage",
+                    "similarity": 0.9999999999992877
+                },
+                {
+                    "topic": "heritage",
+                    "similarity": 0.7897024303674698
+                },
+                {
+                    "topic": "history and cultural heritage",
+                    "similarity": 0.7744364589452744
+                },
+                {
+                    "topic": "urban development",
+                    "similarity": 0.9999999999991311
+                },
+                {
+                    "topic": "city development",
+                    "similarity": 0.8148458302021027
+                },
+                {
+                    "topic": "integration",
+                    "similarity": 0.8450163304805756
+                }
+            ],
+            "Engineering Solutions for Cultural Preservation": [],
+            "Community Participation in Sustainable Design": [
+                {
+                    "topic": "sustainable design",
+                    "similarity": 0.9999999999992246
+                },
+                {
+                    "topic": "sustainable design and development",
+                    "similarity": 0.9020363017916679
+                },
+                {
+                    "topic": "community participation",
+                    "similarity": 0.9999999999994235
+                },
+                {
+                    "topic": "community involvement",
+                    "similarity": 0.7608020752668381
+                }
+            ],
+            "The Role of Arts in Engineering and Design": [
+                {
+                    "topic": "design",
+                    "similarity": 0.9999999999988745
+                },
+                {
+                    "topic": "engineering",
+                    "similarity": 0.9999999999988741
+                },
+                {
+                    "topic": "arts",
+                    "similarity": 0.999999999999384
+                }
+            ],
+            "Evaluating Cultural Impact in Engineering Projects": [
+                {
+                    "topic": "cultural impact",
+                    "similarity": 0.7866113483905792
+                }
+            ],
+            "Policies for Promoting Cultural Sustainability": [
+                {
+                    "topic": "policies",
+                    "similarity": 0.9999999999991415
+                },
+                {
+                    "topic": "policy",
+                    "similarity": 0.8393989205360413
+                },
+                {
+                    "topic": "government policies",
+                    "similarity": 0.7844392508268356
+                },
+                {
+                    "topic": "cultural sustainability",
+                    "similarity": 0.9999999999991004
+                }
+            ],
+            "Engineering Solutions for Sustainable Development Goals (SDGs)": [
+                {
+                    "topic": "sustainable development goals",
+                    "similarity": 0.999999999999213
+                }
+            ],
+            "Engineering Innovations for Clean Water and Sanitation": [
+                {
+                    "topic": "engineering and technology innovations",
+                    "similarity": 0.8797839432954788
+                }
+            ],
+            "Sustainable Energy Access for All": [],
+            "Building Resilient Infrastructure and Inclusive Cities": [
+                {
+                    "topic": "infrastructure resilience",
+                    "similarity": 0.8219610154628754
+                }
+            ],
+            "Climate Action through Engineering": [],
+            "Circular Economy and Responsible Consumption": [
+                {
+                    "topic": "circular economy",
+                    "similarity": 0.9999999999993716
+                }
+            ],
+            "Engineering Solutions for Zero Hunger and Sustainable Agriculture": [
+                {
+                    "topic": "sustainable agriculture",
+                    "similarity": 0.9999999999990119
+                },
+                {
+                    "topic": "sustainable farming",
+                    "similarity": 0.7977686822414398
+                },
+                {
+                    "topic": "agricultural sustainability",
+                    "similarity": 0.7937400043010712
+                }
+            ],
+            "Gender Equality and Inclusive Engineering Practices": [
+                {
+                    "topic": "gender equality",
+                    "similarity": 0.9999999999992144
+                }
+            ],
+            "Cross-Sectoral Approaches to Achieving the SDGs": [],
+            "Sustainable Economics and Policy for a Sustainable Society": [
+                {
+                    "topic": "policy",
+                    "similarity": 0.999999999999041
+                },
+                {
+                    "topic": "policies",
+                    "similarity": 0.8393986821174622
+                },
+                {
+                    "topic": "sustainability economics",
+                    "similarity": 0.8570991158485413
+                }
+            ],
+            "Environmental Policy and Sustainable Development": [
+                {
+                    "topic": "environmental policy",
+                    "similarity": 0.9999999999991901
+                },
+                {
+                    "topic": "environmental law and policy",
+                    "similarity": 0.7562812864780426
+                },
+                {
+                    "topic": "sustainable development",
+                    "similarity": 0.9999999999990795
+                },
+                {
+                    "topic": "sustainable development and policies",
+                    "similarity": 0.7940485626459122
+                }
+            ],
+            "ESG Finance: Opportunities, Challenges, and Greenwashing Risks": [
+                {
+                    "topic": "challenges",
+                    "similarity": 0.9999999999990571
+                }
+            ],
+            "Sustainable Aviation Fuels (SAF) and the Future of Green Tourism": [],
+            "Renewable Energy and its Social Dimensions: Gender, Health, and Equity": [
+                {
+                    "topic": "renewable energy",
+                    "similarity": 0.999999999999141
+                },
+                {
+                    "topic": "renewable energy and sustainability",
+                    "similarity": 0.761705756187439
+                },
+                {
+                    "topic": "health",
+                    "similarity": 0.9999999999990551
+                },
+                {
+                    "topic": "equity",
+                    "similarity": 0.9999999999992917
+                }
+            ],
+            "Socio-Economic Factors Shaping Climate Resilience": [],
+            "The Blue Economy: Innovations, Challenges, and Sustainable Growth": [
+                {
+                    "topic": "challenges",
+                    "similarity": 0.9999999999990571
+                },
+                {
+                    "topic": "sustainable growth rate",
+                    "similarity": 0.794876754283905
+                },
+                {
+                    "topic": "sustainable development and economic growth",
+                    "similarity": 0.7619190067052841
+                }
+            ],
+            "Sustainable Interior Design": [],
+            "Sustainable Materials in Interior Design": [
+                {
+                    "topic": "interior design",
+                    "similarity": 0.9999999999991969
+                },
+                {
+                    "topic": "sustainable materials",
+                    "similarity": 0.9999999999991269
+                }
+            ],
+            "Biophilic Design": [],
+            "Energy-Efficient Lighting and HVAC Systems": [],
+            "Smart and Connected Interior Spaces": [],
+            "Universal Design and Inclusivity": [],
+            "Sustainable Furniture and Product Design": [
+                {
+                    "topic": "product design",
+                    "similarity": 0.9999999999993339
+                }
+            ],
+            "Adaptive Reuse and Historic Preservation": [
+                {
+                    "topic": "adaptive reuse",
+                    "similarity": 0.9999999999991264
+                },
+                {
+                    "topic": "historical preservation",
+                    "similarity": 0.8844106569886208
+                }
+            ],
+            "Biodegradable and Compostable Interiors": [
+                {
+                    "topic": "biodegradable",
+                    "similarity": 0.999999999999193
+                },
+                {
+                    "topic": "biodegradability",
+                    "similarity": 0.8948739469051361
+                },
+                {
+                    "topic": "biodegradable materials",
+                    "similarity": 0.838814377784729
+                },
+                {
+                    "topic": "biodegradation",
+                    "similarity": 0.7769870460033417
+                }
+            ],
+            "IEQ, Occupant Health and Well-being": [
+                {
+                    "topic": "well-being",
+                    "similarity": 0.9999999999985149
+                }
+            ],
+            "Lighting & Acoustics in Design and Construction": [
+                {
+                    "topic": "construction",
+                    "similarity": 0.9999999999989418
+                },
+                {
+                    "topic": "building construction",
+                    "similarity": 0.7637532502412796
+                },
+                {
+                    "topic": "design",
+                    "similarity": 0.9999999999988745
+                }
+            ],
+            "Electrical and Mechanical Engineering & Advanced Fabrication": [
+                {
+                    "topic": "mechanical engineering",
+                    "similarity": 0.9999999999991016
+                }
+            ],
+            "Additive Manufacturing (3D Printing) and CNC Machining": [
+                {
+                    "topic": "cnc machining",
+                    "similarity": 0.999999999999365
+                },
+                {
+                    "topic": "additive manufacturing and 3d printing technologies",
+                    "similarity": 0.91883285343647
+                },
+                {
+                    "topic": "additive manufacturing",
+                    "similarity": 0.8298958539962769
+                }
+            ],
+            "Advanced Machining Processes and Precision Engineering": [
+                {
+                    "topic": "advanced machining processes and optimization",
+                    "similarity": 0.8441403061151505
+                }
+            ],
+            "Micro- and Nanostructure Fabrication for Components": [],
+            "Sustainable Materials and Manufacturing Processes": [
+                {
+                    "topic": "manufacturing processes",
+                    "similarity": 0.9999999999994105
+                },
+                {
+                    "topic": "sustainable materials",
+                    "similarity": 0.9999999999991269
+                }
+            ],
+            "Automation, Robotics, and Intelligent Control Systems": [
+                {
+                    "topic": "automation",
+                    "similarity": 0.9999999999992187
+                },
+                {
+                    "topic": "robotics",
+                    "similarity": 0.9999999999987863
+                }
+            ],
+            "Power Systems and Renewable Energy Integration": [
+                {
+                    "topic": "renewable energy integration",
+                    "similarity": 0.9999999999991193
+                },
+                {
+                    "topic": "power systems",
+                    "similarity": 0.9999999999991563
+                },
+                {
+                    "topic": "power system",
+                    "similarity": 0.854336753487587
+                }
+            ],
+            "Advanced Materials Engineering and Nanotechnology": [
+                {
+                    "topic": "nanotechnology",
+                    "similarity": 0.9999999999990529
+                },
+                {
+                    "topic": "nanotechnologies",
+                    "similarity": 0.7841750383377075
+                }
+            ],
+            "Composite Materials Fabrication and Characterization": [
+                {
+                    "topic": "characterization",
+                    "similarity": 0.9999999999988841
+                }
+            ],
+            "Aerospace Engineering & Technology": [
+                {
+                    "topic": "aerospace engineering",
+                    "similarity": 0.8668273389339447
+                },
+                {
+                    "topic": "aerospace and aviation technology",
+                    "similarity": 0.7717494368553162
+                },
+                {
+                    "topic": "aerospace industry",
+                    "similarity": 0.7567329853773117
+                }
+            ],
+            "Industrial Engineering & Process Optimization": [],
+            "Biomedical & Biotechnology Engineering": [
+                {
+                    "topic": "biomedical engineering",
+                    "similarity": 0.7953893095254898
+                }
+            ],
+            "Fluids & Thermal Engineering": [],
+            "Chemical Engineering and Chemistry of Materials": [
+                {
+                    "topic": "materials chemistry",
+                    "similarity": 0.9079758524894714
+                },
+                {
+                    "topic": "chemical engineering",
+                    "similarity": 0.9999999999990645
+                },
+                {
+                    "topic": "chemistry and chemical engineering",
+                    "similarity": 0.8645871579647064
+                }
+            ],
+            "Advanced Polymers and Functional Materials": [
+                {
+                    "topic": "functional materials",
+                    "similarity": 0.9999999999993191
+                }
+            ],
+            "Nanomaterials Synthesis, Characterization, and Applications": [
+                {
+                    "topic": "nanomaterials synthesis",
+                    "similarity": 0.9999999999992008
+                },
+                {
+                    "topic": "nanomaterial synthesis",
+                    "similarity": 0.9640346691012383
+                },
+                {
+                    "topic": "characterization",
+                    "similarity": 0.9999999999988841
+                },
+                {
+                    "topic": "applications",
+                    "similarity": 0.9999999999993795
+                }
+            ],
+            "Catalysis, Reaction Engineering, and Green Chemical Processes": [
+                {
+                    "topic": "catalysis",
+                    "similarity": 0.9999999999991231
+                },
+                {
+                    "topic": "catalyzed",
+                    "similarity": 0.781850591301918
+                },
+                {
+                    "topic": "molecular catalysis",
+                    "similarity": 0.772626593708992
+                },
+                {
+                    "topic": "catalyzed reactions",
+                    "similarity": 0.7710741311311722
+                }
+            ],
+            "Corrosion, Surface Chemistry, and Protective Coatings": [
+                {
+                    "topic": "corrosion",
+                    "similarity": 0.999999999999346
+                },
+                {
+                    "topic": "metal corrosion",
+                    "similarity": 0.7890612334012985
+                },
+                {
+                    "topic": "corrosion behavior",
+                    "similarity": 0.7562688589096069
+                },
+                {
+                    "topic": "surface chemistry",
+                    "similarity": 0.9999999999990519
+                }
+            ],
+            "Sustainable and Eco-Friendly Material Development": [
+                {
+                    "topic": "sustainability",
+                    "similarity": 0.8425894975662231
+                },
+                {
+                    "topic": "sustainable living",
+                    "similarity": 0.7833144068717957
+                }
+            ],
+            "Advanced Alloys and Composite Materials Chemistry": [],
+            "Materials for Electrochemical Energy Storage": [
+                {
+                    "topic": "materials",
+                    "similarity": 0.9999999999992223
+                }
+            ],
+            "Bio-inspired and Biomaterials Chemistry": [],
+            "Materials for Environmental Applications (Adsorbents, Catalytic Remediation)": [
+                {
+                    "topic": "environmental applications",
+                    "similarity": 0.9999999999989821
+                }
+            ],
+            "Smart and Responsive Materials for Industrial and Technological Applications": []
+        },
+        "preferred_threshold": 0.75
+    }
+}

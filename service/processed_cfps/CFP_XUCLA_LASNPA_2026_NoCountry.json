@@ -1,0 +1,145 @@
+{
+    "llm-output": {
+        "event_name": "Latin American Symposium on Nuclear Physics and Applications",
+        "conference_series": "Latin American Symposium on Nuclear Physics and Applications",
+        "event_acronym": "LASNPA",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "S\u00e3o Paulo, Brazil",
+        "topics": [
+            "Nuclear Structure and Reactions",
+            "Nuclear Astrophysics",
+            "Neutrons and Fundamental Symmetries",
+            "QCD and Hadron Physics",
+            "Relativistic Heavy Ions",
+            "Nuclear Physics in Medicine and Biology",
+            "Nuclear Instrumentation, Facilities, and Applications"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Roberto Linares",
+                "organiser_affiliation": "Universidade Federal Fluminense",
+                "organiser_country": "Brazil",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "R. Linares",
+                "openalex_page": "https://openalex.org/A5056726408",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/02rjhbb08"
+            },
+            {
+                "organiser_name": "Nilberto H. Medina",
+                "organiser_affiliation": "Universidade de S\u00e3o Paulo",
+                "organiser_country": "Brazil",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "N. H. Medina",
+                "openalex_page": "https://openalex.org/A5014016978",
+                "orcid": "https://orcid.org/0000-0003-0650-6507",
+                "affiliation_ror": "https://ror.org/036rp1748"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "Latin American Symposium on Nuclear Physics and Applications",
+        "event_acronym": "LASNPA",
+        "conference_series": "Latin American Symposium on Nuclear Physics and Applications",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "S\u00e3o Paulo, Brazil",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Roberto Linares",
+                "organiser_affiliation": "Universidade Federal Fluminense",
+                "organiser_country": "Brazil",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "R. Linares",
+                "openalex_page": "https://openalex.org/A5056726408",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/02rjhbb08"
+            },
+            {
+                "organiser_name": "Nilberto H. Medina",
+                "organiser_affiliation": "Universidade de S\u00e3o Paulo",
+                "organiser_country": "Brazil",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "N. H. Medina",
+                "openalex_page": "https://openalex.org/A5014016978",
+                "orcid": "https://orcid.org/0000-0003-0650-6507",
+                "affiliation_ror": "https://ror.org/036rp1748"
+            }
+        ],
+        "topics": [
+            "Nuclear Structure and Reactions",
+            "Nuclear Astrophysics",
+            "Neutrons and Fundamental Symmetries",
+            "QCD and Hadron Physics",
+            "Relativistic Heavy Ions",
+            "Nuclear Physics in Medicine and Biology",
+            "Nuclear Instrumentation, Facilities, and Applications"
+        ],
+        "enhanced_topics": {
+            "Nuclear Structure and Reactions": [
+                {
+                    "topic": "chemical reactions",
+                    "similarity": 0.8166157752275467
+                },
+                {
+                    "topic": "reaction mechanism",
+                    "similarity": 0.6032800674438477
+                },
+                {
+                    "topic": "nuclear structure",
+                    "similarity": 0.9999999999994552
+                },
+                {
+                    "topic": "nuclear structure and function",
+                    "similarity": 0.7309552729129791
+                },
+                {
+                    "topic": "theoretical and experimental nuclear structure",
+                    "similarity": 0.7117350101470947
+                }
+            ],
+            "Nuclear Astrophysics": [],
+            "Neutrons and Fundamental Symmetries": [],
+            "QCD and Hadron Physics": [
+                {
+                    "topic": "qcd",
+                    "similarity": 0.9999999999990752
+                }
+            ],
+            "Relativistic Heavy Ions": [],
+            "Nuclear Physics in Medicine and Biology": [
+                {
+                    "topic": "nuclear medicine",
+                    "similarity": 0.6547524333000183
+                },
+                {
+                    "topic": "biology",
+                    "similarity": 0.9999999999991536
+                }
+            ],
+            "Nuclear Instrumentation, Facilities, and Applications": [
+                {
+                    "topic": "facilities management",
+                    "similarity": 0.6519293189048767
+                },
+                {
+                    "topic": "applications",
+                    "similarity": 0.9999999999993826
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    }
+}

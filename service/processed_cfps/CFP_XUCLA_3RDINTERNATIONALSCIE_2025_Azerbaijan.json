@@ -1,0 +1,1308 @@
+{
+    "llm-output": {
+        "event_name": "3rd International Scientific-Practical Conference 'Machine-Building and Energy: New Concepts and Technologies'",
+        "conference_series": "Machine-Building and Energy Conference Series",
+        "event_acronym": "MBE2024",
+        "colocated_with": "",
+        "year": "2024",
+        "location": "Azerbaijan Technical University, Baku, Azerbaijan",
+        "topics": [
+            "Machine-Building",
+            "Energy Technologies",
+            "Mechatronics",
+            "Special Materials and Tools",
+            "Electrical Engineering",
+            "Automation and Management"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Fariz Mammadov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Vice-rector for international relations, Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Fariz Mammadov",
+                "openalex_page": "https://openalex.org/A5042581060",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Anar Eminov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Scientific Secretary, Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Anar Eminov",
+                "openalex_page": "https://openalex.org/A5040035303",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/00g1psz15"
+            },
+            {
+                "organiser_name": "Bakhtiyar Badalov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Scientific Secretary, Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Bakhtiyar Badalov",
+                "openalex_page": "https://openalex.org/A5135853076",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/04v2j2k71"
+            },
+            {
+                "organiser_name": "Arastun Mammadov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Arastun Mammadov",
+                "openalex_page": "https://openalex.org/A5077453949",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Malik Qarayev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Hikmat Aliyev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ali Hikmat Aliyev",
+                "openalex_page": "https://openalex.org/A5139276001",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/05fd1hd85"
+            },
+            {
+                "organiser_name": "Vahid Farhadov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Vahid Farhadov",
+                "openalex_page": "https://openalex.org/A5016427958",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Valeh Bakhshali",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Valeh Bakhshaliev",
+                "openalex_page": "https://openalex.org/A5066973025",
+                "orcid": "https://orcid.org/0000-0001-9443-5440",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Alakbar Huseynov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Alakbar Huseynov",
+                "openalex_page": "https://openalex.org/A5055830151",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Vaqif Abbasov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Vaqif Abbasov",
+                "openalex_page": "https://openalex.org/A5041262124",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Fariz Amirov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "F.G. Amirov",
+                "openalex_page": "https://openalex.org/A5010356184",
+                "orcid": "https://orcid.org/0009-0006-5838-6315",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Rasim Bashirov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Rasim Bashirov",
+                "openalex_page": "https://openalex.org/A5108953177",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Iftikhar Chalabi",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Iftikhar Chalabi",
+                "openalex_page": "https://openalex.org/A5075363409",
+                "orcid": "https://orcid.org/0000-0003-2289-7931",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Aqil Babayev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Agil Babayev",
+                "openalex_page": "https://openalex.org/A5104271690",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Sergey Boqatenkov",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Natalya Sazonova",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Natalya Sazonova",
+                "openalex_page": "https://openalex.org/A5073120471",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/02jmvh098"
+            },
+            {
+                "organiser_name": "\u0130qor Savin",
+                "organiser_affiliation": "Kazan Technical University",
+                "organiser_country": "Russia",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Danil Pimenov",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Danil Yurievich Pimenov",
+                "openalex_page": "https://openalex.org/A5066570575",
+                "orcid": "https://orcid.org/0000-0002-5568-8928",
+                "affiliation_ror": "https://ror.org/03sfk2504"
+            },
+            {
+                "organiser_name": "\u0130saq Khankishiyev",
+                "organiser_affiliation": "Azerbaijan State Marine Academy",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Rezo Aliyev",
+                "organiser_affiliation": "Freiberg Mining Academy",
+                "organiser_country": "Germany",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Rezo Aliyev",
+                "openalex_page": "https://openalex.org/A5083562744",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/031vc2293"
+            },
+            {
+                "organiser_name": "\u0130hsan Korkut",
+                "organiser_affiliation": "Gazi University",
+                "organiser_country": "T\u00fcrkiye",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "\u0130hsan Korkut",
+                "openalex_page": "https://openalex.org/A5070242746",
+                "orcid": "https://orcid.org/0000-0002-5001-4449",
+                "affiliation_ror": "https://ror.org/054xkpr46"
+            },
+            {
+                "organiser_name": "Huseyn K\u0131z\u0131l",
+                "organiser_affiliation": "Istanbul Technical University",
+                "organiser_country": "T\u00fcrkiye",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Yusif Hasanov",
+                "organiser_affiliation": "Azerbaijan State Marine Academy",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yusif HASANOV",
+                "openalex_page": "https://openalex.org/A5094075907",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01znwv148"
+            },
+            {
+                "organiser_name": "Karel Frana",
+                "organiser_affiliation": "Zittau/G\u00f6rlitz University of Applied Sciences",
+                "organiser_country": "Germany",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Karel Fra\u0148a",
+                "openalex_page": "https://openalex.org/A5056511290",
+                "orcid": "https://orcid.org/0000-0002-2319-7833",
+                "affiliation_ror": "https://ror.org/056tzgr32"
+            },
+            {
+                "organiser_name": "Ralf Ossenbrink",
+                "organiser_affiliation": "Brandenburg Technical University Cottbus-Zenftenberg",
+                "organiser_country": "Germany",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ralf Ossenbrink",
+                "openalex_page": "https://openalex.org/A5020089820",
+                "orcid": "https://orcid.org/0000-0002-5211-6473",
+                "affiliation_ror": "https://ror.org/02wxx3e24"
+            },
+            {
+                "organiser_name": "Ilqar Abbasov",
+                "organiser_affiliation": "Brandenburg Technical University Cottbus-Zenftenberg",
+                "organiser_country": "Germany",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Nizami Yusubov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Conference Executive Secretary",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Nizami Yusubov",
+                "openalex_page": "https://openalex.org/A5085383142",
+                "orcid": "https://orcid.org/0000-0002-6009-9909",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Nurali Yusifbayli",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Nurali Yusifbayli",
+                "openalex_page": "https://openalex.org/A5076944735",
+                "orcid": "https://orcid.org/0000-0001-7948-4682",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Subhan Namazov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Subhan Namazov",
+                "openalex_page": "https://openalex.org/A5041356414",
+                "orcid": "https://orcid.org/0009-0002-6884-0842",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Fikrat Aliyev",
+                "organiser_affiliation": "Institute of Applied Mathematics of BSU",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Fikrat Aliyev",
+                "openalex_page": "https://openalex.org/A5071971041",
+                "orcid": "https://orcid.org/0000-0001-6803-5443",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Arif Hashimov",
+                "organiser_affiliation": "Physics Institute",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "\u0410. \u041c. Hashimov",
+                "openalex_page": "https://openalex.org/A5045806287",
+                "orcid": "https://orcid.org/0009-0003-8984-7581",
+                "affiliation_ror": "https://ror.org/013rnrt24"
+            },
+            {
+                "organiser_name": "Vaqif Movlazad\u0259",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Nariman Rasulov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Nariman Rasulov",
+                "openalex_page": "https://openalex.org/A5045241185",
+                "orcid": "https://orcid.org/0000-0003-0114-8819",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Hasan Huseynov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Huseynov Hasan",
+                "openalex_page": "https://openalex.org/A5080173200",
+                "orcid": "https://orcid.org/0000-0002-2030-0428",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Nizami Yusubov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Nizami Yusubov",
+                "openalex_page": "https://openalex.org/A5085383142",
+                "orcid": "https://orcid.org/0000-0002-6009-9909",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Isa Khalilov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "A. I. Khalilov",
+                "openalex_page": "https://openalex.org/A5085025315",
+                "orcid": "https://orcid.org/0009-0004-9679-362X",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Yashar Musayev",
+                "organiser_affiliation": "Siemens Energy",
+                "organiser_country": "Germany",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yashar Musayev",
+                "openalex_page": "https://openalex.org/A5070432778",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/05dbapj97"
+            },
+            {
+                "organiser_name": "Aleksandr Dyakonov",
+                "organiser_affiliation": "Almetyevsk State Oil Institute",
+                "organiser_country": "Russia",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "A. A. D\u2019yakonov",
+                "openalex_page": "https://openalex.org/A5003259760",
+                "orcid": "https://orcid.org/0000-0001-8384-6359",
+                "affiliation_ror": "https://ror.org/00g1je163"
+            },
+            {
+                "organiser_name": "Viktor Guzeev",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Viktor I. Guzeev",
+                "openalex_page": "https://openalex.org/A5109407748",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/03sfk2504"
+            },
+            {
+                "organiser_name": "Dmitriy Arda\u015fev",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Peter Biegel",
+                "organiser_affiliation": "Brandenburg Technical University Cottbus-Zenftenberg",
+                "organiser_country": "Germany",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Peter Biegel",
+                "openalex_page": "https://openalex.org/A5013899863",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Tassilo-Maria Schimmelpfennig",
+                "organiser_affiliation": "University of Wismar /University of Applied Sciences",
+                "organiser_country": "Germany",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tassilo-Maria Schimmelpfennig",
+                "openalex_page": "https://openalex.org/A5066997760",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/00s1ckt27"
+            },
+            {
+                "organiser_name": "Mustafa Guden",
+                "organiser_affiliation": "\u0130zmir Institute of Technology",
+                "organiser_country": "T\u00fcrkiye",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Mustafa G\u00fcden",
+                "openalex_page": "https://openalex.org/A5067050528",
+                "orcid": "https://orcid.org/0000-0001-6397-8418",
+                "affiliation_ror": "https://ror.org/03stptj97"
+            },
+            {
+                "organiser_name": "Suleyman Tekeli",
+                "organiser_affiliation": "Gazi University",
+                "organiser_country": "T\u00fcrkiye",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "S\u00fcleyman Tekeli",
+                "openalex_page": "https://openalex.org/A5062224096",
+                "orcid": "https://orcid.org/0000-0001-9826-6875",
+                "affiliation_ror": "https://ror.org/054xkpr46"
+            },
+            {
+                "organiser_name": "Pavel Ilyushin",
+                "organiser_affiliation": "Russian Academy of Sciences Institute of Energy Research",
+                "organiser_country": "Russia",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Pavel Ilyushin",
+                "openalex_page": "https://openalex.org/A5030567068",
+                "orcid": "https://orcid.org/0000-0002-5183-3040",
+                "affiliation_ror": "https://ror.org/05qrfxd25"
+            },
+            {
+                "organiser_name": "Dauren Akhmetbaev",
+                "organiser_affiliation": "Saken Seifullin Kazakh Agrotechnical University",
+                "organiser_country": "Kazakhstan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Dauren Akhmetbaev",
+                "openalex_page": "https://openalex.org/A5024469306",
+                "orcid": "https://orcid.org/0000-0002-0074-3803",
+                "affiliation_ror": "https://ror.org/024etxn40"
+            },
+            {
+                "organiser_name": "Andrey Ershov",
+                "organiser_affiliation": "REA St. Petersburg Institute of Macromolecular Compounds",
+                "organiser_country": "Russia",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "\u0410. \u041d. \u0415\u0440\u0448\u043e\u0432",
+                "openalex_page": "https://openalex.org/A5024924838",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Abdullah Avey",
+                "organiser_affiliation": "Suleyman Demirel University",
+                "organiser_country": "T\u00fcrkiye",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Abdullah Avey",
+                "openalex_page": "https://openalex.org/A5011260237",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/02s8x5a25"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "3rd International Scientific-Practical Conference 'Machine-Building and Energy: New Concepts and Technologies'",
+        "event_acronym": "MBE2024",
+        "conference_series": "Machine-Building and Energy Conference Series",
+        "colocated_with": "",
+        "year": "2024",
+        "location": "Azerbaijan Technical University, Baku, Azerbaijan",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Fariz Mammadov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Vice-rector for international relations, Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Fariz Mammadov",
+                "openalex_page": "https://openalex.org/A5042581060",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Anar Eminov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Scientific Secretary, Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Anar Eminov",
+                "openalex_page": "https://openalex.org/A5040035303",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/00g1psz15"
+            },
+            {
+                "organiser_name": "Bakhtiyar Badalov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Scientific Secretary, Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Bakhtiyar Badalov",
+                "openalex_page": "https://openalex.org/A5135853076",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/04v2j2k71"
+            },
+            {
+                "organiser_name": "Arastun Mammadov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Arastun Mammadov",
+                "openalex_page": "https://openalex.org/A5077453949",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Malik Qarayev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Hikmat Aliyev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ali Hikmat Aliyev",
+                "openalex_page": "https://openalex.org/A5139276001",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/05fd1hd85"
+            },
+            {
+                "organiser_name": "Vahid Farhadov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Vahid Farhadov",
+                "openalex_page": "https://openalex.org/A5016427958",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Valeh Bakhshali",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Valeh Bakhshaliev",
+                "openalex_page": "https://openalex.org/A5066973025",
+                "orcid": "https://orcid.org/0000-0001-9443-5440",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Alakbar Huseynov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Alakbar Huseynov",
+                "openalex_page": "https://openalex.org/A5055830151",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Vaqif Abbasov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Vaqif Abbasov",
+                "openalex_page": "https://openalex.org/A5041262124",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Fariz Amirov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "F.G. Amirov",
+                "openalex_page": "https://openalex.org/A5010356184",
+                "orcid": "https://orcid.org/0009-0006-5838-6315",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Rasim Bashirov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Rasim Bashirov",
+                "openalex_page": "https://openalex.org/A5108953177",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Iftikhar Chalabi",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Iftikhar Chalabi",
+                "openalex_page": "https://openalex.org/A5075363409",
+                "orcid": "https://orcid.org/0000-0003-2289-7931",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Aqil Babayev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Agil Babayev",
+                "openalex_page": "https://openalex.org/A5104271690",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Sergey Boqatenkov",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Natalya Sazonova",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Natalya Sazonova",
+                "openalex_page": "https://openalex.org/A5073120471",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/02jmvh098"
+            },
+            {
+                "organiser_name": "\u0130qor Savin",
+                "organiser_affiliation": "Kazan Technical University",
+                "organiser_country": "Russia",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Danil Pimenov",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Danil Yurievich Pimenov",
+                "openalex_page": "https://openalex.org/A5066570575",
+                "orcid": "https://orcid.org/0000-0002-5568-8928",
+                "affiliation_ror": "https://ror.org/03sfk2504"
+            },
+            {
+                "organiser_name": "\u0130saq Khankishiyev",
+                "organiser_affiliation": "Azerbaijan State Marine Academy",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Rezo Aliyev",
+                "organiser_affiliation": "Freiberg Mining Academy",
+                "organiser_country": "Germany",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Rezo Aliyev",
+                "openalex_page": "https://openalex.org/A5083562744",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/031vc2293"
+            },
+            {
+                "organiser_name": "\u0130hsan Korkut",
+                "organiser_affiliation": "Gazi University",
+                "organiser_country": "T\u00fcrkiye",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "\u0130hsan Korkut",
+                "openalex_page": "https://openalex.org/A5070242746",
+                "orcid": "https://orcid.org/0000-0002-5001-4449",
+                "affiliation_ror": "https://ror.org/054xkpr46"
+            },
+            {
+                "organiser_name": "Huseyn K\u0131z\u0131l",
+                "organiser_affiliation": "Istanbul Technical University",
+                "organiser_country": "T\u00fcrkiye",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Yusif Hasanov",
+                "organiser_affiliation": "Azerbaijan State Marine Academy",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yusif HASANOV",
+                "openalex_page": "https://openalex.org/A5094075907",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01znwv148"
+            },
+            {
+                "organiser_name": "Karel Frana",
+                "organiser_affiliation": "Zittau/G\u00f6rlitz University of Applied Sciences",
+                "organiser_country": "Germany",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Karel Fra\u0148a",
+                "openalex_page": "https://openalex.org/A5056511290",
+                "orcid": "https://orcid.org/0000-0002-2319-7833",
+                "affiliation_ror": "https://ror.org/056tzgr32"
+            },
+            {
+                "organiser_name": "Ralf Ossenbrink",
+                "organiser_affiliation": "Brandenburg Technical University Cottbus-Zenftenberg",
+                "organiser_country": "Germany",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ralf Ossenbrink",
+                "openalex_page": "https://openalex.org/A5020089820",
+                "orcid": "https://orcid.org/0000-0002-5211-6473",
+                "affiliation_ror": "https://ror.org/02wxx3e24"
+            },
+            {
+                "organiser_name": "Ilqar Abbasov",
+                "organiser_affiliation": "Brandenburg Technical University Cottbus-Zenftenberg",
+                "organiser_country": "Germany",
+                "track_name": "Organising Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Nizami Yusubov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Conference Executive Secretary",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Nizami Yusubov",
+                "openalex_page": "https://openalex.org/A5085383142",
+                "orcid": "https://orcid.org/0000-0002-6009-9909",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Nurali Yusifbayli",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Nurali Yusifbayli",
+                "openalex_page": "https://openalex.org/A5076944735",
+                "orcid": "https://orcid.org/0000-0001-7948-4682",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Subhan Namazov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Subhan Namazov",
+                "openalex_page": "https://openalex.org/A5041356414",
+                "orcid": "https://orcid.org/0009-0002-6884-0842",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Fikrat Aliyev",
+                "organiser_affiliation": "Institute of Applied Mathematics of BSU",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Fikrat Aliyev",
+                "openalex_page": "https://openalex.org/A5071971041",
+                "orcid": "https://orcid.org/0000-0001-6803-5443",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Arif Hashimov",
+                "organiser_affiliation": "Physics Institute",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "\u0410. \u041c. Hashimov",
+                "openalex_page": "https://openalex.org/A5045806287",
+                "orcid": "https://orcid.org/0009-0003-8984-7581",
+                "affiliation_ror": "https://ror.org/013rnrt24"
+            },
+            {
+                "organiser_name": "Vaqif Movlazad\u0259",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Nariman Rasulov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Nariman Rasulov",
+                "openalex_page": "https://openalex.org/A5045241185",
+                "orcid": "https://orcid.org/0000-0003-0114-8819",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Hasan Huseynov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Huseynov Hasan",
+                "openalex_page": "https://openalex.org/A5080173200",
+                "orcid": "https://orcid.org/0000-0002-2030-0428",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Nizami Yusubov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Nizami Yusubov",
+                "openalex_page": "https://openalex.org/A5085383142",
+                "orcid": "https://orcid.org/0000-0002-6009-9909",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Isa Khalilov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "A. I. Khalilov",
+                "openalex_page": "https://openalex.org/A5085025315",
+                "orcid": "https://orcid.org/0009-0004-9679-362X",
+                "affiliation_ror": "https://ror.org/01qe1a488"
+            },
+            {
+                "organiser_name": "Yashar Musayev",
+                "organiser_affiliation": "Siemens Energy",
+                "organiser_country": "Germany",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yashar Musayev",
+                "openalex_page": "https://openalex.org/A5070432778",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/05dbapj97"
+            },
+            {
+                "organiser_name": "Aleksandr Dyakonov",
+                "organiser_affiliation": "Almetyevsk State Oil Institute",
+                "organiser_country": "Russia",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "A. A. D\u2019yakonov",
+                "openalex_page": "https://openalex.org/A5003259760",
+                "orcid": "https://orcid.org/0000-0001-8384-6359",
+                "affiliation_ror": "https://ror.org/00g1je163"
+            },
+            {
+                "organiser_name": "Viktor Guzeev",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Viktor I. Guzeev",
+                "openalex_page": "https://openalex.org/A5109407748",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/03sfk2504"
+            },
+            {
+                "organiser_name": "Dmitriy Arda\u015fev",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Peter Biegel",
+                "organiser_affiliation": "Brandenburg Technical University Cottbus-Zenftenberg",
+                "organiser_country": "Germany",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Peter Biegel",
+                "openalex_page": "https://openalex.org/A5013899863",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Tassilo-Maria Schimmelpfennig",
+                "organiser_affiliation": "University of Wismar /University of Applied Sciences",
+                "organiser_country": "Germany",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tassilo-Maria Schimmelpfennig",
+                "openalex_page": "https://openalex.org/A5066997760",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/00s1ckt27"
+            },
+            {
+                "organiser_name": "Mustafa Guden",
+                "organiser_affiliation": "\u0130zmir Institute of Technology",
+                "organiser_country": "T\u00fcrkiye",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Mustafa G\u00fcden",
+                "openalex_page": "https://openalex.org/A5067050528",
+                "orcid": "https://orcid.org/0000-0001-6397-8418",
+                "affiliation_ror": "https://ror.org/03stptj97"
+            },
+            {
+                "organiser_name": "Suleyman Tekeli",
+                "organiser_affiliation": "Gazi University",
+                "organiser_country": "T\u00fcrkiye",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "S\u00fcleyman Tekeli",
+                "openalex_page": "https://openalex.org/A5062224096",
+                "orcid": "https://orcid.org/0000-0001-9826-6875",
+                "affiliation_ror": "https://ror.org/054xkpr46"
+            },
+            {
+                "organiser_name": "Pavel Ilyushin",
+                "organiser_affiliation": "Russian Academy of Sciences Institute of Energy Research",
+                "organiser_country": "Russia",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Pavel Ilyushin",
+                "openalex_page": "https://openalex.org/A5030567068",
+                "orcid": "https://orcid.org/0000-0002-5183-3040",
+                "affiliation_ror": "https://ror.org/05qrfxd25"
+            },
+            {
+                "organiser_name": "Dauren Akhmetbaev",
+                "organiser_affiliation": "Saken Seifullin Kazakh Agrotechnical University",
+                "organiser_country": "Kazakhstan",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Dauren Akhmetbaev",
+                "openalex_page": "https://openalex.org/A5024469306",
+                "orcid": "https://orcid.org/0000-0002-0074-3803",
+                "affiliation_ror": "https://ror.org/024etxn40"
+            },
+            {
+                "organiser_name": "Andrey Ershov",
+                "organiser_affiliation": "REA St. Petersburg Institute of Macromolecular Compounds",
+                "organiser_country": "Russia",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "\u0410. \u041d. \u0415\u0440\u0448\u043e\u0432",
+                "openalex_page": "https://openalex.org/A5024924838",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Abdullah Avey",
+                "organiser_affiliation": "Suleyman Demirel University",
+                "organiser_country": "T\u00fcrkiye",
+                "track_name": "International Program Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Abdullah Avey",
+                "openalex_page": "https://openalex.org/A5011260237",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/02s8x5a25"
+            }
+        ],
+        "topics": [
+            "Machine-Building",
+            "Energy Technologies",
+            "Mechatronics",
+            "Special Materials and Tools",
+            "Electrical Engineering",
+            "Automation and Management"
+        ],
+        "enhanced_topics": {
+            "Machine-Building": [
+                {
+                    "topic": "machine engineering",
+                    "similarity": 0.5305948257446289
+                }
+            ],
+            "Energy Technologies": [
+                {
+                    "topic": "energy technology",
+                    "similarity": 0.9096744135022163
+                },
+                {
+                    "topic": "energy engineering and power technology",
+                    "similarity": 0.5499761700630188
+                },
+                {
+                    "topic": "energy, economy, and technology trends",
+                    "similarity": 0.4611457586288452
+                }
+            ],
+            "Mechatronics": [
+                {
+                    "topic": "mechatronics",
+                    "similarity": 0.9999999999989497
+                },
+                {
+                    "topic": "mechatronic systems",
+                    "similarity": 0.8005832731723785
+                },
+                {
+                    "topic": "mechatronics education and applications",
+                    "similarity": 0.6084067225456238
+                }
+            ],
+            "Special Materials and Tools": [
+                {
+                    "topic": "materials",
+                    "similarity": 0.6681531965732574
+                },
+                {
+                    "topic": "materials design",
+                    "similarity": 0.46504902839660645
+                },
+                {
+                    "topic": "machine tools",
+                    "similarity": 0.7100884914398193
+                },
+                {
+                    "topic": "tool use",
+                    "similarity": 0.6383857727050781
+                },
+                {
+                    "topic": "experimental tools",
+                    "similarity": 0.45896703004837036
+                }
+            ],
+            "Electrical Engineering": [
+                {
+                    "topic": "electrical engineering",
+                    "similarity": 0.9999999999992839
+                },
+                {
+                    "topic": "electrical and electronic engineering",
+                    "similarity": 0.7987011969089508
+                },
+                {
+                    "topic": "electric power industry",
+                    "similarity": 0.4741605520248413
+                },
+                {
+                    "topic": "engineering",
+                    "similarity": 0.45352447032928467
+                }
+            ],
+            "Automation and Management": [
+                {
+                    "topic": "automation",
+                    "similarity": 0.9999999999991449
+                },
+                {
+                    "topic": "flexible automation",
+                    "similarity": 0.7401537895202637
+                },
+                {
+                    "topic": "industrial automation",
+                    "similarity": 0.6976354718208313
+                },
+                {
+                    "topic": "robotics and automation",
+                    "similarity": 0.5986477136611938
+                },
+                {
+                    "topic": "human interaction with automation systems",
+                    "similarity": 0.5119213163852692
+                },
+                {
+                    "topic": "management",
+                    "similarity": 0.9999999999992721
+                },
+                {
+                    "topic": "organizational management",
+                    "similarity": 0.7255971431732178
+                },
+                {
+                    "topic": "business management",
+                    "similarity": 0.6609124541282654
+                },
+                {
+                    "topic": "management systems",
+                    "similarity": 0.64071324467659
+                }
+            ]
+        },
+        "preferred_threshold": 0.45
+    }
+}

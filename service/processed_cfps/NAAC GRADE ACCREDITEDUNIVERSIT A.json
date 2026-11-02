@@ -1,0 +1,832 @@
+{
+    "llm-output": {
+        "event_name": "International Conference on Geographical Indications: Institutions, Technology, Entrepreneurship and Social Impact",
+        "conference_series": "International Conference on Geographical Indications",
+        "event_acronym": "ICGIITS2026",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Gurugram, India",
+        "topics": [
+            "GI Protection in International Trade and Comparative Law",
+            "Markets, Pricing and Economic Value of GI Products",
+            "Livelihoods, Gender, and Social Impact of GIs",
+            "Institutional Design and Regulatory Governance",
+            "Blockchain, Traceability and Digital Certification",
+            "Data, Platforms and E-Commerce Ecosystems",
+            "Enforcement, Misuse and Compliance Mechanisms",
+            "Cooperatives, Intermediaries and Producer Organizations",
+            "Traditional Knowledge and Cultural Sustainability",
+            "Empirical and Law-and-Economics Approaches to GI Research",
+            "Policy Reform and Future Pathways in GI Governance",
+            "GIs, Innovation and Rural Entrepreneurship"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Mr. Nipun Goenka",
+                "organiser_affiliation": "GD Goenka Group",
+                "organiser_country": "India",
+                "track_name": "Chief Conference Patron",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) Dinesh Shenoy",
+                "organiser_affiliation": "GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Conference Patron",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) Aneesha PR",
+                "organiser_affiliation": "School of Law, GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Conference Chairperson",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Dakshita Sangwan",
+                "organiser_affiliation": "School of Law, GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Convener",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Dr. Dakshita Sangwan",
+                "openalex_page": "https://openalex.org/A5125920191",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/053y5dz28"
+            },
+            {
+                "organiser_name": "Ms. Shreya Goswami",
+                "organiser_affiliation": "School of Law, Head-IPR Cell, GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Convener",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Neetu",
+                "organiser_affiliation": "School of Law, GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Co-Convener",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Neetu Neetu",
+                "openalex_page": "https://openalex.org/A5102725345",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/03bdeag60"
+            },
+            {
+                "organiser_name": "Dr. Azad Singh",
+                "organiser_affiliation": "School of Law, GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Co-Convener",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Azad Singh",
+                "openalex_page": "https://openalex.org/A5094182928",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Andrea Zappalaglio",
+                "organiser_affiliation": "University of Leeds",
+                "organiser_country": "UK",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Annette Kur",
+                "organiser_affiliation": "Max Planck Institute for Innovation and Competition",
+                "organiser_country": "Germany",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Delphine Marie-Vivien",
+                "organiser_affiliation": "Centre for International Cooperation in Agricultural Research for Development (CIRAD)",
+                "organiser_country": "France",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Enrico Bonadio",
+                "organiser_affiliation": "City Law School, University of London",
+                "organiser_country": "UK",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Irene Calboli",
+                "organiser_affiliation": "Texas A&M University School of Law",
+                "organiser_country": "USA",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. William Van Caenegem",
+                "organiser_affiliation": "Bond University",
+                "organiser_country": "Australia",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Abhilash Aggarwal",
+                "organiser_affiliation": "Rai University",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Annamma Samuel",
+                "organiser_affiliation": "Former DPIIT Chair, GNLU",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Annamma Samuel",
+                "openalex_page": "https://openalex.org/A5123242216",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Dr. Debashish Poddar",
+                "organiser_affiliation": "National Law University and Judicial Academy",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) Dhirendra S. Parihar",
+                "organiser_affiliation": "G.D Goenka University",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) Faizanur Rahman",
+                "organiser_affiliation": "Jamia Millia Islamia",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) M. Sakthivel",
+                "organiser_affiliation": "Tamil Nadu National Law University",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) L. Pushpa Kumar",
+                "organiser_affiliation": "University of Delhi",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Pinaki Ghosh",
+                "organiser_affiliation": "West Bengal National University of Juridical Sciences",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Rosmy Joan",
+                "organiser_affiliation": "NALSAR University of Law",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. S.C. Roy",
+                "organiser_affiliation": "Chanakya National Law University",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "International Conference on Geographical Indications: Institutions, Technology, Entrepreneurship and Social Impact",
+        "event_acronym": "ICGIITS2026",
+        "conference_series": "International Conference on Geographical Indications",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Gurugram, India",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Mr. Nipun Goenka",
+                "organiser_affiliation": "GD Goenka Group",
+                "organiser_country": "India",
+                "track_name": "Chief Conference Patron",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) Dinesh Shenoy",
+                "organiser_affiliation": "GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Conference Patron",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) Aneesha PR",
+                "organiser_affiliation": "School of Law, GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Conference Chairperson",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Dakshita Sangwan",
+                "organiser_affiliation": "School of Law, GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Convener",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Dr. Dakshita Sangwan",
+                "openalex_page": "https://openalex.org/A5125920191",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/053y5dz28"
+            },
+            {
+                "organiser_name": "Ms. Shreya Goswami",
+                "organiser_affiliation": "School of Law, Head-IPR Cell, GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Convener",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Neetu",
+                "organiser_affiliation": "School of Law, GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Co-Convener",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Neetu Neetu",
+                "openalex_page": "https://openalex.org/A5102725345",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/03bdeag60"
+            },
+            {
+                "organiser_name": "Dr. Azad Singh",
+                "organiser_affiliation": "School of Law, GD Goenka University",
+                "organiser_country": "India",
+                "track_name": "Co-Convener",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Azad Singh",
+                "openalex_page": "https://openalex.org/A5094182928",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Andrea Zappalaglio",
+                "organiser_affiliation": "University of Leeds",
+                "organiser_country": "UK",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Annette Kur",
+                "organiser_affiliation": "Max Planck Institute for Innovation and Competition",
+                "organiser_country": "Germany",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Delphine Marie-Vivien",
+                "organiser_affiliation": "Centre for International Cooperation in Agricultural Research for Development (CIRAD)",
+                "organiser_country": "France",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Enrico Bonadio",
+                "organiser_affiliation": "City Law School, University of London",
+                "organiser_country": "UK",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Irene Calboli",
+                "organiser_affiliation": "Texas A&M University School of Law",
+                "organiser_country": "USA",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. William Van Caenegem",
+                "organiser_affiliation": "Bond University",
+                "organiser_country": "Australia",
+                "track_name": "International Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Abhilash Aggarwal",
+                "organiser_affiliation": "Rai University",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Annamma Samuel",
+                "organiser_affiliation": "Former DPIIT Chair, GNLU",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Annamma Samuel",
+                "openalex_page": "https://openalex.org/A5123242216",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Dr. Debashish Poddar",
+                "organiser_affiliation": "National Law University and Judicial Academy",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) Dhirendra S. Parihar",
+                "organiser_affiliation": "G.D Goenka University",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) Faizanur Rahman",
+                "organiser_affiliation": "Jamia Millia Islamia",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) M. Sakthivel",
+                "organiser_affiliation": "Tamil Nadu National Law University",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. (Dr.) L. Pushpa Kumar",
+                "organiser_affiliation": "University of Delhi",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Pinaki Ghosh",
+                "organiser_affiliation": "West Bengal National University of Juridical Sciences",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Rosmy Joan",
+                "organiser_affiliation": "NALSAR University of Law",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. S.C. Roy",
+                "organiser_affiliation": "Chanakya National Law University",
+                "organiser_country": "India",
+                "track_name": "National Advisory Board Member",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "GI Protection in International Trade and Comparative Law",
+            "Markets, Pricing and Economic Value of GI Products",
+            "Livelihoods, Gender, and Social Impact of GIs",
+            "Institutional Design and Regulatory Governance",
+            "Blockchain, Traceability and Digital Certification",
+            "Data, Platforms and E-Commerce Ecosystems",
+            "Enforcement, Misuse and Compliance Mechanisms",
+            "Cooperatives, Intermediaries and Producer Organizations",
+            "Traditional Knowledge and Cultural Sustainability",
+            "Empirical and Law-and-Economics Approaches to GI Research",
+            "Policy Reform and Future Pathways in GI Governance",
+            "GIs, Innovation and Rural Entrepreneurship"
+        ],
+        "enhanced_topics": {
+            "GI Protection in International Trade and Comparative Law": [
+                {
+                    "topic": "comparative law",
+                    "similarity": 0.9999999999994287
+                },
+                {
+                    "topic": "international trade",
+                    "similarity": 0.9999999999993402
+                },
+                {
+                    "topic": "global trade",
+                    "similarity": 0.7960534989833832
+                },
+                {
+                    "topic": "transnational trade",
+                    "similarity": 0.6981649100780487
+                },
+                {
+                    "topic": "international trade law",
+                    "similarity": 0.6079788208007812
+                }
+            ],
+            "Markets, Pricing and Economic Value of GI Products": [
+                {
+                    "topic": "financial markets",
+                    "similarity": 0.6540822982788086
+                },
+                {
+                    "topic": "economic value",
+                    "similarity": 0.9999999999991759
+                },
+                {
+                    "topic": "economic value added",
+                    "similarity": 0.7755895555019379
+                },
+                {
+                    "topic": "business value",
+                    "similarity": 0.6211658716201782
+                }
+            ],
+            "Livelihoods, Gender, and Social Impact of GIs": [
+                {
+                    "topic": "gender",
+                    "similarity": 0.9999999999990393
+                },
+                {
+                    "topic": "gender identity",
+                    "similarity": 0.653398871421814
+                },
+                {
+                    "topic": "gender and identity",
+                    "similarity": 0.612825870513916
+                },
+                {
+                    "topic": "livelihoods",
+                    "similarity": 0.999999999999237
+                },
+                {
+                    "topic": "sustainable livelihoods",
+                    "similarity": 0.7334384918212891
+                },
+                {
+                    "topic": "livelihood projects",
+                    "similarity": 0.7299670577049255
+                },
+                {
+                    "topic": "agricultural livelihoods",
+                    "similarity": 0.7223154604434967
+                },
+                {
+                    "topic": "rural livelihoods",
+                    "similarity": 0.6758142709732056
+                }
+            ],
+            "Institutional Design and Regulatory Governance": [
+                {
+                    "topic": "regulatory governance",
+                    "similarity": 0.9999999999991993
+                },
+                {
+                    "topic": "regulatory affairs",
+                    "similarity": 0.640302300453186
+                },
+                {
+                    "topic": "regulatory policymaking",
+                    "similarity": 0.6062593460083008
+                },
+                {
+                    "topic": "institutional environment",
+                    "similarity": 0.6231908798217773
+                },
+                {
+                    "topic": "institutional analysis",
+                    "similarity": 0.6082157790660858
+                }
+            ],
+            "Blockchain, Traceability and Digital Certification": [
+                {
+                    "topic": "digital certificate",
+                    "similarity": 0.6935783624649048
+                },
+                {
+                    "topic": "traceability",
+                    "similarity": 0.999999999999107
+                },
+                {
+                    "topic": "blockchain",
+                    "similarity": 0.9999999999990627
+                },
+                {
+                    "topic": "blockchain technology",
+                    "similarity": 0.713291585445404
+                }
+            ],
+            "Data, Platforms and E-Commerce Ecosystems": [
+                {
+                    "topic": "platform work",
+                    "similarity": 0.6673552393913269
+                },
+                {
+                    "topic": "data",
+                    "similarity": 0.9999999999992699
+                },
+                {
+                    "topic": "data use",
+                    "similarity": 0.6729911863803864
+                }
+            ],
+            "Enforcement, Misuse and Compliance Mechanisms": [
+                {
+                    "topic": "enforcement",
+                    "similarity": 0.9999999999991783
+                },
+                {
+                    "topic": "enforcement strategies",
+                    "similarity": 0.6887322664260864
+                },
+                {
+                    "topic": "compliance",
+                    "similarity": 0.63039430975914
+                }
+            ],
+            "Cooperatives, Intermediaries and Producer Organizations": [
+                {
+                    "topic": "cooperatives",
+                    "similarity": 0.9999999999993576
+                },
+                {
+                    "topic": "worker cooperatives",
+                    "similarity": 0.7061011791229248
+                },
+                {
+                    "topic": "intermediality",
+                    "similarity": 0.7504488676786423
+                }
+            ],
+            "Traditional Knowledge and Cultural Sustainability": [
+                {
+                    "topic": "traditional knowledge",
+                    "similarity": 0.9999999999991824
+                },
+                {
+                    "topic": "cultural sustainability",
+                    "similarity": 0.9999999999991004
+                }
+            ],
+            "Empirical and Law-and-Economics Approaches to GI Research": [
+                {
+                    "topic": "law and economics",
+                    "similarity": 0.7370860278606415
+                },
+                {
+                    "topic": "empirical analysis",
+                    "similarity": 0.7457848191261292
+                },
+                {
+                    "topic": "empirical models",
+                    "similarity": 0.6130010187625885
+                }
+            ],
+            "Policy Reform and Future Pathways in GI Governance": [
+                {
+                    "topic": "policy reform",
+                    "similarity": 0.9999999999991762
+                },
+                {
+                    "topic": "government reform",
+                    "similarity": 0.6323779225349426
+                },
+                {
+                    "topic": "social policy and reform studies",
+                    "similarity": 0.6285603046417236
+                },
+                {
+                    "topic": "policy change",
+                    "similarity": 0.6216833591461182
+                }
+            ],
+            "GIs, Innovation and Rural Entrepreneurship": [
+                {
+                    "topic": "innovation",
+                    "similarity": 0.9999999999990692
+                },
+                {
+                    "topic": "innovation and invention",
+                    "similarity": 0.7716423273086548
+                },
+                {
+                    "topic": "technological innovation",
+                    "similarity": 0.7623186707496643
+                },
+                {
+                    "topic": "technology innovation",
+                    "similarity": 0.7347369194030762
+                },
+                {
+                    "topic": "technology and innovation",
+                    "similarity": 0.7068500220775604
+                },
+                {
+                    "topic": "gis",
+                    "similarity": 0.9999999999991757
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    }
+}

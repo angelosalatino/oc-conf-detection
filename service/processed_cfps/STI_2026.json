@@ -1,19 +1,19 @@
 {
     "llm-output": {
         "event_name": "30th Annual Conference on Science and Technology Indicators",
-        "conference_series": "Science and Technology Indicators",
+        "conference_series": "Annual Conference on Science and Technology Indicators",
         "event_acronym": "STI-ENID 2026",
-        "colocated_with": "",
+        "colocated_with": "Not specified",
         "year": "2026",
         "location": "Antwerp",
         "topics": [
             "Responsible research assessment: frameworks, reforms, and future pathways",
             "Meta-research on global cooperation and competition, research security, and knowledge flows",
-            "Assessing societal responsibility and transparency (open science, reproducibility, sustainability, equity, inclusivity, research integrity)",
+            "Assessing societal responsibility and transparency (e.g., open science, reproducibility, sustainability, equity, inclusivity, research integrity)",
             "Next-generation indicators for responsible innovation, societal value, and long-term research impact",
             "New analytical approaches, including AI-assisted metric development and responsible data use",
             "Bibliodiversity: books, multilingual scholarship, and diverse research outputs",
-            "Historical perspectives on STI indicators in celebration of the conference\u2019s 30th anniversary",
+            "Historical perspectives on STI indicators",
             "Research culture and careers",
             "Interdisciplinarity and transdisciplinarity",
             "Equity and inclusion",
@@ -30,7 +30,7 @@
                 "organiser_name": "Tim Engels",
                 "organiser_affiliation": "University of Antwerp",
                 "organiser_country": "Belgium",
-                "track_name": "co-chair",
+                "track_name": "Organizing Committee Co-Chair",
                 "affiliation_provenance": "OA",
                 "verified": false,
                 "affiliation_ror": "https://ror.org/008x57b05",
@@ -42,7 +42,7 @@
                 "organiser_name": "Steven Van Passel",
                 "organiser_affiliation": "University of Antwerp",
                 "organiser_country": "Belgium",
-                "track_name": "co-chair",
+                "track_name": "Organizing Committee Co-Chair",
                 "affiliation_provenance": "OA",
                 "verified": false,
                 "affiliation_ror": "https://ror.org/008x57b05",
@@ -175,19 +175,23 @@
     "processed": {
         "event_name": "30th Annual Conference on Science and Technology Indicators",
         "event_acronym": "STI-ENID 2026",
-        "conference_series": "Science and Technology Indicators",
-        "colocated_with": "",
+        "conference_series": "Annual Conference on Science and Technology Indicators",
+        "colocated_with": "Not specified",
         "year": "2026",
         "location": "Antwerp",
         "DBLP": {},
         "AIDA": {},
-        "ConfIDent": {},
+        "ConfIDent": {
+            "name": "International Conference on Science, Technology and Innovation Indicators",
+            "id": "Event Series:7003f29e-3009-44d4-bfc9-361d1826c151",
+            "url": "https://www.confident-conference.org/index.php/Event%20Series%3A7003f29e-3009-44d4-bfc9-361d1826c151"
+        },
         "organisers": [
             {
                 "organiser_name": "Tim Engels",
                 "organiser_affiliation": "University of Antwerp",
                 "organiser_country": "Belgium",
-                "track_name": "co-chair",
+                "track_name": "Organizing Committee Co-Chair",
                 "affiliation_provenance": "OA",
                 "verified": false,
                 "affiliation_ror": "https://ror.org/008x57b05",
@@ -199,7 +203,7 @@
                 "organiser_name": "Steven Van Passel",
                 "organiser_affiliation": "University of Antwerp",
                 "organiser_country": "Belgium",
-                "track_name": "co-chair",
+                "track_name": "Organizing Committee Co-Chair",
                 "affiliation_provenance": "OA",
                 "verified": false,
                 "affiliation_ror": "https://ror.org/008x57b05",
@@ -331,11 +335,11 @@
         "topics": [
             "Responsible research assessment: frameworks, reforms, and future pathways",
             "Meta-research on global cooperation and competition, research security, and knowledge flows",
-            "Assessing societal responsibility and transparency (open science, reproducibility, sustainability, equity, inclusivity, research integrity)",
+            "Assessing societal responsibility and transparency (e.g., open science, reproducibility, sustainability, equity, inclusivity, research integrity)",
             "Next-generation indicators for responsible innovation, societal value, and long-term research impact",
             "New analytical approaches, including AI-assisted metric development and responsible data use",
             "Bibliodiversity: books, multilingual scholarship, and diverse research outputs",
-            "Historical perspectives on STI indicators in celebration of the conference\u2019s 30th anniversary",
+            "Historical perspectives on STI indicators",
             "Research culture and careers",
             "Interdisciplinarity and transdisciplinarity",
             "Equity and inclusion",
@@ -351,96 +355,120 @@
             "Responsible research assessment: frameworks, reforms, and future pathways": [
                 {
                     "topic": "economic reforms",
-                    "similarity": 0.730382889509201
+                    "similarity": 0.7303828597068787
                 }
             ],
             "Meta-research on global cooperation and competition, research security, and knowledge flows": [
                 {
                     "topic": "competition",
-                    "similarity": 0.9999999999993237
+                    "similarity": 0.9999999999991799
                 }
             ],
-            "Assessing societal responsibility and transparency (open science, reproducibility, sustainability, equity, inclusivity, research integrity)": [
+            "Assessing societal responsibility and transparency (e.g., open science, reproducibility, sustainability, equity, inclusivity, research integrity)": [
                 {
                     "topic": "transparency",
-                    "similarity": 0.6952868103981018
-                },
-                {
-                    "topic": "equity",
-                    "similarity": 0.9999999999995137
-                },
-                {
-                    "topic": "reproducibility",
-                    "similarity": 0.9999999999994479
+                    "similarity": 0.6926931738853455
                 },
                 {
                     "topic": "research integrity",
-                    "similarity": 0.8290643990039825
+                    "similarity": 0.8290641903877258
+                },
+                {
+                    "topic": "open science",
+                    "similarity": 0.9999999999990709
+                },
+                {
+                    "topic": "reproducibility",
+                    "similarity": 0.9999999999993782
                 },
                 {
                     "topic": "sustainability",
-                    "similarity": 0.9999999999992182
+                    "similarity": 0.9999999999989982
                 },
                 {
                     "topic": "environmental sustainability",
-                    "similarity": 0.8477620184421539
+                    "similarity": 0.8477619737386703
                 },
                 {
                     "topic": "sustainability economics",
-                    "similarity": 0.6984832882881165
+                    "similarity": 0.6984833180904388
                 },
                 {
                     "topic": "social sustainability",
-                    "similarity": 0.6915952861309052
+                    "similarity": 0.6915953755378723
+                },
+                {
+                    "topic": "equity",
+                    "similarity": 0.9999999999993491
                 }
             ],
             "Next-generation indicators for responsible innovation, societal value, and long-term research impact": [
                 {
                     "topic": "societal values",
-                    "similarity": 0.8691300004720688
+                    "similarity": 0.86913001537323
                 }
             ],
             "New analytical approaches, including AI-assisted metric development and responsible data use": [],
             "Bibliodiversity: books, multilingual scholarship, and diverse research outputs": [],
-            "Historical perspectives on STI indicators in celebration of the conference\u2019s 30th anniversary": [
+            "Historical perspectives on STI indicators": [
                 {
                     "topic": "historical perspectives",
-                    "similarity": 0.9999999999989921
+                    "similarity": 0.9999999999991296
                 },
                 {
                     "topic": "historical perspective",
-                    "similarity": 0.842718094587326
+                    "similarity": 0.8427181243896484
                 }
             ],
             "Research culture and careers": [],
             "Interdisciplinarity and transdisciplinarity": [
                 {
-                    "topic": "interdisciplinarity",
-                    "similarity": 0.9999999999995048
-                },
-                {
                     "topic": "transdisciplinarity",
-                    "similarity": 0.9999999999994694
+                    "similarity": 0.9999999999992554
                 },
                 {
                     "topic": "transdisciplinary research",
-                    "similarity": 0.8114292919635773
+                    "similarity": 0.8114293217658997
+                },
+                {
+                    "topic": "interdisciplinarity",
+                    "similarity": 0.9999999999993499
                 }
             ],
             "Equity and inclusion": [
                 {
-                    "topic": "inclusion",
-                    "similarity": 0.9999999999993425
+                    "topic": "equity",
+                    "similarity": 0.9999999999993491
                 },
                 {
-                    "topic": "equity",
-                    "similarity": 0.9999999999995137
+                    "topic": "inclusion",
+                    "similarity": 0.9999999999990703
                 }
             ],
             "Funding and innovation policy": [
                 {
+                    "topic": "innovation policy",
+                    "similarity": 0.9999999999990535
+                },
+                {
+                    "topic": "innovation policies",
+                    "similarity": 0.9454597942531109
+                },
+                {
+                    "topic": "policy innovation",
+                    "similarity": 0.7001829147338867
+                },
+                {
+                    "topic": "innovation economics",
+                    "similarity": 0.6413573920726776
+                },
+                {
+                    "topic": "innovation policy and r&d",
+                    "similarity": 0.6392748355865479
+                },
+                {
                     "topic": "funding",
-                    "similarity": 0.9999999999993654
+                    "similarity": 0.9999999999992277
                 },
                 {
                     "topic": "public funding",
@@ -449,48 +477,28 @@
                 {
                     "topic": "research funding",
                     "similarity": 0.6596222519874573
-                },
-                {
-                    "topic": "innovation policy",
-                    "similarity": 0.9999999999991921
-                },
-                {
-                    "topic": "innovation policies",
-                    "similarity": 0.9454597905278206
-                },
-                {
-                    "topic": "policy innovation",
-                    "similarity": 0.7001830339431763
-                },
-                {
-                    "topic": "innovation economics",
-                    "similarity": 0.6413571238517761
-                },
-                {
-                    "topic": "innovation policy and r&d",
-                    "similarity": 0.6392746567726135
                 }
             ],
             "Peer review": [
                 {
                     "topic": "peer review",
-                    "similarity": 0.9999999999993837
+                    "similarity": 0.9999999999990544
                 },
                 {
                     "topic": "peer review process",
-                    "similarity": 0.7906856536865234
+                    "similarity": 0.7906857132911682
                 }
             ],
             "Open science": [
                 {
                     "topic": "open science",
-                    "similarity": 0.9999999999992798
+                    "similarity": 0.9999999999990709
                 }
             ],
             "Scholarly communication": [
                 {
                     "topic": "scholarly communication",
-                    "similarity": 0.9999999999994577
+                    "similarity": 0.999999999999254
                 },
                 {
                     "topic": "publishing and scholarly communication",
@@ -498,19 +506,19 @@
                 },
                 {
                     "topic": "scholarly activity",
-                    "similarity": 0.6295748949050903
+                    "similarity": 0.6295747756958008
                 }
             ],
             "Research evaluation": [
                 {
                     "topic": "research evaluation",
-                    "similarity": 0.9999999999993757
+                    "similarity": 0.9999999999990401
                 }
             ],
             "Societal impact": [
                 {
                     "topic": "societal impact",
-                    "similarity": 0.999999999999409
+                    "similarity": 0.9999999999991559
                 },
                 {
                     "topic": "societal influence",
@@ -518,12 +526,11 @@
                 },
                 {
                     "topic": "social impacts",
-                    "similarity": 0.6183100342750549
+                    "similarity": 0.6183099746704102
                 }
             ],
             "Theoretical foundations of research metrics": []
         },
         "preferred_threshold": 0.6
-    },
-    "cfp_text": "Dear colleague\n\n \n\n \n\nJoin us in Antwerp for the 30th Annual Conference on Science and Technology Indicators. This anniversary edition invites contributions under the theme \u201cIndicators for a Responsible Research Future\u201d. STI-ENID 2026 is organized by ECOOM, the Flemish Centre for R&D Monitoring. The conference will examine how science and technology indicators can be developed and used to support diversity, inclusivity, openness, sustainability, and societal responsibility in research assessment and policy, particularly in a research landscape shaped by rapid technological change and geopolitical uncertainty.\n\n \n\nConference Themes\n\n \n\nWe welcome contributions that engage with the central theme, including (but not limited to):\n\n    Responsible research assessment: frameworks, reforms, and future pathways\n    Meta-research on global cooperation and competition, research security, and knowledge flows\n    Assessing societal responsibility and transparency (e.g. open science, reproducibility, sustainability, equity, inclusivity, research integrity)\n    Next-generation indicators for responsible innovation, societal value, and long-term research impact\n    New analytical approaches, including AI-assisted metric development and responsible data use\n    Bibliodiversity: books, multilingual scholarship, and diverse research outputs\n    Historical perspectives on STI indicators in celebration of the conference\u2019s 30th anniversary\n\n \n\nAdditional Topics of Interest\n\nSubmissions are also welcome on a wide range of STI-related topics, such as research culture and careers, interdisciplinarity and transdisciplinarity, equity and inclusion, funding and innovation policy, peer review, open science, scholarly communication, research evaluation, societal impact, and theoretical foundations of research metrics.\n\n \n\nTypes of Contributions\n\n \n\nWe invite:\n\n    Full papers and papers-in-progress\n    Special sessions combining presentations and (panel) discussions, and/or presenting a collection of posters \n    Posters presenting research or interventions in an engaging format\n\nQuantitative, qualitative, and mixed-methods approaches are all welcome. Contributions from diverse epistemological perspectives are encouraged to support an inclusive and vibrant dialogue.\n\n \n\nKey Dates\n\n    Special Session submissions: 20th of February 2026\n    Papers, papers-in-progress & posters: 15th of March 2026\n    Notification of acceptance: 29th of May 2026\n    Registration opens: 4th of May 2026\n\nWe look forward to your submissions and to welcoming you to Antwerp 9-11 September 2026  for this special anniversary edition of STI-ENID.\n\n \n\nIf you have any questions, please don\u2019t hesitate to contact us at stienid2026@uantwerpen.be, and follow us on LinkedIn.\n\n \n\nSubmit your proposal Submission | 30th Annual International Conference on Science and Technology Indicators | University of Antwerp\n\n \n\n \n\nLink to conference website: www.stienid2026.org\n\nLink to the LinkedIn community: https://www.linkedin.com/company/stienid2026\n\nLink to ECOOM: https://www.ecoom.be/\n\n \n\n\nOrganizing Committee \n\n\u200bTim Engels & Steven Van Passel (co-chairs)\n\u200bPeter Aspeslagh\n\u200bPei-Shan Chi  \n\u200bIne De Parade  \n\u200bDirk Derom  \n\u200bMyroslava Hladchenko  \n\u200bBart Thijs \n\u200bSandy Van Ael  \n\u200bEline Vandewalle \n\u200bJohanna Vanderstraeten \n\u200bWalter Ysebaert"
+    }
 }

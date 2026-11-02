@@ -1,0 +1,1563 @@
+{
+    "llm-output": {
+        "event_name": "44th International Symposium on Capillary Chromatography and 21st GC\u00d7GC Symposium",
+        "conference_series": "ISCC",
+        "event_acronym": "ISCC",
+        "colocated_with": "21st GC\u00d7GC Symposium",
+        "year": "2026",
+        "location": "Riva del Garda, Italy",
+        "topics": [
+            "Capillary Gas Chromatography",
+            "Nano and Capillary Liquid Chromatography",
+            "Column Technology",
+            "Hyphenated Techniques",
+            "Comprehensive Techniques",
+            "Coupled and Multidimensional Techniques",
+            "Sampling Systems",
+            "Miniaturized Sample Preparation",
+            "Trace Analysis",
+            "Automation",
+            "Electromigration Methods",
+            "Microfabricated Analytical Systems Lab-on-a-chip",
+            "Supercritical Fluid Chromatography and Extraction",
+            "Environmental Applications",
+            "Biomedical and Pharmaceutical Applications",
+            "Energy, Petrochemical and Industrial Applications",
+            "Natural Products, Food, Flavours and Fragrances",
+            "Artificial Intelligence",
+            "3D Printing",
+            "State-of-the-Art PFAS Analysis",
+            "Mass Spectrometry hyphenated to miniaturized systems"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Prof. L. Mondello",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Chairman RIVA 2026",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. P. Sandra",
+                "organiser_affiliation": "RIC Group",
+                "organiser_country": "Belgium",
+                "track_name": "Honorary Chairman RIVA 2026",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "P Hayes",
+                "openalex_page": "https://openalex.org/A5113198429",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Sandra Pat",
+                "organiser_affiliation": "RIC Group",
+                "organiser_country": "Belgium",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Sandra Pat",
+                "openalex_page": "https://openalex.org/A5112313269",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Armstrong Daniel",
+                "organiser_affiliation": "The University of Texas Arlington",
+                "organiser_country": "USA",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Daniel W. Armstrong",
+                "openalex_page": "https://openalex.org/A5077242280",
+                "orcid": "https://orcid.org/0000-0003-0501-6231",
+                "affiliation_ror": "https://ror.org/019kgqr73"
+            },
+            {
+                "organiser_name": "Fanali Salvatore",
+                "organiser_affiliation": "CNR",
+                "organiser_country": "Italy",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Salvatore Fanali",
+                "openalex_page": "https://openalex.org/A5076032732",
+                "orcid": "https://orcid.org/0000-0002-8221-6133",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Jinno Kiyokatsu",
+                "organiser_affiliation": "Toyohashi University of Technology",
+                "organiser_country": "Japan",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Kiyokatsu Jinno",
+                "openalex_page": "https://openalex.org/A5067776339",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/04ezg6d83"
+            },
+            {
+                "organiser_name": "Jorgenson Jim",
+                "organiser_affiliation": "The University of North Carolina at Chapel Hill",
+                "organiser_country": "USA",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Myers Peter",
+                "organiser_affiliation": "University of Liverpool",
+                "organiser_country": "UK",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Peter Myers",
+                "openalex_page": "https://openalex.org/A5111639767",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/04xs57h96"
+            },
+            {
+                "organiser_name": "Novotny Milos",
+                "organiser_affiliation": "Indiana University, Bloomington",
+                "organiser_country": "USA",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Milo\u0161 V. Novotn\u00fd",
+                "openalex_page": "https://openalex.org/A5028971743",
+                "orcid": "https://orcid.org/0000-0001-5530-7059",
+                "affiliation_ror": "https://ror.org/02k40bc56"
+            },
+            {
+                "organiser_name": "Svec Frantisek",
+                "organiser_affiliation": "Charles University",
+                "organiser_country": "Czech Republic",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Franti\u0161ek \u0160vec",
+                "openalex_page": "https://openalex.org/A5038193861",
+                "orcid": "https://orcid.org/0000-0001-6574-1537",
+                "affiliation_ror": "https://ror.org/024d6js02"
+            },
+            {
+                "organiser_name": "Trestianu Sorin",
+                "organiser_affiliation": "Thermo Fisher Scientific",
+                "organiser_country": "Italy",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "S. Trestianu",
+                "openalex_page": "https://openalex.org/A5033646166",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Bicchi Carlo",
+                "organiser_affiliation": "University of Turin",
+                "organiser_country": "Italy",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Carlo Bicchi",
+                "openalex_page": "https://openalex.org/A5007226151",
+                "orcid": "https://orcid.org/0000-0003-1782-7357",
+                "affiliation_ror": "https://ror.org/048tbm396"
+            },
+            {
+                "organiser_name": "Desmet Gert",
+                "organiser_affiliation": "Vrije University",
+                "organiser_country": "Belgium",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Desmet Gert",
+                "openalex_page": "https://openalex.org/A5004870567",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Huber Christian",
+                "organiser_affiliation": "University of Salzburg",
+                "organiser_country": "Austria",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Christian G. Huber",
+                "openalex_page": "https://openalex.org/A5101645064",
+                "orcid": "https://orcid.org/0000-0001-8358-1880",
+                "affiliation_ror": "https://ror.org/05gs8cd61"
+            },
+            {
+                "organiser_name": "Janssen Hans-Gerd",
+                "organiser_affiliation": "Unilever R&D Wageningen",
+                "organiser_country": "Netherlands",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Janssen Hans-Gerd",
+                "openalex_page": "https://openalex.org/A5036173888",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Kennedy Robert",
+                "organiser_affiliation": "University of Michigan",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Robert T. Kennedy",
+                "openalex_page": "https://openalex.org/A5056086091",
+                "orcid": "https://orcid.org/0000-0003-2447-7471",
+                "affiliation_ror": "https://ror.org/00jmfr291"
+            },
+            {
+                "organiser_name": "Lan as Fernando",
+                "organiser_affiliation": "University of S\u00e3o Paulo",
+                "organiser_country": "Brazil",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Fernando Mauro Lan\ufffdas",
+                "openalex_page": "https://openalex.org/A5036509637",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/036rp1748"
+            },
+            {
+                "organiser_name": "Lee Milton",
+                "organiser_affiliation": "Brigham Young University",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Milton L. Lee",
+                "openalex_page": "https://openalex.org/A5050371313",
+                "orcid": "https://orcid.org/0000-0003-3084-0003",
+                "affiliation_ror": "https://ror.org/047rhhm47"
+            },
+            {
+                "organiser_name": "Marc Rosa Maria",
+                "organiser_affiliation": "Rovira i Virgili University",
+                "organiser_country": "Spain",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Luong Jim",
+                "organiser_affiliation": "Dow Chemical",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Luong Jim",
+                "openalex_page": "https://openalex.org/A5048179236",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Mondello Luigi",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Luigi Mondello",
+                "openalex_page": "https://openalex.org/A5009688692",
+                "orcid": "https://orcid.org/0000-0002-8890-675X",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Pawliszyn Janusz",
+                "organiser_affiliation": "University of Waterloo",
+                "organiser_country": "Canada",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Janusz Pawliszyn",
+                "openalex_page": "https://openalex.org/A5045312004",
+                "orcid": "https://orcid.org/0000-0002-9975-5811",
+                "affiliation_ror": "https://ror.org/01aff2v68"
+            },
+            {
+                "organiser_name": "Pichon Val rie",
+                "organiser_affiliation": "Sorbonne University",
+                "organiser_country": "France",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Val\ufffdrie Pichon",
+                "openalex_page": "https://openalex.org/A5113619309",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Psillakis Elia",
+                "organiser_affiliation": "Technical University of Crete",
+                "organiser_country": "Greece",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Ramsey Michael",
+                "organiser_affiliation": "The University of North Carolina at Chapel Hill",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Michael Ramsey",
+                "openalex_page": "https://openalex.org/A5008782015",
+                "orcid": "https://orcid.org/0009-0005-7719-8814",
+                "affiliation_ror": "https://ror.org/03yeq9x20"
+            },
+            {
+                "organiser_name": "Sandra Koen",
+                "organiser_affiliation": "RIC Group",
+                "organiser_country": "Belgium",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Sandra Koen",
+                "openalex_page": "https://openalex.org/A5001424669",
+                "orcid": "https://orcid.org/0000-0003-3796-6696",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Schmitz Oliver",
+                "organiser_affiliation": "University of Duisburg-Essen",
+                "organiser_country": "Germany",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Oliver J. Schmitz",
+                "openalex_page": "https://openalex.org/A5046689115",
+                "orcid": "https://orcid.org/0000-0003-2184-1207",
+                "affiliation_ror": "https://ror.org/04mz5ra38"
+            },
+            {
+                "organiser_name": "Schug Kevin",
+                "organiser_affiliation": "The University of Texas at Arlington",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Kevin A. Schug",
+                "openalex_page": "https://openalex.org/A5009046602",
+                "orcid": "https://orcid.org/0000-0003-4817-9508",
+                "affiliation_ror": "https://ror.org/019kgqr73"
+            },
+            {
+                "organiser_name": "Stashenko Elena",
+                "organiser_affiliation": "Santander University",
+                "organiser_country": "Colombia",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Elena E. Stashenko",
+                "openalex_page": "https://openalex.org/A5002049879",
+                "orcid": "https://orcid.org/0000-0001-7052-932X",
+                "affiliation_ror": "https://ror.org/00xc1d948"
+            },
+            {
+                "organiser_name": "Xu Guowang",
+                "organiser_affiliation": "Dalian Institute of Chemical Physics",
+                "organiser_country": "China",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Guowang Xu",
+                "openalex_page": "https://openalex.org/A5031458824",
+                "orcid": "https://orcid.org/0000-0003-4298-3554",
+                "affiliation_ror": "https://ror.org/00prkya54"
+            },
+            {
+                "organiser_name": "Cappiello Achille",
+                "organiser_affiliation": "University of Urbino",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Achille Cappiello",
+                "openalex_page": "https://openalex.org/A5016498253",
+                "orcid": "https://orcid.org/0000-0001-6149-4305",
+                "affiliation_ror": "https://ror.org/04q4kt073"
+            },
+            {
+                "organiser_name": "Cavazzini Alberto",
+                "organiser_affiliation": "University of Ferrara",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Alberto Cavazzini",
+                "openalex_page": "https://openalex.org/A5078301307",
+                "orcid": "https://orcid.org/0000-0002-2510-0871",
+                "affiliation_ror": "https://ror.org/041zkgm14"
+            },
+            {
+                "organiser_name": "Donato Paola",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Paola Donato",
+                "openalex_page": "https://openalex.org/A5070900474",
+                "orcid": "https://orcid.org/0000-0002-7426-8726",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Dugo Paola",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Paola Dugo",
+                "openalex_page": "https://openalex.org/A5082948890",
+                "orcid": "https://orcid.org/0000-0002-9432-1782",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Gomes da Silva Marco",
+                "organiser_affiliation": "NOVA University Lisbon",
+                "organiser_country": "Portugal",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Marco Antonio Gomes da Silva",
+                "openalex_page": "https://openalex.org/A5122294707",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Rigano Francesca",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Francesca Rigano",
+                "openalex_page": "https://openalex.org/A5003171515",
+                "orcid": "https://orcid.org/0000-0001-7887-7134",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Zoccali Mariosimone",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Chair, Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Mariosimone Zoccali",
+                "openalex_page": "https://openalex.org/A5065210279",
+                "orcid": "https://orcid.org/0000-0002-7469-7408",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Bean Heather",
+                "organiser_affiliation": "Arizona State University",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Heather D. Bean",
+                "openalex_page": "https://openalex.org/A5012979554",
+                "orcid": "https://orcid.org/0000-0001-8821-0659",
+                "affiliation_ror": "https://ror.org/03efmqc40"
+            },
+            {
+                "organiser_name": "Cordero Chiara",
+                "organiser_affiliation": "University of Turin",
+                "organiser_country": "Italy",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chiara Cordero",
+                "openalex_page": "https://openalex.org/A5064116956",
+                "orcid": "https://orcid.org/0000-0003-3201-0775",
+                "affiliation_ror": "https://ror.org/048tbm396"
+            },
+            {
+                "organiser_name": "Dorman Frank",
+                "organiser_affiliation": "Dartmouth College",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Frank L. Dorman",
+                "openalex_page": "https://openalex.org/A5035235176",
+                "orcid": "https://orcid.org/0000-0001-7278-2652",
+                "affiliation_ror": "https://ror.org/049s0rh22"
+            },
+            {
+                "organiser_name": "Focant Jef",
+                "organiser_affiliation": "University of Li\u00e8ge",
+                "organiser_country": "Belgium",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Grecki Tadeusz",
+                "organiser_affiliation": "University of Waterloo",
+                "organiser_country": "Canada",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Hantao Leandro Wang",
+                "organiser_affiliation": "University of Campinas",
+                "organiser_country": "Brazil",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Leandro Wang Hantao",
+                "openalex_page": "https://openalex.org/A5031879339",
+                "orcid": "https://orcid.org/0000-0003-1146-6896",
+                "affiliation_ror": "https://ror.org/01pbdzh19"
+            },
+            {
+                "organiser_name": "Harynuk James",
+                "organiser_affiliation": "University of Alberta",
+                "organiser_country": "Canada",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "James J. Harynuk",
+                "openalex_page": "https://openalex.org/A5013063533",
+                "orcid": "https://orcid.org/0000-0002-9627-5206",
+                "affiliation_ror": "https://ror.org/0160cpw27"
+            },
+            {
+                "organiser_name": "Ieda Teruyo",
+                "organiser_affiliation": "National Institute for Environmental Studies",
+                "organiser_country": "Japan",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Teruyo Ieda",
+                "openalex_page": "https://openalex.org/A5018530637",
+                "orcid": "https://orcid.org/0000-0002-5583-9271",
+                "affiliation_ror": "https://ror.org/02hw5fp67"
+            },
+            {
+                "organiser_name": "Janssen Hans-Gerd",
+                "organiser_affiliation": "Unilever R&D Wageningen",
+                "organiser_country": "Netherlands",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Janssen Hans-Gerd",
+                "openalex_page": "https://openalex.org/A5036173888",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Marriott Phil",
+                "organiser_affiliation": "Monash University",
+                "organiser_country": "Australia",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Phil Marriott",
+                "openalex_page": "https://openalex.org/A5052112774",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Mondello Luigi",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Luigi Mondello",
+                "openalex_page": "https://openalex.org/A5009688692",
+                "orcid": "https://orcid.org/0000-0002-8890-675X",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Purcaro Giorgia",
+                "organiser_affiliation": "Gembloux Agro-Bio Tech, University of Li\u00e8ge",
+                "organiser_country": "Belgium",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Purcaro Giorgia",
+                "openalex_page": "https://openalex.org/A5014442255",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Synovec Rob",
+                "organiser_affiliation": "University of Washington",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Rob Synovec",
+                "openalex_page": "https://openalex.org/A5059405838",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Tranchida Peter",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Peter Q. Tranchida",
+                "openalex_page": "https://openalex.org/A5026512208",
+                "orcid": "https://orcid.org/0000-0002-6357-0815",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Ferracane Antonio",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Antonio Ferracane",
+                "openalex_page": "https://openalex.org/A5032302624",
+                "orcid": "https://orcid.org/0000-0003-1372-3040",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Galletta Micaela",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Micaela Galletta",
+                "openalex_page": "https://openalex.org/A5047247123",
+                "orcid": "https://orcid.org/0000-0003-1669-7298",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Zoccali Mariosimone",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Chair, Organizing Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Mariosimone Zoccali",
+                "openalex_page": "https://openalex.org/A5065210279",
+                "orcid": "https://orcid.org/0000-0002-7469-7408",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "44th International Symposium on Capillary Chromatography and 21st GC\u00d7GC Symposium",
+        "event_acronym": "ISCC",
+        "conference_series": "ISCC",
+        "colocated_with": "21st GC\u00d7GC Symposium",
+        "year": "2026",
+        "location": "Riva del Garda, Italy",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Prof. L. Mondello",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Chairman RIVA 2026",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. P. Sandra",
+                "organiser_affiliation": "RIC Group",
+                "organiser_country": "Belgium",
+                "track_name": "Honorary Chairman RIVA 2026",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "P Hayes",
+                "openalex_page": "https://openalex.org/A5113198429",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Sandra Pat",
+                "organiser_affiliation": "RIC Group",
+                "organiser_country": "Belgium",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Sandra Pat",
+                "openalex_page": "https://openalex.org/A5112313269",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Armstrong Daniel",
+                "organiser_affiliation": "The University of Texas Arlington",
+                "organiser_country": "USA",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Daniel W. Armstrong",
+                "openalex_page": "https://openalex.org/A5077242280",
+                "orcid": "https://orcid.org/0000-0003-0501-6231",
+                "affiliation_ror": "https://ror.org/019kgqr73"
+            },
+            {
+                "organiser_name": "Fanali Salvatore",
+                "organiser_affiliation": "CNR",
+                "organiser_country": "Italy",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Salvatore Fanali",
+                "openalex_page": "https://openalex.org/A5076032732",
+                "orcid": "https://orcid.org/0000-0002-8221-6133",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Jinno Kiyokatsu",
+                "organiser_affiliation": "Toyohashi University of Technology",
+                "organiser_country": "Japan",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Kiyokatsu Jinno",
+                "openalex_page": "https://openalex.org/A5067776339",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/04ezg6d83"
+            },
+            {
+                "organiser_name": "Jorgenson Jim",
+                "organiser_affiliation": "The University of North Carolina at Chapel Hill",
+                "organiser_country": "USA",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Myers Peter",
+                "organiser_affiliation": "University of Liverpool",
+                "organiser_country": "UK",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Peter Myers",
+                "openalex_page": "https://openalex.org/A5111639767",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/04xs57h96"
+            },
+            {
+                "organiser_name": "Novotny Milos",
+                "organiser_affiliation": "Indiana University, Bloomington",
+                "organiser_country": "USA",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Milo\u0161 V. Novotn\u00fd",
+                "openalex_page": "https://openalex.org/A5028971743",
+                "orcid": "https://orcid.org/0000-0001-5530-7059",
+                "affiliation_ror": "https://ror.org/02k40bc56"
+            },
+            {
+                "organiser_name": "Svec Frantisek",
+                "organiser_affiliation": "Charles University",
+                "organiser_country": "Czech Republic",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Franti\u0161ek \u0160vec",
+                "openalex_page": "https://openalex.org/A5038193861",
+                "orcid": "https://orcid.org/0000-0001-6574-1537",
+                "affiliation_ror": "https://ror.org/024d6js02"
+            },
+            {
+                "organiser_name": "Trestianu Sorin",
+                "organiser_affiliation": "Thermo Fisher Scientific",
+                "organiser_country": "Italy",
+                "track_name": "Honorary Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "S. Trestianu",
+                "openalex_page": "https://openalex.org/A5033646166",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Bicchi Carlo",
+                "organiser_affiliation": "University of Turin",
+                "organiser_country": "Italy",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Carlo Bicchi",
+                "openalex_page": "https://openalex.org/A5007226151",
+                "orcid": "https://orcid.org/0000-0003-1782-7357",
+                "affiliation_ror": "https://ror.org/048tbm396"
+            },
+            {
+                "organiser_name": "Desmet Gert",
+                "organiser_affiliation": "Vrije University",
+                "organiser_country": "Belgium",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Desmet Gert",
+                "openalex_page": "https://openalex.org/A5004870567",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Huber Christian",
+                "organiser_affiliation": "University of Salzburg",
+                "organiser_country": "Austria",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Christian G. Huber",
+                "openalex_page": "https://openalex.org/A5101645064",
+                "orcid": "https://orcid.org/0000-0001-8358-1880",
+                "affiliation_ror": "https://ror.org/05gs8cd61"
+            },
+            {
+                "organiser_name": "Janssen Hans-Gerd",
+                "organiser_affiliation": "Unilever R&D Wageningen",
+                "organiser_country": "Netherlands",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Janssen Hans-Gerd",
+                "openalex_page": "https://openalex.org/A5036173888",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Kennedy Robert",
+                "organiser_affiliation": "University of Michigan",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Robert T. Kennedy",
+                "openalex_page": "https://openalex.org/A5056086091",
+                "orcid": "https://orcid.org/0000-0003-2447-7471",
+                "affiliation_ror": "https://ror.org/00jmfr291"
+            },
+            {
+                "organiser_name": "Lan as Fernando",
+                "organiser_affiliation": "University of S\u00e3o Paulo",
+                "organiser_country": "Brazil",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Fernando Mauro Lan\ufffdas",
+                "openalex_page": "https://openalex.org/A5036509637",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/036rp1748"
+            },
+            {
+                "organiser_name": "Lee Milton",
+                "organiser_affiliation": "Brigham Young University",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Milton L. Lee",
+                "openalex_page": "https://openalex.org/A5050371313",
+                "orcid": "https://orcid.org/0000-0003-3084-0003",
+                "affiliation_ror": "https://ror.org/047rhhm47"
+            },
+            {
+                "organiser_name": "Marc Rosa Maria",
+                "organiser_affiliation": "Rovira i Virgili University",
+                "organiser_country": "Spain",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Luong Jim",
+                "organiser_affiliation": "Dow Chemical",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Luong Jim",
+                "openalex_page": "https://openalex.org/A5048179236",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Mondello Luigi",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Luigi Mondello",
+                "openalex_page": "https://openalex.org/A5009688692",
+                "orcid": "https://orcid.org/0000-0002-8890-675X",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Pawliszyn Janusz",
+                "organiser_affiliation": "University of Waterloo",
+                "organiser_country": "Canada",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Janusz Pawliszyn",
+                "openalex_page": "https://openalex.org/A5045312004",
+                "orcid": "https://orcid.org/0000-0002-9975-5811",
+                "affiliation_ror": "https://ror.org/01aff2v68"
+            },
+            {
+                "organiser_name": "Pichon Val rie",
+                "organiser_affiliation": "Sorbonne University",
+                "organiser_country": "France",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Val\ufffdrie Pichon",
+                "openalex_page": "https://openalex.org/A5113619309",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Psillakis Elia",
+                "organiser_affiliation": "Technical University of Crete",
+                "organiser_country": "Greece",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Ramsey Michael",
+                "organiser_affiliation": "The University of North Carolina at Chapel Hill",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Michael Ramsey",
+                "openalex_page": "https://openalex.org/A5008782015",
+                "orcid": "https://orcid.org/0009-0005-7719-8814",
+                "affiliation_ror": "https://ror.org/03yeq9x20"
+            },
+            {
+                "organiser_name": "Sandra Koen",
+                "organiser_affiliation": "RIC Group",
+                "organiser_country": "Belgium",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Sandra Koen",
+                "openalex_page": "https://openalex.org/A5001424669",
+                "orcid": "https://orcid.org/0000-0003-3796-6696",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Schmitz Oliver",
+                "organiser_affiliation": "University of Duisburg-Essen",
+                "organiser_country": "Germany",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Oliver J. Schmitz",
+                "openalex_page": "https://openalex.org/A5046689115",
+                "orcid": "https://orcid.org/0000-0003-2184-1207",
+                "affiliation_ror": "https://ror.org/04mz5ra38"
+            },
+            {
+                "organiser_name": "Schug Kevin",
+                "organiser_affiliation": "The University of Texas at Arlington",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Kevin A. Schug",
+                "openalex_page": "https://openalex.org/A5009046602",
+                "orcid": "https://orcid.org/0000-0003-4817-9508",
+                "affiliation_ror": "https://ror.org/019kgqr73"
+            },
+            {
+                "organiser_name": "Stashenko Elena",
+                "organiser_affiliation": "Santander University",
+                "organiser_country": "Colombia",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Elena E. Stashenko",
+                "openalex_page": "https://openalex.org/A5002049879",
+                "orcid": "https://orcid.org/0000-0001-7052-932X",
+                "affiliation_ror": "https://ror.org/00xc1d948"
+            },
+            {
+                "organiser_name": "Xu Guowang",
+                "organiser_affiliation": "Dalian Institute of Chemical Physics",
+                "organiser_country": "China",
+                "track_name": "Scientific Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Guowang Xu",
+                "openalex_page": "https://openalex.org/A5031458824",
+                "orcid": "https://orcid.org/0000-0003-4298-3554",
+                "affiliation_ror": "https://ror.org/00prkya54"
+            },
+            {
+                "organiser_name": "Cappiello Achille",
+                "organiser_affiliation": "University of Urbino",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Achille Cappiello",
+                "openalex_page": "https://openalex.org/A5016498253",
+                "orcid": "https://orcid.org/0000-0001-6149-4305",
+                "affiliation_ror": "https://ror.org/04q4kt073"
+            },
+            {
+                "organiser_name": "Cavazzini Alberto",
+                "organiser_affiliation": "University of Ferrara",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Alberto Cavazzini",
+                "openalex_page": "https://openalex.org/A5078301307",
+                "orcid": "https://orcid.org/0000-0002-2510-0871",
+                "affiliation_ror": "https://ror.org/041zkgm14"
+            },
+            {
+                "organiser_name": "Donato Paola",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Paola Donato",
+                "openalex_page": "https://openalex.org/A5070900474",
+                "orcid": "https://orcid.org/0000-0002-7426-8726",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Dugo Paola",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Paola Dugo",
+                "openalex_page": "https://openalex.org/A5082948890",
+                "orcid": "https://orcid.org/0000-0002-9432-1782",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Gomes da Silva Marco",
+                "organiser_affiliation": "NOVA University Lisbon",
+                "organiser_country": "Portugal",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Marco Antonio Gomes da Silva",
+                "openalex_page": "https://openalex.org/A5122294707",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Rigano Francesca",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Francesca Rigano",
+                "openalex_page": "https://openalex.org/A5003171515",
+                "orcid": "https://orcid.org/0000-0001-7887-7134",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Zoccali Mariosimone",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Chair, Organizing Committee 44th ISCC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Mariosimone Zoccali",
+                "openalex_page": "https://openalex.org/A5065210279",
+                "orcid": "https://orcid.org/0000-0002-7469-7408",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Bean Heather",
+                "organiser_affiliation": "Arizona State University",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Heather D. Bean",
+                "openalex_page": "https://openalex.org/A5012979554",
+                "orcid": "https://orcid.org/0000-0001-8821-0659",
+                "affiliation_ror": "https://ror.org/03efmqc40"
+            },
+            {
+                "organiser_name": "Cordero Chiara",
+                "organiser_affiliation": "University of Turin",
+                "organiser_country": "Italy",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chiara Cordero",
+                "openalex_page": "https://openalex.org/A5064116956",
+                "orcid": "https://orcid.org/0000-0003-3201-0775",
+                "affiliation_ror": "https://ror.org/048tbm396"
+            },
+            {
+                "organiser_name": "Dorman Frank",
+                "organiser_affiliation": "Dartmouth College",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Frank L. Dorman",
+                "openalex_page": "https://openalex.org/A5035235176",
+                "orcid": "https://orcid.org/0000-0001-7278-2652",
+                "affiliation_ror": "https://ror.org/049s0rh22"
+            },
+            {
+                "organiser_name": "Focant Jef",
+                "organiser_affiliation": "University of Li\u00e8ge",
+                "organiser_country": "Belgium",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Grecki Tadeusz",
+                "organiser_affiliation": "University of Waterloo",
+                "organiser_country": "Canada",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Hantao Leandro Wang",
+                "organiser_affiliation": "University of Campinas",
+                "organiser_country": "Brazil",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Leandro Wang Hantao",
+                "openalex_page": "https://openalex.org/A5031879339",
+                "orcid": "https://orcid.org/0000-0003-1146-6896",
+                "affiliation_ror": "https://ror.org/01pbdzh19"
+            },
+            {
+                "organiser_name": "Harynuk James",
+                "organiser_affiliation": "University of Alberta",
+                "organiser_country": "Canada",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "James J. Harynuk",
+                "openalex_page": "https://openalex.org/A5013063533",
+                "orcid": "https://orcid.org/0000-0002-9627-5206",
+                "affiliation_ror": "https://ror.org/0160cpw27"
+            },
+            {
+                "organiser_name": "Ieda Teruyo",
+                "organiser_affiliation": "National Institute for Environmental Studies",
+                "organiser_country": "Japan",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Teruyo Ieda",
+                "openalex_page": "https://openalex.org/A5018530637",
+                "orcid": "https://orcid.org/0000-0002-5583-9271",
+                "affiliation_ror": "https://ror.org/02hw5fp67"
+            },
+            {
+                "organiser_name": "Janssen Hans-Gerd",
+                "organiser_affiliation": "Unilever R&D Wageningen",
+                "organiser_country": "Netherlands",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Janssen Hans-Gerd",
+                "openalex_page": "https://openalex.org/A5036173888",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Marriott Phil",
+                "organiser_affiliation": "Monash University",
+                "organiser_country": "Australia",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Phil Marriott",
+                "openalex_page": "https://openalex.org/A5052112774",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Mondello Luigi",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Luigi Mondello",
+                "openalex_page": "https://openalex.org/A5009688692",
+                "orcid": "https://orcid.org/0000-0002-8890-675X",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Purcaro Giorgia",
+                "organiser_affiliation": "Gembloux Agro-Bio Tech, University of Li\u00e8ge",
+                "organiser_country": "Belgium",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Purcaro Giorgia",
+                "openalex_page": "https://openalex.org/A5014442255",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Synovec Rob",
+                "organiser_affiliation": "University of Washington",
+                "organiser_country": "USA",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Rob Synovec",
+                "openalex_page": "https://openalex.org/A5059405838",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Tranchida Peter",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Scientific Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Peter Q. Tranchida",
+                "openalex_page": "https://openalex.org/A5026512208",
+                "orcid": "https://orcid.org/0000-0002-6357-0815",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Ferracane Antonio",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Antonio Ferracane",
+                "openalex_page": "https://openalex.org/A5032302624",
+                "orcid": "https://orcid.org/0000-0003-1372-3040",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Galletta Micaela",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Organizing Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Micaela Galletta",
+                "openalex_page": "https://openalex.org/A5047247123",
+                "orcid": "https://orcid.org/0000-0003-1669-7298",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            },
+            {
+                "organiser_name": "Zoccali Mariosimone",
+                "organiser_affiliation": "University of Messina",
+                "organiser_country": "Italy",
+                "track_name": "Chair, Organizing Committee 21st GC\u00d7GC",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Mariosimone Zoccali",
+                "openalex_page": "https://openalex.org/A5065210279",
+                "orcid": "https://orcid.org/0000-0002-7469-7408",
+                "affiliation_ror": "https://ror.org/05ctdxz19"
+            }
+        ],
+        "topics": [
+            "Capillary Gas Chromatography",
+            "Nano and Capillary Liquid Chromatography",
+            "Column Technology",
+            "Hyphenated Techniques",
+            "Comprehensive Techniques",
+            "Coupled and Multidimensional Techniques",
+            "Sampling Systems",
+            "Miniaturized Sample Preparation",
+            "Trace Analysis",
+            "Automation",
+            "Electromigration Methods",
+            "Microfabricated Analytical Systems Lab-on-a-chip",
+            "Supercritical Fluid Chromatography and Extraction",
+            "Environmental Applications",
+            "Biomedical and Pharmaceutical Applications",
+            "Energy, Petrochemical and Industrial Applications",
+            "Natural Products, Food, Flavours and Fragrances",
+            "Artificial Intelligence",
+            "3D Printing",
+            "State-of-the-Art PFAS Analysis",
+            "Mass Spectrometry hyphenated to miniaturized systems"
+        ],
+        "enhanced_topics": {
+            "Capillary Gas Chromatography": [],
+            "Nano and Capillary Liquid Chromatography": [
+                {
+                    "topic": "liquid chromatography",
+                    "similarity": 0.6109868288040161
+                },
+                {
+                    "topic": "nanoprobing",
+                    "similarity": 0.6838037967681885
+                }
+            ],
+            "Column Technology": [],
+            "Hyphenated Techniques": [],
+            "Comprehensive Techniques": [],
+            "Coupled and Multidimensional Techniques": [],
+            "Sampling Systems": [
+                {
+                    "topic": "sampling",
+                    "similarity": 0.6647409200668335
+                },
+                {
+                    "topic": "sampling techniques",
+                    "similarity": 0.6488304436206818
+                }
+            ],
+            "Miniaturized Sample Preparation": [],
+            "Trace Analysis": [],
+            "Automation": [
+                {
+                    "topic": "automation",
+                    "similarity": 0.9999999999992187
+                },
+                {
+                    "topic": "flexible automation",
+                    "similarity": 0.7401537895202637
+                },
+                {
+                    "topic": "industrial automation",
+                    "similarity": 0.6976356208324432
+                }
+            ],
+            "Electromigration Methods": [
+                {
+                    "topic": "electromigration",
+                    "similarity": 0.7678416669368744
+                }
+            ],
+            "Microfabricated Analytical Systems Lab-on-a-chip": [],
+            "Supercritical Fluid Chromatography and Extraction": [
+                {
+                    "topic": "extraction",
+                    "similarity": 0.9999999999993135
+                },
+                {
+                    "topic": "extraction techniques",
+                    "similarity": 0.8503968119621277
+                },
+                {
+                    "topic": "extraction methods",
+                    "similarity": 0.7837103605270386
+                },
+                {
+                    "topic": "extraction and separation processes",
+                    "similarity": 0.708623856306076
+                },
+                {
+                    "topic": "supercritical fluids",
+                    "similarity": 0.6191833019256592
+                }
+            ],
+            "Environmental Applications": [
+                {
+                    "topic": "environmental applications",
+                    "similarity": 0.9999999999989821
+                }
+            ],
+            "Biomedical and Pharmaceutical Applications": [
+                {
+                    "topic": "biomedical science",
+                    "similarity": 0.7305046916007996
+                },
+                {
+                    "topic": "biomedical engineering",
+                    "similarity": 0.6219429671764374
+                },
+                {
+                    "topic": "pharmaceutical compounds",
+                    "similarity": 0.6058533787727356
+                }
+            ],
+            "Energy, Petrochemical and Industrial Applications": [
+                {
+                    "topic": "energy",
+                    "similarity": 0.9999999999991593
+                },
+                {
+                    "topic": "industrial applications",
+                    "similarity": 0.9999999999991332
+                },
+                {
+                    "topic": "petrochemicals",
+                    "similarity": 0.9560739509761333
+                }
+            ],
+            "Natural Products, Food, Flavours and Fragrances": [
+                {
+                    "topic": "food",
+                    "similarity": 0.9999999999990244
+                },
+                {
+                    "topic": "flavor",
+                    "similarity": 0.6831143498420715
+                },
+                {
+                    "topic": "fragrance ingredients",
+                    "similarity": 0.7023955285549164
+                },
+                {
+                    "topic": "natural products",
+                    "similarity": 0.9999999999991277
+                },
+                {
+                    "topic": "natural product",
+                    "similarity": 0.9517396055161953
+                },
+                {
+                    "topic": "natural products and applications",
+                    "similarity": 0.7295911908149719
+                },
+                {
+                    "topic": "natural products and biological research",
+                    "similarity": 0.7287227213382721
+                },
+                {
+                    "topic": "medicinal natural products",
+                    "similarity": 0.6320554614067078
+                }
+            ],
+            "Artificial Intelligence": [
+                {
+                    "topic": "artificial intelligence",
+                    "similarity": 0.9999999999986667
+                },
+                {
+                    "topic": "artificial intelligences",
+                    "similarity": 0.7919561862945557
+                },
+                {
+                    "topic": "artificial intelligence technology",
+                    "similarity": 0.7420194745063782
+                },
+                {
+                    "topic": "computational intelligence",
+                    "similarity": 0.6817815005779266
+                }
+            ],
+            "3D Printing": [
+                {
+                    "topic": "3d printing",
+                    "similarity": 0.999999999999285
+                },
+                {
+                    "topic": "metal 3d printing",
+                    "similarity": 0.6858223676681519
+                },
+                {
+                    "topic": "additive manufacturing and 3d printing technologies",
+                    "similarity": 0.6251504421234131
+                }
+            ],
+            "State-of-the-Art PFAS Analysis": [],
+            "Mass Spectrometry hyphenated to miniaturized systems": [
+                {
+                    "topic": "mass spectrometry",
+                    "similarity": 0.9999999999990244
+                },
+                {
+                    "topic": "mass spectrometry techniques",
+                    "similarity": 0.8841030895709991
+                },
+                {
+                    "topic": "mass spectrometry techniques and applications",
+                    "similarity": 0.8261391818523407
+                },
+                {
+                    "topic": "tandem mass spectrometry",
+                    "similarity": 0.7197222113609314
+                },
+                {
+                    "topic": "mass spectrometry techniques with proteins",
+                    "similarity": 0.6603713631629944
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    }
+}

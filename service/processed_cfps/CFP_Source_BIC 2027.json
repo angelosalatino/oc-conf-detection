@@ -1,0 +1,1069 @@
+{
+    "llm-output": {
+        "event_name": "2027 7th International Conference on Bioinformatics and Intelligent Computing",
+        "conference_series": "International Conference on Bioinformatics and Intelligent Computing",
+        "event_acronym": "BIC 2027",
+        "colocated_with": "",
+        "year": "2027",
+        "location": "Shenzhen, China",
+        "topics": [
+            "Bioinformatics",
+            "Bioinformatics & Intelligent Computing",
+            "Intelligent Computing",
+            "Algorithms, models, software, and tools in Bioinformatics",
+            "Any novel approaches to bioinformatics problems",
+            "Applications to diagnosis, prognosis, treatment, monitoring and rehabilitation",
+            "Biological devices/Biosensors and Molecular Diagnostics",
+            "Computational proteomics",
+            "DNA and RNA structure, function and sequence analysis",
+            "Experimental methods for model validation",
+            "Gene engineering and protein engineering",
+            "Gene regulation, expression, identification and network",
+            "Genomics and Proteomics",
+            "Imaging, instrumentation and sensors for model generation and identification",
+            "Immuno- and Chemo-Informatics",
+            "Multiscale modelling and integrative research",
+            "Next Generation Sequencing",
+            "Pharmaceutical Applications",
+            "Probabilistic and optimization methods in bioengineering",
+            "Protein interactions, docking and function",
+            "Protein structure, function and sequence analysis",
+            "Sequence Analysis",
+            "Structural Bioinformatics",
+            "Structural, functional and comparative genomics",
+            "Structure Prediction",
+            "Synthetic biology",
+            "Intelligent Computing",
+            "designing and building hardware & software systems processing, structuring",
+            "managing various kinds of information",
+            "scientific research",
+            "making computer systems behave intelligently",
+            "creating and using communications & entertainment media",
+            "Bioinformatics & Intelligent Computing",
+            "Algorithms and Software Tools",
+            "Biostatistics and Stochastic Models",
+            "Computational evolutionary biology",
+            "Computational Intelligence",
+            "Computational Molecular Systems",
+            "Computational Neuroscience",
+            "Data acquisition, normalization, analysis and visualization",
+            "Data management and modeling tools",
+            "Data Mining and Machine Learning",
+            "Databases and Data Management",
+            "Drug design and computer aided diagnosis",
+            "Emerging numerical methods and computational tools",
+            "Formal Verification of Biological Systems",
+            "Gene regulation, expression, identification and network",
+            "High-performance computational systems biology and parallel implementations",
+            "Image Analysis",
+            "Inference from high-throughput experimental data",
+            "Information Technology applications to computational bioengineering",
+            "Model Design and Evaluation",
+            "Model integration from biological databases",
+            "Multi-scale modeling and analysis methods",
+            "Pattern Recognition, Clustering and Classification",
+            "Simulation and Modeling",
+            "Subject-specific and population-based modeling methods",
+            "Systems Biology",
+            "Transcriptomics",
+            "Visualization",
+            "Web Services in Bioinformatics"
+        ],
+        "organisers": []
+    },
+    "processed": {
+        "event_name": "2027 7th International Conference on Bioinformatics and Intelligent Computing",
+        "event_acronym": "BIC 2027",
+        "conference_series": "International Conference on Bioinformatics and Intelligent Computing",
+        "colocated_with": "",
+        "year": "2027",
+        "location": "Shenzhen, China",
+        "DBLP": {
+            "name": "International Conference on Bioinformatics and Intelligent Computing",
+            "id": "bic",
+            "url": "https://dblp.org/streams/conf/bic"
+        },
+        "AIDA": {
+            "name": "International Conference on Bioinformatics and Intelligent Computing",
+            "id": "bic",
+            "url": "https://w3id.org/aida/dashboard/cs/conference/International%20Conference%20on%20Bioinformatics%20and%20Intelligent%20Computing"
+        },
+        "ConfIDent": {},
+        "organisers": [],
+        "topics": [
+            "Bioinformatics",
+            "Bioinformatics & Intelligent Computing",
+            "Intelligent Computing",
+            "Algorithms, models, software, and tools in Bioinformatics",
+            "Any novel approaches to bioinformatics problems",
+            "Applications to diagnosis, prognosis, treatment, monitoring and rehabilitation",
+            "Biological devices/Biosensors and Molecular Diagnostics",
+            "Computational proteomics",
+            "DNA and RNA structure, function and sequence analysis",
+            "Experimental methods for model validation",
+            "Gene engineering and protein engineering",
+            "Gene regulation, expression, identification and network",
+            "Genomics and Proteomics",
+            "Imaging, instrumentation and sensors for model generation and identification",
+            "Immuno- and Chemo-Informatics",
+            "Multiscale modelling and integrative research",
+            "Next Generation Sequencing",
+            "Pharmaceutical Applications",
+            "Probabilistic and optimization methods in bioengineering",
+            "Protein interactions, docking and function",
+            "Protein structure, function and sequence analysis",
+            "Sequence Analysis",
+            "Structural Bioinformatics",
+            "Structural, functional and comparative genomics",
+            "Structure Prediction",
+            "Synthetic biology",
+            "Intelligent Computing",
+            "designing and building hardware & software systems processing, structuring",
+            "managing various kinds of information",
+            "scientific research",
+            "making computer systems behave intelligently",
+            "creating and using communications & entertainment media",
+            "Bioinformatics & Intelligent Computing",
+            "Algorithms and Software Tools",
+            "Biostatistics and Stochastic Models",
+            "Computational evolutionary biology",
+            "Computational Intelligence",
+            "Computational Molecular Systems",
+            "Computational Neuroscience",
+            "Data acquisition, normalization, analysis and visualization",
+            "Data management and modeling tools",
+            "Data Mining and Machine Learning",
+            "Databases and Data Management",
+            "Drug design and computer aided diagnosis",
+            "Emerging numerical methods and computational tools",
+            "Formal Verification of Biological Systems",
+            "Gene regulation, expression, identification and network",
+            "High-performance computational systems biology and parallel implementations",
+            "Image Analysis",
+            "Inference from high-throughput experimental data",
+            "Information Technology applications to computational bioengineering",
+            "Model Design and Evaluation",
+            "Model integration from biological databases",
+            "Multi-scale modeling and analysis methods",
+            "Pattern Recognition, Clustering and Classification",
+            "Simulation and Modeling",
+            "Subject-specific and population-based modeling methods",
+            "Systems Biology",
+            "Transcriptomics",
+            "Visualization",
+            "Web Services in Bioinformatics"
+        ],
+        "enhanced_topics": {
+            "Bioinformatics": [
+                {
+                    "topic": "bioinformatics",
+                    "similarity": 0.9999999999986008
+                },
+                {
+                    "topic": "bioinformatics tools",
+                    "similarity": 0.7977283447980881
+                },
+                {
+                    "topic": "machine learning in bioinformatics",
+                    "similarity": 0.623091846704483
+                },
+                {
+                    "topic": "bioinformatics and genomic networks",
+                    "similarity": 0.6042113900184631
+                }
+            ],
+            "Bioinformatics & Intelligent Computing": [
+                {
+                    "topic": "bioinformatics",
+                    "similarity": 0.6803038120269775
+                }
+            ],
+            "Intelligent Computing": [],
+            "Algorithms, models, software, and tools in Bioinformatics": [
+                {
+                    "topic": "software",
+                    "similarity": 0.9999999999988284
+                },
+                {
+                    "topic": "modeling",
+                    "similarity": 0.6894043982028961
+                },
+                {
+                    "topic": "model theory",
+                    "similarity": 0.6005967557430267
+                },
+                {
+                    "topic": "bioinformatics tools",
+                    "similarity": 0.9627608135342598
+                },
+                {
+                    "topic": "bioinformatics",
+                    "similarity": 0.7898616790771484
+                },
+                {
+                    "topic": "algorithms",
+                    "similarity": 0.9999999999991924
+                },
+                {
+                    "topic": "algorithm",
+                    "similarity": 0.7614734470844269
+                },
+                {
+                    "topic": "efficient algorithms",
+                    "similarity": 0.6718832850456238
+                },
+                {
+                    "topic": "algorithmic applications",
+                    "similarity": 0.6398061513900757
+                }
+            ],
+            "Any novel approaches to bioinformatics problems": [
+                {
+                    "topic": "bioinformatics",
+                    "similarity": 0.686725378036499
+                }
+            ],
+            "Applications to diagnosis, prognosis, treatment, monitoring and rehabilitation": [
+                {
+                    "topic": "rehabilitation",
+                    "similarity": 0.999999999999331
+                },
+                {
+                    "topic": "rehabilitation techniques",
+                    "similarity": 0.8373186886310577
+                },
+                {
+                    "topic": "rehabilitation medicine",
+                    "similarity": 0.7913802564144135
+                },
+                {
+                    "topic": "biological rehabilitation",
+                    "similarity": 0.7232348918914795
+                },
+                {
+                    "topic": "medical practices and rehabilitation",
+                    "similarity": 0.6914173364639282
+                },
+                {
+                    "topic": "prognosis",
+                    "similarity": 0.9999999999986561
+                },
+                {
+                    "topic": "prognostics",
+                    "similarity": 0.8072942644357681
+                },
+                {
+                    "topic": "monitoring",
+                    "similarity": 0.9999999999991649
+                },
+                {
+                    "topic": "monitoring techniques",
+                    "similarity": 0.7364262342453003
+                },
+                {
+                    "topic": "monitoring system",
+                    "similarity": 0.6936368048191071
+                },
+                {
+                    "topic": "treatment",
+                    "similarity": 0.9999999999988586
+                }
+            ],
+            "Biological devices/Biosensors and Molecular Diagnostics": [
+                {
+                    "topic": "molecular diagnosis",
+                    "similarity": 0.8389975726604462
+                },
+                {
+                    "topic": "biosensors",
+                    "similarity": 0.8152225911617279
+                },
+                {
+                    "topic": "biosensing",
+                    "similarity": 0.6746853590011597
+                },
+                {
+                    "topic": "biosensor applications",
+                    "similarity": 0.6346274018287659
+                }
+            ],
+            "Computational proteomics": [
+                {
+                    "topic": "proteomics",
+                    "similarity": 0.8223986774682999
+                },
+                {
+                    "topic": "proteomic analysis",
+                    "similarity": 0.6636228263378143
+                },
+                {
+                    "topic": "functional proteomics",
+                    "similarity": 0.6625490188598633
+                }
+            ],
+            "DNA and RNA structure, function and sequence analysis": [
+                {
+                    "topic": "dna",
+                    "similarity": 0.999999999998956
+                },
+                {
+                    "topic": "function",
+                    "similarity": 0.9999999999991119
+                },
+                {
+                    "topic": "rna structure",
+                    "similarity": 0.9999999999993245
+                }
+            ],
+            "Experimental methods for model validation": [
+                {
+                    "topic": "experimental methods",
+                    "similarity": 0.9999999999991815
+                },
+                {
+                    "topic": "model validation",
+                    "similarity": 0.9999999999993413
+                },
+                {
+                    "topic": "validation",
+                    "similarity": 0.6478931903839111
+                }
+            ],
+            "Gene engineering and protein engineering": [
+                {
+                    "topic": "genetic engineering",
+                    "similarity": 0.7360315918922424
+                },
+                {
+                    "topic": "genome engineering",
+                    "similarity": 0.6816291213035583
+                },
+                {
+                    "topic": "protein engineering",
+                    "similarity": 0.9999999999984657
+                }
+            ],
+            "Gene regulation, expression, identification and network": [
+                {
+                    "topic": "identification",
+                    "similarity": 0.9999999999988638
+                },
+                {
+                    "topic": "gene regulation",
+                    "similarity": 0.9999999999988333
+                },
+                {
+                    "topic": "gene expression regulation",
+                    "similarity": 0.8090317845344543
+                },
+                {
+                    "topic": "genetic regulation",
+                    "similarity": 0.7965066283941269
+                },
+                {
+                    "topic": "regulation of gene expression",
+                    "similarity": 0.7574089020490646
+                },
+                {
+                    "topic": "network",
+                    "similarity": 0.9999999999993677
+                },
+                {
+                    "topic": "networking",
+                    "similarity": 0.7802170664072037
+                },
+                {
+                    "topic": "networks",
+                    "similarity": 0.690041571855545
+                }
+            ],
+            "Genomics and Proteomics": [
+                {
+                    "topic": "proteomics",
+                    "similarity": 0.9999999999989291
+                },
+                {
+                    "topic": "functional proteomics",
+                    "similarity": 0.768317699432373
+                },
+                {
+                    "topic": "proteomic analysis",
+                    "similarity": 0.762047529220581
+                },
+                {
+                    "topic": "advanced proteomics techniques and applications",
+                    "similarity": 0.6278480291366577
+                },
+                {
+                    "topic": "genomics",
+                    "similarity": 0.9999999999989198
+                },
+                {
+                    "topic": "genomic",
+                    "similarity": 0.8382537961006165
+                },
+                {
+                    "topic": "human genomics",
+                    "similarity": 0.7497124075889587
+                },
+                {
+                    "topic": "genomic research",
+                    "similarity": 0.6871862411499023
+                }
+            ],
+            "Imaging, instrumentation and sensors for model generation and identification": [
+                {
+                    "topic": "instrumentation",
+                    "similarity": 0.9999999999991115
+                },
+                {
+                    "topic": "identification",
+                    "similarity": 0.9999999999988638
+                },
+                {
+                    "topic": "imaging",
+                    "similarity": 0.9999999999992633
+                },
+                {
+                    "topic": "medical imaging",
+                    "similarity": 0.7396945953369141
+                },
+                {
+                    "topic": "imaging techniques",
+                    "similarity": 0.6701841354370117
+                },
+                {
+                    "topic": "imaging characteristics",
+                    "similarity": 0.6397826075553894
+                }
+            ],
+            "Immuno- and Chemo-Informatics": [
+                {
+                    "topic": "immunoassay",
+                    "similarity": 0.7101085782051086
+                },
+                {
+                    "topic": "immunology",
+                    "similarity": 0.6618114709854126
+                },
+                {
+                    "topic": "immunonutrition",
+                    "similarity": 0.6200792193412781
+                }
+            ],
+            "Multiscale modelling and integrative research": [
+                {
+                    "topic": "multiscale modeling",
+                    "similarity": 0.9531237855553627
+                },
+                {
+                    "topic": "multiscale model",
+                    "similarity": 0.888815313577652
+                }
+            ],
+            "Next Generation Sequencing": [
+                {
+                    "topic": "next-generation sequencing",
+                    "similarity": 0.9701373316347599
+                },
+                {
+                    "topic": "genomic sequencing",
+                    "similarity": 0.6120156049728394
+                }
+            ],
+            "Pharmaceutical Applications": [
+                {
+                    "topic": "pharmaceutical compounds",
+                    "similarity": 0.6058531999588013
+                }
+            ],
+            "Probabilistic and optimization methods in bioengineering": [
+                {
+                    "topic": "probabilistic analysis",
+                    "similarity": 0.7613882124423981
+                },
+                {
+                    "topic": "probabilistic systems",
+                    "similarity": 0.7369306087493896
+                },
+                {
+                    "topic": "probabilistic methods",
+                    "similarity": 0.6651889085769653
+                },
+                {
+                    "topic": "probabilistic models",
+                    "similarity": 0.6517313718795776
+                }
+            ],
+            "Protein interactions, docking and function": [
+                {
+                    "topic": "protein interactions",
+                    "similarity": 0.9999999999991188
+                },
+                {
+                    "topic": "protein-protein interactions",
+                    "similarity": 0.95252825319767
+                },
+                {
+                    "topic": "human protein interactome",
+                    "similarity": 0.6368300318717957
+                },
+                {
+                    "topic": "function",
+                    "similarity": 0.9999999999991119
+                }
+            ],
+            "Protein structure, function and sequence analysis": [
+                {
+                    "topic": "function",
+                    "similarity": 0.9999999999991119
+                },
+                {
+                    "topic": "protein structure",
+                    "similarity": 0.999999999999331
+                },
+                {
+                    "topic": "protein structure and dynamics",
+                    "similarity": 0.6840192079544067
+                },
+                {
+                    "topic": "protein structure determination",
+                    "similarity": 0.6766228079795837
+                }
+            ],
+            "Sequence Analysis": [],
+            "Structural Bioinformatics": [
+                {
+                    "topic": "bioinformatics",
+                    "similarity": 0.6579234600067139
+                }
+            ],
+            "Structural, functional and comparative genomics": [
+                {
+                    "topic": "comparative genomics",
+                    "similarity": 0.9999999999988951
+                },
+                {
+                    "topic": "structure",
+                    "similarity": 0.7425494194030762
+                },
+                {
+                    "topic": "structures",
+                    "similarity": 0.6960417926311493
+                },
+                {
+                    "topic": "structural study",
+                    "similarity": 0.6823917925357819
+                },
+                {
+                    "topic": "structural analysis",
+                    "similarity": 0.6677423119544983
+                },
+                {
+                    "topic": "structural characterization",
+                    "similarity": 0.6518027186393738
+                }
+            ],
+            "Structure Prediction": [
+                {
+                    "topic": "secondary structure prediction",
+                    "similarity": 0.7294620275497437
+                }
+            ],
+            "Synthetic biology": [
+                {
+                    "topic": "synthetic biology",
+                    "similarity": 0.9999999999992928
+                },
+                {
+                    "topic": "metabolic engineering and synthetic biology",
+                    "similarity": 0.6377618312835693
+                }
+            ],
+            "designing and building hardware & software systems processing, structuring": [
+                {
+                    "topic": "design",
+                    "similarity": 0.7844281941652298
+                },
+                {
+                    "topic": "structuring",
+                    "similarity": 0.9999999999992945
+                }
+            ],
+            "managing various kinds of information": [
+                {
+                    "topic": "information",
+                    "similarity": 0.9999999999988846
+                },
+                {
+                    "topic": "information content",
+                    "similarity": 0.6143069863319397
+                }
+            ],
+            "scientific research": [
+                {
+                    "topic": "scientific research",
+                    "similarity": 0.9999999999990588
+                },
+                {
+                    "topic": "scientific research and studies",
+                    "similarity": 0.8238621652126312
+                },
+                {
+                    "topic": "research",
+                    "similarity": 0.7216555178165436
+                },
+                {
+                    "topic": "academic research",
+                    "similarity": 0.7025336921215057
+                },
+                {
+                    "topic": "scientific research and technology",
+                    "similarity": 0.6945256590843201
+                }
+            ],
+            "making computer systems behave intelligently": [],
+            "creating and using communications & entertainment media": [
+                {
+                    "topic": "media communication",
+                    "similarity": 0.6373005211353302
+                },
+                {
+                    "topic": "media and entertainment",
+                    "similarity": 0.6252289414405823
+                }
+            ],
+            "Algorithms and Software Tools": [
+                {
+                    "topic": "algorithms",
+                    "similarity": 0.9999999999991924
+                },
+                {
+                    "topic": "algorithm",
+                    "similarity": 0.7614734470844269
+                },
+                {
+                    "topic": "efficient algorithms",
+                    "similarity": 0.6718832850456238
+                },
+                {
+                    "topic": "algorithmic applications",
+                    "similarity": 0.6398061513900757
+                }
+            ],
+            "Biostatistics and Stochastic Models": [
+                {
+                    "topic": "stochastic modeling",
+                    "similarity": 0.887648731470108
+                },
+                {
+                    "topic": "stochastic",
+                    "similarity": 0.6643383502960205
+                },
+                {
+                    "topic": "stochastic analysis",
+                    "similarity": 0.6245629191398621
+                },
+                {
+                    "topic": "stochasticity",
+                    "similarity": 0.60496386885643
+                },
+                {
+                    "topic": "biostatistics",
+                    "similarity": 0.9999999999988493
+                }
+            ],
+            "Computational evolutionary biology": [
+                {
+                    "topic": "computational biology",
+                    "similarity": 0.6265791654586792
+                }
+            ],
+            "Computational Intelligence": [
+                {
+                    "topic": "computational intelligence",
+                    "similarity": 0.9999999999984478
+                },
+                {
+                    "topic": "artificial intelligence",
+                    "similarity": 0.6817812919616699
+                }
+            ],
+            "Computational Molecular Systems": [
+                {
+                    "topic": "molecular computation",
+                    "similarity": 0.7132590413093567
+                },
+                {
+                    "topic": "molecular systems",
+                    "similarity": 0.6844777464866638
+                },
+                {
+                    "topic": "molecular computing",
+                    "similarity": 0.6830903887748718
+                }
+            ],
+            "Computational Neuroscience": [
+                {
+                    "topic": "neuroscience",
+                    "similarity": 0.6524010300636292
+                }
+            ],
+            "Data acquisition, normalization, analysis and visualization": [
+                {
+                    "topic": "normalization",
+                    "similarity": 0.9999999999990814
+                },
+                {
+                    "topic": "analysis",
+                    "similarity": 0.9999999999991188
+                },
+                {
+                    "topic": "mathematical analysis",
+                    "similarity": 0.6133468151092529
+                },
+                {
+                    "topic": "data acquisition",
+                    "similarity": 0.9999999999993214
+                },
+                {
+                    "topic": "data-independent acquisition",
+                    "similarity": 0.6200151741504669
+                },
+                {
+                    "topic": "visualization",
+                    "similarity": 0.9999999999988651
+                },
+                {
+                    "topic": "data visualization",
+                    "similarity": 0.7233216762542725
+                },
+                {
+                    "topic": "interactive visualization",
+                    "similarity": 0.6690190136432648
+                },
+                {
+                    "topic": "information visualization",
+                    "similarity": 0.6547377109527588
+                }
+            ],
+            "Data management and modeling tools": [
+                {
+                    "topic": "data management",
+                    "similarity": 0.9999999999991716
+                },
+                {
+                    "topic": "data management and algorithms",
+                    "similarity": 0.6323500275611877
+                },
+                {
+                    "topic": "database management",
+                    "similarity": 0.614418625831604
+                },
+                {
+                    "topic": "models and tools",
+                    "similarity": 0.7690731137990952
+                },
+                {
+                    "topic": "modeling",
+                    "similarity": 0.6264212131500244
+                }
+            ],
+            "Data Mining and Machine Learning": [
+                {
+                    "topic": "machine learning",
+                    "similarity": 0.9999999999985848
+                },
+                {
+                    "topic": "machine learning algorithms",
+                    "similarity": 0.7623511552810669
+                },
+                {
+                    "topic": "machine learning models",
+                    "similarity": 0.7418792247772217
+                },
+                {
+                    "topic": "machine learning and algorithms",
+                    "similarity": 0.7121975719928741
+                },
+                {
+                    "topic": "data mining",
+                    "similarity": 0.9999999999986745
+                },
+                {
+                    "topic": "data mining techniques",
+                    "similarity": 0.7289960384368896
+                },
+                {
+                    "topic": "data mining algorithms and applications",
+                    "similarity": 0.641930103302002
+                },
+                {
+                    "topic": "data records mining",
+                    "similarity": 0.626368373632431
+                }
+            ],
+            "Databases and Data Management": [
+                {
+                    "topic": "databases",
+                    "similarity": 0.9999999999993336
+                },
+                {
+                    "topic": "database",
+                    "similarity": 0.8007305711507797
+                },
+                {
+                    "topic": "database systems",
+                    "similarity": 0.6950923502445221
+                },
+                {
+                    "topic": "database management",
+                    "similarity": 0.614418625831604
+                },
+                {
+                    "topic": "data management",
+                    "similarity": 0.9999999999991716
+                },
+                {
+                    "topic": "data management and algorithms",
+                    "similarity": 0.6323500275611877
+                }
+            ],
+            "Drug design and computer aided diagnosis": [
+                {
+                    "topic": "computer-aided diagnosis",
+                    "similarity": 0.965500008314848
+                },
+                {
+                    "topic": "automated diagnosis",
+                    "similarity": 0.6646215319633484
+                },
+                {
+                    "topic": "drug design",
+                    "similarity": 0.9999999999993613
+                }
+            ],
+            "Emerging numerical methods and computational tools": [
+                {
+                    "topic": "numerical methods",
+                    "similarity": 0.7665018886327744
+                },
+                {
+                    "topic": "advanced numerical methods in computational mathematics",
+                    "similarity": 0.7034294903278351
+                },
+                {
+                    "topic": "numerical methods and algorithms",
+                    "similarity": 0.6992343664169312
+                },
+                {
+                    "topic": "numerical methods in engineering",
+                    "similarity": 0.6182082891464233
+                }
+            ],
+            "Formal Verification of Biological Systems": [
+                {
+                    "topic": "biological systems",
+                    "similarity": 0.999999999999211
+                },
+                {
+                    "topic": "systems biology",
+                    "similarity": 0.6733744144439697
+                },
+                {
+                    "topic": "formal verification",
+                    "similarity": 0.9999999999993576
+                },
+                {
+                    "topic": "formal methods in verification",
+                    "similarity": 0.8122848868370056
+                }
+            ],
+            "High-performance computational systems biology and parallel implementations": [
+                {
+                    "topic": "parallel algorithms",
+                    "similarity": 0.7085073590278625
+                },
+                {
+                    "topic": "parallel computing",
+                    "similarity": 0.6340802311897278
+                }
+            ],
+            "Image Analysis": [
+                {
+                    "topic": "image analysis",
+                    "similarity": 0.999999999998708
+                },
+                {
+                    "topic": "digital image analysis",
+                    "similarity": 0.728062629699707
+                }
+            ],
+            "Inference from high-throughput experimental data": [],
+            "Information Technology applications to computational bioengineering": [
+                {
+                    "topic": "bioengineering",
+                    "similarity": 0.7380016446113586
+                },
+                {
+                    "topic": "information systems and technology applications",
+                    "similarity": 0.8290506303310394
+                },
+                {
+                    "topic": "information systems and applications",
+                    "similarity": 0.7147693634033203
+                }
+            ],
+            "Model Design and Evaluation": [
+                {
+                    "topic": "modeling",
+                    "similarity": 0.669029951095581
+                },
+                {
+                    "topic": "evaluation",
+                    "similarity": 0.9999999999991857
+                },
+                {
+                    "topic": "evaluation criteria",
+                    "similarity": 0.6780617535114288
+                },
+                {
+                    "topic": "evaluation methods",
+                    "similarity": 0.6659723818302155
+                }
+            ],
+            "Model integration from biological databases": [],
+            "Multi-scale modeling and analysis methods": [
+                {
+                    "topic": "multiscale modeling",
+                    "similarity": 0.7223577201366425
+                },
+                {
+                    "topic": "multiscale model",
+                    "similarity": 0.6220118999481201
+                }
+            ],
+            "Pattern Recognition, Clustering and Classification": [
+                {
+                    "topic": "pattern recognition",
+                    "similarity": 0.9999999999986692
+                },
+                {
+                    "topic": "pattern classification",
+                    "similarity": 0.7240240573883057
+                },
+                {
+                    "topic": "classification",
+                    "similarity": 0.9999999999988827
+                },
+                {
+                    "topic": "classification algorithms",
+                    "similarity": 0.73686084151268
+                },
+                {
+                    "topic": "classification systems",
+                    "similarity": 0.7018036842346191
+                },
+                {
+                    "topic": "classification system",
+                    "similarity": 0.6970667243003845
+                },
+                {
+                    "topic": "classification models",
+                    "similarity": 0.6763164103031158
+                },
+                {
+                    "topic": "clustering",
+                    "similarity": 0.9999999999991859
+                },
+                {
+                    "topic": "clustering algorithms",
+                    "similarity": 0.7822804749011993
+                },
+                {
+                    "topic": "clustering analysis",
+                    "similarity": 0.734822541475296
+                },
+                {
+                    "topic": "clustering methods",
+                    "similarity": 0.7312524616718292
+                },
+                {
+                    "topic": "cluster analysis",
+                    "similarity": 0.6804238557815552
+                }
+            ],
+            "Simulation and Modeling": [
+                {
+                    "topic": "simulation",
+                    "similarity": 0.99999999999905
+                },
+                {
+                    "topic": "simulations",
+                    "similarity": 0.8050144165754318
+                },
+                {
+                    "topic": "mathematical simulation",
+                    "similarity": 0.7502895593643188
+                },
+                {
+                    "topic": "simulation modeling",
+                    "similarity": 0.6611257195472717
+                },
+                {
+                    "topic": "simulation models",
+                    "similarity": 0.6426959335803986
+                },
+                {
+                    "topic": "modeling",
+                    "similarity": 0.9999999999989403
+                }
+            ],
+            "Subject-specific and population-based modeling methods": [],
+            "Systems Biology": [
+                {
+                    "topic": "systems biology",
+                    "similarity": 0.9999999999988023
+                },
+                {
+                    "topic": "biological systems",
+                    "similarity": 0.6733747124671936
+                }
+            ],
+            "Transcriptomics": [
+                {
+                    "topic": "transcriptomics",
+                    "similarity": 0.9999999999988299
+                },
+                {
+                    "topic": "transcriptome",
+                    "similarity": 0.7859844863414764
+                },
+                {
+                    "topic": "transcriptome analysis",
+                    "similarity": 0.7409928143024445
+                }
+            ],
+            "Visualization": [
+                {
+                    "topic": "visualization",
+                    "similarity": 0.9999999999988651
+                },
+                {
+                    "topic": "data visualization",
+                    "similarity": 0.7233216762542725
+                },
+                {
+                    "topic": "interactive visualization",
+                    "similarity": 0.6690190136432648
+                },
+                {
+                    "topic": "information visualization",
+                    "similarity": 0.6547377109527588
+                }
+            ],
+            "Web Services in Bioinformatics": []
+        },
+        "preferred_threshold": 0.6
+    }
+}

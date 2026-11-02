@@ -1,0 +1,203 @@
+{
+    "llm-output": {
+        "event_name": "48th European Conference on Information Retrieval",
+        "conference_series": "European Conference on Information Retrieval",
+        "event_acronym": "ECIR 2026",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Delft, The Netherlands",
+        "topics": [
+            "Search and ranking",
+            "Recommender systems",
+            "User aspects in IR",
+            "System aspects",
+            "Conversational search and recommender systems",
+            "Explainability methods",
+            "Machine Learning and Large Language Models",
+            "Applications in Information Retrieval",
+            "Evaluation research",
+            "Societally-motivated IR research"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Adam Jatowt",
+                "organiser_affiliation": "University of Innsbruck",
+                "organiser_country": "Austria",
+                "track_name": "Full Paper Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Adam Jatowt",
+                "openalex_page": "https://openalex.org/A5079733597",
+                "orcid": "https://orcid.org/0000-0001-7235-0665",
+                "affiliation_ror": "https://ror.org/054pv6659"
+            },
+            {
+                "organiser_name": "Ricardo Campos",
+                "organiser_affiliation": "University of Beira Interior / INESC TEC",
+                "organiser_country": "Portugal",
+                "track_name": "Full Paper Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ricardo Campos",
+                "openalex_page": "https://openalex.org/A5031696985",
+                "orcid": "https://orcid.org/0000-0002-1098-3616",
+                "affiliation_ror": "https://ror.org/052gg0110"
+            },
+            {
+                "organiser_name": "Yanyan Lan",
+                "organiser_affiliation": "Tsinghua University",
+                "organiser_country": "China",
+                "track_name": "Full Paper Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yanyan Lan",
+                "openalex_page": "https://openalex.org/A5101616866",
+                "orcid": "https://orcid.org/0000-0002-7811-3262",
+                "affiliation_ror": "https://ror.org/03cve4549"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "48th European Conference on Information Retrieval",
+        "event_acronym": "ECIR 2026",
+        "conference_series": "European Conference on Information Retrieval",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Delft, The Netherlands",
+        "DBLP": {
+            "name": "European Conference on Advances in Information Retrieval (ECIR)",
+            "id": "ecir",
+            "url": "https://dblp.org/streams/conf/ecir"
+        },
+        "AIDA": {
+            "name": "European Conference on IR Research (ECIR)",
+            "id": "ecir",
+            "url": "https://w3id.org/aida/dashboard/cs/conference/European%20Conference%20on%20IR%20Research%20%28ECIR%29"
+        },
+        "ConfIDent": {
+            "name": "European Conference on Information Retrieval Research",
+            "id": "Event Series:ECIR",
+            "url": "https://www.confident-conference.org/index.php/Event%20Series%3AECIR"
+        },
+        "organisers": [
+            {
+                "organiser_name": "Adam Jatowt",
+                "organiser_affiliation": "University of Innsbruck",
+                "organiser_country": "Austria",
+                "track_name": "Full Paper Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Adam Jatowt",
+                "openalex_page": "https://openalex.org/A5079733597",
+                "orcid": "https://orcid.org/0000-0001-7235-0665",
+                "affiliation_ror": "https://ror.org/054pv6659"
+            },
+            {
+                "organiser_name": "Ricardo Campos",
+                "organiser_affiliation": "University of Beira Interior / INESC TEC",
+                "organiser_country": "Portugal",
+                "track_name": "Full Paper Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ricardo Campos",
+                "openalex_page": "https://openalex.org/A5031696985",
+                "orcid": "https://orcid.org/0000-0002-1098-3616",
+                "affiliation_ror": "https://ror.org/052gg0110"
+            },
+            {
+                "organiser_name": "Yanyan Lan",
+                "organiser_affiliation": "Tsinghua University",
+                "organiser_country": "China",
+                "track_name": "Full Paper Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yanyan Lan",
+                "openalex_page": "https://openalex.org/A5101616866",
+                "orcid": "https://orcid.org/0000-0002-7811-3262",
+                "affiliation_ror": "https://ror.org/03cve4549"
+            }
+        ],
+        "topics": [
+            "Search and ranking",
+            "Recommender systems",
+            "User aspects in IR",
+            "System aspects",
+            "Conversational search and recommender systems",
+            "Explainability methods",
+            "Machine Learning and Large Language Models",
+            "Applications in Information Retrieval",
+            "Evaluation research",
+            "Societally-motivated IR research"
+        ],
+        "enhanced_topics": {
+            "Search and ranking": [
+                {
+                    "topic": "web search",
+                    "similarity": 0.6104511618614197
+                }
+            ],
+            "Recommender systems": [
+                {
+                    "topic": "recommender system technologies",
+                    "similarity": 0.7914141118526459
+                },
+                {
+                    "topic": "recommender systems and techniques",
+                    "similarity": 0.7323416769504547
+                }
+            ],
+            "User aspects in IR": [],
+            "System aspects": [],
+            "Conversational search and recommender systems": [
+                {
+                    "topic": "recommender system technologies",
+                    "similarity": 0.7914141118526459
+                },
+                {
+                    "topic": "recommender systems and techniques",
+                    "similarity": 0.7323416769504547
+                }
+            ],
+            "Explainability methods": [],
+            "Machine Learning and Large Language Models": [
+                {
+                    "topic": "machine learning",
+                    "similarity": 0.9999999999985055
+                },
+                {
+                    "topic": "machine learning algorithms",
+                    "similarity": 0.7623511254787445
+                },
+                {
+                    "topic": "machine learning models",
+                    "similarity": 0.7418791651725769
+                },
+                {
+                    "topic": "machine learning and algorithms",
+                    "similarity": 0.7121975719928741
+                },
+                {
+                    "topic": "language models",
+                    "similarity": 0.718697726726532
+                }
+            ],
+            "Applications in Information Retrieval": [],
+            "Evaluation research": [
+                {
+                    "topic": "research evaluation",
+                    "similarity": 0.8968933671712875
+                },
+                {
+                    "topic": "evaluation",
+                    "similarity": 0.650622695684433
+                },
+                {
+                    "topic": "evaluation criteria",
+                    "similarity": 0.6132534742355347
+                }
+            ],
+            "Societally-motivated IR research": []
+        },
+        "preferred_threshold": 0.6
+    }
+}

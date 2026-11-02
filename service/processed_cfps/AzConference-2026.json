@@ -1,0 +1,752 @@
+{
+    "llm-output": {
+        "event_name": "2nd International Scientific and Technical Conference on 'Infocommunication Systems and Artificial Intelligence Technologies'",
+        "conference_series": "International Scientific and Technical Conference on 'Infocommunication Systems and Artificial Intelligence Technologies'",
+        "event_acronym": "ISTCIAIT",
+        "colocated_with": "",
+        "year": "2024",
+        "location": "Baku, Azerbaijan",
+        "topics": [
+            "Communication Systems and Technologies",
+            "Intelligent Control Systems",
+            "Radioelectronics, Optics and Communication Devices",
+            "Artificial Intelligence Technologies and Applications",
+            "Cybersecurity Technologies",
+            "Advanced Manufacturing Technologies"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Assoc. Prof. Fariz Mammadov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Anar Eminov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Bakhtiyar Badalov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Bakhtiyar Badalov",
+                "openalex_page": "https://openalex.org/A5135853076",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/04v2j2k71"
+            },
+            {
+                "organiser_name": "Prof. Vagif Maharramov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Rashad Tahirov",
+                "organiser_affiliation": "National Defense University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Ali Tagiyev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Mehman Binnetov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Zafer Ismayilov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Aligismet Mehdiyev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Jamal Yildiz",
+                "organiser_affiliation": "Gazi University, Ankara",
+                "organiser_country": "Turkey",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Dmitrii Ardashev",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Igor Savin",
+                "organiser_affiliation": "Kazan Technical University",
+                "organiser_country": "Russia",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Ibrokhimali Normatov",
+                "organiser_affiliation": "Uzbekistan National University",
+                "organiser_country": "Uzbekistan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Yulia Gaydamaka",
+                "organiser_affiliation": "Peoples' Friendship University of Russia",
+                "organiser_country": "Russia",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Afandi Nasiboglu",
+                "organiser_affiliation": "Dokuz Eylul University",
+                "organiser_country": "Turkey",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Gulchin Abdullayeva",
+                "organiser_affiliation": "Institute of Control Systems",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Almaz Aliyeva",
+                "organiser_affiliation": "Mingachevir State University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Georgiy Kuchuk",
+                "organiser_affiliation": "Kharkov Polytechnic Institute of the National Technical University",
+                "organiser_country": "Ukraine",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Asad Rustamov",
+                "organiser_affiliation": "National Defense University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Nizami Yusubov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Executive Secretary",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Vilayat Valiyev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Co-Chairs",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Academician Rasim Aliguliyev",
+                "organiser_affiliation": "Institute of Information Technology",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Co-Chairs",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Academician Ali Abbasov",
+                "organiser_affiliation": "Institute of Control Systems",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Co-Chairs",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Ismail Koyuncu",
+                "organiser_affiliation": "Istanbul Technical University",
+                "organiser_country": "Turkey",
+                "track_name": "Co-Chairs",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "2nd International Scientific and Technical Conference on 'Infocommunication Systems and Artificial Intelligence Technologies'",
+        "event_acronym": "ISTCIAIT",
+        "conference_series": "International Scientific and Technical Conference on 'Infocommunication Systems and Artificial Intelligence Technologies'",
+        "colocated_with": "",
+        "year": "2024",
+        "location": "Baku, Azerbaijan",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Assoc. Prof. Fariz Mammadov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Anar Eminov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Bakhtiyar Badalov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Bakhtiyar Badalov",
+                "openalex_page": "https://openalex.org/A5135853076",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/04v2j2k71"
+            },
+            {
+                "organiser_name": "Prof. Vagif Maharramov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Rashad Tahirov",
+                "organiser_affiliation": "National Defense University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Ali Tagiyev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Mehman Binnetov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Zafer Ismayilov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Aligismet Mehdiyev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Jamal Yildiz",
+                "organiser_affiliation": "Gazi University, Ankara",
+                "organiser_country": "Turkey",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Dmitrii Ardashev",
+                "organiser_affiliation": "South Ural State University",
+                "organiser_country": "Russia",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Igor Savin",
+                "organiser_affiliation": "Kazan Technical University",
+                "organiser_country": "Russia",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Ibrokhimali Normatov",
+                "organiser_affiliation": "Uzbekistan National University",
+                "organiser_country": "Uzbekistan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Yulia Gaydamaka",
+                "organiser_affiliation": "Peoples' Friendship University of Russia",
+                "organiser_country": "Russia",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Afandi Nasiboglu",
+                "organiser_affiliation": "Dokuz Eylul University",
+                "organiser_country": "Turkey",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Gulchin Abdullayeva",
+                "organiser_affiliation": "Institute of Control Systems",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Assoc. Prof. Almaz Aliyeva",
+                "organiser_affiliation": "Mingachevir State University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Georgiy Kuchuk",
+                "organiser_affiliation": "Kharkov Polytechnic Institute of the National Technical University",
+                "organiser_country": "Ukraine",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Asad Rustamov",
+                "organiser_affiliation": "National Defense University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Organization Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Nizami Yusubov",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Executive Secretary",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Vilayat Valiyev",
+                "organiser_affiliation": "Azerbaijan Technical University",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Co-Chairs",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Academician Rasim Aliguliyev",
+                "organiser_affiliation": "Institute of Information Technology",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Co-Chairs",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Academician Ali Abbasov",
+                "organiser_affiliation": "Institute of Control Systems",
+                "organiser_country": "Azerbaijan",
+                "track_name": "Co-Chairs",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Prof. Ismail Koyuncu",
+                "organiser_affiliation": "Istanbul Technical University",
+                "organiser_country": "Turkey",
+                "track_name": "Co-Chairs",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Communication Systems and Technologies",
+            "Intelligent Control Systems",
+            "Radioelectronics, Optics and Communication Devices",
+            "Artificial Intelligence Technologies and Applications",
+            "Cybersecurity Technologies",
+            "Advanced Manufacturing Technologies"
+        ],
+        "enhanced_topics": {
+            "Communication Systems and Technologies": [
+                {
+                    "topic": "communication technologies",
+                    "similarity": 0.6150132119655609
+                },
+                {
+                    "topic": "communications",
+                    "similarity": 0.588833749294281
+                },
+                {
+                    "topic": "communication technology",
+                    "similarity": 0.55257648229599
+                },
+                {
+                    "topic": "communication networks",
+                    "similarity": 0.5395509004592896
+                },
+                {
+                    "topic": "digital communication",
+                    "similarity": 0.5109378695487976
+                },
+                {
+                    "topic": "technology",
+                    "similarity": 0.8233371376991272
+                },
+                {
+                    "topic": "information technologies",
+                    "similarity": 0.5923928916454315
+                },
+                {
+                    "topic": "web technologies",
+                    "similarity": 0.5884261131286621
+                },
+                {
+                    "topic": "digital technologies",
+                    "similarity": 0.5837999284267426
+                },
+                {
+                    "topic": "technology use",
+                    "similarity": 0.542500764131546
+                }
+            ],
+            "Intelligent Control Systems": [
+                {
+                    "topic": "intelligent control",
+                    "similarity": 0.6907111704349518
+                },
+                {
+                    "topic": "intelligent systems",
+                    "similarity": 0.6718306243419647
+                },
+                {
+                    "topic": "intelligent control system for industrial processes",
+                    "similarity": 0.5341335833072662
+                },
+                {
+                    "topic": "control systems",
+                    "similarity": 0.5317693948745728
+                }
+            ],
+            "Radioelectronics, Optics and Communication Devices": [
+                {
+                    "topic": "optics",
+                    "similarity": 0.999999999999296
+                },
+                {
+                    "topic": "optical",
+                    "similarity": 0.6502488255500793
+                },
+                {
+                    "topic": "illumination optics",
+                    "similarity": 0.5533605217933655
+                },
+                {
+                    "topic": "communication technologies",
+                    "similarity": 0.6078044176101685
+                },
+                {
+                    "topic": "communication technology",
+                    "similarity": 0.5298381745815277
+                }
+            ],
+            "Artificial Intelligence Technologies and Applications": [
+                {
+                    "topic": "applications",
+                    "similarity": 0.9999999999993826
+                },
+                {
+                    "topic": "educational applications",
+                    "similarity": 0.5360824465751648
+                },
+                {
+                    "topic": "artificial intelligence technology",
+                    "similarity": 0.922356367111206
+                },
+                {
+                    "topic": "artificial intelligence",
+                    "similarity": 0.7185478806495667
+                },
+                {
+                    "topic": "artificial intelligences",
+                    "similarity": 0.716142326593399
+                },
+                {
+                    "topic": "artificial intelligence applications",
+                    "similarity": 0.6012177169322968
+                }
+            ],
+            "Cybersecurity Technologies": [
+                {
+                    "topic": "cybersecurity",
+                    "similarity": 0.6765516400337219
+                },
+                {
+                    "topic": "cybersecurity and information systems",
+                    "similarity": 0.5703779757022858
+                }
+            ],
+            "Advanced Manufacturing Technologies": [
+                {
+                    "topic": "manufacturing technology",
+                    "similarity": 0.6237083971500397
+                },
+                {
+                    "topic": "advanced industrial engineering and technology development",
+                    "similarity": 0.5359258651733398
+                },
+                {
+                    "topic": "intelligent manufacturing technologies",
+                    "similarity": 0.5249913334846497
+                }
+            ]
+        },
+        "preferred_threshold": 0.5
+    }
+}

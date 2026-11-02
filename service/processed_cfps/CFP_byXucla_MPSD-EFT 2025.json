@@ -1,0 +1,179 @@
+{
+    "llm-output": {
+        "event_name": "International Conference on Materials and Processing for Sustainable Development: Empowering the Future with Smart Technologies",
+        "conference_series": "International Conference on Materials and Processing",
+        "event_acronym": "MPSD-EFT",
+        "colocated_with": "",
+        "year": "2025",
+        "location": "[City, Country]",
+        "topics": [
+            "Sustainable Materials",
+            "Innovative Methods",
+            "Technology Integration"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Dr. John Smith",
+                "organiser_affiliation": "University of Technology",
+                "organiser_country": "USA",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "J. M. Smith",
+                "openalex_page": "https://openalex.org/A5111784707",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/02e2c7k09"
+            },
+            {
+                "organiser_name": "Prof. Jane Doe",
+                "organiser_affiliation": "Institute of Advanced Engineering",
+                "organiser_country": "UK",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Emily Zhang",
+                "organiser_affiliation": "Green Tech Innovations",
+                "organiser_country": "China",
+                "track_name": "Technical Sessions Coordinator",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Emily Zhang",
+                "openalex_page": "https://openalex.org/A5101681395",
+                "orcid": "https://orcid.org/0000-0002-9053-1336",
+                "affiliation_ror": "https://ror.org/029819q61"
+            },
+            {
+                "organiser_name": "Dr. Arun Patel",
+                "organiser_affiliation": "EcoSmart Solutions",
+                "organiser_country": "India",
+                "track_name": "Panel Discussions Coordinator",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Arun L. Patel",
+                "openalex_page": "https://openalex.org/A5076984550",
+                "orcid": "https://orcid.org/0000-0002-3783-9614",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Maria Lopez",
+                "organiser_affiliation": "Sustainable Development Institute",
+                "organiser_country": "Spain",
+                "track_name": "Workshop Coordinator",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Mar\u00eda Gabriela L\u00f3pez",
+                "openalex_page": "https://openalex.org/A5130852697",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "International Conference on Materials and Processing for Sustainable Development: Empowering the Future with Smart Technologies",
+        "event_acronym": "MPSD-EFT",
+        "conference_series": "International Conference on Materials and Processing",
+        "colocated_with": "",
+        "year": "2025",
+        "location": "[City, Country]",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {
+            "name": "International Conference on Materials Chemistry",
+            "id": "Event Series:C423018f-6271-4c7f-9518-04973eaa9522",
+            "url": "https://www.confident-conference.org/index.php/Event%20Series%3AC423018f-6271-4c7f-9518-04973eaa9522"
+        },
+        "organisers": [
+            {
+                "organiser_name": "Dr. John Smith",
+                "organiser_affiliation": "University of Technology",
+                "organiser_country": "USA",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "J. M. Smith",
+                "openalex_page": "https://openalex.org/A5111784707",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/02e2c7k09"
+            },
+            {
+                "organiser_name": "Prof. Jane Doe",
+                "organiser_affiliation": "Institute of Advanced Engineering",
+                "organiser_country": "UK",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Emily Zhang",
+                "organiser_affiliation": "Green Tech Innovations",
+                "organiser_country": "China",
+                "track_name": "Technical Sessions Coordinator",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Emily Zhang",
+                "openalex_page": "https://openalex.org/A5101681395",
+                "orcid": "https://orcid.org/0000-0002-9053-1336",
+                "affiliation_ror": "https://ror.org/029819q61"
+            },
+            {
+                "organiser_name": "Dr. Arun Patel",
+                "organiser_affiliation": "EcoSmart Solutions",
+                "organiser_country": "India",
+                "track_name": "Panel Discussions Coordinator",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Arun L. Patel",
+                "openalex_page": "https://openalex.org/A5076984550",
+                "orcid": "https://orcid.org/0000-0002-3783-9614",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Dr. Maria Lopez",
+                "organiser_affiliation": "Sustainable Development Institute",
+                "organiser_country": "Spain",
+                "track_name": "Workshop Coordinator",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Mar\u00eda Gabriela L\u00f3pez",
+                "openalex_page": "https://openalex.org/A5130852697",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Sustainable Materials",
+            "Innovative Methods",
+            "Technology Integration"
+        ],
+        "enhanced_topics": {
+            "Sustainable Materials": [
+                {
+                    "topic": "sustainable materials",
+                    "similarity": 0.9999999999992986
+                }
+            ],
+            "Innovative Methods": [],
+            "Technology Integration": [
+                {
+                    "topic": "technology integration",
+                    "similarity": 0.9999999999992231
+                },
+                {
+                    "topic": "education and technology integration",
+                    "similarity": 0.6430463194847107
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    }
+}

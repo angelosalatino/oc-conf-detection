@@ -1,0 +1,497 @@
+{
+    "llm-output": {
+        "event_name": "Multi-Objective Decision Making Workshop",
+        "conference_series": "MODeM",
+        "event_acronym": "MODeM",
+        "colocated_with": "IJCAI-ECAI 2026",
+        "year": "2026",
+        "location": "Bremen, Germany",
+        "topics": [
+            "Multi-objective/multi-criteria/multi-attribute decision making",
+            "Multi-objective reinforcement learning",
+            "Multi-objective planning and scheduling",
+            "Multi-objective multi-agent decision making",
+            "Multi-objective game theory",
+            "Preference elicitation for MODeM",
+            "Social choice and MODeM",
+            "Multi-objective decision support systems",
+            "Multi-objective metaheuristic optimisation (e.g. evolutionary algorithms) for autonomous agents and multi-agent systems",
+            "Multi-objectivisation",
+            "Ethical AI through multi-objective modelling",
+            "Explainable AI through multi-objective modelling",
+            "Interactive systems for MODeM",
+            "Applications of MODeM",
+            "Interdisciplinary work (MODeM research that relates to other fields)",
+            "New benchmark problems for MODeM"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Hicham Azmani",
+                "organiser_affiliation": "Vrije Universiteit Brussel",
+                "organiser_country": "Belgium",
+                "track_name": "Organiser",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Hicham Azmani",
+                "openalex_page": "https://openalex.org/A5123112344",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/006e5kg04"
+            },
+            {
+                "organiser_name": "Gaurav Dixit",
+                "organiser_affiliation": "Oregon State University",
+                "organiser_country": "USA",
+                "track_name": "Organiser",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gaurav Dixit",
+                "openalex_page": "https://openalex.org/A5021830983",
+                "orcid": "https://orcid.org/0000-0001-9251-5818",
+                "affiliation_ror": "https://ror.org/00ysfqy60"
+            },
+            {
+                "organiser_name": "Pieter Libin",
+                "organiser_affiliation": "Vrije Universiteit Brussel",
+                "organiser_country": "Belgium",
+                "track_name": "Organiser",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Pieter Libin",
+                "openalex_page": "https://openalex.org/A5068276498",
+                "orcid": "https://orcid.org/0000-0003-3906-758X",
+                "affiliation_ror": "https://ror.org/006e5kg04"
+            },
+            {
+                "organiser_name": "Roxana R\u0103dulescu",
+                "organiser_affiliation": "Utrecht University & Vrije Universiteit Brussel",
+                "organiser_country": "The Netherlands/Belgium",
+                "track_name": "Organiser",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Roxana R\u0103dulescu",
+                "openalex_page": "https://openalex.org/A5008556334",
+                "orcid": "https://orcid.org/0000-0003-1446-5514",
+                "affiliation_ror": "https://ror.org/006e5kg04"
+            },
+            {
+                "organiser_name": "Ali E. Abbas",
+                "organiser_affiliation": "University of Southern California",
+                "organiser_country": "USA",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ali E. Abbas",
+                "openalex_page": "https://openalex.org/A5088902204",
+                "orcid": "https://orcid.org/0000-0002-3358-6410",
+                "affiliation_ror": "https://ror.org/03taz7m60"
+            },
+            {
+                "organiser_name": "Carlos A. Coello Coello",
+                "organiser_affiliation": "CINVESTAV-IPN",
+                "organiser_country": "Mexico",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Carlos A. Coello Coello",
+                "openalex_page": "https://openalex.org/A5085548317",
+                "orcid": "https://orcid.org/0000-0002-8435-680X",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Ivana Dusparic",
+                "organiser_affiliation": "Trinity College Dublin",
+                "organiser_country": "Ireland",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ivana Duspari\u0107",
+                "openalex_page": "https://openalex.org/A5059738292",
+                "orcid": "https://orcid.org/0000-0003-0621-5400",
+                "affiliation_ror": "https://ror.org/019dhar59"
+            },
+            {
+                "organiser_name": "Patrick Mannion",
+                "organiser_affiliation": "University of Galway",
+                "organiser_country": "Ireland",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Patrick Mannion",
+                "openalex_page": "https://openalex.org/A5046330057",
+                "orcid": "https://orcid.org/0000-0002-7951-878X",
+                "affiliation_ror": "https://ror.org/03bea9k73"
+            },
+            {
+                "organiser_name": "Ann Now\u00e9",
+                "organiser_affiliation": "Vrije Universiteit Brussel",
+                "organiser_country": "Belgium",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ann Now\u00e9",
+                "openalex_page": "https://openalex.org/A5064553018",
+                "orcid": "https://orcid.org/0000-0001-6346-4564",
+                "affiliation_ror": "https://ror.org/006e5kg04"
+            },
+            {
+                "organiser_name": "Diederik M. Roijers",
+                "organiser_affiliation": "Vrije Universiteit Brussel & City of Amsterdam",
+                "organiser_country": "Belgium/Netherlands",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Diederik M. Roijers",
+                "openalex_page": "https://openalex.org/A5081436755",
+                "orcid": "https://orcid.org/0000-0002-2825-2491",
+                "affiliation_ror": "https://ror.org/006e5kg04"
+            },
+            {
+                "organiser_name": "Peter Vamplew",
+                "organiser_affiliation": "Federation University Australia",
+                "organiser_country": "Australia",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Peter Vamplew",
+                "openalex_page": "https://openalex.org/A5080095540",
+                "orcid": "https://orcid.org/0000-0002-8687-4424",
+                "affiliation_ror": "https://ror.org/05qbzwv83"
+            },
+            {
+                "organiser_name": "Paolo Viappiani",
+                "organiser_affiliation": "LAMSADE; CNRS; University Paris Dauphine",
+                "organiser_country": "France",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Paolo Viappiani",
+                "openalex_page": "https://openalex.org/A5024106454",
+                "orcid": "https://orcid.org/0000-0002-7922-3877",
+                "affiliation_ror": "https://ror.org/052bz7812"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "Multi-Objective Decision Making Workshop",
+        "event_acronym": "MODeM",
+        "conference_series": "MODeM",
+        "colocated_with": "IJCAI-ECAI 2026",
+        "year": "2026",
+        "location": "Bremen, Germany",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Hicham Azmani",
+                "organiser_affiliation": "Vrije Universiteit Brussel",
+                "organiser_country": "Belgium",
+                "track_name": "Organiser",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Hicham Azmani",
+                "openalex_page": "https://openalex.org/A5123112344",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/006e5kg04"
+            },
+            {
+                "organiser_name": "Gaurav Dixit",
+                "organiser_affiliation": "Oregon State University",
+                "organiser_country": "USA",
+                "track_name": "Organiser",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gaurav Dixit",
+                "openalex_page": "https://openalex.org/A5021830983",
+                "orcid": "https://orcid.org/0000-0001-9251-5818",
+                "affiliation_ror": "https://ror.org/00ysfqy60"
+            },
+            {
+                "organiser_name": "Pieter Libin",
+                "organiser_affiliation": "Vrije Universiteit Brussel",
+                "organiser_country": "Belgium",
+                "track_name": "Organiser",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Pieter Libin",
+                "openalex_page": "https://openalex.org/A5068276498",
+                "orcid": "https://orcid.org/0000-0003-3906-758X",
+                "affiliation_ror": "https://ror.org/006e5kg04"
+            },
+            {
+                "organiser_name": "Roxana R\u0103dulescu",
+                "organiser_affiliation": "Utrecht University & Vrije Universiteit Brussel",
+                "organiser_country": "The Netherlands/Belgium",
+                "track_name": "Organiser",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Roxana R\u0103dulescu",
+                "openalex_page": "https://openalex.org/A5008556334",
+                "orcid": "https://orcid.org/0000-0003-1446-5514",
+                "affiliation_ror": "https://ror.org/006e5kg04"
+            },
+            {
+                "organiser_name": "Ali E. Abbas",
+                "organiser_affiliation": "University of Southern California",
+                "organiser_country": "USA",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ali E. Abbas",
+                "openalex_page": "https://openalex.org/A5088902204",
+                "orcid": "https://orcid.org/0000-0002-3358-6410",
+                "affiliation_ror": "https://ror.org/03taz7m60"
+            },
+            {
+                "organiser_name": "Carlos A. Coello Coello",
+                "organiser_affiliation": "CINVESTAV-IPN",
+                "organiser_country": "Mexico",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Carlos A. Coello Coello",
+                "openalex_page": "https://openalex.org/A5085548317",
+                "orcid": "https://orcid.org/0000-0002-8435-680X",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Ivana Dusparic",
+                "organiser_affiliation": "Trinity College Dublin",
+                "organiser_country": "Ireland",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ivana Duspari\u0107",
+                "openalex_page": "https://openalex.org/A5059738292",
+                "orcid": "https://orcid.org/0000-0003-0621-5400",
+                "affiliation_ror": "https://ror.org/019dhar59"
+            },
+            {
+                "organiser_name": "Patrick Mannion",
+                "organiser_affiliation": "University of Galway",
+                "organiser_country": "Ireland",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Patrick Mannion",
+                "openalex_page": "https://openalex.org/A5046330057",
+                "orcid": "https://orcid.org/0000-0002-7951-878X",
+                "affiliation_ror": "https://ror.org/03bea9k73"
+            },
+            {
+                "organiser_name": "Ann Now\u00e9",
+                "organiser_affiliation": "Vrije Universiteit Brussel",
+                "organiser_country": "Belgium",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ann Now\u00e9",
+                "openalex_page": "https://openalex.org/A5064553018",
+                "orcid": "https://orcid.org/0000-0001-6346-4564",
+                "affiliation_ror": "https://ror.org/006e5kg04"
+            },
+            {
+                "organiser_name": "Diederik M. Roijers",
+                "organiser_affiliation": "Vrije Universiteit Brussel & City of Amsterdam",
+                "organiser_country": "Belgium/Netherlands",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Diederik M. Roijers",
+                "openalex_page": "https://openalex.org/A5081436755",
+                "orcid": "https://orcid.org/0000-0002-2825-2491",
+                "affiliation_ror": "https://ror.org/006e5kg04"
+            },
+            {
+                "organiser_name": "Peter Vamplew",
+                "organiser_affiliation": "Federation University Australia",
+                "organiser_country": "Australia",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Peter Vamplew",
+                "openalex_page": "https://openalex.org/A5080095540",
+                "orcid": "https://orcid.org/0000-0002-8687-4424",
+                "affiliation_ror": "https://ror.org/05qbzwv83"
+            },
+            {
+                "organiser_name": "Paolo Viappiani",
+                "organiser_affiliation": "LAMSADE; CNRS; University Paris Dauphine",
+                "organiser_country": "France",
+                "track_name": "Senior Advisory Committee",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Paolo Viappiani",
+                "openalex_page": "https://openalex.org/A5024106454",
+                "orcid": "https://orcid.org/0000-0002-7922-3877",
+                "affiliation_ror": "https://ror.org/052bz7812"
+            }
+        ],
+        "topics": [
+            "Multi-objective/multi-criteria/multi-attribute decision making",
+            "Multi-objective reinforcement learning",
+            "Multi-objective planning and scheduling",
+            "Multi-objective multi-agent decision making",
+            "Multi-objective game theory",
+            "Preference elicitation for MODeM",
+            "Social choice and MODeM",
+            "Multi-objective decision support systems",
+            "Multi-objective metaheuristic optimisation (e.g. evolutionary algorithms) for autonomous agents and multi-agent systems",
+            "Multi-objectivisation",
+            "Ethical AI through multi-objective modelling",
+            "Explainable AI through multi-objective modelling",
+            "Interactive systems for MODeM",
+            "Applications of MODeM",
+            "Interdisciplinary work (MODeM research that relates to other fields)",
+            "New benchmark problems for MODeM"
+        ],
+        "enhanced_topics": {
+            "Multi-objective/multi-criteria/multi-attribute decision making": [
+                {
+                    "topic": "multi-criteria decision making",
+                    "similarity": 0.6712867617607117
+                },
+                {
+                    "topic": "multi-criteria decision analysis",
+                    "similarity": 0.6070760190486908
+                }
+            ],
+            "Multi-objective reinforcement learning": [],
+            "Multi-objective planning and scheduling": [
+                {
+                    "topic": "scheduling",
+                    "similarity": 0.9999999999992726
+                },
+                {
+                    "topic": "scheduling algorithms",
+                    "similarity": 0.7331537902355194
+                },
+                {
+                    "topic": "personnel scheduling",
+                    "similarity": 0.7228208184242249
+                },
+                {
+                    "topic": "task scheduling",
+                    "similarity": 0.6928910911083221
+                },
+                {
+                    "topic": "group scheduling",
+                    "similarity": 0.6733013391494751
+                },
+                {
+                    "topic": "multi-objective",
+                    "similarity": 0.6274149417877197
+                }
+            ],
+            "Multi-objective multi-agent decision making": [],
+            "Multi-objective game theory": [
+                {
+                    "topic": "multi-objective",
+                    "similarity": 0.623932272195816
+                }
+            ],
+            "Preference elicitation for MODeM": [],
+            "Social choice and MODeM": [
+                {
+                    "topic": "social preferences",
+                    "similarity": 0.6055886745452881
+                }
+            ],
+            "Multi-objective decision support systems": [],
+            "Multi-objective metaheuristic optimisation (e.g. evolutionary algorithms) for autonomous agents and multi-agent systems": [
+                {
+                    "topic": "evolutionary algorithms",
+                    "similarity": 0.6860759258270264
+                },
+                {
+                    "topic": "intelligent agent",
+                    "similarity": 0.6235365271568298
+                },
+                {
+                    "topic": "multi-agent systems",
+                    "similarity": 0.9999999999989435
+                },
+                {
+                    "topic": "multi-agent system",
+                    "similarity": 0.9309241622686386
+                },
+                {
+                    "topic": "distributed control multi-agent systems",
+                    "similarity": 0.6509541571140289
+                },
+                {
+                    "topic": "multi-agent systems and negotiation",
+                    "similarity": 0.6460796594619751
+                }
+            ],
+            "Multi-objectivisation": [],
+            "Ethical AI through multi-objective modelling": [
+                {
+                    "topic": "multi-objective",
+                    "similarity": 0.7444235980510712
+                },
+                {
+                    "topic": "multi-objective optimization",
+                    "similarity": 0.631213903427124
+                },
+                {
+                    "topic": "ethical implications of artificial intelligence",
+                    "similarity": 0.6554060578346252
+                },
+                {
+                    "topic": "ethics and social impacts of ai",
+                    "similarity": 0.6106101870536804
+                }
+            ],
+            "Explainable AI through multi-objective modelling": [
+                {
+                    "topic": "explainable artificial intelligence",
+                    "similarity": 0.8213312923908234
+                },
+                {
+                    "topic": "explainable artificial intelligence (xai)",
+                    "similarity": 0.6333691477775574
+                },
+                {
+                    "topic": "multi-objective",
+                    "similarity": 0.7444235980510712
+                },
+                {
+                    "topic": "multi-objective optimization",
+                    "similarity": 0.631213903427124
+                }
+            ],
+            "Interactive systems for MODeM": [],
+            "Applications of MODeM": [],
+            "Interdisciplinary work (MODeM research that relates to other fields)": [
+                {
+                    "topic": "interdisciplinary",
+                    "similarity": 0.8376276195049286
+                },
+                {
+                    "topic": "interdisciplinary studies",
+                    "similarity": 0.8079176098108292
+                },
+                {
+                    "topic": "interdisciplinary research",
+                    "similarity": 0.746931791305542
+                },
+                {
+                    "topic": "interdisciplinary approach",
+                    "similarity": 0.6759666204452515
+                },
+                {
+                    "topic": "interdisciplinary research in various fields",
+                    "similarity": 0.6618801057338715
+                }
+            ],
+            "New benchmark problems for MODeM": [
+                {
+                    "topic": "benchmarking",
+                    "similarity": 0.6968012452125549
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    }
+}
