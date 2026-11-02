@@ -1,0 +1,143 @@
+ Dear Colleagues,
+FINAL CALL FOR PAPERS – Extended deadline: 5 November 2026
+Rolling review: decisions by 10 November 2026
+ACLing 2026: 8th International Conference on AI in Computational Linguistics
+25–26 November 2026 | Hybrid | Dubai (UAE) – Jordan – Online
+Hosted by The British University in Dubai (BUiD) and Jadara University, Jordan
+Website: https://acling.org/
+Submit: https://easychair.org/conferences/?conf=acling2026
+------------------------------------------------------------------
+WHY SUBMIT TO ACLING 2026
+------------------------------------------------------------------
+
+    Fast decisions: papers are reviewed as they arrive, and all decisions
+        are issued by 10 November.
+    Elsevier publication: accepted and presented papers will be submitted
+        to Procedia Computer Science (Elsevier, ISSN 1877-0509). Articles are
+        open access on ScienceDirect, and each receives a DOI.
+    Journal pathway: substantially extended versions may be submitted to
+        one of three MDPI special issues with an APC discount.
+    Broad scope: core NLP research AND applications of language models in
+        any discipline are welcome.
+    Flexible participation: present in Dubai, in Jordan, or online.
+    Established series: 8th edition; previous proceedings are listed in
+        DBLP (https://dblp.org/db/conf/acling/index.html).
+
+------------------------------------------------------------------
+IMPORTANT DATES
+------------------------------------------------------------------
+Paper submission (extended): 5 November 2026
+Acceptance notification: 10 November 2026
+Camera-ready submission: 14 November 2026
+Author registration: 15 November 2026
+Conference: 25–26 November 2026
+Early submission is encouraged because of rolling review.
+------------------------------------------------------------------
+SCOPE
+------------------------------------------------------------------
+We invite original research on computational linguistics, natural
+language processing (NLP), and the development, evaluation, and
+application of language models.
+NEW THIS YEAR: Applications of pretrained language models, LLMs, and
+vision-language models to problems in other fields are welcome. Examples
+include healthcare, education, cybersecurity, business, engineering,
+agriculture, and environmental sustainability. Application papers do not
+need to propose a new model. However, the language model must play a
+central methodological role, and the paper must make a clear scientific
+contribution supported by appropriate evaluation.
+Work on any language is welcome, including Arabic, multilingual,
+cross-lingual, code-switching, and low-resource settings. Papers and
+presentations must be in English.
+------------------------------------------------------------------
+TOPICS (including but not limited to)
+------------------------------------------------------------------
+Language Models and Generative AI
+Pretrained models and LLMs (architecture, optimization, applications);
+fine-tuning, domain adaptation, and efficient models; prompt
+engineering and reinforcement learning; RAG and knowledge grounding;
+agents, tool use, and multi-agent systems
+Applications Across Disciplines
+Language models for decision support and scientific discovery;
+domain-specific NLP; AI-augmented writing, reading, and translation tools
+Core NLP
+Syntax, parsing, semantics, pragmatics, and commonsense reasoning;
+statistical and neural language modeling; question answering and
+knowledge extraction; summarization and generation; text
+classification, topic modeling, and document understanding; text
+mining and information retrieval
+Multilingual, Speech, and Multimodal
+Machine translation and cross-lingual NLP; multilinguality,
+code-switching, and low-resource languages; speech, dialogue, and
+conversational AI; vision-language models and multimodal AI
+Social and Affective Computing
+Sentiment analysis and emotion recognition; social media NLP and
+computational social science
+Trustworthy and Responsible AI
+Robustness, bias, and hallucination; interpretability and
+explainability; benchmarking and evaluation; ethical and
+human-centered AI
+Accepted paper types: theory, algorithms, architectures, applications,
+resources, datasets, benchmarks, evaluation studies, rigorous surveys,
+and position papers.
+------------------------------------------------------------------
+SUBMISSION GUIDELINES
+------------------------------------------------------------------
+
+    Original, unpublished work not under review elsewhere
+    Full papers only (abstract-only submissions are not accepted)
+    Official ACLing 2026 single-column template (Word or LaTeX):
+        https://acling.org/submission/
+    Length: 3–8 pages, including figures, tables, and references.
+        Up to 2 extra pages (10 maximum) are allowed for an additional fee.
+    Double-blind review: manuscripts must be anonymized
+    At least one author must register and present the paper for it to
+        appear in the proceedings
+
+------------------------------------------------------------------
+EXTENDED JOURNAL PUBLICATION – THREE MDPI SPECIAL ISSUES
+------------------------------------------------------------------
+Authors of accepted papers may submit a substantially extended version
+to one of these special issues, according to scope:
+
+    Computation – Recent Advances on Computational Linguistics and
+        Natural Language Processing (2nd Edition)
+        Best fit: core NLP and computational linguistics research
+        https://www.mdpi.com/journal/computation/special_issues/844FZG56H7
+
+    Cryptography – Cryptographic and Data-Driven Techniques for Secure
+        Business Technology, Cyber Resilience, and Forensics
+        Best fit: language models for cybersecurity, threat intelligence,
+        fraud detection, and AI-assisted digital forensics
+        https://www.mdpi.com/journal/cryptography/special_issues/AZ7402BU21
+
+    Computers – Trustworthy and Efficient Large Language Models:
+        Methods, Systems and Applications
+        Best fit: LLM reliability, efficiency, systems, and applications
+        https://www.mdpi.com/journal/computers/special_issues/SK9R9137L0
+
+Conditions:
+
+    An APC discount applies; contact the organizers for details.
+    The extended paper must add substantial new contributions, cite the
+        conference paper, and explain what is new.
+    Journal submissions undergo separate peer review. Conference
+        acceptance does not guarantee journal acceptance.
+    Journal APCs are separate from conference registration. Please check
+        each special issue's deadline and fees.
+
+Details: https://acling.org/call-for-papers/
+------------------------------------------------------------------
+CONFERENCE CHAIRS
+------------------------------------------------------------------
+Prof. Khaled Shaalan – The British University in Dubai, UAE
+Prof. Samhaa R. El-Beltagy – New Giza University, Egypt
+CONTACT
+General inquiries: acling2026@gmail.com
+Prof. Khaled Shaalan: khaled.shaalan@buid.ac.ae
+Dr. Taher M. Ghazal: taher.ghazal@ieee.org
+Prof. Samhaa R. El-Beltagy: samhaa@computer.org
+------------------------------------------------------------------
+Please forward this call to colleagues, research groups, and students
+who may be interested. We apologize if you receive multiple copies.
+ACLing 2026 | 25–26 November 2026 | Dubai – Jordan – Online
+https://acling.org/
