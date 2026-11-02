@@ -15,8 +15,8 @@ def check_page_change(page_name):
     elif st.session_state['current_page'] != page_name:
         st.session_state['current_page'] = page_name
         keys_to_clear = [
-            'selected_event_id', 'selected_organiser_key', 
-            'search_mode', 'search_term', 
+            'selected_event_id', 'selected_organiser_key',
+            'search_mode', 'search_term',
             'org_search_mode', 'org_search_term',
             'selected_openalex_author', 'openalex_search_query',
             'processed_conf', 'processed_filename', 'processed_cfp_text'
@@ -28,22 +28,22 @@ def check_page_change(page_name):
 def main():
     read_config_file()
     check_page_change("home")
-    
+
     config = st.session_state['config']
     vis = ConferenceVisualiser()
-    
+
     st.set_page_config(
         layout="wide",
         page_title=config['APP']['app_acronym'],
         page_icon="🌐"
     )
-    
+
     vis.local('assets/css/bootstrap.min.css')
     vis.local('assets/css/mycss.css')
-    
+
     with st.sidebar:
         vis.add_logo()
-        
+
     st.title(config['APP']['app_name'])
     st.markdown(
         f"<h4 style='text-align: left; color: gray; margin-bottom: 40px; font-weight: normal; line-height: 1.5;'>"
@@ -52,7 +52,7 @@ def main():
         f"</h4>",
         unsafe_allow_html=True
     )
-    
+
     # Inject CSS to style the cards and define the tinted palettes
     st.markdown(
         """
@@ -175,7 +175,7 @@ def main():
             """,
             unsafe_allow_html=True
         )
-                
+
     with row1_col2:
         st.markdown(
             """
@@ -188,9 +188,9 @@ def main():
             """,
             unsafe_allow_html=True
         )
-                
+
     st.markdown("<div style='height: 20px;'></div>", unsafe_allow_html=True)
-    
+
     row2_col1, row2_col2 = st.columns(2)
     with row2_col1:
         st.markdown(
@@ -204,7 +204,7 @@ def main():
             """,
             unsafe_allow_html=True
         )
-                
+
     with row2_col2:
         st.markdown(
             """
@@ -224,7 +224,7 @@ def main():
         st.markdown(
             """
             <a href="Database_Statistics" target="_self" class="coci-card card-stats">
-              <h3>📊 Database Statistics</h3>
+              <h3>Database Statistics</h3>
               <p>
                 Explore database metrics, distribution of events per year, top series, organiser demographics, and external dataset linkages.
               </p>
@@ -232,7 +232,7 @@ def main():
             """,
             unsafe_allow_html=True
         )
-                
+
     st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)
     vis.render_footer()
 
