@@ -617,7 +617,7 @@ class ConferenceVisualiser(CoreVisualiser):
                 unsafe_allow_html=True
             )
         with col_btn:
-            with st.popover("🔄 Rerun Process", use_container_width=True):
+            with st.popover("🔄 Rerun Process", type="primary", use_container_width=True):
                 st.markdown("##### Rerun Event Processing")
                 st.caption("Reprocess this call for papers to update structured event metadata, organisers, and topics.")
                 
