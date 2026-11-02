@@ -17,26 +17,32 @@ class StorageToFile:
 
     def save(self, filename: str, conf_dict: dict, llm_output: dict, cfp_text: str = None) -> None:
         """Save both the raw LLM output and the fully processed conference data, preserving/saving cfp_text."""
+        import datetime
         path = self._get_path(filename)
-        
+
         existing_cfp = None
+        existing_created_at = None
         if path.is_file():
             try:
                 with open(path, 'r') as f:
                     old_data = json.load(f)
                 existing_cfp = old_data.get("cfp_text")
+                existing_created_at = old_data.get("created_at")
             except Exception:
                 pass
-        
+
         final_cfp = cfp_text if cfp_text is not None else existing_cfp
-        
+        now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
         data = {
             "llm-output": llm_output,
-            "processed": conf_dict
+            "processed": conf_dict,
+            "created_at": existing_created_at or now_iso,
+            "processed_at": now_iso
         }
         if final_cfp is not None:
             data["cfp_text"] = final_cfp
-            
+
         with open(path, 'w') as f:
             json.dump(data, f, indent=4)
 
@@ -48,19 +54,23 @@ class StorageToFile:
         path = self._get_path(filename)
         with open(path, 'r') as f:
             data = json.load(f)
-        
+
         # Backward compatibility for old JSON schema
         if "processed" not in data and "event_name" in data:
             return {
                 "llm-output": data,
                 "processed": data,
-                "cfp_text": data.get("cfp_text", "")
+                "cfp_text": data.get("cfp_text", ""),
+                "created_at": data.get("created_at"),
+                "processed_at": data.get("processed_at")
             }
-            
+
         return {
             "llm-output": data.get("llm-output", {}),
             "processed": data.get("processed", {}),
-            "cfp_text": data.get("cfp_text", "")
+            "cfp_text": data.get("cfp_text", ""),
+            "created_at": data.get("created_at"),
+            "processed_at": data.get("processed_at")
         }
 
 
@@ -82,14 +92,14 @@ def merge_organisers(existing_orgs, new_orgs):
         name = new_org.get("organiser_name", "").strip()
         orcid = new_org.get("orcid", "")
         openalex_page = new_org.get("openalex_page", "")
-        
+
         # Find if there is an existing matching organiser
         match_idx = -1
         for idx, ext_org in enumerate(merged):
             ext_name = ext_org.get("organiser_name", "").strip()
             ext_orcid = ext_org.get("orcid", "")
             ext_openalex = ext_org.get("openalex_page", "")
-            
+
             # Check for match
             if orcid and ext_orcid and orcid == ext_orcid:
                 match_idx = idx
@@ -100,7 +110,7 @@ def merge_organisers(existing_orgs, new_orgs):
             if name.lower() == ext_name.lower() and name:
                 match_idx = idx
                 break
-        
+
         if match_idx >= 0:
             # Merge fields of the organiser
             ext_org = merged[match_idx]
@@ -153,31 +163,31 @@ def merge_enhanced_topics(existing_enhanced, new_enhanced):
 
 def merge_event_data(existing_data: dict, new_data: dict) -> dict:
     merged = dict(existing_data)
-    
+
     # Merge basic fields
     for key in ["event_name", "event_acronym", "conference_series", "colocated_with", "year", "location"]:
         ext_val = merged.get(key)
         new_val = new_data.get(key)
         if not ext_val and new_val:
             merged[key] = new_val
-            
+
     for key in ["DBLP", "AIDA", "ConfIDent"]:
         merged[key] = merge_dict(merged.get(key), new_data.get(key))
-        
+
     # Merge organisers
     merged["organisers"] = merge_organisers(merged.get("organisers", []), new_data.get("organisers", []))
-    
+
     # Merge topics
     merged["topics"] = merge_topics(merged.get("topics", []), new_data.get("topics", []))
-    
+
     # Merge enhanced_topics
     merged["enhanced_topics"] = merge_enhanced_topics(merged.get("enhanced_topics", {}), new_data.get("enhanced_topics", {}))
-    
+
     # For any other fields not explicitly handled, if existing doesn't have it, copy from new
     for k, v in new_data.items():
         if k not in merged:
             merged[k] = v
-            
+
     return merged
 
 
@@ -201,10 +211,10 @@ class StorageToMongo:
         doc = self.events.find_one({"filenames": stem})
         if not doc:
             raise FileNotFoundError(f"No database record found for filename {filename}")
-        
+
         filenames = doc.get("filenames", [])
         cfps = doc.get("cfps", [])
-        
+
         cfp_text = ""
         try:
             idx = filenames.index(stem)
@@ -213,61 +223,65 @@ class StorageToMongo:
         except ValueError:
             if cfps:
                 cfp_text = cfps[0]
-        
-        # Construct standard dict with "llm-output", "processed" and "cfp_text"
+
+        # Construct standard dict with "llm-output", "processed", "cfp_text", and timestamps
         return {
             "llm-output": doc.get("llm-output", {}),
             "processed": doc.get("processed", {}),
-            "cfp_text": cfp_text
+            "cfp_text": cfp_text,
+            "created_at": doc.get("created_at"),
+            "processed_at": doc.get("processed_at")
         }
 
     def save(self, filename: str, conf_dict: dict, llm_output: dict, cfp_text: str = None) -> None:
         """Save both the raw LLM output and the fully processed conference data to MongoDB."""
+        import datetime
         stem = Path(filename).stem
-        
+        now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
         # Extract event name, conference series, and year
         event_name = conf_dict.get("event_name") or llm_output.get("event_name", "")
         conference_series = conf_dict.get("conference_series") or llm_output.get("conference_series", "")
         year = conf_dict.get("year") or llm_output.get("year", "")
-        
+
         event_name_str = str(event_name).strip()
         conference_series_str = str(conference_series).strip()
         year_str = str(year).strip()
-        
+
         # Quick lookup in events_index (Table 2)
         existing_idx_doc = self.events_index.find_one({
             "event_name": event_name_str,
             "year": year_str
         })
-        
+
         if existing_idx_doc:
             idx = existing_idx_doc["index"]
-            
+
             # Update conference_series in events_index if missing but now available
             if not existing_idx_doc.get("conference_series") and conference_series_str:
                 self.events_index.update_one(
                     {"_id": existing_idx_doc["_id"]},
                     {"$set": {"conference_series": conference_series_str}}
                 )
-            
+
             # Retrieve from events (Table 1)
             existing_event = self.events.find_one({"_id": idx})
-            
+
             if existing_event:
                 # Merge the information
                 merged_processed = merge_event_data(existing_event.get("processed", {}), conf_dict)
                 merged_llm_output = merge_event_data(existing_event.get("llm-output", {}), llm_output)
                 filenames = existing_event.get("filenames", [])
-                
+
                 # Fetch existing CFPs list and ensure length aligns
                 cfps = existing_event.get("cfps", [])
                 if not isinstance(cfps, list):
                     # Migration fallback if old structure was a dict
                     cfps = [cfps.get(f, "") for f in filenames] if isinstance(cfps, dict) else []
-                
+
                 while len(cfps) < len(filenames):
                     cfps.append("")
-                
+
                 if stem not in filenames:
                     filenames.append(stem)
                     cfps.append(cfp_text if cfp_text is not None else "")
@@ -275,7 +289,9 @@ class StorageToMongo:
                     stem_idx = filenames.index(stem)
                     if cfp_text is not None:
                         cfps[stem_idx] = cfp_text
-                
+
+                created_at = existing_event.get("created_at") or now_iso
+
                 self.events.replace_one(
                     {"_id": idx},
                     {
@@ -284,7 +300,9 @@ class StorageToMongo:
                         "filenames": filenames,
                         "cfps": cfps,
                         "llm-output": merged_llm_output,
-                        "processed": merged_processed
+                        "processed": merged_processed,
+                        "created_at": created_at,
+                        "processed_at": now_iso
                     }
                 )
             else:
@@ -296,13 +314,15 @@ class StorageToMongo:
                     "filenames": [stem],
                     "cfps": cfps,
                     "llm-output": llm_output,
-                    "processed": conf_dict
+                    "processed": conf_dict,
+                    "created_at": now_iso,
+                    "processed_at": now_iso
                 })
         else:
             # Generate new progressive index
             max_doc = self.events_index.find_one(sort=[("index", -1)])
             new_idx = (max_doc["index"] + 1) if max_doc else 1
-            
+
             # Insert into events_index
             self.events_index.insert_one({
                 "index": new_idx,
@@ -310,9 +330,9 @@ class StorageToMongo:
                 "conference_series": conference_series_str,
                 "year": year_str
             })
-            
+
             cfps = [cfp_text if cfp_text is not None else ""]
-            
+
             # Insert into events
             self.events.insert_one({
                 "_id": new_idx,
@@ -320,7 +340,9 @@ class StorageToMongo:
                 "filenames": [stem],
                 "cfps": cfps,
                 "llm-output": llm_output,
-                "processed": conf_dict
+                "processed": conf_dict,
+                "created_at": now_iso,
+                "processed_at": now_iso
             })
 
 
@@ -359,10 +381,10 @@ class ConferenceStorage:
         storage_type = config.get('STORAGE', 'type', fallback='file')
         # Clean inline comments and whitespace
         storage_type = storage_type.split('#')[0].split(';')[0].strip()
-        
+
         uri = config.get('MONGODB', 'uri', fallback='mongodb://localhost:27017/')
         db_name = config.get('MONGODB', 'db_name', fallback='coci')
-        
+
         if storage_type == 'mongodb':
             return StorageToMongo(uri, db_name)
         elif storage_type == 'both':

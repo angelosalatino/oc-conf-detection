@@ -579,3 +579,120 @@ class ConferenceVisualiser(CoreVisualiser):
                         else:
                             line += f" :blue-badge[📎 {oatopic}]"
                 st.markdown(line)
+
+    def display_cfp_tab(self, cfp_text: str, filename: str = "", storage = None, processed_at: str = None) -> None:
+        """
+        Renders the Call for Papers tab with processing timestamp metadata, 
+        an interactive in-place re-run button with processing mode options, and the rendered CFP HTML.
+        """
+        from classes.call_for_paper import CallForPaper
+        import datetime
+
+        # Attempt to look up timestamp from storage if not explicitly provided
+        timestamp_str = processed_at
+        if not timestamp_str and filename and storage:
+            try:
+                loaded = storage.load(filename)
+                timestamp_str = loaded.get("processed_at") or loaded.get("created_at")
+            except Exception:
+                pass
+
+        formatted_time = "Not recorded (legacy record)"
+        if timestamp_str:
+            try:
+                # Parse ISO timestamp
+                dt = datetime.datetime.fromisoformat(timestamp_str.replace("Z", "+00:00"))
+                formatted_time = dt.strftime("%b %d, %Y at %H:%M:%S UTC")
+            except Exception:
+                formatted_time = str(timestamp_str)
+
+        # Header metadata banner
+        col_meta, col_btn = st.columns([3, 1], vertical_alignment="center")
+        with col_meta:
+            source_badge = f" &bull; 📄 <code>{html.escape(filename)}</code>" if filename else ""
+            st.markdown(
+                f"<div style='font-size: 13px; color: #555; background-color: #f8f9fa; padding: 8px 14px; border-radius: 6px; border: 1px solid #e2e8f0; margin-bottom: 12px;'>"
+                f"🕒 <b>Processed:</b> {formatted_time}{source_badge}"
+                f"</div>",
+                unsafe_allow_html=True
+            )
+        with col_btn:
+            with st.popover("🔄 Rerun Process", use_container_width=True):
+                st.markdown("##### Rerun Event Processing")
+                st.caption("Reprocess this call for papers to update structured event metadata, organisers, and topics.")
+                
+                rerun_mode = st.radio(
+                    "Select Rerun Mode",
+                    options=["Mild Force", "Force"],
+                    index=0,
+                    help="Mild Force: Reuses LLM-extracted entities and reruns dataset & OpenAlex matching.\nForce: Reprocesses everything from scratch using LLM."
+                )
+                
+                run_btn = st.button("Start Processing", type="primary", use_container_width=True)
+                
+                if run_btn:
+                    if not cfp_text:
+                        st.error("No Call for Papers text available to process.")
+                    else:
+                        config = st.session_state.get('config')
+                        if not config:
+                            import configparser
+                            config = configparser.ConfigParser()
+                            config.read('config.ini')
+
+                        api_url = config['DEFAULT']['api_url']
+                        api_key = config['DEFAULT']['api_key']
+                        referer = config['TEAM']['website']
+                        title = config['TEAM']['description']
+                        openalex_api = config['OPENALEX']['openalex_api']
+
+                        from classes.orchestrator import Orchestrator
+                        cached_llm_result = None
+                        if rerun_mode == "Mild Force" and filename and storage:
+                            try:
+                                loaded = storage.load(filename)
+                                cached_llm_result = loaded.get("llm-output")
+                            except Exception:
+                                pass
+
+                        progress_placeholder = st.empty()
+                        logs = []
+
+                        def update_progress(message: str):
+                            logs.append(message)
+                            logs_html = "<br>".join([f"&gt; {msg}" for msg in logs])
+                            spinner_html = f'''
+                            <div style="display: flex; align-items: flex-start; margin-bottom: 20px; background-color: #f4f6f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd;">
+                                <img src="{self.render_image('assets/gifs/cooking.gif')}" width="60" height="60" style="margin-right: 15px; margin-top: 5px;" />
+                                <div style="font-size: 14px; font-family: monospace; color: #333;">
+                                    {logs_html}
+                                </div>
+                            </div>
+                            '''
+                            progress_placeholder.markdown(spinner_html, unsafe_allow_html=True)
+
+                        orchestrator = Orchestrator(api_url, api_key, referer, title, openalex_api)
+                        conf, llm_result = orchestrator.process(
+                            cfp_text, 
+                            progress_callback=update_progress, 
+                            cached_llm_result=cached_llm_result
+                        )
+                        progress_placeholder.empty()
+
+                        if filename and storage:
+                            storage.save(filename, conf.to_dict(), llm_result, cfp_text)
+
+                        # Update session state if present
+                        if 'processed_conf' in st.session_state:
+                            st.session_state['processed_conf'] = conf
+                        if 'processed_filename' in st.session_state:
+                            st.session_state['processed_filename'] = filename
+                        if 'processed_cfp_text' in st.session_state:
+                            st.session_state['processed_cfp_text'] = cfp_text
+
+                        st.toast("Reprocessing completed successfully!", icon="✅")
+                        st.rerun()
+
+        # Render Call for Papers text
+        cfp_obj = CallForPaper(cfp_text)
+        st.html(cfp_obj.get_rendered_html())

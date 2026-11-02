@@ -84,8 +84,7 @@ def main():
         with tab1:
             vis.display_main(conf, filename, storage)
         with tab2:
-            cfp_obj = CallForPaper(call_for_papers)
-            st.html(cfp_obj.get_rendered_html())
+            vis.display_cfp_tab(call_for_papers, filename, storage)
             
     # UPLOAD FORM VIEW
     else:
