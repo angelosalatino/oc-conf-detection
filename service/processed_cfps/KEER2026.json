@@ -1,0 +1,183 @@
+{
+    "llm-output": {
+        "event_name": "2026 International Conference on Kansei Engineering and Emotion Research",
+        "conference_series": "Kansei Engineering and Emotion Research",
+        "event_acronym": "KEER 2026",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Eugene, Oregon, USA",
+        "topics": [
+            "Kansei engineering",
+            "Affective engineering",
+            "Performance in physical human",
+            "Mentally health performance",
+            "Environmental performance",
+            "Product and service design",
+            "Architecture",
+            "UX design",
+            "Cultural research"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "University of Oregon",
+                "organiser_affiliation": "University of Oregon",
+                "organiser_country": "USA",
+                "track_name": "General",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gerard Saucier",
+                "openalex_page": "https://openalex.org/A5089533881",
+                "orcid": "https://orcid.org/0000-0003-3262-0469",
+                "affiliation_ror": "https://ror.org/0293rh119"
+            },
+            {
+                "organiser_name": "Department of Product Design",
+                "organiser_affiliation": "University of Oregon",
+                "organiser_country": "USA",
+                "track_name": "General",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "\u015eebnem Timur",
+                "openalex_page": "https://openalex.org/A5067865140",
+                "orcid": "https://orcid.org/0000-0003-2919-7364",
+                "affiliation_ror": "https://ror.org/02vh8a032"
+            },
+            {
+                "organiser_name": "Societies of the Kansei Engineering and Emotion Research (KEER)",
+                "organiser_affiliation": "Societies of Kansei Engineering and Emotion Research",
+                "organiser_country": "USA",
+                "track_name": "General",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "2026 International Conference on Kansei Engineering and Emotion Research",
+        "event_acronym": "KEER 2026",
+        "conference_series": "Kansei Engineering and Emotion Research",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Eugene, Oregon, USA",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "University of Oregon",
+                "organiser_affiliation": "University of Oregon",
+                "organiser_country": "USA",
+                "track_name": "General",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gerard Saucier",
+                "openalex_page": "https://openalex.org/A5089533881",
+                "orcid": "https://orcid.org/0000-0003-3262-0469",
+                "affiliation_ror": "https://ror.org/0293rh119"
+            },
+            {
+                "organiser_name": "Department of Product Design",
+                "organiser_affiliation": "University of Oregon",
+                "organiser_country": "USA",
+                "track_name": "General",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "\u015eebnem Timur",
+                "openalex_page": "https://openalex.org/A5067865140",
+                "orcid": "https://orcid.org/0000-0003-2919-7364",
+                "affiliation_ror": "https://ror.org/02vh8a032"
+            },
+            {
+                "organiser_name": "Societies of the Kansei Engineering and Emotion Research (KEER)",
+                "organiser_affiliation": "Societies of Kansei Engineering and Emotion Research",
+                "organiser_country": "USA",
+                "track_name": "General",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Kansei engineering",
+            "Affective engineering",
+            "Performance in physical human",
+            "Mentally health performance",
+            "Environmental performance",
+            "Product and service design",
+            "Architecture",
+            "UX design",
+            "Cultural research"
+        ],
+        "enhanced_topics": {
+            "Kansei engineering": [
+                {
+                    "topic": "kansei engineering",
+                    "similarity": 0.9999999999994067
+                }
+            ],
+            "Affective engineering": [
+                {
+                    "topic": "affective design",
+                    "similarity": 0.7095912992954254
+                }
+            ],
+            "Performance in physical human": [
+                {
+                    "topic": "physical performance",
+                    "similarity": 0.6228544116020203
+                }
+            ],
+            "Mentally health performance": [],
+            "Environmental performance": [
+                {
+                    "topic": "environmental performance",
+                    "similarity": 0.9999999999993141
+                },
+                {
+                    "topic": "environmental efficiency",
+                    "similarity": 0.6191230416297913
+                }
+            ],
+            "Product and service design": [
+                {
+                    "topic": "service design",
+                    "similarity": 0.9999999999993697
+                }
+            ],
+            "Architecture": [
+                {
+                    "topic": "architecture",
+                    "similarity": 0.9999999999989461
+                },
+                {
+                    "topic": "architectural design",
+                    "similarity": 0.7146136164665222
+                }
+            ],
+            "UX design": [],
+            "Cultural research": [
+                {
+                    "topic": "cultural studies",
+                    "similarity": 0.7327605485916138
+                },
+                {
+                    "topic": "cross-cultural research",
+                    "similarity": 0.6573323011398315
+                },
+                {
+                    "topic": "cultural analysis",
+                    "similarity": 0.6022019982337952
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    },
+    "cfp_text": "2026 International Conference on\rKansei Engineering and Emotion Research\rKANSEI FOR PERFORMANCE\rSave the Date\rAugust 11- 13, 2026\r\r\rAbout the Conference\rThe University of Oregon, the Department of Product Design and the Societies of the Kansei Engineering and Emotion Research (KEER) are pleased to invite you to the KEER International Conference in Eugene, Oregon, USA, on August 11- 13, 2026. KEER brings together researchers and practitioners to explore the relationship between Kansei (affect, emotion, experience) design and our human-created built environment.\rExpect keynotes, paper sessions, workshops, and panels showcasing methods, tools, and case studies from product and service design to architecture, UX, and cultural research.\r* Peer\u001ereviewed papers and poster sessions\r* Hands\u001eon workshops and tutorials\r* Industry + academic networking\r\rVenue & Travel\rThe 2026 conference will be hosted at the University of Oregon, located in the heart of the city with easy access to hotels, public transport, and cultural landmarks.\r* Address: University of Oregon, Eugene, Oregon, USA\r\r\rCall for Papers\rDeadline: March 3rd, 2026\r\rThe theme for KEER 2026 is PERFORMANCE. Performance is a strength at the University of Oregon (UO): physical human performance, mental health performance and environmental performance. Kansei engineering touches each of these areas, connecting our built environment to our physical, mental and environmental needs, thereby improving peoples  performance in daily life. Please join us to share your research, discuss your findings and demonstrate how affective engineering expands our performance.\rThis submission form will ask for Title, Abstract, Presentation Form, Topic, Paper Length and Paper Submission.\rThese papers will be blind reviewed, so please do not include any contact information on the paper to ensure the submission is anonymous.\rFull papers are not due until June 15th.\r\r\r"
+}

@@ -1,0 +1,1029 @@
+{
+    "llm-output": {
+        "event_name": "43rd International Conference on Machine Learning",
+        "conference_series": "International Conference on Machine Learning",
+        "event_acronym": "ICML 2026",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Seoul, South Korea",
+        "topics": [
+            "general machine learning",
+            "deep learning",
+            "evaluation",
+            "theory of machine learning",
+            "machine learning systems",
+            "optimization",
+            "probabilistic methods",
+            "reinforcement learning",
+            "trustworthy machine learning",
+            "application-driven machine learning"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Hanze Dong",
+                "organiser_affiliation": "Microsoft",
+                "organiser_country": "USA",
+                "track_name": "Publication Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Hanze Dong",
+                "openalex_page": "https://openalex.org/A5061778641",
+                "orcid": "https://orcid.org/0000-0002-8846-1260",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Alberto Bietti",
+                "organiser_affiliation": "Flatiron Institute",
+                "organiser_country": "USA",
+                "track_name": "Publication Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Alberto Bietti",
+                "openalex_page": "https://openalex.org/A5088570356",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/00sekdz59"
+            },
+            {
+                "organiser_name": "Felix Berkenkamp",
+                "organiser_affiliation": "Aleph Alpha Research",
+                "organiser_country": "Germany",
+                "track_name": "Publication Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Felix Berkenkamp",
+                "openalex_page": "https://openalex.org/A5023706410",
+                "orcid": "https://orcid.org/0000-0002-5179-6606",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Alekh Agarwal",
+                "organiser_affiliation": "Google",
+                "organiser_country": "USA",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Alekh Agarwal",
+                "openalex_page": "https://openalex.org/A5036435487",
+                "orcid": "https://orcid.org/0000-0001-7032-7162",
+                "affiliation_ror": "https://ror.org/00njsd438"
+            },
+            {
+                "organiser_name": "Miroslav Dudik",
+                "organiser_affiliation": "Microsoft Research",
+                "organiser_country": "USA",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Miroslav Dud\u0131\u0301k",
+                "openalex_page": "https://openalex.org/A5089372170",
+                "orcid": "https://orcid.org/0009-0001-8565-0621",
+                "affiliation_ror": "https://ror.org/05k87vq12"
+            },
+            {
+                "organiser_name": "Sharon Li",
+                "organiser_affiliation": "University of Wisconsin-Madison",
+                "organiser_country": "USA",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yixuan Li",
+                "openalex_page": "https://openalex.org/A5100443469",
+                "orcid": "https://orcid.org/0000-0002-0685-2875",
+                "affiliation_ror": "https://ror.org/01y2jtd41"
+            },
+            {
+                "organiser_name": "Martin Jaggi",
+                "organiser_affiliation": "EPFL",
+                "organiser_country": "Switzerland",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Martin Jaggi",
+                "openalex_page": "https://openalex.org/A5073756389",
+                "orcid": "https://orcid.org/0000-0003-1579-5558",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Jerry Zhu",
+                "organiser_affiliation": "University of Wisconsin-Madison",
+                "organiser_country": "USA",
+                "track_name": "Position Paper Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Xiaojin Zhu",
+                "openalex_page": "https://openalex.org/A5103428074",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01y2jtd41"
+            },
+            {
+                "organiser_name": "Dale Schuurmans",
+                "organiser_affiliation": "Google DeepMind / University of Alberta",
+                "organiser_country": "Canada",
+                "track_name": "Position Paper Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Dale Schuurmans",
+                "openalex_page": "https://openalex.org/A5010575626",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/0160cpw27"
+            },
+            {
+                "organiser_name": "Courtney Paquette",
+                "organiser_affiliation": "McGill University/Google DeepMind",
+                "organiser_country": "Canada/UK",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Courtney Paquette",
+                "openalex_page": "https://openalex.org/A5073457791",
+                "orcid": "https://orcid.org/0009-0005-5470-6249",
+                "affiliation_ror": "https://ror.org/01pxwe438"
+            },
+            {
+                "organiser_name": "Gergely Neu",
+                "organiser_affiliation": "Univ Pompeu Fabra",
+                "organiser_country": "Spain",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gergely Neu",
+                "openalex_page": "https://openalex.org/A5077167635",
+                "orcid": "https://orcid.org/0000-0001-6287-3796",
+                "affiliation_ror": "https://ror.org/04n0g0b29"
+            },
+            {
+                "organiser_name": "Claire Vernade",
+                "organiser_affiliation": "University of T\u00fcbingen",
+                "organiser_country": "Germany",
+                "track_name": "Tutorial Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Claire Vernade",
+                "openalex_page": "https://openalex.org/A5088066921",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/03a1kwz48"
+            },
+            {
+                "organiser_name": "Adam White",
+                "organiser_affiliation": "University of Alberta, Alberta Machine Intelligence Institute (Amii), RL Core",
+                "organiser_country": "Canada",
+                "track_name": "Tutorial Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Adam White",
+                "openalex_page": "https://openalex.org/A5108583544",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/0160cpw27"
+            },
+            {
+                "organiser_name": "Kevin Jamieson",
+                "organiser_affiliation": "University of Washington",
+                "organiser_country": "USA",
+                "track_name": "Ethics Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Kevin Jamieson",
+                "openalex_page": "https://openalex.org/A5059086538",
+                "orcid": "https://orcid.org/0000-0003-2054-2985",
+                "affiliation_ror": "https://ror.org/00cvxb145"
+            },
+            {
+                "organiser_name": "Asia Biega",
+                "organiser_affiliation": "Max Planck",
+                "organiser_country": "Germany",
+                "track_name": "Ethics Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Asia J. Biega",
+                "openalex_page": "https://openalex.org/A5087294637",
+                "orcid": "https://orcid.org/0000-0001-8083-0976",
+                "affiliation_ror": "https://ror.org/01hhn8329"
+            },
+            {
+                "organiser_name": "Amy Zhang",
+                "organiser_affiliation": "UT Austin",
+                "organiser_country": "USA",
+                "track_name": "Inclusion & Accessibility Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Amy Zhang",
+                "openalex_page": "https://openalex.org/A5101754384",
+                "orcid": "https://orcid.org/0000-0002-9130-0660",
+                "affiliation_ror": "https://ror.org/00hj54h04"
+            },
+            {
+                "organiser_name": "Maria Skoularidou",
+                "organiser_affiliation": "Broad Institute",
+                "organiser_country": "USA",
+                "track_name": "Inclusion & Accessibility Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Maria Skoularidou",
+                "openalex_page": "https://openalex.org/A5086481607",
+                "orcid": "https://orcid.org/0000-0002-7640-4007",
+                "affiliation_ror": "https://ror.org/05a0ya142"
+            },
+            {
+                "organiser_name": "Chang Yoo",
+                "organiser_affiliation": "Kaist",
+                "organiser_country": "South Korea",
+                "track_name": "Local Chairs",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chang D. Yoo",
+                "openalex_page": "https://openalex.org/A5073287748",
+                "orcid": "https://orcid.org/0000-0002-0756-7179",
+                "affiliation_ror": "https://ror.org/047dqcg40"
+            },
+            {
+                "organiser_name": "Kevin Leyton-Brown",
+                "organiser_affiliation": "University of British Columbia",
+                "organiser_country": "Canada",
+                "track_name": "Social Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Kevin Leyton\u2010Brown",
+                "openalex_page": "https://openalex.org/A5089807699",
+                "orcid": "https://orcid.org/0000-0002-7644-5327",
+                "affiliation_ror": "https://ror.org/03rmrcq20"
+            },
+            {
+                "organiser_name": "Chulhee Yun",
+                "organiser_affiliation": "KAIST",
+                "organiser_country": "South Korea",
+                "track_name": "Social Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Chulhee Yun",
+                "openalex_page": "https://openalex.org/A5045562332",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Katherine Gorman",
+                "organiser_affiliation": "Talking Machines",
+                "organiser_country": "USA",
+                "track_name": "Communications Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Katherine M. Gorman",
+                "openalex_page": "https://openalex.org/A5042432141",
+                "orcid": "https://orcid.org/0000-0002-8323-8430",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Gautam Kamath",
+                "organiser_affiliation": "University of Waterloo",
+                "organiser_country": "Canada",
+                "track_name": "Communications Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gautam Kamath",
+                "openalex_page": "https://openalex.org/A5047778197",
+                "orcid": "https://orcid.org/0000-0003-0048-2559",
+                "affiliation_ror": "https://ror.org/01aff2v68"
+            },
+            {
+                "organiser_name": "Brian Nettleton",
+                "organiser_affiliation": "Eventhosts",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "B. Nettleton",
+                "openalex_page": "https://openalex.org/A5071735949",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Brad Brockmeyer",
+                "organiser_affiliation": "ICML Staff",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Max Wiesner",
+                "organiser_affiliation": "Eventhosts",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Max Wiesner",
+                "openalex_page": "https://openalex.org/A5070520077",
+                "orcid": "https://orcid.org/0000-0001-8469-7543",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Lee Campbell",
+                "organiser_affiliation": "Eventhosts",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Lee Ann Campbell",
+                "openalex_page": "https://openalex.org/A5040308280",
+                "orcid": "https://orcid.org/0000-0003-4724-1824",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Mary Ellen Perry",
+                "organiser_affiliation": "Eventhosts",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Mary Ellen Perry",
+                "openalex_page": "https://openalex.org/A5109907471",
+                "orcid": "https://orcid.org/0000-0002-8675-0536",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Stephanie Willes",
+                "organiser_affiliation": "Eventhosts",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Stephanie Willes",
+                "openalex_page": "https://openalex.org/A5086532115",
+                "orcid": "https://orcid.org/0000-0003-1751-1862",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Alexander H\u00e4gele",
+                "organiser_affiliation": "EPFL",
+                "organiser_country": "Switzerland",
+                "track_name": "Associate Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Alexander H\u00e4gele",
+                "openalex_page": "https://openalex.org/A5098954170",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Buxin Su",
+                "organiser_affiliation": "University of Pennsylvania",
+                "organiser_country": "USA",
+                "track_name": "Associate Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Buxin Su",
+                "openalex_page": "https://openalex.org/A5112970785",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01spssf70"
+            },
+            {
+                "organiser_name": "Hyeong Kyu Choi",
+                "organiser_affiliation": "University of Wisconsin-Madison",
+                "organiser_country": "USA",
+                "track_name": "Associate Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Hyeong Kyu Choi",
+                "openalex_page": "https://openalex.org/A5063579922",
+                "orcid": "https://orcid.org/0000-0003-2090-9273",
+                "affiliation_ror": "https://ror.org/01y2jtd41"
+            },
+            {
+                "organiser_name": "Zhenyu (Sherry) Xue",
+                "organiser_affiliation": "ICML",
+                "organiser_country": "",
+                "track_name": "Workflow Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Weijie Su",
+                "organiser_affiliation": "University of Pennsylvania",
+                "organiser_country": "USA",
+                "track_name": "Scientific Integrity Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Weijie Su",
+                "openalex_page": "https://openalex.org/A5080575294",
+                "orcid": "https://orcid.org/0000-0003-1787-1219",
+                "affiliation_ror": "https://ror.org/01spssf70"
+            },
+            {
+                "organiser_name": "Nihar Shah",
+                "organiser_affiliation": "Carnegie Mellon University",
+                "organiser_country": "USA",
+                "track_name": "Scientific Integrity Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Nihar B. Shah",
+                "openalex_page": "https://openalex.org/A5034272491",
+                "orcid": "https://orcid.org/0000-0001-5158-9677",
+                "affiliation_ror": "https://ror.org/05x2bcf33"
+            },
+            {
+                "organiser_name": "Tong Zhang",
+                "organiser_affiliation": "University of Illinois",
+                "organiser_country": "USA",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tong Zhang",
+                "openalex_page": "https://openalex.org/A5100378779",
+                "orcid": "https://orcid.org/0000-0002-2690-859X",
+                "affiliation_ror": "https://ror.org/047426m28"
+            },
+            {
+                "organiser_name": "Wenming Ye",
+                "organiser_affiliation": "Model AI Corp",
+                "organiser_country": "USA",
+                "track_name": "Expo Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Wenming Ye",
+                "openalex_page": "https://openalex.org/A5028393515",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "43rd International Conference on Machine Learning",
+        "event_acronym": "ICML 2026",
+        "conference_series": "International Conference on Machine Learning",
+        "colocated_with": "",
+        "year": "2026",
+        "location": "Seoul, South Korea",
+        "DBLP": {
+            "name": "International Conference on Machine Learning",
+            "id": "icml",
+            "url": "https://dblp.org/streams/conf/icml"
+        },
+        "AIDA": {
+            "name": "International Conference on Machine Learning (ICML)",
+            "id": "icml",
+            "url": "https://w3id.org/aida/dashboard/cs/conference/International%20Conference%20on%20Machine%20Learning%20%28ICML%29"
+        },
+        "ConfIDent": {
+            "name": "ICML - International Conference on Machine Learning",
+            "id": "Event Series:ICML",
+            "url": "https://www.confident-conference.org/index.php/Event%20Series%3AICML"
+        },
+        "organisers": [
+            {
+                "organiser_name": "Hanze Dong",
+                "organiser_affiliation": "Microsoft",
+                "organiser_country": "USA",
+                "track_name": "Publication Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Hanze Dong",
+                "openalex_page": "https://openalex.org/A5061778641",
+                "orcid": "https://orcid.org/0000-0002-8846-1260",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Alberto Bietti",
+                "organiser_affiliation": "Flatiron Institute",
+                "organiser_country": "USA",
+                "track_name": "Publication Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Alberto Bietti",
+                "openalex_page": "https://openalex.org/A5088570356",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/00sekdz59"
+            },
+            {
+                "organiser_name": "Felix Berkenkamp",
+                "organiser_affiliation": "Aleph Alpha Research",
+                "organiser_country": "Germany",
+                "track_name": "Publication Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Felix Berkenkamp",
+                "openalex_page": "https://openalex.org/A5023706410",
+                "orcid": "https://orcid.org/0000-0002-5179-6606",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Alekh Agarwal",
+                "organiser_affiliation": "Google",
+                "organiser_country": "USA",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Alekh Agarwal",
+                "openalex_page": "https://openalex.org/A5036435487",
+                "orcid": "https://orcid.org/0000-0001-7032-7162",
+                "affiliation_ror": "https://ror.org/00njsd438"
+            },
+            {
+                "organiser_name": "Miroslav Dudik",
+                "organiser_affiliation": "Microsoft Research",
+                "organiser_country": "USA",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Miroslav Dud\u0131\u0301k",
+                "openalex_page": "https://openalex.org/A5089372170",
+                "orcid": "https://orcid.org/0009-0001-8565-0621",
+                "affiliation_ror": "https://ror.org/05k87vq12"
+            },
+            {
+                "organiser_name": "Sharon Li",
+                "organiser_affiliation": "University of Wisconsin-Madison",
+                "organiser_country": "USA",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yixuan Li",
+                "openalex_page": "https://openalex.org/A5100443469",
+                "orcid": "https://orcid.org/0000-0002-0685-2875",
+                "affiliation_ror": "https://ror.org/01y2jtd41"
+            },
+            {
+                "organiser_name": "Martin Jaggi",
+                "organiser_affiliation": "EPFL",
+                "organiser_country": "Switzerland",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Martin Jaggi",
+                "openalex_page": "https://openalex.org/A5073756389",
+                "orcid": "https://orcid.org/0000-0003-1579-5558",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Jerry Zhu",
+                "organiser_affiliation": "University of Wisconsin-Madison",
+                "organiser_country": "USA",
+                "track_name": "Position Paper Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Xiaojin Zhu",
+                "openalex_page": "https://openalex.org/A5103428074",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01y2jtd41"
+            },
+            {
+                "organiser_name": "Dale Schuurmans",
+                "organiser_affiliation": "Google DeepMind / University of Alberta",
+                "organiser_country": "Canada",
+                "track_name": "Position Paper Track Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Dale Schuurmans",
+                "openalex_page": "https://openalex.org/A5010575626",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/0160cpw27"
+            },
+            {
+                "organiser_name": "Courtney Paquette",
+                "organiser_affiliation": "McGill University/Google DeepMind",
+                "organiser_country": "Canada/UK",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Courtney Paquette",
+                "openalex_page": "https://openalex.org/A5073457791",
+                "orcid": "https://orcid.org/0009-0005-5470-6249",
+                "affiliation_ror": "https://ror.org/01pxwe438"
+            },
+            {
+                "organiser_name": "Gergely Neu",
+                "organiser_affiliation": "Univ Pompeu Fabra",
+                "organiser_country": "Spain",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gergely Neu",
+                "openalex_page": "https://openalex.org/A5077167635",
+                "orcid": "https://orcid.org/0000-0001-6287-3796",
+                "affiliation_ror": "https://ror.org/04n0g0b29"
+            },
+            {
+                "organiser_name": "Claire Vernade",
+                "organiser_affiliation": "University of T\u00fcbingen",
+                "organiser_country": "Germany",
+                "track_name": "Tutorial Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Claire Vernade",
+                "openalex_page": "https://openalex.org/A5088066921",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/03a1kwz48"
+            },
+            {
+                "organiser_name": "Adam White",
+                "organiser_affiliation": "University of Alberta, Alberta Machine Intelligence Institute (Amii), RL Core",
+                "organiser_country": "Canada",
+                "track_name": "Tutorial Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Adam White",
+                "openalex_page": "https://openalex.org/A5108583544",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/0160cpw27"
+            },
+            {
+                "organiser_name": "Kevin Jamieson",
+                "organiser_affiliation": "University of Washington",
+                "organiser_country": "USA",
+                "track_name": "Ethics Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Kevin Jamieson",
+                "openalex_page": "https://openalex.org/A5059086538",
+                "orcid": "https://orcid.org/0000-0003-2054-2985",
+                "affiliation_ror": "https://ror.org/00cvxb145"
+            },
+            {
+                "organiser_name": "Asia Biega",
+                "organiser_affiliation": "Max Planck",
+                "organiser_country": "Germany",
+                "track_name": "Ethics Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Asia J. Biega",
+                "openalex_page": "https://openalex.org/A5087294637",
+                "orcid": "https://orcid.org/0000-0001-8083-0976",
+                "affiliation_ror": "https://ror.org/01hhn8329"
+            },
+            {
+                "organiser_name": "Amy Zhang",
+                "organiser_affiliation": "UT Austin",
+                "organiser_country": "USA",
+                "track_name": "Inclusion & Accessibility Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Amy Zhang",
+                "openalex_page": "https://openalex.org/A5101754384",
+                "orcid": "https://orcid.org/0000-0002-9130-0660",
+                "affiliation_ror": "https://ror.org/00hj54h04"
+            },
+            {
+                "organiser_name": "Maria Skoularidou",
+                "organiser_affiliation": "Broad Institute",
+                "organiser_country": "USA",
+                "track_name": "Inclusion & Accessibility Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Maria Skoularidou",
+                "openalex_page": "https://openalex.org/A5086481607",
+                "orcid": "https://orcid.org/0000-0002-7640-4007",
+                "affiliation_ror": "https://ror.org/05a0ya142"
+            },
+            {
+                "organiser_name": "Chang Yoo",
+                "organiser_affiliation": "Kaist",
+                "organiser_country": "South Korea",
+                "track_name": "Local Chairs",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chang D. Yoo",
+                "openalex_page": "https://openalex.org/A5073287748",
+                "orcid": "https://orcid.org/0000-0002-0756-7179",
+                "affiliation_ror": "https://ror.org/047dqcg40"
+            },
+            {
+                "organiser_name": "Kevin Leyton-Brown",
+                "organiser_affiliation": "University of British Columbia",
+                "organiser_country": "Canada",
+                "track_name": "Social Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Kevin Leyton\u2010Brown",
+                "openalex_page": "https://openalex.org/A5089807699",
+                "orcid": "https://orcid.org/0000-0002-7644-5327",
+                "affiliation_ror": "https://ror.org/03rmrcq20"
+            },
+            {
+                "organiser_name": "Chulhee Yun",
+                "organiser_affiliation": "KAIST",
+                "organiser_country": "South Korea",
+                "track_name": "Social Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Chulhee Yun",
+                "openalex_page": "https://openalex.org/A5045562332",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Katherine Gorman",
+                "organiser_affiliation": "Talking Machines",
+                "organiser_country": "USA",
+                "track_name": "Communications Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Katherine M. Gorman",
+                "openalex_page": "https://openalex.org/A5042432141",
+                "orcid": "https://orcid.org/0000-0002-8323-8430",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Gautam Kamath",
+                "organiser_affiliation": "University of Waterloo",
+                "organiser_country": "Canada",
+                "track_name": "Communications Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gautam Kamath",
+                "openalex_page": "https://openalex.org/A5047778197",
+                "orcid": "https://orcid.org/0000-0003-0048-2559",
+                "affiliation_ror": "https://ror.org/01aff2v68"
+            },
+            {
+                "organiser_name": "Brian Nettleton",
+                "organiser_affiliation": "Eventhosts",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "B. Nettleton",
+                "openalex_page": "https://openalex.org/A5071735949",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Brad Brockmeyer",
+                "organiser_affiliation": "ICML Staff",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Max Wiesner",
+                "organiser_affiliation": "Eventhosts",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Max Wiesner",
+                "openalex_page": "https://openalex.org/A5070520077",
+                "orcid": "https://orcid.org/0000-0001-8469-7543",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Lee Campbell",
+                "organiser_affiliation": "Eventhosts",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Lee Ann Campbell",
+                "openalex_page": "https://openalex.org/A5040308280",
+                "orcid": "https://orcid.org/0000-0003-4724-1824",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Mary Ellen Perry",
+                "organiser_affiliation": "Eventhosts",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Mary Ellen Perry",
+                "openalex_page": "https://openalex.org/A5109907471",
+                "orcid": "https://orcid.org/0000-0002-8675-0536",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Stephanie Willes",
+                "organiser_affiliation": "Eventhosts",
+                "organiser_country": "",
+                "track_name": "Conference Production",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Stephanie Willes",
+                "openalex_page": "https://openalex.org/A5086532115",
+                "orcid": "https://orcid.org/0000-0003-1751-1862",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Alexander H\u00e4gele",
+                "organiser_affiliation": "EPFL",
+                "organiser_country": "Switzerland",
+                "track_name": "Associate Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Alexander H\u00e4gele",
+                "openalex_page": "https://openalex.org/A5098954170",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Buxin Su",
+                "organiser_affiliation": "University of Pennsylvania",
+                "organiser_country": "USA",
+                "track_name": "Associate Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Buxin Su",
+                "openalex_page": "https://openalex.org/A5112970785",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/01spssf70"
+            },
+            {
+                "organiser_name": "Hyeong Kyu Choi",
+                "organiser_affiliation": "University of Wisconsin-Madison",
+                "organiser_country": "USA",
+                "track_name": "Associate Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Hyeong Kyu Choi",
+                "openalex_page": "https://openalex.org/A5063579922",
+                "orcid": "https://orcid.org/0000-0003-2090-9273",
+                "affiliation_ror": "https://ror.org/01y2jtd41"
+            },
+            {
+                "organiser_name": "Zhenyu (Sherry) Xue",
+                "organiser_affiliation": "ICML",
+                "organiser_country": "",
+                "track_name": "Workflow Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Weijie Su",
+                "organiser_affiliation": "University of Pennsylvania",
+                "organiser_country": "USA",
+                "track_name": "Scientific Integrity Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Weijie Su",
+                "openalex_page": "https://openalex.org/A5080575294",
+                "orcid": "https://orcid.org/0000-0003-1787-1219",
+                "affiliation_ror": "https://ror.org/01spssf70"
+            },
+            {
+                "organiser_name": "Nihar Shah",
+                "organiser_affiliation": "Carnegie Mellon University",
+                "organiser_country": "USA",
+                "track_name": "Scientific Integrity Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Nihar B. Shah",
+                "openalex_page": "https://openalex.org/A5034272491",
+                "orcid": "https://orcid.org/0000-0001-5158-9677",
+                "affiliation_ror": "https://ror.org/05x2bcf33"
+            },
+            {
+                "organiser_name": "Tong Zhang",
+                "organiser_affiliation": "University of Illinois",
+                "organiser_country": "USA",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tong Zhang",
+                "openalex_page": "https://openalex.org/A5100378779",
+                "orcid": "https://orcid.org/0000-0002-2690-859X",
+                "affiliation_ror": "https://ror.org/047426m28"
+            },
+            {
+                "organiser_name": "Wenming Ye",
+                "organiser_affiliation": "Model AI Corp",
+                "organiser_country": "USA",
+                "track_name": "Expo Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Wenming Ye",
+                "openalex_page": "https://openalex.org/A5028393515",
+                "orcid": "",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "general machine learning",
+            "deep learning",
+            "evaluation",
+            "theory of machine learning",
+            "machine learning systems",
+            "optimization",
+            "probabilistic methods",
+            "reinforcement learning",
+            "trustworthy machine learning",
+            "application-driven machine learning"
+        ],
+        "enhanced_topics": {
+            "general machine learning": [],
+            "deep learning": [
+                {
+                    "topic": "deep learning",
+                    "similarity": 0.9999999999985972
+                },
+                {
+                    "topic": "deep neural networks",
+                    "similarity": 0.778270959854126
+                },
+                {
+                    "topic": "deep networks",
+                    "similarity": 0.7760110348463058
+                },
+                {
+                    "topic": "deep learning models",
+                    "similarity": 0.7574896663427353
+                },
+                {
+                    "topic": "deep learning applications",
+                    "similarity": 0.6187700629234314
+                }
+            ],
+            "evaluation": [
+                {
+                    "topic": "evaluation",
+                    "similarity": 0.9999999999993321
+                },
+                {
+                    "topic": "evaluation criteria",
+                    "similarity": 0.678061842918396
+                },
+                {
+                    "topic": "evaluation methods",
+                    "similarity": 0.6659724116325378
+                }
+            ],
+            "theory of machine learning": [],
+            "machine learning systems": [
+                {
+                    "topic": "machine learning",
+                    "similarity": 0.7327364087104797
+                },
+                {
+                    "topic": "machine learning algorithms",
+                    "similarity": 0.7210020422935486
+                },
+                {
+                    "topic": "machine learning models",
+                    "similarity": 0.6857901811599731
+                },
+                {
+                    "topic": "machine learning and algorithms",
+                    "similarity": 0.6418800055980682
+                }
+            ],
+            "optimization": [
+                {
+                    "topic": "optimization",
+                    "similarity": 0.9999999999993427
+                },
+                {
+                    "topic": "optimization methods",
+                    "similarity": 0.7128328382968903
+                }
+            ],
+            "probabilistic methods": [
+                {
+                    "topic": "probabilistic methods",
+                    "similarity": 0.9999999999992281
+                },
+                {
+                    "topic": "probabilistic analysis",
+                    "similarity": 0.7418733239173889
+                },
+                {
+                    "topic": "probabilistic models",
+                    "similarity": 0.6509159207344055
+                },
+                {
+                    "topic": "probabilistic modeling",
+                    "similarity": 0.63864865899086
+                },
+                {
+                    "topic": "probabilistic systems",
+                    "similarity": 0.6209277808666229
+                }
+            ],
+            "reinforcement learning": [
+                {
+                    "topic": "reinforcement learning",
+                    "similarity": 0.9999999999989548
+                },
+                {
+                    "topic": "reinforcement learning algorithms",
+                    "similarity": 0.7280458807945251
+                }
+            ],
+            "trustworthy machine learning": [],
+            "application-driven machine learning": []
+        },
+        "preferred_threshold": 0.6
+    },
+    "cfp_text": "\r\nICML 2026 Call For Papers\r\n\r\n \r\n\r\nThe 43rd International Conference on Machine Learning (ICML 2026) will be held in Seoul, South Korea, July 6-11, as an in-person event. In addition to the main conference sessions, the conference will include tutorials, workshops, and an expo.\r\n\r\nWe invite submissions of papers on original and rigorous research of significant interest to the machine learning community for the main conference proceedings. All papers will be reviewed in a double-blind process and accepted papers will be presented at the conference. Papers must be prepared and submitted as a single file: 8 pages for the main paper, with unlimited pages for references, the impact statement, and appendices. There will be no separate deadline for the submission of supplementary material. The final versions of accepted papers will be allowed one extra page for the main paper.\r\n\r\nChange in policy: Attendance for authors of accepted papers is optional. After acceptance notifications, the authors will be able to decide by a specified date whether they wish to present their paper in person at the conference or they just wish to include their paper in the proceedings (without presentation at the conference). Regardless of this choice, all the accepted papers will receive equivalent treatment in the proceedings. They will all be eligible for ICML awards as well as for the designations of distinction corresponding to the past \u201coral presentations\u201d and \u201cspotlight posters.\u201d For proceedings-only papers, at least one of the authors must obtain virtual registration.\r\n\r\nChange in policy: Publication of originally submitted version in addition to camera-ready version for accepted papers. For all accepted papers, we will publish the following material in addition to camera-ready version: the originally submitted version (including supplementary material), anonymized reviews, meta-reviews, rebuttal, and reviewer-author discussion. The authors of rejected submissions will also have an option to have their originally submitted version, reviews, meta-reviews, rebuttal, and reviewer-author discussion published.\r\n\r\nOther notable changes this year: We have a new Policy for LLM use in Reviewing and we are imposing a cap on the number of papers that can designate the same person as a reciprocal reviewer.\r\n\r\nPlease review Author Instructions, an Example Paper, and use the correct Style Files. Submitted papers that do not conform to these policies will be rejected without review.\r\n\r\nTopics of interest include (but are not limited to):\r\n\r\n    general machine learning (active learning, clustering, online learning, ranking, supervised, semi- and self-supervised learning, time series analysis, etc.)\r\n    deep learning (architectures, generative models, theory, etc.)\r\n    evaluation (methodology, meta studies, replicability and validity, human-in-the-loop, etc.)\r\n    theory of machine learning (statistical learning theory, bandits, game theory, decision theory, etc.)\r\n    machine learning systems (improved implementation and scalability, hardware, libraries, distributed methods, etc.)\r\n    optimization (convex and non-convex optimization, matrix/tensor methods, stochastic, online, non-smooth, composite, etc.)\r\n    probabilistic methods (Bayesian methods, graphical models, Monte Carlo methods, etc.)\r\n    reinforcement learning (decision and control, planning, hierarchical RL, robotics, etc.)\r\n    trustworthy machine learning (reliability, causality, fairness, interpretability, privacy, robustness, safety, etc.)\r\n    application-driven machine learning (innovative techniques, problems, and datasets that are of interest to the machine learning community and driven by the needs of end-users in applications such as healthcare, physical sciences, biosciences, social sciences, sustainability, and climate etc.)\r\n\r\nSimilar to last year, we also invite submissions of position papers. Please review the Call for Position Papers; submissions will be handled separately from the main track submissions.\r\n\r\nPapers published at ICML are indexed in the Proceedings of Machine Learning Research through the Journal of Machine Learning Research.\r\n\r\n \r\nImportant Dates and Submission Site\r\n\r\n    Submission site opens: January 8, 2026.\r\n    Suggested OpenReview account creation deadline: January 8, 2026. (If you do not already have an OpenReview account, please register by this date, otherwise we cannot guarantee that your account will be activated in time.**)\r\n    Abstract submission deadline: January 23, 2026 AoE (Jan 24, 2026, 12 Noon UTC-0).\r\n    Full paper submission deadline: January 28, 2026 AoE (Jan 29, 2026, 12 Noon UTC-0).\r\n\r\nAbstracts and papers can be submitted through OpenReview: https://openreview.net/group?id=ICML.cc/2026/Conference \r\n\r\nNote: Position papers should be submitted through a separate OpenReview site, as outlined in the Call for Position Papers.\r\n\r\n**OpenReview: All authors must have an OpenReview account. It is strongly recommended that you sign up for OpenReview (or associate your existing account) with an institutional email. If you sign up for OpenReview with an institutional email, your account will be activated immediately; otherwise it can take up to two weeks for your account to be activated.\r\n\r\n \r\nPolicies\r\nDeadlines:\r\n\r\nAbstract and paper submission deadlines are strict. In no circumstances will extensions be given.\r\nChanges to Abstract/Title/Authorship:\r\n\r\nAuthors should include a full title for their paper, complete author list, and complete abstract in the submission form by the abstract submission deadline. While it is possible to edit the title and abstract until the full paper submission deadline, submissions with \u201cplaceholder\u201d abstracts that are substantially rewritten for the full submission risk being removed without consideration.\r\n\r\nThe author list cannot be changed after the abstract deadline. After the abstract deadline, authors may be reordered, but any additions or removals must be justified in writing and approved on a case-by-case basis by the program chairs. Approval will be granted only in exceptional circumstances.\r\nReciprocal Reviewing:\r\n\r\nQualified authors are required to review for ICML. There are two requirements: per-submission requirement and per-author requirement.\r\nPer-submission requirement:\r\n\r\n    All submissions must have at least one author who agrees to serve as a reviewer for ICML. The designated author should be qualified to review according to the definition given in the Peer Review FAQ.\r\n\r\n    New this year: An author can be designated as the reciprocal reviewer for at most 2 of that author's submissions.\r\n     \r\n    Exceptions: If none of the authors are qualified (under the definition in the Peer Review FAQ), or if all of the qualified authors are already reciprocal reviewers on 2 submissions, or are serving as SACs, ACs, or in other organizing roles for ICML 2026, then the submission is exempt from this requirement.\r\n     \r\n    \u200bTo satisfy this requirement or declare an exception: The abstract submission form will allow submitters to designate an author to fulfill this requirement, or to indicate that the submission is exempt from the requirement.\r\n\r\nPer-author requirement:\r\n\r\n    Additionally, every author with 4 or more submissions must agree to serve as a reviewer for ICML (in that case, the author can act as the reciprocal reviewer for up to 2 of their submissions). Program chairs may decrease the threshold to 3 submissions in case of an unforeseen shortage of qualified reviewers (if this happens, then the authors newly subject to this requirement will be notified).\r\n     \r\n    Exceptions: Authors are exempt from this requirement if they are serving as an AC, SAC, or in other organizing roles for ICML 2026.\r\n     \r\n    To satisfy this requirement or declare an exception: (Change as of January 25, 2026): Authors with 4 or more submissions will be contacted by ICML organizers with further instructions. If you have 4 or more submissions and wish to indicate exception, please fill out the Per-author Reciprocal Reviewing Exemption form (do not fill it out otherwise).\r\n\r\nSubmissions that do not meet the per-submission requirement or whose authors do not meet the per-author requirement may be desk-rejected. Additionally, reviewers who fail to adequately participate in the review process (e.g., not submitting reviews on time or submitting highly insufficient or inappropriate reviews) may have their own submissions desk-rejected (regardless of whether they were designated as reciprocal reviewers).\r\nDouble-Blind Review:\r\n\r\nAll submissions must be anonymized and may not contain any information with the intention or consequence of violating the double-blind reviewing policy.\r\n\r\nAuthors are allowed to post versions of their work on preprint servers such as arXiv. They are also allowed to give talks on the work(s) submitted to ICML during the review. However, under no circumstances should the work be advertised as an ICML submission at any time during the review period, i.e., from the time the authors submit the paper to the communication of the accept/reject decisions. If the authors have posted or plan to post a non-anonymized version of the paper online before the ICML decisions are made, the submitted version must not refer to the non-anonymized version.\r\nDual and Concurrent Submission:\r\n\r\nAuthors may not submit papers that are identical, or substantially similar, to versions that have been previously published, accepted for publication, or submitted in parallel to other conferences or journals. Such submissions violate our dual submission policy, and the organizers have the right to reject such submissions, or to remove them from the proceedings. Any concurrent ICML submissions with an overlapping set of authors will also be treated as prior work (so, for example, if publishing one would render the other too incremental, then this may be considered grounds for rejection). Note that submissions that have been or are being presented at workshops without published proceedings do not violate the dual-submission policy.\r\nReviewing Criteria:\r\n\r\nSubmissions should report original and rigorous research of significant interest to the machine learning community. All claims must be clearly stated and supported by reproducible experiments and/or sound theoretical analysis. The contributions must be situated in the context of the broader scientific and machine learning research literature, acknowledging and differentiating from relevant prior works as appropriate. See Reviewer Instructions for more information.\r\nGenerative AI Considerations:\r\n\r\n    Authors are allowed to use generative AI tools such as Large Language Models (LLMs) to assist in writing or research. However, authors must take full responsibility for all content in their paper, including any content generated by AI tools that might be construed as plagiarism or scientific misconduct. We encourage authors to explain any notable ways in which these tools were used in their research methodology.\r\n    LLMs are not eligible for authorship.\r\n    Any attempts at prompt injection are strictly forbidden and will result in desk rejection. (Prompt injection refers to the insertion of specially crafted text into the paper, with the intention to manipulate LLMs, for instance, to obtain a favorable review.)\r\n    We will follow a new Policy for LLM use in Reviewing. \r\n\r\nEthical Conduct for Peer Review:\r\n\r\nAuthors are expected to follow standard ethical conduct for peer review. In particular:\r\n\r\n    Plagiarism in any form is forbidden.\r\n    Prompt injection is forbidden.\r\n    Advertising work (e.g., in a talk, on social media) as being under submission to ICML during the review period is forbidden.\r\n    Any form of collusion, whether explicit or tacit (e.g., where authors cooperate with reviewers, ACs, or SACs to obtain favorable or unfavorable reviews) is forbidden.\r\n\r\nIf you believe someone may be engaging in unethical conduct, please notify ICML by filling out the Ethics Violation Reporting form. You can also report suspected violations to program-chairs@icml.cc.\r\n\r\nAll suspected unethical behaviors will be investigated by program chairs, integrity chair, or the ICML Oversight Committee, and individuals found violating the rules may face sanctions and/or have their submissions rejected. We will also collect names of individuals who are found to have violated ethics standards; if individuals representing conferences, journals, or other organizations request this list for decision-making purposes, we may make this information available to them. See Peer-review Ethics for additional details.\r\nImpact Statements:\r\n\r\nAuthors are required to include a statement of the potential broader impact of their work, including its ethical aspects and future societal consequences. This statement should be in a separate section at the end of the paper (co-located with Acknowledgements, before References), and does not count toward the paper page limit. In many cases, where the ethical impacts and expected societal implications are those that are well established when advancing the field of machine learning, substantial discussion is not required, and a simple statement such as: \r\n\r\n\u201cThis paper presents work whose goal is to advance the field of machine learning. There are many potential societal consequences of our work, none of which we feel must be specifically highlighted here.\u201d\r\n\r\nThe above statement can be used verbatim in such cases, but we encourage authors to think about whether there is content that does warrant further discussion, as this statement will be apparent if the paper is later flagged for ethics review.\r\n\r\nIn particular, Reviewers and ACs may flag submissions for ethics review. Flagged submissions will be sent to an ethics review committee for comments. Ethics reviewers do not have the authority to reject papers, but in extreme cases, papers may be rejected by the program chairs on ethical grounds, regardless of scientific quality or contribution.\r\n\r\nFor tips on writing the impact statement, see this post written for NeurIPS 2020.\r\nLay Summaries:\r\n\r\nAuthors of accepted papers will be required to submit a short \u201clay summary\u201d of their work (also called \"plain language summary\") in OpenReview when submitting their camera-ready paper. As machine learning is becoming a more prevalent topic of interest in society, it is important to participate in science communication with the public. See this paper for guidelines. Additional details and examples will be provided prior to the camera-ready deadline.\r\nOptional Self-Rankings:\r\n\r\nSimilar to previous years, authors with multiple submissions will be asked (on a voluntary basis) to provide a self-assessment of the quality of their own submissions via partial ranking. The disagreements between their own rankings and reviewer scores will be used to flag papers that may require more attention to area chairs and possibly also as a factor to guide the assignment of emergency reviewers. Submitted self-rankings will be only accessible to the integrity chair and the associate integrity chair.\r\n\r\nRevised December 12, 2025 (updated conference dates and added links to the Policy for LLM use in Reviewing).\r\n\r\nRevised January 25, 2026 (updated instructions regarding per-author reciprocal requirements).\r\n\r\nICML 2026 Organizing Committee\r\n\r\nPublication Chair\r\nHanze Dong\r\nMicrosoft\r\nAlberto Bietti\r\nFlatiron Institute\r\nFelix Berkenkamp\r\nAleph Alpha Research\r\nProgram Chair\r\nAlekh Agarwal\r\nGoogle\r\nMiroslav Dudik\r\nMicrosoft Research\r\nSharon Li\r\nUniversity of Wisconsin-Madison\r\nMartin Jaggi\r\nEPFL\r\nPosition Paper Track Chair\r\nJerry Zhu\r\nUniversity of Wisconsin-Madison\r\nDale Schuurmans\r\nGoogle DeepMind / University of Alberta\r\nWorkshop Chair\r\nCourtney Paquette\r\nMcGill University/Google DeepMind\r\nGergely Neu\r\nUniv Pompeu Pabra\r\nTutorial Chair\r\nClaire Vernade\r\nUniversity of T\u00fcbingen\r\nAdam White\r\nUniversity of Alberta, Alberta Machine Intelligence Institute (Amii), RL Core\r\nEthics Chair\r\nKevin Jamieson\r\nUniversity of Washington\r\nAsia Biega\r\nMax Planck\r\nInclusion & Accessibility Chair\r\nAmy Zhang\r\nUT Austin\r\nMaria Skoularidou\r\nBroad Institute\r\nLocal Chairs\r\nChang Yoo\r\nKaist\r\nSocial Chair\r\nKevin Leyton-Brown\r\nUniversity of British Columbia\r\nChulhee Yun\r\nKAIST\r\nCommunications Chair\r\nKatherine Gorman\r\nTalking Machines\r\nGautam Kamath\r\nUniversity of Waterloo\r\nConference Production\r\nBrian Nettleton\r\nEventhosts\r\nBrad Brockmeyer\r\nICML Staff\r\nMax Wiesner\r\nEventhosts\r\nLee Campbell\r\nEventhosts\r\nMary Ellen Perry\r\nEventhosts\r\nStephanie Willes\r\nEventhosts\r\nAssociate Chair\r\nAlexander H\u00e4gele\r\nEPFL\r\nBuxin Su\r\nUniversity of Pennsylvania\r\nHyeong Kyu Choi\r\nUniversity of Wisconsin-Madison\r\nWorkflow Chair\r\nZhenyu (Sherry) Xue\r\nICML\r\nScientific Integrity Chair\r\nWeijie Su\r\nUniversity of Pennsylvania\r\nNihar Shah\r\nCarnegie Mellon University\r\nGeneral Chair\r\nTong Zhang\r\nUniversity of Illinois\r\nExpo Chair\r\nWenming Ye\r\nModel AI Corp\r\n"
+}

@@ -1,0 +1,2155 @@
+{
+    "llm-output": {
+        "event_name": "UbiComp/ISWC 2025",
+        "conference_series": "UbiComp/ISWC",
+        "event_acronym": "ISWC 2025",
+        "colocated_with": "UbiComp 2025",
+        "year": "2025",
+        "location": "Espoo, Finland",
+        "topics": [
+            "Wearable Systems, Novel Devices and Form Factors",
+            "Smartphone- and smartwatch-based systems and applications",
+            "Glasses, Earables, Rings and Gloves",
+            "Wearable equipment for specialized applications and professions",
+            "Exoskeletons and physical strength augmentation",
+            "Enabling Technologies",
+            "Displays, mobile augmented reality optics",
+            "Haptics and actuators",
+            "Novel sensor technologies",
+            "Sensing the body, eye, brain",
+            "Wearable sensor networks",
+            "Manufacturing of wearable technologies",
+            "Wearable technology toolkits",
+            "Power sources and management",
+            "Textiles and Clothing",
+            "E-textiles, advanced textiles",
+            "Functional clothing and non-electronic wearable technologies",
+            "Novel materials for textiles and clothing",
+            "On-Skin and Implantable Interfaces",
+            "On-skin technology and interfaces",
+            "Implantable and insertable technology",
+            "Biotechnology and HCI",
+            "Design Process for Wearables",
+            "Research through design",
+            "Craft and computing for wearables",
+            "Culturally-sensitive design processes",
+            "Information and Data",
+            "Machine learning, and artificial intelligence for wearables",
+            "Data augmentation, big data",
+            "Individual activity recognition",
+            "Human/Device Interaction",
+            "Human factors, wearability, interaction design",
+            "Social interactions and impacts",
+            "Applications",
+            "Health and wellness, mental health and therapy",
+            "Virtual, mixed and augmented reality",
+            "Extreme environments",
+            "Art and fashion",
+            "Biometrics and security"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Michael Beigl",
+                "organiser_affiliation": "Karlsruhe Institute of Technology",
+                "organiser_country": "Germany",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Michael Beigl",
+                "openalex_page": "https://openalex.org/A5082553444",
+                "orcid": "https://orcid.org/0000-0001-5009-2327",
+                "affiliation_ror": "https://ror.org/04t3en479"
+            },
+            {
+                "organiser_name": "Giulio Jacucci",
+                "organiser_affiliation": "Helsingin yliopisto",
+                "organiser_country": "Finland",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Giulio Jacucci",
+                "openalex_page": "https://openalex.org/A5074899838",
+                "orcid": "https://orcid.org/0000-0002-9185-7928",
+                "affiliation_ror": "https://ror.org/040af2s02"
+            },
+            {
+                "organiser_name": "Stephan Sigg",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Stephan Sigg",
+                "openalex_page": "https://openalex.org/A5045150110",
+                "orcid": "https://orcid.org/0000-0001-6118-3355",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Yu Xiao",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yu Xiao",
+                "openalex_page": "https://openalex.org/A5061926020",
+                "orcid": "https://orcid.org/0000-0003-2711-5070",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Jakob Bardram",
+                "organiser_affiliation": "Technical University of Denmark",
+                "organiser_country": "Denmark",
+                "track_name": "Technical Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Jakob E. Bardram",
+                "openalex_page": "https://openalex.org/A5043844478",
+                "orcid": "https://orcid.org/0000-0003-1390-8758",
+                "affiliation_ror": "https://ror.org/04qtj9h94"
+            },
+            {
+                "organiser_name": "Chenren Xu",
+                "organiser_affiliation": "Peking University",
+                "organiser_country": "China",
+                "track_name": "Technical Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chenren Xu",
+                "openalex_page": "https://openalex.org/A5003999919",
+                "orcid": "https://orcid.org/0000-0001-9171-2596",
+                "affiliation_ror": "https://ror.org/02v51f717"
+            },
+            {
+                "organiser_name": "Eirini Eleni Tsiroupoulou",
+                "organiser_affiliation": "Arizona State University",
+                "organiser_country": "US",
+                "track_name": "Technical Program Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Yutaka Arakawa",
+                "organiser_affiliation": "Kyushu University",
+                "organiser_country": "Japan",
+                "track_name": "Workshops and Tutorials",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yutaka Arakawa",
+                "openalex_page": "https://openalex.org/A5084986446",
+                "orcid": "https://orcid.org/0000-0002-7156-9160",
+                "affiliation_ror": "https://ror.org/00p4k0j84"
+            },
+            {
+                "organiser_name": "Aaron Ding",
+                "organiser_affiliation": "TU Delft",
+                "organiser_country": "Netherlands",
+                "track_name": "Workshops and Tutorials",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Aaron Yi Ding",
+                "openalex_page": "https://openalex.org/A5063593427",
+                "orcid": "https://orcid.org/0000-0003-4173-031X",
+                "affiliation_ror": "https://ror.org/02e2c7k09"
+            },
+            {
+                "organiser_name": "Ella Peltonen",
+                "organiser_affiliation": "University of Oulu",
+                "organiser_country": "Finland",
+                "track_name": "Workshops and Tutorials",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ella Peltonen",
+                "openalex_page": "https://openalex.org/A5006760291",
+                "orcid": "https://orcid.org/0000-0002-3374-671X",
+                "affiliation_ror": "https://ror.org/03dvp8k55"
+            },
+            {
+                "organiser_name": "Gopika Premsankar",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Posters and Demos",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gopika Premsankar",
+                "openalex_page": "https://openalex.org/A5039662238",
+                "orcid": "https://orcid.org/0000-0003-3463-6077",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Uichin Lee",
+                "organiser_affiliation": "Korea Advanced Institute of Science and Technology",
+                "organiser_country": "Korea",
+                "track_name": "Posters and Demos",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Uichin Lee",
+                "openalex_page": "https://openalex.org/A5058987035",
+                "orcid": "https://orcid.org/0000-0002-1888-1569",
+                "affiliation_ror": "https://ror.org/05apxxy63"
+            },
+            {
+                "organiser_name": "Laura E Barnes",
+                "organiser_affiliation": "University of Virginia",
+                "organiser_country": "US",
+                "track_name": "Posters and Demos",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Laura E. Barnes",
+                "openalex_page": "https://openalex.org/A5012728152",
+                "orcid": "https://orcid.org/0000-0001-8224-5164",
+                "affiliation_ror": "https://ror.org/00wn7d965"
+            },
+            {
+                "organiser_name": "Franca Delmastro",
+                "organiser_affiliation": "CNR",
+                "organiser_country": "Italy",
+                "track_name": "ISWC Briefs and Notes",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Franca Delmastro",
+                "openalex_page": "https://openalex.org/A5048866658",
+                "orcid": "https://orcid.org/0000-0001-9233-2712",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Sizhen Bian",
+                "organiser_affiliation": "DFKI",
+                "organiser_country": "Germany",
+                "track_name": "ISWC Briefs and Notes",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Sizhen Bian",
+                "openalex_page": "https://openalex.org/A5066958860",
+                "orcid": "https://orcid.org/0000-0001-6760-5539",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Antti Oulasvirta",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Doctoral Colloquium",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Antti Oulasvirta",
+                "openalex_page": "https://openalex.org/A5003084232",
+                "orcid": "https://orcid.org/0000-0002-2498-7837",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Benjamin Tag",
+                "organiser_affiliation": "University of New South Wales",
+                "organiser_country": "Australia",
+                "track_name": "Doctoral Colloquium",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Benjamin Tag",
+                "openalex_page": "https://openalex.org/A5002217875",
+                "orcid": "https://orcid.org/0000-0002-7831-2632",
+                "affiliation_ror": "https://ror.org/02kn6nx58"
+            },
+            {
+                "organiser_name": "Qi Han",
+                "organiser_affiliation": "Colorado School of Mines",
+                "organiser_country": "US",
+                "track_name": "Doctoral Colloquium",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Qi Han",
+                "openalex_page": "https://openalex.org/A5101494992",
+                "orcid": "https://orcid.org/0000-0002-5856-383X",
+                "affiliation_ror": "https://ror.org/04raf6v53"
+            },
+            {
+                "organiser_name": "Nan Gao",
+                "organiser_affiliation": "Nankai University",
+                "organiser_country": "China",
+                "track_name": "Student Competition and Challenges",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chong Gao",
+                "openalex_page": "https://openalex.org/A5052960352",
+                "orcid": "https://orcid.org/0000-0001-7639-0808",
+                "affiliation_ror": "https://ror.org/01y1kjr75"
+            },
+            {
+                "organiser_name": "Shantanu Pal",
+                "organiser_affiliation": "Deakin University",
+                "organiser_country": "Australia",
+                "track_name": "Student Competition and Challenges",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Shantanu Pal",
+                "openalex_page": "https://openalex.org/A5043613674",
+                "orcid": "https://orcid.org/0000-0002-8784-0154",
+                "affiliation_ror": "https://ror.org/02czsnj07"
+            },
+            {
+                "organiser_name": "Huber Flores",
+                "organiser_affiliation": "University of Tartu",
+                "organiser_country": "Estonia",
+                "track_name": "Student Competition and Challenges",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Huber Flores",
+                "openalex_page": "https://openalex.org/A5080043050",
+                "orcid": "https://orcid.org/0000-0003-4551-629X",
+                "affiliation_ror": "https://ror.org/03z77qz90"
+            },
+            {
+                "organiser_name": "Chulhong Min",
+                "organiser_affiliation": "Nokia Bell Labs",
+                "organiser_country": "UK",
+                "track_name": "Sponsorship and Industrial Relations",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chulhong Min",
+                "openalex_page": "https://openalex.org/A5084727763",
+                "orcid": "https://orcid.org/0000-0002-5197-9840",
+                "affiliation_ror": "https://ror.org/038km2573"
+            },
+            {
+                "organiser_name": "Sasu Tarkoma",
+                "organiser_affiliation": "University of Helsinki",
+                "organiser_country": "Finland",
+                "track_name": "Sponsorship and Industrial Relations",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sasu Tarkoma",
+                "openalex_page": "https://openalex.org/A5054443906",
+                "orcid": "https://orcid.org/0000-0003-4220-3650",
+                "affiliation_ror": "https://ror.org/040af2s02"
+            },
+            {
+                "organiser_name": "Lei Zhong",
+                "organiser_affiliation": "Toyota",
+                "organiser_country": "Japan",
+                "track_name": "Sponsorship and Industrial Relations",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Lei Zhong",
+                "openalex_page": "https://openalex.org/A5101886633",
+                "orcid": "https://orcid.org/0000-0002-0208-1823",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Florian Michahelles",
+                "organiser_affiliation": "TU Wien",
+                "organiser_country": "Austria",
+                "track_name": "Sponsorship and Industrial Relations",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Florian Michahelles",
+                "openalex_page": "https://openalex.org/A5011192485",
+                "orcid": "https://orcid.org/0000-0003-1486-0688",
+                "affiliation_ror": "https://ror.org/04d836q62"
+            },
+            {
+                "organiser_name": "Sara Khalifa",
+                "organiser_affiliation": "Queensland University of Technology (QUT)",
+                "organiser_country": "Australia",
+                "track_name": "Inclusion and Broadening Participation",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sara Khalifa",
+                "openalex_page": "https://openalex.org/A5064983246",
+                "orcid": "https://orcid.org/0000-0002-3417-2834",
+                "affiliation_ror": "https://ror.org/03pnv4752"
+            },
+            {
+                "organiser_name": "Tom B\u00e4ckstr\u00f6m",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Inclusion and Broadening Participation",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tom B\u00e4ckstr\u00f6m",
+                "openalex_page": "https://openalex.org/A5052130850",
+                "orcid": "https://orcid.org/0000-0002-5590-2349",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Maija Poikela",
+                "organiser_affiliation": "Berlin Institute of Health at Charit\u00e9",
+                "organiser_country": "Germany",
+                "track_name": "Inclusion and Broadening Participation",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Maija Poikela",
+                "openalex_page": "https://openalex.org/A5057106142",
+                "orcid": "https://orcid.org/0000-0003-2616-4401",
+                "affiliation_ror": "https://ror.org/0493xsw21"
+            },
+            {
+                "organiser_name": "Le Nguyen",
+                "organiser_affiliation": "University of Oulu",
+                "organiser_country": "Finland",
+                "track_name": "Web",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Le Ngu Nguyen",
+                "openalex_page": "https://openalex.org/A5046601342",
+                "orcid": "https://orcid.org/0000-0001-7765-1483",
+                "affiliation_ror": "https://ror.org/03yj89h83"
+            },
+            {
+                "organiser_name": "Sang Won Bae",
+                "organiser_affiliation": "Stevens Institute of Technology",
+                "organiser_country": "US",
+                "track_name": "Web",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sang Won Bae",
+                "openalex_page": "https://openalex.org/A5067613275",
+                "orcid": "https://orcid.org/0000-0002-8802-4247",
+                "affiliation_ror": "https://ror.org/02z43xh36"
+            },
+            {
+                "organiser_name": "Tahera Hossain",
+                "organiser_affiliation": "Nagoya University",
+                "organiser_country": "Japan",
+                "track_name": "Web",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tahera Hossain",
+                "openalex_page": "https://openalex.org/A5018591931",
+                "orcid": "https://orcid.org/0000-0002-8985-9043",
+                "affiliation_ror": "https://ror.org/04chrp450"
+            },
+            {
+                "organiser_name": "Till Riedel",
+                "organiser_affiliation": "Karlsruhe Institute of Technology",
+                "organiser_country": "Germany",
+                "track_name": "Publication",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Till Riedel",
+                "openalex_page": "https://openalex.org/A5066888374",
+                "orcid": "https://orcid.org/0000-0003-4547-1984",
+                "affiliation_ror": "https://ror.org/04t3en479"
+            },
+            {
+                "organiser_name": "Sozo Inoue",
+                "organiser_affiliation": "Kyushu Institute of Technology",
+                "organiser_country": "Japan",
+                "track_name": "Publication",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sozo Inoue",
+                "openalex_page": "https://openalex.org/A5080895628",
+                "orcid": "https://orcid.org/0000-0003-1109-8130",
+                "affiliation_ror": "https://ror.org/02278tr80"
+            },
+            {
+                "organiser_name": "Fusang Zhang",
+                "organiser_affiliation": "University of Chinese Academy of Sciences",
+                "organiser_country": "China",
+                "track_name": "Registration",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Fusang Zhang",
+                "openalex_page": "https://openalex.org/A5082241536",
+                "orcid": "https://orcid.org/0000-0002-2529-8021",
+                "affiliation_ror": "https://ror.org/034t30j35"
+            },
+            {
+                "organiser_name": "Anandghan Waghmare",
+                "organiser_affiliation": "University of Washington",
+                "organiser_country": "US",
+                "track_name": "Registration",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Anandghan Waghmare",
+                "openalex_page": "https://openalex.org/A5067376767",
+                "orcid": "https://orcid.org/0000-0003-3022-071X",
+                "affiliation_ror": "https://ror.org/00cvxb145"
+            },
+            {
+                "organiser_name": "Manas Bedmutha",
+                "organiser_affiliation": "University of California San Diego",
+                "organiser_country": "US",
+                "track_name": "Registration",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Manas Satish Bedmutha",
+                "openalex_page": "https://openalex.org/A5038721239",
+                "orcid": "https://orcid.org/0000-0003-3427-2226",
+                "affiliation_ror": "https://ror.org/0168r3w48"
+            },
+            {
+                "organiser_name": "Petteri Nurmi",
+                "organiser_affiliation": "Helsingin yliopisto",
+                "organiser_country": "Finland",
+                "track_name": "Treasurer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Petteri Nurmi",
+                "openalex_page": "https://openalex.org/A5066542585",
+                "orcid": "https://orcid.org/0000-0001-8262-6434",
+                "affiliation_ror": "https://ror.org/040af2s02"
+            },
+            {
+                "organiser_name": "Robin Welsch",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Student Volunteer Chairs",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Robin Welsch",
+                "openalex_page": "https://openalex.org/A5010117911",
+                "orcid": "https://orcid.org/0000-0002-7255-7890",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Takuya Maekawa",
+                "organiser_affiliation": "Osaka University",
+                "organiser_country": "Japan",
+                "track_name": "Student Volunteer Chairs",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Takuya Maekawa",
+                "openalex_page": "https://openalex.org/A5039456378",
+                "orcid": "https://orcid.org/0000-0002-7227-580X",
+                "affiliation_ror": "https://ror.org/04a8t1e98"
+            },
+            {
+                "organiser_name": "Tim Moesgen",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Student Volunteer Chairs",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tim Moesgen",
+                "openalex_page": "https://openalex.org/A5007150791",
+                "orcid": "https://orcid.org/0000-0003-2016-2261",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Chi-Jung Lee",
+                "organiser_affiliation": "Cornell University",
+                "organiser_country": "US",
+                "track_name": "Student Volunteer Chairs",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chi-Jung Lee",
+                "openalex_page": "https://openalex.org/A5029939505",
+                "orcid": "https://orcid.org/0000-0002-1887-4000",
+                "affiliation_ror": "https://ror.org/05bnh6r87"
+            },
+            {
+                "organiser_name": "Si Zuo",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Publicity & Social Media",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Si Zuo",
+                "openalex_page": "https://openalex.org/A5016155630",
+                "orcid": "https://orcid.org/0000-0002-1418-8919",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Yuuki Nishiyama",
+                "organiser_affiliation": "University of Tokyo",
+                "organiser_country": "Japan",
+                "track_name": "Publicity & Social Media",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yuuki Nishiyama",
+                "openalex_page": "https://openalex.org/A5046878953",
+                "orcid": "https://orcid.org/0000-0002-5549-5595",
+                "affiliation_ror": "https://ror.org/044bdx604"
+            },
+            {
+                "organiser_name": "Zhi Liu",
+                "organiser_affiliation": "The University of Electro-Communications",
+                "organiser_country": "Japan",
+                "track_name": "Publicity & Social Media",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Wei Liu",
+                "openalex_page": "https://openalex.org/A5100431839",
+                "orcid": "https://orcid.org/0000-0002-6206-8321",
+                "affiliation_ror": "https://ror.org/057zh3y96"
+            },
+            {
+                "organiser_name": "Talayeh Aledavood",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Talayeh Aledavood",
+                "openalex_page": "https://openalex.org/A5003213649",
+                "orcid": "https://orcid.org/0000-0002-0110-5694",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Bo Zhao",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Bo Zhao",
+                "openalex_page": "https://openalex.org/A5060182809",
+                "orcid": "https://orcid.org/0000-0002-3475-8739",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Hong-Tri Nguyen",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tri Nguyen",
+                "openalex_page": "https://openalex.org/A5059861334",
+                "orcid": "https://orcid.org/0000-0001-6483-0829",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Xiaoli Liu",
+                "organiser_affiliation": "University of Helsinki",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Xiaoli Liu",
+                "openalex_page": "https://openalex.org/A5100386603",
+                "orcid": "https://orcid.org/0000-0003-4792-2267",
+                "affiliation_ror": "https://ror.org/040af2s02"
+            },
+            {
+                "organiser_name": "Krisztina Cziner",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Krisztina Cziner",
+                "openalex_page": "https://openalex.org/A5012952264",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/040af2s02"
+            },
+            {
+                "organiser_name": "Hanna-Mari Ylinen",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Hanna-Mari Ylinen",
+                "openalex_page": "https://openalex.org/A5076844265",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Daqing Zhang",
+                "organiser_affiliation": "University of Sud Paris",
+                "organiser_country": "France",
+                "track_name": "Awards",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Daqing Zhang",
+                "openalex_page": "https://openalex.org/A5045729966",
+                "orcid": "https://orcid.org/0000-0002-6608-1267",
+                "affiliation_ror": "https://ror.org/03hbp5t65"
+            },
+            {
+                "organiser_name": "Moustafa Youssef",
+                "organiser_affiliation": "American University in Cairo",
+                "organiser_country": "Egypt",
+                "track_name": "Awards",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Moustafa Youssef",
+                "openalex_page": "https://openalex.org/A5008352007",
+                "orcid": "https://orcid.org/0000-0002-2063-4364",
+                "affiliation_ror": "https://ror.org/0176yqn58"
+            },
+            {
+                "organiser_name": "Silvia Santini",
+                "organiser_affiliation": "Universit\u00e0 della Svizzera italiana (USI)",
+                "organiser_country": "Switzerland",
+                "track_name": "Awards",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Silvia Santini",
+                "openalex_page": "https://openalex.org/A5001629510",
+                "orcid": "https://orcid.org/0000-0001-6906-4289",
+                "affiliation_ror": "https://ror.org/02p77k626"
+            },
+            {
+                "organiser_name": "Sarah Clinch",
+                "organiser_affiliation": "University of Manchester",
+                "organiser_country": "UK",
+                "track_name": "Awards",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sarah Clinch",
+                "openalex_page": "https://openalex.org/A5077301829",
+                "orcid": "https://orcid.org/0000-0002-9305-4774",
+                "affiliation_ror": "https://ror.org/027m9bs27"
+            },
+            {
+                "organiser_name": "Eric Larson",
+                "organiser_affiliation": "Southern Methodist University",
+                "organiser_country": "US",
+                "track_name": "Awards",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Eric B. Larson",
+                "openalex_page": "https://openalex.org/A5035154676",
+                "orcid": "https://orcid.org/0000-0003-4782-5360",
+                "affiliation_ror": "https://ror.org/042tdr378"
+            },
+            {
+                "organiser_name": "Mirela Alistar",
+                "organiser_affiliation": "University of Colorado Boulder",
+                "organiser_country": "US",
+                "track_name": "Design Exhibition",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Mirela Alistar",
+                "openalex_page": "https://openalex.org/A5007289864",
+                "orcid": "https://orcid.org/0000-0001-9730-1616",
+                "affiliation_ror": "https://ror.org/02ttsq026"
+            },
+            {
+                "organiser_name": "Eldy Lazaro",
+                "organiser_affiliation": "University of Colorado Boulder",
+                "organiser_country": "US",
+                "track_name": "Design Exhibition",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Eldy S. Lazaro Vasquez",
+                "openalex_page": "https://openalex.org/A5082873547",
+                "orcid": "https://orcid.org/0000-0003-1246-098X",
+                "affiliation_ror": "https://ror.org/02ttsq026"
+            },
+            {
+                "organiser_name": "Ramyah Gowrishankar",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Design Exhibition",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ramyah Gowrishankar",
+                "openalex_page": "https://openalex.org/A5024843371",
+                "orcid": "https://orcid.org/0000-0003-0755-2222",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Emmi Pouta",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Design Exhibition",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Emmi Pouta",
+                "openalex_page": "https://openalex.org/A5049222154",
+                "orcid": "https://orcid.org/0000-0003-4997-9451",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Veljko Pejovi\u0107",
+                "organiser_affiliation": "University of Ljubljana",
+                "organiser_country": "Slovenia",
+                "track_name": "Videos",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Veljko Pejovi\u0107",
+                "openalex_page": "https://openalex.org/A5043398857",
+                "orcid": "https://orcid.org/0000-0002-9009-0024",
+                "affiliation_ror": "https://ror.org/05njb9z20"
+            },
+            {
+                "organiser_name": "Vitor Fortes Rey",
+                "organiser_affiliation": "DFKI",
+                "organiser_country": "Germany",
+                "track_name": "Videos",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "V\u00edtor Fortes Rey",
+                "openalex_page": "https://openalex.org/A5079181491",
+                "orcid": "https://orcid.org/0000-0002-8371-2921",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Biyun Sheng",
+                "organiser_affiliation": "Nanjing University of Posts and Telecommunications",
+                "organiser_country": "China",
+                "track_name": "Videos",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Biyun Sheng",
+                "openalex_page": "https://openalex.org/A5039232420",
+                "orcid": "https://orcid.org/0000-0002-5006-3822",
+                "affiliation_ror": "https://ror.org/043bpky34"
+            },
+            {
+                "organiser_name": "Mathias Ciliberto",
+                "organiser_affiliation": "University of Cambridge",
+                "organiser_country": "UK",
+                "track_name": "Gadget Show",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Mathias Ciliberto",
+                "openalex_page": "https://openalex.org/A5077861505",
+                "orcid": "https://orcid.org/0000-0001-9550-7637",
+                "affiliation_ror": "https://ror.org/013meh722"
+            },
+            {
+                "organiser_name": "Francesca Meneghello",
+                "organiser_affiliation": "University of Padova",
+                "organiser_country": "Italy",
+                "track_name": "Communication",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Francesca Meneghello",
+                "openalex_page": "https://openalex.org/A5081831626",
+                "orcid": "https://orcid.org/0000-0002-9905-0360",
+                "affiliation_ror": "https://ror.org/00240q980"
+            },
+            {
+                "organiser_name": "Bo Zhou",
+                "organiser_affiliation": "German Research Center for Artificial Intelligence (DFKI)",
+                "organiser_country": "Germany",
+                "track_name": "Communication",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Bo Zhou",
+                "openalex_page": "https://openalex.org/A5100335176",
+                "orcid": "https://orcid.org/0000-0001-6303-1072",
+                "affiliation_ror": "https://ror.org/01ayc5b57"
+            },
+            {
+                "organiser_name": "Irmandy Wicaksono",
+                "organiser_affiliation": "National University of Singapore",
+                "organiser_country": "Singapore",
+                "track_name": "Communication",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Irmandy Wicaksono",
+                "openalex_page": "https://openalex.org/A5063941610",
+                "orcid": "https://orcid.org/0000-0003-4212-5138",
+                "affiliation_ror": "https://ror.org/01tgyzw49"
+            },
+            {
+                "organiser_name": "Alanson Sample",
+                "organiser_affiliation": "University of Michigan",
+                "organiser_country": "US",
+                "track_name": "Travel Grants",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Alanson P. Sample",
+                "openalex_page": "https://openalex.org/A5047416400",
+                "orcid": "https://orcid.org/0000-0002-8046-0538",
+                "affiliation_ror": "https://ror.org/00jmfr291"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "UbiComp/ISWC 2025",
+        "event_acronym": "ISWC 2025",
+        "conference_series": "UbiComp/ISWC",
+        "colocated_with": "UbiComp 2025",
+        "year": "2025",
+        "location": "Espoo, Finland",
+        "DBLP": {},
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Michael Beigl",
+                "organiser_affiliation": "Karlsruhe Institute of Technology",
+                "organiser_country": "Germany",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Michael Beigl",
+                "openalex_page": "https://openalex.org/A5082553444",
+                "orcid": "https://orcid.org/0000-0001-5009-2327",
+                "affiliation_ror": "https://ror.org/04t3en479"
+            },
+            {
+                "organiser_name": "Giulio Jacucci",
+                "organiser_affiliation": "Helsingin yliopisto",
+                "organiser_country": "Finland",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Giulio Jacucci",
+                "openalex_page": "https://openalex.org/A5074899838",
+                "orcid": "https://orcid.org/0000-0002-9185-7928",
+                "affiliation_ror": "https://ror.org/040af2s02"
+            },
+            {
+                "organiser_name": "Stephan Sigg",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Stephan Sigg",
+                "openalex_page": "https://openalex.org/A5045150110",
+                "orcid": "https://orcid.org/0000-0001-6118-3355",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Yu Xiao",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yu Xiao",
+                "openalex_page": "https://openalex.org/A5061926020",
+                "orcid": "https://orcid.org/0000-0003-2711-5070",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Jakob Bardram",
+                "organiser_affiliation": "Technical University of Denmark",
+                "organiser_country": "Denmark",
+                "track_name": "Technical Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Jakob E. Bardram",
+                "openalex_page": "https://openalex.org/A5043844478",
+                "orcid": "https://orcid.org/0000-0003-1390-8758",
+                "affiliation_ror": "https://ror.org/04qtj9h94"
+            },
+            {
+                "organiser_name": "Chenren Xu",
+                "organiser_affiliation": "Peking University",
+                "organiser_country": "China",
+                "track_name": "Technical Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chenren Xu",
+                "openalex_page": "https://openalex.org/A5003999919",
+                "orcid": "https://orcid.org/0000-0001-9171-2596",
+                "affiliation_ror": "https://ror.org/02v51f717"
+            },
+            {
+                "organiser_name": "Eirini Eleni Tsiroupoulou",
+                "organiser_affiliation": "Arizona State University",
+                "organiser_country": "US",
+                "track_name": "Technical Program Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "",
+                "openalex_page": "",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Yutaka Arakawa",
+                "organiser_affiliation": "Kyushu University",
+                "organiser_country": "Japan",
+                "track_name": "Workshops and Tutorials",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yutaka Arakawa",
+                "openalex_page": "https://openalex.org/A5084986446",
+                "orcid": "https://orcid.org/0000-0002-7156-9160",
+                "affiliation_ror": "https://ror.org/00p4k0j84"
+            },
+            {
+                "organiser_name": "Aaron Ding",
+                "organiser_affiliation": "TU Delft",
+                "organiser_country": "Netherlands",
+                "track_name": "Workshops and Tutorials",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Aaron Yi Ding",
+                "openalex_page": "https://openalex.org/A5063593427",
+                "orcid": "https://orcid.org/0000-0003-4173-031X",
+                "affiliation_ror": "https://ror.org/02e2c7k09"
+            },
+            {
+                "organiser_name": "Ella Peltonen",
+                "organiser_affiliation": "University of Oulu",
+                "organiser_country": "Finland",
+                "track_name": "Workshops and Tutorials",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ella Peltonen",
+                "openalex_page": "https://openalex.org/A5006760291",
+                "orcid": "https://orcid.org/0000-0002-3374-671X",
+                "affiliation_ror": "https://ror.org/03dvp8k55"
+            },
+            {
+                "organiser_name": "Gopika Premsankar",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Posters and Demos",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gopika Premsankar",
+                "openalex_page": "https://openalex.org/A5039662238",
+                "orcid": "https://orcid.org/0000-0003-3463-6077",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Uichin Lee",
+                "organiser_affiliation": "Korea Advanced Institute of Science and Technology",
+                "organiser_country": "Korea",
+                "track_name": "Posters and Demos",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Uichin Lee",
+                "openalex_page": "https://openalex.org/A5058987035",
+                "orcid": "https://orcid.org/0000-0002-1888-1569",
+                "affiliation_ror": "https://ror.org/05apxxy63"
+            },
+            {
+                "organiser_name": "Laura E Barnes",
+                "organiser_affiliation": "University of Virginia",
+                "organiser_country": "US",
+                "track_name": "Posters and Demos",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Laura E. Barnes",
+                "openalex_page": "https://openalex.org/A5012728152",
+                "orcid": "https://orcid.org/0000-0001-8224-5164",
+                "affiliation_ror": "https://ror.org/00wn7d965"
+            },
+            {
+                "organiser_name": "Franca Delmastro",
+                "organiser_affiliation": "CNR",
+                "organiser_country": "Italy",
+                "track_name": "ISWC Briefs and Notes",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Franca Delmastro",
+                "openalex_page": "https://openalex.org/A5048866658",
+                "orcid": "https://orcid.org/0000-0001-9233-2712",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Sizhen Bian",
+                "organiser_affiliation": "DFKI",
+                "organiser_country": "Germany",
+                "track_name": "ISWC Briefs and Notes",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Sizhen Bian",
+                "openalex_page": "https://openalex.org/A5066958860",
+                "orcid": "https://orcid.org/0000-0001-6760-5539",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Antti Oulasvirta",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Doctoral Colloquium",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Antti Oulasvirta",
+                "openalex_page": "https://openalex.org/A5003084232",
+                "orcid": "https://orcid.org/0000-0002-2498-7837",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Benjamin Tag",
+                "organiser_affiliation": "University of New South Wales",
+                "organiser_country": "Australia",
+                "track_name": "Doctoral Colloquium",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Benjamin Tag",
+                "openalex_page": "https://openalex.org/A5002217875",
+                "orcid": "https://orcid.org/0000-0002-7831-2632",
+                "affiliation_ror": "https://ror.org/02kn6nx58"
+            },
+            {
+                "organiser_name": "Qi Han",
+                "organiser_affiliation": "Colorado School of Mines",
+                "organiser_country": "US",
+                "track_name": "Doctoral Colloquium",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Qi Han",
+                "openalex_page": "https://openalex.org/A5101494992",
+                "orcid": "https://orcid.org/0000-0002-5856-383X",
+                "affiliation_ror": "https://ror.org/04raf6v53"
+            },
+            {
+                "organiser_name": "Nan Gao",
+                "organiser_affiliation": "Nankai University",
+                "organiser_country": "China",
+                "track_name": "Student Competition and Challenges",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chong Gao",
+                "openalex_page": "https://openalex.org/A5052960352",
+                "orcid": "https://orcid.org/0000-0001-7639-0808",
+                "affiliation_ror": "https://ror.org/01y1kjr75"
+            },
+            {
+                "organiser_name": "Shantanu Pal",
+                "organiser_affiliation": "Deakin University",
+                "organiser_country": "Australia",
+                "track_name": "Student Competition and Challenges",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Shantanu Pal",
+                "openalex_page": "https://openalex.org/A5043613674",
+                "orcid": "https://orcid.org/0000-0002-8784-0154",
+                "affiliation_ror": "https://ror.org/02czsnj07"
+            },
+            {
+                "organiser_name": "Huber Flores",
+                "organiser_affiliation": "University of Tartu",
+                "organiser_country": "Estonia",
+                "track_name": "Student Competition and Challenges",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Huber Flores",
+                "openalex_page": "https://openalex.org/A5080043050",
+                "orcid": "https://orcid.org/0000-0003-4551-629X",
+                "affiliation_ror": "https://ror.org/03z77qz90"
+            },
+            {
+                "organiser_name": "Chulhong Min",
+                "organiser_affiliation": "Nokia Bell Labs",
+                "organiser_country": "UK",
+                "track_name": "Sponsorship and Industrial Relations",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chulhong Min",
+                "openalex_page": "https://openalex.org/A5084727763",
+                "orcid": "https://orcid.org/0000-0002-5197-9840",
+                "affiliation_ror": "https://ror.org/038km2573"
+            },
+            {
+                "organiser_name": "Sasu Tarkoma",
+                "organiser_affiliation": "University of Helsinki",
+                "organiser_country": "Finland",
+                "track_name": "Sponsorship and Industrial Relations",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sasu Tarkoma",
+                "openalex_page": "https://openalex.org/A5054443906",
+                "orcid": "https://orcid.org/0000-0003-4220-3650",
+                "affiliation_ror": "https://ror.org/040af2s02"
+            },
+            {
+                "organiser_name": "Lei Zhong",
+                "organiser_affiliation": "Toyota",
+                "organiser_country": "Japan",
+                "track_name": "Sponsorship and Industrial Relations",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Lei Zhong",
+                "openalex_page": "https://openalex.org/A5101886633",
+                "orcid": "https://orcid.org/0000-0002-0208-1823",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Florian Michahelles",
+                "organiser_affiliation": "TU Wien",
+                "organiser_country": "Austria",
+                "track_name": "Sponsorship and Industrial Relations",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Florian Michahelles",
+                "openalex_page": "https://openalex.org/A5011192485",
+                "orcid": "https://orcid.org/0000-0003-1486-0688",
+                "affiliation_ror": "https://ror.org/04d836q62"
+            },
+            {
+                "organiser_name": "Sara Khalifa",
+                "organiser_affiliation": "Queensland University of Technology (QUT)",
+                "organiser_country": "Australia",
+                "track_name": "Inclusion and Broadening Participation",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sara Khalifa",
+                "openalex_page": "https://openalex.org/A5064983246",
+                "orcid": "https://orcid.org/0000-0002-3417-2834",
+                "affiliation_ror": "https://ror.org/03pnv4752"
+            },
+            {
+                "organiser_name": "Tom B\u00e4ckstr\u00f6m",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Inclusion and Broadening Participation",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tom B\u00e4ckstr\u00f6m",
+                "openalex_page": "https://openalex.org/A5052130850",
+                "orcid": "https://orcid.org/0000-0002-5590-2349",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Maija Poikela",
+                "organiser_affiliation": "Berlin Institute of Health at Charit\u00e9",
+                "organiser_country": "Germany",
+                "track_name": "Inclusion and Broadening Participation",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Maija Poikela",
+                "openalex_page": "https://openalex.org/A5057106142",
+                "orcid": "https://orcid.org/0000-0003-2616-4401",
+                "affiliation_ror": "https://ror.org/0493xsw21"
+            },
+            {
+                "organiser_name": "Le Nguyen",
+                "organiser_affiliation": "University of Oulu",
+                "organiser_country": "Finland",
+                "track_name": "Web",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Le Ngu Nguyen",
+                "openalex_page": "https://openalex.org/A5046601342",
+                "orcid": "https://orcid.org/0000-0001-7765-1483",
+                "affiliation_ror": "https://ror.org/03yj89h83"
+            },
+            {
+                "organiser_name": "Sang Won Bae",
+                "organiser_affiliation": "Stevens Institute of Technology",
+                "organiser_country": "US",
+                "track_name": "Web",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sang Won Bae",
+                "openalex_page": "https://openalex.org/A5067613275",
+                "orcid": "https://orcid.org/0000-0002-8802-4247",
+                "affiliation_ror": "https://ror.org/02z43xh36"
+            },
+            {
+                "organiser_name": "Tahera Hossain",
+                "organiser_affiliation": "Nagoya University",
+                "organiser_country": "Japan",
+                "track_name": "Web",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tahera Hossain",
+                "openalex_page": "https://openalex.org/A5018591931",
+                "orcid": "https://orcid.org/0000-0002-8985-9043",
+                "affiliation_ror": "https://ror.org/04chrp450"
+            },
+            {
+                "organiser_name": "Till Riedel",
+                "organiser_affiliation": "Karlsruhe Institute of Technology",
+                "organiser_country": "Germany",
+                "track_name": "Publication",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Till Riedel",
+                "openalex_page": "https://openalex.org/A5066888374",
+                "orcid": "https://orcid.org/0000-0003-4547-1984",
+                "affiliation_ror": "https://ror.org/04t3en479"
+            },
+            {
+                "organiser_name": "Sozo Inoue",
+                "organiser_affiliation": "Kyushu Institute of Technology",
+                "organiser_country": "Japan",
+                "track_name": "Publication",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sozo Inoue",
+                "openalex_page": "https://openalex.org/A5080895628",
+                "orcid": "https://orcid.org/0000-0003-1109-8130",
+                "affiliation_ror": "https://ror.org/02278tr80"
+            },
+            {
+                "organiser_name": "Fusang Zhang",
+                "organiser_affiliation": "University of Chinese Academy of Sciences",
+                "organiser_country": "China",
+                "track_name": "Registration",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Fusang Zhang",
+                "openalex_page": "https://openalex.org/A5082241536",
+                "orcid": "https://orcid.org/0000-0002-2529-8021",
+                "affiliation_ror": "https://ror.org/034t30j35"
+            },
+            {
+                "organiser_name": "Anandghan Waghmare",
+                "organiser_affiliation": "University of Washington",
+                "organiser_country": "US",
+                "track_name": "Registration",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Anandghan Waghmare",
+                "openalex_page": "https://openalex.org/A5067376767",
+                "orcid": "https://orcid.org/0000-0003-3022-071X",
+                "affiliation_ror": "https://ror.org/00cvxb145"
+            },
+            {
+                "organiser_name": "Manas Bedmutha",
+                "organiser_affiliation": "University of California San Diego",
+                "organiser_country": "US",
+                "track_name": "Registration",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Manas Satish Bedmutha",
+                "openalex_page": "https://openalex.org/A5038721239",
+                "orcid": "https://orcid.org/0000-0003-3427-2226",
+                "affiliation_ror": "https://ror.org/0168r3w48"
+            },
+            {
+                "organiser_name": "Petteri Nurmi",
+                "organiser_affiliation": "Helsingin yliopisto",
+                "organiser_country": "Finland",
+                "track_name": "Treasurer",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Petteri Nurmi",
+                "openalex_page": "https://openalex.org/A5066542585",
+                "orcid": "https://orcid.org/0000-0001-8262-6434",
+                "affiliation_ror": "https://ror.org/040af2s02"
+            },
+            {
+                "organiser_name": "Robin Welsch",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Student Volunteer Chairs",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Robin Welsch",
+                "openalex_page": "https://openalex.org/A5010117911",
+                "orcid": "https://orcid.org/0000-0002-7255-7890",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Takuya Maekawa",
+                "organiser_affiliation": "Osaka University",
+                "organiser_country": "Japan",
+                "track_name": "Student Volunteer Chairs",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Takuya Maekawa",
+                "openalex_page": "https://openalex.org/A5039456378",
+                "orcid": "https://orcid.org/0000-0002-7227-580X",
+                "affiliation_ror": "https://ror.org/04a8t1e98"
+            },
+            {
+                "organiser_name": "Tim Moesgen",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Student Volunteer Chairs",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tim Moesgen",
+                "openalex_page": "https://openalex.org/A5007150791",
+                "orcid": "https://orcid.org/0000-0003-2016-2261",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Chi-Jung Lee",
+                "organiser_affiliation": "Cornell University",
+                "organiser_country": "US",
+                "track_name": "Student Volunteer Chairs",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Chi-Jung Lee",
+                "openalex_page": "https://openalex.org/A5029939505",
+                "orcid": "https://orcid.org/0000-0002-1887-4000",
+                "affiliation_ror": "https://ror.org/05bnh6r87"
+            },
+            {
+                "organiser_name": "Si Zuo",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Publicity & Social Media",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Si Zuo",
+                "openalex_page": "https://openalex.org/A5016155630",
+                "orcid": "https://orcid.org/0000-0002-1418-8919",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Yuuki Nishiyama",
+                "organiser_affiliation": "University of Tokyo",
+                "organiser_country": "Japan",
+                "track_name": "Publicity & Social Media",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Yuuki Nishiyama",
+                "openalex_page": "https://openalex.org/A5046878953",
+                "orcid": "https://orcid.org/0000-0002-5549-5595",
+                "affiliation_ror": "https://ror.org/044bdx604"
+            },
+            {
+                "organiser_name": "Zhi Liu",
+                "organiser_affiliation": "The University of Electro-Communications",
+                "organiser_country": "Japan",
+                "track_name": "Publicity & Social Media",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Wei Liu",
+                "openalex_page": "https://openalex.org/A5100431839",
+                "orcid": "https://orcid.org/0000-0002-6206-8321",
+                "affiliation_ror": "https://ror.org/057zh3y96"
+            },
+            {
+                "organiser_name": "Talayeh Aledavood",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Talayeh Aledavood",
+                "openalex_page": "https://openalex.org/A5003213649",
+                "orcid": "https://orcid.org/0000-0002-0110-5694",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Bo Zhao",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Bo Zhao",
+                "openalex_page": "https://openalex.org/A5060182809",
+                "orcid": "https://orcid.org/0000-0002-3475-8739",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Hong-Tri Nguyen",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Tri Nguyen",
+                "openalex_page": "https://openalex.org/A5059861334",
+                "orcid": "https://orcid.org/0000-0001-6483-0829",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Xiaoli Liu",
+                "organiser_affiliation": "University of Helsinki",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Xiaoli Liu",
+                "openalex_page": "https://openalex.org/A5100386603",
+                "orcid": "https://orcid.org/0000-0003-4792-2267",
+                "affiliation_ror": "https://ror.org/040af2s02"
+            },
+            {
+                "organiser_name": "Krisztina Cziner",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Krisztina Cziner",
+                "openalex_page": "https://openalex.org/A5012952264",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/040af2s02"
+            },
+            {
+                "organiser_name": "Hanna-Mari Ylinen",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Local Arrangements",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Hanna-Mari Ylinen",
+                "openalex_page": "https://openalex.org/A5076844265",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Daqing Zhang",
+                "organiser_affiliation": "University of Sud Paris",
+                "organiser_country": "France",
+                "track_name": "Awards",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Daqing Zhang",
+                "openalex_page": "https://openalex.org/A5045729966",
+                "orcid": "https://orcid.org/0000-0002-6608-1267",
+                "affiliation_ror": "https://ror.org/03hbp5t65"
+            },
+            {
+                "organiser_name": "Moustafa Youssef",
+                "organiser_affiliation": "American University in Cairo",
+                "organiser_country": "Egypt",
+                "track_name": "Awards",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Moustafa Youssef",
+                "openalex_page": "https://openalex.org/A5008352007",
+                "orcid": "https://orcid.org/0000-0002-2063-4364",
+                "affiliation_ror": "https://ror.org/0176yqn58"
+            },
+            {
+                "organiser_name": "Silvia Santini",
+                "organiser_affiliation": "Universit\u00e0 della Svizzera italiana (USI)",
+                "organiser_country": "Switzerland",
+                "track_name": "Awards",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Silvia Santini",
+                "openalex_page": "https://openalex.org/A5001629510",
+                "orcid": "https://orcid.org/0000-0001-6906-4289",
+                "affiliation_ror": "https://ror.org/02p77k626"
+            },
+            {
+                "organiser_name": "Sarah Clinch",
+                "organiser_affiliation": "University of Manchester",
+                "organiser_country": "UK",
+                "track_name": "Awards",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sarah Clinch",
+                "openalex_page": "https://openalex.org/A5077301829",
+                "orcid": "https://orcid.org/0000-0002-9305-4774",
+                "affiliation_ror": "https://ror.org/027m9bs27"
+            },
+            {
+                "organiser_name": "Eric Larson",
+                "organiser_affiliation": "Southern Methodist University",
+                "organiser_country": "US",
+                "track_name": "Awards",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Eric B. Larson",
+                "openalex_page": "https://openalex.org/A5035154676",
+                "orcid": "https://orcid.org/0000-0003-4782-5360",
+                "affiliation_ror": "https://ror.org/042tdr378"
+            },
+            {
+                "organiser_name": "Mirela Alistar",
+                "organiser_affiliation": "University of Colorado Boulder",
+                "organiser_country": "US",
+                "track_name": "Design Exhibition",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Mirela Alistar",
+                "openalex_page": "https://openalex.org/A5007289864",
+                "orcid": "https://orcid.org/0000-0001-9730-1616",
+                "affiliation_ror": "https://ror.org/02ttsq026"
+            },
+            {
+                "organiser_name": "Eldy Lazaro",
+                "organiser_affiliation": "University of Colorado Boulder",
+                "organiser_country": "US",
+                "track_name": "Design Exhibition",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Eldy S. Lazaro Vasquez",
+                "openalex_page": "https://openalex.org/A5082873547",
+                "orcid": "https://orcid.org/0000-0003-1246-098X",
+                "affiliation_ror": "https://ror.org/02ttsq026"
+            },
+            {
+                "organiser_name": "Ramyah Gowrishankar",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Design Exhibition",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ramyah Gowrishankar",
+                "openalex_page": "https://openalex.org/A5024843371",
+                "orcid": "https://orcid.org/0000-0003-0755-2222",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Emmi Pouta",
+                "organiser_affiliation": "Aalto University",
+                "organiser_country": "Finland",
+                "track_name": "Design Exhibition",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Emmi Pouta",
+                "openalex_page": "https://openalex.org/A5049222154",
+                "orcid": "https://orcid.org/0000-0003-4997-9451",
+                "affiliation_ror": "https://ror.org/020hwjq30"
+            },
+            {
+                "organiser_name": "Veljko Pejovi\u0107",
+                "organiser_affiliation": "University of Ljubljana",
+                "organiser_country": "Slovenia",
+                "track_name": "Videos",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Veljko Pejovi\u0107",
+                "openalex_page": "https://openalex.org/A5043398857",
+                "orcid": "https://orcid.org/0000-0002-9009-0024",
+                "affiliation_ror": "https://ror.org/05njb9z20"
+            },
+            {
+                "organiser_name": "Vitor Fortes Rey",
+                "organiser_affiliation": "DFKI",
+                "organiser_country": "Germany",
+                "track_name": "Videos",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "V\u00edtor Fortes Rey",
+                "openalex_page": "https://openalex.org/A5079181491",
+                "orcid": "https://orcid.org/0000-0002-8371-2921",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Biyun Sheng",
+                "organiser_affiliation": "Nanjing University of Posts and Telecommunications",
+                "organiser_country": "China",
+                "track_name": "Videos",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Biyun Sheng",
+                "openalex_page": "https://openalex.org/A5039232420",
+                "orcid": "https://orcid.org/0000-0002-5006-3822",
+                "affiliation_ror": "https://ror.org/043bpky34"
+            },
+            {
+                "organiser_name": "Mathias Ciliberto",
+                "organiser_affiliation": "University of Cambridge",
+                "organiser_country": "UK",
+                "track_name": "Gadget Show",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Mathias Ciliberto",
+                "openalex_page": "https://openalex.org/A5077861505",
+                "orcid": "https://orcid.org/0000-0001-9550-7637",
+                "affiliation_ror": "https://ror.org/013meh722"
+            },
+            {
+                "organiser_name": "Francesca Meneghello",
+                "organiser_affiliation": "University of Padova",
+                "organiser_country": "Italy",
+                "track_name": "Communication",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Francesca Meneghello",
+                "openalex_page": "https://openalex.org/A5081831626",
+                "orcid": "https://orcid.org/0000-0002-9905-0360",
+                "affiliation_ror": "https://ror.org/00240q980"
+            },
+            {
+                "organiser_name": "Bo Zhou",
+                "organiser_affiliation": "German Research Center for Artificial Intelligence (DFKI)",
+                "organiser_country": "Germany",
+                "track_name": "Communication",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Bo Zhou",
+                "openalex_page": "https://openalex.org/A5100335176",
+                "orcid": "https://orcid.org/0000-0001-6303-1072",
+                "affiliation_ror": "https://ror.org/01ayc5b57"
+            },
+            {
+                "organiser_name": "Irmandy Wicaksono",
+                "organiser_affiliation": "National University of Singapore",
+                "organiser_country": "Singapore",
+                "track_name": "Communication",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Irmandy Wicaksono",
+                "openalex_page": "https://openalex.org/A5063941610",
+                "orcid": "https://orcid.org/0000-0003-4212-5138",
+                "affiliation_ror": "https://ror.org/01tgyzw49"
+            },
+            {
+                "organiser_name": "Alanson Sample",
+                "organiser_affiliation": "University of Michigan",
+                "organiser_country": "US",
+                "track_name": "Travel Grants",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Alanson P. Sample",
+                "openalex_page": "https://openalex.org/A5047416400",
+                "orcid": "https://orcid.org/0000-0002-8046-0538",
+                "affiliation_ror": "https://ror.org/00jmfr291"
+            }
+        ],
+        "topics": [
+            "Wearable Systems, Novel Devices and Form Factors",
+            "Smartphone- and smartwatch-based systems and applications",
+            "Glasses, Earables, Rings and Gloves",
+            "Wearable equipment for specialized applications and professions",
+            "Exoskeletons and physical strength augmentation",
+            "Enabling Technologies",
+            "Displays, mobile augmented reality optics",
+            "Haptics and actuators",
+            "Novel sensor technologies",
+            "Sensing the body, eye, brain",
+            "Wearable sensor networks",
+            "Manufacturing of wearable technologies",
+            "Wearable technology toolkits",
+            "Power sources and management",
+            "Textiles and Clothing",
+            "E-textiles, advanced textiles",
+            "Functional clothing and non-electronic wearable technologies",
+            "Novel materials for textiles and clothing",
+            "On-Skin and Implantable Interfaces",
+            "On-skin technology and interfaces",
+            "Implantable and insertable technology",
+            "Biotechnology and HCI",
+            "Design Process for Wearables",
+            "Research through design",
+            "Craft and computing for wearables",
+            "Culturally-sensitive design processes",
+            "Information and Data",
+            "Machine learning, and artificial intelligence for wearables",
+            "Data augmentation, big data",
+            "Individual activity recognition",
+            "Human/Device Interaction",
+            "Human factors, wearability, interaction design",
+            "Social interactions and impacts",
+            "Applications",
+            "Health and wellness, mental health and therapy",
+            "Virtual, mixed and augmented reality",
+            "Extreme environments",
+            "Art and fashion",
+            "Biometrics and security"
+        ],
+        "enhanced_topics": {
+            "Wearable Systems, Novel Devices and Form Factors": [
+                {
+                    "topic": "wearable technology",
+                    "similarity": 0.7099558413028717
+                },
+                {
+                    "topic": "wearable",
+                    "similarity": 0.6185517311096191
+                },
+                {
+                    "topic": "wearable devices",
+                    "similarity": 0.6130021214485168
+                }
+            ],
+            "Smartphone- and smartwatch-based systems and applications": [
+                {
+                    "topic": "smartphones",
+                    "similarity": 0.7635762691497803
+                },
+                {
+                    "topic": "smartphone use",
+                    "similarity": 0.6206555962562561
+                },
+                {
+                    "topic": "mobile phones",
+                    "similarity": 0.6106339395046234
+                },
+                {
+                    "topic": "applications",
+                    "similarity": 0.9999999999995252
+                }
+            ],
+            "Glasses, Earables, Rings and Gloves": [],
+            "Wearable equipment for specialized applications and professions": [
+                {
+                    "topic": "wearable devices",
+                    "similarity": 0.7395362257957458
+                },
+                {
+                    "topic": "wearable technology",
+                    "similarity": 0.7025497853755951
+                },
+                {
+                    "topic": "wearable",
+                    "similarity": 0.6688939034938812
+                },
+                {
+                    "topic": "health professions",
+                    "similarity": 0.7128904461860657
+                }
+            ],
+            "Exoskeletons and physical strength augmentation": [
+                {
+                    "topic": "exoskeletons",
+                    "similarity": 0.9999999999991676
+                }
+            ],
+            "Enabling Technologies": [],
+            "Displays, mobile augmented reality optics": [],
+            "Haptics and actuators": [
+                {
+                    "topic": "haptic interfaces",
+                    "similarity": 0.6134422123432159
+                },
+                {
+                    "topic": "actuators",
+                    "similarity": 0.9999999999993675
+                },
+                {
+                    "topic": "smart actuators",
+                    "similarity": 0.7000437378883362
+                }
+            ],
+            "Novel sensor technologies": [
+                {
+                    "topic": "sensor technology",
+                    "similarity": 0.7089789509773254
+                }
+            ],
+            "Sensing the body, eye, brain": [
+                {
+                    "topic": "sensing",
+                    "similarity": 0.6197324991226196
+                },
+                {
+                    "topic": "brain",
+                    "similarity": 0.9999999999990523
+                }
+            ],
+            "Wearable sensor networks": [],
+            "Manufacturing of wearable technologies": [],
+            "Wearable technology toolkits": [],
+            "Power sources and management": [
+                {
+                    "topic": "management",
+                    "similarity": 0.9999999999994414
+                },
+                {
+                    "topic": "organizational management",
+                    "similarity": 0.7255972027778625
+                },
+                {
+                    "topic": "business management",
+                    "similarity": 0.6609125137329102
+                },
+                {
+                    "topic": "management systems",
+                    "similarity": 0.6407133042812347
+                }
+            ],
+            "Textiles and Clothing": [
+                {
+                    "topic": "clothing",
+                    "similarity": 0.9999999999992646
+                },
+                {
+                    "topic": "textiles",
+                    "similarity": 0.9999999999995423
+                },
+                {
+                    "topic": "fashion and cultural textiles",
+                    "similarity": 0.6622609496116638
+                },
+                {
+                    "topic": "textile engineering",
+                    "similarity": 0.6399151682853699
+                },
+                {
+                    "topic": "textile materials and evaluations",
+                    "similarity": 0.6098708808422089
+                }
+            ],
+            "E-textiles, advanced textiles": [
+                {
+                    "topic": "textiles",
+                    "similarity": 0.7452290654182434
+                }
+            ],
+            "Functional clothing and non-electronic wearable technologies": [
+                {
+                    "topic": "wearable technology",
+                    "similarity": 0.6044008433818817
+                }
+            ],
+            "Novel materials for textiles and clothing": [
+                {
+                    "topic": "clothing",
+                    "similarity": 0.9999999999992646
+                }
+            ],
+            "On-Skin and Implantable Interfaces": [
+                {
+                    "topic": "implantable devices",
+                    "similarity": 0.6049982607364655
+                }
+            ],
+            "On-skin technology and interfaces": [
+                {
+                    "topic": "interfaces",
+                    "similarity": 0.9999999999993654
+                },
+                {
+                    "topic": "interface engineering",
+                    "similarity": 0.6821519732475281
+                }
+            ],
+            "Implantable and insertable technology": [
+                {
+                    "topic": "implantable devices",
+                    "similarity": 0.6326361298561096
+                }
+            ],
+            "Biotechnology and HCI": [
+                {
+                    "topic": "biotechnology",
+                    "similarity": 0.9999999999993782
+                },
+                {
+                    "topic": "health biotechnology",
+                    "similarity": 0.7488320469856262
+                },
+                {
+                    "topic": "biotechnology and related fields",
+                    "similarity": 0.6955223083496094
+                },
+                {
+                    "topic": "agricultural biotechnology",
+                    "similarity": 0.6561572551727295
+                },
+                {
+                    "topic": "biotechnology education",
+                    "similarity": 0.63338702917099
+                }
+            ],
+            "Design Process for Wearables": [],
+            "Research through design": [
+                {
+                    "topic": "design research",
+                    "similarity": 0.858242467045784
+                },
+                {
+                    "topic": "research design",
+                    "similarity": 0.7487208843231201
+                },
+                {
+                    "topic": "design-based research",
+                    "similarity": 0.7471193075180054
+                }
+            ],
+            "Craft and computing for wearables": [],
+            "Culturally-sensitive design processes": [],
+            "Information and Data": [
+                {
+                    "topic": "data",
+                    "similarity": 0.9999999999993683
+                },
+                {
+                    "topic": "data use",
+                    "similarity": 0.6729912459850311
+                },
+                {
+                    "topic": "information",
+                    "similarity": 0.9999999999992687
+                },
+                {
+                    "topic": "information content",
+                    "similarity": 0.614307165145874
+                }
+            ],
+            "Machine learning, and artificial intelligence for wearables": [
+                {
+                    "topic": "machine learning",
+                    "similarity": 0.9999999999987857
+                },
+                {
+                    "topic": "machine learning algorithms",
+                    "similarity": 0.7623510360717773
+                },
+                {
+                    "topic": "machine learning models",
+                    "similarity": 0.7418791651725769
+                },
+                {
+                    "topic": "machine learning and algorithms",
+                    "similarity": 0.7121974229812622
+                }
+            ],
+            "Data augmentation, big data": [
+                {
+                    "topic": "big data",
+                    "similarity": 0.9999999999990067
+                },
+                {
+                    "topic": "big data analysis",
+                    "similarity": 0.7118416428565979
+                },
+                {
+                    "topic": "big data analytics",
+                    "similarity": 0.6321757733821869
+                }
+            ],
+            "Individual activity recognition": [
+                {
+                    "topic": "activity recognition",
+                    "similarity": 0.7902263849973679
+                }
+            ],
+            "Human/Device Interaction": [],
+            "Human factors, wearability, interaction design": [
+                {
+                    "topic": "human factors",
+                    "similarity": 0.9999999999992291
+                },
+                {
+                    "topic": "interaction design",
+                    "similarity": 0.999999999999264
+                }
+            ],
+            "Social interactions and impacts": [
+                {
+                    "topic": "social interactions",
+                    "similarity": 0.9999999999992611
+                },
+                {
+                    "topic": "social interaction",
+                    "similarity": 0.8984754607081413
+                },
+                {
+                    "topic": "social activity",
+                    "similarity": 0.6216055154800415
+                },
+                {
+                    "topic": "impact",
+                    "similarity": 0.8328371345996857
+                }
+            ],
+            "Applications": [
+                {
+                    "topic": "applications",
+                    "similarity": 0.9999999999995252
+                }
+            ],
+            "Health and wellness, mental health and therapy": [
+                {
+                    "topic": "mental health",
+                    "similarity": 0.9999999999991936
+                },
+                {
+                    "topic": "mental illness",
+                    "similarity": 0.771448165178299
+                },
+                {
+                    "topic": "mental health care",
+                    "similarity": 0.7581857442855835
+                },
+                {
+                    "topic": "mental health and psychiatry",
+                    "similarity": 0.6934097409248352
+                },
+                {
+                    "topic": "health",
+                    "similarity": 0.9999999999994098
+                },
+                {
+                    "topic": "human health",
+                    "similarity": 0.6617706418037415
+                },
+                {
+                    "topic": "wellness economics",
+                    "similarity": 0.6644862294197083
+                },
+                {
+                    "topic": "therapy",
+                    "similarity": 0.9999999999991853
+                },
+                {
+                    "topic": "therapy practice",
+                    "similarity": 0.7416045069694519
+                },
+                {
+                    "topic": "management and therapy",
+                    "similarity": 0.675457090139389
+                },
+                {
+                    "topic": "psychotherapy",
+                    "similarity": 0.6620555222034454
+                },
+                {
+                    "topic": "medical therapy",
+                    "similarity": 0.6522774398326874
+                }
+            ],
+            "Virtual, mixed and augmented reality": [
+                {
+                    "topic": "augmented reality",
+                    "similarity": 0.9999999999990214
+                },
+                {
+                    "topic": "augmented reality applications",
+                    "similarity": 0.7483646273612976
+                },
+                {
+                    "topic": "augmented reality and its applications",
+                    "similarity": 0.6488866806030273
+                },
+                {
+                    "topic": "augmented reality education",
+                    "similarity": 0.6049870550632477
+                }
+            ],
+            "Extreme environments": [
+                {
+                    "topic": "extreme environments",
+                    "similarity": 0.9999999999995343
+                },
+                {
+                    "topic": "life in extreme environments",
+                    "similarity": 0.6802288889884949
+                }
+            ],
+            "Art and fashion": [
+                {
+                    "topic": "art",
+                    "similarity": 0.9999999999988076
+                },
+                {
+                    "topic": "art and design",
+                    "similarity": 0.6445809304714203
+                },
+                {
+                    "topic": "arts",
+                    "similarity": 0.6265022158622742
+                },
+                {
+                    "topic": "visual art",
+                    "similarity": 0.6131823062896729
+                },
+                {
+                    "topic": "fashion",
+                    "similarity": 0.9999999999993705
+                }
+            ],
+            "Biometrics and security": [
+                {
+                    "topic": "biometrics",
+                    "similarity": 0.9999999999990691
+                },
+                {
+                    "topic": "forensic biometrics",
+                    "similarity": 0.7013033628463745
+                },
+                {
+                    "topic": "biometric recognition",
+                    "similarity": 0.7008899748325348
+                },
+                {
+                    "topic": "biometric authentication",
+                    "similarity": 0.6523762941360474
+                },
+                {
+                    "topic": "security",
+                    "similarity": 0.9999999999994096
+                },
+                {
+                    "topic": "security measures",
+                    "similarity": 0.6194793879985809
+                },
+                {
+                    "topic": "security and privacy",
+                    "similarity": 0.6093283295631409
+                },
+                {
+                    "topic": "security threats",
+                    "similarity": 0.6014477610588074
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    },
+    "cfp_text": "UbiComp / ISWC is a premier interdisciplinary venue in which leading international researchers, designers, developers, and practitioners in the field present and discuss novel results in all aspects of ubiquitous, pervasive and wearable computing. This includes the design, development, and deployment of ubiquitous, pervasive and wearable computing technologies and the understanding of human experiences and social impacts that these technologies facilitate.\r\n\r\nThe conference will be held during October, 2025 at Aalto University, Espoo, Finland. Aalto University is a public research university located in Espoo, Finland, within the Greater Helsinki metropolitan area. It was established in 2010 as a merger of three major Finnish universities: the Helsinki University of Technology, the Helsinki School of Economics and the University of Art and Design Helsinki.\r\n\r\nRegistration is now open! Join us for UbiComp/ISWC 2025 in-person! We are excited to host the community in Aalto University.\r\nWe would like to thank our awesome sponsors and supporters for aiding the 2025 UbiComp/ISWC community. Your help shapes the conference and will benefit students, researchers, and practitioners to advance our knowledge.\r\n\r\n\r\n\r\nSubmissions Due:\r\nMay 18, 2025 [11.59 pm AoE]\r\nMay 25, 2025 [11.59 pm AoE] [Hard]\r\n\r\nISWC 2025, the 29th annual International Symposium on Wearable Computers, will be held in conjunction with UbiComp 2025 in Espoo, Finland, October 12-16, 2025.\r\n\r\nISWC is the premier forum for research on wearable technology and topics related to on-body and worn mobile technologies. ISWC brings together an eclectic and interdisciplinary mix of visionary researchers, developers, designers, artists, manufacturers, and users to share information and advances in wearable technology. Contributions from a wide range of domains (including fashion design, computer science, textile engineering, electrical engineering, optics, human factors, sociology, anthropology, mechanical engineering, and medicine; among others) are encouraged.\r\n\r\nISWC invites submissions on all research related to technology that is worn on or interacts with the body, both the development and deployment thereof as well as the impacts and influences on individuals and cultures. ISWC looks for rigorous research contributions as well as highly creative ideas. Authors should consult the 2025 ISWC Author Guide for more details.\r\n\r\nWhile this call focuses specifically on research contributions, interested parties should be aware that other submission categories are also open for design innovation, system demonstrations, and interactive workshop formats (see our overall Call for Participation for more information).\r\nSummary of Key Dates\r\n\r\n    May 18, 2025 [11.59 pm AoE] May 25, 2025 [11.59 pm AoE] [Hard]: Submission deadline for Notes and Briefs (AoE)\r\n    July 4, 2025: Author Notification Date (all papers)\r\n    July 25, 2025: Camera Ready Deadline\r\n    12-16 October, 2025: Conference Date\r\n\r\nAreas of Interest Include (But Are Not Limited To):\r\n\r\n    Wearable Systems, Novel Devices and Form Factors\r\n        Smartphone- and smartwatch-based systems and applications\r\n        Glasses\r\n        Earables\r\n        Rings and Gloves\r\n        Wearable equipment for specialized applications and professions\r\n        Exoskeletons and physical strength augmentation\r\n    Enabling Technologies\r\n        Displays, mobile augmented reality optics (freeform optics, light-guides, holographic and diffractive approaches)\r\n        Haptics and actuators\r\n        Novel sensor technologies enabling and enhancing context-aware sensing, including but not limited to:\r\n            Sensing the body (movement, behavior, physiology)\r\n            Sensing the eye (gaze, patterns of looking, eye-computer interaction)\r\n            Sensing the brain (wearable fNIRS, EEG, brain-computer interfaces)\r\n        Wearable sensor networks\r\n        Manufacturing of wearable technologies\r\n        Wearable technology toolkits\r\n        Power sources and management, thermal management\r\n    Textiles and Clothing\r\n        E-textiles, advanced textiles, and clothing-based wearables\r\n        Functional clothing and non-electronic wearable technologies\r\n        Novel materials for textiles and clothing\r\n    On-Skin and Implantable Interfaces\r\n        On-skin technology and interfaces\r\n        Implantable, insertable technology and interfaces\r\n        Unconventional materials and form factors for close-body devices\r\n        Biotechnology and HCI\r\n        Microfluidics for on-skin interfaces\r\n    Design Process for Wearables\r\n        Research through design\r\n        Craft and computing for wearables\r\n        Culturally-sensitive design processes\r\n        Design and conceptual innovation in wearables\r\n        From basic research to commercial product\r\n    Information and Data\r\n        Machine learning, and artificial intelligence for wearables\r\n        Data augmentation, big data, crowd-sourcing, fusion of online data & sensors\r\n        Datasets and performance evaluation\r\n        Individual activity recognition, behavior analysis, context recognition, skill assessment\r\n        Social, team and group activity and context recognition, skill assessment\r\n        Exploratory domain mapping and feature identification/extraction, ontologies for wearable applications\r\n        Novel processing approaches beyond \u201cmachine learning\u201d, bio-inspired approaches, cognitively-inspired architectures, towards human-like perception\r\n        Computationally efficient processing (memory, energy), architecture optimization\r\n    Human/Device Interaction\r\n        Human factors and HCI of wearables, wearability, interaction design\r\n        Anthropometrics and fit\r\n        Social interactions and impacts\r\n        Social perception and acceptance towards wearable devices\r\n        Human augmentation and portable environments\r\n        Human-robot interaction\r\n        Human/environmental/economic impacts, long-term effects, and future of wearable technologies, ethics and privacy\r\n    Applications\r\n        Health and wellness, mental health and therapy, rehabilitation\r\n        Leisure and entertainment, including sports, tourism, games\r\n        Virtual, mixed and augmented reality\r\n        The future of work, including; industrial applications, supporting physical, cognitive, and collaborative work\r\n        Extreme environments, including: outer space, underwater environments\r\n        Research on behavior, psychology, and cognition\r\n        Art and fashion; theatre and performance\r\n        Education and training\r\n        Biometrics and security\r\n        Wearables and smart cities\r\n        Markets and consumer behavior in wearables\r\n\r\nSubmission Types and Procedures\r\nNotes & Briefs\r\n\r\nISWC accepts contributions of original, unpublished research in two lengths. Papers are published and archived in the ACM Digital Library.\r\n\r\nNotes: novel, rigorous research contributions of smaller scope than full papers submissions to IMWUT. Notes should reflect a more narrow research question, but not reflect early-stage (e.g. pilot, under-developed) research, or preliminary technological development without a robust evaluation. Notes should not exceed 6 pages in the 2-column, ACM proceedings format (please refer to the UbiComp/ISWC templates and formatting). References do not count to the page limit (i.e. references can be on pages 7+), but it is important that the core paper including all text and figures is in the first 6 pages. Appendices are not allowed.\r\n\r\nBriefs: novel research contributions of a narrow scope. Briefs should include system or technology development with limited evaluation. Briefs should not exceed 3 pages in the 2-column, ACM proceedings format (please refer to the UbiComp/ISWC templates and formatting). References do not count to the page limit (i.e. references can be on pages 3+), but it is important that the core paper including all text and figures is in the first 3 pages. Appendices are not allowed.\r\n\r\nFormer \u201cLong Papers\u201d: Since ISWC and UbiComp have started co-hosting the conference, papers formerly known as \u201cLong papers\u201d must be submitted via the IMWUT journal system. IMWUT has 3 submission deadlines a year (1 February, 1 May, 1 November). When submitting to IMWUT, please make sure you tick the \u201cWearable\u201d checkbox as it helps allocate the papers to suitable Associate Editors. More information about IMWUT submissions and their presentation is available here.\r\n\r\nISWC 2025 contributions will be invited to the UbiComp/ISWC 2025 conference in Espoo, Finland, October 12-16, 2025.\r\n\r\n*ISWC Notes & Briefs, as any other track at UbiComp/ISWC 2025, will be in-person only.\r\nTemplate for the Submission\r\n\r\nPlease refer to the UbiComp/ISWC template and formatting.\r\nSubmission, Reviewing and Camera-ready Procedures\r\n\r\nAll papers should be sent through the submission site available through the Precision Conference System (PCS).\r\n\r\nDouble-blind review: ISWC follows a double-blind review process, and the anonymization policy of ACM IMWUT should be observed. Therefore, submit your papers without identifying information (i.e. it must be anonymized), including author names and pay attention when citing prior work to use a style which does not lend to easy identification of the authors (i.e. in third person). For instance, instead of \u201cIn our previous work we showed\u2026.\u201d one could write \u201cIt was recently shown that \u2026 [ref]\u201d. Authors must leave citations to their previous work unanonymized to allow reviewers to ensure that the existing literature has been adequately taken into account. Any link to codes or visual materials (e.g., videos, images) needs to be anonymized too.\r\n\r\nAccepted papers: final edits (in alignment with reviewer comments) will be prepared by the authors for submission on the Camera Ready Deadline.\r\n\r\nShepherded papers: those are papers which require very specific changes identified by reviewers and the program committee members. They are considered to be conditionally accepted, subject to the authors modifying their paper to address specific shepherding comments. These may fall in two categories. Some papers may be requested to be revised in a shorter format (e.g. from Notes to Briefs), while others may be requested to be revised in the same format. A shepherd will guide the authors to ensure that the required changes are adequately completed. Revision timelines will be agreed between the shepherd and authors, but must be fully complete and approved by the shepherd by the Shepherding Acceptance Deadline and then readied for the Camera Ready Deadline.\r\n\r\nRejected papers: Some rejected papers may be invited for submission as posters or demonstrations at the UbiComp/ISWC 2025 Conference.\r\n\r\nDesk Rejects: Papers out of the scope of ISWC or without appropriate anonymization may be rejected without reviews.\r\n\r\nAll papers well suited for the format may also be invited for an additional submission as a demonstration at the UbiComp/ISWC 2025 conference.\r\nReviewing Criteria\r\n\r\nAll papers are reviewed based on their scientific merit and contribution to the scientific progress in the domain of wearable technology. Submissions should demonstrate novelty (contribution above the state of the art); impact (contribution that furthers the state of the art in meaningful and significant ways, that can be translated and applied to new contexts); and rigor (contribution that is thoroughly supported with well-constructed evidence).\r\n\r\nFor authors to get a sense of what the ISWC community likes to see in papers we may suggest consulting the 2025 ISWC Author Guide.\r\n\r\nQuestions? Contact the Program Chairs at iswc-2025@ubicomp.org .\r\nSubmission System\r\n\r\nSubmissions can be made at http://new.precisionconference.com/sigchi\r\n\r\nOn the submissions tab, please select SIGCHI society, the UbiComp/ISWC 2025 conference, and the \u201cISWC 2025 Notes and Briefs\u201d track.\r\nIMPORTANT DATES\r\n\r\nSubmission Deadline:\r\nMay 18, 2025 [11.59 pm AoE]\r\nMay 25, 2025 [11.59 pm AoE] [Hard]\r\n\r\nAuthor Notification Date:\r\nJuly 4, 2025\r\n\r\nCamera-Ready Deadline:\r\nJuly 25, 2025\r\nCONTACT\r\n\r\niswc-2025@ubicomp.org\r\n\r\nOrganizing Committee\r\nGENERAL CHAIRS\r\n\r\nContact: generalchairs-2025@ubicomp.org\r\nMichael Beigl\r\n\r\nMichael Beigl\r\nKarlsruhe Institute of Technology, Germany\r\nGiulio Jacucci\r\n\r\nGiulio Jacucci\r\nHelsingin yliopisto, Finland\r\nStephan Sigg\r\n\r\nStephan Sigg\r\nAalto University, Finland\r\nYu Xiao\r\n\r\nYu Xiao\r\nAalto University, Finland\r\nTECHNICAL PROGRAM CHAIRS\r\n\r\nContact: programchairs-2025@ubicomp.org\r\nJakob Bardram\r\n\r\nJakob Bardram\r\nTechnical University of Denmark, Denmark\r\nChenren Xu\r\n\r\nChenren Xu\r\nPeking University, China\r\nEirini Eleni Tsiroupoulou\r\n\r\nEirini Eleni Tsiropoulou\r\nArizona State University, US\r\nWORKSHOPS AND TUTORIALS\r\n\r\nContact: workshops-2025@ubicomp.org\r\nYutaka Arakawa\r\n\r\nYutaka Arakawa\r\nKyushu University, Japan\r\nAaron Ding\r\n\r\nAaron Ding\r\nTU Delft, Netherlands\r\nElla Peltonen\r\n\r\nElla Peltonen\r\nUniversity of Oulu, Finland\r\nPOSTERS AND DEMOS\r\n\r\nContact: pd-2025@ubicomp.org\r\nGopika Premsankar\r\n\r\nGopika Premsankar\r\nAalto University, Finland\r\nUichin Lee\r\n\r\nUichin Lee\r\nKorea Advanced Institute of Science and Technology, Korea\r\nLaura E Barnes\r\n\r\nLaura E Barnes\r\nUniversity of Virginia, US\r\nISWC BRIEFS AND NOTES\r\n\r\nContact: iswc-2025@ubicomp.org\r\nGopika Premsankar\r\n\r\nFranca Delmastro\r\nCNR, Italy\r\nSizhen Bian\r\n\r\nSizhen Bian\r\nDFKI\r\nDOCTORAL COLLOQUIUM\r\n\r\nContact: dc-2025@ubicomp.org\r\nAntti Oulasvirta\r\n\r\nAntti Oulasvirta\r\nAalto University, Finland\r\nBenjamin Tag\r\n\r\nBenjamin Tag\r\nUniversity of New South Wales\r\nQi Han\r\n\r\nQi Han\r\nColorado School of Mines, US\r\nSTUDENT COMPETITION AND CHALLENGES\r\n\r\nContact: sc-2025@ubicomp.org\r\nNan Gao\r\n\r\nNan Gao\r\nNankai University, China\r\nShantanu Pal\r\n\r\nShantanu Pal\r\nDeakin University, Australia\r\nHuber Flores\r\n\r\nHuber Flores\r\nUniversity of Tartu, Estonia\r\nSPONSORSHIP AND INDUSTRIAL RELATIONS\r\n\r\nContact: sponsorship-2025@ubicomp.org\r\nChulhong Min\r\n\r\nChulhong Min\r\nNokia Bell Labs, UK\r\nSasu Tarkoma\r\n\r\nSasu Tarkoma\r\nUniversity of Helsinki, Finland\r\nLei Zhong\r\n\r\nLei Zhong\r\nToyota\r\nFlorian Michahelles\r\n\r\nFlorian Michahelles\r\nTU Wien, Austria\r\nINCLUSION AND BROADENING PARTICIPATION\r\n\r\nContact: inclusion-2025@ubicomp.org\r\nSara Khalifa\r\n\r\nSara Khalifa\r\nQueensland University of Technology (QUT)\r\nTom B\u00e4ckstr\u00f6m\r\n\r\nTom B\u00e4ckstr\u00f6m\r\nAalto University, Finland\r\nMaija Poikela\r\n\r\nMaija Poikela\r\nBerlin Institute of Health at Charit\u00e9\r\nWEB\r\n\r\nContact: web-2025@ubicomp.org\r\nLe Nguyen\r\n\r\nLe Nguyen\r\nUniversity of Oulu, Finland\r\nManas Bedmutha\r\n\r\nSang Won Bae\r\nStevens Institute of Technology, US\r\nTahera Hossain\r\n\r\nTahera Hossain\r\nNagoya University, Japan\r\nPUBLICATION\r\n\r\nContact: publication-2025@ubicomp.org\r\nTill Riedel\r\n\r\nTill Riedel\r\nKarlsruhe Institute of Technology, Germany\r\nSozo Inoue\r\n\r\nSozo Inoue\r\nKyushu Institute of Technology, Japan\r\nREGISTRATION\r\n\r\nContact: registration-2025@ubicomp.org\r\nFusang Zhang\r\n\r\nFusang Zhang\r\nUniversity of Chinese Academy of Sciences, China\r\nAnandghan Waghmare\r\n\r\nAnandghan Waghmare\r\nUniversity of Washington, US\r\nManas Bedmutha\r\n\r\nManas Bedmutha\r\nUniversity of California San Diego, US\r\nTREASURER\r\n\r\nContact: treasurer-2025@ubicomp.org\r\nPetteri Nurmi\r\n\r\nPetteri Nurmi\r\nHelsingin yliopisto, Finland\r\nSTUDENT VOLUNTEER CHAIRS\r\n\r\nContact: sv-2025@ubicomp.org\r\nRobin Welsch\r\n\r\nRobin Welsch\r\nAalto University, Finland\r\nTakuya Maekawa\r\n\r\nTakuya Maekawa\r\nOsaka University, Japan\r\nTim Moesgen\r\n\r\nTim Moesgen\r\nAalto University, Finland\r\nChi-Jung Lee\r\n\r\nChi-Jung Lee\r\nCornell University, US\r\nPUBLICITY & SOCIAL MEDIA\r\n\r\nContact: publicity-2025@ubicomp.org\r\nSi Zuo\r\n\r\nSi Zuo\r\nAalto University, Finland\r\nYuuki Nishiyama\r\n\r\nYuuki Nishiyama\r\nUniversity of Tokyo, Japan\r\nZhi Liu\r\n\r\nZhi Liu\r\nThe University of Electro-Communications, Japan\r\nLOCAL ARRANGEMENTS\r\n\r\nContact: local-2025@ubicomp.org\r\nTalayeh Aledavood\r\n\r\nTalayeh Aledavood\r\nAalto University, Finland\r\nBo Zhao\r\n\r\nBo Zhao\r\nAalto University, Finland\r\nHong-Tri Nguyen\r\n\r\nHong-Tri Nguyen\r\nAalto University, Finland\r\nXiaoli Liu\r\n\r\nXiaoli Liu\r\nUniversity of Helsinki, Finland\r\nKrisztina Cziner\r\n\r\nKrisztina Cziner\r\nAalto University, Finland\r\nHanna-Mari Ylinen\r\n\r\nHanna-Mari Ylinen\r\nAalto University, Finland\r\nAWARDS\r\n\r\nContact: awards-2025@ubicomp.org\r\nDaqing Zhang\r\n\r\nDaqing Zhang\r\nUniversity of Sud Paris\r\nMoustafa Youssef\r\n\r\nMoustafa Youssef\r\nAmerican University in Cairo, Egypt\r\nSilvia Santini\r\n\r\nSilvia Santini\r\nUniversit\u00e0 della Svizzera italiana (USI), Switzerland\r\nSarah Clinch\r\n\r\nSarah Clinch\r\nUniversity of Manchester, UK\r\nEric Larson\r\n\r\nEric Larson\r\nSouthern Methodist University, US\r\nDESIGN EXHIBITION\r\n\r\nContact: design-2025@ubicomp.org\r\nMirela Alistar\r\n\r\nMirela Alistar\r\nUniversity of Colorado Boulder\r\nEldy Lazaro\r\n\r\nEldy Lazaro\r\nUniversity of Colorado Boulder\r\nRamyah Gowrishankar\r\n\r\nRamyah Gowrishankar\r\nAalto University\r\nEmmi Pouta\r\n\r\nEmmi Pouta\r\nAalto University\r\nVIDEOS\r\n\r\nContact: videos-2025@ubicomp.org\r\nVeljko Pejovi\u0107\r\n\r\nVeljko Pejovi\u0107\r\nUniversity of Ljubljana, Slovenia\r\nVitor Fortes Rey\r\n\r\nVitor Fortes Rey\r\nDFKI\r\nBiyun Sheng\r\n\r\nBiyun Sheng\r\nNanjing University of Posts and Telecommunications\r\nGADGET SHOW\r\nMathias Ciliberto\r\n\r\nMathias Ciliberto\r\nUniversity of Cambridge, UK\r\nCOMMUNICATION\r\n\r\nContact: communication-2025@ubicomp.org\r\nFrancesca Meneghello\r\n\r\nFrancesca Meneghello\r\nUniversity of Padova, Italy\r\nBo Zhou\r\n\r\nBo Zhou\r\nGerman Research Center for Artificial Intelligence (DFKI)\r\nIrmandy Wicaksono\r\n\r\nIrmandy Wicaksono\r\nNational University of Singapore\r\nTRAVEL GRANTS\r\n\r\nContact: travel-grants-2025@ubicomp.org\r\nAlanson Sample\r\n\r\nAlanson Sample\r\nUniversity of Michigan\r\n\r\n"
+}

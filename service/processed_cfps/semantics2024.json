@@ -1,0 +1,553 @@
+{
+    "llm-output": {
+        "event_name": "SEMANTiCS - 20th International Conference on Semantic Systems",
+        "conference_series": "SEMANTiCS",
+        "event_acronym": "SEMANTiCS 2024",
+        "colocated_with": "",
+        "year": "2024",
+        "location": "Amsterdam, The Netherlands",
+        "topics": [
+            "Web Semantics & Linked (Open) Data",
+            "Enterprise Knowledge Graphs, Graph Data Management",
+            "Machine Learning Techniques for/using Knowledge Graphs",
+            "Interplay between generative AI and Knowledge Graphs",
+            "Knowledge Management",
+            "Terminology, Thesaurus & Ontology Management, Ontology engineering",
+            "Reasoning, Rules, and Policies",
+            "Natural Language Processing for/using Knowledge Graphs",
+            "Crowdsourcing for/using Knowledge Graphs",
+            "Data Quality Management and Assurance",
+            "Mathematical Foundation of Knowledge-aware AI",
+            "Multimodal Knowledge Graphs",
+            "Semantics in Data Science",
+            "Semantics in Blockchain environments",
+            "Trust, Data Privacy, and Security with Semantic Technologies",
+            "IoT, Stream Processing, dealing with temporal data",
+            "Conversational AI and Dialogue Systems",
+            "Provenance and Data Change Tracking",
+            "Semantic Interoperability",
+            "Linked Data storage, triple stores, graph databases",
+            "Robust and scalable management, querying and analysis of semantics and data",
+            "User interfaces for the Semantic Web & its management",
+            "Explainable and Interoperable AI",
+            "Decentralized and Federated Knowledge Graphs",
+            "Application of Semantically-Enriched and AI-Based Approaches",
+            "Knowledge Graphs in Bioinformatics, Medical AI and preventive healthcare",
+            "Clinical Use Case of semantic-enabled AI-based Approaches",
+            "AI for Environmental Challenges",
+            "Semantics in Scholarly Communication and Scientific Knowledge Graphs",
+            "AI and LOD within GLAM institutions",
+            "Knowledge Graphs & hybrid AI for predictive maintenance and Industry 4.0/5.0",
+            "Digital Humanities and Cultural Heritage",
+            "LegalTech, AI Safety, EU AI Act",
+            "Economics of Data, Data Services, and Data Ecosystems"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Mehwish Alam",
+                "organiser_affiliation": "Unknown",
+                "organiser_country": "Unknown",
+                "track_name": "Research and Innovation Track Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Mehwish Alam",
+                "openalex_page": "https://openalex.org/A5009026163",
+                "orcid": "https://orcid.org/0000-0002-7867-6612",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Femke Ongenae",
+                "organiser_affiliation": "Unknown",
+                "organiser_country": "Unknown",
+                "track_name": "Research and Innovation Track Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Femke Ongenae",
+                "openalex_page": "https://openalex.org/A5008111431",
+                "orcid": "https://orcid.org/0000-0003-2529-5477",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Angelo Salatino",
+                "organiser_affiliation": "Unknown",
+                "organiser_country": "Unknown",
+                "track_name": "Research and Innovation Track Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Angelo A. Salatino",
+                "openalex_page": "https://openalex.org/A5074395069",
+                "orcid": "https://orcid.org/0000-0002-4763-3943",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "SEMANTiCS - 20th International Conference on Semantic Systems",
+        "event_acronym": "SEMANTiCS 2024",
+        "conference_series": "SEMANTiCS",
+        "colocated_with": "",
+        "year": "2024",
+        "location": "Amsterdam, The Netherlands",
+        "DBLP": {
+            "name": "International Conference on Semantic Systems (SEMANTiCS)",
+            "id": "i-semantics",
+            "url": "https://dblp.org/streams/conf/i-semantics"
+        },
+        "AIDA": {
+            "name": "SEMANTiCS",
+            "id": "i-semantics",
+            "url": "https://w3id.org/aida/dashboard/cs/conference/SEMANTiCS"
+        },
+        "ConfIDent": {
+            "name": "SEMANTiCS - SEMANTiCS conference",
+            "id": "Event Series:I-SEMANTICS",
+            "url": "https://www.confident-conference.org/index.php/Event%20Series%3AI-SEMANTICS"
+        },
+        "organisers": [
+            {
+                "organiser_name": "Mehwish Alam",
+                "organiser_affiliation": "Unknown",
+                "organiser_country": "Unknown",
+                "track_name": "Research and Innovation Track Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Mehwish Alam",
+                "openalex_page": "https://openalex.org/A5009026163",
+                "orcid": "https://orcid.org/0000-0002-7867-6612",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Femke Ongenae",
+                "organiser_affiliation": "Unknown",
+                "organiser_country": "Unknown",
+                "track_name": "Research and Innovation Track Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Femke Ongenae",
+                "openalex_page": "https://openalex.org/A5008111431",
+                "orcid": "https://orcid.org/0000-0003-2529-5477",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Angelo Salatino",
+                "organiser_affiliation": "Unknown",
+                "organiser_country": "Unknown",
+                "track_name": "Research and Innovation Track Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Angelo A. Salatino",
+                "openalex_page": "https://openalex.org/A5074395069",
+                "orcid": "https://orcid.org/0000-0002-4763-3943",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Web Semantics & Linked (Open) Data",
+            "Enterprise Knowledge Graphs, Graph Data Management",
+            "Machine Learning Techniques for/using Knowledge Graphs",
+            "Interplay between generative AI and Knowledge Graphs",
+            "Knowledge Management",
+            "Terminology, Thesaurus & Ontology Management, Ontology engineering",
+            "Reasoning, Rules, and Policies",
+            "Natural Language Processing for/using Knowledge Graphs",
+            "Crowdsourcing for/using Knowledge Graphs",
+            "Data Quality Management and Assurance",
+            "Mathematical Foundation of Knowledge-aware AI",
+            "Multimodal Knowledge Graphs",
+            "Semantics in Data Science",
+            "Semantics in Blockchain environments",
+            "Trust, Data Privacy, and Security with Semantic Technologies",
+            "IoT, Stream Processing, dealing with temporal data",
+            "Conversational AI and Dialogue Systems",
+            "Provenance and Data Change Tracking",
+            "Semantic Interoperability",
+            "Linked Data storage, triple stores, graph databases",
+            "Robust and scalable management, querying and analysis of semantics and data",
+            "User interfaces for the Semantic Web & its management",
+            "Explainable and Interoperable AI",
+            "Decentralized and Federated Knowledge Graphs",
+            "Application of Semantically-Enriched and AI-Based Approaches",
+            "Knowledge Graphs in Bioinformatics, Medical AI and preventive healthcare",
+            "Clinical Use Case of semantic-enabled AI-based Approaches",
+            "AI for Environmental Challenges",
+            "Semantics in Scholarly Communication and Scientific Knowledge Graphs",
+            "AI and LOD within GLAM institutions",
+            "Knowledge Graphs & hybrid AI for predictive maintenance and Industry 4.0/5.0",
+            "Digital Humanities and Cultural Heritage",
+            "LegalTech, AI Safety, EU AI Act",
+            "Economics of Data, Data Services, and Data Ecosystems"
+        ],
+        "enhanced_topics": {
+            "Web Semantics & Linked (Open) Data": [],
+            "Enterprise Knowledge Graphs, Graph Data Management": [
+                {
+                    "topic": "graph database",
+                    "similarity": 0.6356206834316254
+                }
+            ],
+            "Machine Learning Techniques for/using Knowledge Graphs": [
+                {
+                    "topic": "machine learning algorithms",
+                    "similarity": 0.7164677977561951
+                },
+                {
+                    "topic": "machine learning",
+                    "similarity": 0.6526102721691132
+                },
+                {
+                    "topic": "machine learning models",
+                    "similarity": 0.6303839683532715
+                },
+                {
+                    "topic": "machine learning and algorithms",
+                    "similarity": 0.6184861063957214
+                },
+                {
+                    "topic": "knowledge networks",
+                    "similarity": 0.6128780245780945
+                }
+            ],
+            "Interplay between generative AI and Knowledge Graphs": [
+                {
+                    "topic": "knowledge networks",
+                    "similarity": 0.6128780245780945
+                }
+            ],
+            "Knowledge Management": [
+                {
+                    "topic": "knowledge management",
+                    "similarity": 0.9999999999989595
+                },
+                {
+                    "topic": "knowledge management and technology",
+                    "similarity": 0.7918023765087128
+                },
+                {
+                    "topic": "knowledge management in higher education",
+                    "similarity": 0.6224694550037384
+                }
+            ],
+            "Terminology, Thesaurus & Ontology Management, Ontology engineering": [
+                {
+                    "topic": "ontologies",
+                    "similarity": 0.7674015760421753
+                },
+                {
+                    "topic": "ontology system",
+                    "similarity": 0.7592333853244781
+                },
+                {
+                    "topic": "ontology",
+                    "similarity": 0.7440824508666992
+                },
+                {
+                    "topic": "ontology-based",
+                    "similarity": 0.6883124709129333
+                },
+                {
+                    "topic": "ontology-based modeling",
+                    "similarity": 0.6504669189453125
+                },
+                {
+                    "topic": "terminology",
+                    "similarity": 0.999999999999498
+                }
+            ],
+            "Reasoning, Rules, and Policies": [
+                {
+                    "topic": "reasoning",
+                    "similarity": 0.9999999999990525
+                },
+                {
+                    "topic": "policies",
+                    "similarity": 0.9999999999993593
+                },
+                {
+                    "topic": "policy",
+                    "similarity": 0.8393988013267517
+                },
+                {
+                    "topic": "government policies",
+                    "similarity": 0.784439206123352
+                },
+                {
+                    "topic": "state policies",
+                    "similarity": 0.7357519865036011
+                }
+            ],
+            "Natural Language Processing for/using Knowledge Graphs": [
+                {
+                    "topic": "natural language processing",
+                    "similarity": 0.999999999998975
+                },
+                {
+                    "topic": "natural language processing techniques",
+                    "similarity": 0.8000321835279465
+                },
+                {
+                    "topic": "knowledge networks",
+                    "similarity": 0.6128780245780945
+                }
+            ],
+            "Crowdsourcing for/using Knowledge Graphs": [],
+            "Data Quality Management and Assurance": [
+                {
+                    "topic": "data quality and management",
+                    "similarity": 0.9048485308885574
+                },
+                {
+                    "topic": "data quality assessment and improvement",
+                    "similarity": 0.7333981394767761
+                },
+                {
+                    "topic": "data quality",
+                    "similarity": 0.7248068451881409
+                },
+                {
+                    "topic": "data quality assessment",
+                    "similarity": 0.7157061696052551
+                },
+                {
+                    "topic": "assurance",
+                    "similarity": 0.999999999999406
+                },
+                {
+                    "topic": "assurance cases",
+                    "similarity": 0.7035803496837616
+                }
+            ],
+            "Mathematical Foundation of Knowledge-aware AI": [],
+            "Multimodal Knowledge Graphs": [],
+            "Semantics in Data Science": [],
+            "Semantics in Blockchain environments": [],
+            "Trust, Data Privacy, and Security with Semantic Technologies": [
+                {
+                    "topic": "trust",
+                    "similarity": 0.9999999999992513
+                },
+                {
+                    "topic": "trust and reputation",
+                    "similarity": 0.6565131545066833
+                },
+                {
+                    "topic": "data privacy",
+                    "similarity": 0.9999999999992782
+                },
+                {
+                    "topic": "data privacy laws",
+                    "similarity": 0.7489854097366333
+                },
+                {
+                    "topic": "privacy",
+                    "similarity": 0.6382169723510742
+                },
+                {
+                    "topic": "privacy and security of data in various contexts",
+                    "similarity": 0.6138506531715393
+                }
+            ],
+            "IoT, Stream Processing, dealing with temporal data": [
+                {
+                    "topic": "stream processing",
+                    "similarity": 0.9999999999995289
+                },
+                {
+                    "topic": "temporal data analysis",
+                    "similarity": 0.6979314982891083
+                },
+                {
+                    "topic": "iot",
+                    "similarity": 0.9999999999991563
+                },
+                {
+                    "topic": "iot technology",
+                    "similarity": 0.7804640084505081
+                },
+                {
+                    "topic": "iot applications",
+                    "similarity": 0.7397319972515106
+                },
+                {
+                    "topic": "iot devices",
+                    "similarity": 0.7186540961265564
+                },
+                {
+                    "topic": "iot networks",
+                    "similarity": 0.6777786314487457
+                }
+            ],
+            "Conversational AI and Dialogue Systems": [
+                {
+                    "topic": "spoken dialogue systems",
+                    "similarity": 0.8796544447541237
+                },
+                {
+                    "topic": "speech and dialogue systems",
+                    "similarity": 0.844244509935379
+                }
+            ],
+            "Provenance and Data Change Tracking": [
+                {
+                    "topic": "provenance research",
+                    "similarity": 0.8266129195690155
+                },
+                {
+                    "topic": "data provenance",
+                    "similarity": 0.7649871557950974
+                },
+                {
+                    "topic": "provenance analysis",
+                    "similarity": 0.7323570251464844
+                }
+            ],
+            "Semantic Interoperability": [
+                {
+                    "topic": "interoperability",
+                    "similarity": 0.6525119543075562
+                }
+            ],
+            "Linked Data storage, triple stores, graph databases": [
+                {
+                    "topic": "graph database",
+                    "similarity": 0.9100259840488434
+                },
+                {
+                    "topic": "linked data",
+                    "similarity": 0.6608646810054779
+                }
+            ],
+            "Robust and scalable management, querying and analysis of semantics and data": [
+                {
+                    "topic": "robust",
+                    "similarity": 0.9999999999994619
+                },
+                {
+                    "topic": "robustness",
+                    "similarity": 0.8597294986248016
+                },
+                {
+                    "topic": "robustness evaluation",
+                    "similarity": 0.6942285001277924
+                },
+                {
+                    "topic": "robust statistics",
+                    "similarity": 0.6233960688114166
+                },
+                {
+                    "topic": "data",
+                    "similarity": 0.9999999999993683
+                },
+                {
+                    "topic": "data use",
+                    "similarity": 0.6729912459850311
+                },
+                {
+                    "topic": "semantic analysis",
+                    "similarity": 0.6717049479484558
+                },
+                {
+                    "topic": "semantics",
+                    "similarity": 0.6440639495849609
+                }
+            ],
+            "User interfaces for the Semantic Web & its management": [
+                {
+                    "topic": "management",
+                    "similarity": 0.7564124166965485
+                },
+                {
+                    "topic": "semantic web",
+                    "similarity": 0.8832085058093071
+                },
+                {
+                    "topic": "semantic web and ontologies",
+                    "similarity": 0.6466051340103149
+                }
+            ],
+            "Explainable and Interoperable AI": [],
+            "Decentralized and Federated Knowledge Graphs": [
+                {
+                    "topic": "decentralization",
+                    "similarity": 0.9209461957216263
+                },
+                {
+                    "topic": "decentralized treatment",
+                    "similarity": 0.6464360356330872
+                }
+            ],
+            "Application of Semantically-Enriched and AI-Based Approaches": [],
+            "Knowledge Graphs in Bioinformatics, Medical AI and preventive healthcare": [
+                {
+                    "topic": "preventive care",
+                    "similarity": 0.7278229892253876
+                },
+                {
+                    "topic": "preventive medicine",
+                    "similarity": 0.6823561191558838
+                }
+            ],
+            "Clinical Use Case of semantic-enabled AI-based Approaches": [],
+            "AI for Environmental Challenges": [],
+            "Semantics in Scholarly Communication and Scientific Knowledge Graphs": [
+                {
+                    "topic": "scholarly communication",
+                    "similarity": 0.628586083650589
+                }
+            ],
+            "AI and LOD within GLAM institutions": [],
+            "Knowledge Graphs & hybrid AI for predictive maintenance and Industry 4.0/5.0": [
+                {
+                    "topic": "predictive maintenance",
+                    "similarity": 0.9999999999995243
+                },
+                {
+                    "topic": "industry 4.0",
+                    "similarity": 0.8157346397638321
+                },
+                {
+                    "topic": "knowledge networks",
+                    "similarity": 0.6128780245780945
+                }
+            ],
+            "Digital Humanities and Cultural Heritage": [
+                {
+                    "topic": "digital humanities",
+                    "similarity": 0.999999999999192
+                },
+                {
+                    "topic": "digital humanities and scholarship",
+                    "similarity": 0.7829001694917679
+                },
+                {
+                    "topic": "digital humanities in literary studies",
+                    "similarity": 0.7088704705238342
+                },
+                {
+                    "topic": "humanities",
+                    "similarity": 0.6259739398956299
+                },
+                {
+                    "topic": "cultural heritage",
+                    "similarity": 0.9999999999994538
+                },
+                {
+                    "topic": "heritage",
+                    "similarity": 0.7897024899721146
+                },
+                {
+                    "topic": "history and cultural heritage",
+                    "similarity": 0.7744364589452744
+                }
+            ],
+            "LegalTech, AI Safety, EU AI Act": [
+                {
+                    "topic": "legal technology",
+                    "similarity": 0.6080694794654846
+                }
+            ],
+            "Economics of Data, Data Services, and Data Ecosystems": []
+        },
+        "preferred_threshold": 0.6
+    },
+    "cfp_text": "====\n\nSEMANTiCS - 20th International Conference on Semantic Systems\n\nAmsterdam, The Netherlands\n\nSeptember 17 - 19, 2024\n\nhttps://2024-eu.semantics.cc/\n\n====\n\nThe Research and Innovation track at SEMANTiCS 2024 welcomes papers on novel scientific research and innovations relevant to the Semantic Web, Semantic Technologies, and semantic-enabled AI. We also welcome submissions at the intersection between this field and other scientific disciplines. Submissions should be original and should not have been published elsewhere in any form or language. Papers must adhere to the instructions given in the submission guidelines, including references and optional appendices. Each submission will receive at least three independent reviews and will be evaluated based on their novelty, technical quality, reproducibility, and practical significance.\n\nSEMANTiCS 2024 calls for submissions of excellent quality addressing the following topics in the Semantic Web area, from both theoretical and practical perspectives.\n\n= Topics of Interest =\n\n* Topics of interest include, but are not limited to:\n\n* Web Semantics & Linked (Open) Data\n\n* Enterprise Knowledge Graphs, Graph Data Management\n\n* Machine Learning Techniques for/using Knowledge Graphs (e.g. reinforcement learning, deep learning, data mining and knowledge discovery)\n\n* Interplay between generative AI and Knowledge Graphs (e.g., RAG approach)\n\n* Knowledge Management (e.g.  acquisition, capture, extraction, authoring, integration, publication)\n\n* Terminology, Thesaurus & Ontology Management, Ontology engineering\n\n* Reasoning, Rules, and Policies\n\n* Natural Language Processing for/using Knowledge Graphs (e.g. entity linking and resolution using target knowledge such as Wikidata and DBpedia, foundation models)\n\n* Crowdsourcing  for/using Knowledge Graphs\n\n* Data Quality Management and Assurance\n\n* Mathematical Foundation of Knowledge-aware AI\n\n* Multimodal Knowledge Graphs\n\n* Semantics in Data Science\n\n* Semantics in Blockchain environments\n\n* Trust, Data Privacy, and Security with Semantic Technologies\n\n* IoT, Stream Processing, dealing with temporal data\n\n* Conversational AI and Dialogue Systems\n\n* Provenance and Data Change Tracking\n\n* Semantic Interoperability (via mapping, crosswalks, standards, etc.)\n\n* Linked Data storage, triple stores, graph databases\n\n* Robust and scalable management, querying and analysis of semantics and data\n\n* User interfaces for the Semantic Web & its management\n\n* Explainable and Interoperable AI\n\n* Decentralised and Federated Knowledge Graphs (e.g., Federated querying, link traversal)\n\nApplication of Semantically-Enriched and AI-Based Approaches, such as, but not limited to:\n\n* Knowledge Graphs in Bioinformatics, Medical AI and preventive healthcare\n\n* Clinical Use Case of semantic-enabled AI-based Approaches\n\n* AI for Environmental Challenges\n\n* Semantics in Scholarly Communication and Scientific Knowledge Graphs\n\n* AI and LOD within GLAM (galleries, libraries, archives, and museums) institutions\n\n* Knowledge Graphs & hybrid AI for predictive maintenance and Industry 4.0/5.0\n\n* Digital Humanities and Cultural Heritage\n\n* LegalTech, AI Safety, EU AI Act\n\n* Economics of Data, Data Services, and Data Ecosystems\n\n= Important Dates =\n\n* Abstract Submission Deadline:       April 22, 2024 (11:59 pm, Hawaii time)\n\n* Paper Submission Deadline: \tApril 29, 2024 (11:59 pm, Hawaii time)\n\n* Notification of Acceptance:    \tJune 11, 2024 (11:59 pm, Hawaii time)\n\n* Camera-Ready Paper:            \tJuly 09, 2024 (11:59 pm, Hawaii time)\n\nSubmissions will be through Easychair. Stay tuned for the submission link.\n\n= Author Guidelines and Submission =\n\n* The Research and Innovation Track welcomes long and short papers. Long papers should have 12-15 pages of content (excluding references) and short papers of a maximum length of 6 pages of content (excluding references). Since references are excluded from page counting, it is fine to have one or more additional pages for references if they are relevant to the study submitted.\n\n* Submissions should follow the guidelines of IOS Press. Details are available at https://www.iospress.com/book-article-instructions.\n\n* Abstract submission for all papers is a strict requirement. To facilitate bidding, we strongly suggest the authors submit structured abstracts.\n\n* All papers and abstracts have to be submitted electronically via EasyChair.\n\n* Submissions must be in English.\n\n* Submissions must adhere to the fair use of Large Language Models. Please refer to the SEMANTiCS full policy for more details.https://2024-eu.semantics.cc/page/llm-policy\n\n* Submissions must be anonymous; the reviewing process is double-blind, but reviewers will be able to disclose their identities if they wish, by signing their reviews.\n\n* Accepted papers will be published in open access proceedings by IOS Press, and the text of all the reviews (excluding the scores) of all the accepted papers will be posted on the conference website and will be archived on Zenodo as publicly available material.\n\n* At least one author of each accepted paper must present it in person and therefore register for the conference at the ONSITE rate.\n\n* All authors are strongly suggested to provide optional links to code, materials, and datasets during the submission process - we will have specific optional fields in the EasyChair submission form - the review process will take these into account when provided. To anonymise resources for the reviewing process, authors can use services like Anonymous GitHub https://anonymous.4open.science/ or figshare/Zenodo as described here.\n\n* The Research and Innovation Track will not accept papers that, at the time of submission, are under review or have already been published in or accepted for publication in a journal or another conference.\n\n* All authors will have the opportunity to provide an ORKG comparison in the Open Research Knowledge Graph (https://orkg.org) during the submission process - we will have a specific optional field in the EasyChair submission form.\n\n= Review and Evaluation Criteria =\n\n Each submission will be reviewed by at least three Programme Committee members. The reviewing process is double-blind. However, reviewers can disclose their identity by signing their reviews and/or adding one of their persistent identifiers (e.g. their ORCID).\n\nThe text of all the reviews (excluding the scores) of all the accepted papers will be posted on the conference website with the basic bibliographic metadata of the reviewed submission (i.e. title and authors), and it will be archived on Zenodo as publicly available material. All the signed reviews of the accepted papers will be licensed using a Creative Commons Attribution license (CC-BY, the copyright holder will be the reviewer), except the anonymous ones that will be released in CC0.\n\nPapers submitted to this track will be evaluated according to the following criteria: \n\n* Appropriateness \n\n* Originality, novelty, and innovativeness \n\n* Impact of results \n\n* Technical quality of the methods \n\n* Soundness of the evaluation \n\n* Proper comparison to related work \n\n* Clarity and quality of writing \n\n* Reproducibility of results and resources\n\n\nFor details please go to: https://2024-eu.semantics.cc/ \n\nWe are looking forward to your contribution!\n\nMehwish Alam, Femke Ongenae & Angelo Salatino\n\nResearch and Innovation Track Chairs"
+}

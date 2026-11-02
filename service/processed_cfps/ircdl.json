@@ -1,0 +1,917 @@
+{
+    "llm-output": {
+        "event_name": "23rd Conference on Information and Research Science Connecting to Digital and Library Science",
+        "conference_series": "Conference on Information and Research Science Connecting to Digital and Library Science",
+        "event_acronym": "IRCDL",
+        "colocated_with": "",
+        "year": "2027",
+        "location": "Pisa, Italy",
+        "topics": [
+            "Open data and FAIR data",
+            "Open science: models, practices, mandates, and policies",
+            "Scholarly communication, research publishing, and open science",
+            "Information retrieval, discovery and access",
+            "Information extraction from scientific literature, tables, figures, and multimodal content",
+            "Machine learning and data mining for digital libraries",
+            "Generative AI, Large Language Models, and foundation models for digital libraries",
+            "Responsible and ethical AI in digital libraries",
+            "AI agents and agentic systems for digital libraries",
+            "AI-assisted metadata generation, enrichment, and curation",
+            "Ontologies, Knowledge Graphs, and Semantic Technologies",
+            "AI-generated content: provenance, authenticity, attribution, and preservation",
+            "Knowledge discovery, representation, and reasoning in digital libraries",
+            "Knowledge acquisition from scientific papers",
+            "Document analysis (layout, text, images)",
+            "Services for digital arts and humanities",
+            "Cultural heritage access and analysis",
+            "Metadata (definition, management, curation, integration)",
+            "Digital manuscript analysis",
+            "Data repositories and archives",
+            "Data citation, provenance, attribution, licensing, and reuse",
+            "Data and information lifecycle (creation, storage, dissemination, and reuse)",
+            "Semantic web technologies and linked data for digital libraries",
+            "Digital epigraphy",
+            "Digital preservation and curation",
+            "Quality and evaluation of digital libraries",
+            "Digital scholarship, scientometrics, research assessment, and responsible metrics",
+            "Research infrastructures, Virtual Research Environments, and collaborative research platforms",
+            "User participation",
+            "Human-computer interaction and user experience",
+            "Multimodal and multimedia information management",
+            "Applications and case studies of digital libraries"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Paolo Manghi",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Paolo Manghi",
+                "openalex_page": "https://openalex.org/A5087882533",
+                "orcid": "https://orcid.org/0000-0001-7291-3210",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Andrea Mannocci",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Andrea Mannocci",
+                "openalex_page": "https://openalex.org/A5059509070",
+                "orcid": "https://orcid.org/0000-0002-5193-7851",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Leonardo Candela",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Leonardo Candela",
+                "openalex_page": "https://openalex.org/A5014523463",
+                "orcid": "https://orcid.org/0000-0002-7279-2727",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Stefano Ferilli",
+                "organiser_affiliation": "University of Bari",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Stefano Ferilli",
+                "openalex_page": "https://openalex.org/A5068783500",
+                "orcid": "https://orcid.org/0000-0003-1118-0601",
+                "affiliation_ror": "https://ror.org/027ynra39"
+            },
+            {
+                "organiser_name": "Miriam Baglioni",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Miriam Baglioni",
+                "openalex_page": "https://openalex.org/A5057117410",
+                "orcid": "https://orcid.org/0000-0002-2273-9004",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Rossana Damiano",
+                "organiser_affiliation": "University of Turin",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Rossana Damiano",
+                "openalex_page": "https://openalex.org/A5054581185",
+                "orcid": "https://orcid.org/0000-0001-9866-2843",
+                "affiliation_ror": "https://ror.org/048tbm396"
+            },
+            {
+                "organiser_name": "Manuel Striani",
+                "organiser_affiliation": "University of Piemonte Orientale",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Manuel Striani",
+                "openalex_page": "https://openalex.org/A5088441881",
+                "orcid": "https://orcid.org/0000-0002-7600-576X",
+                "affiliation_ror": "https://ror.org/048tbm396"
+            },
+            {
+                "organiser_name": "Silvio Peroni",
+                "organiser_affiliation": "University of Bologna",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Silvio Peroni",
+                "openalex_page": "https://openalex.org/A5031461768",
+                "orcid": "https://orcid.org/0000-0003-0530-4305",
+                "affiliation_ror": "https://ror.org/01111rn36"
+            },
+            {
+                "organiser_name": "Michele De Bonis",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Proceedings Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Michele De Bonis",
+                "openalex_page": "https://openalex.org/A5157834109",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Ornella Irrera",
+                "organiser_affiliation": "University of Padua",
+                "organiser_country": "Italy",
+                "track_name": "Proceedings Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ornella Irrera",
+                "openalex_page": "https://openalex.org/A5021927336",
+                "orcid": "https://orcid.org/0000-0003-2284-5699",
+                "affiliation_ror": "https://ror.org/00240q980"
+            },
+            {
+                "organiser_name": "Gina Pavone",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Publicity Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Gina Pavone",
+                "openalex_page": "https://openalex.org/A5014676251",
+                "orcid": "https://orcid.org/0000-0003-0087-2151",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Valentina Pasqual",
+                "organiser_affiliation": "University of Bologna",
+                "organiser_country": "Italy",
+                "track_name": "Publicity Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Valentina Pasqual",
+                "openalex_page": "https://openalex.org/A5000468349",
+                "orcid": "https://orcid.org/0000-0001-5931-5187",
+                "affiliation_ror": "https://ror.org/01111rn36"
+            },
+            {
+                "organiser_name": "Simone Angioni",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Website Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Simone Angioni",
+                "openalex_page": "https://openalex.org/A5086636133",
+                "orcid": "https://orcid.org/0000-0002-6682-3419",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Alessia Bardi",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Local Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Alessia Bardi",
+                "openalex_page": "https://openalex.org/A5078026154",
+                "orcid": "https://orcid.org/0000-0002-1112-1292",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Claudio Atzori",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Local Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Claudio Atzori",
+                "openalex_page": "https://openalex.org/A5029247934",
+                "orcid": "https://orcid.org/0000-0001-9613-6639",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Giorgia Rubin",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Local Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Giorgia Rubin",
+                "openalex_page": "https://openalex.org/A5124280963",
+                "orcid": "https://orcid.org/0009-0008-0584-7290",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Gianmaria Silvello",
+                "organiser_affiliation": "University of Padua",
+                "organiser_country": "Italy",
+                "track_name": "Special Issue Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gianmaria Silvello",
+                "openalex_page": "https://openalex.org/A5078254809",
+                "orcid": "https://orcid.org/0000-0003-4970-4554",
+                "affiliation_ror": "https://ror.org/00240q980"
+            },
+            {
+                "organiser_name": "Giorgio Maria Di Nunzio",
+                "organiser_affiliation": "University of Padua",
+                "organiser_country": "Italy",
+                "track_name": "Special Issue Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Giorgio Maria Di Nunzio",
+                "openalex_page": "https://openalex.org/A5052334463",
+                "orcid": "https://orcid.org/0000-0001-9709-6392",
+                "affiliation_ror": "https://ror.org/00240q980"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "23rd Conference on Information and Research Science Connecting to Digital and Library Science",
+        "event_acronym": "IRCDL",
+        "conference_series": "Conference on Information and Research Science Connecting to Digital and Library Science",
+        "colocated_with": "",
+        "year": "2027",
+        "location": "Pisa, Italy",
+        "DBLP": {
+            "name": "Conference on Information and Research Science Connecting to Digital and Library Science",
+            "id": "ircdl",
+            "url": "https://dblp.org/streams/conf/ircdl"
+        },
+        "AIDA": {},
+        "ConfIDent": {
+            "name": "IRCDL - Italian Research Conference on Digital Libraries",
+            "id": "Event Series:IRCDL",
+            "url": "https://www.confident-conference.org/index.php/Event%20Series%3AIRCDL"
+        },
+        "organisers": [
+            {
+                "organiser_name": "Paolo Manghi",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Paolo Manghi",
+                "openalex_page": "https://openalex.org/A5087882533",
+                "orcid": "https://orcid.org/0000-0001-7291-3210",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Andrea Mannocci",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Andrea Mannocci",
+                "openalex_page": "https://openalex.org/A5059509070",
+                "orcid": "https://orcid.org/0000-0002-5193-7851",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Leonardo Candela",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Leonardo Candela",
+                "openalex_page": "https://openalex.org/A5014523463",
+                "orcid": "https://orcid.org/0000-0002-7279-2727",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Stefano Ferilli",
+                "organiser_affiliation": "University of Bari",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Stefano Ferilli",
+                "openalex_page": "https://openalex.org/A5068783500",
+                "orcid": "https://orcid.org/0000-0003-1118-0601",
+                "affiliation_ror": "https://ror.org/027ynra39"
+            },
+            {
+                "organiser_name": "Miriam Baglioni",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Miriam Baglioni",
+                "openalex_page": "https://openalex.org/A5057117410",
+                "orcid": "https://orcid.org/0000-0002-2273-9004",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Rossana Damiano",
+                "organiser_affiliation": "University of Turin",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Rossana Damiano",
+                "openalex_page": "https://openalex.org/A5054581185",
+                "orcid": "https://orcid.org/0000-0001-9866-2843",
+                "affiliation_ror": "https://ror.org/048tbm396"
+            },
+            {
+                "organiser_name": "Manuel Striani",
+                "organiser_affiliation": "University of Piemonte Orientale",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Manuel Striani",
+                "openalex_page": "https://openalex.org/A5088441881",
+                "orcid": "https://orcid.org/0000-0002-7600-576X",
+                "affiliation_ror": "https://ror.org/048tbm396"
+            },
+            {
+                "organiser_name": "Silvio Peroni",
+                "organiser_affiliation": "University of Bologna",
+                "organiser_country": "Italy",
+                "track_name": "Program Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Silvio Peroni",
+                "openalex_page": "https://openalex.org/A5031461768",
+                "orcid": "https://orcid.org/0000-0003-0530-4305",
+                "affiliation_ror": "https://ror.org/01111rn36"
+            },
+            {
+                "organiser_name": "Michele De Bonis",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Proceedings Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Michele De Bonis",
+                "openalex_page": "https://openalex.org/A5157834109",
+                "orcid": "",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Ornella Irrera",
+                "organiser_affiliation": "University of Padua",
+                "organiser_country": "Italy",
+                "track_name": "Proceedings Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Ornella Irrera",
+                "openalex_page": "https://openalex.org/A5021927336",
+                "orcid": "https://orcid.org/0000-0003-2284-5699",
+                "affiliation_ror": "https://ror.org/00240q980"
+            },
+            {
+                "organiser_name": "Gina Pavone",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Publicity Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Gina Pavone",
+                "openalex_page": "https://openalex.org/A5014676251",
+                "orcid": "https://orcid.org/0000-0003-0087-2151",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Valentina Pasqual",
+                "organiser_affiliation": "University of Bologna",
+                "organiser_country": "Italy",
+                "track_name": "Publicity Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Valentina Pasqual",
+                "openalex_page": "https://openalex.org/A5000468349",
+                "orcid": "https://orcid.org/0000-0001-5931-5187",
+                "affiliation_ror": "https://ror.org/01111rn36"
+            },
+            {
+                "organiser_name": "Simone Angioni",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Website Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Simone Angioni",
+                "openalex_page": "https://openalex.org/A5086636133",
+                "orcid": "https://orcid.org/0000-0002-6682-3419",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Alessia Bardi",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Local Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Alessia Bardi",
+                "openalex_page": "https://openalex.org/A5078026154",
+                "orcid": "https://orcid.org/0000-0002-1112-1292",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Claudio Atzori",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Local Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Claudio Atzori",
+                "openalex_page": "https://openalex.org/A5029247934",
+                "orcid": "https://orcid.org/0000-0001-9613-6639",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Giorgia Rubin",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "Italy",
+                "track_name": "Local Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Giorgia Rubin",
+                "openalex_page": "https://openalex.org/A5124280963",
+                "orcid": "https://orcid.org/0009-0008-0584-7290",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Gianmaria Silvello",
+                "organiser_affiliation": "University of Padua",
+                "organiser_country": "Italy",
+                "track_name": "Special Issue Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Gianmaria Silvello",
+                "openalex_page": "https://openalex.org/A5078254809",
+                "orcid": "https://orcid.org/0000-0003-4970-4554",
+                "affiliation_ror": "https://ror.org/00240q980"
+            },
+            {
+                "organiser_name": "Giorgio Maria Di Nunzio",
+                "organiser_affiliation": "University of Padua",
+                "organiser_country": "Italy",
+                "track_name": "Special Issue Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Giorgio Maria Di Nunzio",
+                "openalex_page": "https://openalex.org/A5052334463",
+                "orcid": "https://orcid.org/0000-0001-9709-6392",
+                "affiliation_ror": "https://ror.org/00240q980"
+            }
+        ],
+        "topics": [
+            "Open data and FAIR data",
+            "Open science: models, practices, mandates, and policies",
+            "Scholarly communication, research publishing, and open science",
+            "Information retrieval, discovery and access",
+            "Information extraction from scientific literature, tables, figures, and multimodal content",
+            "Machine learning and data mining for digital libraries",
+            "Generative AI, Large Language Models, and foundation models for digital libraries",
+            "Responsible and ethical AI in digital libraries",
+            "AI agents and agentic systems for digital libraries",
+            "AI-assisted metadata generation, enrichment, and curation",
+            "Ontologies, Knowledge Graphs, and Semantic Technologies",
+            "AI-generated content: provenance, authenticity, attribution, and preservation",
+            "Knowledge discovery, representation, and reasoning in digital libraries",
+            "Knowledge acquisition from scientific papers",
+            "Document analysis (layout, text, images)",
+            "Services for digital arts and humanities",
+            "Cultural heritage access and analysis",
+            "Metadata (definition, management, curation, integration)",
+            "Digital manuscript analysis",
+            "Data repositories and archives",
+            "Data citation, provenance, attribution, licensing, and reuse",
+            "Data and information lifecycle (creation, storage, dissemination, and reuse)",
+            "Semantic web technologies and linked data for digital libraries",
+            "Digital epigraphy",
+            "Digital preservation and curation",
+            "Quality and evaluation of digital libraries",
+            "Digital scholarship, scientometrics, research assessment, and responsible metrics",
+            "Research infrastructures, Virtual Research Environments, and collaborative research platforms",
+            "User participation",
+            "Human-computer interaction and user experience",
+            "Multimodal and multimedia information management",
+            "Applications and case studies of digital libraries"
+        ],
+        "enhanced_topics": {
+            "Open data and FAIR data": [
+                {
+                    "topic": "open data",
+                    "similarity": 0.999999999999442
+                }
+            ],
+            "Open science: models, practices, mandates, and policies": [
+                {
+                    "topic": "practices",
+                    "similarity": 0.9999999999992257
+                },
+                {
+                    "topic": "policies",
+                    "similarity": 0.9999999999993593
+                },
+                {
+                    "topic": "policy",
+                    "similarity": 0.8393988013267517
+                },
+                {
+                    "topic": "government policies",
+                    "similarity": 0.784439206123352
+                },
+                {
+                    "topic": "state policies",
+                    "similarity": 0.7357519865036011
+                }
+            ],
+            "Scholarly communication, research publishing, and open science": [
+                {
+                    "topic": "open science",
+                    "similarity": 0.9999999999992798
+                },
+                {
+                    "topic": "scientific publishing",
+                    "similarity": 0.749504417181015
+                },
+                {
+                    "topic": "academic publishing",
+                    "similarity": 0.7300216853618622
+                },
+                {
+                    "topic": "scholarly communication",
+                    "similarity": 0.9999999999994577
+                },
+                {
+                    "topic": "publishing and scholarly communication",
+                    "similarity": 0.8141823410987854
+                }
+            ],
+            "Information retrieval, discovery and access": [
+                {
+                    "topic": "information retrieval",
+                    "similarity": 0.9999999999989758
+                },
+                {
+                    "topic": "information retrieval system",
+                    "similarity": 0.7341568470001221
+                }
+            ],
+            "Information extraction from scientific literature, tables, figures, and multimodal content": [],
+            "Machine learning and data mining for digital libraries": [
+                {
+                    "topic": "data mining",
+                    "similarity": 0.9999999999988414
+                },
+                {
+                    "topic": "data mining techniques",
+                    "similarity": 0.7289960384368896
+                },
+                {
+                    "topic": "digital libraries",
+                    "similarity": 0.9999999999995001
+                },
+                {
+                    "topic": "digital library",
+                    "similarity": 0.9504924900829792
+                },
+                {
+                    "topic": "digital library system",
+                    "similarity": 0.7389358282089233
+                },
+                {
+                    "topic": "machine learning",
+                    "similarity": 0.9999999999987857
+                },
+                {
+                    "topic": "machine learning algorithms",
+                    "similarity": 0.7623510360717773
+                },
+                {
+                    "topic": "machine learning models",
+                    "similarity": 0.7418791651725769
+                },
+                {
+                    "topic": "machine learning and algorithms",
+                    "similarity": 0.7121974229812622
+                }
+            ],
+            "Generative AI, Large Language Models, and foundation models for digital libraries": [
+                {
+                    "topic": "language models",
+                    "similarity": 0.7186977565288544
+                },
+                {
+                    "topic": "digital libraries",
+                    "similarity": 0.9999999999995001
+                },
+                {
+                    "topic": "digital library",
+                    "similarity": 0.9504924900829792
+                },
+                {
+                    "topic": "digital library system",
+                    "similarity": 0.7389358282089233
+                }
+            ],
+            "Responsible and ethical AI in digital libraries": [
+                {
+                    "topic": "responsibility",
+                    "similarity": 0.7465861439704895
+                },
+                {
+                    "topic": "digital libraries",
+                    "similarity": 0.9999999999995001
+                },
+                {
+                    "topic": "digital library",
+                    "similarity": 0.9504924900829792
+                },
+                {
+                    "topic": "digital library system",
+                    "similarity": 0.7389358282089233
+                }
+            ],
+            "AI agents and agentic systems for digital libraries": [
+                {
+                    "topic": "digital libraries",
+                    "similarity": 0.9999999999995001
+                },
+                {
+                    "topic": "digital library",
+                    "similarity": 0.9504924900829792
+                },
+                {
+                    "topic": "digital library system",
+                    "similarity": 0.7389358282089233
+                }
+            ],
+            "AI-assisted metadata generation, enrichment, and curation": [
+                {
+                    "topic": "curation",
+                    "similarity": 0.9999999999993544
+                }
+            ],
+            "Ontologies, Knowledge Graphs, and Semantic Technologies": [
+                {
+                    "topic": "ontologies",
+                    "similarity": 0.9999999999991905
+                },
+                {
+                    "topic": "ontology",
+                    "similarity": 0.7800135910511017
+                },
+                {
+                    "topic": "ontology system",
+                    "similarity": 0.7622774541378021
+                }
+            ],
+            "AI-generated content: provenance, authenticity, attribution, and preservation": [
+                {
+                    "topic": "authenticity",
+                    "similarity": 0.999999999999131
+                }
+            ],
+            "Knowledge discovery, representation, and reasoning in digital libraries": [
+                {
+                    "topic": "knowledge discovery",
+                    "similarity": 0.9999999999988768
+                },
+                {
+                    "topic": "representation",
+                    "similarity": 0.9999999999994074
+                }
+            ],
+            "Knowledge acquisition from scientific papers": [
+                {
+                    "topic": "knowledge acquisition",
+                    "similarity": 0.9999999999992694
+                }
+            ],
+            "Document analysis (layout, text, images)": [],
+            "Services for digital arts and humanities": [
+                {
+                    "topic": "humanities",
+                    "similarity": 0.9999999999994283
+                },
+                {
+                    "topic": "humanities and social sciences",
+                    "similarity": 0.7653014063835144
+                },
+                {
+                    "topic": "humanities research",
+                    "similarity": 0.7205744087696075
+                },
+                {
+                    "topic": "arts and humanities",
+                    "similarity": 0.7097471952438354
+                }
+            ],
+            "Cultural heritage access and analysis": [
+                {
+                    "topic": "analysis",
+                    "similarity": 0.999999999999155
+                },
+                {
+                    "topic": "cultural heritage",
+                    "similarity": 0.7066522836685181
+                }
+            ],
+            "Metadata (definition, management, curation, integration)": [
+                {
+                    "topic": "curation",
+                    "similarity": 0.9999999999993544
+                },
+                {
+                    "topic": "management",
+                    "similarity": 0.9999999999994414
+                },
+                {
+                    "topic": "organizational management",
+                    "similarity": 0.7255972027778625
+                },
+                {
+                    "topic": "metadata",
+                    "similarity": 0.7833835184574127
+                },
+                {
+                    "topic": "integration",
+                    "similarity": 0.7582046836614609
+                }
+            ],
+            "Digital manuscript analysis": [],
+            "Data repositories and archives": [
+                {
+                    "topic": "archives",
+                    "similarity": 0.9999999999994513
+                }
+            ],
+            "Data citation, provenance, attribution, licensing, and reuse": [
+                {
+                    "topic": "provenance research",
+                    "similarity": 0.8266129195690155
+                },
+                {
+                    "topic": "data provenance",
+                    "similarity": 0.7649871557950974
+                },
+                {
+                    "topic": "provenance analysis",
+                    "similarity": 0.7323570251464844
+                },
+                {
+                    "topic": "licensing",
+                    "similarity": 0.9999999999992117
+                },
+                {
+                    "topic": "data citation",
+                    "similarity": 0.9999999999994205
+                }
+            ],
+            "Data and information lifecycle (creation, storage, dissemination, and reuse)": [
+                {
+                    "topic": "data",
+                    "similarity": 0.9999999999993683
+                }
+            ],
+            "Semantic web technologies and linked data for digital libraries": [
+                {
+                    "topic": "data",
+                    "similarity": 0.9999999999993683
+                },
+                {
+                    "topic": "semantic web",
+                    "similarity": 0.8756791353225708
+                },
+                {
+                    "topic": "digital libraries",
+                    "similarity": 0.9999999999995001
+                },
+                {
+                    "topic": "digital library",
+                    "similarity": 0.9504924900829792
+                },
+                {
+                    "topic": "digital library system",
+                    "similarity": 0.7389358282089233
+                }
+            ],
+            "Digital epigraphy": [],
+            "Digital preservation and curation": [
+                {
+                    "topic": "digital preservation",
+                    "similarity": 0.9999999999994069
+                },
+                {
+                    "topic": "archival science and digital preservation",
+                    "similarity": 0.7108685672283173
+                },
+                {
+                    "topic": "curation",
+                    "similarity": 0.9999999999993544
+                }
+            ],
+            "Quality and evaluation of digital libraries": [
+                {
+                    "topic": "quality",
+                    "similarity": 0.9999999999992019
+                }
+            ],
+            "Digital scholarship, scientometrics, research assessment, and responsible metrics": [
+                {
+                    "topic": "collaborative digital scholarship",
+                    "similarity": 0.753055602312088
+                }
+            ],
+            "Research infrastructures, Virtual Research Environments, and collaborative research platforms": [
+                {
+                    "topic": "research infrastructures",
+                    "similarity": 0.9999999999995182
+                }
+            ],
+            "User participation": [
+                {
+                    "topic": "user participation",
+                    "similarity": 0.9999999999993697
+                }
+            ],
+            "Human-computer interaction and user experience": [
+                {
+                    "topic": "user experience",
+                    "similarity": 0.9999999999988972
+                },
+                {
+                    "topic": "human-computer interaction",
+                    "similarity": 0.9999999999992005
+                }
+            ],
+            "Multimodal and multimedia information management": [
+                {
+                    "topic": "multimodality",
+                    "similarity": 0.8540502935647964
+                },
+                {
+                    "topic": "multimodal data",
+                    "similarity": 0.7317661345005035
+                }
+            ],
+            "Applications and case studies of digital libraries": [
+                {
+                    "topic": "case study",
+                    "similarity": 0.8494954258203506
+                },
+                {
+                    "topic": "digital libraries",
+                    "similarity": 0.9999999999995001
+                },
+                {
+                    "topic": "digital library",
+                    "similarity": 0.9504924900829792
+                },
+                {
+                    "topic": "digital library system",
+                    "similarity": 0.7389358282089233
+                },
+                {
+                    "topic": "applications",
+                    "similarity": 0.9999999999995252
+                }
+            ]
+        },
+        "preferred_threshold": 0.7
+    },
+    "cfp_text": "********************************\n\nCall for Papers\n\nIRCDL 2027 \n\n23rd Conference on Information and Research Science \nConnecting to Digital and Library Science\n\nPisa, Italy\n\nFebruary 25-26, 2027\n\nhttp://ircdl2027.isti.cnr.it\n\n********************************\n\nApologies for cross-posting\n\nPlease distribute this call to interested parties\n\nAIMS AND SCOPE\n\n===============\n\nSince 2005, the Conference on Information and Research Science Connecting to Digital and Library Science (IRCDL) has been an annual event for researchers on Digital Libraries and related topics, becoming a key forum for the field. It covers various aspects, including new forms of information institutions, digital content management, and theoretical models of information media. The conference welcomes participants from academia, government, industry, and other sectors. It draws on diverse research areas, including computer science, information science, digital humanities, librarianship, archival science, museum studies, technology, social sciences, cultural heritage, and the humanities. \n\nIRCDL 2027 features two distinct tracks, each with an associated special issue:\n\n    Track 1: Computer Science Foundations for Digital Libraries - Algorithms, Systems, and Applications\n\nThis track examines core computer science concepts essential for digital libraries. It covers algorithms for information retrieval and data management, system architectures for large-scale digital collections, and practical applications in areas such as academic research and cultural heritage preservation.\nSpecial Issue: published in the International Journal on Digital Libraries.\n\n    Track 2: Digital Humanities - The Science and Foundation of Modern Humanities Libraries\n    This track explores the intersection of digital technologies and humanities research. It examines computational methods for analysing and preserving cultural artefacts, text mining techniques for large-scale literary analysis, and digital platforms for collaborative scholarship.\n    Special Issue: published in Umanistica Digitale.\n\n\n\nTOPICS\n\n=======\n\nSubmissions are welcome on theory, architectures, data models, tools, services, and infrastructures. Possible topics include, but are not limited to:\n\n    Open data and FAIR data\n\n    Open science: models, practices, mandates, and policies\n\n    Scholarly communication, research publishing, and open science\n\n    Information retrieval, discovery and access\n\n    Information extraction from scientific literature, tables, figures, and multimodal content\n\n    Machine learning and data mining for digital libraries\n\n    Generative AI, Large Language Models, and foundation models for digital libraries\n\n    Responsible and ethical AI in digital libraries\n\n    AI agents and agentic systems for digital libraries\n\n    AI-assisted metadata generation, enrichment, and curation\n\n    Ontologies, Knowledge Graphs, and Semantic Technologies\n\n    AI-generated content: provenance, authenticity, attribution, and preservation\n\n    Knowledge discovery, representation, and reasoning in digital libraries\n\n    Knowledge acquisition from scientific papers\n\n    Document analysis (layout, text, images)\n\n    Services for digital arts and humanities\n\n    Cultural heritage access and analysis\n\n    Metadata (definition, management, curation, integration)\n\n    Digital manuscript analysis\t\t\t\t\t\t\t\n\n    Data repositories and archives\n\n    Data citation, provenance, attribution, licensing, and reuse\n\n    Data and information lifecycle (creation, storage, dissemination, and reuse)\n\n    Semantic web technologies and linked data for digital libraries\n\n    Digital epigraphy\n\n    Digital preservation and curation\n\n    Quality and evaluation of digital libraries\n\n    Digital scholarship, scientometrics, research assessment, and responsible metrics\n\n    Research infrastructures, Virtual Research Environments, and collaborative research platforms\n\n    User participation\n\n    Human-computer interaction and user experience\n\n    Multimodal and multimedia information management\n\n    Applications and case studies of digital libraries\n\n\n\nIMPORTANT DATES\n\n=================\n\n    Submission deadline: December 4, 2026\n\n    Notifications of acceptance: January 15, 2026\n\n    Camera-ready deadline: February 5, 2027\n\n    Conference: February 25-26, 2027\n\n\n\nSUBMISSION GUIDELINES\n\n======================\n\nResearch papers describing original ideas on the listed topics and other fundamental aspects of digital libraries and technology are solicited. Moreover, short papers on early research results, new results on previously published works, and extended abstracts on previously published works are also welcome:\n\n    Research papers should be in the 10-12 page range;\n\n    Short papers should be in the 6-7 page range;\n\n    Extended abstracts: should be 5 pages long maximum.\n\n\nFor all the submission types, references are not counted in the page limit.\n\nSubmissions must be in English, single-blind, in PDF format, and in the CEURART single-column format; each paper will be reviewed by (tentatively) three Program Committee members.\n\nSubmissions that do not follow these guidelines, or do not view or print properly, may be desk-rejected without review. You can download an offline version with the style files from http://ceur-ws.org/Vol-XXX/CEURART.zip. It also contains DOCX template files. Overleaf users may want to use the CEURART template available in Overleaf. Please also adhere to the CEUR-WS Policy on AI-Assisting Tools.\n\nThe accepted papers will be included in the IRCDL 2027 Proceedings, published by CEUR-WS (indexed in Scopus, DBLP, and so on).\n\nAll submissions will be handled electronically via the conference CMT website, https://cmt3.research.microsoft.com/IRCDL2027.\n\nORGANISERS\n\n=======================\n\nGeneral Chairs: \n\n    Paolo Manghi (CNR-ISTI)\n\n    Andrea Mannocci (CNR-ISTI)\n\nProgram Chairs: \n\n    Leonardo Candela (CNR-ISTI)\n\n    Stefano Ferilli (University of Bari)\n\n    Miriam Baglioni (CNR-ISTI)\n\n    Rossana Damiano (University of Turin)\n\n    Manuel Striani (University of Piemonte Orientale)\n\n    Silvio Peroni (University of Bologna)\n\nProceedings Chair: \n\n    Michele De Bonis (CNR-ISTI)\n\n    Ornella Irrera (University of Padua)\n\nPublicity Chairs:  \n\n    Gina Pavone (CNR-ISTI)\n\n    Valentina Pasqual (University of Bologna)\n\nWebsite Chairs:\n\n    Simone Angioni (CNR-ISTI)\n\nLocal Chairs: \n\n    Alessia Bardi (CNR-ISTI)\n\n    Claudio Atzori (CNR-ISTI)\n\n    Giorgia Rubin (CNR-ISTI)\n\nSpecial Issue Chairs: \n\n    Gianmaria Silvello (University of Padua)\n\n    Giorgio Maria Di Nunzio (University of Padua)"
+}

@@ -1,0 +1,159 @@
+{
+    "llm-output": {
+        "event_name": "Annual ACM Conference on Intelligent User Interfaces (IUI 2026)",
+        "conference_series": "ACM Conference on Intelligent User Interfaces",
+        "event_acronym": "IUI 2026",
+        "colocated_with": "ACM IUI",
+        "year": "2026",
+        "location": "Paphos, Cyprus",
+        "topics": [
+            "Mini Conferences",
+            "Interactive Formats",
+            "Emerging Work Sessions",
+            "Project-Centric Formats",
+            "Interactive Competitions",
+            "Where HCI meets AI"
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Karthik Dinakar",
+                "organiser_affiliation": "Pienso",
+                "organiser_country": "USA",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Karthik Dinakar",
+                "openalex_page": "https://openalex.org/A5068694242",
+                "orcid": "https://orcid.org/0000-0001-7482-0237",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Werner Geyer",
+                "organiser_affiliation": "IBM Research",
+                "organiser_country": "USA",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Werner Geyer",
+                "openalex_page": "https://openalex.org/A5022799238",
+                "orcid": "https://orcid.org/0000-0003-4699-5026",
+                "affiliation_ror": "https://ror.org/0265w5591"
+            },
+            {
+                "organiser_name": "Patricia Kahr",
+                "organiser_affiliation": "University of Zurich",
+                "organiser_country": "Switzerland",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Patricia K. Kahr",
+                "openalex_page": "https://openalex.org/A5038476508",
+                "orcid": "https://orcid.org/0000-0002-1368-8698",
+                "affiliation_ror": "https://ror.org/02crff812"
+            },
+            {
+                "organiser_name": "Antonela Tommasel",
+                "organiser_affiliation": "CONICET",
+                "organiser_country": "Argentina",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Antonela Tommasel",
+                "openalex_page": "https://openalex.org/A5089491084",
+                "orcid": "https://orcid.org/0000-0001-6091-8305",
+                "affiliation_ror": ""
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "Annual ACM Conference on Intelligent User Interfaces (IUI 2026)",
+        "event_acronym": "IUI 2026",
+        "conference_series": "ACM Conference on Intelligent User Interfaces",
+        "colocated_with": "ACM IUI",
+        "year": "2026",
+        "location": "Paphos, Cyprus",
+        "DBLP": {
+            "name": "International Conference on Intelligent User Interfaces",
+            "id": "iui",
+            "url": "https://dblp.org/streams/conf/iui"
+        },
+        "AIDA": {
+            "name": "Intelligent User Interfaces (IUI)",
+            "id": "iui",
+            "url": "https://w3id.org/aida/dashboard/cs/conference/Intelligent%20User%20Interfaces%20%28IUI%29"
+        },
+        "ConfIDent": {
+            "name": "IUI - International Conference on Intelligent User Interfaces",
+            "id": "Event Series:IUI",
+            "url": "https://www.confident-conference.org/index.php/Event%20Series%3AIUI"
+        },
+        "organisers": [
+            {
+                "organiser_name": "Karthik Dinakar",
+                "organiser_affiliation": "Pienso",
+                "organiser_country": "USA",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Karthik Dinakar",
+                "openalex_page": "https://openalex.org/A5068694242",
+                "orcid": "https://orcid.org/0000-0001-7482-0237",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Werner Geyer",
+                "organiser_affiliation": "IBM Research",
+                "organiser_country": "USA",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Werner Geyer",
+                "openalex_page": "https://openalex.org/A5022799238",
+                "orcid": "https://orcid.org/0000-0003-4699-5026",
+                "affiliation_ror": "https://ror.org/0265w5591"
+            },
+            {
+                "organiser_name": "Patricia Kahr",
+                "organiser_affiliation": "University of Zurich",
+                "organiser_country": "Switzerland",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Patricia K. Kahr",
+                "openalex_page": "https://openalex.org/A5038476508",
+                "orcid": "https://orcid.org/0000-0002-1368-8698",
+                "affiliation_ror": "https://ror.org/02crff812"
+            },
+            {
+                "organiser_name": "Antonela Tommasel",
+                "organiser_affiliation": "CONICET",
+                "organiser_country": "Argentina",
+                "track_name": "Workshop Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Antonela Tommasel",
+                "openalex_page": "https://openalex.org/A5089491084",
+                "orcid": "https://orcid.org/0000-0001-6091-8305",
+                "affiliation_ror": ""
+            }
+        ],
+        "topics": [
+            "Mini Conferences",
+            "Interactive Formats",
+            "Emerging Work Sessions",
+            "Project-Centric Formats",
+            "Interactive Competitions",
+            "Where HCI meets AI"
+        ],
+        "enhanced_topics": {
+            "Mini Conferences": [],
+            "Interactive Formats": [],
+            "Emerging Work Sessions": [],
+            "Project-Centric Formats": [],
+            "Interactive Competitions": [],
+            "Where HCI meets AI": []
+        },
+        "preferred_threshold": 0.6
+    },
+    "cfp_text": "*** Last Mile for Workshop Proposals Submission ***\n\nThe Annual ACM Conference on Intelligent User Interfaces (IUI 2026)\n\nMarch 23-26, 2026, 5* Coral Beach Hotel & Resort, Paphos, Cyprus\n\nhttps://iui.hosting.acm.org/2026/\n\n(*** Submission Deadline: August 29, 2025 (extended and final!) ***)\n\n\nWe are pleased to invite proposals for workshops to be held in conjunction\nwith the Annual International ACM Conference on Intelligent User Interfaces (ACM IUI\n2026), Paphos, Cyprus.\n\nWorkshops aim to provide a venue for presenting research on emerging or specialized\ntopics of interest and to offer an informal forum for discussing research questions and\nchallenges. Potential workshop topics should be related to the general theme of the\nconference (\u201cWhere HCI meets AI\u201d).\n\nWe welcome proposals for a wide range of *full-day* or *half-day* workshops, including\nbut not limited to:\n\n\u2022 Mini Conferences: Workshops that focus on a specific topic and may have their own\npaper submission and review processes.\n\n\u2022 Interactive Formats: Workshops that encourage active participation and hands-on\nexperiences through break-out sessions or group work to explore specific topics. They\nmay have their own paper submission and review process or target a report summarizing\nthe discussions and outcomes.\n\n\u2022 Emerging Work Sessions: Workshops that foster discussion around emerging ideas.\nOrganizers may raise specific topics and invite position papers, late-breaking results, or\nextended abstracts.\n\n\u2022 Project-Centric Formats: Workshops tied closely to a specific existing large-scale\nfunded project(e.g., NSF, EU) with the goal to engage a broader community.\n\n\u2022 Interactive Competitions: Formats that invite individuals and teams to participate in\nchallenges or hackathons on selected topics relevant to IUI.\n\n\nReview and Oversight by Workshop Chairs\n\nProposals will be reviewed and evaluated by the Workshop Chairs. It is possible that\nworkshops may be cancelled, shortened, merged, or restructured if there are insufficient\nsubmissions.\n\nWorkshop summaries will be included in the ACM Digital Library for ACM IUI 2026. We will\nalso publish joint workshop proceedings for accepted workshop submissions\n(through CEUR or a similar venue).\n\n\nResponsibilities of Workshop Organizers\n\n\u2022 Coordinate the Call for Papers, including solicitation, submission handling, and peer\nreview process.\n\n\u2022 Create and maintain a dedicated website with workshop information. The IUI 2026\nwebsite will link to this page.\n\n\u2022 Prepare and communicate a Call for Participation, targeting both IUI and broader relevant\ncommunities (e.g., via mailing lists, social media, newsgroups, or offline events).\n\n\u2022 Facilitate the planned activities, including paper presentations, discussions, and/or\ninteractive elements.\n\n\u2022 Submit a workshop summary for inclusion in the ACM Digital Library.\n\n\u2022 Collect camera-ready papers and author agreements from workshop participants for the\njoint workshop proceedings (CEUR or similar).\n\nNote that for the joint proceedings (CEUR or similar), submissions should be peer-reviewed\nand will need to meet publishers\u2019 guidelines. CEUR, for example, requires a 5-page\nminimum per contribution. Note that not all workshop formats listed above may meet\nthese requirements, and we may not be able to include them.\n\nIUI 2026 is an in-person event, and we expect workshop organizers to attend, allowing the\nworkshop to be conducted on-site. One author per paper is expected to attend in person\nto present the work.\n\n\nProposal Format\n\nWorkshop proposals should be a maximum of four pages long (single-column format).\nPrepare your submission using the latest templates: Word Submission Template\n(https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx),\nor the LaTex Template\n(https://authors.acm.org/proceedings/production-information/preparing-your-article-with-latex).\nFor Latex, please use \u201c\\documentclass[manuscript,review]{acmart}\u201d.\n\nThe proposals should be organized as follows:\n\n\u2022 Name and title: A one-word acronym and a full title. Please indicate \u201c(Workshop)\u201d after\nthe title.\n\n\u2022 Abstract: A brief summary of the workshop.\n\n\u2022 Description of workshop topic: Should discuss the relevance of the proposed topic to\nIUI and its interest for the IUI 2026 audience. Include a concise discussion of why this\nworkshop is particularly relevant for the intended audience and how it will complement\nand enhance topics covered at the main conference.\n\n\u2022 Previous history: List of previous workshops on this topic, including the conferences\nthat hosted them and the number of participants. If available, report on past editions of\nthe workshop (including URLs), along with a brief statement of the workshop\nseries (e.g., covering topics, number of paper submissions, and participants), as well as\npost-workshop publications over the years and acceptance statistics. If this is the first\nedition of the workshop, describe how it differs from others on similar topics (e.g., by\nincluding conference names and years).\n\n\u2022 Organizer(s): Names, affiliations, emails, and web pages of the organizer(s). Provide a\nbrief description of the background of the organizer(s). Strong proposals normally include\norganizers who bring differing perspectives on the topic and are actively connected to the\ncommunities of potential participants. Please indicate the primary contact person and the\norganizers who will attend the workshop. Also, please provide a list of other workshops\norganized by workshop organizers in the past.\n\n\u2022 Workshop program committee: Names and affiliation of the members of the (tentative)\nworkshop program committee that will evaluate the workshop submissions.\n\n\u2022 Participants: Include a statement of how many participants you expect and how you plan\nto invite participants for the workshop. If possible, include the names of at least 10 people\nwho have expressed interest in participating in the workshop or tutorial.\n\n\u2022 Workshop activities: A brief description of the format regarding the mix of\nevents or activities, such as paper presentations, invited talks, panels, demonstrations,\nteaching activities, hands-on practical exercises, and general discussion.\n\n\u2022 Planned outcomes of the workshop: What are you hoping to achieve by the end of the\nworkshop? Please list here any planned publications or other outcomes expected.\n\n\u2022 Length: Full-day or half-day.\n\n\nSubmission Platform\n\n\u2022 All materials must be submitted electronically to PCS 2.0\nhttp://new.precisionconference.com/~sigchi by the proposal submission deadline.\n\n\u2022 In PCS 2.0, first click \"Submissions\" at the top of the page, from the dropdown menus for\nsociety, conference, and track, select \"SIGCHI\", \"IUI 2026\", and then \"IUI 2026 Workshops\",\nand press \"Go\".\n\nWe encourage both researchers and industry practitioners to submit workshop proposals.\nTo support diverse perspectives in the workshops, we strongly recommend including\norganizers from varied institutions and backgrounds.\n\nFurthermore, we welcome workshops with an innovative structure that can attract diverse\ntypes of contributions and foster valuable interactions.\n\nProspective organizers are encouraged to contact the Workshop Chairs in\nadvance (workshops2026@iui.acm.org) to discuss ideas, receive feedback, or seek\nassistance in preparing engaging proposals. Especially for workshop proposals featuring\ninnovative interactive formats, we are happy to help further develop and implement the\nideas.\n\n\nImportant Dates (AoE)\n\n\u2022 Workshop Proposals: August 29, 2025 (extended and final!)\n\u2022 Decision Notification: September 19, 2025\n\u2022 Camera-ready Summaries: February 6, 2026\n\n\nWorkshop Chairs\n\nKarthik Dinakar, Pienso, USA\nWerner Geyer, IBM Research, USA\nPatricia Kahr, University of Zurich, Switzerland\nAntonela Tommasel, CONICET, Argentina"
+}

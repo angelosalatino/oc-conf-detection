@@ -1,0 +1,410 @@
+{
+    "llm-output": {
+        "event_name": "5th International Workshop on Scientific Knowledge: Representation, Discovery, and Assessment",
+        "conference_series": "International Workshop on Scientific Knowledge",
+        "event_acronym": "Sci-K 2025",
+        "colocated_with": "International Semantic Web Conference (ISWC)",
+        "year": "2025",
+        "location": "Nara, Japan",
+        "topics": [
+            "Data models for the description of scholarly data and their relationships.",
+            "Description and use of provenance information of scientific data.",
+            "Integration and interoperability models of different data sources.",
+            "NLP and AI approaches that demonstrate related methods and technologies.",
+            "Relevant knowledge graphs and ontologies.",
+            "Hybrid or LLM-based approaches for representation and knowledge graph engineering.",
+            "Methods for extracting metadata, entities and relationships from scientific data.",
+            "Methods for the (semi-)automatic annotation and enhancement of scientific data.",
+            "Methods and interfaces for the exploration, retrieval, and visualisation of scholarly data.",
+            "NLP and AI approaches that demonstrate related methods and technologies.",
+            "LLM-based systems for relevant tasks: e.g., hypothesis generation, literature review generation and others.",
+            "Novel methods, indicators, and metrics for quality and impact assessment of scientific publications, datasets, software, and other relevant entities based on scholarly data.",
+            "Uses of scientific knowledge graphs and citation networks for the facilitation of research assessment.",
+            "Studies regarding the characteristics or the evolution of scientific impact or merit.",
+            "NLP and AI approaches that demonstrate related methods and technologies."
+        ],
+        "organisers": [
+            {
+                "organiser_name": "Anna Jacyszyn",
+                "organiser_affiliation": "FIZ Karlsruhe",
+                "organiser_country": "DE",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Anna M. Jacyszyn",
+                "openalex_page": "https://openalex.org/A5120275579",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/0387prb75"
+            },
+            {
+                "organiser_name": "Andrea Mannocci",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "IT",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Andrea Mannocci",
+                "openalex_page": "https://openalex.org/A5059509070",
+                "orcid": "https://orcid.org/0000-0002-5193-7851",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Francesco Osborne",
+                "organiser_affiliation": "The Open University",
+                "organiser_country": "UK",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Francesco Osborne",
+                "openalex_page": "https://openalex.org/A5066447873",
+                "orcid": "https://orcid.org/0000-0001-6557-3131",
+                "affiliation_ror": "https://ror.org/05mzfcs16"
+            },
+            {
+                "organiser_name": "Georg Rehm",
+                "organiser_affiliation": "DFKI",
+                "organiser_country": "DE",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Georg Rehm",
+                "openalex_page": "https://openalex.org/A5104366289",
+                "orcid": "https://orcid.org/0000-0002-7800-1893",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Angelo Salatino",
+                "organiser_affiliation": "The Open University",
+                "organiser_country": "UK",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Angelo A. Salatino",
+                "openalex_page": "https://openalex.org/A5074395069",
+                "orcid": "https://orcid.org/0000-0002-4763-3943",
+                "affiliation_ror": "https://ror.org/05mzfcs16"
+            },
+            {
+                "organiser_name": "Sonja Schimmler",
+                "organiser_affiliation": "TU Berlin, Fraunhofer FOKUS",
+                "organiser_country": "DE",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sonja Schimmler",
+                "openalex_page": "https://openalex.org/A5001523587",
+                "orcid": "https://orcid.org/0000-0002-8786-7250",
+                "affiliation_ror": "https://ror.org/00px80p03"
+            },
+            {
+                "organiser_name": "Lise Stork",
+                "organiser_affiliation": "University of Amsterdam",
+                "organiser_country": "NL",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Lise Stork",
+                "openalex_page": "https://openalex.org/A5001824063",
+                "orcid": "https://orcid.org/0000-0002-2146-4803",
+                "affiliation_ror": "https://ror.org/04dde1554"
+            }
+        ]
+    },
+    "processed": {
+        "event_name": "5th International Workshop on Scientific Knowledge: Representation, Discovery, and Assessment",
+        "event_acronym": "Sci-K 2025",
+        "conference_series": "International Workshop on Scientific Knowledge",
+        "colocated_with": "International Semantic Web Conference (ISWC)",
+        "year": "2025",
+        "location": "Nara, Japan",
+        "DBLP": {
+            "name": "International Workshop on Scientific Knowledge: Representation, Discovery, and Assessment",
+            "id": "sci-k",
+            "url": "https://dblp.org/streams/conf/sci-k"
+        },
+        "AIDA": {},
+        "ConfIDent": {},
+        "organisers": [
+            {
+                "organiser_name": "Anna Jacyszyn",
+                "organiser_affiliation": "FIZ Karlsruhe",
+                "organiser_country": "DE",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Anna M. Jacyszyn",
+                "openalex_page": "https://openalex.org/A5120275579",
+                "orcid": "",
+                "affiliation_ror": "https://ror.org/0387prb75"
+            },
+            {
+                "organiser_name": "Andrea Mannocci",
+                "organiser_affiliation": "CNR-ISTI",
+                "organiser_country": "IT",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Andrea Mannocci",
+                "openalex_page": "https://openalex.org/A5059509070",
+                "orcid": "https://orcid.org/0000-0002-5193-7851",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Francesco Osborne",
+                "organiser_affiliation": "The Open University",
+                "organiser_country": "UK",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Francesco Osborne",
+                "openalex_page": "https://openalex.org/A5066447873",
+                "orcid": "https://orcid.org/0000-0001-6557-3131",
+                "affiliation_ror": "https://ror.org/05mzfcs16"
+            },
+            {
+                "organiser_name": "Georg Rehm",
+                "organiser_affiliation": "DFKI",
+                "organiser_country": "DE",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": false,
+                "openalex_name": "Georg Rehm",
+                "openalex_page": "https://openalex.org/A5104366289",
+                "orcid": "https://orcid.org/0000-0002-7800-1893",
+                "affiliation_ror": ""
+            },
+            {
+                "organiser_name": "Angelo Salatino",
+                "organiser_affiliation": "The Open University",
+                "organiser_country": "UK",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Angelo A. Salatino",
+                "openalex_page": "https://openalex.org/A5074395069",
+                "orcid": "https://orcid.org/0000-0002-4763-3943",
+                "affiliation_ror": "https://ror.org/05mzfcs16"
+            },
+            {
+                "organiser_name": "Sonja Schimmler",
+                "organiser_affiliation": "TU Berlin, Fraunhofer FOKUS",
+                "organiser_country": "DE",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Sonja Schimmler",
+                "openalex_page": "https://openalex.org/A5001523587",
+                "orcid": "https://orcid.org/0000-0002-8786-7250",
+                "affiliation_ror": "https://ror.org/00px80p03"
+            },
+            {
+                "organiser_name": "Lise Stork",
+                "organiser_affiliation": "University of Amsterdam",
+                "organiser_country": "NL",
+                "track_name": "General Chair",
+                "affiliation_provenance": "",
+                "verified": true,
+                "openalex_name": "Lise Stork",
+                "openalex_page": "https://openalex.org/A5001824063",
+                "orcid": "https://orcid.org/0000-0002-2146-4803",
+                "affiliation_ror": "https://ror.org/04dde1554"
+            }
+        ],
+        "topics": [
+            "Data models for the description of scholarly data and their relationships.",
+            "Description and use of provenance information of scientific data.",
+            "Integration and interoperability models of different data sources.",
+            "NLP and AI approaches that demonstrate related methods and technologies.",
+            "Relevant knowledge graphs and ontologies.",
+            "Hybrid or LLM-based approaches for representation and knowledge graph engineering.",
+            "Methods for extracting metadata, entities and relationships from scientific data.",
+            "Methods for the (semi-)automatic annotation and enhancement of scientific data.",
+            "Methods and interfaces for the exploration, retrieval, and visualisation of scholarly data.",
+            "NLP and AI approaches that demonstrate related methods and technologies.",
+            "LLM-based systems for relevant tasks: e.g., hypothesis generation, literature review generation and others.",
+            "Novel methods, indicators, and metrics for quality and impact assessment of scientific publications, datasets, software, and other relevant entities based on scholarly data.",
+            "Uses of scientific knowledge graphs and citation networks for the facilitation of research assessment.",
+            "Studies regarding the characteristics or the evolution of scientific impact or merit.",
+            "NLP and AI approaches that demonstrate related methods and technologies."
+        ],
+        "enhanced_topics": {
+            "Data models for the description of scholarly data and their relationships.": [
+                {
+                    "topic": "scholarly activity",
+                    "similarity": 0.6857067048549652
+                },
+                {
+                    "topic": "scholarly research",
+                    "similarity": 0.6825235188007355
+                },
+                {
+                    "topic": "data modeling",
+                    "similarity": 0.8103908896446228
+                }
+            ],
+            "Description and use of provenance information of scientific data.": [
+                {
+                    "topic": "data provenance",
+                    "similarity": 0.8203354775905609
+                },
+                {
+                    "topic": "provenance research",
+                    "similarity": 0.8131221830844879
+                },
+                {
+                    "topic": "provenance analysis",
+                    "similarity": 0.7595806121826172
+                }
+            ],
+            "Integration and interoperability models of different data sources.": [
+                {
+                    "topic": "integration",
+                    "similarity": 0.9999999999992462
+                },
+                {
+                    "topic": "continuous integration",
+                    "similarity": 0.621738076210022
+                },
+                {
+                    "topic": "interoperability",
+                    "similarity": 0.7860508859157562
+                }
+            ],
+            "NLP and AI approaches that demonstrate related methods and technologies.": [
+                {
+                    "topic": "technology",
+                    "similarity": 0.7656501233577728
+                }
+            ],
+            "Relevant knowledge graphs and ontologies.": [
+                {
+                    "topic": "ontologies",
+                    "similarity": 0.8842202872037888
+                },
+                {
+                    "topic": "ontology",
+                    "similarity": 0.7005366683006287
+                },
+                {
+                    "topic": "ontology system",
+                    "similarity": 0.6194043159484863
+                }
+            ],
+            "Hybrid or LLM-based approaches for representation and knowledge graph engineering.": [
+                {
+                    "topic": "representation",
+                    "similarity": 0.9999999999994074
+                },
+                {
+                    "topic": "representation theory",
+                    "similarity": 0.6712681353092194
+                },
+                {
+                    "topic": "knowledge engineering",
+                    "similarity": 0.6014785170555115
+                }
+            ],
+            "Methods for extracting metadata, entities and relationships from scientific data.": [
+                {
+                    "topic": "metadata extraction",
+                    "similarity": 0.7995332777500153
+                }
+            ],
+            "Methods for the (semi-)automatic annotation and enhancement of scientific data.": [],
+            "Methods and interfaces for the exploration, retrieval, and visualisation of scholarly data.": [],
+            "LLM-based systems for relevant tasks: e.g., hypothesis generation, literature review generation and others.": [],
+            "Novel methods, indicators, and metrics for quality and impact assessment of scientific publications, datasets, software, and other relevant entities based on scholarly data.": [
+                {
+                    "topic": "quality metric",
+                    "similarity": 0.9102267697453499
+                },
+                {
+                    "topic": "objective quality measures",
+                    "similarity": 0.6365906596183777
+                },
+                {
+                    "topic": "quality indicators",
+                    "similarity": 0.6363721787929535
+                },
+                {
+                    "topic": "social impact assessment",
+                    "similarity": 0.622635006904602
+                },
+                {
+                    "topic": "scholarly activity",
+                    "similarity": 0.6857067048549652
+                },
+                {
+                    "topic": "scholarly research",
+                    "similarity": 0.6825235188007355
+                },
+                {
+                    "topic": "indicators",
+                    "similarity": 0.9999999999993979
+                },
+                {
+                    "topic": "scientific publications",
+                    "similarity": 0.9999999999993061
+                },
+                {
+                    "topic": "publications",
+                    "similarity": 0.7653067260980606
+                },
+                {
+                    "topic": "scientific publishing",
+                    "similarity": 0.7638988494873047
+                },
+                {
+                    "topic": "scientific journals",
+                    "similarity": 0.7026276290416718
+                },
+                {
+                    "topic": "software",
+                    "similarity": 0.9999999999992506
+                }
+            ],
+            "Uses of scientific knowledge graphs and citation networks for the facilitation of research assessment.": [
+                {
+                    "topic": "citation networks",
+                    "similarity": 0.9999999999991596
+                }
+            ],
+            "Studies regarding the characteristics or the evolution of scientific impact or merit.": [
+                {
+                    "topic": "figure of merit",
+                    "similarity": 0.7322897613048553
+                },
+                {
+                    "topic": "research",
+                    "similarity": 0.6433121562004089
+                },
+                {
+                    "topic": "scientific research and studies",
+                    "similarity": 0.6213041841983795
+                },
+                {
+                    "topic": "evolution",
+                    "similarity": 0.8927614688873291
+                },
+                {
+                    "topic": "human evolution",
+                    "similarity": 0.7200774550437927
+                },
+                {
+                    "topic": "evolutionary theory",
+                    "similarity": 0.6349699795246124
+                },
+                {
+                    "topic": "historical evolution",
+                    "similarity": 0.6084875166416168
+                },
+                {
+                    "topic": "scientific impact",
+                    "similarity": 0.9999999999994885
+                }
+            ]
+        },
+        "preferred_threshold": 0.6
+    },
+    "cfp_text": "Call for papers\n5th International Workshop on Scientific Knowledge: Representation, Discovery, and Assessment (Sci-K 2025)\n\nweb: https://sci-k.github.io, X: @scik_workshop, LinkedIn: Sci-k workshop\n\nHeld in conjunction with the International Semantic Web Conference (ISWC) 2025, Nara (Japan)\nAim and Scope\n\nRecently, we have experienced a massive increase in the volume of scientific articles and research artefacts (e.g., datasets, models, software packages). This trend is expected to continue and opens up challenges including the development of large-scale machine-readable representations of scientific knowledge, making scholarly data and knowledge discoverable and accessible, and designing reliable and comprehensive metrics to assess scientific impact. Sci-K provides a forum for researchers and practitioners from different disciplines to present, educate, and guide research related to scientific knowledge. Three themes cover the most important challenges in this field:\n\nRepresentation. There is a need for flexible, context-sensitive, fine-grained, and machine-actionable representations of scholarly knowledge that are, at the same time, structured, interlinked, and semantically rich: Scientific Knowledge Graphs (SKGs), also known as Research Knowledge Graphs (RKGs). SKGs/RKGs can power data-driven services for navigating, analysing, and making sense of research dynamics. Current challenges are related to the design of ontologies or alternative representation methods able to conceptualise scholarly knowledge, model its representation, and enable exchange.\n\nDiscoverability. Scholarly information should be easily findable, discoverable, and visible so that it can be mined and organised within SKGs/RKGs. Discovery tools should be able to crawl the Web and identify scholarly data, whether on a publisher\u2019s website or elsewhere \u2013 institutional repositories, preprint servers or open-access repositories. This is challenging and requires a deep understanding of both the scholarly communication landscape and the needs of a variety of stakeholders: researchers (of different fields and sub-fields), publishers, funders, and the general public. Other challenges are related to the discovery and extraction of entities and concepts, integration of information from heterogeneous sources, identification of duplicates, finding connections between entities, and identifying conceptual inconsistencies. We are particularly interested in modern systems that integrate AI, NLP, and LLM technologies.\n\nAssessment. Due to the continuous growth in the volume of research output, rigorous approaches for the evaluation and assessment of research impact are now more relevant than ever. There is a need for reliable, comprehensive, and equitable metrics and indicators of the scientific impact and merit of publications, datasets, research institutions, individual researchers, and other relevant entities.\nTopics of Interest\n\nWe encourage the submission of papers covering, but not limited to, one or more of the following topics:\n\n    Representation\n        Data models for the description of scholarly data and their relationships.\n        Description and use of provenance information of scientific data.\n        Integration and interoperability models of different data sources.\n        NLP and AI approaches that demonstrate related methods and technologies.\n        Relevant knowledge graphs and ontologies.\n        Hybrid or LLM-based approaches for representation and knowledge graph engineering.\n    Discoverability\n        Methods for extracting metadata, entities and relationships from scientific data.\n        Methods for the (semi-)automatic annotation and enhancement of scientific data.\n        Methods and interfaces for the exploration, retrieval, and visualisation of scholarly data.\n        NLP and AI approaches that demonstrate related methods and technologies.\n        LLM-based systems for relevant tasks: e.g., hypothesis generation, literature review generation and others.\n    Assessment\n        Novel methods, indicators, and metrics for quality and impact assessment of scientific publications, datasets, software, and other relevant entities based on scholarly data.\n        Uses of scientific knowledge graphs and citation networks for the facilitation of research assessment.\n        Studies regarding the characteristics or the evolution of scientific impact or merit.\n        NLP and AI approaches that demonstrate related methods and technologies.\n\nSubmission Guidelines\n\nSubmissions are welcome in the following categories:\n\n    Full research papers (up to 12 pages + unlimited pages of appendices and references)\n    Short research papers (up to 6 pages + unlimited pages of appendices and references)\n    Vision/Position papers (up to 6 pages + unlimited pages of appendices and references)\n\nThe workshop calls for full research papers, describing original work on the listed topics, and short papers, on early research results, new results on previously published works, demos, and projects. In accordance with Open Science principles, research papers may also be in the form of data or software papers (short or long papers). Data papers present the motivation and methodology behind the creation of data sets that are of value to the community, e.g., annotated corpora, benchmark collections, and training sets. Software papers present software functionality, its value for the community, and its application. To enable reproducibility and peer-review, authors are requested to share the DOIs of datasets and software products described in the articles.\n\nThe workshop also calls for vision/position papers providing insights towards new or emerging areas, innovative or risky approaches, or emerging applications that will require extensions to the state of the art. Vision papers do not necessarily have to present results but should carefully elaborate on the motivation and ongoing challenges of the described area.\n\nSci-K will adopt a single-anonymous review process and each paper will be reviewed by at least three Program Committee members.\n\nSubmissions must be in PDF format and must adhere to the CEURART single-column template. Submissions that do not follow these guidelines, or do not view or print properly, may be rejected without review. You can download an offline version with the style files from http://ceur-ws.org/Vol-XXX/CEURART.zip. It also contains DOCX template files. Overleaf users may want to use the CEURART template available in Overleaf. Please adhere also to the CEUR-WS Policy on AI-Assisting Tools.\n\nThe proceedings of the workshops will be published on CEUR (indexed in Scopus, DBLP and so on.)\n\nSubmit your contributions following the link: https://sci-k.github.io/2025/#submission\nImportant Dates\n\nPaper submission: July 25th, 2025 (23:59, AoE timezone)\nNotification of acceptance: August 30th, 2025\nCamera-ready due: September 13th, 2025\nWorkshop day: November 2025 (to be confirmed)\nOrganisation\n\nAnna Jacyszyn, FIZ Karlsruhe, DE\nAndrea Mannocci, CNR-ISTI, IT\nFrancesco Osborne, The Open University, UK\nGeorg Rehm, DFKI, DE\nAngelo Salatino, The Open University, UK\nSonja Schimmler, TU Berlin, Fraunhofer FOKUS, DE\nLise Stork, University of Amsterdam, NL\n\nMore information about Sci-K 2025 is available at https://sci-k.github.io\nContact: scik2025@easychair.org "
+}
