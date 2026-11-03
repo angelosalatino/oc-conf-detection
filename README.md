@@ -1,147 +1,274 @@
-# Conference Organisers and Content Identifier
+# Conference Organisers and Content Identifier (COCI)
 
- The **Conference Organisers and Content Identifier** is an AI-driven tool designed to streamline the process of extracting critical information from academic **Call for Papers (CfPs)**. This tool automates the tedious task of manually parsing documents to identify conference details, series, locations, and, most importantly, organising committee members, and the topics of interest.
+[![Python 3.12+](https://img.shields.io/badge/python-3.12%20%7C%203.13-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/frontend-Streamlit-red.svg)](https://streamlit.io/)
+[![MongoDB](https://img.shields.io/badge/database-MongoDB-green.svg)](https://www.mongodb.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
- By using cutting-edge AI technology, this tool saves researchers and administrators countless hours, allowing them to quickly access and analyse key data points about academic events and their organisers. The tool works by taking a CfP as input and outputting a structured JSON object, making the data easily searchable, shareable, and integrable with other systems.
+The **Conference Organisers and Content Identifier (COCI)** is an AI-powered system designed to automate the extraction, semantic enrichment, exploration, and integrity audit of academic **Call for Papers (CfPs)**, conference metadata, and scientific organising committees.
 
-- [Conference Organisers and Content Identifier](#conference-organisers-and-content-identifier)
-    - [Key Data Extracted](#key-data-extracted)
-    - [Organiser Details](#organiser-details)
-    - [Integration and Data Mapping](#integration-and-data-mapping)
-    - [Storage Engines and Schema](#storage-engines-and-schema)
-    - [Database Merging Logic](#database-merging-logic)
-    - [Organiser Matching Process](#organiser-matching-process)
-    - [Application Portal Modules](#application-portal-modules)
-    - [Rebranding COCI](#rebranding-coci)
-    - [How to use it](#how-to-use-it)
-      - [Configuration (`config.ini`)](#configuration-configini)
-    - [Prompt](#prompt)
-
- ---
-
- ### Key Data Extracted
-
-The tool is built to recognise and extract the following core components from a CfP:
-
-- **`event_name`**: The full, official title of the conference or workshop.
-- **`conference_series`**: The name of the recurring conference series, without the year or edition number.
-- **`event_acronym`**: The short, official acronym for the event (e.g., "ICML," "CHI").
-- **`colocated_with`**: If the event is held in conjunction with another larger event, this field captures that information.
-- **`year`**: The year in which the event takes place.
-- **`location`**: The specific city or location where the event is scheduled to take place.
-- **`organisers`**: An array of objects, each containing detailed information about a committee member.
+By combining modern Large Language Models (LLMs), semantic vector similarity (FAISS & SentenceTransformers), and authoritative scholarly registries (OpenAlex, DBLP, AIDA Dashboard, and ConfIDent), COCI transforms unstructured text into structured, searchable, and verified knowledge graphs.
 
 ---
+
+## Table of Contents
+
+- [Conference Organisers and Content Identifier (COCI)](#conference-organisers-and-content-identifier-coci)
+  - [Table of Contents](#table-of-contents)
+  - [Core Features](#core-features)
+  - [Key Data Extracted](#key-data-extracted)
+    - [Conference Metadata](#conference-metadata)
+    - [Organiser Details](#organiser-details)
+  - [Integrations and Knowledge Mapping](#integrations-and-knowledge-mapping)
+    - [OpenAlex Profile Matching \& Verification](#openalex-profile-matching--verification)
+    - [Semantic Topic Modeling \& FAISS Indexing](#semantic-topic-modeling--faiss-indexing)
+    - [External Registries (DBLP, AIDA, ConfIDent)](#external-registries-dblp-aida-confident)
+    - [Research Integrity Auditing (RetractionWatch \& PubPeer)](#research-integrity-auditing-retractionwatch--pubpeer)
+  - [Storage Engines and Schema](#storage-engines-and-schema)
+    - [Dual/Hybrid Storage Architecture](#dualhybrid-storage-architecture)
+    - [Intelligent Metadata Merging Logic](#intelligent-metadata-merging-logic)
+  - [Organiser Matching Process](#organiser-matching-process)
+  - [Application Portal Modules](#application-portal-modules)
+  - [Database Management CLI Utilities](#database-management-cli-utilities)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Configuration (`config.ini`)](#configuration-configini)
+    - [Running the Application](#running-the-application)
+  - [LLM Extraction Prompt](#llm-extraction-prompt)
+  - [The Team \& Acknowledgements](#the-team--acknowledgements)
+
+---
+
+## Core Features
+
+* **Automated CFP Parsing**: Extracts full conference details, year, location, co-locations, tracks, organising committees, and call topics from raw text.
+* **Three Processing Execution Modes**: Support for **Cached** (instant retrieval), **Mild Force** (reuses LLM extraction, re-runs database and vector matching), and **Force** (full top-to-bottom recomputation).
+* **Multi-CFP Merging & Deduplication**: Intelligently aggregates multiple Calls for Papers for the same event and year, maintaining raw CFP history and merging committee members and topics.
+* **Semantic Vector Topic Filtering**: High-dimensional semantic embeddings with interactive similarity threshold filtering against the OpenAlex topic taxonomy.
+* **Academic Integrity Auditing**: Real-time screening of researcher bibliographies against **Retraction Watch** (paper-level and ORCID verification) and **PubPeer** community review discussions.
+* **Multi-Sheet Formatted Excel Export**: Downloads structured `.xlsx` workbooks containing conference summaries, audited organisers, topics, and tracks.
+* **Comprehensive Analytics Dashboard**: Macro-level database statistics, yearly distributions, series rankings, country demographics, and linked open data coverage.
+
+---
+
+## Key Data Extracted
+
+### Conference Metadata
+- **`event_name`**: Full official title of the conference or workshop.
+- **`conference_series`**: Recurring series name, normalized without edition or year.
+- **`event_acronym`**: Official acronym (e.g., "ISWC", "K-CAP").
+- **`colocated_with`**: Parent or co-located conference details.
+- **`year`**: Scheduled calendar year.
+- **`location`**: Host city and country.
+- **`topics`**: List of scientific areas and research topics extracted from the CFP.
+- **`enhanced_topics`**: Semantic OpenAlex topics mapped with cosine similarity scores.
 
 ### Organiser Details
-
-Within the `organisers` array, the tool provides a rich set of information for each individual:
-
-- **`organiser_name`**: The full name of the organiser.
-- **`organiser_affiliation`**: The academic institution or company the organiser is affiliated with. Verified affiliations are marked with a star (✪).
-- **`organiser_country`**: The country of the organiser's affiliation, if available.
-- **`track_name`**: The specific track or area of the conference the organiser is involved in. For single-track events, the default value is 'main'.
-
-### Integration and Data Mapping
-
-To further enrich the extracted information, the **{st.session_state['config']['APP']['app_name']}** integrates with several well-known academic databases.
-
-- **OpenAlex**: Organiser names are mapped to OpenAlex, a global, open index of scholarly literature and researchers. This allows the tool to identify additional identifiers like **ORCIDs** and **RORs** (Research Organisation Registry identifiers) for institutions.
-- **DBLP, AIDA Dashboard, and Conference ConfIDent**: Conference details are mapped to these databases to provide a comprehensive view of the event's history and relevance within the scientific community.
+Each individual in the committee is structured with:
+- **`organiser_name`**: Full name of the committee member.
+- **`organiser_affiliation`**: Stated academic institution or industry organisation. Verified affiliations cross-referenced with publication history are marked with a verification badge (✪).
+- **`organiser_country`**: Canonical, full-form country name (standardized via `country_converter`, e.g., "United States", "United Kingdom", "Netherlands").
+- **`track_name`**: Specific conference track or committee role (e.g., "General Chair", "Research Track", "Workshop Chair").
+- **`affiliation_ror`**: Research Organization Registry (ROR) persistent identifier.
+- **`openalex_page` / `openalex_name`**: Matched OpenAlex author profile identifier and display name.
+- **`orcid`**: Verified ORCID identifier.
 
 ---
 
-### Storage Engines and Schema
+## Integrations and Knowledge Mapping
 
-The application supports three storage configurations, defined in the configuration file (`config.ini`):
-- **File Storage**: Saves parsed conference data as JSON files under the `processed_cfps/` directory.
-- **MongoDB Storage**: Persists raw and processed JSON data in a MongoDB instance.
-- **Hybrid Storage (both)**: Saves data to both the local file storage and MongoDB simultaneously.
+### OpenAlex Profile Matching & Verification
+Organisers are cross-referenced against OpenAlex to identify global scholarly records:
+1. **Quality Check**: Rejects homogeneous or default affiliations to prevent false positive matches.
+2. **Institutional & Name Search**: Queries authors by institution first; falls back to Levenshtein fuzzy matching on alternative author names and publication counts.
+3. **Affiliation Verification**: Validates stated affiliations against recent publication records. Verified matches are assigned a `verified: true` flag (✪).
+4. **Identifier Extraction**: Enriches profiles with ROR and ORCID persistent URIs.
 
-When using MongoDB, the system creates two collections:
-1. **`events`**: Stores the complete raw LLM output, structured processed conference data, a list of processed file stems (`filenames`), and a parallel list of raw Call for Papers texts (`cfps`). Each document is keyed by a progressive integer ID (`_id` / `index`).
-2. **`events_index`**: Maps each progressive `index` to the `event_name`, `conference_series`, and `year`. This enables extremely fast lookup to determine if a conference has already been parsed.
+### Semantic Topic Modeling & FAISS Indexing
+Extracted scientific topics are standardized to avoid keyword fragmentation:
+1. Topics are transformed into dense vector embeddings using `SentenceTransformer`.
+2. High-dimensional vector search queries a local **FAISS index** containing standardized OpenAlex research topics.
+3. An interactive **Similarity Threshold** slider in the UI enables real-time filtering with instant persistence to database records.
 
----
+### External Registries (DBLP, AIDA, ConfIDent)
+Conferences are matched against persistent external academic indexes:
+* **DBLP Computer Science Bibliography**: Links to official proceedings and historic publication volumes.
+* **AIDA Dashboard**: Provides industry-academia collaborative metrics.
+* **Conference ConfIDent**: Provides persistent event IDs and registry verification.
 
-### Database Merging Logic
-
-When a Call for Papers for an event and year that already exists in the database is processed:
-- **Parallel CFP Storage**: Instead of overwriting or discarding, the new file stem is added to the `filenames` array, and the raw CFP text is appended to the `cfps` array, allowing the database to maintain a history of multiple parsed CFPs for the same conference.
-- **Metadata Merging**:
-  - **Organisers**: Compares incoming organisers with existing ones. If a match is found (by comparing ORCID, OpenAlex page, or case-insensitive name), the fields are merged (enriching missing attributes and preserving `verified` status). If no match is found, the new organiser is appended.
-  - **Topics & Enhanced Topics**: Merges the lists of extracted topics (case-insensitively deduplicated). For semantic OpenAlex topics, matches are merged, keeping the match with the higher similarity score.
-  - **General Fields**: Merges DBLP, AIDA, and ConfIDent metadata dictionaries, preserving existing values and adding any new ones.
-
----
-
-### Organiser Matching Process
-
-The tool employs a sophisticated multi-stage process to match extracted organisers with their OpenAlex profiles:
-
-1. **Quality Check**: First, the system evaluates the provided affiliations for diversity. If they appear too homogeneous (suggesting a default value), they are discarded to force a broader search.
-2. **Profile Search**:
-    - **Affiliation-Based**: The system attempts to locate the author within their specific institution in OpenAlex.
-    - **Name-Based Fallback**: If the affiliation search fails, it searches by name, using publication count and name similarity to identify the most likely candidate.
-3. **Verification and Enrichment**:
-    - **Verification**: If an affiliation was provided, it is cross-referenced with the author's publication history. Validated matches are marked with a star (✪).
-    - **Inference**: If no affiliation was provided, the system infers the most likely current affiliation based on recent publication history.
-    - **ID Extraction**: Finally, ORCID and ROR (Research Organization Registry) identifiers are retrieved.
-
-Here is the flowchart:
-
-
-<img src="pages/flowchart.png" alt="Flowchart for matching organisers" width="500">
+### Research Integrity Auditing (RetractionWatch & PubPeer)
+COCI incorporates built-in scientific integrity auditing:
+* **Cursor-Based Publication Fetch**: Downloads a researcher's complete bibliography from OpenAlex.
+* **RetractionWatch Audits**: Scans publication DOIs and queries the Crossref update API (`update-type:retraction`), verified strictly at the individual paper (DOI) and author ORCID level to eliminate false positives.
+* **PubPeer Discussion Checks**: Queries the PubPeer API in batch requests, providing direct links to post-publication peer review comments and discussion threads.
+* **In-Event Committee Screening**: The **Audit Organisers** button screens all committee members in an event, displaying a visual `RW-PB` status summary (`✅` passed, `⚠️` retraction found, `💬` comments found) with deep-links to full researcher audit profiles.
 
 ---
 
-### Application Portal Modules
+## Storage Engines and Schema
 
-The application is structured as a multi-page Streamlit portal, offering the following specialised tools:
-- **Add Events**: Upload plain `.txt` files containing Call for Papers. Run execution in **Cached** (loads from cache), **Mild Force** (reuses LLM output but runs new database matches/mappings), or **Force** (runs entire pipeline from scratch) mode.
-- **Explore Events**: Fuzzy search across processed events' names, acronyms, series, and topics. Includes a strict **60% similarity filter** and lightbulb highlights for topic matches.
-- **Search Organiser**: Compiles and searches unique organiser records across all stored conferences. Shows verified affiliations, ORCIDs, and lists of conferences they have organised.
-- **Audit Researcher**: Verifies publication integrity by fetching OpenAlex profiles, downloading histories via cursor pagination, and checking DOIs against **Retraction Watch** (OpenAlex & Crossref update API) and **PubPeer** (batch POST discussion API).
+### Dual/Hybrid Storage Architecture
+Configured via `config.ini` (`type = file | mongodb | both`):
+- **File Storage**: Saves individual conference JSON files under `processed_cfps/`.
+- **MongoDB Storage**: Persists data across two collections:
+  1. **`events`**: Contains the full document: progressive integer index (`_id`), array of source file stems (`filenames`), parallel array of raw CFP texts (`cfps`), raw `llm-output`, enriched `processed` schema, and ISO timestamps.
+  2. **`events_index`**: High-speed index tracking `index`, `event_name`, `conference_series`, and `year` with compound unique constraints.
+- **Hybrid Storage**: Concurrently writes to both local JSON files and MongoDB.
+
+### Intelligent Metadata Merging Logic
+When a Call for Papers for an already existing conference and year is processed:
+- **Parallel CFP History**: The new file stem is added to `filenames` and the raw text is appended to `cfps`, preserving provenance across multiple call updates or track cycles.
+- **Committee Deduplication**: Organisers are matched by ORCID, OpenAlex page, or normalized name. Existing records are enriched with missing fields and verified statuses are preserved.
+- **Topic Consolidation**: Merges topic keyword lists and retains the higher similarity score for mapped semantic OpenAlex topics.
+- **Registry Links**: Merges external links without overwriting existing mappings.
 
 ---
 
-### Rebranding COCI
-_(note from 10 Feb 2026)_
+## Organiser Matching Process
 
-By simply changing "Organising Committee" to "Organisers and Content", we have shifted the focus from a narrow group of people to a broader spectrum of information without losing the brand equity of COCI.
+```
+                      +-----------------------------+
+                      |   Extracted Organiser from  |
+                      |     Call for Papers text    |
+                      +--------------+--------------+
+                                     |
+                                     v
+                      +-----------------------------+
+                      |  Affiliation Diversity Check|
+                      +--------------+--------------+
+                                     |
+                  +------------------+------------------+
+                  |                                     |
+     (Has Valid Affiliation)               (No / Low-Quality Affiliation)
+                  |                                     |
+                  v                                     v
+   +------------------------------+     +-------------------------------+
+   |   Search OpenAlex Authors    |     |    Search OpenAlex Authors    |
+   |    filtered by Institution   |     |         by Name Only          |
+   +--------------+---------------+     +---------------+---------------+
+                  |                                     |
+          (Match Found?)                        (Multiple Matches?)
+           /          \                                 |
+        (Yes)         (No)                              v
+         /              \               +-------------------------------+
+        v                v              |  Fuzzy Match Alternative Names|
++---------------+  +------------+       |   Ranked by Publication Count |
+| Verify Recent |  | Fallback to|       +---------------+---------------+
+| Publications  |  | Name Search|                       |
++-------+-------+  +-----+------+                       |
+        |                |                              |
+        +----------------+------------------------------+
+                                 |
+                                 v
+                 +-------------------------------+
+                 |  Enrich ORCID, ROR, OpenAlex  |
+                 |   Canonical Country Full Form |
+                 +-------------------------------+
+```
 
+A detailed graphical flowchart is available at [`assets/images/flowchart.png`](assets/images/flowchart.png).
 
- ### How to use it
+---
 
- Create a virtual environment using python 3.13 (it has been tested only with this version). In a terminal, please run the following command:
+## Application Portal Modules
 
-```python -m venv /path/to/new/virtual/environment```
+COCI is organized into 5 primary interactive modules accessible via the Hub landing page and sidebar:
 
-Otherwise, refer to the [Python documentation](https://docs.python.org/3/library/venv.html) on how to create a virtual environment.
+1. **Add Events**: Upload plain `.txt` Call for Papers files. Select **Cached**, **Mild Force**, or **Force** execution modes. Features a tabbed display for structured results and an interactive **Read Call for Papers** viewer with an in-place **🔄 Rerun Process** popover.
+2. **Explore Events**: Fuzzy search stored events by title, acronym, series, or research topics. Enforces a strict **60% relevance match filter**, highlights matched topics with lightbulb badges, and includes an *"I'm feeling lucky"* quick browser.
+3. **Search Organiser**: Aggregates unique organisers database-wide. Features dual-tab profiles displaying an organiser's historical conferences and an on-demand **Researcher Audit**.
+4. **Audit Researcher**: Dedicated research integrity tool. Queries OpenAlex author profiles, downloads complete publication bibliographies, and conducts automated **RetractionWatch** and **PubPeer** checks. Supports direct URL deep-linking (`?author_id=...`).
+5. **Database Statistics**: Macro-analytics dashboard displaying total conferences, unique scholars, distribution of events per year, top series, country demographics, and external dataset matching coverage (**DBLP**, **AIDA**, **ConfIDent**).
 
-Activate the new environment:
+---
 
-```$ source /path/to/new/virtual/environment/bin/activate```
+## Database Management CLI Utilities
 
-Install requirement (from the repository):
+A complete suite of database maintenance tools is provided in `service/db_utilities/`:
 
-```$ pip install -r /path/to/requirements.txt```
+* **Export Database**:
+  ```bash
+  python service/db_utilities/export_mongodb.py --output coci_backup.json.gz
+  ```
+* **Import Database**:
+  ```bash
+  python service/db_utilities/import_mongodb.py coci_backup.json.gz --drop --force
+  ```
+* **Batch Import Processed CFPs Folder**:
+  ```bash
+  python service/db_utilities/import_processed_cfps.py --folder service/processed_cfps
+  ```
+* **Batch Country Standardization**:
+  Standardizes country names across all database records to full canonical form with automated pre-run backup:
+  ```bash
+  # Preview transformations safely
+  python service/db_utilities/standardize_countries.py --dry-run
 
-And finally, within a python shell, run the code via Streamlit:
+  # Apply standardization to MongoDB and local JSON files
+  python service/db_utilities/standardize_countries.py --folder service/processed_cfps
+  ```
 
-```streamlit run COCI.py```
+---
 
-or
+## Getting Started
 
-```python test_script.py cfps/iswc2025.txt```
+### Prerequisites
+* Python 3.12 or 3.13
+* MongoDB instance (optional, required for MongoDB/hybrid storage modes):
+  ```bash
+  brew services start mongodb-community
+  ```
 
-#### Configuration (`config.ini`)
+### Installation
 
-To configure database storage or API keys, create a `config.ini` file in the root directory (you can use `config_sample.ini` as a template). The storage type can be configured as follows:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/angelosalatino/oc-conf-detection.git
+   cd oc-conf-detection
+   ```
 
+2. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Install required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Configuration (`config.ini`)
+Copy `config_sample.ini` to `config.ini` in the root directory:
+```bash
+cp config_sample.ini config.ini
+```
+
+Configure your API keys and storage parameters:
 ```ini
+[DEFAULT]
+api_url = https://openrouter.ai/api/v1
+api_key = YOUR_OPENROUTER_OR_OPENAI_KEY
+model = openai/gpt-4o
+
+[OPENALEX]
+openalex_api = YOUR_OPENALEX_API_KEY
+
+[APP]
+app_name = Conference Organisers and Content Identifier
+app_acronym = COCI
+
+[FOLDERS]
+destination_folder = processed_cfps
+
+[TEAM]
+email = your.email@example.ac.uk
+website = https://your-lab-website.org
+description = Your Research Group
+
 [STORAGE]
-# Allowed values: file, mongodb, both
+# Options: file, mongodb, both
 type = both
 
 [MONGODB]
@@ -149,10 +276,19 @@ uri = mongodb://localhost:27017/
 db_name = coci
 ```
 
-
-### Prompt
-
+### Running the Application
+Launch the Streamlit portal:
+```bash
+streamlit run COCI.py
 ```
+
+---
+
+## LLM Extraction Prompt
+
+Below is the core system prompt utilized by the orchestrator to extract structured entities from Call for Papers texts:
+
+```text
 In this prompt, you will receive a Call for Papers of a scientific event. Your task is to parse it, and identify some crucial elements.
 
 You must be exhaustive when extracting people. Extract **ALL** organisers, chairs, committee members, and track chairs listed in the text. Do not leave anyone out.
@@ -176,3 +312,13 @@ Extract:
 {cfp.text}
 </call_for_papers>
 ```
+
+
+---
+
+## The Team & Acknowledgements
+
+Developed by the **[Knowledge Media Institute (KMi)](https://kmi.open.ac.uk/)** of **The Open University** in collaboration with **Springer Nature**.
+
+For inquiries or contributions, please contact:
+* **Angelo Salatino** — `angelo.salatino@open.ac.uk`
