@@ -17,6 +17,19 @@ class OpenAlexWrapper:
         
         pyalex.config.api_key = openalex_api
 
+    @staticmethod
+    def standardize_country(country_val) -> str:
+        if not country_val or not str(country_val).strip():
+            return ""
+        val = str(country_val).strip()
+        try:
+            converted = coco.convert(names=val, to='name_short', not_found=None)
+            if converted and str(converted).strip() and str(converted).lower() != "not found":
+                return str(converted).strip()
+        except Exception:
+            pass
+        return val
+
     def enrich_organisers(self, organisers: list, year: str) -> list:
         if year is None: 
             year_int = 2026
@@ -134,10 +147,9 @@ class OpenAlexWrapper:
                             organiser["organiser_affiliation"] = most_appropriate_affiliation["institution"]["display_name"]
                             organiser["affiliation_ror"] = most_appropriate_affiliation["institution"].get("ror", "")
                             organiser["affiliation_provenance"] = "OA"
-                            try:
-                                organiser["organiser_country"] = coco.convert(names=[most_appropriate_affiliation["institution"]["country_code"]], to='name_short') 
-                            except:
-                                organiser["organiser_country"] = ""
+                            oa_country_code = most_appropriate_affiliation["institution"].get("country_code", "")
+                            if oa_country_code:
+                                organiser["organiser_country"] = self.standardize_country(oa_country_code)
                 
                 # Case B: Affiliation exists (from LLM)
                 elif len(organiser.get("organiser_affiliation", "")) > 0: 
@@ -158,6 +170,13 @@ class OpenAlexWrapper:
                             organiser_institution_from_OA = affiliations[final_position]["institution"]
                             organiser["affiliation_ror"] = organiser_institution_from_OA.get("ror", "")
                             organiser["verified"] = True
+                            oa_country_code = organiser_institution_from_OA.get("country_code", "")
+                            if oa_country_code:
+                                organiser["organiser_country"] = self.standardize_country(oa_country_code)
+
+            # Ensure any organiser country (from OpenAlex or LLM) is standardized to full form
+            if organiser.get("organiser_country"):
+                organiser["organiser_country"] = self.standardize_country(organiser["organiser_country"])
                     
         if self.debug: print("---------FINISHED ORGANISERS----------------")
         return organisers

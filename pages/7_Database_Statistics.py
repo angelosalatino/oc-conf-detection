@@ -149,11 +149,23 @@ for doc in raw_events:
         if is_verified:
             verified_orgs_count += 1
             
+        # Country
+        country = str(org.get("organiser_country", "")).strip()
+        if country and country.lower() not in ["none", "nan"]:
+            try:
+                import country_converter as coco
+                std = coco.convert(names=country, to='name_short', not_found=None)
+                if std and str(std).strip() and str(std).lower() != "not found":
+                    country = str(std).strip()
+            except Exception:
+                pass
+            country_counter[country] += 1
+
         key = orcid or openalex or name.lower()
         if key not in organisers_dict:
             organisers_dict[key] = {
                 "name": name,
-                "country": str(org.get("organiser_country", "")).strip(),
+                "country": country,
                 "affiliation": str(org.get("organiser_affiliation", "")).strip(),
                 "orcid": orcid,
                 "openalex": openalex,
@@ -162,13 +174,10 @@ for doc in raw_events:
             }
         else:
             organisers_dict[key]["events_count"] += 1
+            if country and not organisers_dict[key]["country"]:
+                organisers_dict[key]["country"] = country
             if is_verified:
                 organisers_dict[key]["verified"] = True
-                
-        # Country
-        country = str(org.get("organiser_country", "")).strip()
-        if country:
-            country_counter[country] += 1
             
         # Affiliation
         aff = str(org.get("organiser_affiliation", "")).strip()

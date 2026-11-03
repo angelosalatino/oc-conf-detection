@@ -147,6 +147,20 @@ class ConferenceVisualiser(CoreVisualiser):
                                             "openalex_name": "OpenAlex Name"
                                             })
         
+        if "Country" in organisers_df.columns:
+            try:
+                import country_converter as coco
+                def standardize_country_val(c):
+                    if pd.notnull(c) and str(c).strip() and str(c).strip().lower() not in ["none", "nan"]:
+                        std = coco.convert(names=str(c).strip(), to='name_short', not_found=None)
+                        if std and str(std).strip() and str(std).lower() != "not found":
+                            return str(std).strip()
+                        return str(c).strip()
+                    return ""
+                organisers_df["Country"] = organisers_df["Country"].apply(standardize_country_val)
+            except Exception:
+                pass
+        
         def check_series(x):
             for i in x:
                 if isinstance(i, bool) and i is True:
