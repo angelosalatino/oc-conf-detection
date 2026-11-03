@@ -53,14 +53,15 @@ st.markdown("### Table of Contents")
 st.markdown(
     """
     * [1. Processing Modes](#processing-modes)
-    * [2. Key Data Extracted](#key-data-extracted)
+    * [2. Key Data Extracted & External Indexes](#key-data-extracted)
     * [3. Topic Extraction and FAISS Matching](#topic-extraction-and-faiss-matching)
     * [4. Organiser Matching and Verification](#organiser-matching-and-verification)
-    * [5. Database Storage and Parallel Call for Papers](#database-storage-and-parallel-call-for-papers)
-    * [6. Search and Exploration Pipelines](#search-and-exploration-pipelines)
+    * [5. Database Storage, Merging, and Reprocessing](#database-storage-and-parallel-call-for-papers)
+    * [6. Search, Exploration, and Export Pipelines](#search-and-exploration-pipelines)
     * [7. Researcher Auditing Integrations](#researcher-auditing-integrations)
-    * [8. Rebranding COCI](#rebranding-coci)
-    * [9. The Team](#the-team)
+    * [8. Database Statistics and Insights](#database-statistics-and-insights)
+    * [9. Rebranding COCI](#rebranding-coci)
+    * [10. The Team](#the-team)
     """,
     unsafe_allow_html=True
 )
@@ -79,16 +80,18 @@ st.markdown(
 st.write("")
 
 # Section 2
-st.subheader("2. Key Data Extracted", anchor="key-data-extracted")
+st.subheader("2. Key Data Extracted & External Indexes", anchor="key-data-extracted")
 st.markdown(
-    "The system extracts the following structured elements from Call for Papers texts:\n\n"
+    "The system extracts the following structured elements from Call for Papers texts and links them to authoritative academic registries:\n\n"
     "* **Event Name**: Full title of the conference or workshop.\n"
     "* **Conference Series**: Normalised name of the recurring conference series.\n"
     "* **Event Acronym**: The official acronym for the event.\n"
     "* **Colocated With**: Details of any co-hosted or parent conferences.\n"
     "* **Year**: Calendar year of the conference.\n"
     "* **Location**: Scheduled city and country.\n"
-    "* **Organisers**: Structured list of organising committee members, including their affiliations, countries, and roles/tracks."
+    "* **Topics of Interest**: Research areas and call topics extracted from the text.\n"
+    "* **Organisers**: Structured list of organising committee members, including their affiliations, countries, and roles/tracks.\n"
+    "* **External Conference Indexes**: Automatically matches events against **DBLP**, the **AIDA Dashboard**, and **Conference ConfIDent** to provide historical context and persistent external identifiers."
 )
 
 st.write("")
@@ -118,22 +121,24 @@ st.markdown(
 st.write("")
 
 # Section 5
-st.subheader("5. Database Storage and Parallel Call for Papers", anchor="database-storage-and-parallel-call-for-papers")
+st.subheader("5. Database Storage, Merging, and Reprocessing", anchor="database-storage-and-parallel-call-for-papers")
 st.markdown(
-    "All processed events are stored in a MongoDB collection. To capture the full context of a conference:\n\n"
-    "* **Parallel Arrays**: Stored documents save the raw Call for Papers texts in a parallel `cfps` array synchronised 1-to-1 with file names.\n"
-    "* **Multiple CFPs**: If a conference has multiple Calls for Papers associated with it (e.g. from different tracks or update cycles), the second text is added to the MongoDB list, preserving all sources for search and reading."
+    "The system supports flexible storage configurations (`file`, `mongodb`, or `both`) and preserves full provenance across multiple updates:\n\n"
+    "* **Parallel Arrays**: Stored MongoDB documents save raw Call for Papers texts in a parallel `cfps` array synchronised 1-to-1 with source file stems (`filenames`).\n"
+    "* **Intelligent Metadata Merging**: When multiple Calls for Papers for the same conference and year are processed (e.g. from different tracks or update cycles), the system automatically deduplicates and merges organisers (preserving verified status and enriching missing ORCID/OpenAlex IDs), combines topic lists (retaining highest semantic similarity scores), and merges external dataset links.\n"
+    "* **Provenance & In-Place Reprocessing**: Every record tracks `created_at` and `processed_at` timestamps. Users can trigger an in-place **Rerun Process** (**Mild Force** or **Force**) directly from an event's **Read Call for Papers** tab, or upload/paste a missing CFP text for legacy records."
 )
 
 st.write("")
 
 # Section 6
-st.subheader("6. Search and Exploration Pipelines", anchor="search-and-exploration-pipelines")
+st.subheader("6. Search, Exploration, and Export Pipelines", anchor="search-and-exploration-pipelines")
 st.markdown(
-    "The search interface supports multi-level exploration of database records:\n\n"
+    "The search interface supports multi-level exploration and structured export of database records:\n\n"
     "* **Event Search**: Matches user queries against event names, acronyms, series, and standard OpenAlex topics, highlighting topic matches with lightbulb badges.\n"
     "* **Event Details & View Toggle**: When inspecting an event, the organisers dataframe defaults to a **Simplified view** (Name with OpenAlex profile link, Affiliation, Country, and Track) with an optional **Comprehensive view** toggle for full metadata.\n"
     "* **Audit Organisers**: Allows users to run an in-event bulk audit across all organisers with OpenAlex profiles, evaluating them against RetractionWatch and PubPeer with direct deep-links to full researcher profiles.\n"
+    "* **Multi-Sheet Excel Export**: Any event can be exported to a formatted `.xlsx` workbook containing sheets for *Conference Summary*, *Organisers* (including verification and audit statuses), *Topics of Interest*, and *Tracks*.\n"
     "* **Search Organiser Module**: Aggregates unique organiser records across the database using ORCIDs, OpenAlex IDs, and normalised names. Each organiser profile features dual tabs for inspecting their contributed conferences and instantly auditing their academic record.\n"
     "* **Match Constraints**: Searches enforce a strict **60% minimum similarity threshold** to filter out irrelevant results."
 )
@@ -153,7 +158,19 @@ st.markdown(
 st.write("")
 
 # Section 8
-st.subheader("8. Rebranding COCI", anchor="rebranding-coci")
+st.subheader("8. Database Statistics and Insights", anchor="database-statistics-and-insights")
+st.markdown(
+    "The **Database Statistics** module provides macro-level analytics across the entire COCI knowledge base:\n\n"
+    "* **Key Performance Metrics**: Tracks total indexed conferences, unique scholars, recurring conference series, and total committee/track roles assigned.\n"
+    "* **Temporal & Series Distributions**: Visualises conference counts per year and highlights the most frequently indexed conference series.\n"
+    "* **Organiser Demographics**: Ranks the most active conference organisers (with verification indicators) and charts the geographic distribution of organiser affiliations by country.\n"
+    "* **Topic & Linked Open Data Coverage**: Summarises the most common tracks/topics and reports matching coverage percentages across **DBLP**, **AIDA Dashboard**, and **ConfIDent**."
+)
+
+st.write("")
+
+# Section 9
+st.subheader("9. Rebranding COCI", anchor="rebranding-coci")
 st.markdown(
     "By shifting the definition of the acronym COCI from \"Conference Organising Committee Identifier\" to "
     "**\"Conference Organisers and Content Identifier\"**, the focus has been broadened from identifying committee members "
@@ -162,8 +179,8 @@ st.markdown(
 
 st.write("")
 
-# Section 9
-st.subheader("9. The Team", anchor="the-team")
+# Section 10
+st.subheader("10. The Team", anchor="the-team")
 st.markdown(
     f"This portal is developed by the **Knowledge Media Institute** of the **Open University** in collaboration with **Springer Nature**.\n\n"
     f"For questions or info, contact **Angelo Salatino** (angelo.salatino at open.ac.uk)."

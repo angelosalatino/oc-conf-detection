@@ -57,6 +57,7 @@ st.markdown(
     * [3. Explore Events](#explore-events)
     * [4. Search Organiser](#search-organiser)
     * [5. Audit Researcher](#audit-researcher)
+    * [6. Database Statistics](#database-statistics)
     """,
     unsafe_allow_html=True
 )
@@ -67,7 +68,7 @@ st.divider()
 st.subheader("1. Getting Started: The Hub Landing Page", anchor="getting-started-the-hub-landing-page")
 st.markdown(
     f"When you launch the {config['APP']['app_acronym']} application, you are presented with a central landing page. "
-    f"This page displays navigation cards pointing to the four primary features of the platform. "
+    f"This page displays navigation cards pointing to the five primary features of the platform. "
     f"You can click on any card to navigate directly to that section. "
     f"Alternatively, you can navigate using the left sidebar. "
     f"To ensure a clean workspace, switching pages will automatically clear active search queries and selection states from other tools."
@@ -85,7 +86,9 @@ st.markdown(
     "   * *Cached*: Retrieves previous results from the database if this exact file name has been processed before.\n"
     "   * *Mild Force*: Reuses the extracted metadata from LLM output but reruns local database matching and mapping logic.\n"
     "   * *Force*: Reprocesses the entire text file from scratch through the LLM orchestrator.\n"
-    "4. **Analyse Results**: Click **Add Event**. Once completed, check the **Results** tab for structured conference details, organised tracks, topics, and matched organisers. Use the **Read Call for Papers** tab to view the formatted original text."
+    "4. **Analyse Results & Tune Topics**: Click **Add Event**. Once completed, check the **Results** tab for structured conference details, external index links (**DBLP**, **AIDA Dashboard**, **ConfIDent**), organised tracks, and matched organisers. Under **Topics of Interest**, use the **Similarity Threshold** slider to dynamically filter mapped OpenAlex topics and click **Save this setting!** to persist your preferred threshold.\n"
+    "5. **Export to Excel**: Click **Download data as Excel** at the bottom of the **Results** tab to export a formatted `.xlsx` workbook containing sheets for *Conference Summary*, *Organisers*, *Topics of Interest*, and *Tracks*.\n"
+    "6. **Read Call for Papers & Rerun in Place**: Switch to the **Read Call for Papers** tab to view the formatted original text, processing timestamp, and source file name, or click **🔄 Rerun Process** to re-execute the pipeline in **Mild Force** or **Force** mode."
 )
 
 st.write("")
@@ -100,7 +103,8 @@ st.markdown(
     "4. **Quick Browse**: Click the **I'm feeling lucky** button to quickly display the last 10 conferences added to the system.\n"
     "5. **Add Event Call-to-Action**: If you cannot find the conference you are looking for, a dedicated **+ Add Event** button next to the search results header and in empty search states takes you directly to the **Add Events** page.\n"
     "6. **Organisers Table & Toggle View**: When inspecting an event, the organisers table defaults to a **Simplified view** (showing the organiser's hyperlinked Name, Affiliation, Country, and Track). You can switch on the **Comprehensive view** toggle to display all metadata columns (including ORCID, OpenAlex Profile, and ROR).\n"
-    "7. **Audit Organisers**: Below the table, click **Audit Organisers** to screen all committee members with OpenAlex profiles. This checks their publications against the RetractionWatch database and PubPeer post-publication peer review, displaying a summary `RW-PB` status column (`✅` clean, `⚠️` retracted paper found, `💬` PubPeer discussions, or `➖` no profile) with a direct `🔗` link to inspect individual researcher profiles."
+    "7. **Audit Organisers & Excel Export**: Below the table, click **Audit Organisers** to screen all committee members with OpenAlex profiles against the RetractionWatch database and PubPeer post-publication peer review, displaying a summary `RW-PB` status column (`✅` clean, `⚠️` retracted paper found, `💬` PubPeer discussions, or `➖` no profile) with a direct `🔗` link to inspect individual researcher profiles. Clicking **Download data as Excel** exports all event sheets, including the audit statuses if an audit has been run.\n"
+    "8. **Read Call for Papers & Rerun Process**: In the **Read Call for Papers** tab, you can inspect the processing timestamp (`🕒 Processed`) and original text, or open the **🔄 Rerun Process** popover to reprocess the event in **Mild Force** or **Force** mode. If an older record is missing its Call for Papers text, you can upload a `.txt` file or paste the CFP text directly inside the popover to process and save it."
 )
 
 st.write("")
@@ -127,6 +131,18 @@ st.markdown(
     "3. **Fetch Publications**: The tool queries OpenAlex and downloads the researcher's complete publication record using cursor pagination.\n"
     "4. **RetractionWatch Check**: Scans the publication list for retracted articles. This uses OpenAlex's retraction status and cross-checks the Crossref update API for retraction records verified at the individual paper (DOI) and ORCID level.\n"
     "5. **PubPeer Discussion Check**: Extracts DOIs from the publication list and queries the PubPeer API in batch. It displays any publications with comments, providing commenters' lists and direct links to read discussions on PubPeer."
+)
+
+st.write("")
+
+# Section 6
+st.subheader("6. Database Statistics", anchor="database-statistics")
+st.markdown(
+    "The **Database Statistics** page provides a visual overview and analytics dashboard of all conferences, organisers, topics, and external links stored in the MongoDB database.\n\n"
+    "1. **Top-Level Metrics**: View summary counters for **Total Conferences**, **Unique Organisers**, **Conference Series**, and **Total Roles Assigned** across all indexed tracks.\n"
+    "2. **Events & Series Charts**: Explore interactive bar charts showing the chronological distribution of **Events per Year** and the **Top Conference Series** in the database.\n"
+    "3. **Organiser Demographics**: Inspect the **Most Frequent Organisers** table (listing affiliations, countries, number of events organised, and verification badges) alongside the **Top Organiser Countries** chart.\n"
+    "4. **Topics & Linked Dataset Coverage**: Review the most frequent **Common Tracks & Topic Keywords**, and check the **Linked Dataset Matching Coverage** table showing the number and percentage of conferences matched to **DBLP**, **AIDA Dashboard**, and **ConfIDent**."
 )
 
 # Scroll to top button
