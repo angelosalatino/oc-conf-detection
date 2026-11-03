@@ -157,6 +157,8 @@ class ConferenceVisualiser(CoreVisualiser):
 
         final_list_columns = organisers_df.apply(lambda x: check_series(x), axis=0)
         organisers_df = organisers_df[final_list_columns[final_list_columns==True].index]
+        if not organisers_df.empty:
+            organisers_df.index = range(1, len(organisers_df) + 1)
         
         conf_info = dict()
         conf_info["Event"] = conf.name
@@ -227,32 +229,54 @@ class ConferenceVisualiser(CoreVisualiser):
         if organisers_mod.empty:
             st.write("No organisers found.")
         else:
+            country_series = (
+                organisers_mod.get("Country", pd.Series(dtype=object))
+                .dropna()
+                .astype(str)
+                .str.strip()
+            )
+            valid_countries = country_series[
+                (country_series != "") & (~country_series.str.lower().isin(["none", "nan"]))
+            ]
+            country_counts = valid_countries.value_counts()
+            sorted_countries = sorted(country_counts.items(), key=lambda x: (-x[1], x[0]))
+            country_items = [f"{c} ({cnt})" for c, cnt in sorted_countries]
+
+            num_orgs = len(organisers_mod)
+            org_label = "organiser" if num_orgs == 1 else "organisers"
+
+            if len(country_items) > 1:
+                st.markdown(f"Found {num_orgs} {org_label} from different countries: {', '.join(country_items)}")
+            elif len(country_items) == 1:
+                st.markdown(f"Found {num_orgs} {org_label} from {country_items[0]}")
+            else:
+                st.markdown(f"Found {num_orgs} {org_label}")
+
             if not comprehensive_view:
-                # Simplified view (default): Name (hyperlinked to OpenAlex Profile), Affiliation, Country, Track, [RW-PB]
+                # Simplified view (default): Name (hyperlinked to OpenAlex), Affiliation, Country, Track, [RW-PB]
                 simple_df = organisers_mod.copy(deep=True)
-                has_openalex = "OpenAlex Profile" in simple_df.columns
-                
-                # Format Name column: embed name in OpenAlex URL fragment so LinkColumn displays the person's name as a clickable link
-                if has_openalex:
-                    def make_name_link(row):
-                        name = str(row.get("Name", ""))
-                        url = row.get("OpenAlex Profile")
-                        if pd.notnull(url) and str(url).strip():
-                            clean_url = str(url).strip().rstrip("/")
-                            return f"{clean_url}#{name}"
-                        return name
-
-                    simple_df["Name"] = simple_df.apply(make_name_link, axis=1)
-
                 simple_cols = [c for c in ["Name", "Affiliation", "Country", "Track", "RW-PB"] if c in simple_df.columns]
-                df_to_show = simple_df[simple_cols]
+                df_to_show = simple_df[simple_cols].copy(deep=True)
+
+                import urllib.parse
+
+                def format_organiser_link(row):
+                    name = str(row.get("Name", "")).strip()
+                    url = row.get("OpenAlex Profile")
+                    if pd.notnull(url) and str(url).strip() and str(url).startswith("http"):
+                        clean_url = str(url).strip().rstrip("/")
+                        return f"{clean_url}#{name}"
+                    # For unmatched organisers, route safely to OpenAlex search so names display properly and never crash COCI
+                    return f"https://openalex.org/authors?search={urllib.parse.quote(name)}#{name}"
+
+                df_to_show["Name"] = simple_df.apply(format_organiser_link, axis=1)
 
                 col_cfg = {
                     "Name": st.column_config.LinkColumn(
                         "Name",
-                        help="Organiser name (links to OpenAlex Profile if matched)",
+                        help="Organiser name (links to OpenAlex profile, or OpenAlex search if unmapped)",
                         display_text=r"#(.*)"
-                    ),
+                    )
                 }
                 if "RW-PB" in df_to_show.columns:
                     col_cfg["RW-PB"] = st.column_config.LinkColumn(

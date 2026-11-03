@@ -136,7 +136,7 @@ st.subheader("6. Search, Exploration, and Export Pipelines", anchor="search-and-
 st.markdown(
     "The search interface supports multi-level exploration and structured export of database records:\n\n"
     "* **Event Search**: Matches user queries against event names, acronyms, series, and standard OpenAlex topics, highlighting topic matches with lightbulb badges.\n"
-    "* **Event Details & View Toggle**: When inspecting an event, the organisers dataframe defaults to a **Simplified view** (Name with OpenAlex profile link, Affiliation, Country, and Track) with an optional **Comprehensive view** toggle for full metadata.\n"
+    "* **Event Details & View Toggle**: When inspecting an event, the organisers dataframe defaults to a **Simplified view** (Name hyperlinked to OpenAlex if matched, Affiliation, Country, and Track) with an optional **Comprehensive view** toggle for full metadata.\n"
     "* **Audit Organisers**: Allows users to run an in-event bulk audit across all organisers with OpenAlex profiles, evaluating them against RetractionWatch and PubPeer with direct deep-links to full researcher profiles.\n"
     "* **Multi-Sheet Excel Export**: Any event can be exported to a formatted `.xlsx` workbook containing sheets for *Conference Summary*, *Organisers* (including verification and audit statuses), *Topics of Interest*, and *Tracks*.\n"
     "* **Search Organiser Module**: Aggregates unique organiser records across the database using ORCIDs, OpenAlex IDs, and normalised names. Each organiser profile features dual tabs for inspecting their contributed conferences and instantly auditing their academic record.\n"
