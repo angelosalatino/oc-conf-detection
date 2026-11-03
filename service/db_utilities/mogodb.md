@@ -62,3 +62,20 @@ Import JSON files from a folder (e.g. `processed_cfps`) discarding any duplicate
 
 Test import first without modifying database:
 ```python service/db_utilities/import_processed_cfps.py --folder processed_cfps --dry-run```
+
+## Standardize Countries
+
+Batch standardize organiser countries in MongoDB (and optionally in JSON files) to full form (e.g. `US`/`USA` -> `United States`, `UK` -> `United Kingdom`).
+Automatically creates a compressed backup before applying changes.
+
+Standardize all events in MongoDB:
+```python service/db_utilities/standardize_countries.py```
+
+Preview transformations without modifying the database:
+```python service/db_utilities/standardize_countries.py --dry-run```
+
+Standardize both MongoDB and processed JSON files:
+```python service/db_utilities/standardize_countries.py --folder processed_cfps```
+
+Standardize only local JSON files:
+```python service/db_utilities/standardize_countries.py --folder processed_cfps --files-only```
