@@ -284,12 +284,13 @@ else:
                 with st.container(border=True):
                     info_col, btn_col = st.columns([5, 1], vertical_alignment="center")
                     with info_col:
-                        st.markdown(f"#### {series} ({year}){similarity_badge}")
+                        st.markdown(f"#### {name}{similarity_badge}")
                         if series and series != name:
                             st.markdown(f"**Series**: {series}")
                         if match_reason:
                             st.markdown(f"💡 {match_reason}")
-                        st.markdown(f"**ID / Index**: {idx}")
+                        year_str = f" | **Year**: {year}" if year else ""
+                        st.markdown(f"**ID / Index**: {idx}{year_str}")
                     with btn_col:
                         if st.button("View Event", key=f"view_btn_{idx}", type="primary", use_container_width=True):
                             st.session_state['selected_event_id'] = idx
