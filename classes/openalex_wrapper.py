@@ -155,9 +155,10 @@ class OpenAlexWrapper:
                             organiser["organiser_affiliation"] = most_appropriate_affiliation["institution"]["display_name"]
                             organiser["affiliation_ror"] = most_appropriate_affiliation["institution"].get("ror", "")
                             organiser["affiliation_provenance"] = "OA"
-                            oa_country_code = most_appropriate_affiliation["institution"].get("country_code", "")
-                            if oa_country_code:
-                                organiser["organiser_country"] = self.standardize_country(oa_country_code)
+                            if not str(organiser.get("organiser_country") or "").strip():
+                                oa_country_code = most_appropriate_affiliation["institution"].get("country_code", "")
+                                if oa_country_code:
+                                    organiser["organiser_country"] = self.standardize_country(oa_country_code)
                 
                 # Case B: Affiliation exists (from LLM)
                 elif len(organiser.get("organiser_affiliation", "")) > 0: 
@@ -178,9 +179,11 @@ class OpenAlexWrapper:
                             organiser_institution_from_OA = affiliations[final_position]["institution"]
                             organiser["affiliation_ror"] = organiser_institution_from_OA.get("ror", "")
                             organiser["verified"] = True
-                            oa_country_code = organiser_institution_from_OA.get("country_code", "")
-                            if oa_country_code:
-                                organiser["organiser_country"] = self.standardize_country(oa_country_code)
+                            # Only fall back to OpenAlex country if CFP/LLM did not provide one
+                            if not str(organiser.get("organiser_country") or "").strip():
+                                oa_country_code = organiser_institution_from_OA.get("country_code", "")
+                                if oa_country_code:
+                                    organiser["organiser_country"] = self.standardize_country(oa_country_code)
 
             # Ensure any organiser country (from OpenAlex or LLM) is standardized to full form
             if organiser.get("organiser_country"):
