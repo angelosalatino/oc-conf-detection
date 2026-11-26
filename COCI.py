@@ -156,6 +156,21 @@ def main():
         .card-stats p {
             color: #2b4f6e;
         }
+
+        /* Card 6: System Status (Soft Emerald/Green) */
+        .card-status {
+            background-color: #eff8f2;
+            border: 1px solid #cde8d5;
+        }
+        .card-status:hover {
+            border-color: #227345;
+        }
+        .card-status h3 {
+            color: #1a5c37;
+        }
+        .card-status p {
+            color: #355e47;
+        }
         </style>
         """,
         unsafe_allow_html=True
@@ -227,6 +242,19 @@ def main():
               <h3>Database Statistics</h3>
               <p>
                 Explore database metrics, distribution of events per year, top series, organiser demographics, and external dataset linkages.
+              </p>
+            </a>
+            """,
+            unsafe_allow_html=True
+        )
+
+    with row3_col2:
+        st.markdown(
+            """
+            <a href="Status" target="_self" class="coci-card card-status">
+              <h3>System Status</h3>
+              <p>
+                Monitor live connectivity for MongoDB, OpenAlex, LLM API, PubPeer, and Retraction Watch, plus track remaining API quotas and credits.
               </p>
             </a>
             """,
