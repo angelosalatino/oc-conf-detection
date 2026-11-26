@@ -142,6 +142,12 @@ def get_all_organisers(mongo_uri, database_name):
     return list(organisers_map.values())
 
 
+# Support direct deep-linking via query parameters (e.g. ?organiser_key=...)
+param_org_key = st.query_params.get("organiser_key", "")
+if param_org_key and 'selected_organiser_key' not in st.session_state and 'selected_event_id' not in st.session_state:
+    st.session_state['selected_organiser_key'] = param_org_key
+
+
 # ----------------- LEVEL 1: EVENT DETAILS VIEW -----------------
 if 'selected_event_id' in st.session_state:
     selected_id = st.session_state['selected_event_id']
@@ -195,15 +201,28 @@ elif 'selected_organiser_key' in st.session_state:
     org_key = st.session_state['selected_organiser_key']
     organisers_list = get_all_organisers(uri, db_name)
     org = next((o for o in organisers_list if o["key"] == org_key), None)
+    if not org and org_key:
+        org_key_lower = str(org_key).strip().lower()
+        org = next(
+            (o for o in organisers_list
+             if (o.get("orcid") and str(o["orcid"]).strip().lower() == org_key_lower)
+             or (o.get("openalex_page") and str(o["openalex_page"]).strip().lower() == org_key_lower)
+             or (o.get("name") and str(o["name"]).strip().lower() == org_key_lower)),
+            None
+        )
     
     if not org:
         st.error("Organiser profile not found.")
         if st.button("← Back to search results"):
             del st.session_state['selected_organiser_key']
+            if "organiser_key" in st.query_params:
+                del st.query_params["organiser_key"]
             st.rerun()
     else:
         if st.button("← Back to search results", type="secondary"):
             del st.session_state['selected_organiser_key']
+            if "organiser_key" in st.query_params:
+                del st.query_params["organiser_key"]
             st.rerun()
             
         st.divider()

@@ -286,32 +286,44 @@ class ConferenceVisualiser(CoreVisualiser):
             else:
                 st.markdown(f"Found {num_orgs} {org_label}")
 
+            import urllib.parse
+
+            def format_researcher_page_link(row):
+                name = str(row.get("Name", "")).strip()
+                orcid = str(row.get("ORCID", "")).strip() if "ORCID" in row and pd.notnull(row.get("ORCID")) else ""
+                openalex = str(row.get("OpenAlex Profile", "")).strip() if "OpenAlex Profile" in row and pd.notnull(row.get("OpenAlex Profile")) else ""
+                org_key = orcid or openalex or name.lower()
+                encoded_key = urllib.parse.quote(org_key, safe="")
+                return f"Search_Organiser?organiser_key={encoded_key}#{name}"
+
+            def clean_openalex_url(val):
+                if pd.notnull(val) and str(val).strip().startswith("http"):
+                    return str(val).strip().rstrip("/")
+                return ""
+
             if not comprehensive_view:
-                # Simplified view (default): Name (hyperlinked to OpenAlex), Affiliation, Country, h-index, Track, [RW-PB]
+                # Simplified view (default): Name (links to Search_Organiser profile), Affiliation, Country, Track, OpenAlex, [h-index], [RW-PB]
                 simple_df = organisers_mod.copy(deep=True)
-                simple_cols = [c for c in ["Name", "Affiliation", "Country", "h-index", "Track", "RW-PB"] if c in simple_df.columns]
+                if "OpenAlex Profile" in simple_df.columns:
+                    simple_df["OpenAlex"] = simple_df["OpenAlex Profile"].apply(clean_openalex_url)
+
+                simple_cols = [c for c in ["Name", "Affiliation", "Country", "Track", "OpenAlex", "h-index", "RW-PB"] if c in simple_df.columns]
                 df_to_show = simple_df[simple_cols].copy(deep=True)
-
-                import urllib.parse
-
-                def format_organiser_link(row):
-                    name = str(row.get("Name", "")).strip()
-                    url = row.get("OpenAlex Profile")
-                    if pd.notnull(url) and str(url).strip() and str(url).startswith("http"):
-                        clean_url = str(url).strip().rstrip("/")
-                        return f"{clean_url}#{name}"
-                    # For unmatched organisers, route safely to OpenAlex search so names display properly and never crash COCI
-                    return f"https://openalex.org/authors?search={urllib.parse.quote(name)}#{name}"
-
-                df_to_show["Name"] = simple_df.apply(format_organiser_link, axis=1)
+                df_to_show["Name"] = simple_df.apply(format_researcher_page_link, axis=1)
 
                 col_cfg = {
                     "Name": st.column_config.LinkColumn(
                         "Name",
-                        help="Organiser name (links to OpenAlex profile, or OpenAlex search if unmapped)",
+                        help="Click to open organiser profile (organised events & researcher audit)",
                         display_text=r"#(.*)"
                     )
                 }
+                if "OpenAlex" in df_to_show.columns:
+                    col_cfg["OpenAlex"] = st.column_config.LinkColumn(
+                        "OpenAlex",
+                        help="OpenAlex author ID (links to OpenAlex profile)",
+                        display_text=r"https://openalex\.org/(.*)"
+                    )
                 if "h-index" in df_to_show.columns:
                     col_cfg["h-index"] = st.column_config.NumberColumn(
                         "h-index",
@@ -332,18 +344,28 @@ class ConferenceVisualiser(CoreVisualiser):
                 )
             else:
                 # Comprehensive view: show all available columns from the full in-memory dataframe
+                comp_df = organisers_mod.copy(deep=True)
+                comp_df["Name"] = organisers_mod.apply(format_researcher_page_link, axis=1)
+                if "OpenAlex Profile" in comp_df.columns:
+                    comp_df["OpenAlex Profile"] = comp_df["OpenAlex Profile"].apply(clean_openalex_url)
+
                 col_cfg = {
+                    "Name": st.column_config.LinkColumn(
+                        "Name",
+                        help="Click to open organiser profile (organised events & researcher audit)",
+                        display_text=r"#(.*)"
+                    ),
                     "ROR": st.column_config.LinkColumn("ROR", display_text=r"https://ror\.org/(.*)"),
                     "OpenAlex Profile": st.column_config.LinkColumn("OpenAlex Profile", display_text=r"https://openalex\.org/(.*)"),
                     "ORCID": st.column_config.LinkColumn("ORCID", display_text=r"https://orcid\.org/(.*)"),
                 }
-                if "h-index" in organisers_mod.columns:
+                if "h-index" in comp_df.columns:
                     col_cfg["h-index"] = st.column_config.NumberColumn(
                         "h-index",
                         help="Author h-index from OpenAlex",
                         format="%d"
                     )
-                if "RW-PB" in organisers_mod.columns:
+                if "RW-PB" in comp_df.columns:
                     col_cfg["RW-PB"] = st.column_config.LinkColumn(
                         "RW-PB",
                         help="RetractionWatch & PubPeer audit. Click 🔗 to open full Researcher Audit profile.",
@@ -351,7 +373,7 @@ class ConferenceVisualiser(CoreVisualiser):
                     )
 
                 st.dataframe(
-                    organisers_mod,
+                    comp_df,
                     column_config=col_cfg,
                     width=1920
                 )
