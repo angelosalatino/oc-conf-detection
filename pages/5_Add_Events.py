@@ -118,9 +118,9 @@ def main():
             # st.divider()
             btn_col1, btn_col2 = st.columns(2)
             with btn_col1:
-                submitted = st.button("Add Event", type="primary", use_container_width=True)
+                submitted = st.button("Add Event", type="primary", width="stretch")
             with btn_col2:
-                clear = st.button("Clear", type="secondary", use_container_width=True)
+                clear = st.button("Clear", type="secondary", width="stretch")
                 
         if clear:
             st.rerun()

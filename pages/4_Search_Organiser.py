@@ -257,7 +257,7 @@ elif 'selected_organiser_key' in st.session_state:
                             st.markdown(f"**Series**: {ev_series}")
                         st.markdown(f"**ID / Index**: {ev_idx}")
                     with btn_col:
-                        if st.button("View Event", key=f"org_view_ev_{ev_idx}", type="primary", use_container_width=True):
+                        if st.button("View Event", key=f"org_view_ev_{ev_idx}", type="primary", width="stretch"):
                             st.session_state['selected_event_id'] = ev_idx
                             st.rerun()
 
@@ -447,9 +447,9 @@ else:
         
         btn_col1, btn_col2 = st.columns([1, 1])
         with btn_col1:
-            search_clicked = st.button("Search", use_container_width=True, type="primary")
+            search_clicked = st.button("Search", width="stretch", type="primary")
         with btn_col2:
-            lucky_clicked = st.button("I'm feeling lucky", use_container_width=True)
+            lucky_clicked = st.button("I'm feeling lucky", width="stretch")
 
     if 'org_search_mode' not in st.session_state:
         st.session_state['org_search_mode'] = None
@@ -525,7 +525,7 @@ else:
                             st.markdown(f"🏢 **Affiliation**: {aff}{loc_info}")
                         st.markdown(f"📅 **Events Contributed**: {ev_count}")
                     with btn_col:
-                        if st.button("View Events", key=f"org_btn_{key}", type="primary", use_container_width=True):
+                        if st.button("View Events", key=f"org_btn_{key}", type="primary", width="stretch"):
                             st.session_state['selected_organiser_key'] = key
                             st.rerun()
 

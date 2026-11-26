@@ -75,7 +75,7 @@ if st.session_state['selected_openalex_author'] is None:
     col1, col2, col3 = st.columns([1, 3, 1])
     with col2:
         query_name = st.text_input("Search researcher by name", placeholder="e.g. Didier Raoult...", label_visibility="collapsed")
-        search_clicked = st.button("Search OpenAlex", use_container_width=True, type="primary")
+        search_clicked = st.button("Search OpenAlex", width="stretch", type="primary")
 
     if 'openalex_search_query' not in st.session_state:
         st.session_state['openalex_search_query'] = ''
@@ -120,7 +120,7 @@ if st.session_state['selected_openalex_author'] is None:
                             h_idx_text = str(h_idx_res) if h_idx_res is not None else "*N/A*"
                             st.markdown(f"🔗 **ORCID**: {orcid_text} | 📚 **Papers**: {works_count} | 💬 **Citations**: {cited_by} | 📈 **h-index**: {h_idx_text}")
                         with btn_col:
-                            if st.button("Select Profile", key=f"sel_author_{idx}", type="primary", use_container_width=True):
+                            if st.button("Select Profile", key=f"sel_author_{idx}", type="primary", width="stretch"):
                                 st.session_state['selected_openalex_author'] = author
                                 st.rerun()
         except Exception as e:

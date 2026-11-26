@@ -359,7 +359,7 @@ class ConferenceVisualiser(CoreVisualiser):
             # Audit Organisers action under the dataframe
             audit_btn_col, info_btn_col = st.columns([1, 4], vertical_alignment="center")
             with audit_btn_col:
-                run_audit = st.button("Audit Organisers", key=f"btn_audit_orgs_{conf_key}", type="primary", use_container_width=True)
+                run_audit = st.button("Audit Organisers", key=f"btn_audit_orgs_{conf_key}", type="primary", width="stretch")
             with info_btn_col:
                 if audit_dict is not None:
                     st.caption("ℹ️ Audit complete. **RW** (RetractionWatch: ✅ passed / ⚠️ retracted), **PB** (PubPeer: ✅ passed / 💬 comments found).")
@@ -641,7 +641,7 @@ class ConferenceVisualiser(CoreVisualiser):
                 conf.topics.match_openalex_topics(sim_threshold=new_threshold)
                 
             with col2:
-                if st.button("Save this setting!", use_container_width=True):
+                if st.button("Save this setting!", width="stretch"):
                     conf.topics.preferred_threshold = new_threshold
                     if filename and storage:
                         loaded_data = storage.load(filename)
@@ -699,7 +699,7 @@ class ConferenceVisualiser(CoreVisualiser):
         has_cfp = bool(cfp_text and cfp_text.strip())
 
         with col_btn:
-            with st.popover("🔄 Rerun Process", type="primary", use_container_width=True):
+            with st.popover("🔄 Rerun Process", type="primary", width="stretch"):
                 st.markdown("##### Rerun Event Processing")
                 st.caption("Reprocess this call for papers to update structured event metadata, organisers, and topics.")
 
@@ -717,7 +717,7 @@ class ConferenceVisualiser(CoreVisualiser):
                     help="Mild Force: Reuses LLM-extracted entities and reruns dataset & OpenAlex matching.\nForce: Reprocesses everything from scratch using LLM."
                 )
 
-                run_btn = st.button("Start Processing", type="primary", use_container_width=True)
+                run_btn = st.button("Start Processing", type="primary", width="stretch")
 
                 if run_btn:
                     # Determine active cfp text

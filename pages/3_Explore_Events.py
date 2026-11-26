@@ -134,9 +134,9 @@ else:
         
         btn_col1, btn_col2 = st.columns([1, 1])
         with btn_col1:
-            search_clicked = st.button("Search", use_container_width=True, type="primary")
+            search_clicked = st.button("Search", width="stretch", type="primary")
         with btn_col2:
-            lucky_clicked = st.button("I'm feeling lucky", use_container_width=True)
+            lucky_clicked = st.button("I'm feeling lucky", width="stretch")
 
     # Manage search states in session_state so results persist during interactions
     if 'search_mode' not in st.session_state:
@@ -292,7 +292,7 @@ else:
                         year_str = f" | **Year**: {year}" if year else ""
                         st.markdown(f"**ID / Index**: {idx}{year_str}")
                     with btn_col:
-                        if st.button("View Event", key=f"view_btn_{idx}", type="primary", use_container_width=True):
+                        if st.button("View Event", key=f"view_btn_{idx}", type="primary", width="stretch"):
                             st.session_state['selected_event_id'] = idx
                             st.rerun()
 

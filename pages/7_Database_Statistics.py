@@ -244,7 +244,7 @@ with col_orgs:
             "Events Organised": o["events_count"],
             "Verified": "✅" if o["verified"] else "⏳"
         })
-    st.dataframe(pd.DataFrame(org_table_data), use_container_width=True, hide_index=True)
+    st.dataframe(pd.DataFrame(org_table_data), width="stretch", hide_index=True)
 
 with col_geo:
     st.markdown("#### 🌍 Top Organiser Countries")
@@ -265,7 +265,7 @@ with col_topics:
     if topics_counter:
         top_topics = topics_counter.most_common(10)
         topic_df = pd.DataFrame(top_topics, columns=["Topic / Track", "Occurrences"])
-        st.dataframe(topic_df, use_container_width=True, hide_index=True)
+        st.dataframe(topic_df, width="stretch", hide_index=True)
     else:
         st.info("No topic metadata recorded.")
 
@@ -282,7 +282,7 @@ with col_links:
             f"{(external_links['ConfIDent'] / total_events * 100):.1f}%"
         ]
     })
-    st.dataframe(link_df, use_container_width=True, hide_index=True)
+    st.dataframe(link_df, width="stretch", hide_index=True)
 
 st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)
 vis.render_footer()
