@@ -124,6 +124,14 @@ class OpenAlexWrapper:
                 else:
                     if "orcid" in openalex_matched_organiser.get("ids", {}) and openalex_matched_organiser["ids"]["orcid"] is not None:
                         organiser["orcid"] = openalex_matched_organiser["ids"]["orcid"]
+
+                # Attach h-index in memory for display (stripped before saving to DB/files)
+                stats = openalex_matched_organiser.get("summary_stats")
+                h_idx = stats.get("h_index") if isinstance(stats, dict) else None
+                if h_idx is None:
+                    h_idx = openalex_matched_organiser.get("h_index")
+                if h_idx is not None:
+                    organiser["h_index"] = h_idx
                 
                 # Case A: No valid affiliation from LLM
                 if organiser.get("organiser_affiliation", "") == "": 

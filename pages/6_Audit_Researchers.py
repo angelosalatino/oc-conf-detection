@@ -115,7 +115,10 @@ if st.session_state['selected_openalex_author'] is None:
                                 loc = f" ({country})" if country else ""
                                 st.markdown(f"🏢 **Last Known Institution**: {inst_name}{loc}")
                             orcid_text = f"[{orcid}]({orcid})" if orcid else "*Not available*"
-                            st.markdown(f"🔗 **ORCID**: {orcid_text} | 📚 **Papers**: {works_count} | 💬 **Citations**: {cited_by}")
+                            stats = author.get("summary_stats")
+                            h_idx_res = stats.get("h_index") if isinstance(stats, dict) else author.get("h_index")
+                            h_idx_text = str(h_idx_res) if h_idx_res is not None else "*N/A*"
+                            st.markdown(f"🔗 **ORCID**: {orcid_text} | 📚 **Papers**: {works_count} | 💬 **Citations**: {cited_by} | 📈 **h-index**: {h_idx_text}")
                         with btn_col:
                             if st.button("Select Profile", key=f"sel_author_{idx}", type="primary", use_container_width=True):
                                 st.session_state['selected_openalex_author'] = author
@@ -162,8 +165,11 @@ else:
 
     total_profile_works = author.get("works_count", len(works))
 
+    stats = author.get("summary_stats")
+    h_index = stats.get("h_index") if isinstance(stats, dict) else author.get("h_index")
+
     # Metrics
-    col_metrics = st.columns(3)
+    col_metrics = st.columns(4)
     with col_metrics[0]:
         st.metric(
             "Total Papers",
@@ -173,6 +179,8 @@ else:
     with col_metrics[1]:
         st.metric("Total Citations", author.get("cited_by_count", 0))
     with col_metrics[2]:
+        st.metric("h-index", h_index if h_index is not None else "—", help="h-index from OpenAlex profile")
+    with col_metrics[3]:
         orcid_url = orcid if orcid.startswith("http") else f"https://orcid.org/{orcid}" if orcid else ""
         if orcid_url:
             st.markdown(f"🔗 **ORCID**: [{orcid}]({orcid_url})")

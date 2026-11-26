@@ -291,8 +291,11 @@ elif 'selected_organiser_key' in st.session_state:
                         loc_str = f" ({inst_country})" if inst_country else ""
                         st.markdown(f"🏢 **Last Known Institution**: {inst_name}{loc_str}")
                         
+                    stats = author_obj.get("summary_stats")
+                    audit_h_index = stats.get("h_index") if isinstance(stats, dict) else author_obj.get("h_index")
+
                     total_profile_works = author_obj.get("works_count", len(works))
-                    col_m1, col_m2, col_m3 = st.columns(3)
+                    col_m1, col_m2, col_m3, col_m4 = st.columns(4)
                     with col_m1:
                         st.metric(
                             "Total Papers",
@@ -302,6 +305,8 @@ elif 'selected_organiser_key' in st.session_state:
                     with col_m2:
                         st.metric("Total Citations", author_obj.get("cited_by_count", 0))
                     with col_m3:
+                        st.metric("h-index", audit_h_index if audit_h_index is not None else "—", help="h-index from OpenAlex profile")
+                    with col_m4:
                         if audit_orcid:
                             audit_orcid_url = audit_orcid if audit_orcid.startswith("http") else f"https://orcid.org/{audit_orcid}"
                             st.markdown(f"🔗 **ORCID**: [{audit_orcid}]({audit_orcid_url})")

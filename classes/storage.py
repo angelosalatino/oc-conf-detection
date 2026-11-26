@@ -3,6 +3,20 @@ import configparser
 from pathlib import Path
 import pymongo
 
+
+def _strip_transient_fields(data: dict) -> dict:
+    """Return a copy of event data without dynamic/transient fields (e.g. h_index) before persisting."""
+    if not isinstance(data, dict):
+        return data
+    cleaned = dict(data)
+    if "organisers" in cleaned and isinstance(cleaned["organisers"], list):
+        cleaned["organisers"] = [
+            {k: v for k, v in org.items() if k != "h_index"} if isinstance(org, dict) else org
+            for org in cleaned["organisers"]
+        ]
+    return cleaned
+
+
 class StorageToFile:
     def __init__(self, dest_folder: str):
         self.dest_folder = dest_folder
@@ -35,8 +49,8 @@ class StorageToFile:
         now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat()
 
         data = {
-            "llm-output": llm_output,
-            "processed": conf_dict,
+            "llm-output": _strip_transient_fields(llm_output),
+            "processed": _strip_transient_fields(conf_dict),
             "created_at": existing_created_at or now_iso,
             "processed_at": now_iso
         }
@@ -238,6 +252,9 @@ class StorageToMongo:
         import datetime
         stem = Path(filename).stem
         now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+        conf_dict = _strip_transient_fields(conf_dict)
+        llm_output = _strip_transient_fields(llm_output)
 
         # Extract event name, conference series, and year
         event_name = conf_dict.get("event_name") or llm_output.get("event_name", "")

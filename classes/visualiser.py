@@ -6,7 +6,7 @@ import os
 import html
 import requests
 import pyalex
-from pyalex import Works
+from pyalex import Authors, Works
 from .conference import Conference
 
 class CoreVisualiser:
@@ -133,7 +133,7 @@ class ConferenceVisualiser(CoreVisualiser):
         expected_columns = [
             "organiser_name", "openalex_name", "openalex_page", "orcid",
             "organiser_affiliation", "affiliation_ror", "organiser_country",
-            "track_name", "verified"
+            "h_index", "track_name", "verified"
         ]
         organisers_df = organisers_df.reindex(columns=expected_columns)
         
@@ -144,8 +144,12 @@ class ConferenceVisualiser(CoreVisualiser):
                                             "affiliation_ror": "ROR",
                                             "openalex_page": "OpenAlex Profile",
                                             "orcid": "ORCID",
-                                            "openalex_name": "OpenAlex Name"
+                                            "openalex_name": "OpenAlex Name",
+                                            "h_index": "h-index"
                                             })
+        
+        if "h-index" in organisers_df.columns:
+            organisers_df["h-index"] = pd.to_numeric(organisers_df["h-index"], errors="coerce")
         
         if "Country" in organisers_df.columns:
             try:
@@ -234,6 +238,22 @@ class ConferenceVisualiser(CoreVisualiser):
 
             organisers_mod["RW-PB"] = organisers_mod.apply(get_rwpb_value, axis=1)
 
+            # Dynamically populate h-index from live OpenAlex audit results (not persisted to DB)
+            def get_audit_h_index(row):
+                existing = row.get("h-index") if "h-index" in row else None
+                if pd.notnull(existing) and str(existing).strip() != "":
+                    return existing
+                name = str(row.get("Name", "")).strip()
+                openalex = str(row.get("OpenAlex Profile", "")).strip() if "OpenAlex Profile" in row else ""
+                entry = audit_dict.get(openalex) or audit_dict.get(name)
+                if entry and isinstance(entry, dict) and entry.get("h_index") is not None:
+                    return entry["h_index"]
+                return existing
+
+            audit_h = pd.to_numeric(organisers_mod.apply(get_audit_h_index, axis=1), errors="coerce")
+            if audit_h.notna().any():
+                organisers_mod["h-index"] = audit_h
+
         head_col, toggle_col = st.columns([4, 1], vertical_alignment="bottom")
         with head_col:
             self.add_header("Organisers")
@@ -267,9 +287,9 @@ class ConferenceVisualiser(CoreVisualiser):
                 st.markdown(f"Found {num_orgs} {org_label}")
 
             if not comprehensive_view:
-                # Simplified view (default): Name (hyperlinked to OpenAlex), Affiliation, Country, Track, [RW-PB]
+                # Simplified view (default): Name (hyperlinked to OpenAlex), Affiliation, Country, h-index, Track, [RW-PB]
                 simple_df = organisers_mod.copy(deep=True)
-                simple_cols = [c for c in ["Name", "Affiliation", "Country", "Track", "RW-PB"] if c in simple_df.columns]
+                simple_cols = [c for c in ["Name", "Affiliation", "Country", "h-index", "Track", "RW-PB"] if c in simple_df.columns]
                 df_to_show = simple_df[simple_cols].copy(deep=True)
 
                 import urllib.parse
@@ -292,6 +312,12 @@ class ConferenceVisualiser(CoreVisualiser):
                         display_text=r"#(.*)"
                     )
                 }
+                if "h-index" in df_to_show.columns:
+                    col_cfg["h-index"] = st.column_config.NumberColumn(
+                        "h-index",
+                        help="Author h-index from OpenAlex",
+                        format="%d"
+                    )
                 if "RW-PB" in df_to_show.columns:
                     col_cfg["RW-PB"] = st.column_config.LinkColumn(
                         "RW-PB",
@@ -311,6 +337,12 @@ class ConferenceVisualiser(CoreVisualiser):
                     "OpenAlex Profile": st.column_config.LinkColumn("OpenAlex Profile", display_text=r"https://openalex\.org/(.*)"),
                     "ORCID": st.column_config.LinkColumn("ORCID", display_text=r"https://orcid\.org/(.*)"),
                 }
+                if "h-index" in organisers_mod.columns:
+                    col_cfg["h-index"] = st.column_config.NumberColumn(
+                        "h-index",
+                        help="Author h-index from OpenAlex",
+                        format="%d"
+                    )
                 if "RW-PB" in organisers_mod.columns:
                     col_cfg["RW-PB"] = st.column_config.LinkColumn(
                         "RW-PB",
@@ -355,6 +387,15 @@ class ConferenceVisualiser(CoreVisualiser):
                     else:
                         author_id = openalex_url.split("/")[-1].strip()
                         try:
+                            # 0. Fetch author summary_stats (h-index)
+                            h_idx_val = None
+                            try:
+                                author_obj = Authors()[author_id]
+                                stats = author_obj.get("summary_stats")
+                                h_idx_val = stats.get("h_index") if isinstance(stats, dict) else author_obj.get("h_index")
+                            except Exception:
+                                pass
+
                             # 1. Fetch publications
                             works = []
                             pager = Works().filter(author={"id": author_id}).paginate(n_max=None)
@@ -417,7 +458,7 @@ class ConferenceVisualiser(CoreVisualiser):
                                     pass
 
                             pb_val = "💬" if has_pb else "✅"
-                            status_entry = {"rw": rw_val, "pb": pb_val}
+                            status_entry = {"rw": rw_val, "pb": pb_val, "h_index": h_idx_val}
                         except Exception:
                             status_entry = {"rw": "❓", "pb": "❓"}
 
