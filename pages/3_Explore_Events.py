@@ -27,8 +27,8 @@ def check_page_change(page_name):
     elif st.session_state['current_page'] != page_name:
         st.session_state['current_page'] = page_name
         keys_to_clear = [
-            'selected_event_id', 'selected_organiser_key', 
-            'search_mode', 'search_term', 
+            'selected_event_id', 'selected_organiser_key',
+            'search_mode', 'search_term',
             'org_search_mode', 'org_search_term',
             'selected_openalex_author', 'openalex_search_query'
         ]
@@ -78,7 +78,7 @@ except Exception as e:
 if 'selected_event_id' in st.session_state:
     selected_id = st.session_state['selected_event_id']
     event_doc = db["events"].find_one({"_id": selected_id})
-    
+
     if not event_doc:
         st.error(f"Event with ID {selected_id} not found in the database.")
         if st.button("← Back to search results"):
@@ -88,17 +88,17 @@ if 'selected_event_id' in st.session_state:
         if st.button("← Back to search results", type="secondary"):
             del st.session_state['selected_event_id']
             st.rerun()
-        
+
         st.divider()
         conf = Conference.from_dict(event_doc.get("processed", {}))
         dest_folder = config.get('FOLDERS', 'destination_folder', fallback='processed_cfps')
         storage = ConferenceStorage(dest_folder)
         filenames = event_doc.get("filenames", [])
         filename = filenames[0] if filenames else f"event_{selected_id}"
-        
+
         # Check if there is a CFP text saved
         cfps = event_doc.get("cfps", [])
-        
+
         cfp_text = ""
         if isinstance(cfps, list):
             try:
@@ -112,7 +112,7 @@ if 'selected_event_id' in st.session_state:
             cfp_text = cfps.get(filename, "")
             if not cfp_text and cfps:
                 cfp_text = next(iter(cfps.values()))
-            
+
         processed_at = event_doc.get("processed_at") or event_doc.get("created_at")
 
         tab1, tab2 = st.tabs(["**Results**", "**Read Call for Papers**"])
@@ -125,17 +125,38 @@ if 'selected_event_id' in st.session_state:
 else:
     st.markdown("<div id='top' style='height: 40px;'></div>", unsafe_allow_html=True)
     st.title("Explore Events in COCI")
-    st.markdown("Search for processed calls for papers by keyword, acronym, or series, or click **I'm feeling lucky** to display the last 10 events added.")
+    st.markdown("Search for processed calls for papers by keyword, acronym, or series, click **Show recently added** for the latest events, or **I'm feeling lucky** to discover random events.")
+
+    # Style "Show recently added" button in COCI Explore Events teal (#1e6b60)
+    st.markdown(
+        """
+        <style>
+        .st-key-btn_show_recent button {
+            background-color: #1e6b60 !important;
+            color: #ffffff !important;
+            border: 1px solid #1e6b60 !important;
+        }
+        .st-key-btn_show_recent button:hover {
+            background-color: #16534a !important;
+            border-color: #16534a !important;
+            color: #ffffff !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
     # Centered Search controls
     col1, col2, col3 = st.columns([1, 3, 1])
     with col2:
         search_query = st.text_input("Search events", placeholder="e.g. Semantic Web ...", label_visibility="collapsed")
-        
-        btn_col1, btn_col2 = st.columns([1, 1])
+
+        btn_col1, btn_col2, btn_col3 = st.columns([1, 1, 1])
         with btn_col1:
             search_clicked = st.button("Search", width="stretch", type="primary")
         with btn_col2:
+            recent_clicked = st.button("Show recently added", key="btn_show_recent", width="stretch")
+        with btn_col3:
             lucky_clicked = st.button("I'm feeling lucky", width="stretch")
 
     # Manage search states in session_state so results persist during interactions
@@ -147,16 +168,41 @@ else:
     if search_clicked:
         st.session_state['search_mode'] = 'search'
         st.session_state['search_term'] = search_query.strip()
+    elif recent_clicked:
+        st.session_state['search_mode'] = 'recent'
+        st.session_state['search_term'] = ''
     elif lucky_clicked:
         st.session_state['search_mode'] = 'lucky'
         st.session_state['search_term'] = ''
+        # Sample 10 random events on each fresh click
+        st.session_state['lucky_results'] = list(db["events_index"].aggregate([{"$sample": {"size": 10}}]))
 
     mode = st.session_state.get('search_mode')
     results = []
 
-    if mode == 'lucky':
-        results = list(db["events_index"].find().sort([("index", -1)]).limit(10))
-        st.subheader("Last 10 events added to the system")
+    if mode == 'recent':
+        recent_docs = list(db["events"].find({}, {
+            "_id": 1,
+            "index": 1,
+            "processed.event_name": 1,
+            "processed.conference_series": 1,
+            "processed.year": 1,
+            "created_at": 1,
+            "processed_at": 1
+        }).sort([("created_at", -1), ("index", -1)]).limit(10))
+        results = [
+            {
+                "index": d.get("index") or d.get("_id"),
+                "event_name": d.get("processed", {}).get("event_name", "Unknown Event"),
+                "conference_series": d.get("processed", {}).get("conference_series", ""),
+                "year": d.get("processed", {}).get("year", ""),
+            }
+            for d in recent_docs
+        ]
+        st.subheader("Most recently added events")
+    elif mode == 'lucky':
+        results = st.session_state.get('lucky_results') or list(db["events_index"].aggregate([{"$sample": {"size": 10}}]))
+        st.subheader("Random events from the database")
     elif mode == 'search':
         query = st.session_state.get('search_term', '').strip()
         if not query:
@@ -173,7 +219,7 @@ else:
                 "processed.topics": 1
             }))
             matched = []
-            
+
             for doc in all_events:
                 processed = doc.get("processed", {})
                 name = processed.get("event_name", "")
@@ -182,12 +228,12 @@ else:
                 year = processed.get("year", "")
                 topics = processed.get("topics", [])
                 idx = doc.get("index") or doc.get("_id")
-                
+
                 # Check fuzzy similarities
                 name_score = fuzz.WRatio(query.lower(), name.lower())
                 acronym_score = fuzz.WRatio(query.lower(), acronym.lower())
                 series_score = fuzz.WRatio(query.lower(), series.lower())
-                
+
                 # Check topics similarities
                 topic_score = 0
                 best_topic = ""
@@ -196,14 +242,14 @@ else:
                     if t_score > topic_score:
                         topic_score = t_score
                         best_topic = t
-                
+
                 max_score = max(name_score, acronym_score, series_score, topic_score)
-                
+
                 if max_score >= 60:  # Relevancy threshold (stricter 60% match score)
                     match_reason = ""
                     if max_score == topic_score and topic_score > 70:
                         match_reason = f"Matched topic: *'{best_topic}'*"
-                        
+
                     matched.append({
                         "index": idx,
                         "event_name": name,
@@ -213,11 +259,11 @@ else:
                         "similarity": max_score,
                         "match_reason": match_reason
                     })
-            
+
             # Sort by similarity score descending, and then by Index ID descending
             matched.sort(key=lambda x: (x.get("similarity", 0), x.get("index", 0)), reverse=True)
             results = matched
-            
+
             res_head_col, add_btn_col = st.columns([5, 4], vertical_alignment="bottom")
             with res_head_col:
                 st.subheader(f"Search results for '{query}' ({len(results)} matches)")
@@ -245,7 +291,7 @@ else:
                 )
 
     # Display list of events
-    if mode == 'lucky' or (mode == 'search' and st.session_state.get('search_term', '').strip()):
+    if mode in ('recent', 'lucky') or (mode == 'search' and st.session_state.get('search_term', '').strip()):
         if not results:
             with st.container(border=True):
                 st.info("No matching events found in the database.")
@@ -276,7 +322,7 @@ else:
                 year = doc.get("year", "")
                 series = doc.get("conference_series", "")
                 match_reason = doc.get("match_reason", "")
-                
+
                 similarity_badge = ""
                 if "similarity" in doc:
                     similarity_badge = f" :blue-badge[Match score: {doc['similarity']:.1f}%]"
