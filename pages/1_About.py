@@ -60,8 +60,9 @@ st.markdown(
     * [6. Search, Exploration, and Export Pipelines](#search-and-exploration-pipelines)
     * [7. Researcher Auditing Integrations](#researcher-auditing-integrations)
     * [8. Database Statistics and Insights](#database-statistics-and-insights)
-    * [9. Rebranding COCI](#rebranding-coci)
-    * [10. The Team](#the-team)
+    * [9. System Status & API Monitoring](#system-status-and-api-monitoring)
+    * [10. Rebranding COCI](#rebranding-coci)
+    * [11. The Team](#the-team)
     """,
     unsafe_allow_html=True
 )
@@ -115,7 +116,8 @@ st.markdown(
     "1. **Quality Check**: Discards homogeneous/default affiliations to avoid false matches.\n"
     "2. **Profile Mapping**: Attempts to map names to profiles within their stated institution. If unsuccessful, runs a name-based fallback search.\n"
     "3. **Affiliation Verification**: Cross-references stated affiliations with recent publication history. Validated matches are marked with a verification symbol (✪).\n"
-    "4. **Identifier Extraction**: Retrieves ORCID and ROR identifiers to link profiles to global registries."
+    "4. **Identifier Extraction & Country Standardisation**: Retrieves ORCID and ROR identifiers to link profiles to global registries. Organiser countries are preserved from the Call for Papers whenever available (falling back to OpenAlex only when missing) and standardised to canonical full English names via `country_converter`.\n"
+    "5. **Dynamic h-index**: Extracts each matched author's live `h-index` from OpenAlex `summary_stats` for display during processing and auditing without persisting it to the database, as bibliometric indices change over time."
 )
 
 st.write("")
@@ -136,8 +138,8 @@ st.subheader("6. Search, Exploration, and Export Pipelines", anchor="search-and-
 st.markdown(
     "The search interface supports multi-level exploration and structured export of database records:\n\n"
     "* **Event Search**: Matches user queries against event names, acronyms, series, and standard OpenAlex topics, highlighting topic matches with lightbulb badges.\n"
-    "* **Event Details & View Toggle**: When inspecting an event, a summary breakdown indicates the total count of organisers alongside their country distribution. The table displays 1-based row numbers and defaults to a **Simplified view** (Name hyperlinked to OpenAlex, Affiliation, Country, and Track) with an optional **Comprehensive view** toggle for full metadata.\n"
-    "* **Audit Organisers**: Allows users to run an in-event bulk audit across all organisers with OpenAlex profiles, evaluating them against RetractionWatch and PubPeer with direct deep-links to full researcher profiles.\n"
+    "* **Event Details & View Toggle**: When inspecting an event, a summary breakdown indicates the total count of organisers alongside their country distribution. The table displays 1-based row numbers and defaults to a **Simplified view** (organiser **Name** linked directly to their COCI profile page, Affiliation, Country, Track, a dedicated **OpenAlex** ID column linked to OpenAlex, and live **h-index** when processed or audited) with an optional **Comprehensive view** toggle for full metadata.\n"
+    "* **Audit Organisers**: Allows users to run an in-event bulk audit across all organisers with OpenAlex profiles, fetching publication DOIs and live `h-index` from OpenAlex and evaluating them against RetractionWatch and PubPeer with direct deep-links to full researcher profiles.\n"
     "* **Multi-Sheet Excel Export**: Any event can be exported to a formatted `.xlsx` workbook containing sheets for *Conference Summary*, *Organisers* (including verification and audit statuses), *Topics of Interest*, and *Tracks*.\n"
     "* **Search Organiser Module**: Aggregates unique organiser records across the database using ORCIDs, OpenAlex IDs, and normalised names. Each organiser profile features dual tabs for inspecting their contributed conferences and instantly auditing their academic record.\n"
     "* **Match Constraints**: Searches enforce a strict **60% minimum similarity threshold** to filter out irrelevant results."
@@ -149,7 +151,7 @@ st.write("")
 st.subheader("7. Researcher Auditing Integrations", anchor="researcher-auditing-integrations")
 st.markdown(
     "The portal incorporates rigorous integrity checks to audit researcher publication lists:\n\n"
-    "* **Publications Fetch**: Retrieves the complete publication list of a selected author from OpenAlex using cursor-based pagination.\n"
+    "* **Publications Fetch & Live Metrics**: Retrieves the complete publication list of a selected author from OpenAlex using cursor-based pagination, displaying live **Total Papers**, **Total Citations**, and **h-index** metrics.\n"
     "* **Retraction Watch Checks**: Cross-references publication DOIs against retraction registries. This utilises OpenAlex's retraction updates and cross-checks the Crossref API using `update-type:retraction` verified strictly at the individual paper (DOI) and ORCID level to eliminate false positives.\n"
     "* **PubPeer Checks**: Gathers DOIs and queries the PubPeer publications API via batch POST requests, displaying commenter lists and direct links to post-publication peer review discussions.\n"
     "* **Deep-Link Integration**: Supports direct URL parameter routing (`?author_id=...`), allowing seamless navigation from search and event exploration views into pre-loaded audit dashboards."
@@ -170,7 +172,17 @@ st.markdown(
 st.write("")
 
 # Section 9
-st.subheader("9. Rebranding COCI", anchor="rebranding-coci")
+st.subheader("9. System Status & API Monitoring", anchor="system-status-and-api-monitoring")
+st.markdown(
+    "The **System Status** module provides live health checks and quota visibility across COCI's infrastructure:\n\n"
+    "* **Service Connectivity**: Verifies real-time availability and response latency for **MongoDB**, **OpenAlex API**, **LLM API** (OpenRouter / OpenAI), **PubPeer API**, and **Retraction Watch (Crossref API)**.\n"
+    "* **API Quotas & Credits**: Queries OpenAlex's `/rate-limit` endpoint to show your remaining daily budget and countdown until midnight UTC reset, and queries OpenRouter's `/key` and `/credits` endpoints to monitor remaining LLM spending credits."
+)
+
+st.write("")
+
+# Section 10
+st.subheader("10. Rebranding COCI", anchor="rebranding-coci")
 st.markdown(
     "By shifting the definition of the acronym COCI from \"Conference Organising Committee Identifier\" to "
     "**\"Conference Organisers and Content Identifier\"**, the focus has been broadened from identifying committee members "
@@ -179,8 +191,8 @@ st.markdown(
 
 st.write("")
 
-# Section 10
-st.subheader("10. The Team", anchor="the-team")
+# Section 11
+st.subheader("11. The Team", anchor="the-team")
 st.markdown(
     f"This portal is developed by the **Knowledge Media Institute** of the **Open University** in collaboration with **Springer Nature**.\n\n"
     f"For questions or info, contact **Angelo Salatino** (angelo.salatino at open.ac.uk)."
