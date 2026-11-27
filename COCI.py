@@ -80,6 +80,7 @@ def main():
             font-size: 14.5px;
             line-height: 1.6;
             margin-bottom: 0;
+            text-align: center;
         }
 
         /* Card 1: Add Events (Slate Blue) */
