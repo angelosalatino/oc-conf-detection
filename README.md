@@ -48,7 +48,7 @@ By combining modern Large Language Models (LLMs), semantic vector similarity (FA
 * **Semantic Vector Topic Filtering**: High-dimensional semantic embeddings with interactive similarity threshold filtering against the OpenAlex topic taxonomy.
 * **Academic Integrity Auditing**: Real-time screening of researcher bibliographies against **Retraction Watch** (paper-level and ORCID verification) and **PubPeer** community review discussions.
 * **Multi-Sheet Formatted Excel Export**: Downloads structured `.xlsx` workbooks containing conference summaries, audited organisers, topics, and tracks.
-* **Comprehensive Analytics Dashboard**: Macro-level database statistics, yearly distributions, series rankings, country demographics, and linked open data coverage.
+* **Comprehensive Analytics & System Status**: Macro-level database statistics (yearly distributions, series rankings, country demographics, linked open data coverage) alongside a live **System Status** dashboard monitoring database/API connectivity and remaining OpenAlex daily quota & LLM credits.
 
 ---
 
@@ -68,11 +68,12 @@ By combining modern Large Language Models (LLMs), semantic vector similarity (FA
 Each individual in the committee is structured with:
 - **`organiser_name`**: Full name of the committee member.
 - **`organiser_affiliation`**: Stated academic institution or industry organisation. Verified affiliations cross-referenced with publication history are marked with a verification badge (✪).
-- **`organiser_country`**: Canonical, full-form country name (standardized via `country_converter`, e.g., "United States", "United Kingdom", "Netherlands").
+- **`organiser_country`**: Canonical, full-form country name (standardized via `country_converter`, e.g., "United States", "United Kingdom", "Netherlands"). Preserves the country extracted from the Call for Papers whenever available, falling back to OpenAlex only when missing.
 - **`track_name`**: Specific conference track or committee role (e.g., "General Chair", "Research Track", "Workshop Chair").
 - **`affiliation_ror`**: Research Organization Registry (ROR) persistent identifier.
 - **`openalex_page` / `openalex_name`**: Matched OpenAlex author profile identifier and display name.
 - **`orcid`**: Verified ORCID identifier.
+- **`h-index` *(dynamic, not persisted)***: Fetched live from OpenAlex `summary_stats` and displayed during event processing and auditing without being saved to the database.
 
 ---
 
@@ -102,7 +103,7 @@ COCI incorporates built-in scientific integrity auditing:
 * **Cursor-Based Publication Fetch**: Downloads a researcher's complete bibliography from OpenAlex.
 * **RetractionWatch Audits**: Scans publication DOIs and queries the Crossref update API (`update-type:retraction`), verified strictly at the individual paper (DOI) and author ORCID level to eliminate false positives.
 * **PubPeer Discussion Checks**: Queries the PubPeer API in batch requests, providing direct links to post-publication peer review comments and discussion threads.
-* **In-Event Committee Screening**: The **Audit Organisers** button screens all committee members in an event, displaying a visual `RW-PB` status summary (`✅` passed, `⚠️` retraction found, `💬` comments found) with deep-links to full researcher audit profiles.
+* **In-Event Committee Screening**: The **Audit Organisers** button fetches publication DOIs and live `h-index` from OpenAlex for all mapped committee members and screens them against RetractionWatch and PubPeer, displaying a visual `RW-PB` status summary (`✅` passed, `⚠️` retraction found, `💬` comments found) with deep-links to full researcher audit profiles.
 
 ---
 
@@ -173,13 +174,14 @@ A detailed graphical flowchart is available at [`assets/images/flowchart.png`](a
 
 ## Application Portal Modules
 
-COCI is organized into 5 primary interactive modules accessible via the Hub landing page and sidebar:
+COCI is organized into 6 primary interactive modules accessible via the Hub landing page and sidebar:
 
-1. **Add Events**: Upload plain `.txt` Call for Papers files. Select **Cached**, **Mild Force**, or **Force** execution modes. Features a tabbed display for structured results and an interactive **Read Call for Papers** viewer with an in-place **🔄 Rerun Process** popover.
-2. **Explore Events**: Fuzzy search stored events by title, acronym, series, or research topics. Enforces a strict **60% relevance match filter**, highlights matched topics with lightbulb badges, and includes an *"I'm feeling lucky"* quick browser.
-3. **Search Organiser**: Aggregates unique organisers database-wide. Features dual-tab profiles displaying an organiser's historical conferences and an on-demand **Researcher Audit**.
-4. **Audit Researcher**: Dedicated research integrity tool. Queries OpenAlex author profiles, downloads complete publication bibliographies, and conducts automated **RetractionWatch** and **PubPeer** checks. Supports direct URL deep-linking (`?author_id=...`).
+1. **Add Events**: Upload plain `.txt` Call for Papers files. Select **Cached**, **Mild Force**, or **Force** execution modes. Features a tabbed display for structured results (including live OpenAlex `h-index` for mapped organisers) and an interactive **Read Call for Papers** viewer with an in-place **🔄 Rerun Process** popover.
+2. **Explore Events**: Fuzzy search stored events by title, acronym, series, or research topics. Enforces a strict **60% relevance match filter**, highlights matched topics with lightbulb badges, and includes an *"I'm feeling lucky"* quick browser. In event details, organiser **Names** link directly to their COCI profile page (`Search_Organiser`), accompanied by a dedicated **OpenAlex** ID column and an **Audit Organisers** button that fetches publication DOIs and live `h-index`.
+3. **Search Organiser**: Aggregates unique organisers database-wide and supports direct deep-linking (`?organiser_key=...`). Features dual-tab profiles displaying an organiser's historical conferences and an on-demand **Researcher Audit** (with live Total Papers, Total Citations, and `h-index`).
+4. **Audit Researcher**: Dedicated research integrity tool. Queries OpenAlex author profiles (showing `h-index` on search cards and in the audit header), downloads complete publication bibliographies, and conducts automated **RetractionWatch** and **PubPeer** checks. Supports direct URL deep-linking (`?author_id=...`).
 5. **Database Statistics**: Macro-analytics dashboard displaying total conferences, unique scholars, distribution of events per year, top series, country demographics, and external dataset matching coverage (**DBLP**, **AIDA**, **ConfIDent**).
+6. **System Status**: Live monitoring dashboard reporting operational status and response latency for **MongoDB**, **OpenAlex API**, **LLM API** (OpenRouter / OpenAI), **PubPeer API**, and **Retraction Watch (Crossref API)**, along with remaining OpenAlex daily budget (with reset countdown) and OpenRouter/OpenAI API credit balances.
 
 ---
 
