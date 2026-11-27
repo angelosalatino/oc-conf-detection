@@ -384,9 +384,9 @@ class ConferenceVisualiser(CoreVisualiser):
                 run_audit = st.button("Audit Organisers", key=f"btn_audit_orgs_{conf_key}", type="primary", width="stretch")
             with info_btn_col:
                 if audit_dict is not None:
-                    st.caption("ℹ️ Audit complete. **RW** (RetractionWatch: ✅ passed / ⚠️ retracted), **PB** (PubPeer: ✅ passed / 💬 comments found).")
+                    st.caption("ℹ️ Audit complete (publication DOIs & h-index fetched from OpenAlex). **RW** (RetractionWatch: ✅ passed / ⚠️ retracted), **PB** (PubPeer: ✅ passed / 💬 comments found).")
                 else:
-                    st.caption("Audit all organisers with OpenAlex profiles against the RetractionWatch database and PubPeer post-publication peer review.")
+                    st.caption("Fetches publication DOIs (and live h-index) from OpenAlex for all mapped organisers and audits them against the RetractionWatch database and PubPeer post-publication peer review.")
 
             if run_audit:
                 results_map = {}
